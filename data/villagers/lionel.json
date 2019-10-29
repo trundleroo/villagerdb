@@ -1,0 +1,24 @@
+{
+  "gender": "male",
+  "species": "lion",
+  "birthday": "7-29",
+  "home_request": "A guest bathroom or two",
+  "skill": "Drawing circles",
+  "goal": "Professor",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Historical",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "Military Uniform",
+      "song": "K.K. Moody",
+      "phrase": "precisely"
+    }
+  },
+  "name": "Lionel",
+  "id": "lionel"
+}

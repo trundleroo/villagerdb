@@ -1,0 +1,24 @@
+{
+  "gender": "male",
+  "species": "chicken",
+  "birthday": "12-23",
+  "home_request": "A ninja hideout",
+  "skill": "Clearing their plate",
+  "goal": "Architect",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Iconic",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "Ninja Shirt",
+      "song": "Comrade K.K.",
+      "phrase": "no doubt"
+    }
+  },
+  "name": "Ken",
+  "id": "ken"
+}

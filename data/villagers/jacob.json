@@ -1,0 +1,28 @@
+{
+  "gender": "male",
+  "species": "bird",
+  "birthday": "8-24",
+  "skill": "Staying up late",
+  "goal": "Poet",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "A little bit of milk",
+    "sugar": "1 spoonful of sugar"
+  },
+  "games": {
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "green tie dye shirt",
+      "song": "K.K. Song",
+      "phrase": "Chuuuuurp"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "green tie dye shirt",
+      "song": "K.K. Song",
+      "phrase": "Chuuuuurp"
+    }
+  },
+  "name": "Jacob",
+  "id": "jacob"
+}

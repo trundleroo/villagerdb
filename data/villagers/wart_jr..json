@@ -1,0 +1,58 @@
+{
+  "gender": "male",
+  "species": "frog",
+  "birthday": "8-21",
+  "home_request": "A bonsai shrine",
+  "skill": "Writing Backward",
+  "goal": "Detective",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Historical",
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "clothes": "Static Shirt",
+      "song": "To the Edge",
+      "phrase": "grr-ribbit"
+    },
+    "af+": {
+      "personality": "cranky",
+      "song": "To the Edge",
+      "phrase": "grr-ribbit"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "Static Shirt",
+      "song": "To the Edge",
+      "phrase": "grr-ribbit"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "song": "To the Edge",
+      "phrase": "grr-ribbit"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "Sharp Outfit",
+      "song": "To the Edge",
+      "phrase": "grr-ribbit"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "Sharp Outfit",
+      "song": "To the Edge",
+      "phrase": "grr-ribbit"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Sharp Outfit",
+      "song": "To the Edge",
+      "phrase": "grr-ribbit"
+    }
+  },
+  "name": "Wart Jr.",
+  "id": "wart_jr."
+}

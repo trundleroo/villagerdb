@@ -1,0 +1,64 @@
+{
+  "gender": "male",
+  "species": "cat",
+  "birthday": "1-12",
+  "home_request": "A magician's hideaway",
+  "skill": "Fishing",
+  "goal": "CEO",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Sporty",
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "Fish Bone Shirt",
+      "song": "K.K. Ragtime",
+      "phrase": "myawn"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "Fish Bone Shirt",
+      "song": "K.K. Ragtime",
+      "phrase": "myawn"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "Fish Bone Shirt",
+      "song": "K.K. Ragtime",
+      "phrase": "myawn"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Fish Bone Shirt",
+      "song": "K.K. Ragtime",
+      "phrase": "myawn"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "BB Tee",
+      "song": "K.K. Ragtime",
+      "phrase": "myawn"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "BB Tee",
+      "song": "K.K. Ragtime",
+      "phrase": "myawn"
+    },
+    "hhd": {
+      "personality": "lazy",
+      "song": "K.K. Ragtime",
+      "phrase": "myawn"
+    },
+    "pc": {
+      "personality": "lazy",
+      "song": "K.K. Ragtime",
+      "phrase": "myawn"
+    }
+  },
+  "name": "Moe",
+  "id": "moe"
+}

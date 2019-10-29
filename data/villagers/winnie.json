@@ -1,0 +1,54 @@
+{
+  "gender": "female",
+  "species": "horse",
+  "birthday": "1-31",
+  "home_request": "A stable for horses",
+  "skill": "Tiptoeing",
+  "goal": "Volleyball player",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Modern",
+  "games": {
+    "af": {
+      "personality": "peppy",
+      "clothes": "Cow Tee",
+      "song": "My Place",
+      "phrase": "hay-OK"
+    },
+    "af+": {
+      "personality": "peppy",
+      "clothes": "Cow Tee",
+      "song": "My Place",
+      "phrase": "hay-OK"
+    },
+    "ac": {
+      "personality": "peppy",
+      "clothes": "Cow Tee",
+      "song": "My Place",
+      "phrase": "hay-OK"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Cow Tee",
+      "song": "My Place",
+      "phrase": "hay-OK"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "Cow Tee",
+      "song": "My Place",
+      "phrase": "hay-OK"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Cow Tee",
+      "song": "My Place",
+      "phrase": "hay-OK"
+    }
+  },
+  "name": "Winnie",
+  "id": "winnie"
+}

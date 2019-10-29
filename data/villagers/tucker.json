@@ -1,0 +1,36 @@
+{
+  "gender": "male",
+  "species": "elephant",
+  "birthday": "9-7",
+  "home_request": "A fresh start",
+  "skill": "Oversleeping",
+  "goal": "Archeologist",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Iconic",
+  "games": {
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Leopard Tee",
+      "song": "K.K. Safari",
+      "phrase": "fuzzers"
+    },
+    "hhd": {
+      "personality": "lazy",
+      "clothes": "Leopard Tee",
+      "song": "K.K. Safari",
+      "phrase": "fuzzers"
+    },
+    "pc": {
+      "personality": "lazy",
+      "clothes": "Leopard Tee",
+      "song": "K.K. Safari",
+      "phrase": "fuzzers"
+    }
+  },
+  "name": "Tucker",
+  "id": "tucker"
+}

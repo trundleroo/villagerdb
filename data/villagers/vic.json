@@ -1,0 +1,36 @@
+{
+  "gender": "male",
+  "species": "bull",
+  "birthday": "12-29",
+  "home_request": "A pirate's refuge",
+  "skill": "Doing push-ups",
+  "goal": "Archaeologist",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Historical",
+  "games": {
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Scale-Armor Suit",
+      "song": "Lucky K.K.",
+      "phrase": "cud"
+    },
+    "hhd": {
+      "personality": "cranky",
+      "clothes": "Scale-Armor Suit",
+      "song": "Lucky K.K.",
+      "phrase": "cud"
+    },
+    "pc": {
+      "personality": "cranky",
+      "clothes": "Scale-Armor Suit",
+      "song": "Lucky K.K.",
+      "phrase": "cud"
+    }
+  },
+  "name": "Vic",
+  "id": "vic"
+}

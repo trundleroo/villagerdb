@@ -1,0 +1,15 @@
+{
+  "gender": "male",
+  "species": "cub",
+  "birthday": "9-27",
+  "games": {
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Blue Grid Shirt",
+      "song": "K.K. Technopop",
+      "phrase": "aaa"
+    }
+  },
+  "name": "Aisle",
+  "id": "aisle"
+}

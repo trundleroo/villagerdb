@@ -1,0 +1,72 @@
+{
+  "gender": "male",
+  "species": "hippo",
+  "birthday": "8-18",
+  "home_request": "A danger-filled zone",
+  "skill": "Making puns",
+  "goal": "Boxer",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Iconic",
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "clothes": "Danger Tee",
+      "song": "K.K. Lament",
+      "phrase": "hippie"
+    },
+    "af+": {
+      "personality": "cranky",
+      "clothes": "Danger Tee",
+      "song": "K.K. Lament",
+      "phrase": "hippie"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "Danger Tee",
+      "song": "K.K. Lament",
+      "phrase": "hippie"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "Danger Tee",
+      "song": "K.K. Lament",
+      "phrase": "hippie"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "Danger Tee",
+      "song": "K.K. Lament",
+      "phrase": "hippie"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "Danger Tee",
+      "song": "K.K. Lament",
+      "phrase": "hippie"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Danger Tee",
+      "song": "K.K. Lament",
+      "phrase": "hippie"
+    },
+    "hhd": {
+      "personality": "cranky",
+      "clothes": "Danger Tee",
+      "song": "K.K. Lament",
+      "phrase": "hippie"
+    },
+    "pc": {
+      "personality": "cranky",
+      "clothes": "Danger Tee",
+      "song": "K.K. Lament",
+      "phrase": "hippie"
+    }
+  },
+  "name": "Rocco",
+  "id": "rocco"
+}

@@ -1,0 +1,48 @@
+{
+  "gender": "female",
+  "species": "wolf",
+  "birthday": "9-17",
+  "home_request": "A home bathed in white",
+  "skill": "Typing",
+  "goal": "Makeup artist",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "A little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Ornate",
+  "games": {
+    "ww": {
+      "personality": "snooty",
+      "clothes": "Floral Knit Tee",
+      "song": "Lucky K.K.",
+      "phrase": "snappy"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "Floral Knit Tee",
+      "song": "Lucky K.K.",
+      "phrase": "snappy"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Floral Knit Tee",
+      "song": "Lucky K.K.",
+      "phrase": "snappy"
+    },
+    "hhd": {
+      "personality": "snooty",
+      "clothes": "Floral Knit Tee",
+      "song": "Lucky K.K.",
+      "phrase": "snappy"
+    },
+    "pc": {
+      "personality": "snooty",
+      "clothes": "Floral Knit Tee",
+      "song": "Lucky K.K.",
+      "phrase": "snappy"
+    }
+  },
+  "name": "Whitney",
+  "id": "whitney"
+}

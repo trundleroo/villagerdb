@@ -1,0 +1,78 @@
+{
+  "gender": "male",
+  "species": "duck",
+  "birthday": "2-1",
+  "home_request": "A summer house",
+  "skill": "Bunting",
+  "goal": "Race car driver",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Sporty",
+  "games": {
+    "af": {
+      "personality": "jock",
+      "clothes": "No. 2 Shirt",
+      "song": "King K.K.",
+      "phrase": "quacko"
+    },
+    "af+": {
+      "personality": "jock",
+      "clothes": "No. 2 Shirt",
+      "song": "King K.K.",
+      "phrase": "quacko"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "No. 2 Shirt",
+      "song": "King K.K.",
+      "phrase": "quacko"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "No. 2 Shirt",
+      "song": "King K.K.",
+      "phrase": "quacko"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "No. 2 Shirt",
+      "song": "King K.K.",
+      "phrase": "quacko"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "No. 2 Shirt",
+      "song": "King K.K.",
+      "phrase": "quacko"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "No. 2 Shirt",
+      "song": "King K.K.",
+      "phrase": "quacko"
+    },
+    "hhd": {
+      "personality": "jock",
+      "clothes": "No. 2 Shirt",
+      "song": "King K.K.",
+      "phrase": "quacko"
+    },
+    "pc": {
+      "personality": "jock",
+      "clothes": "No. 2 Shirt",
+      "song": "King K.K.",
+      "phrase": "quacko"
+    },
+    "nh": {
+      "personality": "jock",
+      "clothes": "No. 2 Shirt",
+      "song": "King K.K.",
+      "phrase": "quacko"
+    }
+  },
+  "name": "Bill",
+  "id": "bill"
+}

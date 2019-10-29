@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "hippo",
+  "birthday": "12-19",
+  "games": {
+    "af": {
+      "personality": "peppy",
+      "clothes": "Flowery Shirt",
+      "song": "K.K. Bossa",
+      "phrase": "yaaaawl"
+    },
+    "af+": {
+      "personality": "peppy",
+      "clothes": "Flowery Shirt",
+      "song": "K.K. Bossa",
+      "phrase": "yaaaawl"
+    },
+    "ac": {
+      "personality": "peppy",
+      "clothes": "Flowery Shirt",
+      "song": "K.K. Bossa",
+      "phrase": "yaaaawl"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Flowery Shirt",
+      "song": "K.K. Bossa",
+      "phrase": "yaaaawl"
+    }
+  },
+  "name": "Lulu",
+  "id": "lulu"
+}

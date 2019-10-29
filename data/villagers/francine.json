@@ -1,0 +1,48 @@
+{
+  "gender": "female",
+  "species": "rabbit",
+  "birthday": "1-22",
+  "home_request": "A Chrissy shrine",
+  "skill": "Pretending to sleep",
+  "goal": "Designer",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "A little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Ornate",
+  "games": {
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Dark Polka Tee",
+      "song": "I Love You",
+      "phrase": "karat"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "Dark Polka Tee",
+      "song": "I Love You",
+      "phrase": "karat"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Dark Polka Tee",
+      "song": "I Love You",
+      "phrase": "karat"
+    },
+    "hhd": {
+      "personality": "snooty",
+      "clothes": "Dark Polka Tee",
+      "song": "I Love You",
+      "phrase": "karat"
+    },
+    "pc": {
+      "personality": "snooty",
+      "clothes": "Dark Polka Tee",
+      "song": "I Love You",
+      "phrase": "karat"
+    }
+  },
+  "name": "Francine",
+  "id": "francine"
+}

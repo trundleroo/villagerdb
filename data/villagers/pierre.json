@@ -1,0 +1,15 @@
+{
+  "gender": "male",
+  "species": "cat",
+  "birthday": "6-24",
+  "games": {
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Jester Shirt",
+      "song": "K.K. Parade",
+      "phrase": "tte ne"
+    }
+  },
+  "name": "Pierre",
+  "id": "pierre"
+}

@@ -1,0 +1,72 @@
+{
+  "gender": "male",
+  "species": "dog",
+  "birthday": "11-4",
+  "home_request": "A lucky room for a lucky life",
+  "skill": "Forgetting stuff",
+  "goal": "Doctor",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Flashy",
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "No. 23 Shirt",
+      "song": "K.K. Dirge",
+      "phrase": "rrr-owch"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "No. 23 Shirt",
+      "song": "K.K. Dirge",
+      "phrase": "rrr-owch"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "No. 23 Shirt",
+      "song": "K.K. Dirge",
+      "phrase": "rrr-owch"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "No. 23 Shirt",
+      "song": "K.K. Dirge",
+      "phrase": "rrr-owch"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "No. 23 Shirt",
+      "song": "K.K. Dirge",
+      "phrase": "rrr-owch"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "No. 23 Shirt",
+      "song": "K.K. Dirge",
+      "phrase": "rrr-owch"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "No. 23 Shirt",
+      "song": "K.K. Dirge",
+      "phrase": "rrr-owch"
+    },
+    "hhd": {
+      "personality": "lazy",
+      "clothes": "No. 23 Shirt",
+      "song": "K.K. Dirge",
+      "phrase": "rrr-owch"
+    },
+    "pc": {
+      "personality": "lazy",
+      "clothes": "No. 23 Shirt",
+      "song": "K.K. Dirge",
+      "phrase": "rrr-owch"
+    }
+  },
+  "name": "Lucky",
+  "id": "lucky"
+}

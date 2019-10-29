@@ -1,0 +1,24 @@
+{
+  "gender": "male",
+  "species": "bird",
+  "birthday": "11-20",
+  "home_request": "A place to retire",
+  "skill": "Playing Poker",
+  "goal": "Musician",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Historical",
+  "games": {
+    "nl": {
+      "personality": "jock",
+      "clothes": "BB Tee",
+      "song": "Steep Hill",
+      "phrase": "like whoa"
+    }
+  },
+  "name": "Sparro",
+  "id": "sparro"
+}

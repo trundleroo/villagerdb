@@ -1,0 +1,23 @@
+{
+  "gender": "female",
+  "species": "squirrel",
+  "games": {
+    "af+": {
+      "personality": "normal",
+      "clothes": "Red Aloha Shirt",
+      "phrase": "hulaaaa"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Red Aloha Shirt",
+      "phrase": "hulaaaa"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Red Aloha Shirt",
+      "phrase": "hulaaaa"
+    }
+  },
+  "name": "Bliss",
+  "id": "bliss"
+}

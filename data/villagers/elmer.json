@@ -1,0 +1,60 @@
+{
+  "gender": "male",
+  "species": "horse",
+  "birthday": "10-5",
+  "home_request": "A sock shop for sock lovers",
+  "skill": "Playing old maid",
+  "goal": "Police officer",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Basic",
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "Gaudy Sweater",
+      "song": "K.K. Waltz",
+      "phrase": "tenderfoot"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "Gaudy Sweater",
+      "song": "K.K. Waltz",
+      "phrase": "tenderfoot"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "Gaudy Sweater",
+      "song": "K.K. Waltz",
+      "phrase": "tenderfoot"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Gaudy Sweater",
+      "song": "K.K. Waltz",
+      "phrase": "tenderfoot"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "Gaudy Sweater",
+      "song": "K.K. Waltz",
+      "phrase": "tenderfoot"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "Gaudy Sweater",
+      "song": "K.K. Waltz",
+      "phrase": "tenderfoot"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Periwinkle Tee",
+      "song": "K.K. Waltz",
+      "phrase": "tenderfoot"
+    }
+  },
+  "name": "Elmer",
+  "id": "elmer"
+}

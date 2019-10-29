@@ -1,0 +1,24 @@
+{
+  "gender": "male",
+  "species": "monkey",
+  "birthday": "5-24",
+  "home_request": "A room scented by curry",
+  "skill": "Jumping rope",
+  "goal": "Musician",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Iconic",
+  "games": {
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Blue Diamond Tee",
+      "song": "K.K. Marathon",
+      "phrase": "monch"
+    }
+  },
+  "name": "Deli",
+  "id": "deli"
+}

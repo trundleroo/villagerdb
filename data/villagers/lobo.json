@@ -1,0 +1,72 @@
+{
+  "gender": "male",
+  "species": "wolf",
+  "birthday": "11-5",
+  "home_request": "A nostalgic throwback",
+  "skill": "Fishing",
+  "goal": "Forest ranger",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Rock 'n' roll",
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "clothes": "Checkered Tee",
+      "song": "K.K. Safari",
+      "phrase": "ah-rooooo"
+    },
+    "af+": {
+      "personality": "cranky",
+      "clothes": "Checkered Tee",
+      "song": "K.K. Safari",
+      "phrase": "ah-rooooo"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "Checkered Tee",
+      "song": "K.K. Safari",
+      "phrase": "ah-rooooo"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "Checkered Tee",
+      "song": "K.K. Safari",
+      "phrase": "ah-rooooo"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "Checkered Tee",
+      "song": "K.K. Safari",
+      "phrase": "ah-rooooo"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "Checkered Tee",
+      "song": "K.K. Safari",
+      "phrase": "ah-rooooo"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Checkered Tee",
+      "song": "K.K. Safari",
+      "phrase": "ah-rooooo"
+    },
+    "hhd": {
+      "personality": "cranky",
+      "clothes": "Checkered Tee",
+      "song": "K.K. Safari",
+      "phrase": "ah-rooooo"
+    },
+    "pc": {
+      "personality": "cranky",
+      "clothes": "Checkered Tee",
+      "song": "K.K. Safari",
+      "phrase": "ah-rooooo"
+    }
+  },
+  "name": "Lobo",
+  "id": "lobo"
+}

@@ -1,0 +1,54 @@
+{
+  "gender": "female",
+  "species": "dog",
+  "birthday": "6-18",
+  "home_request": "A room fit for a princess",
+  "skill": "Dancing",
+  "goal": "Actor",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Cute",
+  "games": {
+    "af": {
+      "personality": "peppy",
+      "clothes": "Blue Tartan Tee",
+      "song": "DJ K.K.",
+      "phrase": "arfer"
+    },
+    "af+": {
+      "personality": "peppy",
+      "clothes": "Blue Tartan Tee",
+      "song": "DJ K.K.",
+      "phrase": "arfer"
+    },
+    "ac": {
+      "personality": "peppy",
+      "clothes": "Blue Tartan Tee",
+      "song": "DJ K.K.",
+      "phrase": "arfer"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Blue Tartan Tee",
+      "song": "DJ K.K.",
+      "phrase": "arfer"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "Blue Tartan Tee",
+      "song": "DJ K.K.",
+      "phrase": "arfer"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Blue Tartan Tee",
+      "song": "DJ K.K.",
+      "phrase": "arfer"
+    }
+  },
+  "name": "Cookie",
+  "id": "cookie"
+}

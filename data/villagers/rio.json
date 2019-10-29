@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "ostrich",
+  "birthday": "10-11",
+  "games": {
+    "af": {
+      "personality": "peppy",
+      "clothes": "Red Scale Shirt",
+      "song": "K.K. Samba",
+      "phrase": "li'l chick"
+    },
+    "af+": {
+      "personality": "peppy",
+      "clothes": "Red Scale Shirt",
+      "song": "K.K. Samba",
+      "phrase": "li'l chick"
+    },
+    "ac": {
+      "personality": "peppy",
+      "clothes": "Red Scale Shirt",
+      "song": "K.K. Samba",
+      "phrase": "li'l chick"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Red Scale Shirt",
+      "song": "K.K. Samba",
+      "phrase": "li'l chick"
+    }
+  },
+  "name": "Rio",
+  "id": "rio"
+}

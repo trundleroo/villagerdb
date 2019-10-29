@@ -1,0 +1,24 @@
+{
+  "gender": "female",
+  "species": "anteater",
+  "birthday": "2-6",
+  "home_request": "A zen restaurant",
+  "skill": "Waking up early",
+  "goal": "Astronaut",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Iconic",
+  "games": {
+    "nl": {
+      "personality": "normal",
+      "clothes": "Dazed Tee",
+      "song": "King K.K.",
+      "phrase": "gumdrop"
+    }
+  },
+  "name": "Annalisa",
+  "id": "annalisa"
+}

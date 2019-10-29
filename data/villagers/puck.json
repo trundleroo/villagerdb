@@ -1,0 +1,54 @@
+{
+  "gender": "male",
+  "species": "penguin",
+  "birthday": "2-21",
+  "home_request": "A chilly room for icy sports",
+  "skill": "Doing handstands",
+  "goal": "Superhero",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "A little bit of milk",
+    "sugar": "One sugar"
+  },
+  "style": "Sporty",
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "BB Tee",
+      "song": "K.K. Casbah",
+      "phrase": "brrrrrrrrr"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "BB Tee",
+      "song": "K.K. Casbah",
+      "phrase": "brrrrrrrrr"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "BB Tee",
+      "song": "K.K. Casbah",
+      "phrase": "brrrrrrrrr"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "BB Tee",
+      "song": "K.K. Casbah",
+      "phrase": "brrrrrrrrr"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "BB Tee",
+      "song": "K.K. Casbah",
+      "phrase": "brrrrrrrrr"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "BB Tee",
+      "song": "K.K. Casbah",
+      "phrase": "brrrrrrrrr"
+    }
+  },
+  "name": "Puck",
+  "id": "puck"
+}

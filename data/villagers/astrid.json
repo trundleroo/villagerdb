@@ -1,0 +1,66 @@
+{
+  "gender": "female",
+  "species": "kangaroo",
+  "birthday": "9-8",
+  "home_request": "A playful rock studio",
+  "skill": "Karaoke",
+  "goal": "Singer",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Rock 'n' roll",
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "clothes": "Star Tee",
+      "song": "I Love You",
+      "phrase": "my pet"
+    },
+    "af+": {
+      "personality": "snooty",
+      "clothes": "Star Tee",
+      "song": "I Love You",
+      "phrase": "my pet"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Star Tee",
+      "song": "I Love You",
+      "phrase": "my pet"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Star Tee",
+      "song": "I Love You",
+      "phrase": "my pet"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "Star Tee",
+      "song": "I Love You",
+      "phrase": "my pet"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Star Tee",
+      "song": "I Love You",
+      "phrase": "my pet"
+    },
+    "hhd": {
+      "personality": "snooty",
+      "clothes": "Star Tee",
+      "song": "I Love You",
+      "phrase": "my pet"
+    },
+    "pc": {
+      "personality": "snooty",
+      "clothes": "Star Tee",
+      "song": "I Love You",
+      "phrase": "my pet"
+    }
+  },
+  "name": "Astrid",
+  "id": "astrid"
+}

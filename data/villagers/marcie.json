@@ -1,0 +1,24 @@
+{
+  "gender": "female",
+  "species": "kangaroo",
+  "birthday": "5-31",
+  "home_request": "A nursery school",
+  "skill": "Memorizing",
+  "goal": "Teacher",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Cute",
+  "games": {
+    "nl": {
+      "personality": "normal",
+      "clothes": "Pink Tartan Tee",
+      "song": "K.K. Aria",
+      "phrase": "pouches"
+    }
+  },
+  "name": "Marcie",
+  "id": "marcie"
+}

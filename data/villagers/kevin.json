@@ -1,0 +1,30 @@
+{
+  "gender": "male",
+  "species": "pig",
+  "birthday": "4-26",
+  "home_request": "A spaceship",
+  "skill": "Whistling",
+  "goal": "Sumo wrestler",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Sporty",
+  "games": {
+    "nl": {
+      "personality": "jock",
+      "clothes": "After-School Jacket",
+      "song": "K.K. Island",
+      "phrase": "weeweewee"
+    },
+    "hhd": {
+      "personality": "jock",
+      "clothes": "After-School Jacket",
+      "song": "K.K. Island",
+      "phrase": "weeweewee"
+    }
+  },
+  "name": "Kevin",
+  "id": "kevin"
+}

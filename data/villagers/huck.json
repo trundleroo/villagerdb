@@ -1,0 +1,46 @@
+{
+  "gender": "male",
+  "species": "frog",
+  "birthday": "7-9",
+  "skill": "Clearing my plate",
+  "goal": "Architect",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "a little bit of milk",
+    "sugar": "1 spoonful of sugar"
+  },
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "Melon Gingham",
+      "song": "I Love You",
+      "phrase": "hopper"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "Melon Gingham",
+      "song": "I Love You",
+      "phrase": "hopper"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "Melon Gingham",
+      "song": "I Love You",
+      "phrase": "hopper"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Melon Gingham",
+      "song": "I Love You",
+      "phrase": "hopper"
+    },
+    "nl": {
+      "personality": "smug",
+      "clothes": "Melon Gingham",
+      "song": "I Love You",
+      "phrase": "hopper"
+    }
+  },
+  "name": "Huck",
+  "id": "huck"
+}

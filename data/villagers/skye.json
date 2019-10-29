@@ -1,0 +1,36 @@
+{
+  "gender": "female",
+  "species": "wolf",
+  "birthday": "3-24",
+  "home_request": "An art studio",
+  "skill": "Chopping vegetables",
+  "goal": "Pastry chef",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Cute",
+  "games": {
+    "nl": {
+      "personality": "normal",
+      "clothes": "Spring Shirt",
+      "song": "Forest Life",
+      "phrase": "airmail"
+    },
+    "hhd": {
+      "personality": "normal",
+      "clothes": "Spring Shirt",
+      "song": "Forest Life",
+      "phrase": "airmail"
+    },
+    "pc": {
+      "personality": "normal",
+      "clothes": "Spring Shirt",
+      "song": "Forest Life",
+      "phrase": "airmail"
+    }
+  },
+  "name": "Skye",
+  "id": "skye"
+}

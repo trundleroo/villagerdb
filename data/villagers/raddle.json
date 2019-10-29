@@ -1,0 +1,28 @@
+{
+  "gender": "male",
+  "species": "frog",
+  "birthday": "6-6",
+  "skill": "Pretending to sleep",
+  "goal": "Doctor",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "Lots of milk",
+    "sugar": "3 spoonfuls of sugar"
+  },
+  "games": {
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Blue Aloha Shirt",
+      "song": "Mr. K.K.",
+      "phrase": "aaach"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Doctor's Coat",
+      "song": "Mr. K.K.",
+      "phrase": "aaach"
+    }
+  },
+  "name": "Raddle",
+  "id": "raddle"
+}

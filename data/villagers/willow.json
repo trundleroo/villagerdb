@@ -1,0 +1,36 @@
+{
+  "gender": "female",
+  "species": "sheep",
+  "birthday": "11-26",
+  "home_request": "An alpine-themed home",
+  "skill": "Playing Old Maid",
+  "goal": "Designer",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Cute",
+  "games": {
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Bad Plaid Tee",
+      "song": "K.K. Etude",
+      "phrase": "bo peep"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "Bad Plaid Tee",
+      "song": "K.K. Etude",
+      "phrase": "bo peep"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Bad Plaid Tee",
+      "song": "K.K. Etude",
+      "phrase": "bo peep"
+    }
+  },
+  "name": "Willow",
+  "id": "willow"
+}

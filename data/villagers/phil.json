@@ -1,0 +1,24 @@
+{
+  "gender": "male",
+  "species": "ostrich",
+  "birthday": "11-27",
+  "home_request": "A personal micro cosmos",
+  "skill": "Beat boxing",
+  "goal": "Baseball player",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Iconic",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "Dawn Tee",
+      "song": "Steep Hill",
+      "phrase": "hurk"
+    }
+  },
+  "name": "Phil",
+  "id": "phil"
+}

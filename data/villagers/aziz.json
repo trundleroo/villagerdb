@@ -1,0 +1,29 @@
+{
+  "gender": "male",
+  "species": "lion",
+  "birthday": "2-26",
+  "games": {
+    "af": {
+      "personality": "jock",
+      "clothes": "Anju's Shirt",
+      "phrase": "RAWR"
+    },
+    "af+": {
+      "personality": "jock",
+      "clothes": "Anju's Shirt",
+      "phrase": "RAWR"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "Anju's Shirt",
+      "phrase": "RAWR"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Anju's Shirt",
+      "phrase": "RAWR"
+    }
+  },
+  "name": "Aziz",
+  "id": "aziz"
+}

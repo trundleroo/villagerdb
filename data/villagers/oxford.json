@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "bull",
+  "birthday": "5-2",
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "clothes": "Leather Jerkin",
+      "song": "K.K. Western",
+      "phrase": "bully"
+    },
+    "af+": {
+      "personality": "cranky",
+      "clothes": "Leather Jerkin",
+      "song": "K.K. Western",
+      "phrase": "bully"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "Leather Jerkin",
+      "song": "K.K. Western",
+      "phrase": "bully"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "Leather Jerkin",
+      "song": "K.K. Western",
+      "phrase": "bully"
+    }
+  },
+  "name": "Oxford",
+  "id": "oxford"
+}

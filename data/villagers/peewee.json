@@ -1,0 +1,77 @@
+{
+  "gender": "male",
+  "species": "gorilla",
+  "birthday": "9-11",
+  "skill": "Karaoke",
+  "goal": "Pro wrestler",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Sporty",
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "clothes": "Five-Ball Tee",
+      "song": "K.K. Rally",
+      "phrase": "li'l dudeM"
+    },
+    "af+": {
+      "personality": "cranky",
+      "clothes": "Five-Ball Tee",
+      "song": "K.K. Rally",
+      "phrase": "li'l dudeM"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "Five-Ball Tee",
+      "song": "K.K. Rally",
+      "phrase": "li'l dudeM"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "Five-Ball Tee",
+      "song": "K.K. Rally",
+      "phrase": "li'l dudeM"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "Five-Ball Tee",
+      "song": "K.K. Rally",
+      "phrase": "li'l dudeM"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "Five-Ball Tee",
+      "song": "K.K. Rally",
+      "phrase": "li'l dudeM"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Five-Ball Tee",
+      "song": "K.K. Rally",
+      "phrase": "li'l dudeM"
+    },
+    "hhd": {
+      "personality": "cranky",
+      "clothes": "Five-Ball Tee",
+      "song": "K.K. Rally",
+      "phrase": "li'l dudeM"
+    },
+    "pc": {
+      "personality": "cranky",
+      "clothes": "Five-Ball Tee",
+      "song": "K.K. Rally",
+      "phrase": "li'l dudeM"
+    },
+    "nh": {
+      "personality": "cranky",
+      "clothes": "Five-Ball Tee",
+      "song": "K.K. Rally",
+      "phrase": "li'l dudeM"
+    }
+  },
+  "name": "Peewee",
+  "id": "peewee"
+}

@@ -1,0 +1,59 @@
+{
+  "gender": "female",
+  "species": "kangaroo",
+  "birthday": "12-5",
+  "home_request": "A garden for kids to play in",
+  "skill": "Making budgets",
+  "goal": "Illustrator",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "none at all",
+    "sugar": "none at all"
+  },
+  "games": {
+    "af": {
+      "personality": "normal",
+      "clothes": "Toad Tee",
+      "song": "K.K. Lullaby",
+      "phrase": "little one"
+    },
+    "af+": {
+      "personality": "normal",
+      "clothes": "Toad Tee",
+      "song": "K.K. Lullaby",
+      "phrase": "little one"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Toad Tee",
+      "song": "K.K. Lullaby",
+      "phrase": "little one"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Toad Tee",
+      "song": "K.K. Lullaby",
+      "phrase": "little one"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Toad Tee",
+      "song": "K.K. Lullaby",
+      "phrase": "little one"
+    },
+    "hhd": {
+      "personality": "normal",
+      "clothes": "Toad Tee",
+      "song": "K.K. Lullaby",
+      "phrase": "little one"
+    },
+    "pc": {
+      "personality": "normal",
+      "clothes": "Toad Tee",
+      "song": "K.K. Lullaby",
+      "phrase": "little one"
+    }
+  },
+  "name": "Carrie",
+  "id": "carrie"
+}

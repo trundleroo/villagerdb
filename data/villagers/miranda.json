@@ -1,0 +1,40 @@
+{
+  "gender": "female",
+  "species": "duck",
+  "birthday": "4-23",
+  "home_request": "A stay-healthy home.",
+  "skill": "Subsistence Living",
+  "goal": "Model",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Ornate",
+  "games": {
+    "afe+": {
+      "personality": "snooty",
+      "song": "K.K. Sonata",
+      "phrase": "quackulous"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "Laced Shirt",
+      "song": "K.K. Sonata",
+      "phrase": "quackulous"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Amethyst Tee",
+      "song": "K.K. Sonata",
+      "phrase": "quackulous"
+    },
+    "hhd": {
+      "personality": "snooty",
+      "song": "K.K. Sonata",
+      "phrase": "quackulous"
+    }
+  },
+  "name": "Miranda",
+  "id": "miranda"
+}

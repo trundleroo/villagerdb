@@ -1,0 +1,14 @@
+{
+  "gender": "male",
+  "species": "duck",
+  "birthday": "1-2",
+  "games": {
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Blue Aloha Shirt",
+      "phrase": "gu"
+    }
+  },
+  "name": "Fruity",
+  "id": "fruity"
+}

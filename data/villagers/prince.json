@@ -1,0 +1,54 @@
+{
+  "gender": "male",
+  "species": "frog",
+  "birthday": "7-21",
+  "home_request": "A barbershop for beards",
+  "skill": "Playing old maid",
+  "goal": "Carpenter",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Historical",
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "Yellow-Bar Tee",
+      "song": "To the Edge",
+      "phrase": "burrup"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "Yellow-Bar Tee",
+      "song": "To the Edge",
+      "phrase": "burrup"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "Yellow-Bar Tee",
+      "song": "To the Edge",
+      "phrase": "burrup"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Yellow-Bar Tee",
+      "song": "To the Edge",
+      "phrase": "burrup"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "Yellow-Bar Tee",
+      "song": "To the Edge",
+      "phrase": "burrup"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Yellow-Bar Tee",
+      "song": "To the Edge",
+      "phrase": "burrup"
+    }
+  },
+  "name": "Prince",
+  "id": "prince"
+}

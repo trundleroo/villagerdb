@@ -1,0 +1,29 @@
+{
+  "gender": "male",
+  "species": "lion",
+  "birthday": "7-10",
+  "skill": "Mental math",
+  "goal": "Lawyer",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Iconic",
+  "games": {
+    "cf": {
+      "personality": "jock",
+      "clothes": "Pirate's Coat",
+      "song": "Marine Song 2001",
+      "phrase": "cagey"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "Blue Letter Jacket",
+      "song": "Marine Song 2001",
+      "phrase": "cagey"
+    }
+  },
+  "name": "Mott",
+  "id": "mott"
+}

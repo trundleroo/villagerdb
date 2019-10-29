@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "cow",
+  "birthday": "5-10",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "clothes": "Berry Gingham",
+      "song": "K.K. Salsa",
+      "phrase": "buttercup"
+    },
+    "af+": {
+      "personality": "normal",
+      "clothes": "Berry Gingham",
+      "song": "K.K. Salsa",
+      "phrase": "buttercup"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Berry Gingham",
+      "song": "K.K. Salsa",
+      "phrase": "buttercup"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Berry Gingham",
+      "song": "K.K. Salsa",
+      "phrase": "buttercup"
+    }
+  },
+  "name": "Bessie",
+  "id": "bessie"
+}

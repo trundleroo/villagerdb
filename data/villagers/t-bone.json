@@ -1,0 +1,45 @@
+{
+  "gender": "male",
+  "species": "bull",
+  "birthday": "5-20",
+  "home_request": "A fire-filled hot spot",
+  "skill": "Pretending to sleep",
+  "goal": "Police officer",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Historical",
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "song": "K.K. Steppe",
+      "phrase": "moocher"
+    },
+    "af+": {
+      "personality": "lazy",
+      "song": "K.K. Steppe",
+      "phrase": "moocher"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "Yellow Pinstripe",
+      "song": "K.K. Steppe",
+      "phrase": "moocher"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "song": "K.K. Steppe",
+      "phrase": "moocher"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Hanten Shirt",
+      "song": "K.K. Steppe",
+      "phrase": "moocher"
+    }
+  },
+  "name": "T-bone",
+  "id": "t-bone"
+}

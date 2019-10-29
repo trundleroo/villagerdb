@@ -1,0 +1,35 @@
+{
+  "gender": "female",
+  "species": "bear",
+  "birthday": "4-17",
+  "home_request": "A flower showcase.",
+  "skill": "Hitting snooze",
+  "goal": "Archeologist",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Sporty",
+  "games": {
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Red Aloha Shirt",
+      "song": "Mr. K.K.",
+      "phrase": "urgh"
+    },
+    "nl": {
+      "personality": "uchi",
+      "clothes": "Red Warmup Suit",
+      "song": "Mr. K.K.",
+      "phrase": "urgh"
+    },
+    "pc": {
+      "personality": "uchi",
+      "song": "Mr. K.K.",
+      "phrase": "urgh"
+    }
+  },
+  "name": "Charlise",
+  "id": "charlise"
+}

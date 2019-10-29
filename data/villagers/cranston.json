@@ -1,0 +1,24 @@
+{
+  "gender": "male",
+  "species": "ostrich",
+  "birthday": "9-23",
+  "home_request": "A place to grow rice",
+  "skill": "Backflipping",
+  "goal": "CEO",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Modern",
+  "games": {
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Lotus Tee",
+      "song": "Steep Hill",
+      "phrase": "sweatband"
+    }
+  },
+  "name": "Cranston",
+  "id": "cranston"
+}

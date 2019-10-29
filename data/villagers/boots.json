@@ -1,0 +1,52 @@
+{
+  "gender": "male",
+  "species": "alligator",
+  "birthday": "8-7",
+  "skill": "Writing Backwards",
+  "goal": "Sumo Wrestler",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Lots of milk",
+    "sugar": "3 spoonfuls of sugar"
+  },
+  "games": {
+    "af": {
+      "personality": "jock",
+      "clothes": "Jester Shirt",
+      "song": "K.K. Rally",
+      "phrase": "munchie"
+    },
+    "af+": {
+      "personality": "jock",
+      "clothes": "Jester Shirt",
+      "song": "K.K. Rally",
+      "phrase": "munchie"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "Jester Shirt",
+      "song": "K.K. Rally",
+      "phrase": "munchie"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Jester Shirt",
+      "song": "K.K. Rally",
+      "phrase": "munchie"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "Jester Shirt",
+      "song": "K.K. Rally",
+      "phrase": "munchie"
+    },
+    "pc": {
+      "personality": "jock",
+      "clothes": "Jester Shirt",
+      "song": "K.K. Rally",
+      "phrase": "munchie"
+    }
+  },
+  "name": "Boots",
+  "id": "boots"
+}

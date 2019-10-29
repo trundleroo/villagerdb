@@ -1,0 +1,15 @@
+{
+  "gender": "female",
+  "species": "frog",
+  "birthday": "5-22",
+  "games": {
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Citrus Shirt",
+      "song": "K.K. Calypso",
+      "phrase": "de"
+    }
+  },
+  "name": "Sunny",
+  "id": "sunny"
+}

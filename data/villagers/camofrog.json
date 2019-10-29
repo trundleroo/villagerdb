@@ -1,0 +1,60 @@
+{
+  "gender": "male",
+  "species": "frog",
+  "birthday": "6-5",
+  "home_request": "A nature sanctuary",
+  "skill": "Playing jacks",
+  "goal": "Pilot",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Rock 'n' roll",
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "clothes": "MVP Tee",
+      "song": "K.K. Rock",
+      "phrase": "ten-hut"
+    },
+    "af+": {
+      "personality": "cranky",
+      "clothes": "MVP Tee",
+      "song": "K.K. Rock",
+      "phrase": "ten-hut"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "MVP Tee",
+      "song": "K.K. Rock",
+      "phrase": "ten-hut"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "MVP Tee",
+      "song": "K.K. Rock",
+      "phrase": "ten-hut"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "MVP Tee",
+      "song": "K.K. Rock",
+      "phrase": "ten-hut"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "MVP Tee",
+      "song": "K.K. Rock",
+      "phrase": "ten-hut"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "MVP Tee",
+      "song": "K.K. Rock",
+      "phrase": "ten-hut"
+    }
+  },
+  "name": "Camofrog",
+  "id": "camofrog"
+}

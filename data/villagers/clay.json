@@ -1,0 +1,24 @@
+{
+  "gender": "male",
+  "species": "hamster",
+  "birthday": "10-19",
+  "home_request": "A spooky haunted house",
+  "skill": "Writing backwards",
+  "goal": "Archeologist",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Historical",
+  "games": {
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Uncommon Shirt",
+      "song": "K.K. Safari",
+      "phrase": "thump"
+    }
+  },
+  "name": "Clay",
+  "id": "clay"
+}

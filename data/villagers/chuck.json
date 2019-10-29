@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "bull",
+  "birthday": "5-14",
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "clothes": "4-Ball Shirt",
+      "song": "K.K. Blues",
+      "phrase": "jerky"
+    },
+    "af+": {
+      "personality": "cranky",
+      "clothes": "4-Ball Shirt",
+      "song": "K.K. Blues",
+      "phrase": "jerky"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "4-Ball Shirt",
+      "song": "K.K. Blues",
+      "phrase": "jerky"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "4-Ball Shirt",
+      "song": "K.K. Blues",
+      "phrase": "jerky"
+    }
+  },
+  "name": "Chuck",
+  "id": "chuck"
+}

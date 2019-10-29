@@ -1,0 +1,66 @@
+{
+  "gender": "male",
+  "species": "pig",
+  "birthday": "12-30",
+  "home_request": "Eat, drink, sleep. Repeat.",
+  "skill": "Eating quickly",
+  "goal": "Carpenter",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "A lot of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Modern",
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "Jade Plaid Tee",
+      "song": "K.K. Mambo",
+      "phrase": "snortle"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "Jade Plaid Tee",
+      "song": "K.K. Mambo",
+      "phrase": "snortle"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "Jade Plaid Tee",
+      "song": "K.K. Mambo",
+      "phrase": "snortle"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Jade Plaid Tee",
+      "song": "K.K. Mambo",
+      "phrase": "snortle"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "Jade Plaid Tee",
+      "song": "K.K. Mambo",
+      "phrase": "snortle"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "Jade Plaid Tee",
+      "song": "K.K. Mambo",
+      "phrase": "snortle"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Jade Plaid Tee",
+      "song": "K.K. Mambo",
+      "phrase": "snortle"
+    },
+    "hhd": {
+      "personality": "lazy",
+      "clothes": "Jade Plaid Tee",
+      "song": "K.K. Mambo",
+      "phrase": "snortle"
+    }
+  },
+  "name": "Hugh",
+  "id": "hugh"
+}

@@ -1,0 +1,47 @@
+{
+  "gender": "female",
+  "species": "cub",
+  "birthday": "7-12",
+  "skill": "Dancing",
+  "goal": "Pastry Chef",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Basic",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "clothes": "Dapper Tee",
+      "song": "Cafe K.K.",
+      "phrase": "sweet pea"
+    },
+    "af+": {
+      "personality": "normal",
+      "clothes": "Dapper Tee",
+      "song": "Cafe K.K.",
+      "phrase": "sweet pea"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Dapper Tee",
+      "song": "Cafe K.K.",
+      "phrase": "sweet pea"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Dapper Tee",
+      "song": "Cafe K.K.",
+      "phrase": "sweet pea"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Dapper Tee",
+      "song": "Cafe K.K.",
+      "phrase": "sweet pea"
+    }
+  },
+  "name": "Olive",
+  "id": "olive"
+}

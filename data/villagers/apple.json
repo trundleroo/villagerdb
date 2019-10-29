@@ -1,0 +1,36 @@
+{
+  "gender": "female",
+  "species": "hamster",
+  "birthday": "9-24",
+  "home_request": "An apple-inspired room",
+  "skill": "Karaoke",
+  "goal": "Movie Star",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Cute",
+  "games": {
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Lite Polka Tee",
+      "song": "I Love You",
+      "phrase": "cheekers"
+    },
+    "hhd": {
+      "personality": "peppy",
+      "clothes": "Lite Polka Tee",
+      "song": "I Love You",
+      "phrase": "cheekers"
+    },
+    "pc": {
+      "personality": "peppy",
+      "clothes": "Lite Polka Tee",
+      "song": "I Love You",
+      "phrase": "cheekers"
+    }
+  },
+  "name": "Apple",
+  "id": "apple"
+}

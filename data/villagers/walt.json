@@ -1,0 +1,24 @@
+{
+  "gender": "male",
+  "species": "kangaroo",
+  "birthday": "4-24",
+  "home_request": "A shrine to samurai",
+  "skill": "Rock Paper Scissors",
+  "goal": "Carpenter",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Iconic",
+  "games": {
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Jinbei Top",
+      "song": "Agent K.K.",
+      "phrase": "pockets"
+    }
+  },
+  "name": "Walt",
+  "id": "walt"
+}

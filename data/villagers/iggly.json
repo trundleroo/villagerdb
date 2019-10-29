@@ -1,0 +1,36 @@
+{
+  "gender": "male",
+  "species": "penguin",
+  "birthday": "11-2",
+  "home_request": "A winter-sports paradise.",
+  "skill": "Bunting",
+  "goal": "Baseball player",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Basic",
+  "games": {
+    "cf": {
+      "personality": "jock",
+      "clothes": "Red-Bar Tee",
+      "song": "K.K. March",
+      "phrase": "waddler"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "Red-Bar Tee",
+      "song": "K.K. March",
+      "phrase": "waddler"
+    },
+    "hhd": {
+      "personality": "jock",
+      "clothes": "Red-Bar Tee",
+      "song": "K.K. March",
+      "phrase": "waddler"
+    }
+  },
+  "name": "Iggly",
+  "id": "iggly"
+}

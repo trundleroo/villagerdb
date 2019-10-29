@@ -1,0 +1,59 @@
+{
+  "gender": "female",
+  "species": "squirrel",
+  "birthday": "7-19",
+  "skill": "Juggling",
+  "goal": "Journalist",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Cute",
+  "games": {
+    "af": {
+      "personality": "peppy",
+      "clothes": "Watermelon Tee",
+      "song": "K.K. Technopop",
+      "phrase": "niblet"
+    },
+    "af+": {
+      "personality": "peppy",
+      "clothes": "Watermelon Tee",
+      "song": "K.K. Technopop",
+      "phrase": "niblet"
+    },
+    "ac": {
+      "personality": "peppy",
+      "clothes": "Watermelon Tee",
+      "song": "K.K. Technopop",
+      "phrase": "niblet"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Watermelon Tee",
+      "song": "K.K. Technopop",
+      "phrase": "niblet"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "Watermelon Tee",
+      "song": "K.K. Technopop",
+      "phrase": "niblet"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "Watermelon Tee",
+      "song": "K.K. Technopop",
+      "phrase": "niblet"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Watermelon Tee",
+      "song": "K.K. Technopop",
+      "phrase": "niblet"
+    }
+  },
+  "name": "Nibbles",
+  "id": "nibbles"
+}

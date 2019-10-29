@@ -1,0 +1,72 @@
+{
+  "gender": "female",
+  "species": "bird",
+  "birthday": "12-4",
+  "home_request": "A country teahouse",
+  "skill": "Skimming books",
+  "goal": "Dermatologist",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Official",
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "clothes": "Kiwi Tee",
+      "song": "K.K. Bossa",
+      "phrase": "la-di-da"
+    },
+    "af+": {
+      "personality": "snooty",
+      "clothes": "Kiwi Tee",
+      "song": "K.K. Bossa",
+      "phrase": "la-di-da"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Kiwi Tee",
+      "song": "K.K. Bossa",
+      "phrase": "la-di-da"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Kiwi Tee",
+      "song": "K.K. Bossa",
+      "phrase": "la-di-da"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "Kiwi Tee",
+      "song": "K.K. Bossa",
+      "phrase": "la-di-da"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "Kiwi Tee",
+      "song": "K.K. Bossa",
+      "phrase": "la-di-da"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Kiwi Tee",
+      "song": "K.K. Bossa",
+      "phrase": "la-di-da"
+    },
+    "hhd": {
+      "personality": "snooty",
+      "clothes": "Kiwi Tee",
+      "song": "K.K. Bossa",
+      "phrase": "la-di-da"
+    },
+    "pc": {
+      "personality": "snooty",
+      "clothes": "Kiwi Tee",
+      "song": "K.K. Bossa",
+      "phrase": "la-di-da"
+    }
+  },
+  "name": "Robin",
+  "id": "robin"
+}

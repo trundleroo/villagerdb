@@ -1,0 +1,60 @@
+{
+  "gender": "female",
+  "species": "frog",
+  "birthday": "1-13",
+  "home_request": "An adorable, pink room",
+  "skill": "Limboing",
+  "goal": "Tennis player",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Ornate",
+  "games": {
+    "af": {
+      "personality": "peppy",
+      "clothes": "Lovely Tee",
+      "song": "K.K. Ballad",
+      "phrase": "splish"
+    },
+    "af+": {
+      "personality": "peppy",
+      "clothes": "Lovely Tee",
+      "song": "K.K. Ballad",
+      "phrase": "splish"
+    },
+    "ac": {
+      "personality": "peppy",
+      "clothes": "Lovely Tee",
+      "song": "K.K. Ballad",
+      "phrase": "splish"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Lovely Tee",
+      "song": "K.K. Ballad",
+      "phrase": "splish"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "Lovely Tee",
+      "song": "K.K. Ballad",
+      "phrase": "splish"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "Lovely Tee",
+      "song": "K.K. Ballad",
+      "phrase": "splish"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Lovely Tee",
+      "song": "K.K. Ballad",
+      "phrase": "splish"
+    }
+  },
+  "name": "Puddles",
+  "id": "puddles"
+}

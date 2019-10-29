@@ -1,0 +1,66 @@
+{
+  "gender": "male",
+  "species": "cat",
+  "birthday": "12-10",
+  "home_request": "A fighter's gym",
+  "skill": "Doing chin-ups",
+  "goal": "Guitarist",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Rock 'n' roll",
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "clothes": "BB Tee",
+      "song": "K.K. Rally",
+      "phrase": "me-YOWZA"
+    },
+    "af+": {
+      "personality": "cranky",
+      "clothes": "BB Tee",
+      "song": "K.K. Rally",
+      "phrase": "me-YOWZA"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "BB Tee",
+      "song": "K.K. Rally",
+      "phrase": "me-YOWZA"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "BB Tee",
+      "song": "K.K. Rally",
+      "phrase": "me-YOWZA"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "BB Tee",
+      "song": "K.K. Rally",
+      "phrase": "me-YOWZA"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "BB Tee",
+      "song": "K.K. Rally",
+      "phrase": "me-YOWZA"
+    },
+    "hhd": {
+      "personality": "cranky",
+      "clothes": "BB Tee",
+      "song": "K.K. Rally",
+      "phrase": "me-YOWZA"
+    },
+    "pc": {
+      "personality": "cranky",
+      "clothes": "BB Tee",
+      "song": "K.K. Rally",
+      "phrase": "me-YOWZA"
+    }
+  },
+  "name": "Tom",
+  "id": "tom"
+}

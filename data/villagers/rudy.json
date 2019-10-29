@@ -1,0 +1,24 @@
+{
+  "gender": "male",
+  "species": "cat",
+  "birthday": "12-20",
+  "home_request": "A chess room",
+  "skill": "Cramming for tests",
+  "goal": "Artist",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Sporty",
+  "games": {
+    "nl": {
+      "personality": "jock",
+      "clothes": "Red-Grid Tee",
+      "song": "The K. Funk",
+      "phrase": "tokana"
+    }
+  },
+  "name": "Rudy",
+  "id": "rudy"
+}

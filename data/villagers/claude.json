@@ -1,0 +1,53 @@
+{
+  "gender": "male",
+  "species": "rabbit",
+  "birthday": "12-3",
+  "home_request": "A pro-Nintendo game shop.",
+  "skill": "Calculating tips",
+  "goal": "Superhero",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "Dark Polka Tee",
+      "song": "Pondering",
+      "phrase": "hopalong"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "Dark Polka Tee",
+      "song": "Pondering",
+      "phrase": "hopalong"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "Dark Polka Tee",
+      "song": "Pondering",
+      "phrase": "hopalong"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Dark Polka Tee",
+      "song": "Pondering",
+      "phrase": "hopalong"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Dark Polka Tee",
+      "song": "Pondering",
+      "phrase": "hopalong"
+    },
+    "hhd": {
+      "personality": "lazy",
+      "clothes": "Dark Polka Tee",
+      "song": "Pondering",
+      "phrase": "hopalong"
+    }
+  },
+  "name": "Claude",
+  "id": "claude"
+}

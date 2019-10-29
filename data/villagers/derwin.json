@@ -1,0 +1,60 @@
+{
+  "gender": "male",
+  "species": "duck",
+  "birthday": "5-25",
+  "home_request": "A private study space",
+  "skill": "Brainteasers",
+  "goal": "Doctor",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Official",
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "Yellow-Bar Tee",
+      "song": "The K. Funk",
+      "phrase": "derrrrr"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "Yellow-Bar Tee",
+      "song": "The K. Funk",
+      "phrase": "derrrrr"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "Yellow-Bar Tee",
+      "song": "The K. Funk",
+      "phrase": "derrrrr"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Yellow-Bar Tee",
+      "song": "The K. Funk",
+      "phrase": "derrrrr"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "Yellow-Bar Tee",
+      "song": "The K. Funk",
+      "phrase": "derrrrr"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "Yellow-Bar Tee",
+      "song": "The K. Funk",
+      "phrase": "derrrrr"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Yellow-Bar Tee",
+      "song": "The K. Funk",
+      "phrase": "derrrrr"
+    }
+  },
+  "name": "Derwin",
+  "id": "derwin"
+}

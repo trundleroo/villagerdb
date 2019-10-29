@@ -1,0 +1,24 @@
+{
+  "gender": "female",
+  "species": "koala",
+  "birthday": "4-12",
+  "games": {
+    "af+": {
+      "personality": "normal",
+      "clothes": "Red Aloha Shirt",
+      "phrase": "aloha"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Red Aloha Shirt",
+      "phrase": "aloha"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Red Aloha Shirt",
+      "phrase": "aloha"
+    }
+  },
+  "name": "Faith",
+  "id": "faith"
+}

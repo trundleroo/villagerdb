@@ -1,0 +1,46 @@
+{
+  "gender": "female",
+  "species": "sheep",
+  "birthday": "4-2",
+  "skill": "Peeling apples",
+  "goal": "Chef",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "The regular amount of milk",
+    "sugar": "2 spoonfuls of sugar"
+  },
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "clothes": "Nebula Shirt",
+      "song": "K.K. Country",
+      "phrase": "baaaby"
+    },
+    "af+": {
+      "personality": "snooty",
+      "clothes": "Nebula Shirt",
+      "song": "K.K. Country",
+      "phrase": "baaaby"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Nebula Shirt",
+      "song": "K.K. Country",
+      "phrase": "baaaby"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Nebula Shirt",
+      "song": "K.K. Country",
+      "phrase": "baaaby"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Nebula Shirt",
+      "song": "K.K. Country",
+      "phrase": "baaaby"
+    }
+  },
+  "name": "Cashmere",
+  "id": "cashmere"
+}

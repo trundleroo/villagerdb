@@ -1,0 +1,38 @@
+{
+  "gender": "female",
+  "species": "chicken",
+  "birthday": "10-12",
+  "skill": "Hula dancing",
+  "goal": "Dancer",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "A little bit of milk",
+    "sugar": "1 spoonful of sugar"
+  },
+  "games": {
+    "af+": {
+      "personality": "peppy",
+      "song": "K.K. Island",
+      "phrase": "chicky poo"
+    },
+    "ac": {
+      "personality": "peppy",
+      "song": "K.K. Island",
+      "phrase": "chicky poo"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Red Aloha Shirt",
+      "song": "K.K. Island",
+      "phrase": "chicky poo"
+    },
+    "nl": {
+      "personality": "uchi",
+      "clothes": "Cool Tank",
+      "song": "K.K. Island",
+      "phrase": "chicky poo"
+    }
+  },
+  "name": "Plucky",
+  "id": "plucky"
+}

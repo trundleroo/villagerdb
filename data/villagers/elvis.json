@@ -1,0 +1,36 @@
+{
+  "gender": "male",
+  "species": "lion",
+  "birthday": "7-23",
+  "home_request": "A royal palace",
+  "skill": "Competitive eating",
+  "goal": "Tycoon",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Ornate",
+  "games": {
+    "ww": {
+      "personality": "cranky",
+      "clothes": "Royal Shirt",
+      "song": "K.K. Casbah",
+      "phrase": "unh-hunh"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "Royal Shirt",
+      "song": "K.K. Casbah",
+      "phrase": "unh-hunh"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Royal Shirt",
+      "song": "K.K. Casbah",
+      "phrase": "unh-hunh"
+    }
+  },
+  "name": "Elvis",
+  "id": "elvis"
+}

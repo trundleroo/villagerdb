@@ -1,0 +1,15 @@
+{
+  "gender": "male",
+  "species": "dog",
+  "birthday": "8-3",
+  "games": {
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Houndstooth Knit",
+      "song": "K.K. Love Song",
+      "phrase": "bow"
+    }
+  },
+  "name": "Bow",
+  "id": "bow"
+}

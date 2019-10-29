@@ -1,0 +1,41 @@
+{
+  "gender": "male",
+  "species": "elephant",
+  "birthday": "5-5",
+  "skill": "Competitive eating",
+  "goal": "Hair Stylist",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "The regular amount of milk",
+    "sugar": "2 spoonfuls of sugar"
+  },
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "N64 Shirt",
+      "phrase": "pal"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "Diner Uniform",
+      "phrase": "pal"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "Cherry Shirt",
+      "phrase": "pal"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Cherry Shirt",
+      "phrase": "pal"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Pastel-Stripe Tee",
+      "phrase": "pal"
+    }
+  },
+  "name": "Paolo",
+  "id": "paolo"
+}

@@ -1,0 +1,48 @@
+{
+  "gender": "female",
+  "species": "rabbit",
+  "birthday": "8-28",
+  "home_request": "A delightfully dotted room",
+  "skill": "Staying awake",
+  "goal": "Model",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Cute",
+  "games": {
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Lite Polka Tee",
+      "song": "K.K. Waltz",
+      "phrase": "sparkles"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "Lite Polka Tee",
+      "song": "K.K. Waltz",
+      "phrase": "sparkles"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Lite Polka Tee",
+      "song": "K.K. Waltz",
+      "phrase": "sparkles"
+    },
+    "hhd": {
+      "personality": "peppy",
+      "clothes": "Lite Polka Tee",
+      "song": "K.K. Waltz",
+      "phrase": "sparkles"
+    },
+    "pc": {
+      "personality": "peppy",
+      "clothes": "Lite Polka Tee",
+      "song": "K.K. Waltz",
+      "phrase": "sparkles"
+    }
+  },
+  "name": "Chrissy",
+  "id": "chrissy"
+}

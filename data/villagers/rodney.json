@@ -1,0 +1,24 @@
+{
+  "gender": "male",
+  "species": "hamster",
+  "birthday": "11-10",
+  "home_request": "A production studio",
+  "skill": "Hitting Snooze",
+  "goal": "Chef",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Flashy",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "Red-Bar Tee",
+      "song": "K.K. Rockabilly",
+      "phrase": "le ham"
+    }
+  },
+  "name": "Rodney",
+  "id": "rodney"
+}

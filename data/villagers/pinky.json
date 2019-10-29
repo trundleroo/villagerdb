@@ -1,0 +1,72 @@
+{
+  "gender": "female",
+  "species": "bear",
+  "birthday": "9-9",
+  "home_request": "A feng-shui flow",
+  "skill": "Hula dancing",
+  "goal": "Cartoonist",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Cute",
+  "games": {
+    "af": {
+      "personality": "peppy",
+      "clothes": "Dazed Tee",
+      "song": "Imperial K.K.",
+      "phrase": "cubbie"
+    },
+    "af+": {
+      "personality": "peppy",
+      "clothes": "Dazed Tee",
+      "song": "Imperial K.K.",
+      "phrase": "cubbie"
+    },
+    "ac": {
+      "personality": "peppy",
+      "clothes": "Dazed Tee",
+      "song": "Imperial K.K.",
+      "phrase": "cubbie"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Dazed Tee",
+      "song": "Imperial K.K.",
+      "phrase": "cubbie"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "Dazed Tee",
+      "song": "Imperial K.K.",
+      "phrase": "cubbie"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "Dazed Tee",
+      "song": "Imperial K.K.",
+      "phrase": "cubbie"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Dazed Tee",
+      "song": "Imperial K.K.",
+      "phrase": "cubbie"
+    },
+    "hhd": {
+      "personality": "peppy",
+      "clothes": "Dazed Tee",
+      "song": "Imperial K.K.",
+      "phrase": "cubbie"
+    },
+    "pc": {
+      "personality": "peppy",
+      "clothes": "Dazed Tee",
+      "song": "Imperial K.K.",
+      "phrase": "cubbie"
+    }
+  },
+  "name": "Pinky",
+  "id": "pinky"
+}

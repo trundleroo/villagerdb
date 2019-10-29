@@ -1,0 +1,15 @@
+{
+  "gender": "female",
+  "species": "dog",
+  "birthday": "4-13",
+  "games": {
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Berry Gingham",
+      "song": "To the Edge",
+      "phrase": "kyun"
+    }
+  },
+  "name": "Megumi",
+  "id": "megumi"
+}

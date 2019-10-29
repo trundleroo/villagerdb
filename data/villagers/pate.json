@@ -1,0 +1,60 @@
+{
+  "gender": "female",
+  "species": "duck",
+  "birthday": "2-23",
+  "home_request": "A stylish Internet café",
+  "skill": "Pretending to sleep",
+  "goal": "Archaeologist",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Modern",
+  "games": {
+    "af": {
+      "personality": "peppy",
+      "clothes": "Winter Sweater",
+      "song": "K.K. Steppe",
+      "phrase": "quackle"
+    },
+    "af+": {
+      "personality": "peppy",
+      "clothes": "Winter Sweater",
+      "song": "K.K. Steppe",
+      "phrase": "quackle"
+    },
+    "ac": {
+      "personality": "peppy",
+      "clothes": "Winter Sweater",
+      "song": "K.K. Steppe",
+      "phrase": "quackle"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Winter Sweater",
+      "song": "K.K. Steppe",
+      "phrase": "quackle"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "Winter Sweater",
+      "song": "K.K. Steppe",
+      "phrase": "quackle"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "Winter Sweater",
+      "song": "K.K. Steppe",
+      "phrase": "quackle"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Winter Sweater",
+      "song": "K.K. Steppe",
+      "phrase": "quackle"
+    }
+  },
+  "name": "Pate",
+  "id": "pate"
+}

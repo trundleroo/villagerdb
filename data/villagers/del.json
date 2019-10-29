@@ -1,0 +1,36 @@
+{
+  "gender": "male",
+  "species": "alligator",
+  "birthday": "5-27",
+  "home_request": "A shrine of seafaring",
+  "skill": "Subsistence living",
+  "goal": "Firefighter",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Sporty",
+  "games": {
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "Wave Shirt",
+      "song": "K.K. March",
+      "phrase": "gronk"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "Blue-Stripe Tee",
+      "song": "K.K. March",
+      "phrase": "gronk"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Blue-Stripe Tee",
+      "song": "K.K. March",
+      "phrase": "gronk"
+    }
+  },
+  "name": "Del",
+  "id": "del"
+}

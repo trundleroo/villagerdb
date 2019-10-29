@@ -1,0 +1,66 @@
+{
+  "gender": "male",
+  "species": "bear",
+  "birthday": "7-1",
+  "home_request": "A glory-days trophy room",
+  "skill": "Whistling",
+  "goal": "Carpenter",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Iconic",
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "clothes": "MVP Tee",
+      "song": "K.K. Lament",
+      "phrase": "fuzzball"
+    },
+    "af+": {
+      "personality": "cranky",
+      "clothes": "MVP Tee",
+      "song": "K.K. Lament",
+      "phrase": "fuzzball"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "MVP Tee",
+      "song": "K.K. Lament",
+      "phrase": "fuzzball"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "MVP Tee",
+      "song": "K.K. Lament",
+      "phrase": "fuzzball"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "MVP Tee",
+      "song": "K.K. Lament",
+      "phrase": "fuzzball"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "MVP Tee",
+      "song": "K.K. Lament",
+      "phrase": "fuzzball"
+    },
+    "hhd": {
+      "personality": "cranky",
+      "clothes": "MVP Tee",
+      "song": "K.K. Lament",
+      "phrase": "fuzzball"
+    },
+    "pc": {
+      "personality": "cranky",
+      "clothes": "MVP Tee",
+      "song": "K.K. Lament",
+      "phrase": "fuzzball"
+    }
+  },
+  "name": "Curt",
+  "id": "curt"
+}

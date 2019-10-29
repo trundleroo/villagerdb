@@ -1,0 +1,72 @@
+{
+  "gender": "male",
+  "species": "wolf",
+  "birthday": "12-19",
+  "home_request": "A cool garage",
+  "skill": "Speed reading",
+  "goal": "Poet",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Iconic",
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "clothes": "Red-Bar Tee",
+      "song": "DJ K.K.",
+      "phrase": "harrumph"
+    },
+    "af+": {
+      "personality": "cranky",
+      "clothes": "Red-Bar Tee",
+      "song": "DJ K.K.",
+      "phrase": "harrumph"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "Red-Bar Tee",
+      "song": "DJ K.K.",
+      "phrase": "harrumph"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "Red-Bar Tee",
+      "song": "DJ K.K.",
+      "phrase": "harrumph"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "Red-Bar Tee",
+      "song": "DJ K.K.",
+      "phrase": "harrumph"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "Red-Bar Tee",
+      "song": "DJ K.K.",
+      "phrase": "harrumph"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Red-Bar Tee",
+      "song": "DJ K.K.",
+      "phrase": "harrumph"
+    },
+    "hhd": {
+      "personality": "cranky",
+      "clothes": "Red-Bar Tee",
+      "song": "DJ K.K.",
+      "phrase": "harrumph"
+    },
+    "pc": {
+      "personality": "cranky",
+      "clothes": "Red-Bar Tee",
+      "song": "DJ K.K.",
+      "phrase": "harrumph"
+    }
+  },
+  "name": "Chief",
+  "id": "chief"
+}

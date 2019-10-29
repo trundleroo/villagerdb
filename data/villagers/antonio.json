@@ -1,0 +1,78 @@
+{
+  "gender": "male",
+  "species": "anteater",
+  "birthday": "10-20",
+  "home_request": "A place decorated simply",
+  "skill": "Playing horseshoes",
+  "goal": "Baseball player",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Basic",
+  "games": {
+    "af": {
+      "personality": "jock",
+      "clothes": "Big-Star Tee",
+      "song": "K.K. Faire",
+      "phrase": "honk"
+    },
+    "af+": {
+      "personality": "jock",
+      "clothes": "Big-Star Tee",
+      "song": "K.K. Faire",
+      "phrase": "honk"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "Big-Star Tee",
+      "song": "K.K. Faire",
+      "phrase": "honk"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Big-Star Tee",
+      "song": "K.K. Faire",
+      "phrase": "honk"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "Big-Star Tee",
+      "song": "K.K. Faire",
+      "phrase": "honk"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "Big-Star Tee",
+      "song": "K.K. Faire",
+      "phrase": "honk"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "Big-Star Tee",
+      "song": "K.K. Faire",
+      "phrase": "honk"
+    },
+    "hhd": {
+      "personality": "jock",
+      "clothes": "Big-Star Tee",
+      "song": "K.K. Faire",
+      "phrase": "honk"
+    },
+    "pc": {
+      "personality": "jock",
+      "clothes": "Big-Star Tee",
+      "song": "K.K. Faire",
+      "phrase": "honk"
+    },
+    "nh": {
+      "personality": "jock",
+      "clothes": "Big-Star Tee",
+      "song": "K.K. Faire",
+      "phrase": "honk"
+    }
+  },
+  "name": "Antonio",
+  "id": "antonio"
+}

@@ -1,0 +1,54 @@
+{
+  "gender": "female",
+  "species": "frog",
+  "birthday": "10-27",
+  "home_request": "A dressing room",
+  "skill": "Ventriloquism",
+  "goal": "Artist",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Modern",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "clothes": "Prism Tee",
+      "song": "K.K. Country",
+      "phrase": "croak-kay"
+    },
+    "af+": {
+      "personality": "normal",
+      "clothes": "Prism Tee",
+      "song": "K.K. Country",
+      "phrase": "croak-kay"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Prism Tee",
+      "song": "K.K. Country",
+      "phrase": "croak-kay"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Prism Tee",
+      "song": "K.K. Country",
+      "phrase": "croak-kay"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "Prism Tee",
+      "song": "K.K. Country",
+      "phrase": "croak-kay"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Prism Tee",
+      "song": "K.K. Country",
+      "phrase": "croak-kay"
+    }
+  },
+  "name": "Jambette",
+  "id": "jambette"
+}

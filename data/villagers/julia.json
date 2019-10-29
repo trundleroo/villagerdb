@@ -1,0 +1,28 @@
+{
+  "gender": "female",
+  "species": "ostrich",
+  "birthday": "7-31",
+  "skill": "Computing",
+  "goal": "CEO",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Lots of milk",
+    "sugar": "3 spoonfuls of sugar"
+  },
+  "games": {
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Red Aloha Shirt",
+      "song": "K.K. Sonata",
+      "phrase": "dahling"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Purple Tie-Dye Tee",
+      "song": "K.K. Sonata",
+      "phrase": "dahling"
+    }
+  },
+  "name": "Julia",
+  "id": "julia"
+}

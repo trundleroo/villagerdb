@@ -1,0 +1,66 @@
+{
+  "gender": "male",
+  "species": "penguin",
+  "birthday": "4-6",
+  "home_request": "A dharma dream",
+  "skill": "Mental math",
+  "goal": "Firefighter",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Rock 'n' roll",
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "clothes": "Dragon Suit",
+      "song": "Lucky K.K.",
+      "phrase": "slushie"
+    },
+    "af+": {
+      "personality": "cranky",
+      "clothes": "Dragon Suit",
+      "song": "Lucky K.K.",
+      "phrase": "slushie"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "Dragon Suit",
+      "song": "Lucky K.K.",
+      "phrase": "slushie"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "Dragon Suit",
+      "song": "Lucky K.K.",
+      "phrase": "slushie"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "Dragon Suit",
+      "song": "Lucky K.K.",
+      "phrase": "slushie"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "Dragon Suit",
+      "song": "Lucky K.K.",
+      "phrase": "slushie"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Dragon Suit",
+      "song": "Lucky K.K.",
+      "phrase": "slushie"
+    },
+    "hhd": {
+      "personality": "cranky",
+      "clothes": "Dragon Suit",
+      "song": "Lucky K.K.",
+      "phrase": "slushie"
+    }
+  },
+  "name": "Hopper",
+  "id": "hopper"
+}

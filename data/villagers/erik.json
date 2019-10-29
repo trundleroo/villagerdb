@@ -1,0 +1,24 @@
+{
+  "gender": "male",
+  "species": "deer",
+  "birthday": "7-27",
+  "home_request": "A cozy mountain cottage",
+  "skill": "Playing horseshoes",
+  "goal": "Carpenter",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Basic",
+  "games": {
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Comfy Sweater",
+      "song": "Neapolitan",
+      "phrase": "chow down"
+    }
+  },
+  "name": "Erik",
+  "id": "erik"
+}

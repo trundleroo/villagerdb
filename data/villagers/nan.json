@@ -1,0 +1,54 @@
+{
+  "gender": "female",
+  "species": "goat",
+  "birthday": "8-24",
+  "home_request": "A zodiac-figurine stand",
+  "skill": "Playing horseshoes",
+  "goal": "Illustrator",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Basic",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "song": "K.K. Etude",
+      "phrase": "kid"
+    },
+    "af+": {
+      "personality": "normal",
+      "song": "K.K. Etude",
+      "phrase": "kid"
+    },
+    "ac": {
+      "personality": "normal",
+      "song": "K.K. Etude",
+      "phrase": "kid"
+    },
+    "afe+": {
+      "personality": "normal",
+      "song": "K.K. Etude",
+      "phrase": "kid"
+    },
+    "ww": {
+      "personality": "normal",
+      "song": "K.K. Etude",
+      "phrase": "kid"
+    },
+    "cf": {
+      "personality": "normal",
+      "song": "K.K. Etude",
+      "phrase": "kid"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Citrus Gingham ShirtStraw Shirt",
+      "song": "K.K. Etude",
+      "phrase": "kid"
+    }
+  },
+  "name": "Nan",
+  "id": "nan"
+}

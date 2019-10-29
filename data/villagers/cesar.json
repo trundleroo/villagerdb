@@ -1,0 +1,60 @@
+{
+  "gender": "male",
+  "species": "gorilla",
+  "birthday": "9-6",
+  "home_request": "A construction site",
+  "skill": "Vaulting",
+  "goal": "Basketball player",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Historical",
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "clothes": "A Tee",
+      "song": "K.K. Lament",
+      "phrase": "Highness"
+    },
+    "af+": {
+      "personality": "cranky",
+      "clothes": "A Tee",
+      "song": "K.K. Lament",
+      "phrase": "Highness"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "Two-Ball Tee",
+      "song": "K.K. Lament",
+      "phrase": "Highness"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "A Tee",
+      "song": "K.K. Lament",
+      "phrase": "Highness"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "A Tee",
+      "song": "K.K. Lament",
+      "phrase": "Highness"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "A Tee",
+      "song": "K.K. Lament",
+      "phrase": "Highness"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "A Tee",
+      "song": "K.K. Lament",
+      "phrase": "Highness"
+    }
+  },
+  "name": "Cesar",
+  "id": "cesar"
+}

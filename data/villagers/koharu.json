@@ -1,0 +1,14 @@
+{
+  "gender": "female",
+  "species": "kangaroo",
+  "birthday": "2-14",
+  "games": {
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Red Aloha Shirt",
+      "phrase": "choito"
+    }
+  },
+  "name": "Koharu",
+  "id": "koharu"
+}

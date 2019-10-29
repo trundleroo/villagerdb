@@ -1,0 +1,48 @@
+{
+  "gender": "female",
+  "species": "goat",
+  "birthday": "1-14",
+  "home_request": "A fully outfitted classroom",
+  "skill": "Speed reader",
+  "goal": "Lawyer",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Official",
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "clothes": "Cool Shirt",
+      "song": "K.K. Etude",
+      "phrase": "blih"
+    },
+    "af+": {
+      "personality": "snooty",
+      "clothes": "Cool Shirt",
+      "song": "K.K. Etude",
+      "phrase": "blih"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Cool Shirt",
+      "song": "K.K. Etude",
+      "phrase": "blih"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Cool Shirt",
+      "song": "K.K. Etude",
+      "phrase": "blih"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Swell Tee",
+      "song": "K.K. Etude",
+      "phrase": "blih"
+    }
+  },
+  "name": "Velma",
+  "id": "velma"
+}

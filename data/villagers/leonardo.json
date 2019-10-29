@@ -1,0 +1,30 @@
+{
+  "gender": "male",
+  "species": "tiger",
+  "birthday": "5-15",
+  "home_request": "A sports arena",
+  "skill": "Playing Catch",
+  "goal": "Soccer player",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "A little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Sporty",
+  "games": {
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Three-Ball Tee",
+      "song": "K.K. Safari",
+      "phrase": "flexin"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "Three-Ball Tee",
+      "song": "K.K. Safari",
+      "phrase": "flexin"
+    }
+  },
+  "name": "Leonardo",
+  "id": "leonardo"
+}

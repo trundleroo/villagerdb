@@ -1,0 +1,66 @@
+{
+  "gender": "male",
+  "species": "horse",
+  "birthday": "6-16",
+  "home_request": "A black and white bastion",
+  "skill": "Making crafts",
+  "goal": "Lawyer",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Sporty",
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "clothes": "Checkered Tee",
+      "song": "K.K. Dirge",
+      "phrase": "nay"
+    },
+    "af+": {
+      "personality": "cranky",
+      "clothes": "Checkered Tee",
+      "song": "K.K. Dirge",
+      "phrase": "nay"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "Checkered Tee",
+      "song": "K.K. Dirge",
+      "phrase": "nay"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "Checkered Tee",
+      "song": "K.K. Dirge",
+      "phrase": "nay"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "Checkered Tee",
+      "song": "K.K. Dirge",
+      "phrase": "nay"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "Checkered Tee",
+      "song": "K.K. Dirge",
+      "phrase": "nay"
+    },
+    "hhd": {
+      "personality": "cranky",
+      "clothes": "Checkered Tee",
+      "song": "K.K. Dirge",
+      "phrase": "nay"
+    },
+    "pc": {
+      "personality": "cranky",
+      "clothes": "Checkered Tee",
+      "song": "K.K. Dirge",
+      "phrase": "nay"
+    }
+  },
+  "name": "Roscoe",
+  "id": "roscoe"
+}

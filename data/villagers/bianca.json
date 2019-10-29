@@ -1,0 +1,36 @@
+{
+  "gender": "female",
+  "species": "tiger",
+  "birthday": "12-13",
+  "home_request": "A snowman's life",
+  "skill": "Vaulting",
+  "goal": "Figure Skater",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Modern",
+  "games": {
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Red Down Jacket",
+      "song": "K.K. House",
+      "phrase": "glimmer"
+    },
+    "hhd": {
+      "personality": "peppy",
+      "clothes": "Red Down Jacket",
+      "song": "K.K. House",
+      "phrase": "glimmer"
+    },
+    "pc": {
+      "personality": "peppy",
+      "clothes": "Red Down Jacket",
+      "song": "K.K. House",
+      "phrase": "glimmer"
+    }
+  },
+  "name": "Bianca",
+  "id": "bianca"
+}

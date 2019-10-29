@@ -1,0 +1,29 @@
+{
+  "gender": "female",
+  "species": "anteater",
+  "birthday": "1-29",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "clothes": "Hot Spring Shirt",
+      "phrase": "whiiifff"
+    },
+    "af+": {
+      "personality": "normal",
+      "clothes": "Hot Spring Shirt",
+      "phrase": "whiiifff"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Hot Spring Shirt",
+      "phrase": "whiiifff"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Hot Spring Shirt",
+      "phrase": "whiiifff"
+    }
+  },
+  "name": "Zoe",
+  "id": "zoe"
+}

@@ -1,0 +1,54 @@
+{
+  "gender": "male",
+  "species": "dog",
+  "birthday": "6-10",
+  "home_request": "A dream room...for a bike",
+  "skill": "Clearing my plate",
+  "goal": "Photographer",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Historical",
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "No. 67 Shirt",
+      "song": "Two Days Ago",
+      "phrase": "wuh"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "No. 67 Shirt",
+      "song": "Two Days Ago",
+      "phrase": "wuh"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "No. 67 Shirt",
+      "song": "Two Days Ago",
+      "phrase": "wuh"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "No. 67 Shirt",
+      "song": "Two Days Ago",
+      "phrase": "wuh"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "No. 67 Shirt",
+      "song": "Two Days Ago",
+      "phrase": "wuh"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "No. 67 Shirt",
+      "song": "Two Days Ago",
+      "phrase": "wuh"
+    }
+  },
+  "name": "Walker",
+  "id": "walker"
+}

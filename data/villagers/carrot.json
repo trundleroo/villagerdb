@@ -1,0 +1,14 @@
+{
+  "gender": "female",
+  "species": "cow",
+  "birthday": "5-18",
+  "games": {
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Tropical Shirt",
+      "phrase": "kyaha"
+    }
+  },
+  "name": "Carrot",
+  "id": "carrot"
+}

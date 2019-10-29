@@ -1,0 +1,45 @@
+{
+  "gender": "female",
+  "species": "hippo",
+  "birthday": "4-25",
+  "home_request": "A ton of baskets",
+  "skill": "Drawing circles",
+  "goal": "Lawyer",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Iconic",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "song": "Space K.K.",
+      "phrase": "bloop"
+    },
+    "af+": {
+      "personality": "normal",
+      "song": "Space K.K.",
+      "phrase": "bloop"
+    },
+    "ac": {
+      "personality": "normal",
+      "song": "Space K.K.",
+      "phrase": "bloop"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Pink Tartan Shirt",
+      "song": "Space K.K.",
+      "phrase": "bloop"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Funky-Dot Tee",
+      "song": "Space K.K.",
+      "phrase": "bloop"
+    }
+  },
+  "name": "Bertha",
+  "id": "bertha"
+}

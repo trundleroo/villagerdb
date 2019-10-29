@@ -1,0 +1,15 @@
+{
+  "gender": "female",
+  "species": "cat",
+  "birthday": "8-6",
+  "games": {
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Blossom Shirt",
+      "song": "K.K. Gumbo",
+      "phrase": "meow"
+    }
+  },
+  "name": "Meow",
+  "id": "meow"
+}

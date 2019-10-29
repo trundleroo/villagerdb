@@ -1,0 +1,30 @@
+{
+  "gender": "male",
+  "species": "anteater",
+  "birthday": "5-19",
+  "home_request": "A million-Bell view",
+  "skill": "Dancing",
+  "goal": "Dancer",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Official",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "Matador's Jacket",
+      "song": "K.K. Milonga",
+      "phrase": "whiffa"
+    },
+    "hhd": {
+      "personality": "smug",
+      "clothes": "Matador's Jacket",
+      "song": "K.K. Milonga",
+      "phrase": "whiffa"
+    }
+  },
+  "name": "Olaf",
+  "id": "olaf"
+}

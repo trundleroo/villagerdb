@@ -1,0 +1,78 @@
+{
+  "gender": "male",
+  "species": "wolf",
+  "birthday": "11-25",
+  "home_request": "A monument to rock",
+  "skill": "Memorizing stuff",
+  "goal": "Journalist",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Modern",
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "clothes": "Gracie Tank",
+      "song": "K.K. Song",
+      "phrase": "snarrrl snurfff"
+    },
+    "af+": {
+      "personality": "cranky",
+      "clothes": "Gracie Tank",
+      "song": "K.K. Song",
+      "phrase": "snarrrl snurfff"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "Gracie Tank",
+      "song": "K.K. Song",
+      "phrase": "snarrrl snurfff"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "Gracie Tank",
+      "song": "K.K. Song",
+      "phrase": "snarrrl snurfff"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "Gracie Tank",
+      "song": "K.K. Song",
+      "phrase": "snarrrl snurfff"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "Gracie Tank",
+      "song": "K.K. Song",
+      "phrase": "snarrrl snurfff"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Gracie Tank",
+      "song": "K.K. Song",
+      "phrase": "snarrrl snurfff"
+    },
+    "hhd": {
+      "personality": "cranky",
+      "clothes": "Gracie Tank",
+      "song": "K.K. Song",
+      "phrase": "snarrrl snurfff"
+    },
+    "pc": {
+      "personality": "cranky",
+      "clothes": "Gracie Tank",
+      "song": "K.K. Song",
+      "phrase": "snarrrl snurfff"
+    },
+    "nh": {
+      "personality": "cranky",
+      "clothes": "Gracie Tank",
+      "song": "K.K. Song",
+      "phrase": "snarrrl snurfff"
+    }
+  },
+  "name": "Wolfgang",
+  "id": "wolfgang"
+}

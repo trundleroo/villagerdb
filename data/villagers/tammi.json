@@ -1,0 +1,35 @@
+{
+  "gender": "female",
+  "species": "monkey",
+  "birthday": "4-1",
+  "skill": "Making puns",
+  "goal": "Artist",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Flashy",
+  "games": {
+    "ww": {
+      "personality": "peppy",
+      "clothes": "New Spring Tee",
+      "song": "Imperial K.K.",
+      "phrase": "chimpy"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "New Spring Tee",
+      "song": "Imperial K.K.",
+      "phrase": "chimpy"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "New Spring Tee",
+      "song": "Imperial K.K.",
+      "phrase": "chimpy"
+    }
+  },
+  "name": "Tammi",
+  "id": "tammi"
+}

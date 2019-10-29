@@ -1,0 +1,29 @@
+{
+  "gender": "male",
+  "species": "bear",
+  "birthday": "3-10",
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "Bear Shirt",
+      "phrase": "zzzzzz"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "Bear Shirt",
+      "phrase": "zzzzzz"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "Bear Shirt",
+      "phrase": "zzzzzz"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Bear Shirt",
+      "phrase": "zzzzzz"
+    }
+  },
+  "name": "Dozer",
+  "id": "dozer"
+}

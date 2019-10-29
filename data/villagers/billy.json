@@ -1,0 +1,46 @@
+{
+  "gender": "male",
+  "species": "goat",
+  "birthday": "3-25",
+  "skill": "Subsistence living",
+  "goal": "Archaeologist",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "games": {
+    "af": {
+      "personality": "jock",
+      "clothes": "Sharp Outfit",
+      "song": "K.K. Sonata",
+      "phrase": "dagnaabit"
+    },
+    "af+": {
+      "personality": "jock",
+      "clothes": "Sharp Outfit",
+      "song": "K.K. Sonata",
+      "phrase": "dagnaabit"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "Sharp Outfit",
+      "song": "K.K. Sonata",
+      "phrase": "dagnaabit"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Sharp Outfit",
+      "song": "K.K. Sonata",
+      "phrase": "dagnaabit"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "Sharp Outfit",
+      "song": "K.K. Sonata",
+      "phrase": "dagnaabit"
+    }
+  },
+  "name": "Billy",
+  "id": "billy"
+}

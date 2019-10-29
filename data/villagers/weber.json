@@ -1,0 +1,43 @@
+{
+  "gender": "male",
+  "species": "duck",
+  "birthday": "6-30",
+  "skill": "Beat boxing",
+  "goal": "Musician",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Lots of milk",
+    "sugar": "3 spoonfuls of sugar"
+  },
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "song": "K.K. Fusion",
+      "phrase": "quaa"
+    },
+    "af+": {
+      "personality": "lazy",
+      "song": "K.K. Fusion",
+      "phrase": "quaa"
+    },
+    "ac": {
+      "personality": "lazy",
+      "song": "K.K. Fusion",
+      "phrase": "quaa"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Fish Knit",
+      "song": "K.K. Fusion",
+      "phrase": "quaa"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Bubble Tee",
+      "song": "K.K. Fusion",
+      "phrase": "quaa"
+    }
+  },
+  "name": "Weber",
+  "id": "weber"
+}

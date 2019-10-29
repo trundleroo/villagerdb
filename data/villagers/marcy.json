@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "kangaroo",
+  "birthday": "5-31",
+  "games": {
+    "af": {
+      "personality": "peppy",
+      "clothes": "Slushie Shirt",
+      "song": "Aloha K.K.",
+      "phrase": "young 'un"
+    },
+    "af+": {
+      "personality": "peppy",
+      "clothes": "Slushie Shirt",
+      "song": "Aloha K.K.",
+      "phrase": "young 'un"
+    },
+    "ac": {
+      "personality": "peppy",
+      "clothes": "Slushie Shirt",
+      "song": "Aloha K.K.",
+      "phrase": "young 'un"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Slushie Shirt",
+      "song": "Aloha K.K.",
+      "phrase": "young 'un"
+    }
+  },
+  "name": "Marcy",
+  "id": "marcy"
+}

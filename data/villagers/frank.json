@@ -1,0 +1,30 @@
+{
+  "gender": "male",
+  "species": "eagle",
+  "birthday": "7-30",
+  "home_request": "A miniatures museum",
+  "skill": "Pretending to sleep",
+  "goal": "Teacher",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Rock 'n' roll",
+  "games": {
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "Blue Aloha Shirt",
+      "song": "K.K. Casbah",
+      "phrase": "crushy"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Black Letter Jacket",
+      "song": "K.K. Casbah",
+      "phrase": "crushy"
+    }
+  },
+  "name": "Frank",
+  "id": "frank"
+}

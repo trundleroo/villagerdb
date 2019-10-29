@@ -1,0 +1,24 @@
+{
+  "gender": "male",
+  "species": "bird",
+  "birthday": "9-22",
+  "games": {
+    "af+": {
+      "personality": "cranky",
+      "clothes": "Blue Aloha Shirt",
+      "phrase": "babe"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "Blue Aloha Shirt",
+      "phrase": "babe"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "Blue Aloha Shirt",
+      "phrase": "babe"
+    }
+  },
+  "name": "Flash",
+  "id": "flash"
+}

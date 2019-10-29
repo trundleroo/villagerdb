@@ -1,0 +1,60 @@
+{
+  "gender": "female",
+  "species": "dog",
+  "birthday": "11-16",
+  "home_request": "A magnet for Santa",
+  "skill": "Making budgets",
+  "goal": "Archaeologist",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Basic",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "clothes": "Kiddie Tee",
+      "song": "K.K. Soul",
+      "phrase": "bow-WOW"
+    },
+    "af+": {
+      "personality": "normal",
+      "clothes": "Kiddie Tee",
+      "song": "K.K. Soul",
+      "phrase": "bow-WOW"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Kiddie Tee",
+      "song": "K.K. Soul",
+      "phrase": "bow-WOW"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Kiddie Tee",
+      "song": "K.K. Soul",
+      "phrase": "bow-WOW"
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "Kiddie Tee",
+      "song": "K.K. Soul",
+      "phrase": "bow-WOW"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "Kiddie Tee",
+      "song": "K.K. Soul",
+      "phrase": "bow-WOW"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Kiddie Tee",
+      "song": "K.K. Soul",
+      "phrase": "bow-WOW"
+    }
+  },
+  "name": "Daisy",
+  "id": "daisy"
+}

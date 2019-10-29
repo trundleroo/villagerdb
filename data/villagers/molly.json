@@ -1,0 +1,36 @@
+{
+  "gender": "female",
+  "species": "duck",
+  "birthday": "3-7",
+  "home_request": "A publishing house",
+  "skill": "Drawing circles",
+  "goal": "Florist",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Official",
+  "games": {
+    "nl": {
+      "personality": "normal",
+      "clothes": "Canary Shirt",
+      "song": "K.K. Ballad",
+      "phrase": "quackidee"
+    },
+    "hhd": {
+      "personality": "normal",
+      "clothes": "Canary Shirt",
+      "song": "K.K. Ballad",
+      "phrase": "quackidee"
+    },
+    "pc": {
+      "personality": "normal",
+      "clothes": "Canary Shirt",
+      "song": "K.K. Ballad",
+      "phrase": "quackidee"
+    }
+  },
+  "name": "Molly",
+  "id": "molly"
+}

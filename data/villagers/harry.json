@@ -1,0 +1,36 @@
+{
+  "gender": "male",
+  "species": "hippo",
+  "birthday": "1-7",
+  "home_request": "A slop-tastic pad",
+  "skill": "Tongue twisters",
+  "goal": "Fisherman",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Historical",
+  "games": {
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Blue Aloha Shirt",
+      "song": "K.K. Calypso",
+      "phrase": "beach bum"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "Jungle-Camo Tee",
+      "song": "K.K. Calypso",
+      "phrase": "beach bum"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Jungle-Camo Tee",
+      "song": "K.K. Calypso",
+      "phrase": "beach bum"
+    }
+  },
+  "name": "Harry",
+  "id": "harry"
+}

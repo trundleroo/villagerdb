@@ -1,0 +1,24 @@
+{
+  "gender": "male",
+  "species": "duck",
+  "birthday": "12-22",
+  "home_request": "A recording studio",
+  "skill": "Skimming books",
+  "goal": "Musician",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Sporty",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "Tan Puffy Vest",
+      "song": "K.K. Groove",
+      "phrase": "ridukulous"
+    }
+  },
+  "name": "Quillson",
+  "id": "quillson"
+}

@@ -1,0 +1,54 @@
+{
+  "gender": "male",
+  "species": "frog",
+  "birthday": "12-17",
+  "home_request": "A restaurant for exotic food",
+  "skill": "Telling jokes",
+  "goal": "CEO",
+  "coffee": {
+    "beans": "Blue mountain",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Iconic",
+  "games": {
+    "af": {
+      "personality": "jock",
+      "clothes": "Rally Tee",
+      "song": "Imperial K.K.",
+      "phrase": "oui oui"
+    },
+    "af+": {
+      "personality": "jock",
+      "clothes": "Rally Tee",
+      "song": "Imperial K.K.",
+      "phrase": "oui oui"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "Rally Tee",
+      "song": "Imperial K.K.",
+      "phrase": "oui oui"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Rally Tee",
+      "song": "Imperial K.K.",
+      "phrase": "oui oui"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "Rally Tee",
+      "song": "Imperial K.K.",
+      "phrase": "oui oui"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "Rally Tee",
+      "song": "Imperial K.K.",
+      "phrase": "oui oui"
+    }
+  },
+  "name": "Cousteau",
+  "id": "cousteau"
+}

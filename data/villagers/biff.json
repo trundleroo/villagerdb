@@ -1,0 +1,48 @@
+{
+  "gender": "male",
+  "species": "hippo",
+  "birthday": "3-29",
+  "home_request": "A sci-fi space",
+  "skill": "Limboing",
+  "goal": "Basketball Player",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Flashy",
+  "games": {
+    "af": {
+      "personality": "jock",
+      "clothes": "Jagged Tee",
+      "song": "The K. Funk",
+      "phrase": "squirt"
+    },
+    "af+": {
+      "personality": "jock",
+      "clothes": "Jagged Tee",
+      "song": "The K. Funk",
+      "phrase": "squirt"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "Jagged Tee",
+      "song": "The K. Funk",
+      "phrase": "squirt"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Jagged Tee",
+      "song": "The K. Funk",
+      "phrase": "squirt"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "Jagged Tee",
+      "song": "The K. Funk",
+      "phrase": "squirt"
+    }
+  },
+  "name": "Biff",
+  "id": "biff"
+}

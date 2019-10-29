@@ -1,0 +1,54 @@
+{
+  "gender": "female",
+  "species": "bird",
+  "birthday": "3-12",
+  "home_request": "Midge's hair salon",
+  "skill": "Tongue twisters",
+  "goal": "Artist",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Iconic",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "clothes": "New Spring Tee",
+      "song": "K.K. Lullaby",
+      "phrase": "tweedledee"
+    },
+    "af+": {
+      "personality": "normal",
+      "clothes": "New Spring Tee",
+      "song": "K.K. Lullaby",
+      "phrase": "tweedledee"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "New Spring Tee",
+      "song": "K.K. Lullaby",
+      "phrase": "tweedledee"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "New Spring Tee",
+      "song": "K.K. Lullaby",
+      "phrase": "tweedledee"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "New Spring Tee",
+      "song": "K.K. Lullaby",
+      "phrase": "tweedledee"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "New Spring Tee",
+      "song": "K.K. Lullaby",
+      "phrase": "tweedledee"
+    }
+  },
+  "name": "Midge",
+  "id": "midge"
+}

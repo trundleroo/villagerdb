@@ -1,0 +1,23 @@
+{
+  "gender": "male",
+  "species": "octopus",
+  "birthday": "3-8",
+  "skill": "Baton twirling",
+  "goal": "Chef",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "A little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Official",
+  "games": {
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Flan Tank",
+      "song": "Spring Blossoms",
+      "phrase": "bloop"
+    }
+  },
+  "name": "Zucker",
+  "id": "zucker"
+}

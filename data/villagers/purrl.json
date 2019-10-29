@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "cat",
+  "birthday": "5-29",
+  "home_request": "A cozy kotatsu cottage",
+  "skill": "Writing backward",
+  "goal": "Movie director",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Iconic",
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "song": "K.K. Swing",
+      "phrase": "kitten"
+    },
+    "af+": {
+      "personality": "snooty",
+      "song": "K.K. Swing",
+      "phrase": "kitten"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Deep Blue Shirt",
+      "song": "K.K. Swing",
+      "phrase": "kitten"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "song": "K.K. Swing",
+      "phrase": "kitten"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "Asian Shirt",
+      "song": "K.K. Swing",
+      "phrase": "kitten"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "Asian Shirt",
+      "song": "K.K. Swing",
+      "phrase": "kitten"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Periwinkle Tee",
+      "song": "K.K. Swing",
+      "phrase": "kitten"
+    }
+  },
+  "name": "Purrl",
+  "id": "purrl"
+}

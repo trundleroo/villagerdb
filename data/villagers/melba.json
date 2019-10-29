@@ -1,0 +1,36 @@
+{
+  "gender": "female",
+  "species": "koala",
+  "birthday": "4-12",
+  "home_request": "A scene from a fairy tale",
+  "skill": "Yo-yoing",
+  "goal": "Professor",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Basic",
+  "games": {
+    "ww": {
+      "personality": "normal",
+      "clothes": "Green-Stripe Tank",
+      "song": "K.K. Ragtime",
+      "phrase": "toasty"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "Green-Stripe Tank",
+      "song": "K.K. Ragtime",
+      "phrase": "toasty"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Green-Stripe Tank",
+      "song": "K.K. Ragtime",
+      "phrase": "toasty"
+    }
+  },
+  "name": "Melba",
+  "id": "melba"
+}

@@ -1,0 +1,30 @@
+{
+  "gender": "male",
+  "species": "hippo",
+  "birthday": "10-15",
+  "home_request": "An artist's studio",
+  "skill": "Juggling",
+  "goal": "Actor",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Ornate",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "Beige Emblem Blazer",
+      "song": "K.K. Moody",
+      "phrase": "Natch"
+    },
+    "pc": {
+      "personality": "smug",
+      "clothes": "Beige Emblem Blazer",
+      "song": "K.K. Moody",
+      "phrase": "Natch"
+    }
+  },
+  "name": "Hippeux",
+  "id": "hippeux"
+}

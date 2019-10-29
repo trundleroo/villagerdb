@@ -1,0 +1,75 @@
+{
+  "gender": "male",
+  "species": "dog",
+  "birthday": "11-1",
+  "home_request": "A cool dog park",
+  "skill": "Air guitar",
+  "goal": "Race car driver",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Sporty",
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "clothes": "Houndstooth Knit",
+      "song": "K.K. Fusion",
+      "phrase": "ROOOOOWF"
+    },
+    "af+": {
+      "personality": "cranky",
+      "clothes": "Houndstooth Knit",
+      "song": "K.K. Fusion",
+      "phrase": "ROOOOOWF"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "Houndstooth Knit",
+      "song": "K.K. Fusion",
+      "phrase": "ROOOOOWF"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "Houndstooth Knit",
+      "song": "K.K. Fusion",
+      "phrase": "ROOOOOWF"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "Arctic-Camo Tee",
+      "song": "K.K. Fusion",
+      "phrase": "ROOOOOWF"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "Arctic-Camo Tee",
+      "song": "K.K. Fusion",
+      "phrase": "ROOOOOWF"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Arctic-Camo Tee",
+      "song": "K.K. Fusion",
+      "phrase": "ROOOOOWF"
+    },
+    "hhd": {
+      "personality": "cranky",
+      "song": "K.K. Fusion",
+      "phrase": "ROOOOOWF"
+    },
+    "pc": {
+      "personality": "cranky",
+      "song": "K.K. Fusion",
+      "phrase": "ROOOOOWF"
+    },
+    "nh": {
+      "personality": "cranky",
+      "song": "K.K. Fusion",
+      "phrase": "ROOOOOWF"
+    }
+  },
+  "name": "Butch",
+  "id": "butch"
+}

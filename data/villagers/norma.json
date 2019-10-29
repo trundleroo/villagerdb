@@ -1,0 +1,28 @@
+{
+  "gender": "female",
+  "species": "cow",
+  "birthday": "9-20",
+  "skill": "Karaoke",
+  "goal": "Teacher",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "games": {
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Red Aloha Shirt",
+      "song": "Mountain Song",
+      "phrase": "hoof hoo"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Blue Tartan Shirt",
+      "song": "Mountain Song",
+      "phrase": "hoof hoo"
+    }
+  },
+  "name": "Norma",
+  "id": "norma"
+}

@@ -1,0 +1,30 @@
+{
+  "gender": "female",
+  "species": "rabbit",
+  "birthday": "3-3",
+  "home_request": "The \"it\" house",
+  "skill": "Competitive eating",
+  "goal": "Swimmer",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "The regular amount of milk",
+    "sugar": "2 spoonfuls of sugar"
+  },
+  "style": "Cute",
+  "games": {
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Chocomint Tee",
+      "song": "K.K. Disco",
+      "phrase": "deelish"
+    },
+    "hhd": {
+      "personality": "peppy",
+      "clothes": "Chocomint Tee",
+      "song": "K.K. Disco",
+      "phrase": "deelish"
+    }
+  },
+  "name": "Bonbon",
+  "id": "bonbon"
+}

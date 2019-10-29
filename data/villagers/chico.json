@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "mouse",
+  "birthday": "1-3",
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "Blue plaid tee",
+      "song": "K.K. Faire",
+      "phrase": "cheeeeese"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "Blue plaid tee",
+      "song": "K.K. Faire",
+      "phrase": "cheeeeese"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "Blue plaid tee",
+      "song": "K.K. Faire",
+      "phrase": "cheeeeese"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Blue plaid tee",
+      "song": "K.K. Faire",
+      "phrase": "cheeeeese"
+    }
+  },
+  "name": "Chico",
+  "id": "chico"
+}

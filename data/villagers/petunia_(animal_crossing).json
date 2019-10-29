@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "cow",
+  "birthday": "4-24",
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "clothes": "Spunky Knit",
+      "song": "K.K. Country",
+      "phrase": "moo la la"
+    },
+    "af+": {
+      "personality": "snooty",
+      "clothes": "Spunky Knit",
+      "song": "K.K. Country",
+      "phrase": "moo la la"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Spunky Knit",
+      "song": "K.K. Country",
+      "phrase": "moo la la"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Spunky Knit",
+      "song": "K.K. Country",
+      "phrase": "moo la la"
+    }
+  },
+  "name": "Petunia",
+  "id": "petunia_(animal_crossing)"
+}

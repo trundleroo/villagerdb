@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "cub",
+  "birthday": "5-29",
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "clothes": "Dreamy Shirt",
+      "song": "K.K. Waltz",
+      "phrase": "sugar pie"
+    },
+    "af+": {
+      "personality": "snooty",
+      "clothes": "Dreamy Shirt",
+      "song": "K.K. Waltz",
+      "phrase": "sugar pie"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Dreamy Shirt",
+      "song": "K.K. Waltz",
+      "phrase": "sugar pie"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Dreamy Shirt",
+      "song": "K.K. Waltz",
+      "phrase": "sugar pie"
+    }
+  },
+  "name": "Cupcake",
+  "id": "cupcake"
+}

@@ -1,0 +1,65 @@
+{
+  "gender": "female",
+  "species": "rabbit",
+  "birthday": "6-14",
+  "home_request": "A striped room",
+  "skill": "Debating",
+  "goal": "Superhero",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Basic",
+  "games": {
+    "af": {
+      "personality": "peppy",
+      "clothes": "Ugly shirt",
+      "song": "K.K. Mambo",
+      "phrase": "li'l hare"
+    },
+    "af+": {
+      "personality": "peppy",
+      "clothes": "Ugly shirt",
+      "song": "K.K. Mambo",
+      "phrase": "li'l hare"
+    },
+    "ac": {
+      "personality": "peppy",
+      "clothes": "Ugly shirt",
+      "song": "K.K. Mambo",
+      "phrase": "li'l hare"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Ugly shirt",
+      "song": "K.K. Mambo",
+      "phrase": "li'l hare"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "Mint Gingham Tee",
+      "song": "K.K. Mambo",
+      "phrase": "li'l hare"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "Mint Gingham Tee",
+      "song": "K.K. Mambo",
+      "phrase": "li'l hare"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Mint Gingham Tee",
+      "song": "K.K. Mambo",
+      "phrase": "li'l hare"
+    },
+    "hhd": {
+      "personality": "peppy",
+      "song": "K.K. Mambo",
+      "phrase": "li'l hare"
+    }
+  },
+  "name": "Pippy",
+  "id": "pippy"
+}

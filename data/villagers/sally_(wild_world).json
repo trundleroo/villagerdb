@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "squirrel",
+  "birthday": "6-19",
+  "home_request": "A green space with flowers",
+  "skill": "Blowing bubbles",
+  "goal": "Chef",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "A little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Official",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "song": "K.K. Fusion",
+      "phrase": "nutmeg"
+    },
+    "af+": {
+      "personality": "normal",
+      "song": "K.K. Fusion",
+      "phrase": "nutmeg"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Neo-Classic Knit",
+      "song": "K.K. Fusion",
+      "phrase": "nutmeg"
+    },
+    "afe+": {
+      "personality": "normal",
+      "song": "K.K. Fusion",
+      "phrase": "nutmeg"
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "Icy Shirt",
+      "song": "K.K. Fusion",
+      "phrase": "nutmeg"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "Icy Shirt",
+      "song": "K.K. Fusion",
+      "phrase": "nutmeg"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Icy Shirt",
+      "song": "K.K. Fusion",
+      "phrase": "nutmeg"
+    }
+  },
+  "name": "Sally",
+  "id": "sally_(wild_world)"
+}

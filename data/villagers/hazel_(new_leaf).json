@@ -1,0 +1,24 @@
+{
+  "gender": "female",
+  "species": "squirrel",
+  "birthday": "8-30",
+  "home_request": "A comic artist's workshop.",
+  "skill": "Making Budgets",
+  "goal": "Dentist",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Iconic",
+  "games": {
+    "nl": {
+      "personality": "uchi",
+      "clothes": "Red Warmup Suit",
+      "song": "K.K. Disco",
+      "phrase": "uni-wow"
+    }
+  },
+  "name": "Hazel",
+  "id": "hazel_(new_leaf)"
+}

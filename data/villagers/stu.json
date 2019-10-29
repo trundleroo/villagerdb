@@ -1,0 +1,46 @@
+{
+  "gender": "male",
+  "species": "bull",
+  "birthday": "4-20",
+  "skill": "Hitting snooze",
+  "goal": "Firefighter",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "a little bit of milk",
+    "sugar": "1 spoonful of sugar"
+  },
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "seven-ball Shirt",
+      "song": "K.K. Rockabilly",
+      "phrase": "moo-dude"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "seven-ball Shirt",
+      "song": "K.K. Rockabilly",
+      "phrase": "moo-dude"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "seven-ball Shirt",
+      "song": "K.K. Rockabilly",
+      "phrase": "moo-dude"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "seven-ball Shirt",
+      "song": "K.K. Rockabilly",
+      "phrase": "moo-dude"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "seven-ball Shirt",
+      "song": "K.K. Rockabilly",
+      "phrase": "moo-dude"
+    }
+  },
+  "name": "Stu",
+  "id": "stu"
+}

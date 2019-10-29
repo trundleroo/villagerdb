@@ -1,0 +1,60 @@
+{
+  "gender": "female",
+  "species": "chicken",
+  "birthday": "4-28",
+  "home_request": "A professional kitchen",
+  "skill": "Peeling apples",
+  "goal": "Pastry Chef",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Official",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "clothes": "Checkerboard Tee",
+      "song": "K.K. Country",
+      "phrase": "beaker"
+    },
+    "af+": {
+      "personality": "normal",
+      "clothes": "Checkerboard Tee",
+      "song": "K.K. Country",
+      "phrase": "beaker"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Checkerboard Tee",
+      "song": "K.K. Country",
+      "phrase": "beaker"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Checkerboard Tee",
+      "song": "K.K. Country",
+      "phrase": "beaker"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Checkerboard Tee",
+      "song": "K.K. Country",
+      "phrase": "beaker"
+    },
+    "hhd": {
+      "personality": "normal",
+      "clothes": "Checkerboard Tee",
+      "song": "K.K. Country",
+      "phrase": "beaker"
+    },
+    "pc": {
+      "personality": "normal",
+      "clothes": "Checkerboard Tee",
+      "song": "K.K. Country",
+      "phrase": "beaker"
+    }
+  },
+  "name": "Ava",
+  "id": "ava"
+}

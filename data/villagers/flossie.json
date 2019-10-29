@@ -1,0 +1,24 @@
+{
+  "gender": "female",
+  "species": "mouse",
+  "birthday": "3-30",
+  "games": {
+    "af+": {
+      "personality": "peppy",
+      "clothes": "Red Aloha Shirt",
+      "phrase": "meep"
+    },
+    "ac": {
+      "personality": "peppy",
+      "clothes": "Red Aloha Shirt",
+      "phrase": "meep"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Red Aloha Shirt",
+      "phrase": "meep"
+    }
+  },
+  "name": "Flossie",
+  "id": "flossie"
+}

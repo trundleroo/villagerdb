@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "dog",
+  "birthday": "10-25",
+  "home_request": "A tribute to Festivale",
+  "skill": "Photography",
+  "goal": "Stylist",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls sugar"
+  },
+  "style": "Modern",
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "song": "Cafe K.K.",
+      "phrase": "ruffian"
+    },
+    "af+": {
+      "personality": "snooty",
+      "song": "Cafe K.K.",
+      "phrase": "ruffian"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Polar Fleece",
+      "song": "Cafe K.K.",
+      "phrase": "ruffian"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "song": "Cafe K.K.",
+      "phrase": "ruffian"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "Polar Fleece",
+      "song": "Cafe K.K.",
+      "phrase": "ruffian"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "Polar Fleece",
+      "song": "Cafe K.K.",
+      "phrase": "ruffian"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Blue Diamond Tee",
+      "song": "Cafe K.K.",
+      "phrase": "ruffian"
+    }
+  },
+  "name": "Portia",
+  "id": "portia"
+}

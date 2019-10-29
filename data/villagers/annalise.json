@@ -1,0 +1,47 @@
+{
+  "gender": "female",
+  "species": "horse",
+  "birthday": "12-2",
+  "home_request": "A stained-glass tearoom",
+  "skill": "Brainteasers",
+  "goal": "Chef",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Official",
+  "games": {
+    "af+": {
+      "personality": "snooty",
+      "clothes": "Red Aloha Shirt",
+      "song": "K.K. Sonata",
+      "phrase": "nipper"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Red Aloha Shirt",
+      "song": "K.K. Sonata",
+      "phrase": "nipper"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Red Aloha Shirt",
+      "song": "K.K. Sonata",
+      "phrase": "nipper"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Tropical Tee",
+      "song": "K.K. Sonata",
+      "phrase": "nipper"
+    },
+    "hhd": {
+      "personality": "snooty",
+      "song": "K.K. Sonata",
+      "phrase": "nipper"
+    }
+  },
+  "name": "Annalise",
+  "id": "annalise"
+}

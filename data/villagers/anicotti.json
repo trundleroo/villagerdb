@@ -1,0 +1,55 @@
+{
+  "gender": "female",
+  "species": "mouse",
+  "birthday": "2-24",
+  "home_request": "A pizza-party space",
+  "skill": "Oversleeping",
+  "goal": "Photographer",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Flashy",
+  "games": {
+    "af": {
+      "personality": "peppy",
+      "song": "Neapolitan",
+      "phrase": "cannoli"
+    },
+    "af+": {
+      "personality": "peppy",
+      "song": "Neapolitan",
+      "phrase": "cannoli"
+    },
+    "ac": {
+      "personality": "peppy",
+      "clothes": "Desert Shirt",
+      "song": "Neapolitan",
+      "phrase": "cannoli"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "song": "Neapolitan",
+      "phrase": "cannoli"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Peachy Tee",
+      "song": "Neapolitan",
+      "phrase": "cannoli"
+    },
+    "hhd": {
+      "personality": "peppy",
+      "song": "Neapolitan",
+      "phrase": "cannoli"
+    },
+    "pc": {
+      "personality": "peppy",
+      "song": "Neapolitan",
+      "phrase": "cannoli"
+    }
+  },
+  "name": "Anicotti",
+  "id": "anicotti"
+}

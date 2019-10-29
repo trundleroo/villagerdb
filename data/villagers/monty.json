@@ -1,0 +1,36 @@
+{
+  "gender": "male",
+  "species": "monkey",
+  "birthday": "12-7",
+  "home_request": "A monkey mansion",
+  "skill": "Yo-yoing",
+  "goal": "Detective",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Iconic",
+  "games": {
+    "ww": {
+      "personality": "cranky",
+      "clothes": "Blue-Bar Tee",
+      "song": "Pondering",
+      "phrase": "g'tang"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "Blue-Bar Tee",
+      "song": "Pondering",
+      "phrase": "g'tang"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Blue-Bar Tee",
+      "song": "Pondering",
+      "phrase": "g'tang"
+    }
+  },
+  "name": "Monty",
+  "id": "monty"
+}

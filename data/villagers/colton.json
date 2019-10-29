@@ -1,0 +1,36 @@
+{
+  "gender": "male",
+  "species": "horse",
+  "birthday": "5-22",
+  "home_request": "A noble living space",
+  "skill": "Writing about pickles",
+  "goal": "Model",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Ornate",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "Blue Ringmaster Coat",
+      "song": "Only Me",
+      "phrase": "check it"
+    },
+    "hhd": {
+      "personality": "smug",
+      "clothes": "Blue Ringmaster Coat",
+      "song": "Only Me",
+      "phrase": "check it"
+    },
+    "pc": {
+      "personality": "smug",
+      "clothes": "Blue Ringmaster Coat",
+      "song": "Only Me",
+      "phrase": "check it"
+    }
+  },
+  "name": "Colton",
+  "id": "colton"
+}

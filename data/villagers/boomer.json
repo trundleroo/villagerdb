@@ -1,0 +1,53 @@
+{
+  "gender": "male",
+  "species": "penguin",
+  "birthday": "2-7",
+  "home_request": "A captain's cockpit",
+  "skill": "Oversleeping",
+  "goal": "Pilot",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "A little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Historical",
+  "games": {
+    "af+": {
+      "personality": "lazy",
+      "clothes": "Blue Aloha Shirt",
+      "song": "Aloha K.K.",
+      "phrase": "tu-tutu"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "Blue Aloha Shirt",
+      "song": "Aloha K.K.",
+      "phrase": "tu-tutu"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Blue Aloha Shirt",
+      "song": "Aloha K.K.",
+      "phrase": "tu-tutu"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "Explorer Tee",
+      "song": "Aloha K.K.",
+      "phrase": "tu-tutu"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Explorer Tee",
+      "song": "Aloha K.K.",
+      "phrase": "tu-tutu"
+    },
+    "hhd": {
+      "personality": "lazy",
+      "song": "Aloha K.K.",
+      "phrase": "tu-tutu"
+    }
+  },
+  "name": "Boomer",
+  "id": "boomer"
+}

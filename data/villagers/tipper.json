@@ -1,0 +1,36 @@
+{
+  "gender": "female",
+  "species": "cow",
+  "birthday": "8-25",
+  "home_request": "A dairy farm",
+  "skill": "Staying up late",
+  "goal": "Violinist",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Flashy",
+  "games": {
+    "ww": {
+      "personality": "snooty",
+      "clothes": "Rainbow Tee",
+      "song": "Soulful K.K.",
+      "phrase": "pushy"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "Rainbow Tee",
+      "song": "Soulful K.K.",
+      "phrase": "pushy"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Rainbow Tee",
+      "song": "Soulful K.K.",
+      "phrase": "pushy"
+    }
+  },
+  "name": "Tipper",
+  "id": "tipper"
+}

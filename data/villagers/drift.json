@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "frog",
+  "birthday": "10-9",
+  "home_request": "A hospital lobby",
+  "skill": "Shadow puppetry",
+  "goal": "Tycoon",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Flashy",
+  "games": {
+    "af": {
+      "personality": "jock",
+      "song": "K.K. Country",
+      "phrase": "brah"
+    },
+    "af+": {
+      "personality": "jock",
+      "song": "K.K. Country",
+      "phrase": "brah"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "Blue Aloha Shirt",
+      "song": "K.K. Country",
+      "phrase": "brah"
+    },
+    "afe+": {
+      "personality": "jock",
+      "song": "K.K. Country",
+      "phrase": "brah"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "No. 67 Shirt",
+      "song": "K.K. Country",
+      "phrase": "brah"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "No. 67 Shirt",
+      "song": "K.K. Country",
+      "phrase": "brah"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "No. 67 Shirt",
+      "song": "K.K. Country",
+      "phrase": "brah"
+    }
+  },
+  "name": "Drift",
+  "id": "drift"
+}

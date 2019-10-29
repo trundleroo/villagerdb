@@ -1,0 +1,24 @@
+{
+  "gender": "male",
+  "species": "bird",
+  "birthday": "12-12",
+  "home_request": "A pro-wrestling arena",
+  "skill": "Making faces",
+  "goal": "Pro wrestler",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Sporty",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "Dragon Jacket",
+      "song": "K.K. Western",
+      "phrase": "cacaw"
+    }
+  },
+  "name": "Lucha",
+  "id": "lucha"
+}

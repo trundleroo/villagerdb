@@ -1,0 +1,36 @@
+{
+  "gender": "male",
+  "species": "koala",
+  "birthday": "10-26",
+  "home_request": "A space for self-reflection",
+  "skill": "Rapping",
+  "goal": "Guitarist",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Rock'n'roll",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "Pleather Vest",
+      "song": "K.K. Cruisin'",
+      "phrase": "yeah buddy"
+    },
+    "hhd": {
+      "personality": "smug",
+      "clothes": "Pleather Vest",
+      "song": "K.K. Cruisin'",
+      "phrase": "yeah buddy"
+    },
+    "pc": {
+      "personality": "smug",
+      "clothes": "Pleather Vest",
+      "song": "K.K. Cruisin'",
+      "phrase": "yeah buddy"
+    }
+  },
+  "name": "Eugene",
+  "id": "eugene"
+}

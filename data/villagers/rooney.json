@@ -1,0 +1,24 @@
+{
+  "gender": "male",
+  "species": "kangaroo",
+  "birthday": "12-1",
+  "home_request": "A boxing gym",
+  "skill": "Doing push-ups",
+  "goal": "Boxer",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Sporty",
+  "games": {
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Black Track Jacket",
+      "song": "K.K. Adventure",
+      "phrase": "punches"
+    }
+  },
+  "name": "Rooney",
+  "id": "rooney"
+}

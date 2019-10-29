@@ -1,0 +1,30 @@
+{
+  "gender": "female",
+  "species": "chicken",
+  "birthday": "10-24",
+  "home_request": "A bus station.",
+  "skill": "Typing",
+  "goal": "Translator",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Flashy",
+  "games": {
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Fiendish Shirt",
+      "song": "K.K. Flamenco",
+      "phrase": "cluckadoo"
+    },
+    "hhd": {
+      "personality": "snooty",
+      "clothes": "Fiendish Shirt",
+      "song": "K.K. Flamenco",
+      "phrase": "cluckadoo"
+    }
+  },
+  "name": "Broffina",
+  "id": "broffina"
+}

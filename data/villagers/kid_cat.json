@@ -1,0 +1,66 @@
+{
+  "gender": "male",
+  "species": "cat",
+  "birthday": "8-1",
+  "home_request": "A superhero base",
+  "skill": "Sprinting",
+  "goal": "Superhero",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Sporty",
+  "games": {
+    "af": {
+      "personality": "jock",
+      "clothes": "No. 1 Shirt",
+      "song": "Go K.K. Rider!",
+      "phrase": "psst"
+    },
+    "af+": {
+      "personality": "jock",
+      "clothes": "No. 1 Shirt",
+      "song": "Go K.K. Rider!",
+      "phrase": "psst"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "No. 1 Shirt",
+      "song": "Go K.K. Rider!",
+      "phrase": "psst"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "No. 1 Shirt",
+      "song": "Go K.K. Rider!",
+      "phrase": "psst"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "No. 1 Shirt",
+      "song": "Go K.K. Rider!",
+      "phrase": "psst"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "No. 1 Shirt",
+      "song": "Go K.K. Rider!",
+      "phrase": "psst"
+    },
+    "hhd": {
+      "personality": "jock",
+      "clothes": "No. 1 Shirt",
+      "song": "Go K.K. Rider!",
+      "phrase": "psst"
+    },
+    "pc": {
+      "personality": "jock",
+      "clothes": "No. 1 Shirt",
+      "song": "Go K.K. Rider!",
+      "phrase": "psst"
+    }
+  },
+  "name": "Kid cat",
+  "id": "kid_cat"
+}

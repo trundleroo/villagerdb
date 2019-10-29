@@ -1,0 +1,60 @@
+{
+  "gender": "female",
+  "species": "rabbit",
+  "birthday": "5-9",
+  "home_request": "A perpetual birthday party",
+  "skill": "Staying positive",
+  "goal": "Gymnast",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Cute",
+  "games": {
+    "af": {
+      "personality": "peppy",
+      "clothes": "Flicker Shirt",
+      "song": "K.K. Aria",
+      "phrase": "tee-hee"
+    },
+    "af+": {
+      "personality": "peppy",
+      "clothes": "Flicker Shirt",
+      "song": "K.K. Aria",
+      "phrase": "tee-hee"
+    },
+    "ac": {
+      "personality": "peppy",
+      "clothes": "Flicker Shirt",
+      "song": "K.K. Aria",
+      "phrase": "tee-hee"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Flicker Shirt",
+      "song": "K.K. Aria",
+      "phrase": "tee-hee"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "Jade Plaid Tee",
+      "song": "K.K. Aria",
+      "phrase": "tee-hee"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "Jade Plaid Tee",
+      "song": "K.K. Aria",
+      "phrase": "tee-hee"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Jade Plaid Tee",
+      "song": "K.K. Aria",
+      "phrase": "tee-hee"
+    }
+  },
+  "name": "Bunnie",
+  "id": "bunnie"
+}

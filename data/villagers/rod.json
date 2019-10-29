@@ -1,0 +1,54 @@
+{
+  "gender": "male",
+  "species": "mouse",
+  "birthday": "8-14",
+  "home_request": "A pirate hideout",
+  "skill": "Sprinting",
+  "goal": "Explorer",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Rock 'n' roll",
+  "games": {
+    "af": {
+      "personality": "jock",
+      "clothes": "Zipper Shirt",
+      "song": "K.K. March",
+      "phrase": "ace"
+    },
+    "af+": {
+      "personality": "jock",
+      "clothes": "Zipper Shirt",
+      "song": "K.K. March",
+      "phrase": "ace"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "Zipper Shirt",
+      "song": "K.K. March",
+      "phrase": "ace"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Zipper Shirt",
+      "song": "K.K. March",
+      "phrase": "ace"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "Zipper Shirt",
+      "song": "K.K. March",
+      "phrase": "ace"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "Zipper Shirt",
+      "song": "K.K. March",
+      "phrase": "ace"
+    }
+  },
+  "name": "Rod",
+  "id": "rod"
+}

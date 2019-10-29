@@ -1,0 +1,72 @@
+{
+  "gender": "male",
+  "species": "chicken",
+  "birthday": "10-4",
+  "home_request": "A room for waking up early",
+  "skill": "Waking up early",
+  "goal": "Soccer player",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Basic",
+  "games": {
+    "af": {
+      "personality": "jock",
+      "clothes": "Tropical Tee",
+      "song": "K.K. Country",
+      "phrase": "buh-kay"
+    },
+    "af+": {
+      "personality": "jock",
+      "clothes": "Tropical Tee",
+      "song": "K.K. Country",
+      "phrase": "buh-kay"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "Tropical Tee",
+      "song": "K.K. Country",
+      "phrase": "buh-kay"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Tropical Tee",
+      "song": "K.K. Country",
+      "phrase": "buh-kay"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "Tropical Tee",
+      "song": "K.K. Country",
+      "phrase": "buh-kay"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "Tropical Tee",
+      "song": "K.K. Country",
+      "phrase": "buh-kay"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "Tropical Tee",
+      "song": "K.K. Country",
+      "phrase": "buh-kay"
+    },
+    "hhd": {
+      "personality": "jock",
+      "clothes": "Tropical Tee",
+      "song": "K.K. Country",
+      "phrase": "buh-kay"
+    },
+    "pc": {
+      "personality": "jock",
+      "clothes": "Tropical Tee",
+      "song": "K.K. Country",
+      "phrase": "buh-kay"
+    }
+  },
+  "name": "Goose",
+  "id": "goose"
+}

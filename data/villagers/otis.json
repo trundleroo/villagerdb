@@ -1,0 +1,29 @@
+{
+  "gender": "male",
+  "species": "bird",
+  "birthday": "1-13",
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "Moldy Shirt",
+      "phrase": "I s'pose"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "Moldy Shirt",
+      "phrase": "I s'pose"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "Moldy Shirt",
+      "phrase": "I s'pose"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Moldy Shirt",
+      "phrase": "I s'pose"
+    }
+  },
+  "name": "Otis",
+  "id": "otis"
+}

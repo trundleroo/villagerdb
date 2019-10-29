@@ -1,0 +1,66 @@
+{
+  "gender": "male",
+  "species": "rabbit",
+  "birthday": "1-21",
+  "home_request": "A haunted house",
+  "skill": "Subsistence living",
+  "goal": "Politician",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Iconic",
+  "games": {
+    "af": {
+      "personality": "jock",
+      "clothes": "Misty Tee",
+      "song": "King K.K.",
+      "phrase": "otaku"
+    },
+    "af+": {
+      "personality": "jock",
+      "clothes": "Misty Tee",
+      "song": "King K.K.",
+      "phrase": "otaku"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "Misty Tee",
+      "song": "King K.K.",
+      "phrase": "otaku"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Misty Tee",
+      "song": "King K.K.",
+      "phrase": "otaku"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "Misty Tee",
+      "song": "King K.K.",
+      "phrase": "otaku"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "Misty Tee",
+      "song": "King K.K.",
+      "phrase": "otaku"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "Misty Tee",
+      "song": "King K.K.",
+      "phrase": "otaku"
+    },
+    "hhd": {
+      "personality": "jock",
+      "clothes": "Misty Tee",
+      "song": "King K.K.",
+      "phrase": "otaku"
+    }
+  },
+  "name": "Genji",
+  "id": "genji"
+}

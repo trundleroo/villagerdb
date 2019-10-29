@@ -1,0 +1,66 @@
+{
+  "gender": "female",
+  "species": "pig",
+  "birthday": "6-2",
+  "home_request": "A creepy-looking dollhouse.",
+  "skill": "Baton twirling",
+  "goal": "Tour guide",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Cute",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "clothes": "Natty Tee",
+      "song": "Comrade K.K.",
+      "phrase": "snoooink"
+    },
+    "af+": {
+      "personality": "normal",
+      "clothes": "Natty Tee",
+      "song": "Comrade K.K.",
+      "phrase": "snoooink"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Natty Tee",
+      "song": "Comrade K.K.",
+      "phrase": "snoooink"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Natty Tee",
+      "song": "Comrade K.K.",
+      "phrase": "snoooink"
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "Natty Tee",
+      "song": "Comrade K.K.",
+      "phrase": "snoooink"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "Natty Tee",
+      "song": "Comrade K.K.",
+      "phrase": "snoooink"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Natty Tee",
+      "song": "Comrade K.K.",
+      "phrase": "snoooink"
+    },
+    "hhd": {
+      "personality": "normal",
+      "clothes": "Natty Tee",
+      "song": "Comrade K.K.",
+      "phrase": "snoooink"
+    }
+  },
+  "name": "Lucy",
+  "id": "lucy"
+}

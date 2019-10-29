@@ -1,0 +1,61 @@
+{
+  "gender": "male",
+  "species": "lion",
+  "birthday": "8-8",
+  "home_request": "A beach",
+  "skill": "Rapping",
+  "goal": "Singer",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Sporty",
+  "games": {
+    "af": {
+      "personality": "jock",
+      "song": "K.K. Ska",
+      "phrase": "maaan"
+    },
+    "af+": {
+      "personality": "jock",
+      "song": "K.K. Ska",
+      "phrase": "maaan"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "Blue Aloha Shirt",
+      "song": "K.K. Ska",
+      "phrase": "maaan"
+    },
+    "afe+": {
+      "personality": "jock",
+      "song": "K.K. Ska",
+      "phrase": "maaan"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "Flowery Shirt",
+      "song": "K.K. Ska",
+      "phrase": "maaan"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "Flowery Shirt",
+      "song": "K.K. Ska",
+      "phrase": "maaan"
+    },
+    "hhd": {
+      "personality": "jock",
+      "song": "K.K. Ska",
+      "phrase": "maaan"
+    },
+    "pc": {
+      "personality": "jock",
+      "song": "K.K. Ska",
+      "phrase": "maaan"
+    }
+  },
+  "name": "Bud",
+  "id": "bud"
+}

@@ -1,0 +1,42 @@
+{
+  "gender": "female",
+  "species": "cat",
+  "birthday": "6-29",
+  "home_request": "An artsy room for sketching",
+  "skill": "Vaulting",
+  "goal": "Figure Skater",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Cute",
+  "games": {
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Daisy Tee",
+      "song": "DJ K.K.",
+      "phrase": "mweee"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "Daisy Tee",
+      "song": "DJ K.K.",
+      "phrase": "mweee"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Daisy Tee",
+      "song": "DJ K.K.",
+      "phrase": "mweee"
+    },
+    "pc": {
+      "personality": "peppy",
+      "clothes": "Daisy Tee",
+      "song": "DJ K.K.",
+      "phrase": "mweee"
+    }
+  },
+  "name": "Merry",
+  "id": "merry"
+}

@@ -1,0 +1,66 @@
+{
+  "gender": "female",
+  "species": "rabbit",
+  "birthday": "1-9",
+  "home_request": "A gorgeous celebrity home",
+  "skill": "Oversleeping",
+  "goal": "CEO",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "A little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Rock 'n' roll",
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "clothes": "Spiderweb Tee",
+      "song": "K.K. Rock",
+      "phrase": "bun bun"
+    },
+    "af+": {
+      "personality": "snooty",
+      "clothes": "Spiderweb Tee",
+      "song": "K.K. Rock",
+      "phrase": "bun bun"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Spiderweb Tee",
+      "song": "K.K. Rock",
+      "phrase": "bun bun"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Spiderweb Tee",
+      "song": "K.K. Rock",
+      "phrase": "bun bun"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "Spiderweb Tee",
+      "song": "K.K. Rock",
+      "phrase": "bun bun"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "Spiderweb Tee",
+      "song": "K.K. Rock",
+      "phrase": "bun bun"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Spiderweb Tee",
+      "song": "K.K. Rock",
+      "phrase": "bun bun"
+    },
+    "hhd": {
+      "personality": "snooty",
+      "clothes": "Spiderweb Tee",
+      "song": "K.K. Rock",
+      "phrase": "bun bun"
+    }
+  },
+  "name": "Tiffany",
+  "id": "tiffany"
+}

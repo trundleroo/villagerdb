@@ -1,0 +1,52 @@
+{
+  "gender": "female",
+  "species": "cat",
+  "birthday": "9-22",
+  "home_request": "An ancient tomb",
+  "skill": "Writing about Pickles",
+  "goal": "Astronaut",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Historical",
+  "games": {
+    "af+": {
+      "personality": "snooty",
+      "song": "Marine Song 2001",
+      "phrase": "me meow"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Red Aloha Shirt",
+      "song": "Marine Song 2001",
+      "phrase": "me meow"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Red Aloha Shirt",
+      "song": "Marine Song 2001",
+      "phrase": "me meow"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "Egyptian Outfit",
+      "song": "Marine Song 2001",
+      "phrase": "me meow"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Mummy Shirt",
+      "song": "Marine Song 2001",
+      "phrase": "me meow"
+    },
+    "hhd": {
+      "personality": "snooty",
+      "song": "Marine Song 2001",
+      "phrase": "me meow"
+    }
+  },
+  "name": "Ankha",
+  "id": "ankha"
+}

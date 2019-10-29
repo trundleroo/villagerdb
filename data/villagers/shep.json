@@ -1,0 +1,23 @@
+{
+  "gender": "male",
+  "species": "dog",
+  "birthday": "11-24",
+  "skill": "Speed reading",
+  "goal": "Professor",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Historical",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "Denim Vest",
+      "song": "K.K. Reggae",
+      "phrase": "baaa man"
+    }
+  },
+  "name": "Shep",
+  "id": "shep"
+}

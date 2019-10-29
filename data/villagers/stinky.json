@@ -1,0 +1,54 @@
+{
+  "gender": "male",
+  "species": "cat",
+  "birthday": "8-17",
+  "home_request": "A pro-wrestling ring",
+  "skill": "Chugging Milk",
+  "goal": "Rugby Player",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Sporty",
+  "games": {
+    "af": {
+      "personality": "jock",
+      "clothes": "Splendid Tee",
+      "song": "Go K.K. Rider!",
+      "phrase": "GAHHHH"
+    },
+    "af+": {
+      "personality": "jock",
+      "clothes": "Splendid Tee",
+      "song": "Go K.K. Rider!",
+      "phrase": "GAHHHH"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "Splendid Tee",
+      "song": "Go K.K. Rider!",
+      "phrase": "GAHHHH"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Splendid Tee",
+      "song": "Go K.K. Rider!",
+      "phrase": "GAHHHH"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "Splendid Tee",
+      "song": "Go K.K. Rider!",
+      "phrase": "GAHHHH"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "Splendid Tee",
+      "song": "Go K.K. Rider!",
+      "phrase": "GAHHHH"
+    }
+  },
+  "name": "Stinky",
+  "id": "stinky"
+}

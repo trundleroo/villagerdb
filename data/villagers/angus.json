@@ -1,0 +1,78 @@
+{
+  "gender": "male",
+  "species": "bull",
+  "birthday": "4-30",
+  "home_request": "A salty seaside shack",
+  "skill": "Doing handstands",
+  "goal": "Forest Ranger",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Rock 'n' roll",
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "clothes": "Flame Tee",
+      "song": "Senor K.K.",
+      "phrase": "macmoo"
+    },
+    "af+": {
+      "personality": "cranky",
+      "clothes": "Flame Tee",
+      "song": "Senor K.K.",
+      "phrase": "macmoo"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "Flame Tee",
+      "song": "Senor K.K.",
+      "phrase": "macmoo"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "Flame Tee",
+      "song": "Senor K.K.",
+      "phrase": "macmoo"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "Flame Tee",
+      "song": "Senor K.K.",
+      "phrase": "macmoo"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "Flame Tee",
+      "song": "Senor K.K.",
+      "phrase": "macmoo"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Flame Tee",
+      "song": "Senor K.K.",
+      "phrase": "macmoo"
+    },
+    "hhd": {
+      "personality": "cranky",
+      "clothes": "Flame Tee",
+      "song": "Senor K.K.",
+      "phrase": "macmoo"
+    },
+    "pc": {
+      "personality": "cranky",
+      "clothes": "Flame Tee",
+      "song": "Senor K.K.",
+      "phrase": "macmoo"
+    },
+    "nh": {
+      "personality": "cranky",
+      "clothes": "Flame Tee",
+      "song": "Senor K.K.",
+      "phrase": "macmoo"
+    }
+  },
+  "name": "Angus",
+  "id": "angus"
+}

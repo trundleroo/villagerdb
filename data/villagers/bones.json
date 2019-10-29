@@ -1,0 +1,60 @@
+{
+  "gender": "male",
+  "species": "dog",
+  "birthday": "8-4",
+  "home_request": "A second childhood",
+  "skill": "Telling jokes",
+  "goal": "Explorer",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Historical",
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "Caveman Tank",
+      "song": "Forest Life",
+      "phrase": "yip yip"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "Caveman Tank",
+      "song": "Forest Life",
+      "phrase": "yip yip"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "Caveman Tank",
+      "song": "Forest Life",
+      "phrase": "yip yip"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Caveman Tank",
+      "song": "Forest Life",
+      "phrase": "yip yip"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "Caveman Tank",
+      "song": "Forest Life",
+      "phrase": "yip yip"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "Caveman Tank",
+      "song": "Forest Life",
+      "phrase": "yip yip"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Caveman Tank",
+      "song": "Forest Life",
+      "phrase": "yip yip"
+    }
+  },
+  "name": "Bones",
+  "id": "bones"
+}

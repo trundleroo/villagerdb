@@ -1,0 +1,29 @@
+{
+  "gender": "female",
+  "species": "squirrel",
+  "birthday": "9-4",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "clothes": "Ladybug Shirt",
+      "phrase": "WHEE"
+    },
+    "af+": {
+      "personality": "normal",
+      "clothes": "Ladybug Shirt",
+      "phrase": "WHEE"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Ladybug Shirt",
+      "phrase": "WHEE"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Ladybug Shirt",
+      "phrase": "WHEE"
+    }
+  },
+  "name": "Sally",
+  "id": "sally_(animal_crossing)"
+}

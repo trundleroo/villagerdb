@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "penguin",
+  "birthday": "1-23",
+  "home_request": "A day spa",
+  "skill": "Skimming books",
+  "goal": "CEO",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "A little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Ornate",
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "song": "Cafe K.K.",
+      "phrase": "h-h-hon"
+    },
+    "af+": {
+      "personality": "snooty",
+      "song": "Cafe K.K.",
+      "phrase": "h-h-hon"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Yellow Bolero",
+      "song": "Cafe K.K.",
+      "phrase": "h-h-hon"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "song": "Cafe K.K.",
+      "phrase": "h-h-hon"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "Yellow Bolero",
+      "song": "Cafe K.K.",
+      "phrase": "h-h-hon"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "Yellow Bolero",
+      "song": "Cafe K.K.",
+      "phrase": "h-h-hon"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Melon Gingham Tee",
+      "song": "Cafe K.K.",
+      "phrase": "h-h-hon"
+    }
+  },
+  "name": "Gwen",
+  "id": "gwen"
+}

@@ -1,0 +1,29 @@
+{
+  "gender": "female",
+  "species": "chicken",
+  "birthday": "6-13",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "clothes": "Comfy Sweater",
+      "phrase": "cluckling"
+    },
+    "af+": {
+      "personality": "normal",
+      "clothes": "Comfy Sweater",
+      "phrase": "cluckling"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Comfy Sweater",
+      "phrase": "cluckling"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Comfy Sweater",
+      "phrase": "cluckling"
+    }
+  },
+  "name": "Betty",
+  "id": "betty"
+}

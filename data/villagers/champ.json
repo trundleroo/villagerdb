@@ -1,0 +1,21 @@
+{
+  "gender": "male",
+  "species": "monkey",
+  "birthday": "6-4",
+  "games": {
+    "ww": {
+      "personality": "jock",
+      "clothes": "Paw Shirt",
+      "song": "K.K. Salsa",
+      "phrase": "choo CHOO"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "Paw Shirt",
+      "song": "K.K. Salsa",
+      "phrase": "choo CHOO"
+    }
+  },
+  "name": "Champ",
+  "id": "champ"
+}

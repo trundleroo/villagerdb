@@ -1,0 +1,24 @@
+{
+  "gender": "female",
+  "species": "ostrich",
+  "birthday": "12-21",
+  "home_request": "A traditional tearoom",
+  "skill": "Dusting",
+  "goal": "Chef",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Official",
+  "games": {
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Straw Shirt",
+      "song": "K.K. Jongara",
+      "phrase": "quite so"
+    }
+  },
+  "name": "Blanche",
+  "id": "blanche"
+}

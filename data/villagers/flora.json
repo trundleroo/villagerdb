@@ -1,0 +1,24 @@
+{
+  "gender": "female",
+  "species": "ostrich",
+  "birthday": "2-9",
+  "home_request": "A place that's all pink",
+  "skill": "Staying awake",
+  "goal": "Gymnast",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Modern",
+  "games": {
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Gumdrop Tee",
+      "song": "K.K. Flamenco",
+      "phrase": "pinky"
+    }
+  },
+  "name": "Flora",
+  "id": "flora"
+}

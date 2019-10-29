@@ -1,0 +1,66 @@
+{
+  "gender": "female",
+  "species": "duck",
+  "birthday": "2-11",
+  "home_request": "A splashy, modern garden",
+  "skill": "Trivia",
+  "goal": "CEO",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Cute",
+  "games": {
+    "af": {
+      "personality": "peppy",
+      "clothes": "No. 4 Shirt",
+      "song": "K.K. Jazz",
+      "phrase": "rah rah"
+    },
+    "af+": {
+      "personality": "peppy",
+      "clothes": "No. 4 Shirt",
+      "song": "K.K. Jazz",
+      "phrase": "rah rah"
+    },
+    "ac": {
+      "personality": "peppy",
+      "clothes": "No. 4 Shirt",
+      "song": "K.K. Jazz",
+      "phrase": "rah rah"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "No. 4 Shirt",
+      "song": "K.K. Jazz",
+      "phrase": "rah rah"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "No. 4 Shirt",
+      "song": "K.K. Jazz",
+      "phrase": "rah rah"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "No. 4 Shirt",
+      "song": "K.K. Jazz",
+      "phrase": "rah rah"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "No. 4 Shirt",
+      "song": "K.K. Jazz",
+      "phrase": "rah rah"
+    },
+    "pc": {
+      "personality": "peppy",
+      "clothes": "No. 4 Shirt",
+      "song": "K.K. Jazz",
+      "phrase": "rah rah"
+    }
+  },
+  "name": "Pompom",
+  "id": "pompom"
+}

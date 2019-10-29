@@ -1,0 +1,60 @@
+{
+  "gender": "female",
+  "species": "cat",
+  "birthday": "2-3",
+  "home_request": "A piano conservatory",
+  "skill": "Brainteasers",
+  "goal": "Drummer",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Modern",
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "clothes": "Floral Knit Tee",
+      "song": "Two Days Ago",
+      "phrase": "purrr"
+    },
+    "af+": {
+      "personality": "snooty",
+      "clothes": "Floral Knit Tee",
+      "song": "Two Days Ago",
+      "phrase": "purrr"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Floral Knit Tee",
+      "song": "Two Days Ago",
+      "phrase": "purrr"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Floral Knit Tee",
+      "song": "Two Days Ago",
+      "phrase": "purrr"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "Floral Knit Tee",
+      "song": "Two Days Ago",
+      "phrase": "purrr"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "Floral Knit Tee",
+      "song": "Two Days Ago",
+      "phrase": "purrr"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Floral Knit Tee",
+      "song": "Two Days Ago",
+      "phrase": "purrr"
+    }
+  },
+  "name": "Olivia",
+  "id": "olivia"
+}

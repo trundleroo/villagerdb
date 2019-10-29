@@ -1,0 +1,30 @@
+{
+  "gender": "male",
+  "species": "dog",
+  "birthday": "11-11",
+  "home_request": "A summer campsite",
+  "skill": "Doing chin-ups",
+  "goal": "Boxer",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Sporty",
+  "games": {
+    "cf": {
+      "personality": "jock",
+      "clothes": "Red Aloha Tee",
+      "song": "My Place",
+      "phrase": "woo woof"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "Red Aloha Tee",
+      "song": "My Place",
+      "phrase": "woo woof"
+    }
+  },
+  "name": "Mac",
+  "id": "mac"
+}

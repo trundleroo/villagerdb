@@ -1,0 +1,29 @@
+{
+  "gender": "male",
+  "species": "hippo",
+  "birthday": "7-22",
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "Whirly Shirt",
+      "phrase": "beaulch"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "Whirly Shirt",
+      "phrase": "beaulch"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "Whirly Shirt",
+      "phrase": "beaulch"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Whirly Shirt",
+      "phrase": "beaulch"
+    }
+  },
+  "name": "Rollo",
+  "id": "rollo"
+}

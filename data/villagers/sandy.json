@@ -1,0 +1,43 @@
+{
+  "gender": "female",
+  "species": "ostrich",
+  "birthday": "10-21",
+  "skill": "Making puns",
+  "goal": "Artist",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "games": {
+    "af": {
+      "personality": "normal",
+      "song": "K.K. Soul",
+      "phrase": "speedy"
+    },
+    "af+": {
+      "personality": "normal",
+      "song": "K.K. Soul",
+      "phrase": "speedy"
+    },
+    "ac": {
+      "personality": "normal",
+      "song": "K.K. Soul",
+      "phrase": "speedy"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Blue Scale Shirt",
+      "song": "K.K. Soul",
+      "phrase": "speedy"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Wide-Stripe Tee",
+      "song": "K.K. Soul",
+      "phrase": "speedy"
+    }
+  },
+  "name": "Sandy",
+  "id": "sandy"
+}

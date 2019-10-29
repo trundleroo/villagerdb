@@ -1,0 +1,24 @@
+{
+  "gender": "female",
+  "species": "sheep",
+  "birthday": "10-21",
+  "home_request": "A stargazer's dream",
+  "skill": "Spoon bending",
+  "goal": "Stylist",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Ornate",
+  "games": {
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Giraffe Tee",
+      "song": "K.K. Cruisin'",
+      "phrase": "pine nut"
+    }
+  },
+  "name": "Timbra",
+  "id": "timbra"
+}

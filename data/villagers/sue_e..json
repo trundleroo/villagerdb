@@ -1,0 +1,29 @@
+{
+  "gender": "female",
+  "species": "pig",
+  "birthday": "10-20",
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "clothes": "Snappy Print",
+      "phrase": "snort"
+    },
+    "af+": {
+      "personality": "snooty",
+      "clothes": "Snappy Print",
+      "phrase": "snort"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Snappy Print",
+      "phrase": "snort"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Snappy Print",
+      "phrase": "snort"
+    }
+  },
+  "name": "Sue E.",
+  "id": "sue_e."
+}

@@ -1,0 +1,24 @@
+{
+  "gender": "male",
+  "species": "wolf",
+  "birthday": "12-2",
+  "home_request": "N/A",
+  "skill": "Change forms freely",
+  "goal": "Become a real boy",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Iconic",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "Wolf Link outfit",
+      "song": "K.K. Western",
+      "phrase": "Ruff ruff"
+    }
+  },
+  "name": "Wolf link",
+  "id": "wolf_link"
+}

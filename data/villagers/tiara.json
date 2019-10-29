@@ -1,0 +1,29 @@
+{
+  "gender": "female",
+  "species": "rhino",
+  "birthday": "1-17",
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "clothes": "Alpine Shirt",
+      "phrase": "lovey"
+    },
+    "af+": {
+      "personality": "snooty",
+      "clothes": "Alpine Shirt",
+      "phrase": "lovey"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Alpine Shirt",
+      "phrase": "lovey"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Alpine Shirt",
+      "phrase": "lovey"
+    }
+  },
+  "name": "Tiara",
+  "id": "tiara"
+}

@@ -1,0 +1,24 @@
+{
+  "gender": "male",
+  "species": "hamster",
+  "birthday": "2-25",
+  "home_request": "A smoked-foods showcase",
+  "skill": "Eating quickly",
+  "goal": "Fisherman",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Just a  little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Historical",
+  "games": {
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Beige Knit Shirt",
+      "song": "K.K. Rally",
+      "phrase": "snort"
+    }
+  },
+  "name": "Hamphrey",
+  "id": "hamphrey"
+}

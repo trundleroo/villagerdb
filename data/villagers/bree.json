@@ -1,0 +1,66 @@
+{
+  "gender": "female",
+  "species": "mouse",
+  "birthday": "7-7",
+  "home_request": "A tidied-up home",
+  "skill": "Doodling",
+  "goal": "Dermatologist",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Official",
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "clothes": "Floral Knit Tee",
+      "song": "Two Days Ago",
+      "phrase": "cheeseball"
+    },
+    "af+": {
+      "personality": "snooty",
+      "clothes": "Floral Knit Tee",
+      "song": "Two Days Ago",
+      "phrase": "cheeseball"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Floral Knit Tee",
+      "song": "Two Days Ago",
+      "phrase": "cheeseball"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Floral Knit Tee",
+      "song": "Two Days Ago",
+      "phrase": "cheeseball"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "Floral Knit Tee",
+      "song": "Two Days Ago",
+      "phrase": "cheeseball"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "Floral Knit Tee",
+      "song": "Two Days Ago",
+      "phrase": "cheeseball"
+    },
+    "hhd": {
+      "personality": "snooty",
+      "clothes": "Floral Knit Tee",
+      "song": "Two Days Ago",
+      "phrase": "cheeseball"
+    },
+    "pc": {
+      "personality": "snooty",
+      "clothes": "Floral Knit Tee",
+      "song": "Two Days Ago",
+      "phrase": "cheeseball"
+    }
+  },
+  "name": "Bree",
+  "id": "bree"
+}

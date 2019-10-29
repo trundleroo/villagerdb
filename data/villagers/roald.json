@@ -1,0 +1,78 @@
+{
+  "gender": "male",
+  "species": "penguin",
+  "birthday": "1-5",
+  "home_request": "A room fit for a racer",
+  "skill": "Belly dancing",
+  "goal": "Pro golfer",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Basic",
+  "games": {
+    "af": {
+      "personality": "jock",
+      "clothes": "Cafe Tee",
+      "song": "K.K. Parade",
+      "phrase": "b-b-buddy"
+    },
+    "af+": {
+      "personality": "jock",
+      "clothes": "Cafe Tee",
+      "song": "K.K. Parade",
+      "phrase": "b-b-buddy"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "Cafe Tee",
+      "song": "K.K. Parade",
+      "phrase": "b-b-buddy"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Cafe Tee",
+      "song": "K.K. Parade",
+      "phrase": "b-b-buddy"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "Cafe Tee",
+      "song": "K.K. Parade",
+      "phrase": "b-b-buddy"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "Cafe Tee",
+      "song": "K.K. Parade",
+      "phrase": "b-b-buddy"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "Cafe Tee",
+      "song": "K.K. Parade",
+      "phrase": "b-b-buddy"
+    },
+    "hhd": {
+      "personality": "jock",
+      "clothes": "Cafe Tee",
+      "song": "K.K. Parade",
+      "phrase": "b-b-buddy"
+    },
+    "pc": {
+      "personality": "jock",
+      "clothes": "Cafe Tee",
+      "song": "K.K. Parade",
+      "phrase": "b-b-buddy"
+    },
+    "nh": {
+      "personality": "jock",
+      "clothes": "Cafe Tee",
+      "song": "K.K. Parade",
+      "phrase": "b-b-buddy"
+    }
+  },
+  "name": "Roald",
+  "id": "roald"
+}

@@ -1,0 +1,60 @@
+{
+  "gender": "female",
+  "species": "koala",
+  "birthday": "7-20",
+  "home_request": "A jungle",
+  "skill": "Staying up late",
+  "goal": "Journalist",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Modern",
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "clothes": "Lemon Gingham Tee",
+      "song": "Soulful K.K.",
+      "phrase": "tsk tsk"
+    },
+    "af+": {
+      "personality": "snooty",
+      "clothes": "Lemon Gingham Tee",
+      "song": "Soulful K.K.",
+      "phrase": "tsk tsk"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Lemon Gingham Tee",
+      "song": "Soulful K.K.",
+      "phrase": "tsk tsk"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Lemon Gingham Tee",
+      "song": "Soulful K.K.",
+      "phrase": "tsk tsk"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "Lemon Gingham Tee",
+      "song": "Soulful K.K.",
+      "phrase": "tsk tsk"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "Lemon Gingham Tee",
+      "song": "Soulful K.K.",
+      "phrase": "tsk tsk"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Lemon Gingham Tee",
+      "song": "Soulful K.K.",
+      "phrase": "tsk tsk"
+    }
+  },
+  "name": "Yuka",
+  "id": "yuka"
+}

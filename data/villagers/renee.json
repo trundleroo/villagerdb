@@ -1,0 +1,30 @@
+{
+  "gender": "female",
+  "species": "rhino",
+  "birthday": "5-28",
+  "home_request": "A vacant lot",
+  "skill": "Making puns",
+  "goal": "Marathon runner",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "The regular amount of milk",
+    "sugar": "2 spoonfuls of sugar"
+  },
+  "style": "Rock 'n' roll",
+  "games": {
+    "nl": {
+      "personality": "uchi",
+      "clothes": "Sailor's Tee",
+      "song": "Surfin' K.K.",
+      "phrase": "yo yo yo"
+    },
+    "hhd": {
+      "personality": "uchi",
+      "clothes": "Sailor's Tee",
+      "song": "Surfin' K.K.",
+      "phrase": "yo yo yo"
+    }
+  },
+  "name": "Renée",
+  "id": "renee"
+}

@@ -1,0 +1,15 @@
+{
+  "gender": "male",
+  "species": "bird",
+  "birthday": "5-30",
+  "games": {
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Orange Pinstripe",
+      "song": "K.K. Swing",
+      "phrase": "Zun"
+    }
+  },
+  "name": "Shoukichi",
+  "id": "shoukichi"
+}

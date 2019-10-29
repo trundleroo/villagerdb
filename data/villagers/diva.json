@@ -1,0 +1,36 @@
+{
+  "gender": "female",
+  "species": "frog",
+  "birthday": "10-2",
+  "home_request": "A place with good vibes",
+  "skill": "Home Repair",
+  "goal": "Hair Stylist",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Ornate",
+  "games": {
+    "nl": {
+      "personality": "uchi",
+      "clothes": "Amethyst Tee",
+      "song": "K.K.  Bazaar",
+      "phrase": "ya know"
+    },
+    "hhd": {
+      "personality": "uchi",
+      "clothes": "Amethyst Tee",
+      "song": "K.K.  Bazaar",
+      "phrase": "ya know"
+    },
+    "pc": {
+      "personality": "uchi",
+      "clothes": "Amethyst Tee",
+      "song": "K.K.  Bazaar",
+      "phrase": "ya know"
+    }
+  },
+  "name": "Diva",
+  "id": "diva"
+}

@@ -1,0 +1,36 @@
+{
+  "gender": "female",
+  "species": "cow",
+  "birthday": "2-28",
+  "home_request": "An art gallery",
+  "skill": "Photography",
+  "goal": "Designer",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Modern",
+  "games": {
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Groovy Tee",
+      "song": "K.K. Milonga",
+      "phrase": "moolah"
+    },
+    "hhd": {
+      "personality": "snooty",
+      "clothes": "Groovy Tee",
+      "song": "K.K. Milonga",
+      "phrase": "moolah"
+    },
+    "pc": {
+      "personality": "snooty",
+      "clothes": "Groovy Tee",
+      "song": "K.K. Milonga",
+      "phrase": "moolah"
+    }
+  },
+  "name": "Naomi",
+  "id": "naomi"
+}

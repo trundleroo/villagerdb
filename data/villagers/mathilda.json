@@ -1,0 +1,60 @@
+{
+  "gender": "female",
+  "species": "kangaroo",
+  "birthday": "11-12",
+  "home_request": "A sustainable space",
+  "skill": "Pretending to sleep",
+  "goal": "Writer",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Rock 'n' roll",
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "clothes": "U-R-Here Tee",
+      "song": "K.K. Ragtime",
+      "phrase": "wee baby"
+    },
+    "af+": {
+      "personality": "snooty",
+      "clothes": "U-R-Here Tee",
+      "song": "K.K. Ragtime",
+      "phrase": "wee baby"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "U-R-Here Tee",
+      "song": "K.K. Ragtime",
+      "phrase": "wee baby"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "U-R-Here Tee",
+      "song": "K.K. Ragtime",
+      "phrase": "wee baby"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "U-R-Here Tee",
+      "song": "K.K. Ragtime",
+      "phrase": "wee baby"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "U-R-Here Tee",
+      "song": "K.K. Ragtime",
+      "phrase": "wee baby"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "U-R-Here Tee",
+      "song": "K.K. Ragtime",
+      "phrase": "wee baby"
+    }
+  },
+  "name": "Mathilda",
+  "id": "mathilda"
+}

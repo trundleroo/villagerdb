@@ -1,0 +1,14 @@
+{
+  "gender": "male",
+  "species": "bird",
+  "birthday": "12-8",
+  "games": {
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "Red Pinstripe",
+      "phrase": "yareyare"
+    }
+  },
+  "name": "Joe",
+  "id": "joe"
+}

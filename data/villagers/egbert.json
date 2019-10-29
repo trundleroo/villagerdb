@@ -1,0 +1,72 @@
+{
+  "gender": "male",
+  "species": "chicken",
+  "birthday": "10-14",
+  "home_request": "An even-numbered room",
+  "skill": "Cramming for tests",
+  "goal": "Astronaut",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Historical",
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "Swell Tee",
+      "song": "K.K. Technopop",
+      "phrase": "doodle-duh"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "Swell Tee",
+      "song": "K.K. Technopop",
+      "phrase": "doodle-duh"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "Swell Tee",
+      "song": "K.K. Technopop",
+      "phrase": "doodle-duh"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Swell Tee",
+      "song": "K.K. Technopop",
+      "phrase": "doodle-duh"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "Swell Tee",
+      "song": "K.K. Technopop",
+      "phrase": "doodle-duh"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "Swell Tee",
+      "song": "K.K. Technopop",
+      "phrase": "doodle-duh"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Swell Tee",
+      "song": "K.K. Technopop",
+      "phrase": "doodle-duh"
+    },
+    "hhd": {
+      "personality": "lazy",
+      "clothes": "Swell Tee",
+      "song": "K.K. Technopop",
+      "phrase": "doodle-duh"
+    },
+    "pc": {
+      "personality": "lazy",
+      "clothes": "Swell Tee",
+      "song": "K.K. Technopop",
+      "phrase": "doodle-duh"
+    }
+  },
+  "name": "Egbert",
+  "id": "egbert"
+}

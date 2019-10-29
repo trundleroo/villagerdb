@@ -1,0 +1,54 @@
+{
+  "gender": "female",
+  "species": "koala",
+  "birthday": "6-21",
+  "home_request": "An office with a phone",
+  "skill": "Chopping vegetables",
+  "goal": "Translator",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Iconic",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "clothes": "Big-Dot Tee",
+      "song": "K.K. Country",
+      "phrase": "sunshine"
+    },
+    "af+": {
+      "personality": "normal",
+      "clothes": "Big-Dot Tee",
+      "song": "K.K. Country",
+      "phrase": "sunshine"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Big-Dot Tee",
+      "song": "K.K. Country",
+      "phrase": "sunshine"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Big-Dot Tee",
+      "song": "K.K. Country",
+      "phrase": "sunshine"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "Big-Dot Tee",
+      "song": "K.K. Country",
+      "phrase": "sunshine"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Big-Dot Tee",
+      "song": "K.K. Country",
+      "phrase": "sunshine"
+    }
+  },
+  "name": "Sydney",
+  "id": "sydney"
+}

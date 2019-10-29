@@ -1,0 +1,30 @@
+{
+  "gender": "female",
+  "species": "bear",
+  "birthday": "3-22",
+  "home_request": "A karaoke parlor",
+  "skill": "Baton twirling",
+  "goal": "Volleyball player",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Flashy",
+  "games": {
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Denim Shirt",
+      "song": "K.K. Dixie",
+      "phrase": "yodelay"
+    },
+    "nl": {
+      "personality": "uchi",
+      "clothes": "Pep Squad Tee",
+      "song": "K.K. Dixie",
+      "phrase": "yodelay"
+    }
+  },
+  "name": "Paula",
+  "id": "paula"
+}

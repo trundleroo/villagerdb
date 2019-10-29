@@ -1,0 +1,51 @@
+{
+  "gender": "female",
+  "species": "horse",
+  "birthday": "7-11",
+  "home_request": "A lucky yellow room",
+  "skill": "Playing horseshoes",
+  "goal": "Marathon runner",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Sporty",
+  "games": {
+    "af": {
+      "personality": "peppy",
+      "song": "K.K. Country",
+      "phrase": "sugar cube"
+    },
+    "af+": {
+      "personality": "peppy",
+      "song": "K.K. Country",
+      "phrase": "sugar cube"
+    },
+    "ac": {
+      "personality": "peppy",
+      "song": "K.K. Country",
+      "phrase": "sugar cube"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Racer 6 shirt",
+      "song": "K.K. Country",
+      "phrase": "sugar cube"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "One-Ball Tee",
+      "song": "K.K. Country",
+      "phrase": "sugar cube"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "One-Ball Tee",
+      "song": "K.K. Country",
+      "phrase": "sugar cube"
+    }
+  },
+  "name": "Victoria",
+  "id": "victoria"
+}

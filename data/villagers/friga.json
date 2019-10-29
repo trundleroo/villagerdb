@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "penguin",
+  "birthday": "10-16",
+  "home_request": "A classic, royal room",
+  "skill": "Board games",
+  "goal": "Drummer",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "A little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Ornate",
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "song": "K.K. Tango",
+      "phrase": "brrmph"
+    },
+    "af+": {
+      "personality": "snooty",
+      "song": "K.K. Tango",
+      "phrase": "brrmph"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Cozy Sweater",
+      "song": "K.K. Tango",
+      "phrase": "brrmph"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "song": "K.K. Tango",
+      "phrase": "brrmph"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "Picnic Tee",
+      "song": "K.K. Tango",
+      "phrase": "brrmph"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "Picnic Tee",
+      "song": "K.K. Tango",
+      "phrase": "brrmph"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Picnic Tee",
+      "song": "K.K. Tango",
+      "phrase": "brrmph"
+    }
+  },
+  "name": "Friga",
+  "id": "friga"
+}

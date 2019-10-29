@@ -1,0 +1,60 @@
+{
+  "gender": "female",
+  "species": "eagle",
+  "birthday": "11-19",
+  "home_request": "An elegant, lofty space",
+  "skill": "Playing poker",
+  "goal": "Lawyer",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Ornate",
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "clothes": "Spiderweb Tee",
+      "song": "K.K. Condor",
+      "phrase": "eaglet"
+    },
+    "af+": {
+      "personality": "snooty",
+      "clothes": "Spiderweb Tee",
+      "song": "K.K. Condor",
+      "phrase": "eaglet"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Spiderweb Tee",
+      "song": "K.K. Condor",
+      "phrase": "eaglet"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Spiderweb Tee",
+      "song": "K.K. Condor",
+      "phrase": "eaglet"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "Spiderweb Tee",
+      "song": "K.K. Condor",
+      "phrase": "eaglet"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "Spiderweb Tee",
+      "song": "K.K. Condor",
+      "phrase": "eaglet"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Spiderweb Tee",
+      "song": "K.K. Condor",
+      "phrase": "eaglet"
+    }
+  },
+  "name": "Amelia",
+  "id": "amelia"
+}

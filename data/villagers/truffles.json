@@ -1,0 +1,67 @@
+{
+  "gender": "female",
+  "species": "pig",
+  "birthday": "7-28",
+  "home_request": "A constant quiz show",
+  "skill": "Trivia",
+  "goal": "Actor",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "A little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Cute",
+  "games": {
+    "af": {
+      "personality": "peppy",
+      "song": "Two Days Ago",
+      "phrase": "snoutie"
+    },
+    "af+": {
+      "personality": "peppy",
+      "song": "Two Days Ago",
+      "phrase": "snoutie"
+    },
+    "ac": {
+      "personality": "peppy",
+      "clothes": "Turnip Top",
+      "song": "Two Days Ago",
+      "phrase": "snoutie"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "song": "Two Days Ago",
+      "phrase": "snoutie"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "Turnip Top",
+      "song": "Two Days Ago",
+      "phrase": "snoutie"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "Turnip Top",
+      "song": "Two Days Ago",
+      "phrase": "snoutie"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Fern Tee",
+      "song": "Two Days Ago",
+      "phrase": "snoutie"
+    },
+    "hhd": {
+      "personality": "peppy",
+      "song": "Two Days Ago",
+      "phrase": "snoutie"
+    },
+    "pc": {
+      "personality": "peppy",
+      "song": "Two Days Ago",
+      "phrase": "snoutie"
+    }
+  },
+  "name": "Truffles",
+  "id": "truffles"
+}

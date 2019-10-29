@@ -1,0 +1,24 @@
+{
+  "gender": "female",
+  "species": "bird",
+  "birthday": "12-13",
+  "home_request": "",
+  "skill": "Helping others",
+  "goal": "Harpist",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "A little bit of milk",
+    "sugar": "1 spoonful of sugar"
+  },
+  "style": "Iconic",
+  "games": {
+    "nl": {
+      "personality": "normal",
+      "clothes": "Medli's outfit",
+      "song": "K.K. Island",
+      "phrase": "Gimme"
+    }
+  },
+  "name": "Medli",
+  "id": "medli"
+}

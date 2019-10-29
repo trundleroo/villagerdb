@@ -1,0 +1,36 @@
+{
+  "gender": "female",
+  "species": "pig",
+  "birthday": "3-5",
+  "home_request": "The town bank",
+  "skill": "Rock-Paper-Scissors",
+  "goal": "Violinist",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Cute",
+  "games": {
+    "cf": {
+      "personality": "normal",
+      "clothes": "Daisy Tee",
+      "song": "Two Days Ago",
+      "phrase": "snortie"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Daisy Tee",
+      "song": "Two Days Ago",
+      "phrase": "snortie"
+    },
+    "hhd": {
+      "personality": "normal",
+      "clothes": "Daisy Tee",
+      "song": "Two Days Ago",
+      "phrase": "snortie"
+    }
+  },
+  "name": "Gala",
+  "id": "gala"
+}

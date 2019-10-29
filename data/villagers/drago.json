@@ -1,0 +1,36 @@
+{
+  "gender": "male",
+  "species": "alligator",
+  "birthday": "2-12",
+  "home_request": "A mochi delight",
+  "skill": "Blowing bubbles",
+  "goal": "Pilot",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Iconic",
+  "games": {
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Dragon Suit",
+      "song": "Imperial K.K.",
+      "phrase": "burrrn"
+    },
+    "hhd": {
+      "personality": "lazy",
+      "clothes": "Dragon Suit",
+      "song": "Imperial K.K.",
+      "phrase": "burrrn"
+    },
+    "pc": {
+      "personality": "lazy",
+      "clothes": "Dragon Suit",
+      "song": "Imperial K.K.",
+      "phrase": "burrrn"
+    }
+  },
+  "name": "Drago",
+  "id": "drago"
+}

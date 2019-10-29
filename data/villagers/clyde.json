@@ -1,0 +1,30 @@
+{
+  "gender": "male",
+  "species": "horse",
+  "birthday": "5-1",
+  "home_request": "A fresh and fruity room",
+  "skill": "Pretending to Sleep",
+  "goal": "Superhero",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Flashy",
+  "games": {
+    "cf": {
+      "personality": "lazy",
+      "clothes": "Bubble Gum Tee",
+      "song": "K.K. Dixie",
+      "phrase": "clip-clawp"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Bubble Gum Tee",
+      "song": "K.K. Dixie",
+      "phrase": "clip-clawp"
+    }
+  },
+  "name": "Clyde",
+  "id": "clyde"
+}

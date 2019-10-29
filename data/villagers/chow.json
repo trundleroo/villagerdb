@@ -1,0 +1,60 @@
+{
+  "gender": "male",
+  "species": "bear",
+  "birthday": "7-22",
+  "home_request": "A humble abode",
+  "skill": "Trivia",
+  "goal": "Chef",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Flashy",
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "clothes": "Star Tee",
+      "song": "K.K. Steppe",
+      "phrase": "aiya"
+    },
+    "af+": {
+      "personality": "cranky",
+      "clothes": "Star Tee",
+      "song": "K.K. Steppe",
+      "phrase": "aiya"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "Star Tee",
+      "song": "K.K. Steppe",
+      "phrase": "aiya"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "Star Tee",
+      "song": "K.K. Steppe",
+      "phrase": "aiya"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "Star Tee",
+      "song": "K.K. Steppe",
+      "phrase": "aiya"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "Star Tee",
+      "song": "K.K. Steppe",
+      "phrase": "aiya"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Star Tee",
+      "song": "K.K. Steppe",
+      "phrase": "aiya"
+    }
+  },
+  "name": "Chow",
+  "id": "chow"
+}

@@ -1,0 +1,53 @@
+{
+  "gender": "female",
+  "species": "bird",
+  "birthday": "4-18",
+  "skill": "Board games",
+  "goal": "Translator",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "Lots of milk",
+    "sugar": "3 spoonfuls of sugar"
+  },
+  "games": {
+    "af": {
+      "personality": "peppy",
+      "song": "K.K. Synth",
+      "phrase": "chickadee"
+    },
+    "af+": {
+      "personality": "peppy",
+      "song": "K.K. Synth",
+      "phrase": "chickadee"
+    },
+    "ac": {
+      "personality": "peppy",
+      "song": "K.K. Synth",
+      "phrase": "chickadee"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Striking Outfit",
+      "song": "K.K. Synth",
+      "phrase": "chickadee"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Tropical Tee",
+      "song": "K.K. Synth",
+      "phrase": "chickadee"
+    },
+    "hhd": {
+      "personality": "peppy",
+      "song": "K.K. Synth",
+      "phrase": "chickadee"
+    },
+    "pc": {
+      "personality": "peppy",
+      "song": "K.K. Synth",
+      "phrase": "chickadee"
+    }
+  },
+  "name": "Piper",
+  "id": "piper"
+}

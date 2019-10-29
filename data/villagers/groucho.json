@@ -1,0 +1,61 @@
+{
+  "gender": "male",
+  "species": "bear",
+  "birthday": "10-23",
+  "home_request": "A farming homestead",
+  "skill": "Competitive eating",
+  "goal": "Pro wrestler",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Historical",
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "song": "K.K. Metal",
+      "phrase": "grumble"
+    },
+    "af+": {
+      "personality": "cranky",
+      "song": "K.K. Metal",
+      "phrase": "grumble"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "Windsock Shirt",
+      "song": "K.K. Metal",
+      "phrase": "grumble"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "song": "K.K. Metal",
+      "phrase": "grumble"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "Lite Polka Tee",
+      "song": "K.K. Metal",
+      "phrase": "grumble"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Lite Polka Tee",
+      "song": "K.K. Metal",
+      "phrase": "grumble"
+    },
+    "hhd": {
+      "personality": "cranky",
+      "song": "K.K. Metal",
+      "phrase": "grumble"
+    },
+    "pc": {
+      "personality": "cranky",
+      "song": "K.K. Metal",
+      "phrase": "grumble"
+    }
+  },
+  "name": "Groucho",
+  "id": "groucho"
+}

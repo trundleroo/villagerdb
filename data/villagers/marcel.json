@@ -1,0 +1,30 @@
+{
+  "gender": "male",
+  "species": "dog",
+  "birthday": "12-31",
+  "home_request": "A zen-like washroom",
+  "skill": "Eating frequently",
+  "goal": "Artist",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Iconic",
+  "games": {
+    "cf": {
+      "personality": "lazy",
+      "clothes": "Chichi-Print Tee",
+      "song": "Comrade K.K.",
+      "phrase": "non"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Chichi-Print Tee",
+      "song": "Comrade K.K.",
+      "phrase": "non"
+    }
+  },
+  "name": "Marcel",
+  "id": "marcel"
+}

@@ -1,0 +1,60 @@
+{
+  "gender": "female",
+  "species": "cat",
+  "birthday": "6-17",
+  "home_request": "A deliciously fruity room.",
+  "skill": "Doing Handstands",
+  "goal": "Hair Stylist",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Flashy",
+  "games": {
+    "af": {
+      "personality": "peppy",
+      "clothes": "Chain-Gang Tee",
+      "song": "K.K. Island",
+      "phrase": "reeeeOWR"
+    },
+    "af+": {
+      "personality": "peppy",
+      "clothes": "Chain-Gang Tee",
+      "song": "K.K. Island",
+      "phrase": "reeeeOWR"
+    },
+    "ac": {
+      "personality": "peppy",
+      "clothes": "Chain-Gang Tee",
+      "song": "K.K. Island",
+      "phrase": "reeeeOWR"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Chain-Gang Tee",
+      "song": "K.K. Island",
+      "phrase": "reeeeOWR"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "Chain-Gang Tee",
+      "song": "K.K. Island",
+      "phrase": "reeeeOWR"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "Chain-Gang Tee",
+      "song": "K.K. Island",
+      "phrase": "reeeeOWR"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Chain-Gang Tee",
+      "song": "K.K. Island",
+      "phrase": "reeeeOWR"
+    }
+  },
+  "name": "Tangy",
+  "id": "tangy"
+}

@@ -1,0 +1,72 @@
+{
+  "gender": "female",
+  "species": "cat",
+  "birthday": "2-27",
+  "home_request": "An office/studio for a star",
+  "skill": "Karaoke",
+  "goal": "Movie Star",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Cute",
+  "games": {
+    "af": {
+      "personality": "peppy",
+      "song": "Bubblegum K.K.",
+      "phrase": "silly"
+    },
+    "af+": {
+      "personality": "peppy",
+      "song": "Bubblegum K.K.",
+      "phrase": "silly"
+    },
+    "ac": {
+      "personality": "peppy",
+      "clothes": "Short Cake Shirt",
+      "song": "Bubblegum K.K.",
+      "phrase": "silly"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "song": "Bubblegum K.K.",
+      "phrase": "silly"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "Dazed Tee",
+      "song": "Bubblegum K.K.",
+      "phrase": "silly"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "Dazed Tee",
+      "song": "Bubblegum K.K.",
+      "phrase": "silly"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Dazed Tee",
+      "song": "Bubblegum K.K.",
+      "phrase": "silly"
+    },
+    "hhd": {
+      "personality": "peppy",
+      "song": "Bubblegum K.K.",
+      "phrase": "silly"
+    },
+    "pc": {
+      "personality": "peppy",
+      "song": "Bubblegum K.K.",
+      "phrase": "silly"
+    },
+    "nh": {
+      "personality": "peppy",
+      "song": "Bubblegum K.K.",
+      "phrase": "silly"
+    }
+  },
+  "name": "Rosie",
+  "id": "rosie"
+}

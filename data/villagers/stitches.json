@@ -1,0 +1,48 @@
+{
+  "gender": "male",
+  "species": "cub",
+  "birthday": "2-10",
+  "home_request": "A colorful toybox",
+  "skill": "Forgetting stuff",
+  "goal": "Lawyer",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Flashy",
+  "games": {
+    "ww": {
+      "personality": "lazy",
+      "clothes": "Star Tee",
+      "song": "K.K. Lullaby",
+      "phrase": "stuffin'"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "Star Tee",
+      "song": "K.K. Lullaby",
+      "phrase": "stuffin'"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Star Tee",
+      "song": "K.K. Lullaby",
+      "phrase": "stuffin'"
+    },
+    "hhd": {
+      "personality": "lazy",
+      "clothes": "Star Tee",
+      "song": "K.K. Lullaby",
+      "phrase": "stuffin'"
+    },
+    "pc": {
+      "personality": "lazy",
+      "clothes": "Star Tee",
+      "song": "K.K. Lullaby",
+      "phrase": "stuffin'"
+    }
+  },
+  "name": "Stitches",
+  "id": "stitches"
+}

@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "frog",
+  "birthday": "7-11",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "clothes": "Frog Shirt",
+      "song": "K.K. Tango",
+      "phrase": "sproing"
+    },
+    "af+": {
+      "personality": "normal",
+      "clothes": "Frog Shirt",
+      "song": "K.K. Tango",
+      "phrase": "sproing"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Frog Shirt",
+      "song": "K.K. Tango",
+      "phrase": "sproing"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Frog Shirt",
+      "song": "K.K. Tango",
+      "phrase": "sproing"
+    }
+  },
+  "name": "Emerald",
+  "id": "emerald"
+}

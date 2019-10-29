@@ -1,0 +1,24 @@
+{
+  "gender": "male",
+  "species": "hamster",
+  "birthday": "6-20",
+  "home_request": "A start-up company office",
+  "skill": "Computing",
+  "goal": "Writer",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Historical",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "Vegetarian Tee",
+      "song": "Bubblegum K.K.",
+      "phrase": "Indeed"
+    }
+  },
+  "name": "Graham",
+  "id": "graham"
+}

@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "cow",
+  "birthday": "6-27",
+  "games": {
+    "af": {
+      "personality": "peppy",
+      "clothes": "Denim Shirt",
+      "song": "K.K. Country",
+      "phrase": "cuddles cencerrito amuuur"
+    },
+    "af+": {
+      "personality": "peppy",
+      "clothes": "Denim Shirt",
+      "song": "K.K. Country",
+      "phrase": "cuddles cencerrito amuuur"
+    },
+    "ac": {
+      "personality": "peppy",
+      "clothes": "Denim Shirt",
+      "song": "K.K. Country",
+      "phrase": "cuddles cencerrito amuuur"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Denim Shirt",
+      "song": "K.K. Country",
+      "phrase": "cuddles cencerrito amuuur"
+    }
+  },
+  "name": "Belle",
+  "id": "belle"
+}

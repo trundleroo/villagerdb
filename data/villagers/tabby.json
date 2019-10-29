@@ -1,0 +1,60 @@
+{
+  "gender": "female",
+  "species": "cat",
+  "birthday": "8-13",
+  "home_request": "An old, abandoned hospital",
+  "skill": "Telling Jokes",
+  "goal": "Tennis Player",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Sporty",
+  "games": {
+    "af": {
+      "personality": "peppy",
+      "clothes": "Fish-Bone Shirt",
+      "song": "To the Edge",
+      "phrase": "me-WOW"
+    },
+    "af+": {
+      "personality": "peppy",
+      "clothes": "Fish-Bone Shirt",
+      "song": "To the Edge",
+      "phrase": "me-WOW"
+    },
+    "ac": {
+      "personality": "peppy",
+      "clothes": "Fish-Bone Shirt",
+      "song": "To the Edge",
+      "phrase": "me-WOW"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Fish-Bone Shirt",
+      "song": "To the Edge",
+      "phrase": "me-WOW"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "Bone Shirt",
+      "song": "To the Edge",
+      "phrase": "me-WOW"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "Bone Shirt",
+      "song": "To the Edge",
+      "phrase": "me-WOW"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Bone Shirt",
+      "song": "To the Edge",
+      "phrase": "me-WOW"
+    }
+  },
+  "name": "Tabby",
+  "id": "tabby"
+}

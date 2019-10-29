@@ -1,0 +1,36 @@
+{
+  "gender": "male",
+  "species": "gorilla",
+  "birthday": "10-18",
+  "home_request": "A kid-friendly exercise room",
+  "skill": "Jumping rope",
+  "goal": "Journalist",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Basic",
+  "games": {
+    "cf": {
+      "personality": "lazy",
+      "clothes": "Red Warmup Suit",
+      "song": "Steep Hill",
+      "phrase": "hoo hoo ha"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Red Warmup Suit",
+      "song": "Steep Hill",
+      "phrase": "hoo hoo ha"
+    },
+    "hhd": {
+      "personality": "lazy",
+      "clothes": "Red Warmup Suit",
+      "song": "Steep Hill",
+      "phrase": "hoo hoo ha"
+    }
+  },
+  "name": "Al",
+  "id": "al"
+}

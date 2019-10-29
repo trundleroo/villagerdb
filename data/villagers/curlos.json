@@ -1,0 +1,30 @@
+{
+  "gender": "male",
+  "species": "sheep",
+  "birthday": "5-8",
+  "home_request": "A Toy Day celebration",
+  "skill": "Calculating Tips",
+  "goal": "Actor",
+  "coffee": {
+    "beans": "Kilamanjaro",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Rock 'n' roll",
+  "games": {
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "Blue Aloha Shirt",
+      "song": "K.K. Samba",
+      "phrase": "shearly"
+    },
+    "nl": {
+      "personality": "smug",
+      "clothes": "Reggae Tee",
+      "song": "K.K. Samba",
+      "phrase": "shearly"
+    }
+  },
+  "name": "Curlos",
+  "id": "curlos"
+}

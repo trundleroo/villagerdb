@@ -1,0 +1,66 @@
+{
+  "gender": "female",
+  "species": "wolf",
+  "birthday": "12-14",
+  "home_request": "A pro chef's kitchen",
+  "skill": "Peeling Apples",
+  "goal": "Judge",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "A little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Rock 'n' roll",
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "clothes": "Deer Shirt",
+      "song": "Rockin' K.K.",
+      "phrase": "uff da"
+    },
+    "af+": {
+      "personality": "snooty",
+      "clothes": "Deer Shirt",
+      "song": "Rockin' K.K.",
+      "phrase": "uff da"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Deer Shirt",
+      "song": "Rockin' K.K.",
+      "phrase": "uff da"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Deer Shirt",
+      "song": "Rockin' K.K.",
+      "phrase": "uff da"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "Deer Shirt",
+      "song": "Rockin' K.K.",
+      "phrase": "uff da"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Deer Shirt",
+      "song": "Rockin' K.K.",
+      "phrase": "uff da"
+    },
+    "hhd": {
+      "personality": "snooty",
+      "clothes": "Deer Shirt",
+      "song": "Rockin' K.K.",
+      "phrase": "uff da"
+    },
+    "pc": {
+      "personality": "snooty",
+      "clothes": "Deer Shirt",
+      "song": "Rockin' K.K.",
+      "phrase": "uff da"
+    }
+  },
+  "name": "Freya",
+  "id": "freya"
+}

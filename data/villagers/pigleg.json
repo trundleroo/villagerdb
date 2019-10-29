@@ -1,0 +1,24 @@
+{
+  "gender": "male",
+  "species": "pig",
+  "birthday": "9-6",
+  "games": {
+    "af+": {
+      "personality": "jock",
+      "clothes": "Blue Aloha Shirt",
+      "phrase": "arrrn"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "Blue Aloha Shirt",
+      "phrase": "arrrn"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Blue Aloha Shirt",
+      "phrase": "arrrn"
+    }
+  },
+  "name": "Pigleg",
+  "id": "pigleg"
+}

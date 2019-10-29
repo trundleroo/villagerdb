@@ -1,0 +1,60 @@
+{
+  "gender": "male",
+  "species": "pig",
+  "birthday": "9-3",
+  "home_request": "A school cafeteria",
+  "skill": "Chugging milk",
+  "goal": "Poet",
+  "coffee": {
+    "beans": "Kilamanjaro",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Basic",
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "Jade Plaid Tee",
+      "song": "K.K. Mambo",
+      "phrase": "snork"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "Jade Plaid Tee",
+      "song": "K.K. Mambo",
+      "phrase": "snork"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "Jade Plaid Tee",
+      "song": "K.K. Mambo",
+      "phrase": "snork"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Jade Plaid Tee",
+      "song": "K.K. Mambo",
+      "phrase": "snork"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "Jade Plaid Tee",
+      "song": "K.K. Mambo",
+      "phrase": "snork"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Jade Plaid Tee",
+      "song": "K.K. Mambo",
+      "phrase": "snork"
+    },
+    "hhd": {
+      "personality": "lazy",
+      "clothes": "Jade Plaid Tee",
+      "song": "K.K. Mambo",
+      "phrase": "snork"
+    }
+  },
+  "name": "Spork",
+  "id": "spork"
+}

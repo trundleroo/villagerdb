@@ -1,0 +1,60 @@
+{
+  "gender": "male",
+  "species": "bird",
+  "birthday": "3-4",
+  "home_request": "A brand-new hat shop",
+  "skill": "Remembering stuff",
+  "goal": "Explorer",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Flashy",
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "Straw  Shirt",
+      "song": "K.K. Ragtime",
+      "phrase": "chuurp"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "Straw Shirt",
+      "song": "K.K. Ragtime",
+      "phrase": "chuurp"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "Straw Shirt",
+      "song": "K.K. Ragtime",
+      "phrase": "chuurp"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Straw Shirt",
+      "song": "K.K. Ragtime",
+      "phrase": "chuurp"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "Earthy Knit Shirt",
+      "song": "K.K. Ragtime",
+      "phrase": "chuurp"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "Earthy Knit Shirt",
+      "song": "K.K. Ragtime",
+      "phrase": "chuurp"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Earthy Knit Shirt",
+      "song": "K.K. Ragtime",
+      "phrase": "chuurp"
+    }
+  },
+  "name": "Anchovy",
+  "id": "anchovy"
+}

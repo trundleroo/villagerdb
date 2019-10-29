@@ -1,0 +1,35 @@
+{
+  "gender": "male",
+  "species": "goat",
+  "birthday": "6-28",
+  "home_request": "A photography studio",
+  "skill": "Blowing bubbles",
+  "goal": "Hair stylist",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Official",
+  "games": {
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Blue Aloha Shirt",
+      "song": "Comrade K.K.",
+      "phrase": "wut"
+    },
+    "nl": {
+      "personality": "smug",
+      "clothes": "Waistcoat",
+      "song": "Comrade K.K.",
+      "phrase": "wut"
+    },
+    "pc": {
+      "personality": "smug",
+      "song": "Comrade K.K.",
+      "phrase": "wut"
+    }
+  },
+  "name": "Kidd",
+  "id": "kidd"
+}

@@ -1,0 +1,24 @@
+{
+  "gender": "female",
+  "species": "deer",
+  "birthday": "5-4",
+  "home_request": "An autumnal atmosphere",
+  "skill": "Tiptoeing",
+  "goal": "Journalist",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Historical",
+  "games": {
+    "nl": {
+      "personality": "uchi",
+      "clothes": "Fall Leaf Tee",
+      "song": "K.K. Cruisin'",
+      "phrase": "whatevs"
+    }
+  },
+  "name": "Deirdre",
+  "id": "deirdre"
+}

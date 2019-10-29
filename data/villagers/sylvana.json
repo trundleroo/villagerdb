@@ -1,0 +1,28 @@
+{
+  "gender": "female",
+  "species": "squirrel",
+  "birthday": "10-22",
+  "skill": "Doodling",
+  "goal": "Superhero",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Lots of milk",
+    "sugar": "3 spoonfuls of sugar"
+  },
+  "games": {
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Kiwi shirt",
+      "song": "Spring Blossoms",
+      "phrase": "hubbub"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Kiwi shirt",
+      "song": "Spring Blossoms",
+      "phrase": "hubbub"
+    }
+  },
+  "name": "Sylvana",
+  "id": "sylvana"
+}

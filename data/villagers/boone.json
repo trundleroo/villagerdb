@@ -1,0 +1,48 @@
+{
+  "gender": "male",
+  "species": "gorilla",
+  "birthday": "9-12",
+  "home_request": "A desert paradise",
+  "skill": "Dancing",
+  "goal": "Rugby player",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Iconic",
+  "games": {
+    "ww": {
+      "personality": "jock",
+      "clothes": "Comfy Sweater",
+      "song": "K.K. Western",
+      "phrase": "baboom"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "Comfy Sweater",
+      "song": "K.K. Western",
+      "phrase": "baboom"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "Comfy Sweater",
+      "song": "K.K. Western",
+      "phrase": "baboom"
+    },
+    "hhd": {
+      "personality": "jock",
+      "clothes": "Comfy Sweater",
+      "song": "K.K. Western",
+      "phrase": "baboom"
+    },
+    "pc": {
+      "personality": "jock",
+      "clothes": "Comfy Sweater",
+      "song": "K.K. Western",
+      "phrase": "baboom"
+    }
+  },
+  "name": "Boone",
+  "id": "boone"
+}

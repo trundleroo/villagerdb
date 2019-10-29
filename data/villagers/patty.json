@@ -1,0 +1,72 @@
+{
+  "gender": "female",
+  "species": "cow",
+  "birthday": "5-10",
+  "home_request": "An everyday cookout",
+  "skill": "Competitive eating",
+  "goal": "Pastry chef",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Modern",
+  "games": {
+    "af": {
+      "personality": "peppy",
+      "clothes": "Citrus Tee",
+      "song": "K.K. Calypso",
+      "phrase": "how now"
+    },
+    "af+": {
+      "personality": "peppy",
+      "clothes": "Citrus Tee",
+      "song": "K.K. Calypso",
+      "phrase": "how now"
+    },
+    "ac": {
+      "personality": "peppy",
+      "clothes": "Citrus Tee",
+      "song": "K.K. Calypso",
+      "phrase": "how now"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Citrus Tee",
+      "song": "K.K. Calypso",
+      "phrase": "how now"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "Citrus Tee",
+      "song": "K.K. Calypso",
+      "phrase": "how now"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "Citrus Tee",
+      "song": "K.K. Calypso",
+      "phrase": "how now"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Citrus Tee",
+      "song": "K.K. Calypso",
+      "phrase": "how now"
+    },
+    "hhd": {
+      "personality": "peppy",
+      "clothes": "Citrus Tee",
+      "song": "K.K. Calypso",
+      "phrase": "how now"
+    },
+    "pc": {
+      "personality": "peppy",
+      "clothes": "Citrus Tee",
+      "song": "K.K. Calypso",
+      "phrase": "how now"
+    }
+  },
+  "name": "Patty",
+  "id": "patty"
+}

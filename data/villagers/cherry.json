@@ -1,0 +1,36 @@
+{
+  "gender": "female",
+  "species": "dog",
+  "birthday": "5-11",
+  "home_request": "A catwalk",
+  "skill": "Waking up early",
+  "goal": "Dancer",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Rock 'n' roll",
+  "games": {
+    "nl": {
+      "personality": "uchi",
+      "clothes": "Spiderweb Tee",
+      "song": "K.K. Fusion",
+      "phrase": "what what"
+    },
+    "hhd": {
+      "personality": "uchi",
+      "clothes": "Spiderweb Tee",
+      "song": "K.K. Fusion",
+      "phrase": "what what"
+    },
+    "pc": {
+      "personality": "uchi",
+      "clothes": "Spiderweb Tee",
+      "song": "K.K. Fusion",
+      "phrase": "what what"
+    }
+  },
+  "name": "Cherry",
+  "id": "cherry"
+}

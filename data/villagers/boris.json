@@ -1,0 +1,43 @@
+{
+  "gender": "male",
+  "species": "pig",
+  "birthday": "11-6",
+  "skill": "Tongue twisters",
+  "goal": "Singer",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "Lots of milk",
+    "sugar": "3 spoonfuls of sugar"
+  },
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "song": "K.K. House",
+      "phrase": "schnort"
+    },
+    "af+": {
+      "personality": "cranky",
+      "song": "K.K. House",
+      "phrase": "schnort"
+    },
+    "ac": {
+      "personality": "cranky",
+      "song": "K.K. House",
+      "phrase": "schnort"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "Kafei's Shirt",
+      "song": "K.K. House",
+      "phrase": "schnort"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Splendid Shirt",
+      "song": "K.K. House",
+      "phrase": "schnort"
+    }
+  },
+  "name": "Boris",
+  "id": "boris"
+}

@@ -1,0 +1,45 @@
+{
+  "gender": "female",
+  "species": "rhino",
+  "birthday": "1-24",
+  "home_request": "A relaxing island getaway",
+  "skill": "Making crafts",
+  "goal": "Writer",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Ornate",
+  "games": {
+    "ww": {
+      "personality": "normal",
+      "song": "K.K. Ballad",
+      "phrase": "bigfoot"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "Bodice",
+      "song": "K.K. Ballad",
+      "phrase": "bigfoot"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Corseted Shirt",
+      "song": "K.K. Ballad",
+      "phrase": "bigfoot"
+    },
+    "hhd": {
+      "personality": "normal",
+      "song": "K.K. Ballad",
+      "phrase": "bigfoot"
+    },
+    "pc": {
+      "personality": "normal",
+      "song": "K.K. Ballad",
+      "phrase": "bigfoot"
+    }
+  },
+  "name": "Rhonda",
+  "id": "rhonda"
+}

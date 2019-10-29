@@ -1,0 +1,51 @@
+{
+  "gender": "female",
+  "species": "octopus",
+  "birthday": "6-26",
+  "home_request": "An underwater fantasy land",
+  "skill": "Tongue twisters",
+  "goal": "Pharmacist",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Official",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "song": "Soulful K.K.",
+      "phrase": "blurp"
+    },
+    "af+": {
+      "personality": "normal",
+      "song": "Soulful K.K.",
+      "phrase": "blurp"
+    },
+    "ac": {
+      "personality": "normal",
+      "song": "Soulful K.K.",
+      "phrase": "blurp"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Red Aloha Shirt",
+      "song": "Soulful K.K.",
+      "phrase": "blurp"
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "Bubble-Gum Tee",
+      "song": "Soulful K.K.",
+      "phrase": "blurp"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "Bubble-Gum Tee",
+      "song": "Soulful K.K.",
+      "phrase": "blurp"
+    }
+  },
+  "name": "Marina",
+  "id": "marina"
+}

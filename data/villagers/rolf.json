@@ -1,0 +1,60 @@
+{
+  "gender": "male",
+  "species": "tiger",
+  "birthday": "8-22",
+  "home_request": "A camping collection",
+  "skill": "Doing handstands",
+  "goal": "Pro wrestler",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "A little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Iconic",
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "clothes": "Bubble Tee",
+      "song": "Spring Blossoms",
+      "phrase": "grrrolf"
+    },
+    "af+": {
+      "personality": "cranky",
+      "clothes": "Bubble Tee",
+      "song": "Spring Blossoms",
+      "phrase": "grrrolf"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "Bubble Tee",
+      "song": "Spring Blossoms",
+      "phrase": "grrrolf"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "Bubble Tee",
+      "song": "Spring Blossoms",
+      "phrase": "grrrolf"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "Bubble Tee",
+      "song": "Spring Blossoms",
+      "phrase": "grrrolf"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "Bubble Tee",
+      "song": "Spring Blossoms",
+      "phrase": "grrrolf"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Bubble Tee",
+      "song": "Spring Blossoms",
+      "phrase": "grrrolf"
+    }
+  },
+  "name": "Rolf",
+  "id": "rolf"
+}

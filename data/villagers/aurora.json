@@ -1,0 +1,67 @@
+{
+  "gender": "female",
+  "species": "penguin",
+  "birthday": "1-27",
+  "home_request": "A flower shop",
+  "skill": "Making Budgets",
+  "goal": "Doctor",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Official",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "song": "K.K. Gumbo",
+      "phrase": "b-b-baby"
+    },
+    "af+": {
+      "personality": "normal",
+      "song": "K.K. Gumbo",
+      "phrase": "b-b-baby"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Classic Top",
+      "song": "K.K. Gumbo",
+      "phrase": "b-b-baby"
+    },
+    "afe+": {
+      "personality": "normal",
+      "song": "K.K. Gumbo",
+      "phrase": "b-b-baby"
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "Pink Tartan Tee",
+      "song": "K.K. Gumbo",
+      "phrase": "b-b-baby"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "Pink Tartan Tee",
+      "song": "K.K. Gumbo",
+      "phrase": "b-b-baby"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Pink Tartan Tee",
+      "song": "K.K. Gumbo",
+      "phrase": "b-b-baby"
+    },
+    "hhd": {
+      "personality": "normal",
+      "song": "K.K. Gumbo",
+      "phrase": "b-b-baby"
+    },
+    "pc": {
+      "personality": "normal",
+      "song": "K.K. Gumbo",
+      "phrase": "b-b-baby"
+    }
+  },
+  "name": "Aurora",
+  "id": "aurora"
+}

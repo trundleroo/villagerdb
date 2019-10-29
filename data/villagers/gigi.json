@@ -1,0 +1,30 @@
+{
+  "gender": "female",
+  "species": "frog",
+  "birthday": "8-11",
+  "home_request": "A space for a classy gal.",
+  "skill": "Subsistence Living",
+  "goal": "President",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Ornate",
+  "games": {
+    "cf": {
+      "personality": "snooty",
+      "clothes": "Beaded Tank",
+      "song": "Only Me",
+      "phrase": "ribette"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Beaded Tank",
+      "song": "Only Me",
+      "phrase": "ribette"
+    }
+  },
+  "name": "Gigi",
+  "id": "gigi"
+}

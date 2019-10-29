@@ -1,0 +1,30 @@
+{
+  "gender": "female",
+  "species": "kangaroo",
+  "birthday": "5-3",
+  "home_request": "A place with a pool.",
+  "skill": "Playing Jacks",
+  "goal": "Tour Guide",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Ornate",
+  "games": {
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Yellow Aloha Tee",
+      "song": "Rockin' K.K.",
+      "phrase": "ne"
+    },
+    "nl": {
+      "personality": "uchi",
+      "clothes": "Yellow Aloha Tee",
+      "song": "Rockin' K.K.",
+      "phrase": "ne"
+    }
+  },
+  "name": "Sylvia",
+  "id": "sylvia"
+}

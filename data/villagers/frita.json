@@ -1,0 +1,30 @@
+{
+  "gender": "female",
+  "species": "sheep",
+  "birthday": "7-16",
+  "home_request": "A fast-food restaurant.",
+  "skill": "Chopping Vegetables",
+  "goal": "Chef",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Flashy",
+  "games": {
+    "nl": {
+      "personality": "uchi",
+      "clothes": "Reggae Tee",
+      "song": "K.K. Rockabilly",
+      "phrase": "oh ewe"
+    },
+    "hhd": {
+      "personality": "uchi",
+      "clothes": "Reggae Tee",
+      "song": "K.K. Rockabilly",
+      "phrase": "oh ewe"
+    }
+  },
+  "name": "Frita",
+  "id": "frita"
+}

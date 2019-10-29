@@ -1,0 +1,60 @@
+{
+  "gender": "male",
+  "species": "cub",
+  "birthday": "1-2",
+  "home_request": "A wild west space",
+  "skill": "Making puns",
+  "goal": "Astronaut",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Basic",
+  "games": {
+    "af": {
+      "personality": "jock",
+      "clothes": "Blue-Grid Tee",
+      "song": "K.K. Condor",
+      "phrase": "li'l bear"
+    },
+    "af+": {
+      "personality": "jock",
+      "clothes": "Blue-Grid Tee",
+      "song": "K.K. Condor",
+      "phrase": "li'l bear"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "Blue-Grid Tee",
+      "song": "K.K. Condor",
+      "phrase": "li'l bear"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Blue-Grid Tee",
+      "song": "K.K. Condor",
+      "phrase": "li'l bear"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "Blue-Grid Tee",
+      "song": "K.K. Condor",
+      "phrase": "li'l bear"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "Blue-Grid Tee",
+      "song": "K.K. Condor",
+      "phrase": "li'l bear"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "Blue-Grid Tee",
+      "song": "K.K. Condor",
+      "phrase": "li'l bear"
+    }
+  },
+  "name": "Poncho",
+  "id": "poncho"
+}

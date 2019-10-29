@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "chicken",
+  "birthday": "9-29",
+  "games": {
+    "af": {
+      "personality": "jock",
+      "clothes": "Exotic Shirt",
+      "song": "K.K. Love Song",
+      "phrase": "buhk buhk"
+    },
+    "af+": {
+      "personality": "jock",
+      "clothes": "Exotic Shirt",
+      "song": "K.K. Love Song",
+      "phrase": "buhk buhk"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "Exotic Shirt",
+      "song": "K.K. Love Song",
+      "phrase": "buhk buhk"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Exotic Shirt",
+      "song": "K.K. Love Song",
+      "phrase": "buhk buhk"
+    }
+  },
+  "name": "Hank",
+  "id": "hank"
+}

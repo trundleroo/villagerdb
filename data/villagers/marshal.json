@@ -1,0 +1,30 @@
+{
+  "gender": "male",
+  "species": "squirrel",
+  "birthday": "9-29",
+  "home_request": "A world-famous café",
+  "skill": "Mental math",
+  "goal": "Designer",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "A little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Ornate",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "Denim Jacket",
+      "song": "Space K.K.",
+      "phrase": "sulky"
+    },
+    "pc": {
+      "personality": "smug",
+      "clothes": "Denim Jacket",
+      "song": "Space K.K.",
+      "phrase": "sulky"
+    }
+  },
+  "name": "Marshal",
+  "id": "marshal"
+}

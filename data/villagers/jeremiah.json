@@ -1,0 +1,60 @@
+{
+  "gender": "male",
+  "species": "frog",
+  "birthday": "7-8",
+  "home_request": "A blue room, top to bottom",
+  "skill": "Hitting snooze",
+  "goal": "Writer",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Basic",
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "Sunset Tee",
+      "song": "K.K. Mambo",
+      "phrase": "nee-deep"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "Sunset Tee",
+      "song": "K.K. Mambo",
+      "phrase": "nee-deep"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "Sunset Tee",
+      "song": "K.K. Mambo",
+      "phrase": "nee-deep"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Sunset Tee",
+      "song": "K.K. Mambo",
+      "phrase": "nee-deep"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "Sunset Tee",
+      "song": "K.K. Mambo",
+      "phrase": "nee-deep"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "Sunset Tee",
+      "song": "K.K. Mambo",
+      "phrase": "nee-deep"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Sunset Tee",
+      "song": "K.K. Mambo",
+      "phrase": "nee-deep"
+    }
+  },
+  "name": "Jeremiah",
+  "id": "jeremiah"
+}

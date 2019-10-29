@@ -1,0 +1,60 @@
+{
+  "gender": "male",
+  "species": "pig",
+  "birthday": "10-7",
+  "home_request": "A secret research lab",
+  "skill": "Debating",
+  "goal": "Teacher",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "A little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Official",
+  "games": {
+    "af": {
+      "personality": "jock",
+      "clothes": "Racer Tee",
+      "song": "Pondering",
+      "phrase": "hot dog"
+    },
+    "af+": {
+      "personality": "jock",
+      "clothes": "Racer Tee",
+      "song": "Pondering",
+      "phrase": "hot dog"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "Racer Tee",
+      "song": "Pondering",
+      "phrase": "hot dog"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Racer Tee",
+      "song": "Pondering",
+      "phrase": "hot dog"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "Racer Tee",
+      "song": "Pondering",
+      "phrase": "hot dog"
+    },
+    "hhd": {
+      "personality": "jock",
+      "clothes": "Racer Tee",
+      "song": "Pondering",
+      "phrase": "hot dog"
+    },
+    "pc": {
+      "personality": "jock",
+      "clothes": "Racer Tee",
+      "song": "Pondering",
+      "phrase": "hot dog"
+    }
+  },
+  "name": "Cobb",
+  "id": "cobb"
+}

@@ -1,0 +1,24 @@
+{
+  "gender": "female",
+  "species": "mouse",
+  "birthday": "9-5",
+  "home_request": "A hot-springs spa",
+  "skill": "Playing horseshoes",
+  "goal": "Florist",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Iconic",
+  "games": {
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Blossom Tee",
+      "song": "K.K. Jongara",
+      "phrase": "yelp"
+    }
+  },
+  "name": "Greta",
+  "id": "greta"
+}

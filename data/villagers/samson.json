@@ -1,0 +1,60 @@
+{
+  "gender": "male",
+  "species": "mouse",
+  "birthday": "7-5",
+  "home_request": "A room with treasure",
+  "skill": "Eating frequently",
+  "goal": "Photographer",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Modern",
+  "games": {
+    "af": {
+      "personality": "jock",
+      "clothes": "Airy Tee",
+      "song": "Go K.K. Rider!",
+      "phrase": "pipsqueak"
+    },
+    "af+": {
+      "personality": "jock",
+      "clothes": "Airy Tee",
+      "song": "Go K.K. Rider!",
+      "phrase": "pipsqueak"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "Airy Tee",
+      "song": "Go K.K. Rider!",
+      "phrase": "pipsqueak"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Airy Tee",
+      "song": "Go K.K. Rider!",
+      "phrase": "pipsqueak"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "Airy Tee",
+      "song": "Go K.K. Rider!",
+      "phrase": "pipsqueak"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "Airy Tee",
+      "song": "Go K.K. Rider!",
+      "phrase": "pipsqueak"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "Airy Tee",
+      "song": "Go K.K. Rider!",
+      "phrase": "pipsqueak"
+    }
+  },
+  "name": "Samson",
+  "id": "samson"
+}

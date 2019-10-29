@@ -1,0 +1,60 @@
+{
+  "gender": "female",
+  "species": "sheep",
+  "birthday": "4-3",
+  "home_request": "A toast-warm winter room",
+  "skill": "Dusting",
+  "goal": "Hair stylist",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "A little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Basic",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "clothes": "Red-Grid Tee",
+      "song": "K.K. Waltz",
+      "phrase": "lambchop"
+    },
+    "af+": {
+      "personality": "normal",
+      "clothes": "Red-Grid Tee",
+      "song": "K.K. Waltz",
+      "phrase": "lambchop"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Red-Grid Tee",
+      "song": "K.K. Waltz",
+      "phrase": "lambchop"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Red-Grid Tee",
+      "song": "K.K. Waltz",
+      "phrase": "lambchop"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "Red-Grid Tee",
+      "song": "K.K. Waltz",
+      "phrase": "lambchop"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Red-Grid Tee",
+      "song": "K.K. Waltz",
+      "phrase": "lambchop"
+    },
+    "hhd": {
+      "personality": "normal",
+      "clothes": "Red-Grid Tee",
+      "song": "K.K. Waltz",
+      "phrase": "lambchop"
+    }
+  },
+  "name": "Eunice",
+  "id": "eunice"
+}

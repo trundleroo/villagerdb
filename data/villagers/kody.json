@@ -1,0 +1,60 @@
+{
+  "gender": "male",
+  "species": "cub",
+  "birthday": "9-28",
+  "home_request": "A blue training space",
+  "skill": "Eating frequently",
+  "goal": "Baseball player",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Sporty",
+  "games": {
+    "af": {
+      "personality": "jock",
+      "clothes": "Far-Out Shirt",
+      "song": "K.K. Country",
+      "phrase": "okey-dokey"
+    },
+    "af+": {
+      "personality": "jock",
+      "clothes": "Far-Out Shirt",
+      "song": "K.K. Country",
+      "phrase": "okey-dokey"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "Far-Out Shirt",
+      "song": "K.K. Country",
+      "phrase": "okey-dokey"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Far-Out Shirt",
+      "song": "K.K. Country",
+      "phrase": "okey-dokey"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "Orange Check Shirt",
+      "song": "K.K. Country",
+      "phrase": "okey-dokey"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "Orange Check Shirt",
+      "song": "K.K. Country",
+      "phrase": "okey-dokey"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "Racer Tee",
+      "song": "K.K. Country",
+      "phrase": "okey-dokey"
+    }
+  },
+  "name": "Kody",
+  "id": "kody"
+}

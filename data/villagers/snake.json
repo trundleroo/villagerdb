@@ -1,0 +1,72 @@
+{
+  "gender": "male",
+  "species": "rabbit",
+  "birthday": "11-3",
+  "home_request": "A ninja mansion",
+  "skill": "Playing jacks",
+  "goal": "Soccer player",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Sporty",
+  "games": {
+    "af": {
+      "personality": "jock",
+      "clothes": "Zipper Shirt",
+      "song": "K.K. Lullaby",
+      "phrase": "bunyip"
+    },
+    "af+": {
+      "personality": "jock",
+      "clothes": "Zipper Shirt",
+      "song": "K.K. Lullaby",
+      "phrase": "bunyip"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "Zipper Shirt",
+      "song": "K.K. Lullaby",
+      "phrase": "bunyip"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Zipper Shirt",
+      "song": "K.K. Lullaby",
+      "phrase": "bunyip"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "Zipper Shirt",
+      "song": "K.K. Lullaby",
+      "phrase": "bunyip"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "Zipper Shirt",
+      "song": "K.K. Lullaby",
+      "phrase": "bunyip"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "Zipper Shirt",
+      "song": "K.K. Lullaby",
+      "phrase": "bunyip"
+    },
+    "hhd": {
+      "personality": "jock",
+      "clothes": "Zipper Shirt",
+      "song": "K.K. Lullaby",
+      "phrase": "bunyip"
+    },
+    "pc": {
+      "personality": "jock",
+      "clothes": "Zipper Shirt",
+      "song": "K.K. Lullaby",
+      "phrase": "bunyip"
+    }
+  },
+  "name": "Snake",
+  "id": "snake"
+}

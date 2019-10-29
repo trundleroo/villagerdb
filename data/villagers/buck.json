@@ -1,0 +1,60 @@
+{
+  "gender": "male",
+  "species": "horse",
+  "birthday": "4-4",
+  "home_request": "A locker room",
+  "skill": "Vaulting",
+  "goal": "Basketball player",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Sporty",
+  "games": {
+    "af": {
+      "personality": "jock",
+      "clothes": "Eight-Ball Tee",
+      "song": "My Place",
+      "phrase": "pardner"
+    },
+    "af+": {
+      "personality": "jock",
+      "clothes": "Eight-Ball Tee",
+      "song": "My Place",
+      "phrase": "pardner"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "Eight-Ball Tee",
+      "song": "My Place",
+      "phrase": "pardner"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Eight-Ball Tee",
+      "song": "My Place",
+      "phrase": "pardner"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "Eight-Ball Tee",
+      "song": "My Place",
+      "phrase": "pardner"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "Eight-Ball Tee",
+      "song": "My Place",
+      "phrase": "pardner"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "Eight-Ball Tee",
+      "song": "My Place",
+      "phrase": "pardner"
+    }
+  },
+  "name": "Buck",
+  "id": "buck"
+}

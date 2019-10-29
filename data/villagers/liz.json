@@ -1,0 +1,29 @@
+{
+  "gender": "female",
+  "species": "alligator",
+  "birthday": "9-7",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "clothes": "Diamond Shirt",
+      "phrase": "groonch"
+    },
+    "af+": {
+      "personality": "normal",
+      "clothes": "Diamond Shirt",
+      "phrase": "groonch"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Diamond Shirt",
+      "phrase": "groonch"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Diamond Shirt",
+      "phrase": "groonch"
+    }
+  },
+  "name": "Liz",
+  "id": "liz"
+}

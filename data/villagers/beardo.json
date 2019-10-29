@@ -1,0 +1,24 @@
+{
+  "gender": "male",
+  "species": "bear",
+  "birthday": "9-27",
+  "home_request": "A cultivated garden",
+  "skill": "Memorizing stuff",
+  "goal": "Professor",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Official",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "Detective Outfit",
+      "song": "K.K. Sonata",
+      "phrase": "whiskers"
+    }
+  },
+  "name": "Beardo",
+  "id": "beardo"
+}

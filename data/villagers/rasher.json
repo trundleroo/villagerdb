@@ -1,0 +1,62 @@
+{
+  "gender": "male",
+  "species": "pig",
+  "birthday": "4-7",
+  "home_request": "Heist central",
+  "skill": "Staying up late",
+  "goal": "CEO",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "A little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Rock 'n' roll",
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "song": "K.K. Faire",
+      "phrase": "swine"
+    },
+    "af+": {
+      "personality": "cranky",
+      "song": "K.K. Faire",
+      "phrase": "swine"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "Fortune Shirt",
+      "song": "K.K. Faire",
+      "phrase": "swine"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "song": "K.K. Faire",
+      "phrase": "swine"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "Rugby Tee",
+      "song": "K.K. Faire",
+      "phrase": "swine"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "Rugby Tee",
+      "song": "K.K. Faire",
+      "phrase": "swine"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Rugby Tee",
+      "song": "K.K. Faire",
+      "phrase": "swine"
+    },
+    "hhd": {
+      "personality": "cranky",
+      "song": "K.K. Faire",
+      "phrase": "swine"
+    }
+  },
+  "name": "Rasher",
+  "id": "rasher"
+}

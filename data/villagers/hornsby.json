@@ -1,0 +1,46 @@
+{
+  "gender": "male",
+  "species": "rhino",
+  "birthday": "3-20",
+  "skill": "Bunting/Comedy",
+  "goal": "Artist",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "A little bit of milk",
+    "sugar": "1 spoonful of sugar"
+  },
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "Chevron Shirt",
+      "song": "Aloha K.K.",
+      "phrase": "schnozzle"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "Chevron Shirt",
+      "song": "Aloha K.K.",
+      "phrase": "schnozzle"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "Chevron Shirt",
+      "song": "Aloha K.K.",
+      "phrase": "schnozzle"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Chevron Shirt",
+      "song": "Aloha K.K",
+      "phrase": "schnozzle"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Chevron Shirt",
+      "song": "K.K. Lament",
+      "phrase": "schnozzle"
+    }
+  },
+  "name": "Hornsby",
+  "id": "hornsby"
+}

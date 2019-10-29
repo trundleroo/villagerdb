@@ -1,0 +1,24 @@
+{
+  "gender": "male",
+  "species": "frog",
+  "birthday": "9-21",
+  "home_request": "A contemplative train trip",
+  "skill": "Oversleeping",
+  "goal": "Writer",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Basic",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "Chain-Gang Tee",
+      "song": "K.K. Soul",
+      "phrase": "snoozit"
+    }
+  },
+  "name": "Henry",
+  "id": "henry"
+}

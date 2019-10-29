@@ -1,0 +1,66 @@
+{
+  "gender": "female",
+  "species": "duck",
+  "birthday": "11-17",
+  "home_request": "A harvest-centric home",
+  "skill": "Debating",
+  "goal": "Esthetician",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Modern",
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "clothes": "Blue-Stripe Tee",
+      "song": "K.K. Bossa",
+      "phrase": "quackpth"
+    },
+    "af+": {
+      "personality": "snooty",
+      "clothes": "Blue-Stripe Tee",
+      "song": "K.K. Bossa",
+      "phrase": "quackpth"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Blue-Stripe Tee",
+      "song": "K.K. Bossa",
+      "phrase": "quackpth"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Blue-Stripe Tee",
+      "song": "K.K. Bossa",
+      "phrase": "quackpth"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "Blue-Stripe Tee",
+      "song": "K.K. Bossa",
+      "phrase": "quackpth"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "Blue-Stripe Tee",
+      "song": "K.K. Bossa",
+      "phrase": "quackpth"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Blue-Stripe Tee",
+      "song": "K.K. Bossa",
+      "phrase": "quackpth"
+    },
+    "hhd": {
+      "personality": "snooty",
+      "clothes": "Blue-Stripe Tee",
+      "song": "K.K. Bossa",
+      "phrase": "quackpth"
+    }
+  },
+  "name": "Mallary",
+  "id": "mallary"
+}

@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "mouse",
+  "birthday": "3-24",
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "clothes": "Ribbon Shirt",
+      "song": "K.K. Technopop",
+      "phrase": "bumpkin"
+    },
+    "af+": {
+      "personality": "snooty",
+      "clothes": "Ribbon Shirt",
+      "song": "K.K. Technopop",
+      "phrase": "bumpkin"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Ribbon Shirt",
+      "song": "K.K. Technopop",
+      "phrase": "bumpkin"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Ribbon Shirt",
+      "song": "K.K. Technopop",
+      "phrase": "bumpkin"
+    }
+  },
+  "name": "Carmen",
+  "id": "carmen_(animal_crossing)"
+}

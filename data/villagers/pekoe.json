@@ -1,0 +1,42 @@
+{
+  "gender": "female",
+  "species": "cub",
+  "birthday": "5-18",
+  "home_request": "An exotic resort",
+  "skill": "Doodling",
+  "goal": "Aesthetician",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Iconic",
+  "games": {
+    "cf": {
+      "personality": "normal",
+      "clothes": "Hot Spring Tee",
+      "song": "Imperial K.K.",
+      "phrase": "bud"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Hot Spring Tee",
+      "song": "Imperial K.K.",
+      "phrase": "bud"
+    },
+    "hhd": {
+      "personality": "normal",
+      "clothes": "Hot Spring Tee",
+      "song": "Imperial K.K.",
+      "phrase": "bud"
+    },
+    "pc": {
+      "personality": "normal",
+      "clothes": "Hot Spring Tee",
+      "song": "Imperial K.K.",
+      "phrase": "bud"
+    }
+  },
+  "name": "Pekoe",
+  "id": "pekoe"
+}

@@ -1,0 +1,34 @@
+{
+  "gender": "male",
+  "species": "bird",
+  "birthday": "3-13",
+  "skill": "Lifting weights",
+  "games": {
+    "af": {
+      "personality": "jock",
+      "clothes": "Spade Shirt",
+      "song": "K.K. Parade",
+      "phrase": "ace"
+    },
+    "af+": {
+      "personality": "jock",
+      "clothes": "Spade Shirt",
+      "song": "K.K. Parade",
+      "phrase": "ace"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "Spade Shirt",
+      "song": "K.K. Parade",
+      "phrase": "ace"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Spade Shirt",
+      "song": "K.K. Parade",
+      "phrase": "ace"
+    }
+  },
+  "name": "Ace",
+  "id": "ace"
+}

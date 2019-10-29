@@ -1,0 +1,50 @@
+{
+  "gender": "male",
+  "species": "cub",
+  "birthday": "8-2",
+  "home_request": "A way below ground",
+  "skill": "Belly dancing",
+  "goal": "Movie director",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Flashy",
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "song": "Agent K.K.",
+      "phrase": "nyet"
+    },
+    "af+": {
+      "personality": "cranky",
+      "song": "Agent K.K.",
+      "phrase": "nyet"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "Tiger Print",
+      "song": "Agent K.K.",
+      "phrase": "nyet"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "song": "Agent K.K.",
+      "phrase": "nyet"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "Lite Polka Tee",
+      "song": "Agent K.K.",
+      "phrase": "nyet"
+    },
+    "nl": {
+      "personality": "cranky",
+      "song": "Agent K.K.",
+      "phrase": "nyet"
+    }
+  },
+  "name": "Vladimir",
+  "id": "vladimir"
+}

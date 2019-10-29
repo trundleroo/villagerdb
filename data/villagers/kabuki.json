@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "cat",
+  "birthday": "11-29",
+  "home_request": "A shrine for zen items",
+  "skill": "Drawing circles",
+  "goal": "Actor",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Historical",
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "song": "K.K. Folk",
+      "phrase": "meooo-OH"
+    },
+    "af+": {
+      "personality": "cranky",
+      "song": "K.K. Folk",
+      "phrase": "meooo-OH"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "Lavender Robe",
+      "song": "K.K. Folk",
+      "phrase": "meooo-OH"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "song": "K.K. Folk",
+      "phrase": "meooo-OH"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "Misty Tee",
+      "song": "K.K. Folk",
+      "phrase": "meooo-OH"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "Misty Tee",
+      "song": "K.K. Folk",
+      "phrase": "meooo-OH"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Misty Tee",
+      "song": "K.K. Folk",
+      "phrase": "meooo-OH"
+    }
+  },
+  "name": "Kabuki",
+  "id": "kabuki"
+}

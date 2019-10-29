@@ -1,0 +1,24 @@
+{
+  "gender": "male",
+  "species": "bird",
+  "birthday": "7-25",
+  "home_request": "A birdcage",
+  "skill": "Rock Paper Scissors",
+  "goal": "Firefighter",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Sporty",
+  "games": {
+    "nl": {
+      "personality": "jock",
+      "clothes": "Gray Tank",
+      "song": "Forest Life",
+      "phrase": "crunch"
+    }
+  },
+  "name": "Peck",
+  "id": "peck"
+}

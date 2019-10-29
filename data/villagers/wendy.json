@@ -1,0 +1,42 @@
+{
+  "gender": "female",
+  "species": "sheep",
+  "birthday": "8-15",
+  "home_request": "A place to spin records",
+  "skill": "Ventriloquism",
+  "goal": "Violinist",
+  "coffee": {
+    "beans": "House blend",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Flashy",
+  "games": {
+    "cf": {
+      "personality": "peppy",
+      "clothes": "Watermelon Tee",
+      "song": "K.K. Bossa",
+      "phrase": "lambkins"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Watermelon Tee",
+      "song": "K.K. Bossa",
+      "phrase": "lambkins"
+    },
+    "hhd": {
+      "personality": "peppy",
+      "clothes": "Watermelon Tee",
+      "song": "K.K. Bossa",
+      "phrase": "lambkins"
+    },
+    "pc": {
+      "personality": "peppy",
+      "clothes": "Watermelon Tee",
+      "song": "K.K. Bossa",
+      "phrase": "lambkins"
+    }
+  },
+  "name": "Wendy",
+  "id": "wendy"
+}

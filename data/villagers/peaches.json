@@ -1,0 +1,54 @@
+{
+  "gender": "female",
+  "species": "horse",
+  "birthday": "11-28",
+  "home_request": "An oasis of round furniture",
+  "skill": "Fishing",
+  "goal": "Florist",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Cute",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "clothes": "Lite Polka Tee",
+      "song": "K.K. Song",
+      "phrase": "neighbor"
+    },
+    "af+": {
+      "personality": "normal",
+      "clothes": "Lite Polka Tee",
+      "song": "K.K. Song",
+      "phrase": "neighbor"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Lite Polka Tee",
+      "song": "K.K. Song",
+      "phrase": "neighbor"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Lite Polka Tee",
+      "song": "K.K. Song",
+      "phrase": "neighbor"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "Lite Polka Tee",
+      "song": "K.K. Song",
+      "phrase": "neighbor"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Lite Polka Tee",
+      "song": "K.K. Song",
+      "phrase": "neighbor"
+    }
+  },
+  "name": "Peaches",
+  "id": "peaches"
+}

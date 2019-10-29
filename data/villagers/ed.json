@@ -1,0 +1,54 @@
+{
+  "gender": "male",
+  "species": "horse",
+  "birthday": "9-16",
+  "home_request": "A spontaneous dinner party",
+  "skill": "Juggling",
+  "goal": "Singer",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Flashy",
+  "games": {
+    "af": {
+      "personality": "jock",
+      "clothes": "Mod Top",
+      "song": "K.K. Ballad",
+      "phrase": "greenhorn"
+    },
+    "af+": {
+      "personality": "jock",
+      "clothes": "Mod Top",
+      "song": "K.K. Ballad",
+      "phrase": "greenhorn"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "Mod Top",
+      "song": "K.K. Ballad",
+      "phrase": "greenhorn"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Mod Top",
+      "song": "K.K. Ballad",
+      "phrase": "greenhorn"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "Lite Polka Tee",
+      "song": "K.K. Ballad",
+      "phrase": "greenhorn"
+    },
+    "nl": {
+      "personality": "smug",
+      "clothes": "Lite Polka Tee",
+      "song": "K.K. Ballad",
+      "phrase": "greenhorn"
+    }
+  },
+  "name": "Ed",
+  "id": "ed"
+}

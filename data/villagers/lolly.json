@@ -1,0 +1,36 @@
+{
+  "gender": "female",
+  "species": "cat",
+  "birthday": "3-27",
+  "home_request": "A lecture hall",
+  "skill": "Peeling Apples",
+  "goal": "Chef",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Basic",
+  "games": {
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Natty Tee",
+      "song": "K.K. Stroll",
+      "phrase": "bonbon Ron-ron Kratz"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "Natty Tee",
+      "song": "K.K. Stroll",
+      "phrase": "bonbon Ron-ron Kratz"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Natty Tee",
+      "song": "K.K. Stroll",
+      "phrase": "bonbon Ron-ron Kratz"
+    }
+  },
+  "name": "Lolly",
+  "id": "lolly"
+}

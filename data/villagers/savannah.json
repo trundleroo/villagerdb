@@ -1,0 +1,72 @@
+{
+  "gender": "female",
+  "species": "horse",
+  "birthday": "1-25",
+  "home_request": "A home with natural beauty.",
+  "skill": "Calculating Tips",
+  "goal": "Tour Guide",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Modern",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "clothes": "Deep-Blue Tee",
+      "song": "Forest Life",
+      "phrase": "y'all"
+    },
+    "af+": {
+      "personality": "normal",
+      "clothes": "Deep-Blue Tee",
+      "song": "Forest Life",
+      "phrase": "y'all"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Deep-Blue Tee",
+      "song": "Forest Life",
+      "phrase": "y'all"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Deep-Blue Tee",
+      "song": "Forest Life",
+      "phrase": "y'all"
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "Deep-Blue Tee",
+      "song": "Forest Life",
+      "phrase": "y'all"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "Deep-Blue Tee",
+      "song": "Forest Life",
+      "phrase": "y'all"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Deep-Blue Tee",
+      "song": "Forest Life",
+      "phrase": "y'all"
+    },
+    "hhd": {
+      "personality": "normal",
+      "clothes": "Deep-Blue Tee",
+      "song": "Forest Life",
+      "phrase": "y'all"
+    },
+    "pc": {
+      "personality": "normal",
+      "clothes": "Deep-Blue Tee",
+      "song": "Forest Life",
+      "phrase": "y'all"
+    }
+  },
+  "name": "Savannah",
+  "id": "savannah"
+}

@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "ostrich",
+  "birthday": "11-13",
+  "home_request": "A world of black and white",
+  "skill": "Hitting snooze",
+  "goal": "Dancer",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "A little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Ornate",
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "song": "K.K. Gumbo",
+      "phrase": "chicken"
+    },
+    "af+": {
+      "personality": "snooty",
+      "song": "K.K. Gumbo",
+      "phrase": "chicken"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Laced Shirt",
+      "song": "K.K. Gumbo",
+      "phrase": "chicken"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "song": "K.K. Gumbo",
+      "phrase": "chicken"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "Laced Shirt",
+      "song": "K.K. Gumbo",
+      "phrase": "chicken"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "Laced Shirt",
+      "song": "K.K. Gumbo",
+      "phrase": "chicken"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Amethyst Tee",
+      "song": "K.K. Gumbo",
+      "phrase": "chicken"
+    }
+  },
+  "name": "Queenie",
+  "id": "queenie"
+}

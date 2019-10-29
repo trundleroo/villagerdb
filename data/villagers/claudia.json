@@ -1,0 +1,35 @@
+{
+  "gender": "female",
+  "species": "tiger",
+  "birthday": "11-22",
+  "skill": "Stomping around",
+  "goal": "CEO",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "A little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Ornate",
+  "games": {
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Spring Shirt",
+      "song": "K.K. Synth",
+      "phrase": "ooh la la"
+    },
+    "hhd": {
+      "personality": "snooty",
+      "clothes": "Spring Shirt",
+      "song": "K.K. Synth",
+      "phrase": "ooh la la"
+    },
+    "pc": {
+      "personality": "snooty",
+      "clothes": "Spring Shirt",
+      "song": "K.K. Synth",
+      "phrase": "ooh la la"
+    }
+  },
+  "name": "Claudia",
+  "id": "claudia"
+}

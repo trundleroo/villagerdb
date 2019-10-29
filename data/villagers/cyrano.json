@@ -1,0 +1,60 @@
+{
+  "gender": "male",
+  "species": "anteater",
+  "birthday": "3-9",
+  "home_request": "An odd-numbers gallery",
+  "skill": "Whistling",
+  "goal": "Journalist",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Iconic",
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "clothes": "Wave Shirt",
+      "song": "K.K. Faire",
+      "phrase": "ah-CHOO"
+    },
+    "af+": {
+      "personality": "cranky",
+      "clothes": "Wave Shirt",
+      "song": "K.K. Faire",
+      "phrase": "ah-CHOO"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "Wave Shirt",
+      "song": "K.K. Faire",
+      "phrase": "ah-CHOO"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "Wave Shirt",
+      "song": "K.K. Faire",
+      "phrase": "ah-CHOO"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "Dawn Tee",
+      "song": "K.K. Faire",
+      "phrase": "ah-CHOO"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "Dawn Tee",
+      "song": "K.K. Faire",
+      "phrase": "ah-CHOO"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Dawn Tee",
+      "song": "K.K. Faire",
+      "phrase": "ah-CHOO"
+    }
+  },
+  "name": "Cyrano",
+  "id": "cyrano"
+}

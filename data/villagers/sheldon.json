@@ -1,0 +1,24 @@
+{
+  "gender": "male",
+  "species": "squirrel",
+  "birthday": "2-26",
+  "home_request": "An all-you-can-game room",
+  "skill": "Making puns",
+  "goal": "Mayor",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "a little bit of milk",
+    "sugar": "one spoonful of sugar"
+  },
+  "style": "Rock 'n' roll",
+  "games": {
+    "nl": {
+      "personality": "jock",
+      "clothes": "Tiger Jacket",
+      "song": "K.K. Folk",
+      "phrase": "cardio"
+    }
+  },
+  "name": "Sheldon",
+  "id": "sheldon"
+}

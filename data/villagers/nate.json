@@ -1,0 +1,54 @@
+{
+  "gender": "male",
+  "species": "bear",
+  "birthday": "8-16",
+  "home_request": "A cardboard life",
+  "skill": "Playing horseshoes",
+  "goal": "Sumo wrestler",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Basic",
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "Spring Shirt",
+      "song": "K.K. Lullaby",
+      "phrase": "yawwwn"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "Spring Shirt",
+      "song": "K.K. Lullaby",
+      "phrase": "yawwwn"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "Spring Shirt",
+      "song": "K.K. Lullaby",
+      "phrase": "yawwwn"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Spring Shirt",
+      "song": "K.K. Lullaby",
+      "phrase": "yawwwn"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "Spring Shirt",
+      "song": "K.K. Lullaby",
+      "phrase": "yawwwn"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Spring Shirt",
+      "song": "K.K. Lullaby",
+      "phrase": "yawwwn"
+    }
+  },
+  "name": "Nate",
+  "id": "nate"
+}

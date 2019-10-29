@@ -1,0 +1,22 @@
+{
+  "gender": "female",
+  "species": "squirrel",
+  "birthday": "7-7",
+  "skill": "Cosplay",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Sporty",
+  "games": {
+    "nl": {
+      "personality": "normal",
+      "clothes": "Marie shirt",
+      "song": "Bubblegum K.K.",
+      "phrase": "splatastic"
+    }
+  },
+  "name": "Viché",
+  "id": "viche"
+}

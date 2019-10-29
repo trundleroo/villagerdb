@@ -1,0 +1,13 @@
+{
+  "gender": "male",
+  "species": "bull",
+  "games": {
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "Blue Aloha Shirt",
+      "phrase": "M"
+    }
+  },
+  "name": "Verdun",
+  "id": "verdun"
+}

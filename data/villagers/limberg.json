@@ -1,0 +1,60 @@
+{
+  "gender": "male",
+  "species": "mouse",
+  "birthday": "10-17",
+  "home_request": "A self-sustaining sanctuary",
+  "skill": "Making faces",
+  "goal": "Mayor",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Historical",
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "clothes": "Subdued-Print Tee",
+      "song": "K.K. Folk",
+      "phrase": "squinky"
+    },
+    "af+": {
+      "personality": "cranky",
+      "clothes": "Subdued-Print Tee",
+      "song": "K.K. Folk",
+      "phrase": "squinky"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "Subdued-Print Tee",
+      "song": "K.K. Folk",
+      "phrase": "squinky"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "Subdued-Print Tee",
+      "song": "K.K. Folk",
+      "phrase": "squinky"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "Subdued-Print Tee",
+      "song": "K.K. Folk",
+      "phrase": "squinky"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "Subdued-Print Tee",
+      "song": "K.K. Folk",
+      "phrase": "squinky"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Subdued-Print Tee",
+      "song": "K.K. Folk",
+      "phrase": "squinky"
+    }
+  },
+  "name": "Limberg",
+  "id": "limberg"
+}

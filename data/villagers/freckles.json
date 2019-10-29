@@ -1,0 +1,60 @@
+{
+  "gender": "female",
+  "species": "duck",
+  "birthday": "2-19",
+  "home_request": "A fishy room under the sea",
+  "skill": "Staying awake",
+  "goal": "Pharmacist",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Flashy",
+  "games": {
+    "af": {
+      "personality": "peppy",
+      "clothes": "Bright Tee",
+      "song": "K.K. Song",
+      "phrase": "ducky"
+    },
+    "af+": {
+      "personality": "peppy",
+      "clothes": "Bright Tee",
+      "song": "K.K. Song",
+      "phrase": "ducky"
+    },
+    "ac": {
+      "personality": "peppy",
+      "clothes": "Bright Tee",
+      "song": "K.K. Song",
+      "phrase": "ducky"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Bright Tee",
+      "song": "K.K. Song",
+      "phrase": "ducky"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "Bright Tee",
+      "song": "K.K. Song",
+      "phrase": "ducky"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "Bright Tee",
+      "song": "K.K. Song",
+      "phrase": "ducky"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Bright Tee",
+      "song": "K.K. Song",
+      "phrase": "ducky"
+    }
+  },
+  "name": "Freckles",
+  "id": "freckles"
+}

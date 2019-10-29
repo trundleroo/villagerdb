@@ -1,0 +1,66 @@
+{
+  "gender": "female",
+  "species": "koala",
+  "birthday": "8-19",
+  "home_request": "A mix of antique pieces",
+  "skill": "Photography",
+  "goal": "Stylist",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "None milk",
+    "sugar": "No sugar"
+  },
+  "style": "Cute",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "clothes": "Barber Tee",
+      "song": "Surfin' K.K.",
+      "phrase": "guvnor"
+    },
+    "af+": {
+      "personality": "normal",
+      "clothes": "Barber Tee",
+      "song": "Surfin' K.K.",
+      "phrase": "guvnor"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Barber Tee",
+      "song": "Surfin' K.K.",
+      "phrase": "guvnor"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Barber Tee",
+      "song": "Surfin' K.K.",
+      "phrase": "guvnor"
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "Barber Tee",
+      "song": "Surfin' K.K.",
+      "phrase": "guvnor"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "Barber Tee",
+      "song": "Surfin' K.K.",
+      "phrase": "guvnor"
+    },
+    "hhd": {
+      "personality": "normal",
+      "clothes": "Barber Tee",
+      "song": "Surfin' K.K.",
+      "phrase": "guvnor"
+    },
+    "pc": {
+      "personality": "normal",
+      "clothes": "Barber Tee",
+      "song": "Surfin' K.K.",
+      "phrase": "guvnor"
+    }
+  },
+  "name": "Alice",
+  "id": "alice"
+}

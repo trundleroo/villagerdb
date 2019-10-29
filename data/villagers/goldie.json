@@ -1,0 +1,67 @@
+{
+  "gender": "female",
+  "species": "dog",
+  "birthday": "12-27",
+  "home_request": "A forest of books",
+  "skill": "Dusting",
+  "goal": "Dentist",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Basic",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "song": "K.K. Bossa",
+      "phrase": "woof"
+    },
+    "af+": {
+      "personality": "normal",
+      "song": "K.K. Bossa",
+      "phrase": "woof"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Hippie Shirt",
+      "song": "K.K. Bossa",
+      "phrase": "woof"
+    },
+    "afe+": {
+      "personality": "normal",
+      "song": "K.K. Bossa",
+      "phrase": "woof"
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "Red Check Tee",
+      "song": "K.K. Bossa",
+      "phrase": "woof"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "Dapper Tee",
+      "song": "K.K. Bossa",
+      "phrase": "woof"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Dapper Tee",
+      "song": "K.K. Bossa",
+      "phrase": "woof"
+    },
+    "pc": {
+      "personality": "normal",
+      "song": "K.K. Bossa",
+      "phrase": "woof"
+    },
+    "nh": {
+      "personality": "normal",
+      "song": "K.K. Bossa",
+      "phrase": "woof"
+    }
+  },
+  "name": "Goldie",
+  "id": "goldie"
+}

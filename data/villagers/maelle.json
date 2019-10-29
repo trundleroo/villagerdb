@@ -1,0 +1,53 @@
+{
+  "gender": "female",
+  "species": "duck",
+  "birthday": "4-8",
+  "home_request": "A high-end fashion boutique.",
+  "skill": "Stomping Around",
+  "goal": "Makeup Artist",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Modern",
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "song": "Cafe K.K.",
+      "phrase": "duckling"
+    },
+    "af+": {
+      "personality": "snooty",
+      "clothes": "Red Aloha Shirt",
+      "song": "Cafe K.K.",
+      "phrase": "duckling"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Red Aloha Shirt",
+      "song": "Cafe K.K.",
+      "phrase": "duckling"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Red Aloha Shirt",
+      "song": "Cafe K.K.",
+      "phrase": "duckling"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "Heart Tee",
+      "song": "Cafe K.K.",
+      "phrase": "duckling"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "Heart Tee",
+      "song": "Cafe K.K.",
+      "phrase": "duckling"
+    }
+  },
+  "name": "Maelle",
+  "id": "maelle"
+}

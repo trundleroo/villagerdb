@@ -1,0 +1,48 @@
+{
+  "gender": "male",
+  "species": "goat",
+  "birthday": "8-29",
+  "home_request": "A classic barbershop",
+  "skill": "Staying up late",
+  "goal": "Musician",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Historical",
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "clothes": "Big-Star Tee",
+      "song": "K.K. Rockabilly",
+      "phrase": "bleh eh eh"
+    },
+    "af+": {
+      "personality": "cranky",
+      "clothes": "Big-Star Tee",
+      "song": "K.K. Rockabilly",
+      "phrase": "bleh eh eh"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "Big-Star Tee",
+      "song": "K.K. Rockabilly",
+      "phrase": "bleh eh eh"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "Big-Star Tee",
+      "song": "K.K. Rockabilly",
+      "phrase": "bleh eh eh"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Big-Star Tee",
+      "song": "K.K. Rockabilly",
+      "phrase": "bleh eh eh"
+    }
+  },
+  "name": "Gruff",
+  "id": "gruff"
+}

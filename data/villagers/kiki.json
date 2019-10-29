@@ -1,0 +1,72 @@
+{
+  "gender": "female",
+  "species": "cat",
+  "birthday": "10-8",
+  "home_request": "A replica aquarium",
+  "skill": "Fishing",
+  "goal": "Writer",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Basic",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "clothes": "Argyle Knit Shirt",
+      "song": "K.K. Country",
+      "phrase": "kitty cat"
+    },
+    "af+": {
+      "personality": "normal",
+      "clothes": "Argyle Knit Shirt",
+      "song": "K.K. Country",
+      "phrase": "kitty cat"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Argyle Knit Shirt",
+      "song": "K.K. Country",
+      "phrase": "kitty cat"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Argyle Knit Shirt",
+      "song": "K.K. Country",
+      "phrase": "kitty cat"
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "Argyle Knit Shirt",
+      "song": "K.K. Country",
+      "phrase": "kitty cat"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "Argyle Knit Shirt",
+      "song": "K.K. Country",
+      "phrase": "kitty cat"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Argyle Knit Shirt",
+      "song": "K.K. Country",
+      "phrase": "kitty cat"
+    },
+    "hhd": {
+      "personality": "normal",
+      "clothes": "Argyle Knit Shirt",
+      "song": "K.K. Country",
+      "phrase": "kitty cat"
+    },
+    "pc": {
+      "personality": "normal",
+      "clothes": "Argyle Knit Shirt",
+      "song": "K.K. Country",
+      "phrase": "kitty cat"
+    }
+  },
+  "name": "Kiki",
+  "id": "kiki"
+}

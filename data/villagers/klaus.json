@@ -1,0 +1,66 @@
+{
+  "gender": "male",
+  "species": "bear",
+  "birthday": "3-31",
+  "home_request": "An ancient bathhouse",
+  "skill": "Debating",
+  "goal": "Politician",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Just a little bit of milk",
+    "sugar": "1 spoonful of sugar"
+  },
+  "style": "Historical",
+  "games": {
+    "af": {
+      "personality": "smug",
+      "clothes": "Gold Armor Suit",
+      "song": "K.K. Milonga",
+      "phrase": "strudel"
+    },
+    "af+": {
+      "personality": "smug",
+      "clothes": "Gold Armor Suit",
+      "song": "K.K. Milonga",
+      "phrase": "strudel"
+    },
+    "ac": {
+      "personality": "smug",
+      "clothes": "Gold Armor Suit",
+      "song": "K.K. Milonga",
+      "phrase": "strudel"
+    },
+    "afe+": {
+      "personality": "smug",
+      "clothes": "Gold Armor Suit",
+      "song": "K.K. Milonga",
+      "phrase": "strudel"
+    },
+    "ww": {
+      "personality": "smug",
+      "clothes": "Gold Armor Suit",
+      "song": "K.K. Milonga",
+      "phrase": "strudel"
+    },
+    "cf": {
+      "personality": "smug",
+      "clothes": "Gold Armor Suit",
+      "song": "K.K. Milonga",
+      "phrase": "strudel"
+    },
+    "nl": {
+      "personality": "smug",
+      "clothes": "Gold Armor Suit",
+      "song": "K.K. Milonga",
+      "phrase": "strudel"
+    },
+    "nh": {
+      "personality": "smug",
+      "clothes": "Gold Armor Suit",
+      "song": "K.K. Milonga",
+      "phrase": "strudel"
+    }
+  },
+  "name": "Klaus",
+  "id": "klaus"
+}

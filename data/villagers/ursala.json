@@ -1,0 +1,46 @@
+{
+  "gender": "female",
+  "species": "bear",
+  "birthday": "1-16",
+  "skill": "Staying positive",
+  "goal": "Florist",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "clothes": "Pastel-Stripe Tee",
+      "song": "K.K. Country",
+      "phrase": "grooomph"
+    },
+    "af+": {
+      "personality": "snooty",
+      "clothes": "Pastel-Stripe Tee",
+      "song": "K.K. Country",
+      "phrase": "grooomph"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Pastel-Stripe Tee",
+      "song": "K.K. Country",
+      "phrase": "grooomph"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Pastel-Stripe Tee",
+      "song": "K.K. Country",
+      "phrase": "grooomph"
+    },
+    "nl": {
+      "personality": "uchi",
+      "clothes": "Pastel-Stripe Tee",
+      "song": "K.K. Country",
+      "phrase": "grooomph"
+    }
+  },
+  "name": "Ursala",
+  "id": "ursala"
+}

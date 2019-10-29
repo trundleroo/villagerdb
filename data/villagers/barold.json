@@ -1,0 +1,24 @@
+{
+  "gender": "male",
+  "species": "cub",
+  "birthday": "3-2",
+  "home_request": "A room for stew.",
+  "skill": "Computing",
+  "goal": "Programmer",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Historical",
+  "games": {
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Tiger Tee",
+      "song": "My Place",
+      "phrase": "cubby"
+    }
+  },
+  "name": "Barold",
+  "id": "barold"
+}

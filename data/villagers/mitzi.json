@@ -1,0 +1,70 @@
+{
+  "gender": "female",
+  "species": "cat",
+  "birthday": "9-25",
+  "home_request": "A café with round, zen items",
+  "skill": "Hula Dancing",
+  "goal": "Lawyer",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Historical",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "clothes": "Patchwork Shirt",
+      "song": "K.K. Swing",
+      "phrase": "mew"
+    },
+    "af+": {
+      "personality": "normal",
+      "clothes": "Patchwork Shirt",
+      "song": "K.K. Swing",
+      "phrase": "mew"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Patchwork Shirt",
+      "song": "K.K. Swing",
+      "phrase": "mew"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Patchwork Shirt",
+      "song": "K.K. Swing",
+      "phrase": "mew"
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "Gumdrop Tee",
+      "song": "K.K. Swing",
+      "phrase": "mew"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "Gumdrop Tee",
+      "song": "K.K. Swing",
+      "phrase": "mew"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Gumdrop Tee",
+      "song": "K.K. Swing",
+      "phrase": "mew"
+    },
+    "hhd": {
+      "personality": "normal",
+      "song": "K.K. Swing",
+      "phrase": "mew"
+    },
+    "pc": {
+      "personality": "normal",
+      "song": "K.K. Swing",
+      "phrase": "mew"
+    }
+  },
+  "name": "Mitzi",
+  "id": "mitzi"
+}

@@ -1,0 +1,36 @@
+{
+  "gender": "female",
+  "species": "ostrich",
+  "birthday": "4-22",
+  "home_request": "A fiery hangout",
+  "skill": "Eating frequently",
+  "goal": "Swimmer",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Ornate",
+  "games": {
+    "nl": {
+      "personality": "uchi",
+      "clothes": "Flame Tee",
+      "song": "K.K. Flamenco",
+      "phrase": "sparky"
+    },
+    "hhd": {
+      "personality": "uchi",
+      "clothes": "Flame Tee",
+      "song": "K.K. Flamenco",
+      "phrase": "sparky"
+    },
+    "pc": {
+      "personality": "uchi",
+      "clothes": "Flame Tee",
+      "song": "K.K. Flamenco",
+      "phrase": "sparky"
+    }
+  },
+  "name": "Phoebe",
+  "id": "phoebe"
+}

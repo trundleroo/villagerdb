@@ -1,0 +1,30 @@
+{
+  "gender": "male",
+  "species": "chicken",
+  "birthday": "11-23",
+  "home_request": "A battle enthusiast's abode",
+  "skill": "Calculating tips",
+  "goal": "Firefighter",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Iconic",
+  "games": {
+    "cf": {
+      "personality": "cranky",
+      "clothes": "Cavalier Shirt",
+      "song": "K.K. Aria",
+      "phrase": "cluckling"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Cavalier Shirt",
+      "song": "K.K. Aria",
+      "phrase": "cluckling"
+    }
+  },
+  "name": "Knox",
+  "id": "knox"
+}

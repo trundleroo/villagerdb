@@ -1,0 +1,60 @@
+{
+  "gender": "male",
+  "species": "dog",
+  "birthday": "5-13",
+  "home_request": "An eggstravaganza",
+  "skill": "Hitting snooze",
+  "goal": "Architect",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Basic",
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "Mod Top",
+      "song": "K.K. Mambo",
+      "phrase": "dawg"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "Mod Top",
+      "song": "K.K. Mambo",
+      "phrase": "dawg"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "Mod Top",
+      "song": "K.K. Mambo",
+      "phrase": "dawg"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Mod Top",
+      "song": "K.K. Mambo",
+      "phrase": "dawg"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "Mod Top",
+      "song": "K.K. Mambo",
+      "phrase": "dawg"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "Mod Top",
+      "song": "K.K. Mambo",
+      "phrase": "dawg"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Blue Tee",
+      "song": "K.K. Mambo",
+      "phrase": "dawg"
+    }
+  },
+  "name": "Biskit",
+  "id": "biskit"
+}

@@ -1,0 +1,29 @@
+{
+  "gender": "female",
+  "species": "anteater",
+  "birthday": "2-23",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "clothes": "Loud Bloom Shirt",
+      "phrase": "hoooonnk"
+    },
+    "af+": {
+      "personality": "normal",
+      "clothes": "Loud Bloom Shirt",
+      "phrase": "hoooonnk"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Loud Bloom Shirt",
+      "phrase": "hoooonnk"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Loud Bloom Shirt",
+      "phrase": "hoooonnk"
+    }
+  },
+  "name": "Nosegay",
+  "id": "nosegay"
+}

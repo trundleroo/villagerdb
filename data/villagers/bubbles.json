@@ -1,0 +1,48 @@
+{
+  "gender": "female",
+  "species": "hippo",
+  "birthday": "9-18",
+  "home_request": "An indoor beach",
+  "skill": "Limboing",
+  "goal": "Volleyball player",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Sporty",
+  "games": {
+    "af": {
+      "personality": "peppy",
+      "clothes": "Crossing Shirt",
+      "song": "K.K. Stroll",
+      "phrase": "hipster"
+    },
+    "af+": {
+      "personality": "peppy",
+      "clothes": "Crossing Shirt",
+      "song": "K.K. Stroll",
+      "phrase": "hipster"
+    },
+    "ac": {
+      "personality": "peppy",
+      "clothes": "Crossing Shirt",
+      "song": "K.K. Stroll",
+      "phrase": "hipster"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Crossing Shirt",
+      "song": "K.K. Stroll",
+      "phrase": "hipster"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Grape Tee",
+      "song": "K.K. Stroll",
+      "phrase": "hipster"
+    }
+  },
+  "name": "Bubbles",
+  "id": "bubbles"
+}

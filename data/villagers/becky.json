@@ -1,0 +1,36 @@
+{
+  "gender": "female",
+  "species": "chicken",
+  "birthday": "12-9",
+  "home_request": "A classical conservatory",
+  "skill": "Writing letters",
+  "goal": "Singer",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Ornate",
+  "games": {
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Kaffe's Shirt",
+      "song": "K.K. Aria",
+      "phrase": "chicklet"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "Noble Shirt",
+      "song": "K.K. Aria",
+      "phrase": "chicklet"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Noble Shirt",
+      "song": "K.K. Aria",
+      "phrase": "chicklet"
+    }
+  },
+  "name": "Becky",
+  "id": "becky"
+}

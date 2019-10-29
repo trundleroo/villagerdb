@@ -1,0 +1,28 @@
+{
+  "gender": "male",
+  "species": "penguin",
+  "birthday": "10-30",
+  "skill": "Rock paper scissors",
+  "goal": "Explorer",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "games": {
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Spade Shirt",
+      "song": "K.K. Jongara",
+      "phrase": "botoboto"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Spade Shirt",
+      "song": "K.K. Jongara",
+      "phrase": "so it goes"
+    }
+  },
+  "name": "Wade",
+  "id": "wade"
+}

@@ -1,0 +1,72 @@
+{
+  "gender": "female",
+  "species": "bird",
+  "birthday": "7-13",
+  "home_request": "Surrounded by souvenirs",
+  "skill": "Spoon bending",
+  "goal": "Dentist",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Flashy",
+  "games": {
+    "af": {
+      "personality": "peppy",
+      "clothes": "Barber Tee",
+      "song": "K.K. Calypso",
+      "phrase": "cheepers"
+    },
+    "af+": {
+      "personality": "peppy",
+      "clothes": "Barber Tee",
+      "song": "K.K. Calypso",
+      "phrase": "cheepers"
+    },
+    "ac": {
+      "personality": "peppy",
+      "clothes": "Barber Tee",
+      "song": "K.K. Calypso",
+      "phrase": "cheepers"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Barber Tee",
+      "song": "K.K. Calypso",
+      "phrase": "cheepers"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "Barber Tee",
+      "song": "K.K. Calypso",
+      "phrase": "cheepers"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "Barber Tee",
+      "song": "K.K. Calypso",
+      "phrase": "cheepers"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Barber Tee",
+      "song": "K.K. Calypso",
+      "phrase": "cheepers"
+    },
+    "hhd": {
+      "personality": "peppy",
+      "clothes": "Barber Tee",
+      "song": "K.K. Calypso",
+      "phrase": "cheepers"
+    },
+    "pc": {
+      "personality": "peppy",
+      "clothes": "Barber Tee",
+      "song": "K.K. Calypso",
+      "phrase": "cheepers"
+    }
+  },
+  "name": "Twiggy",
+  "id": "twiggy"
+}

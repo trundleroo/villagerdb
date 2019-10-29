@@ -1,0 +1,48 @@
+{
+  "gender": "male",
+  "species": "bird",
+  "birthday": "2-2",
+  "home_request": "A soccer arena",
+  "skill": "Playing catch",
+  "goal": "Soccer player",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Sporty",
+  "games": {
+    "ww": {
+      "personality": "jock",
+      "clothes": "Soccer Tee",
+      "song": "K.K. Samba",
+      "phrase": "bzzert"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "Soccer Tee",
+      "song": "K.K. Samba",
+      "phrase": "bzzert"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "Soccer Tee",
+      "song": "K.K. Samba",
+      "phrase": "bzzert"
+    },
+    "hhd": {
+      "personality": "jock",
+      "clothes": "Soccer Tee",
+      "song": "K.K. Samba",
+      "phrase": "bzzert"
+    },
+    "pc": {
+      "personality": "jock",
+      "clothes": "Soccer Tee",
+      "song": "K.K. Samba",
+      "phrase": "bzzert"
+    }
+  },
+  "name": "Jitters",
+  "id": "jitters"
+}

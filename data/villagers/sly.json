@@ -1,0 +1,24 @@
+{
+  "gender": "male",
+  "species": "alligator",
+  "birthday": "11-15",
+  "home_request": "A jungle",
+  "skill": "Pretending to sleep",
+  "goal": "Explorer",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Rock 'n' roll",
+  "games": {
+    "nl": {
+      "personality": "jock",
+      "clothes": "Jungle-Camo Tee",
+      "song": "K.K. Safari",
+      "phrase": "hoo-rah"
+    }
+  },
+  "name": "Sly",
+  "id": "sly"
+}

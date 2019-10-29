@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "chicken",
+  "birthday": "3-31",
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "clothes": "Red Tie-Dye",
+      "song": "The K. Funk",
+      "phrase": "clucky"
+    },
+    "af+": {
+      "personality": "snooty",
+      "clothes": "Red Tie-Dye",
+      "song": "The K. Funk",
+      "phrase": "clucky"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Red Tie-Dye",
+      "song": "The K. Funk",
+      "phrase": "clucky"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Red Tie-Dye",
+      "song": "The K. Funk",
+      "phrase": "clucky"
+    }
+  },
+  "name": "Rhoda",
+  "id": "rhoda"
+}

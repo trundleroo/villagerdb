@@ -1,0 +1,46 @@
+{
+  "gender": "female",
+  "species": "sheep",
+  "birthday": "4-9",
+  "skill": "Magic tricks",
+  "goal": "Professor",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "Lots of milk",
+    "sugar": "3 spoonfuls of sugar"
+  },
+  "games": {
+    "af": {
+      "personality": "normal",
+      "clothes": "Aurora Knit",
+      "song": "Only Me",
+      "phrase": "baa-dabing"
+    },
+    "af+": {
+      "personality": "normal",
+      "clothes": "Aurora Knit",
+      "song": "Only Me",
+      "phrase": "baa-dabing"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Aurora Knit",
+      "song": "Only Me",
+      "phrase": "baa-dabing"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Aurora Knit",
+      "song": "Only Me",
+      "phrase": "baa-dabing"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Aurora Knit",
+      "song": "Only Me",
+      "phrase": "baa-dabing"
+    }
+  },
+  "name": "Stella",
+  "id": "stella"
+}

@@ -1,0 +1,66 @@
+{
+  "gender": "female",
+  "species": "elephant",
+  "birthday": "1-28",
+  "home_request": "A place full of clothes",
+  "skill": "Playing old maid",
+  "goal": "Pastry chef",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Iconic",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "clothes": "Hot Spring Tee",
+      "song": "K.K. Bossa",
+      "phrase": "tootie"
+    },
+    "af+": {
+      "personality": "normal",
+      "clothes": "Hot Spring Tee",
+      "song": "K.K. Bossa",
+      "phrase": "tootie"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Hot Spring Tee",
+      "song": "K.K. Bossa",
+      "phrase": "tootie"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Hot Spring Tee",
+      "song": "K.K. Bossa",
+      "phrase": "tootie"
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "Hot Spring Tee",
+      "song": "K.K. Bossa",
+      "phrase": "tootie"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "Hot Spring Tee",
+      "song": "K.K. Bossa",
+      "phrase": "tootie"
+    },
+    "hhd": {
+      "personality": "normal",
+      "clothes": "Hot Spring Tee",
+      "song": "K.K. Bossa",
+      "phrase": "tootie"
+    },
+    "pc": {
+      "personality": "normal",
+      "clothes": "Hot Spring Tee",
+      "song": "K.K. Bossa",
+      "phrase": "tootie"
+    }
+  },
+  "name": "Margie",
+  "id": "margie"
+}

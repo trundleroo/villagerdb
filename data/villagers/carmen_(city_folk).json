@@ -1,0 +1,35 @@
+{
+  "gender": "female",
+  "species": "rabbit",
+  "birthday": "1-6",
+  "home_request": "A chocolate overload",
+  "skill": "Ventriloquism",
+  "goal": "Movie director",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Modern",
+  "games": {
+    "cf": {
+      "personality": "peppy",
+      "clothes": "Blue Retro Shirt",
+      "song": "K.K. Technopop",
+      "phrase": "nougat"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Mint Gingham Tee",
+      "song": "K.K. Technopop",
+      "phrase": "nougat"
+    },
+    "pc": {
+      "personality": "peppy",
+      "song": "K.K. Technopop",
+      "phrase": "nougat"
+    }
+  },
+  "name": "Carmen",
+  "id": "carmen_(city_folk)"
+}

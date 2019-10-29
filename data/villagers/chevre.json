@@ -1,0 +1,66 @@
+{
+  "gender": "female",
+  "species": "goat",
+  "birthday": "3-6",
+  "home_request": "A high-security bank vault",
+  "skill": "Calculating tips",
+  "goal": "Teacher",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Cute",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "clothes": "Natty Tee",
+      "song": "K.K. Chorale",
+      "phrase": "la baa"
+    },
+    "af+": {
+      "personality": "normal",
+      "clothes": "Natty Tee",
+      "song": "K.K. Chorale",
+      "phrase": "la baa"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Natty Tee",
+      "song": "K.K. Chorale",
+      "phrase": "la baa"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Natty Tee",
+      "song": "K.K. Chorale",
+      "phrase": "la baa"
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "Natty Tee",
+      "song": "K.K. Chorale",
+      "phrase": "la baa"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "Natty Tee",
+      "song": "K.K. Chorale",
+      "phrase": "la baa"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Natty Tee",
+      "song": "K.K. Chorale",
+      "phrase": "la baa"
+    },
+    "pc": {
+      "personality": "normal",
+      "clothes": "Natty Tee",
+      "song": "K.K. Chorale",
+      "phrase": "la baa"
+    }
+  },
+  "name": "Chevre",
+  "id": "chevre"
+}

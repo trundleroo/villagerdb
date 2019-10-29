@@ -1,0 +1,44 @@
+{
+  "gender": "female",
+  "species": "mouse",
+  "birthday": "4-13",
+  "skill": "Home repair",
+  "goal": "Judge",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "Lots of milk",
+    "sugar": "3 spoonfuls of sugar"
+  },
+  "style": "Historical",
+  "games": {
+    "af": {
+      "personality": "peppy",
+      "song": "K.K. Ragtime",
+      "phrase": "sweetie"
+    },
+    "af+": {
+      "personality": "peppy",
+      "song": "K.K. Ragtime",
+      "phrase": "sweetie"
+    },
+    "ac": {
+      "personality": "peppy",
+      "song": "K.K. Ragtime",
+      "phrase": "sweetie"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Ancient Knit",
+      "song": "K.K. Ragtime",
+      "phrase": "sweetie"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Deer Shirt",
+      "song": "K.K. Ragtime",
+      "phrase": "sweetie"
+    }
+  },
+  "name": "Candi",
+  "id": "candi"
+}

@@ -1,0 +1,66 @@
+{
+  "gender": "male",
+  "species": "pig",
+  "birthday": "7-26",
+  "home_request": "A game-development studio",
+  "skill": "Clearing my plate",
+  "goal": "Explorer",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "A little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Basic",
+  "games": {
+    "af": {
+      "personality": "jock",
+      "clothes": "Green-Bar Tee",
+      "song": "K.K. Reggae",
+      "phrase": "nyoink"
+    },
+    "af+": {
+      "personality": "jock",
+      "clothes": "Green-Bar Tee",
+      "song": "K.K. Reggae",
+      "phrase": "nyoink"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "Green-Bar Tee",
+      "song": "K.K. Reggae",
+      "phrase": "nyoink"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Green-Bar Tee",
+      "song": "K.K. Reggae",
+      "phrase": "nyoink"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "Green-Bar Tee",
+      "song": "K.K. Reggae",
+      "phrase": "nyoink"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "Green-Bar Tee",
+      "song": "K.K. Reggae",
+      "phrase": "nyoink"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "Green-Bar Tee",
+      "song": "K.K. Reggae",
+      "phrase": "nyoink"
+    },
+    "hhd": {
+      "personality": "jock",
+      "clothes": "Green-Bar Tee",
+      "song": "K.K. Reggae",
+      "phrase": "nyoink"
+    }
+  },
+  "name": "Curly",
+  "id": "curly"
+}

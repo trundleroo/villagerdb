@@ -1,0 +1,24 @@
+{
+  "gender": "male",
+  "species": "frog",
+  "birthday": "7-18",
+  "home_request": "A noodle shop",
+  "skill": "Bunting",
+  "goal": "Architect",
+  "coffee": {
+    "beans": "Kilamanjaro",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Iconic",
+  "games": {
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Imperial Shirt",
+      "song": "K.K. Jongara",
+      "phrase": "as if"
+    }
+  },
+  "name": "Croque",
+  "id": "croque"
+}

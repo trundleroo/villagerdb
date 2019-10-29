@@ -1,0 +1,67 @@
+{
+  "gender": "female",
+  "species": "elephant",
+  "birthday": "12-8",
+  "home_request": "A nod to all things green",
+  "skill": "Memorizing stuff",
+  "goal": "Painter",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Official",
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "clothes": "Green Bar Shirt",
+      "song": "K.K. Jazz",
+      "phrase": "tooooot"
+    },
+    "af+": {
+      "personality": "snooty",
+      "song": "K.K. Jazz",
+      "phrase": "tooooot"
+    },
+    "ac": {
+      "personality": "snooty",
+      "song": "K.K. Jazz",
+      "phrase": "tooooot"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "song": "K.K. Jazz",
+      "phrase": "tooooot"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "Yellow-Bar Tee",
+      "song": "K.K. Jazz",
+      "phrase": "tooooot"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "Yellow-Bar Tee",
+      "song": "K.K. Jazz",
+      "phrase": "tooooot"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Yellow-Bar Tee",
+      "song": "K.K. Jazz",
+      "phrase": "tooooot"
+    },
+    "hhd": {
+      "personality": "snooty",
+      "song": "K.K. Jazz",
+      "phrase": "tooooot"
+    },
+    "pc": {
+      "personality": "snooty",
+      "song": "K.K. Jazz",
+      "phrase": "tooooot"
+    }
+  },
+  "name": "Eloise",
+  "id": "eloise"
+}

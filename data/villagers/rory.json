@@ -1,0 +1,23 @@
+{
+  "gender": "male",
+  "species": "lion",
+  "birthday": "8-7",
+  "skill": "Tiptoeing",
+  "goal": "Firefighter",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Iconic",
+  "games": {
+    "nl": {
+      "personality": "jock",
+      "clothes": "Periwinkle Tee",
+      "song": "K.K. Faire",
+      "phrase": "capital"
+    }
+  },
+  "name": "Rory",
+  "id": "rory"
+}

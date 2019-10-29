@@ -1,0 +1,72 @@
+{
+  "gender": "male",
+  "species": "cat",
+  "birthday": "1-1",
+  "home_request": "A floral atmosphere",
+  "skill": "Yo-Yoing",
+  "goal": "Detective",
+  "coffee": {
+    "beans": "Kilamanjaro",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Flashy",
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "Blossom Tee",
+      "song": "K.K. Ragtime",
+      "phrase": "pthhhpth"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "Blossom Tee",
+      "song": "K.K. Ragtime",
+      "phrase": "pthhhpth"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "Blossom Tee",
+      "song": "K.K. Ragtime",
+      "phrase": "pthhhpth"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Blossom Tee",
+      "song": "K.K. Ragtime",
+      "phrase": "pthhhpth"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "Blossom Tee",
+      "song": "K.K. Ragtime",
+      "phrase": "pthhhpth"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "Blossom Tee",
+      "song": "K.K. Ragtime",
+      "phrase": "pthhhpth"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Blossom Tee",
+      "song": "K.K. Ragtime",
+      "phrase": "pthhhpth"
+    },
+    "hhd": {
+      "personality": "lazy",
+      "clothes": "Blossom Tee",
+      "song": "K.K. Ragtime",
+      "phrase": "pthhhpth"
+    },
+    "pc": {
+      "personality": "lazy",
+      "clothes": "Blossom Tee",
+      "song": "K.K. Ragtime",
+      "phrase": "pthhhpth"
+    }
+  },
+  "name": "Bob",
+  "id": "bob"
+}

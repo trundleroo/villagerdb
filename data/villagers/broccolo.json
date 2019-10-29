@@ -1,0 +1,48 @@
+{
+  "gender": "male",
+  "species": "mouse",
+  "birthday": "6-30",
+  "home_request": "A bug house",
+  "skill": "Climbing trees",
+  "goal": "Movie director",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Flashy",
+  "games": {
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Kiddie Tee",
+      "song": "K.K. Ragtime",
+      "phrase": "eat it"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "Kiddie Tee",
+      "song": "K.K. Ragtime",
+      "phrase": "eat it"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Kiddie Tee",
+      "song": "K.K. Ragtime",
+      "phrase": "eat it"
+    },
+    "hhd": {
+      "personality": "lazy",
+      "clothes": "Kiddie Tee",
+      "song": "K.K. Ragtime",
+      "phrase": "eat it"
+    },
+    "pc": {
+      "personality": "lazy",
+      "clothes": "Kiddie Tee",
+      "song": "K.K. Ragtime",
+      "phrase": "eat it"
+    }
+  },
+  "name": "Broccolo",
+  "id": "broccolo"
+}

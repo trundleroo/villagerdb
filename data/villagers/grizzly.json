@@ -1,0 +1,54 @@
+{
+  "gender": "male",
+  "species": "bear",
+  "birthday": "7-31",
+  "home_request": "An opulent oil tycoon's hall.",
+  "skill": "Brainteasers",
+  "goal": "Photographer",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Basic",
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "clothes": "Houndstooth Tee",
+      "song": "K.K. Dirge",
+      "phrase": "grrr"
+    },
+    "af+": {
+      "personality": "cranky",
+      "clothes": "Houndstooth Tee",
+      "song": "K.K. Dirge",
+      "phrase": "grrr"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "Houndstooth Tee",
+      "song": "K.K. Dirge",
+      "phrase": "grrr"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "Houndstooth Tee",
+      "song": "K.K. Dirge",
+      "phrase": "grrr"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "Three-Ball Tee",
+      "song": "K.K. Dirge",
+      "phrase": "grrr"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Houndstooth Tee",
+      "song": "K.K. Dirge",
+      "phrase": "grrr"
+    }
+  },
+  "name": "Grizzly",
+  "id": "grizzly"
+}

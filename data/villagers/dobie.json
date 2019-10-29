@@ -1,0 +1,38 @@
+{
+  "gender": "male",
+  "species": "wolf",
+  "birthday": "2-17",
+  "skill": "Speed reading",
+  "goal": "Writer",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "A little bit of milk",
+    "sugar": "1 spoonful of sugar"
+  },
+  "games": {
+    "af+": {
+      "personality": "lazy",
+      "song": "K.K. Lament",
+      "phrase": "ohmmm"
+    },
+    "ac": {
+      "personality": "lazy",
+      "song": "K.K. Lament",
+      "phrase": "ohmmm"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Blue Aloha Shirt",
+      "song": "K.K. Lament",
+      "phrase": "ohmmm"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Sweater Vest",
+      "song": "K.K. Lament",
+      "phrase": "ohmmm"
+    }
+  },
+  "name": "Dobie",
+  "id": "dobie"
+}

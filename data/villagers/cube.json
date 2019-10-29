@@ -1,0 +1,68 @@
+{
+  "gender": "male",
+  "species": "penguin",
+  "birthday": "1-29",
+  "home_request": "An eco-friendly factory",
+  "skill": "Staying awake",
+  "goal": "Astronaut",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "A little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Cute",
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "N64 Logo Shirt",
+      "song": "K.K. Technopop",
+      "phrase": "d-d-dude"
+    },
+    "af+": {
+      "personality": "lazy",
+      "song": "K.K. Technopop",
+      "phrase": "d-d-dude"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "GC logo Shirt",
+      "song": "K.K. Technopop",
+      "phrase": "d-d-dude"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "song": "K.K. Technopop",
+      "phrase": "d-d-dude"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "Big-Dot Tee",
+      "song": "K.K. Technopop",
+      "phrase": "d-d-dude"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "Big-Dot Tee",
+      "song": "K.K. Technopop",
+      "phrase": "d-d-dude"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Big-Dot Tee",
+      "song": "K.K. Technopop",
+      "phrase": "d-d-dude"
+    },
+    "hhd": {
+      "personality": "lazy",
+      "song": "K.K. Technopop",
+      "phrase": "d-d-dude"
+    },
+    "pc": {
+      "personality": "lazy",
+      "song": "K.K. Technopop",
+      "phrase": "d-d-dude"
+    }
+  },
+  "name": "Cube",
+  "id": "cube"
+}

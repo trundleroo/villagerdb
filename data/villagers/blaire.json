@@ -1,0 +1,60 @@
+{
+  "gender": "female",
+  "species": "squirrel",
+  "birthday": "7-3",
+  "home_request": "A classy hotel",
+  "skill": "Calligraphy",
+  "goal": "Doctor",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "No milk",
+    "sugar": "No sugar."
+  },
+  "style": "Official",
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "clothes": "Peachy Tee",
+      "song": "K.K. Island",
+      "phrase": "nutlet"
+    },
+    "af+": {
+      "personality": "snooty",
+      "clothes": "Peachy Tee",
+      "song": "K.K. Island",
+      "phrase": "nutlet"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Peachy Tee",
+      "song": "K.K. Island",
+      "phrase": "nutlet"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Peachy Tee",
+      "song": "K.K. Island",
+      "phrase": "nutlet"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "Peachy Tee",
+      "song": "K.K. Island",
+      "phrase": "nutlet"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "Peachy Tee",
+      "song": "K.K. Island",
+      "phrase": "nutlet"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Peachy Tee",
+      "song": "K.K. Island",
+      "phrase": "nutlet"
+    }
+  },
+  "name": "Blaire",
+  "id": "blaire"
+}

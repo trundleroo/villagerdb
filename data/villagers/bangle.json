@@ -1,0 +1,48 @@
+{
+  "gender": "female",
+  "species": "tiger",
+  "birthday": "8-27",
+  "home_request": "An animal-print showcase",
+  "skill": "Tongue twisters",
+  "goal": "President",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "A little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Ornate",
+  "games": {
+    "af": {
+      "personality": "peppy",
+      "clothes": "Pop Bloom Tee",
+      "song": "K.K. Soul",
+      "phrase": "growf"
+    },
+    "af+": {
+      "personality": "peppy",
+      "clothes": "Pop Bloom Tee",
+      "song": "K.K. Soul",
+      "phrase": "growf"
+    },
+    "ac": {
+      "personality": "peppy",
+      "clothes": "Pop Bloom Tee",
+      "song": "K.K. Soul",
+      "phrase": "growf"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Pop Bloom Tee",
+      "song": "K.K. Soul",
+      "phrase": "growf"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Pop Bloom Tee",
+      "song": "K.K. Soul",
+      "phrase": "growf"
+    }
+  },
+  "name": "Bangle",
+  "id": "bangle"
+}

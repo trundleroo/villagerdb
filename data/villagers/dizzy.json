@@ -1,0 +1,60 @@
+{
+  "gender": "male",
+  "species": "elephant",
+  "birthday": "7-14",
+  "home_request": "A super-fun play space",
+  "skill": "Chugging milk",
+  "goal": "Journalist",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Basic",
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "No. 5 Shirt",
+      "song": "K.K. Gumbo",
+      "phrase": "woo-oo"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "No. 5 Shirt",
+      "song": "K.K. Gumbo",
+      "phrase": "woo-oo"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "No. 5 Shirt",
+      "song": "K.K. Gumbo",
+      "phrase": "woo-oo"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "No. 5 Shirt",
+      "song": "K.K. Gumbo",
+      "phrase": "woo-oo"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "No. 5 Shirt",
+      "song": "K.K. Gumbo",
+      "phrase": "woo-oo"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "No. 5 Shirt",
+      "song": "K.K. Gumbo",
+      "phrase": "woo-oo"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "No. 5 Shirt",
+      "song": "K.K. Gumbo",
+      "phrase": "woo-oo"
+    }
+  },
+  "name": "Dizzy",
+  "id": "dizzy"
+}

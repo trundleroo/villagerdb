@@ -1,0 +1,48 @@
+{
+  "gender": "male",
+  "species": "koala",
+  "birthday": "5-7",
+  "home_request": "A trip to the school nurse",
+  "skill": "Baton twirling",
+  "goal": "Pro golfer",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Iconic",
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "Giraffe Tee",
+      "song": "Mr. K.K.",
+      "phrase": "ol' bear"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "Giraffe Tee",
+      "song": "Mr. K.K.",
+      "phrase": "ol' bear"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "Giraffe Tee",
+      "song": "Mr. K.K.",
+      "phrase": "ol' bear"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Giraffe Tee",
+      "song": "Mr. K.K.",
+      "phrase": "ol' bear"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Giraffe Tee",
+      "song": "Mr. K.K.",
+      "phrase": "ol' bear"
+    }
+  },
+  "name": "Ozzie",
+  "id": "ozzie"
+}

@@ -1,0 +1,53 @@
+{
+  "gender": "female",
+  "species": "dog",
+  "birthday": "1-11",
+  "home_request": "A stationary room",
+  "skill": "Tongue twisters",
+  "goal": "Tour Guide",
+  "coffee": {
+    "beans": "Blue mountain",
+    "milk": "lots of milk",
+    "sugar": "3 spoonfuls of sugar"
+  },
+  "games": {
+    "af": {
+      "personality": "peppy",
+      "clothes": "Fortune Shirt",
+      "song": "Forest Life",
+      "phrase": "yippee"
+    },
+    "af+": {
+      "personality": "peppy",
+      "clothes": "Fortune Shirt",
+      "song": "Forest Life",
+      "phrase": "yippee"
+    },
+    "ac": {
+      "personality": "peppy",
+      "clothes": "Fortune Shirt",
+      "song": "Forest Life",
+      "phrase": "yippee"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Fortune Shirt",
+      "song": "Forest Life",
+      "phrase": "yippee"
+    },
+    "hhd": {
+      "personality": "peppy",
+      "clothes": "Picnic Tee",
+      "song": "Forest Life",
+      "phrase": "yippee"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Picnic Tee",
+      "song": "Forest Life",
+      "phrase": "yippee"
+    }
+  },
+  "name": "Maddie",
+  "id": "maddie"
+}

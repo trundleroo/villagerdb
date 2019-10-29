@@ -1,0 +1,29 @@
+{
+  "gender": "male",
+  "species": "bear",
+  "birthday": "5-16",
+  "skill": "Doing chin ups",
+  "goal": "Carpenter",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Rock n' roll",
+  "games": {
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "Jungle-camo shirt",
+      "song": "K.K. Rock",
+      "phrase": "bowes"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Jungle-camo shirt",
+      "song": "K.K. Rock",
+      "phrase": "bowes"
+    }
+  },
+  "name": "Ike",
+  "id": "ike"
+}

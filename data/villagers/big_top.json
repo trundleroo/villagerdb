@@ -1,0 +1,72 @@
+{
+  "gender": "male",
+  "species": "elephant",
+  "birthday": "10-3",
+  "home_request": "A superhero cafeteria",
+  "skill": "Tiptoeing",
+  "goal": "Superhero",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Basic",
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "No. 3 Shirt",
+      "song": "K.K. Metal",
+      "phrase": "villain"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "No. 3 Shirt",
+      "song": "K.K. Metal",
+      "phrase": "villain"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "No. 3 Shirt",
+      "song": "K.K. Metal",
+      "phrase": "villain"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "No. 3 Shirt",
+      "song": "K.K. Metal",
+      "phrase": "villain"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "No. 3 Shirt",
+      "song": "K.K. Metal",
+      "phrase": "villain"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "No. 3 Shirt",
+      "song": "K.K. Metal",
+      "phrase": "villain"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "No. 3 Shirt",
+      "song": "K.K. Metal",
+      "phrase": "villain"
+    },
+    "hhd": {
+      "personality": "lazy",
+      "clothes": "No. 3 Shirt",
+      "song": "K.K. Metal",
+      "phrase": "villain"
+    },
+    "pc": {
+      "personality": "lazy",
+      "clothes": "No. 3 Shirt",
+      "song": "K.K. Metal",
+      "phrase": "villain"
+    }
+  },
+  "name": "Big top",
+  "id": "big_top"
+}

@@ -1,0 +1,24 @@
+{
+  "gender": "male",
+  "species": "koala",
+  "birthday": "10-12",
+  "home_request": "A veggie palace",
+  "skill": "Forgetting stuff",
+  "goal": "Astronaut",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Official",
+  "games": {
+    "nl": {
+      "personality": "jock",
+      "clothes": "Club Tee",
+      "song": "K.K. Island",
+      "phrase": "chips"
+    }
+  },
+  "name": "Lyman",
+  "id": "lyman"
+}

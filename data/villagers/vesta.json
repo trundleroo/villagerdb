@@ -1,0 +1,72 @@
+{
+  "gender": "female",
+  "species": "sheep",
+  "birthday": "4-16",
+  "home_request": "A place with a fireplace",
+  "skill": "Computing",
+  "goal": "Archaeologist",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "A little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Historical",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "clothes": "Fall Plaid Tee",
+      "song": "K.K. Steppe",
+      "phrase": "baaaffo"
+    },
+    "af+": {
+      "personality": "normal",
+      "clothes": "Fall Plaid Tee",
+      "song": "K.K. Steppe",
+      "phrase": "baaaffo"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Fall Plaid Tee",
+      "song": "K.K. Steppe",
+      "phrase": "baaaffo"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Fall Plaid Tee",
+      "song": "K.K. Steppe",
+      "phrase": "baaaffo"
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "Fall Plaid Tee",
+      "song": "K.K. Steppe",
+      "phrase": "baaaffo"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "Fall Plaid Tee",
+      "song": "K.K. Steppe",
+      "phrase": "baaaffo"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Fall Plaid Tee",
+      "song": "K.K. Steppe",
+      "phrase": "baaaffo"
+    },
+    "hhd": {
+      "personality": "normal",
+      "clothes": "Fall Plaid Tee",
+      "song": "K.K. Steppe",
+      "phrase": "baaaffo"
+    },
+    "pc": {
+      "personality": "normal",
+      "clothes": "Fall Plaid Tee",
+      "song": "K.K. Steppe",
+      "phrase": "baaaffo"
+    }
+  },
+  "name": "Vesta",
+  "id": "vesta"
+}

@@ -1,0 +1,60 @@
+{
+  "gender": "female",
+  "species": "mouse",
+  "birthday": "2-18",
+  "home_request": "A herb garden",
+  "skill": "Dusting",
+  "goal": "Translator",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Iconic",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "clothes": "Sharp Outfit",
+      "song": "Only Me",
+      "phrase": "squeaky"
+    },
+    "af+": {
+      "personality": "normal",
+      "clothes": "Sharp Outfit",
+      "song": "Only Me",
+      "phrase": "squeaky"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Sharp Outfit",
+      "song": "Only Me",
+      "phrase": "squeaky"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Sharp Outfit",
+      "song": "Only Me",
+      "phrase": "squeaky"
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "Sharp Outfit",
+      "song": "Only Me",
+      "phrase": "squeaky"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "Sharp Outfit",
+      "song": "Only Me",
+      "phrase": "squeaky"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Sharp Outfit",
+      "song": "Only Me",
+      "phrase": "squeaky"
+    }
+  },
+  "name": "Dora",
+  "id": "dora"
+}

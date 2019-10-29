@@ -1,0 +1,67 @@
+{
+  "gender": "female",
+  "species": "cub",
+  "birthday": "6-15",
+  "home_request": "A plush bear den",
+  "skill": "Writing letters",
+  "goal": "Architect",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Basic",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "song": "I Love You",
+      "phrase": "honey"
+    },
+    "af+": {
+      "personality": "normal",
+      "song": "I Love You",
+      "phrase": "honey"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Citrus Gingham",
+      "song": "I Love You",
+      "phrase": "honey"
+    },
+    "afe+": {
+      "personality": "normal",
+      "song": "I Love You",
+      "phrase": "honey"
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "Citrus Gingham",
+      "song": "I Love You",
+      "phrase": "honey"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "Citrus Gingham",
+      "song": "I Love You",
+      "phrase": "honey"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Dapper Tee",
+      "song": "I Love You",
+      "phrase": "honey"
+    },
+    "hhd": {
+      "personality": "normal",
+      "song": "I Love You",
+      "phrase": "honey"
+    },
+    "pc": {
+      "personality": "normal",
+      "song": "I Love You",
+      "phrase": "honey"
+    }
+  },
+  "name": "Maple",
+  "id": "maple"
+}

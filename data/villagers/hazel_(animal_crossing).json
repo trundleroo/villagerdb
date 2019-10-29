@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "squirrel",
+  "birthday": "6-19",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "clothes": "Neo-Classic Knit",
+      "song": "K.K. Fusion",
+      "phrase": "nutmeg"
+    },
+    "af+": {
+      "personality": "normal",
+      "clothes": "Neo-Classic Knit",
+      "song": "K.K. Fusion",
+      "phrase": "nutmeg"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Neo-Classic Knit",
+      "song": "K.K. Fusion",
+      "phrase": "nutmeg"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Neo-Classic Knit",
+      "song": "K.K. Fusion",
+      "phrase": "nutmeg"
+    }
+  },
+  "name": "Hazel",
+  "id": "hazel_(animal_crossing)"
+}

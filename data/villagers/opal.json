@@ -1,0 +1,72 @@
+{
+  "gender": "female",
+  "species": "elephant",
+  "birthday": "1-20",
+  "home_request": "A serene spa",
+  "skill": "Memorizing",
+  "goal": "Doctor",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Official",
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "clothes": "Gray Tartan Tee",
+      "song": "Forest Life",
+      "phrase": "snoot"
+    },
+    "af+": {
+      "personality": "snooty",
+      "clothes": "Gray Tartan Tee",
+      "song": "Forest Life",
+      "phrase": "snoot"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Gray Tartan Tee",
+      "song": "Forest Life",
+      "phrase": "snoot"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Gray Tartan Tee",
+      "song": "Forest Life",
+      "phrase": "snoot"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "Gray Tartan Tee",
+      "song": "Forest Life",
+      "phrase": "snoot"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "Gray Tartan Tee",
+      "song": "Forest Life",
+      "phrase": "snoot"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Gray Tartan Tee",
+      "song": "Forest Life",
+      "phrase": "snoot"
+    },
+    "hhd": {
+      "personality": "snooty",
+      "clothes": "Gray Tartan Tee",
+      "song": "Forest Life",
+      "phrase": "snoot"
+    },
+    "pc": {
+      "personality": "snooty",
+      "clothes": "Gray Tartan Tee",
+      "song": "Forest Life",
+      "phrase": "snoot"
+    }
+  },
+  "name": "Opal",
+  "id": "opal"
+}

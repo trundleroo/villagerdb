@@ -1,0 +1,60 @@
+{
+  "gender": "female",
+  "species": "alligator",
+  "birthday": "11-8",
+  "home_request": "A mushroom manor",
+  "skill": "Yo-Yoing",
+  "goal": "Stylist",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Ornate",
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "clothes": "Leopard Tee",
+      "song": "K.K. Chorale",
+      "phrase": "graaagh"
+    },
+    "af+": {
+      "personality": "snooty",
+      "clothes": "Leopard Tee",
+      "song": "K.K. Chorale",
+      "phrase": "graaagh"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Leopard Tee",
+      "song": "K.K. Chorale",
+      "phrase": "graaagh"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Leopard Tee",
+      "song": "K.K. Chorale",
+      "phrase": "graaagh"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "Leopard Tee",
+      "song": "K.K. Chorale",
+      "phrase": "graaagh"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "Leopard Tee",
+      "song": "K.K. Chorale",
+      "phrase": "graaagh"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Leopard Tee",
+      "song": "K.K. Chorale",
+      "phrase": "graaagh"
+    }
+  },
+  "name": "Alli",
+  "id": "alli"
+}

@@ -1,0 +1,15 @@
+{
+  "gender": "male",
+  "species": "penguin",
+  "birthday": "12-7",
+  "games": {
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Spring Shirt",
+      "song": "K.K. Rock",
+      "phrase": "damonte"
+    }
+  },
+  "name": "Analogue",
+  "id": "analogue"
+}

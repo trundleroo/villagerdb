@@ -1,0 +1,29 @@
+{
+  "gender": "male",
+  "species": "bird",
+  "birthday": "8-7",
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "clothes": "Arctic Camo",
+      "phrase": "CHIRP"
+    },
+    "af+": {
+      "personality": "cranky",
+      "clothes": "Arctic Camo",
+      "phrase": "CHIRP"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "Arctic Camo",
+      "phrase": "CHIRP"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "Arctic Camo",
+      "phrase": "CHIRP"
+    }
+  },
+  "name": "Twirp",
+  "id": "twirp"
+}

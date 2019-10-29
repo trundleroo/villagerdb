@@ -1,0 +1,60 @@
+{
+  "gender": "male",
+  "species": "frog",
+  "birthday": "2-8",
+  "home_request": "A shrine to all things Gracie",
+  "skill": "Eating quickly",
+  "goal": "Artist",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Sporty",
+  "games": {
+    "af": {
+      "personality": "jock",
+      "clothes": "Gracie Tank",
+      "song": "My Place",
+      "phrase": "fribbit"
+    },
+    "af+": {
+      "personality": "jock",
+      "clothes": "Gracie Tank",
+      "song": "My Place",
+      "phrase": "fribbit"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "Gracie Tank",
+      "song": "My Place",
+      "phrase": "fribbit"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Gracie Tank",
+      "song": "My Place",
+      "phrase": "fribbit"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "Gracie Tank",
+      "song": "My Place",
+      "phrase": "fribbit"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "Gracie Tank",
+      "song": "My Place",
+      "phrase": "fribbit"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "Gracie Tank",
+      "song": "My Place",
+      "phrase": "fribbit"
+    }
+  },
+  "name": "Frobert",
+  "id": "frobert"
+}

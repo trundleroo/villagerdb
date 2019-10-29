@@ -1,0 +1,54 @@
+{
+  "gender": "male",
+  "species": "rabbit",
+  "birthday": "3-16",
+  "home_request": "A fun place for books",
+  "skill": "Typing",
+  "goal": "Programmer",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "A little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Official",
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "Vertigo Tee",
+      "song": "Pondering",
+      "phrase": "ol' bunny"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "Vertigo Tee",
+      "song": "Pondering",
+      "phrase": "ol' bunny"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "Vertigo Tee",
+      "song": "Pondering",
+      "phrase": "ol' bunny"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Vertigo Tee",
+      "song": "Pondering",
+      "phrase": "ol' bunny"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Vertigo Tee",
+      "song": "Pondering",
+      "phrase": "ol' bunny"
+    },
+    "hhd": {
+      "personality": "lazy",
+      "clothes": "Vertigo Tee",
+      "song": "Pondering",
+      "phrase": "ol' bunny"
+    }
+  },
+  "name": "Doc",
+  "id": "doc"
+}

@@ -1,0 +1,44 @@
+{
+  "gender": "female",
+  "species": "monkey",
+  "birthday": "3-21",
+  "home_request": "An eyewear showroom.",
+  "skill": "Mental Math",
+  "goal": "Archaeologist",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "style": "Official",
+  "games": {
+    "ww": {
+      "personality": "snooty",
+      "song": "Neapolitan",
+      "phrase": "puh-lease"
+    },
+    "cf": {
+      "personality": "snooty",
+      "song": "Neapolitan",
+      "phrase": "puh-lease"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Cool ShirtGumdrop Tee",
+      "song": "Neapolitan",
+      "phrase": "puh-lease"
+    },
+    "hhd": {
+      "personality": "snooty",
+      "song": "Neapolitan",
+      "phrase": "puh-lease"
+    },
+    "pc": {
+      "personality": "snooty",
+      "song": "Neapolitan",
+      "phrase": "puh-lease"
+    }
+  },
+  "name": "Elise",
+  "id": "elise"
+}

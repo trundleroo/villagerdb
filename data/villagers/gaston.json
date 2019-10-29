@@ -1,0 +1,66 @@
+{
+  "gender": "male",
+  "species": "rabbit",
+  "birthday": "10-28",
+  "home_request": "A backwater clinic",
+  "skill": "Ventriloquism",
+  "goal": "Tycoon",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Flashy",
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "clothes": "Swell Tee",
+      "song": "K.K. Dirge",
+      "phrase": "mon chou"
+    },
+    "af+": {
+      "personality": "cranky",
+      "clothes": "Swell Tee",
+      "song": "K.K. Dirge",
+      "phrase": "mon chou"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "Swell Tee",
+      "song": "K.K. Dirge",
+      "phrase": "mon chou"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "Swell Tee",
+      "song": "K.K. Dirge",
+      "phrase": "mon chou"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "Swell Tee",
+      "song": "K.K. Dirge",
+      "phrase": "mon chou"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "Swell Tee",
+      "song": "K.K. Dirge",
+      "phrase": "mon chou"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Swell Tee",
+      "song": "K.K. Dirge",
+      "phrase": "mon chou"
+    },
+    "hhd": {
+      "personality": "cranky",
+      "clothes": "Swell Tee",
+      "song": "K.K. Dirge",
+      "phrase": "mon chou"
+    }
+  },
+  "name": "Gaston",
+  "id": "gaston"
+}

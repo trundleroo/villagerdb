@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "goat",
+  "birthday": "8-11",
+  "games": {
+    "af": {
+      "personality": "jock",
+      "clothes": "White Ring Shirt",
+      "song": "K.K. Folk",
+      "phrase": "paaally"
+    },
+    "af+": {
+      "personality": "jock",
+      "clothes": "White Ring Shirt",
+      "song": "K.K. Folk",
+      "phrase": "paaally"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "White Ring Shirt",
+      "song": "K.K. Folk",
+      "phrase": "paaally"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "White Ring Shirt",
+      "song": "K.K. Folk",
+      "phrase": "paaally"
+    }
+  },
+  "name": "Iggy",
+  "id": "iggy"
+}

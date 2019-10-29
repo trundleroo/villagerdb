@@ -1,0 +1,64 @@
+{
+  "gender": "male",
+  "species": "frog",
+  "birthday": "2-13",
+  "home_request": "A robohouse",
+  "skill": "Ventriloquism",
+  "goal": "Astronaut",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Flashy",
+  "games": {
+    "af": {
+      "personality": "jock",
+      "song": "Go K.K. Rider!",
+      "phrase": "zzrrbbitt"
+    },
+    "af+": {
+      "personality": "jock",
+      "song": "Go K.K. Rider!",
+      "phrase": "zzrrbbitt"
+    },
+    "ac": {
+      "personality": "jock",
+      "song": "Go K.K. Rider!",
+      "phrase": "zzrrbbitt"
+    },
+    "afe+": {
+      "personality": "jock",
+      "song": "Go K.K. Rider!",
+      "phrase": "zzrrbbitt"
+    },
+    "ww": {
+      "personality": "jock",
+      "song": "Go K.K. Rider!",
+      "phrase": "zzrrbbitt"
+    },
+    "cf": {
+      "personality": "jock",
+      "song": "Go K.K. Rider!",
+      "phrase": "zzrrbbitt"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "Pulse Shirt Lightning Tee",
+      "song": "Go K.K. Rider!",
+      "phrase": "zzrrbbitt"
+    },
+    "hhd": {
+      "personality": "jock",
+      "song": "Go K.K. Rider!",
+      "phrase": "zzrrbbitt"
+    },
+    "pc": {
+      "personality": "jock",
+      "song": "Go K.K. Rider!",
+      "phrase": "zzrrbbitt"
+    }
+  },
+  "name": "Ribbot",
+  "id": "ribbot"
+}

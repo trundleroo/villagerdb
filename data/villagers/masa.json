@@ -1,0 +1,14 @@
+{
+  "gender": "male",
+  "species": "dog",
+  "birthday": "5-26",
+  "games": {
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Blue Aloha Shirt",
+      "phrase": "mon te"
+    }
+  },
+  "name": "Masa",
+  "id": "masa"
+}

@@ -1,0 +1,36 @@
+{
+  "gender": "female",
+  "species": "deer",
+  "birthday": "1-4",
+  "home_request": "A tranquil sanctuary",
+  "skill": "Playing poker",
+  "goal": "Dermatologist",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Iconic",
+  "games": {
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Natty Tee",
+      "song": "Stale Cupcakes",
+      "phrase": "no doy"
+    },
+    "hhd": {
+      "personality": "snooty",
+      "clothes": "Natty Tee",
+      "song": "Stale Cupcakes",
+      "phrase": "no doy"
+    },
+    "pc": {
+      "personality": "snooty",
+      "clothes": "Natty Tee",
+      "song": "Stale Cupcakes",
+      "phrase": "no doy"
+    }
+  },
+  "name": "Diana",
+  "id": "diana"
+}

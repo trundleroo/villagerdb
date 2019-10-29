@@ -1,0 +1,60 @@
+{
+  "gender": "female",
+  "species": "ostrich",
+  "birthday": "1-15",
+  "home_request": "A peaceful zen garden",
+  "skill": "Calligraphy",
+  "goal": "Architect",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Iconic",
+  "games": {
+    "af": {
+      "personality": "normal",
+      "clothes": "Misty Tee",
+      "song": "K.K. Folk",
+      "phrase": "stretch"
+    },
+    "af+": {
+      "personality": "normal",
+      "clothes": "Misty Tee",
+      "song": "K.K. Folk",
+      "phrase": "stretch"
+    },
+    "ac": {
+      "personality": "normal",
+      "clothes": "Misty Tee",
+      "song": "K.K. Folk",
+      "phrase": "stretch"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Misty Tee",
+      "song": "K.K. Folk",
+      "phrase": "stretch"
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "Misty Tee",
+      "song": "K.K. Folk",
+      "phrase": "stretch"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "Misty Tee",
+      "song": "K.K. Folk",
+      "phrase": "stretch"
+    },
+    "pc": {
+      "personality": "normal",
+      "clothes": "Misty Tee",
+      "song": "K.K. Folk",
+      "phrase": "stretch"
+    }
+  },
+  "name": "Gladys",
+  "id": "gladys"
+}

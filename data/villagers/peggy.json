@@ -1,0 +1,42 @@
+{
+  "gender": "female",
+  "species": "pig",
+  "birthday": "5-23",
+  "home_request": "A mermaid's life",
+  "skill": "Stomping around",
+  "goal": "Movie star",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "A little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Sporty",
+  "games": {
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Blue-Stripe Tee",
+      "song": "K.K. Bossa",
+      "phrase": "shweetie"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "Blue-Stripe Tee",
+      "song": "K.K. Bossa",
+      "phrase": "shweetie"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Blue-Stripe Tee",
+      "song": "K.K. Bossa",
+      "phrase": "shweetie"
+    },
+    "hhd": {
+      "personality": "peppy",
+      "clothes": "Blue-Stripe Tee",
+      "song": "K.K. Bossa",
+      "phrase": "shweetie"
+    }
+  },
+  "name": "Peggy",
+  "id": "peggy"
+}

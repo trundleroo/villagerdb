@@ -1,0 +1,29 @@
+{
+  "gender": "male",
+  "species": "chicken",
+  "birthday": "4-5",
+  "games": {
+    "af": {
+      "personality": "jock",
+      "clothes": "Light Line Shirt",
+      "phrase": "coo-HAH"
+    },
+    "af+": {
+      "personality": "jock",
+      "clothes": "Light Line Shirt",
+      "phrase": "coo-HAH"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "Light Line Shirt",
+      "phrase": "coo-HAH"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Light Line Shirt",
+      "phrase": "coo-HAH"
+    }
+  },
+  "name": "Hector",
+  "id": "hector"
+}

@@ -1,0 +1,72 @@
+{
+  "gender": "male",
+  "species": "squirrel",
+  "birthday": "7-9",
+  "home_request": "A game haven.",
+  "skill": "Backflipping",
+  "goal": "Guitarist",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Rock 'n' Roll",
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "clothes": "Melon Tee",
+      "song": "Surfin' K.K.",
+      "phrase": "krzzt"
+    },
+    "af+": {
+      "personality": "cranky",
+      "clothes": "Melon Tee",
+      "song": "Surfin' K.K.",
+      "phrase": "krzzt"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "Melon Tee",
+      "song": "Surfin' K.K.",
+      "phrase": "krzzt"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "Melon Tee",
+      "song": "Surfin' K.K.",
+      "phrase": "krzzt"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "Melon Tee",
+      "song": "Surfin' K.K.",
+      "phrase": "krzzt"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "Melon Tee",
+      "song": "Surfin' K.K.",
+      "phrase": "krzzt"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Melon Tee",
+      "song": "Surfin' K.K.",
+      "phrase": "krzzt"
+    },
+    "hhd": {
+      "personality": "cranky",
+      "clothes": "Melon Tee",
+      "song": "Surfin' K.K.",
+      "phrase": "krzzt"
+    },
+    "pc": {
+      "personality": "cranky",
+      "clothes": "Melon Tee",
+      "song": "Surfin' K.K.",
+      "phrase": "krzzt"
+    }
+  },
+  "name": "Static",
+  "id": "static"
+}

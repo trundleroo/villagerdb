@@ -1,0 +1,59 @@
+{
+  "gender": "male",
+  "species": "cub",
+  "birthday": "6-11",
+  "home_request": "A nouveau-riche retreat",
+  "skill": "Blowing bubbles",
+  "goal": "Chef",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Historical",
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "Green Ring Shirt",
+      "song": "Rockin' K.K.",
+      "phrase": "pudgy"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "Green Ring Shirt",
+      "song": "Rockin' K.K.",
+      "phrase": "pudgy"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "Green Ring Shirt",
+      "song": "Rockin' K.K.",
+      "phrase": "pudgy"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Green Ring Shirt",
+      "song": "Rockin' K.K.",
+      "phrase": "pudgy"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "Green Ring Shirt",
+      "song": "Rockin' K.K.",
+      "phrase": "pudgy"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "Chichi-Print Tee",
+      "song": "Rockin' K.K.",
+      "phrase": "pudgy"
+    },
+    "nl": {
+      "personality": "lazy",
+      "song": "Rockin' K.K.",
+      "phrase": "pudgy"
+    }
+  },
+  "name": "Pudge",
+  "id": "pudge"
+}

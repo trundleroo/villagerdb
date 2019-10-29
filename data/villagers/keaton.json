@@ -1,0 +1,24 @@
+{
+  "gender": "male",
+  "species": "eagle",
+  "birthday": "6-1",
+  "home_request": "A seaside breakfast nook",
+  "skill": "Tongue twisters",
+  "goal": "Musician",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Flashy",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "Raglan Tee",
+      "song": "K.K. Moody",
+      "phrase": "wingo"
+    }
+  },
+  "name": "Keaton",
+  "id": "keaton"
+}

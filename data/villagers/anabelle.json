@@ -1,0 +1,48 @@
+{
+  "gender": "female",
+  "species": "anteater",
+  "birthday": "2-16",
+  "home_request": "A cosmopolitan yard",
+  "skill": "Jumping rope",
+  "goal": "Judge",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Cute",
+  "games": {
+    "ww": {
+      "personality": "peppy",
+      "clothes": "Tropical Tee",
+      "song": "Aloha K.K.",
+      "phrase": "snorty"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "Tropical Tee",
+      "song": "Aloha K.K.",
+      "phrase": "snorty"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Tropical Tee",
+      "song": "Aloha K.K.",
+      "phrase": "snorty"
+    },
+    "hhd": {
+      "personality": "peppy",
+      "clothes": "Tropical Tee",
+      "song": "Aloha K.K.",
+      "phrase": "snorty"
+    },
+    "pc": {
+      "personality": "peppy",
+      "clothes": "Tropical Tee",
+      "song": "Aloha K.K.",
+      "phrase": "snorty"
+    }
+  },
+  "name": "Anabelle",
+  "id": "anabelle"
+}

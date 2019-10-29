@@ -1,0 +1,78 @@
+{
+  "gender": "female",
+  "species": "squirrel",
+  "birthday": "6-8",
+  "home_request": "The land of the free",
+  "skill": "Hula dancing",
+  "goal": "Model",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "The regular amount of milk",
+    "sugar": "Two sugars"
+  },
+  "style": "Cute",
+  "games": {
+    "af": {
+      "personality": "peppy",
+      "clothes": "Beatnik Tee",
+      "song": "K.K. Salsa",
+      "phrase": "slacker"
+    },
+    "af+": {
+      "personality": "peppy",
+      "clothes": "Beatnik Tee",
+      "song": "K.K. Salsa",
+      "phrase": "slacker"
+    },
+    "ac": {
+      "personality": "peppy",
+      "clothes": "Beatnik Tee",
+      "song": "K.K. Salsa",
+      "phrase": "slacker"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Beatnik Tee",
+      "song": "K.K. Salsa",
+      "phrase": "slacker"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "Beatnik Tee",
+      "song": "K.K. Salsa",
+      "phrase": "slacker"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "Beatnik Tee",
+      "song": "K.K. Salsa",
+      "phrase": "slacker"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "Beatnik Tee",
+      "song": "K.K. Salsa",
+      "phrase": "slacker"
+    },
+    "hhd": {
+      "personality": "peppy",
+      "clothes": "Beatnik Tee",
+      "song": "K.K. Salsa",
+      "phrase": "slacker"
+    },
+    "pc": {
+      "personality": "peppy",
+      "clothes": "Beatnik Tee",
+      "song": "K.K. Salsa",
+      "phrase": "slacker"
+    },
+    "nh": {
+      "personality": "peppy",
+      "clothes": "Beatnik Tee",
+      "song": "K.K. Salsa",
+      "phrase": "slacker"
+    }
+  },
+  "name": "Peanut",
+  "id": "peanut"
+}

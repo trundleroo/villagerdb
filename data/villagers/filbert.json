@@ -1,0 +1,74 @@
+{
+  "gender": "male",
+  "species": "squirrel",
+  "birthday": "6-3",
+  "home_request": "A bounty of balloons",
+  "skill": "Vaulting",
+  "goal": "Pilot",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar."
+  },
+  "style": "Basic",
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "Vogue Top",
+      "song": "Two Days Ago",
+      "phrase": "bucko"
+    },
+    "af+": {
+      "personality": "lazy",
+      "song": "Two Days Ago",
+      "phrase": "bucko"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "Vogue Top",
+      "song": "Two Days Ago",
+      "phrase": "bucko"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "Vogue Top",
+      "song": "Two Days Ago",
+      "phrase": "bucko"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "Vogue Top",
+      "song": "Two Days Ago",
+      "phrase": "bucko"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "Vogue Top",
+      "song": "Two Days Ago",
+      "phrase": "bucko"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Checkered Tee",
+      "song": "Two Days Ago",
+      "phrase": "bucko"
+    },
+    "hhd": {
+      "personality": "lazy",
+      "song": "Two Days Ago",
+      "phrase": "bucko"
+    },
+    "pc": {
+      "personality": "lazy",
+      "song": "Two Days Ago",
+      "phrase": "bucko"
+    },
+    "nh": {
+      "personality": "lazy",
+      "song": "Two Days Ago",
+      "phrase": "bucko"
+    }
+  },
+  "name": "Filbert",
+  "id": "filbert"
+}

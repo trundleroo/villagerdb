@@ -1,0 +1,36 @@
+{
+  "gender": "female",
+  "species": "gorilla",
+  "birthday": "9-1",
+  "home_request": "A homey little restaurant",
+  "skill": "Blowing bubbles",
+  "goal": "Pharmacist",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Historical",
+  "games": {
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Red Aloha Shirt",
+      "song": "K.K. Faire",
+      "phrase": "faboom"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "Misty Tee",
+      "song": "K.K. Faire",
+      "phrase": "faboom"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Misty Tee",
+      "song": "K.K. Faire",
+      "phrase": "faboom"
+    }
+  },
+  "name": "Violet",
+  "id": "violet"
+}

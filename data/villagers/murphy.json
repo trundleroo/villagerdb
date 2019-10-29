@@ -1,0 +1,43 @@
+{
+  "gender": "male",
+  "species": "cub",
+  "birthday": "12-29",
+  "skill": "Brainteasers",
+  "goal": "Teacher",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "A little bit of milk",
+    "sugar": "1 spoonful of sugar"
+  },
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "song": "K.K. D & B",
+      "phrase": "laddie"
+    },
+    "af+": {
+      "personality": "cranky",
+      "song": "K.K. D & B",
+      "phrase": "laddie"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "Static Shirt",
+      "song": "K.K. D & B",
+      "phrase": "laddie"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "song": "K.K. D & B",
+      "phrase": "laddie"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Purple Tie Dye",
+      "song": "Pondering",
+      "phrase": "laddie"
+    }
+  },
+  "name": "Murphy",
+  "id": "murphy"
+}

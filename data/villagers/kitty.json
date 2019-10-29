@@ -1,0 +1,54 @@
+{
+  "gender": "female",
+  "species": "cat",
+  "birthday": "2-15",
+  "home_request": "A sidewalk bistro",
+  "skill": "Writing Letters",
+  "goal": "CEO",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Official",
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "clothes": "Crewel Tee",
+      "song": "K.K. Etude",
+      "phrase": "mrowrr"
+    },
+    "af+": {
+      "personality": "snooty",
+      "clothes": "Crewel Tee",
+      "song": "K.K. Etude",
+      "phrase": "mrowrr"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Crewel Tee",
+      "song": "K.K. Etude",
+      "phrase": "mrowrr"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Crewel Tee",
+      "song": "K.K. Etude",
+      "phrase": "mrowrr"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "Crewel Tee",
+      "song": "K.K. Etude",
+      "phrase": "mrowrr"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Crewel Tee",
+      "song": "K.K. Etude",
+      "phrase": "mrowrr"
+    }
+  },
+  "name": "Kitty",
+  "id": "kitty"
+}

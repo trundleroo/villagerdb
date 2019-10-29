@@ -1,0 +1,66 @@
+{
+  "gender": "male",
+  "species": "wolf",
+  "birthday": "12-18",
+  "home_request": "A chair showcase",
+  "skill": "Mental Math",
+  "goal": "Hair stylist",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "style": "Official",
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "clothes": "Icy Shirt",
+      "song": "K.K. Calypso",
+      "phrase": "cha-chomp"
+    },
+    "af+": {
+      "personality": "cranky",
+      "clothes": "Icy Shirt",
+      "song": "K.K. Calypso",
+      "phrase": "cha-chomp"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "Icy Shirt",
+      "song": "K.K. Calypso",
+      "phrase": "cha-chomp"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "Icy Shirt",
+      "song": "K.K. Calypso",
+      "phrase": "cha-chomp"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "Icy Shirt",
+      "song": "K.K. Calypso",
+      "phrase": "cha-chomp"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Icy Shirt",
+      "song": "K.K. Calypso",
+      "phrase": "cha-chomp"
+    },
+    "hhd": {
+      "personality": "cranky",
+      "clothes": "Icy Shirt",
+      "song": "K.K. Calypso",
+      "phrase": "cha-chomp"
+    },
+    "pc": {
+      "personality": "cranky",
+      "clothes": "Icy Shirt",
+      "song": "K.K. Calypso",
+      "phrase": "cha-chomp"
+    }
+  },
+  "name": "Fang",
+  "id": "fang"
+}

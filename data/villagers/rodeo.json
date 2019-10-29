@@ -1,0 +1,48 @@
+{
+  "gender": "male",
+  "species": "bull",
+  "birthday": "10-29",
+  "home_request": "A milk factory",
+  "skill": "Spoon bending",
+  "goal": "Astronaut",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Historical",
+  "games": {
+    "ww": {
+      "personality": "lazy",
+      "clothes": "Beatnik Tee",
+      "song": "Stale Cupcakes",
+      "phrase": "chaps"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "Beatnik Tee",
+      "song": "Stale Cupcakes",
+      "phrase": "chaps"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Beatnik Tee",
+      "song": "Stale Cupcakes",
+      "phrase": "chaps"
+    },
+    "hhd": {
+      "personality": "lazy",
+      "clothes": "Beatnik Tee",
+      "song": "Stale Cupcakes",
+      "phrase": "chaps"
+    },
+    "pc": {
+      "personality": "lazy",
+      "clothes": "Beatnik Tee",
+      "song": "Stale Cupcakes",
+      "phrase": "chaps"
+    }
+  },
+  "name": "Rodeo",
+  "id": "rodeo"
+}

@@ -1,0 +1,72 @@
+{
+  "gender": "male",
+  "species": "bird",
+  "birthday": "7-17",
+  "home_request": "A bowling alley",
+  "skill": "Tongue Twisters",
+  "goal": "Race car driver",
+  "coffee": {
+    "beans": "Killimanjaro",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Sporty",
+  "games": {
+    "af": {
+      "personality": "jock",
+      "clothes": "Six-Ball Tee",
+      "song": "K.K. Waltz",
+      "phrase": "heeeeeyy"
+    },
+    "af+": {
+      "personality": "jock",
+      "clothes": "Six-Ball Tee",
+      "song": "K.K. Waltz",
+      "phrase": "heeeeeyy"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "Six-Ball Tee",
+      "song": "K.K. Waltz",
+      "phrase": "heeeeeyy"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Six-Ball Tee",
+      "song": "K.K. Waltz",
+      "phrase": "heeeeeyy"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "Six-Ball Tee",
+      "song": "K.K. Waltz",
+      "phrase": "heeeeeyy"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "Six-Ball Tee",
+      "song": "K.K. Waltz",
+      "phrase": "heeeeeyy"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "Six-Ball Tee",
+      "song": "K.K. Waltz",
+      "phrase": "heeeeeyy"
+    },
+    "hhd": {
+      "personality": "jock",
+      "clothes": "Six-Ball Tee",
+      "song": "K.K. Waltz",
+      "phrase": "heeeeeyy"
+    },
+    "pc": {
+      "personality": "jock",
+      "clothes": "Six-Ball Tee",
+      "song": "K.K. Waltz",
+      "phrase": "heeeeeyy"
+    }
+  },
+  "name": "Jay",
+  "id": "jay"
+}

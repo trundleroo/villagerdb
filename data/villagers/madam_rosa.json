@@ -1,0 +1,14 @@
+{
+  "gender": "female",
+  "species": "bird",
+  "birthday": "11-6",
+  "games": {
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Red Aloha Shirt",
+      "phrase": "hohoho"
+    }
+  },
+  "name": "Madam rosa",
+  "id": "madam_rosa"
+}

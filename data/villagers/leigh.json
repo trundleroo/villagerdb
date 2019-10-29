@@ -1,0 +1,29 @@
+{
+  "gender": "female",
+  "species": "chicken",
+  "birthday": "12-5",
+  "games": {
+    "af": {
+      "personality": "peppy",
+      "clothes": "Puzzling Shirt",
+      "phrase": "cutie"
+    },
+    "af+": {
+      "personality": "peppy",
+      "clothes": "Puzzling Shirt",
+      "phrase": "cutie"
+    },
+    "ac": {
+      "personality": "peppy",
+      "clothes": "Puzzling Shirt",
+      "phrase": "cutie"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "Puzzling Shirt",
+      "phrase": "cutie"
+    }
+  },
+  "name": "Leigh",
+  "id": "leigh"
+}

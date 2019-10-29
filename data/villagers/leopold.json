@@ -1,0 +1,52 @@
+{
+  "gender": "male",
+  "species": "lion",
+  "birthday": "8-14",
+  "skill": "Debating",
+  "goal": "Professor",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "Lots of milk",
+    "sugar": "3 spoonfuls of sugar"
+  },
+  "games": {
+    "af": {
+      "personality": "jock",
+      "clothes": "noble shirt",
+      "song": "Mr. K.K.",
+      "phrase": "lion cub"
+    },
+    "af+": {
+      "personality": "jock",
+      "clothes": "noble shirt",
+      "song": "Mr. K.K.",
+      "phrase": "lion cub"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "noble shirt",
+      "song": "Mr. K.K.",
+      "phrase": "lion cub"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "noble shirt",
+      "song": "Mr. K.K.",
+      "phrase": "lion cub"
+    },
+    "nl": {
+      "personality": "smug",
+      "clothes": "noble shirt",
+      "song": "Mr. K.K.",
+      "phrase": "lion cub"
+    },
+    "pc": {
+      "personality": "smug",
+      "clothes": "noble shirt",
+      "song": "Mr. K.K.",
+      "phrase": "lion cub"
+    }
+  },
+  "name": "Leopold",
+  "id": "leopold"
+}

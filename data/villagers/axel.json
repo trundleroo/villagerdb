@@ -1,0 +1,54 @@
+{
+  "gender": "male",
+  "species": "elephant",
+  "birthday": "3-23",
+  "home_request": "A dentist's office",
+  "skill": "Competitive eating",
+  "goal": "Basketball Player",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Sporty",
+  "games": {
+    "af": {
+      "personality": "jock",
+      "clothes": "Fresh Tee",
+      "song": "K.K. Dixie",
+      "phrase": "WHONK"
+    },
+    "af+": {
+      "personality": "jock",
+      "clothes": "Fresh Tee",
+      "song": "K.K. Dixie",
+      "phrase": "WHONK"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "Fresh Tee",
+      "song": "K.K. Dixie",
+      "phrase": "WHONK"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Fresh Tee",
+      "song": "K.K. Dixie",
+      "phrase": "WHONK"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "Fresh Tee",
+      "song": "K.K. Dixie",
+      "phrase": "WHONK"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "Fresh Tee",
+      "song": "K.K. Dixie",
+      "phrase": "WHONK"
+    }
+  },
+  "name": "Axel",
+  "id": "axel"
+}

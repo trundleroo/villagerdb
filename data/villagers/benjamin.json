@@ -1,0 +1,24 @@
+{
+  "gender": "male",
+  "species": "dog",
+  "birthday": "8-3",
+  "home_request": "A life of self-sufficiency",
+  "skill": "Brainteasers",
+  "goal": "Archaeologist",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "Just a little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Historical",
+  "games": {
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Subdued-Print Tee",
+      "song": "Wandering",
+      "phrase": "alrighty"
+    }
+  },
+  "name": "Benjamin",
+  "id": "benjamin"
+}

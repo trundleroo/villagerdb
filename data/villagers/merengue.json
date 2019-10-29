@@ -1,0 +1,36 @@
+{
+  "gender": "female",
+  "species": "rhino",
+  "birthday": "3-19",
+  "home_request": "A candy house",
+  "skill": "Doodling",
+  "goal": "Pastry chef",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "A little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Official",
+  "games": {
+    "nl": {
+      "personality": "normal",
+      "clothes": "Chef's Outfit",
+      "song": "K.K. Stroll",
+      "phrase": "shortcake"
+    },
+    "hhd": {
+      "personality": "normal",
+      "clothes": "Chef's Outfit",
+      "song": "K.K. Stroll",
+      "phrase": "shortcake"
+    },
+    "pc": {
+      "personality": "normal",
+      "clothes": "Chef's Outfit",
+      "song": "K.K. Stroll",
+      "phrase": "shortcake"
+    }
+  },
+  "name": "Merengue",
+  "id": "merengue"
+}

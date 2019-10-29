@@ -1,0 +1,24 @@
+{
+  "gender": "female",
+  "species": "cat",
+  "birthday": "4-27",
+  "home_request": "A gathering of Katts",
+  "skill": "Playing old maid",
+  "goal": "Swimmer",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Rock 'n' roll",
+  "games": {
+    "nl": {
+      "personality": "uchi",
+      "clothes": "Pep-Squad Tee",
+      "song": "Surfin' K.K.",
+      "phrase": "purrty"
+    }
+  },
+  "name": "Katt",
+  "id": "katt"
+}

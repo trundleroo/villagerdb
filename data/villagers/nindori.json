@@ -1,0 +1,15 @@
+{
+  "gender": "male",
+  "species": "ostrich",
+  "birthday": "6-5",
+  "games": {
+    "afe+": {
+      "personality": "jock",
+      "clothes": "G logo shirt",
+      "song": "Go K.K. Rider!",
+      "phrase": "ahern"
+    }
+  },
+  "name": "Nindori",
+  "id": "nindori"
+}

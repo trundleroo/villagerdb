@@ -1,0 +1,46 @@
+{
+  "gender": "male",
+  "species": "tiger",
+  "birthday": "8-19",
+  "skill": "Bunting",
+  "goal": "Soccer Player",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  },
+  "games": {
+    "af": {
+      "personality": "jock",
+      "clothes": "Two-Ball Shirt",
+      "song": "K.K. Salsa",
+      "phrase": "grrRAH"
+    },
+    "af+": {
+      "personality": "jock",
+      "clothes": "Two-Ball Shirt",
+      "song": "K.K. Salsa",
+      "phrase": "grrRAH"
+    },
+    "ac": {
+      "personality": "jock",
+      "clothes": "Two-Ball Shirt",
+      "song": "K.K. Salsa",
+      "phrase": "grrRAH"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Two-Ball Shirt",
+      "song": "K.K. Salsa",
+      "phrase": "grrRAH"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "Two-Ball Shirt",
+      "song": "K.K. Salsa",
+      "phrase": "grrRAH"
+    }
+  },
+  "name": "Tybalt",
+  "id": "tybalt"
+}

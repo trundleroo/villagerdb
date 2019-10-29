@@ -1,0 +1,42 @@
+{
+  "gender": "female",
+  "species": "squirrel",
+  "birthday": "8-5",
+  "home_request": "A pet-friendly paradise",
+  "skill": "Making Budgets",
+  "goal": "Stylist",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "A little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Modern",
+  "games": {
+    "cf": {
+      "personality": "normal",
+      "clothes": "Rally Tee",
+      "song": "K.K. Lullaby",
+      "phrase": "nutty"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Rally Tee",
+      "song": "K.K. Lullaby",
+      "phrase": "nutty"
+    },
+    "hhd": {
+      "personality": "normal",
+      "clothes": "Rally Tee",
+      "song": "K.K. Lullaby",
+      "phrase": "nutty"
+    },
+    "pc": {
+      "personality": "normal",
+      "clothes": "Rally Tee",
+      "song": "K.K. Lullaby",
+      "phrase": "nutty"
+    }
+  },
+  "name": "Poppy",
+  "id": "poppy"
+}

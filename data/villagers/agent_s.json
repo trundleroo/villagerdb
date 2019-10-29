@@ -1,0 +1,72 @@
+{
+  "gender": "female",
+  "species": "squirrel",
+  "birthday": "7-2",
+  "home_request": "A superhero training area",
+  "skill": "Limboing",
+  "goal": "Dancer",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Sporty",
+  "games": {
+    "af": {
+      "personality": "peppy",
+      "clothes": "No. 2 Shirt",
+      "song": "DJ K.K.",
+      "phrase": "sidekick"
+    },
+    "af+": {
+      "personality": "peppy",
+      "clothes": "No. 2 Shirt",
+      "song": "DJ K.K.",
+      "phrase": "sidekick"
+    },
+    "ac": {
+      "personality": "peppy",
+      "clothes": "No. 2 Shirt",
+      "song": "DJ K.K.",
+      "phrase": "sidekick"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "No. 2 Shirt",
+      "song": "DJ K.K.",
+      "phrase": "sidekick"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "No. 2 Shirt",
+      "song": "DJ K.K.",
+      "phrase": "sidekick"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "No. 2 Shirt",
+      "song": "DJ K.K.",
+      "phrase": "sidekick"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "No. 2 Shirt",
+      "song": "DJ K.K.",
+      "phrase": "sidekick"
+    },
+    "hhd": {
+      "personality": "peppy",
+      "clothes": "No. 2 Shirt",
+      "song": "DJ K.K.",
+      "phrase": "sidekick"
+    },
+    "pc": {
+      "personality": "peppy",
+      "clothes": "No. 2 Shirt",
+      "song": "DJ K.K.",
+      "phrase": "sidekick"
+    }
+  },
+  "name": "Agent s",
+  "id": "agent_s"
+}

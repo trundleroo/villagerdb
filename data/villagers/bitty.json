@@ -1,0 +1,48 @@
+{
+  "gender": "female",
+  "species": "hippo",
+  "birthday": "10-6",
+  "home_request": "Cute homey",
+  "skill": "Stomping ground",
+  "goal": "Designer",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "None at all",
+    "sugar": "None at all"
+  },
+  "style": "Cute",
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "clothes": "Funky Dot Tee",
+      "song": "K.K. Disco",
+      "phrase": "my dear"
+    },
+    "af+": {
+      "personality": "snooty",
+      "clothes": "Funky Dot Tee",
+      "song": "K.K. Disco",
+      "phrase": "my dear"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Funky Dot Tee",
+      "song": "K.K. Disco",
+      "phrase": "my dear"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Funky Dot Tee",
+      "song": "K.K. Disco",
+      "phrase": "my dear"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Funky Dot Tee",
+      "song": "K.K. Disco",
+      "phrase": "my dear"
+    }
+  },
+  "name": "Bitty",
+  "id": "bitty"
+}

@@ -1,0 +1,46 @@
+{
+  "gender": "male",
+  "species": "eagle",
+  "birthday": "12-7",
+  "skill": "Fishing",
+  "goal": "Chef",
+  "coffee": {
+    "beans": "Blue mountain",
+    "milk": "Lots of milk",
+    "sugar": "3 spoonfuls of sugar"
+  },
+  "games": {
+    "af": {
+      "personality": "cranky",
+      "clothes": "Racer 6 Shirt",
+      "song": "K.K. Rally",
+      "phrase": "captain"
+    },
+    "af+": {
+      "personality": "cranky",
+      "clothes": "Racer 6 Shirt",
+      "song": "K.K. Rally",
+      "phrase": "captain"
+    },
+    "ac": {
+      "personality": "cranky",
+      "clothes": "Racer 6 Shirt",
+      "song": "K.K. Rally",
+      "phrase": "captain"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "Racer 6 Shirt",
+      "song": "K.K. Rally",
+      "phrase": "captain"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "Racer 6 Shirt",
+      "song": "K.K. Rally",
+      "phrase": "captain"
+    }
+  },
+  "name": "Buzz",
+  "id": "buzz"
+}

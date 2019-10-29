@@ -1,0 +1,30 @@
+{
+  "gender": "female",
+  "species": "pig",
+  "birthday": "11-14",
+  "home_request": "A sleep sanctuary",
+  "skill": "Forgetting",
+  "goal": "President",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "A little bit of milk",
+    "sugar": "One spoonful of sugar"
+  },
+  "style": "Modern",
+  "games": {
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Canary Shirt",
+      "song": "K.K. Fusion",
+      "phrase": "sooey"
+    },
+    "hhd": {
+      "personality": "snooty",
+      "clothes": "Canary Shirt",
+      "song": "K.K. Fusion",
+      "phrase": "sooey"
+    }
+  },
+  "name": "Pancetti",
+  "id": "pancetti"
+}

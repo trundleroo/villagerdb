@@ -1,0 +1,24 @@
+{
+  "gender": "female",
+  "species": "gorilla",
+  "birthday": "4-14",
+  "home_request": "A superhero hideout",
+  "skill": "Cramming for tests",
+  "goal": "Swimmer",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "The regular amount of milk",
+    "sugar": "Two spoonfuls of sugar"
+  },
+  "style": "Sporty",
+  "games": {
+    "nl": {
+      "personality": "uchi",
+      "clothes": "No. 4 Shirt",
+      "song": "K.K. Adventure",
+      "phrase": "vroom"
+    }
+  },
+  "name": "Rocket",
+  "id": "rocket"
+}
