@@ -10,8 +10,8 @@ const pageSize = 25;
 
 /**
  *
- * @param collection
- * @param pageNumber
+ * @param collection collection of villagers from Mongo
+ * @param pageNumber the already sanity checked page number
  * @returns {Promise<void>}
  */
 async function loadVillagers(collection, pageNumber) {
@@ -19,8 +19,8 @@ async function loadVillagers(collection, pageNumber) {
 
     // Pagination data.
     resultSet.totalCount = await collection.count();
-    resultSet.currentPage = pageNumber <= 1 ? 1 : pageNumber; // pages start at 1
-    resultSet.previousPage = pageNumber <= 1 ? 1 : pageNumber - 1;
+    resultSet.currentPage = pageNumber;
+    resultSet.previousPage = pageNumber - 1;
     resultSet.startIndex = (pageSize * (pageNumber - 1) + 1); //
     resultSet.endIndex = (pageSize * pageNumber) > resultSet.totalCount ? resultSet.totalCount :
         (pageSize * pageNumber);
@@ -43,15 +43,15 @@ async function loadVillagers(collection, pageNumber) {
 }
 
 /**
- * Return the given input as a parsed integer if it is a positive integer. Otherwise, return 0.
+ * Return the given input as a parsed integer if it is a positive integer. Otherwise, return 1.
  *
  * @param value
  * @returns {number}
  */
 function parseQueryPositiveInteger(value) {
     const parsedValue = parseInt(value);
-    if (Number.isNaN(parsedValue) || parsedValue < 0) {
-        return 0;
+    if (Number.isNaN(parsedValue) || parsedValue < 1) {
+        return 1;
     }
 
     return parsedValue;
@@ -66,7 +66,7 @@ function parseQueryPositiveInteger(value) {
  */
 function listVillagers(req, res, next, pageNumber) {
     const data = {};
-    data.pageTitle = 'All villagers';
+    data.pageTitle = 'All Villagers - Page ' + pageNumber;
     loadVillagers(res.app.locals.db.gamedata.collection('villagers'), pageNumber)
         .then((resultSet) => {
             data.resultSet = resultSet;
