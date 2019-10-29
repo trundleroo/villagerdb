@@ -101,3 +101,11 @@ typings/
 
 # WebStorm files
 .idea/
+
+# OS Files
+.DS_Store
+
+# App-specific
+public/images
+public/javascripts
+public/stylesheets/*.css

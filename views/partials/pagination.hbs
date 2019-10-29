@@ -1,0 +1,25 @@
+<div class="text-right">
+    <p>Results {{resultSet.startIndex}} - {{resultSet.endIndex}} of {{resultSet.totalCount}}</p>
+    <nav aria-label="page navigation">
+        <ul class="pagination justify-content-end">
+            {{#if resultSet.isFirstPage}}
+                <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1">Previous page</a>
+                </li>
+            {{else}}
+                <li class="page-item">
+                    <a class="page-link" href="/villagers/page/{{resultSet.previousPage}}" tabindex="-1">Previous page</a>
+                </li>
+            {{/if}}
+            {{#if resultSet.isLastPage}}
+                <li class="page-item disabled">
+                    <a class="page-link" href="#">Next page</a>
+                </li>
+            {{else}}
+                <li class="page-item">
+                    <a class="page-link" href="/villagers/page/{{resultSet.nextPage}}">Next page</a>
+                </li>
+            {{/if}}
+        </ul>
+    </nav>
+</div>
