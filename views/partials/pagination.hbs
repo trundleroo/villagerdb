@@ -8,7 +8,8 @@
                 </li>
             {{else}}
                 <li class="page-item">
-                    <a class="page-link" href="/villagers/page/{{resultSet.previousPage}}" tabindex="-1">Previous page</a>
+                    <a class="page-link"
+                       href="{{resultSet.pageUrlPrefix}}{{resultSet.previousPage}}{{#if resultSet.isSearch}}?q={{resultSet.searchQueryString}}{{/if}}" tabindex="-1">Previous page</a>
                 </li>
             {{/if}}
             {{#if resultSet.isLastPage}}
@@ -17,7 +18,8 @@
                 </li>
             {{else}}
                 <li class="page-item">
-                    <a class="page-link" href="/villagers/page/{{resultSet.nextPage}}">Next page</a>
+                    <a class="page-link"
+                       href="{{resultSet.pageUrlPrefix}}{{resultSet.nextPage}}{{#if resultSet.isSearch}}?q={{resultSet.searchQueryString}}{{/if}}">Next page</a>
                 </li>
             {{/if}}
         </ul>

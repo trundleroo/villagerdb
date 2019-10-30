@@ -8,6 +8,7 @@ const hbs = require('express-handlebars');
 
 const indexRouter = require('./routes/index');
 const villagersRouter = require('./routes/villagers');
+const villagerRouter = require('./routes/villager');
 
 const app = express();
 
@@ -30,6 +31,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/villagers', villagersRouter);
+app.use('/villager', villagerRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
