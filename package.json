@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
+    "build": "webpack --mode production",
     "watch": "webpack --mode development --watch"
   },
   "dependencies": {
