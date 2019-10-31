@@ -78,8 +78,9 @@ function compressGameData(games, property) {
     let lastValue = undefined;
     for (let game in games) {
         // Do a case insensitive compare without any extra spaces.
-        let newValue = games[game][property].trim().toLowerCase().replace(/\s+/g, ' ');
+        let newValue = games[game][property];
         if (newValue) {
+            newValue = newValue.trim().toLowerCase().replace(/\s+/g, ' ');
             if (newValue !== lastValue) {
                 result.push({
                     title: games[game].title,
