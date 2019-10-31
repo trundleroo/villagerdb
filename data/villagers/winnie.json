@@ -3,8 +3,6 @@
   "species": "horse",
   "birthday": "1-31",
   "home_request": "A stable for horses",
-  "skill": "Tiptoeing",
-  "goal": "Volleyball player",
   "coffee": {
     "beans": "Mocha",
     "milk": "Just a little bit of milk",
@@ -46,7 +44,9 @@
       "personality": "peppy",
       "clothes": "Cow Tee",
       "song": "My Place",
-      "phrase": "hay-OK"
+      "phrase": "hay-OK",
+      "skill": "Tiptoeing",
+      "goal": "Volleyball player"
     }
   },
   "name": "Winnie",

@@ -3,8 +3,6 @@
   "species": "cat",
   "birthday": "4-11",
   "home_request": "A room for entertaining cats",
-  "skill": "Staying awake",
-  "goal": "Cartoonist",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "None at all",
@@ -43,16 +41,6 @@
     "cf": {
       "personality": "lazy",
       "clothes": "Gray Tartan Tee",
-      "song": "K.K. Love Song",
-      "phrase": "mrmpht"
-    },
-    "hhd": {
-      "personality": "lazy",
-      "song": "K.K. Love Song",
-      "phrase": "mrmpht"
-    },
-    "pc": {
-      "personality": "lazy",
       "song": "K.K. Love Song",
       "phrase": "mrmpht"
     }

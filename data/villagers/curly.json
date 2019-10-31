@@ -3,8 +3,6 @@
   "species": "pig",
   "birthday": "7-26",
   "home_request": "A game-development studio",
-  "skill": "Clearing my plate",
-  "goal": "Explorer",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "A little bit of milk",
@@ -52,13 +50,9 @@
       "personality": "jock",
       "clothes": "Green-Bar Tee",
       "song": "K.K. Reggae",
-      "phrase": "nyoink"
-    },
-    "hhd": {
-      "personality": "jock",
-      "clothes": "Green-Bar Tee",
-      "song": "K.K. Reggae",
-      "phrase": "nyoink"
+      "phrase": "nyoink",
+      "skill": "Clearing my plate",
+      "goal": "Explorer"
     }
   },
   "name": "Curly",

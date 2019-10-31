@@ -3,8 +3,6 @@
   "species": "gorilla",
   "birthday": "12-5",
   "home_request": "An indoor ski run.",
-  "skill": "Spoon bending",
-  "goal": "Painter",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "None at all",
@@ -16,13 +14,9 @@
       "personality": "smug",
       "clothes": "Blue Argyle Tee",
       "song": "K.K. D & B",
-      "phrase": "groovy"
-    },
-    "pc": {
-      "personality": "smug",
-      "clothes": "Blue Argyle Tee",
-      "song": "K.K. D & B",
-      "phrase": "groovy"
+      "phrase": "groovy",
+      "skill": "Spoon bending",
+      "goal": "Painter"
     }
   },
   "name": "Hans",

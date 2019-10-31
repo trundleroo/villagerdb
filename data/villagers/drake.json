@@ -3,8 +3,6 @@
   "species": "duck",
   "birthday": "6-25",
   "home_request": "A break room with a view",
-  "skill": "Rock paper scissors",
-  "goal": "Cartoonist",
   "coffee": {
     "beans": "Blend",
     "milk": "None at all",
@@ -28,19 +26,9 @@
       "personality": "lazy",
       "clothes": "Folk Shirt",
       "song": "K.K. Blues",
-      "phrase": "quacko"
-    },
-    "hhd": {
-      "personality": "lazy",
-      "clothes": "Folk Shirt",
-      "song": "K.K. Blues",
-      "phrase": "quacko"
-    },
-    "pc": {
-      "personality": "lazy",
-      "clothes": "Folk Shirt",
-      "song": "K.K. Blues",
-      "phrase": "quacko"
+      "phrase": "quacko",
+      "skill": "Rock paper scissors",
+      "goal": "Cartoonist"
     }
   },
   "name": "Drake",

@@ -3,8 +3,6 @@
   "species": "mouse",
   "birthday": "2-24",
   "home_request": "A pizza-party space",
-  "skill": "Oversleeping",
-  "goal": "Photographer",
   "coffee": {
     "beans": "Mocha",
     "milk": "No milk",
@@ -37,17 +35,9 @@
       "personality": "peppy",
       "clothes": "Peachy Tee",
       "song": "Neapolitan",
-      "phrase": "cannoli"
-    },
-    "hhd": {
-      "personality": "peppy",
-      "song": "Neapolitan",
-      "phrase": "cannoli"
-    },
-    "pc": {
-      "personality": "peppy",
-      "song": "Neapolitan",
-      "phrase": "cannoli"
+      "phrase": "cannoli",
+      "skill": "Oversleeping",
+      "goal": "Photographer"
     }
   },
   "name": "Anicotti",

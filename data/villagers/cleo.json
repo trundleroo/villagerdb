@@ -2,8 +2,6 @@
   "gender": "female",
   "species": "horse",
   "birthday": "2-9",
-  "skill": "Juggling",
-  "goal": "Dermatologist",
   "coffee": {
     "beans": "Mocha",
     "milk": "A little bit of milk",
@@ -38,7 +36,9 @@
       "personality": "snooty",
       "clothes": "Silk Bloom shirt",
       "song": "K.K. Synth",
-      "phrase": "sugar"
+      "phrase": "sugar",
+      "skill": "Juggling",
+      "goal": "Dermatologist"
     }
   },
   "name": "Cleo",

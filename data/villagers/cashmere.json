@@ -2,8 +2,6 @@
   "gender": "female",
   "species": "sheep",
   "birthday": "4-2",
-  "skill": "Peeling apples",
-  "goal": "Chef",
   "coffee": {
     "beans": "Blend",
     "milk": "The regular amount of milk",
@@ -38,7 +36,9 @@
       "personality": "snooty",
       "clothes": "Nebula Shirt",
       "song": "K.K. Country",
-      "phrase": "baaaby"
+      "phrase": "baaaby",
+      "skill": "Peeling apples",
+      "goal": "Chef"
     }
   },
   "name": "Cashmere",

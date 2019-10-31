@@ -3,8 +3,6 @@
   "species": "tiger",
   "birthday": "8-26",
   "home_request": "A treasure shop",
-  "skill": "Waking up early",
-  "goal": "Basketball player",
   "coffee": {
     "beans": "Mocha",
     "milk": "A little bit of milk",
@@ -45,16 +43,6 @@
     "cf": {
       "personality": "jock",
       "clothes": "Blue Dot Tee",
-      "song": "K.K. Love Song",
-      "phrase": "mango"
-    },
-    "hhd": {
-      "personality": "jock",
-      "song": "K.K. Love Song",
-      "phrase": "mango"
-    },
-    "pc": {
-      "personality": "jock",
       "song": "K.K. Love Song",
       "phrase": "mango"
     }

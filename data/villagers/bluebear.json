@@ -3,8 +3,6 @@
   "species": "cub",
   "birthday": "6-24",
   "home_request": "A supersweet bakery",
-  "skill": "Spoon bending",
-  "goal": "Cartoonist",
   "coffee": {
     "beans": "Mocha",
     "milk": "Lots of milk",
@@ -52,19 +50,9 @@
       "personality": "peppy",
       "clothes": "Lemon Gingham Tee",
       "song": "K.K. Ska",
-      "phrase": "peach"
-    },
-    "hhd": {
-      "personality": "peppy",
-      "clothes": "Lemon Gingham Tee",
-      "song": "K.K. Ska",
-      "phrase": "peach"
-    },
-    "pc": {
-      "personality": "peppy",
-      "clothes": "Lemon Gingham Tee",
-      "song": "K.K. Ska",
-      "phrase": "peach"
+      "phrase": "peach",
+      "skill": "Spoon bending",
+      "goal": "Cartoonist"
     }
   },
   "name": "Bluebear",

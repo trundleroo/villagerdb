@@ -3,8 +3,6 @@
   "species": "monkey",
   "birthday": "3-21",
   "home_request": "An eyewear showroom.",
-  "skill": "Mental Math",
-  "goal": "Archaeologist",
   "coffee": {
     "beans": "Blend",
     "milk": "No milk",
@@ -26,17 +24,9 @@
       "personality": "snooty",
       "clothes": "Cool ShirtGumdrop Tee",
       "song": "Neapolitan",
-      "phrase": "puh-lease"
-    },
-    "hhd": {
-      "personality": "snooty",
-      "song": "Neapolitan",
-      "phrase": "puh-lease"
-    },
-    "pc": {
-      "personality": "snooty",
-      "song": "Neapolitan",
-      "phrase": "puh-lease"
+      "phrase": "puh-lease",
+      "skill": "Mental Math",
+      "goal": "Archaeologist"
     }
   },
   "name": "Elise",

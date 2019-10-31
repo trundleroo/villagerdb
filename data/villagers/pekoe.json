@@ -3,8 +3,6 @@
   "species": "cub",
   "birthday": "5-18",
   "home_request": "An exotic resort",
-  "skill": "Doodling",
-  "goal": "Aesthetician",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "The regular amount of milk",
@@ -22,19 +20,9 @@
       "personality": "normal",
       "clothes": "Hot Spring Tee",
       "song": "Imperial K.K.",
-      "phrase": "bud"
-    },
-    "hhd": {
-      "personality": "normal",
-      "clothes": "Hot Spring Tee",
-      "song": "Imperial K.K.",
-      "phrase": "bud"
-    },
-    "pc": {
-      "personality": "normal",
-      "clothes": "Hot Spring Tee",
-      "song": "Imperial K.K.",
-      "phrase": "bud"
+      "phrase": "bud",
+      "skill": "Doodling",
+      "goal": "Aesthetician"
     }
   },
   "name": "Pekoe",

@@ -3,8 +3,6 @@
   "species": "squirrel",
   "birthday": "9-4",
   "home_request": "A nice place to do laundry.",
-  "skill": "Whistling",
-  "goal": "Lawyer",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "A little bit of milk",
@@ -16,7 +14,9 @@
       "personality": "normal",
       "clothes": "Ladybug Tank",
       "song": "K.K. Love Song",
-      "phrase": "WHEE"
+      "phrase": "WHEE",
+      "skill": "Whistling",
+      "goal": "Lawyer"
     }
   },
   "name": "Cally",

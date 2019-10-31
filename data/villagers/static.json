@@ -3,8 +3,6 @@
   "species": "squirrel",
   "birthday": "7-9",
   "home_request": "A game haven.",
-  "skill": "Backflipping",
-  "goal": "Guitarist",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "The regular amount of milk",
@@ -52,19 +50,9 @@
       "personality": "cranky",
       "clothes": "Melon Tee",
       "song": "Surfin' K.K.",
-      "phrase": "krzzt"
-    },
-    "hhd": {
-      "personality": "cranky",
-      "clothes": "Melon Tee",
-      "song": "Surfin' K.K.",
-      "phrase": "krzzt"
-    },
-    "pc": {
-      "personality": "cranky",
-      "clothes": "Melon Tee",
-      "song": "Surfin' K.K.",
-      "phrase": "krzzt"
+      "phrase": "krzzt",
+      "skill": "Backflipping",
+      "goal": "Guitarist"
     }
   },
   "name": "Static",

@@ -2,8 +2,6 @@
   "gender": "male",
   "species": "lion",
   "birthday": "8-14",
-  "skill": "Debating",
-  "goal": "Professor",
   "coffee": {
     "beans": "Mocha",
     "milk": "Lots of milk",
@@ -38,13 +36,9 @@
       "personality": "smug",
       "clothes": "noble shirt",
       "song": "Mr. K.K.",
-      "phrase": "lion cub"
-    },
-    "pc": {
-      "personality": "smug",
-      "clothes": "noble shirt",
-      "song": "Mr. K.K.",
-      "phrase": "lion cub"
+      "phrase": "lion cub",
+      "skill": "Debating",
+      "goal": "Professor"
     }
   },
   "name": "Leopold",

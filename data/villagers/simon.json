@@ -3,8 +3,6 @@
   "species": "monkey",
   "birthday": "1-19",
   "home_request": "A banana bungalow",
-  "skill": "Memorizing",
-  "goal": "Movie director",
   "coffee": {
     "beans": "Blend",
     "milk": "No milk",
@@ -28,7 +26,9 @@
       "personality": "lazy",
       "clothes": "Red-Bar Tee",
       "song": "Forest Life",
-      "phrase": "zzzook"
+      "phrase": "zzzook",
+      "skill": "Memorizing",
+      "goal": "Movie director"
     }
   },
   "name": "Simon",

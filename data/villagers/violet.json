@@ -3,8 +3,6 @@
   "species": "gorilla",
   "birthday": "9-1",
   "home_request": "A homey little restaurant",
-  "skill": "Blowing bubbles",
-  "goal": "Pharmacist",
   "coffee": {
     "beans": "Mocha",
     "milk": "Lots of milk",
@@ -28,7 +26,9 @@
       "personality": "snooty",
       "clothes": "Misty Tee",
       "song": "K.K. Faire",
-      "phrase": "faboom"
+      "phrase": "faboom",
+      "skill": "Blowing bubbles",
+      "goal": "Pharmacist"
     }
   },
   "name": "Violet",

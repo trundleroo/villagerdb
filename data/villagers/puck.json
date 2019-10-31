@@ -3,8 +3,6 @@
   "species": "penguin",
   "birthday": "2-21",
   "home_request": "A chilly room for icy sports",
-  "skill": "Doing handstands",
-  "goal": "Superhero",
   "coffee": {
     "beans": "Blend",
     "milk": "A little bit of milk",
@@ -46,7 +44,9 @@
       "personality": "lazy",
       "clothes": "BB Tee",
       "song": "K.K. Casbah",
-      "phrase": "brrrrrrrrr"
+      "phrase": "brrrrrrrrr",
+      "skill": "Doing handstands",
+      "goal": "Superhero"
     }
   },
   "name": "Puck",

@@ -3,8 +3,6 @@
   "species": "horse",
   "birthday": "3-15",
   "home_request": "A mythical home",
-  "skill": "Speed reader",
-  "goal": "Designer",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "No milk",
@@ -16,19 +14,9 @@
       "personality": "smug",
       "clothes": "Twinkle Tee",
       "song": "Stale Cupcakes",
-      "phrase": "glitter"
-    },
-    "hhd": {
-      "personality": "smug",
-      "clothes": "Twinkle Tee",
-      "song": "Stale Cupcakes",
-      "phrase": "glitter"
-    },
-    "pc": {
-      "personality": "smug",
-      "clothes": "Twinkle Tee",
-      "song": "Stale Cupcakes",
-      "phrase": "glitter"
+      "phrase": "glitter",
+      "skill": "Speed reader",
+      "goal": "Designer"
     }
   },
   "name": "Julian",

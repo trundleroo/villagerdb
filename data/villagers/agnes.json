@@ -3,8 +3,6 @@
   "species": "pig",
   "birthday": "4-21",
   "home_request": "An art museum",
-  "skill": "Cramming for tests",
-  "goal": "Pro Golfer",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "Lots of milk",
@@ -16,19 +14,9 @@
       "personality": "uchi",
       "clothes": "Dazed Tee",
       "song": "K.K. House",
-      "phrase": "snuffle"
-    },
-    "hhd": {
-      "personality": "uchi",
-      "clothes": "Dazed Tee",
-      "song": "K.K. House",
-      "phrase": "snuffle"
-    },
-    "pc": {
-      "personality": "uchi",
-      "clothes": "Dazed Tee",
-      "song": "K.K. House",
-      "phrase": "snuffle"
+      "phrase": "snuffle",
+      "skill": "Cramming for tests",
+      "goal": "Pro Golfer"
     }
   },
   "name": "Agnes",

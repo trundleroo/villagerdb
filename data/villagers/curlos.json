@@ -3,8 +3,6 @@
   "species": "sheep",
   "birthday": "5-8",
   "home_request": "A Toy Day celebration",
-  "skill": "Calculating Tips",
-  "goal": "Actor",
   "coffee": {
     "beans": "Kilamanjaro",
     "milk": "Lots of milk",
@@ -22,7 +20,9 @@
       "personality": "smug",
       "clothes": "Reggae Tee",
       "song": "K.K. Samba",
-      "phrase": "shearly"
+      "phrase": "shearly",
+      "skill": "Calculating Tips",
+      "goal": "Actor"
     }
   },
   "name": "Curlos",

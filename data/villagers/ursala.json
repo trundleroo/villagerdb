@@ -2,8 +2,6 @@
   "gender": "female",
   "species": "bear",
   "birthday": "1-16",
-  "skill": "Staying positive",
-  "goal": "Florist",
   "coffee": {
     "beans": "Mocha",
     "milk": "No milk",
@@ -38,7 +36,9 @@
       "personality": "uchi",
       "clothes": "Pastel-Stripe Tee",
       "song": "K.K. Country",
-      "phrase": "grooomph"
+      "phrase": "grooomph",
+      "skill": "Staying positive",
+      "goal": "Florist"
     }
   },
   "name": "Ursala",

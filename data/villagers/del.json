@@ -3,8 +3,6 @@
   "species": "alligator",
   "birthday": "5-27",
   "home_request": "A shrine of seafaring",
-  "skill": "Subsistence living",
-  "goal": "Firefighter",
   "coffee": {
     "beans": "Blend",
     "milk": "None at all",
@@ -28,7 +26,9 @@
       "personality": "cranky",
       "clothes": "Blue-Stripe Tee",
       "song": "K.K. March",
-      "phrase": "gronk"
+      "phrase": "gronk",
+      "skill": "Subsistence living",
+      "goal": "Firefighter"
     }
   },
   "name": "Del",

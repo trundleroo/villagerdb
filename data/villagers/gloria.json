@@ -3,8 +3,6 @@
   "species": "duck",
   "birthday": "8-12",
   "home_request": "An alpine homage",
-  "skill": "Boardgames",
-  "goal": "Stylist",
   "coffee": {
     "beans": "Blend",
     "milk": "None at all",
@@ -22,7 +20,9 @@
       "personality": "snooty",
       "clothes": "Corseted Shirt",
       "song": "K.K. Milonga",
-      "phrase": "quacker"
+      "phrase": "quacker",
+      "skill": "Boardgames",
+      "goal": "Stylist"
     }
   },
   "name": "Gloria",

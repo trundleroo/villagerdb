@@ -3,8 +3,6 @@
   "species": "deer",
   "birthday": "11-7",
   "home_request": "A field-trip atmosphere",
-  "skill": "Back flipping",
-  "goal": "Soccer Player",
   "coffee": {
     "beans": "Blend",
     "milk": "Just a little bit of milk",
@@ -16,19 +14,9 @@
       "personality": "jock",
       "clothes": "Green Warm-Up Jacket",
       "song": "DJ K.K.",
-      "phrase": "boosh"
-    },
-    "hhd": {
-      "personality": "jock",
-      "clothes": "Green Warm-Up Jacket",
-      "song": "DJ K.K.",
-      "phrase": "boosh"
-    },
-    "pc": {
-      "personality": "jock",
-      "clothes": "Green Warm-Up Jacket",
-      "song": "DJ K.K.",
-      "phrase": "boosh"
+      "phrase": "boosh",
+      "skill": "Back flipping",
+      "goal": "Soccer Player"
     }
   },
   "name": "Bam",

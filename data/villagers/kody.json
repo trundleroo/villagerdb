@@ -3,8 +3,6 @@
   "species": "cub",
   "birthday": "9-28",
   "home_request": "A blue training space",
-  "skill": "Eating frequently",
-  "goal": "Baseball player",
   "coffee": {
     "beans": "Mocha",
     "milk": "Lots of milk",
@@ -52,7 +50,9 @@
       "personality": "jock",
       "clothes": "Racer Tee",
       "song": "K.K. Country",
-      "phrase": "okey-dokey"
+      "phrase": "okey-dokey",
+      "skill": "Eating frequently",
+      "goal": "Baseball player"
     }
   },
   "name": "Kody",

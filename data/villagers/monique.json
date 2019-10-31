@@ -3,8 +3,6 @@
   "species": "cat",
   "birthday": "9-30",
   "home_request": "A room with stained glass",
-  "skill": "Juggling",
-  "goal": "Drummer",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "None at all",
@@ -52,7 +50,9 @@
       "personality": "snooty",
       "clothes": "Grape Tee",
       "song": "K.K. Swing",
-      "phrase": "pffffft"
+      "phrase": "pffffft",
+      "skill": "Juggling",
+      "goal": "Drummer"
     }
   },
   "name": "Monique",

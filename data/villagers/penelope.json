@@ -3,8 +3,6 @@
   "species": "mouse",
   "birthday": "2-5",
   "home_request": "A nonstop wedding party",
-  "skill": "Photography",
-  "goal": "Actor",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "A lot of milk",
@@ -16,19 +14,9 @@
       "personality": "peppy",
       "clothes": "Pink Wave Tank",
       "song": "Bubblegum K.K.",
-      "phrase": "oh bow"
-    },
-    "hhd": {
-      "personality": "peppy",
-      "clothes": "Pink Wave Tank",
-      "song": "Bubblegum K.K.",
-      "phrase": "oh bow"
-    },
-    "pc": {
-      "personality": "peppy",
-      "clothes": "Pink Wave Tank",
-      "song": "Bubblegum K.K.",
-      "phrase": "oh bow"
+      "phrase": "oh bow",
+      "skill": "Photography",
+      "goal": "Actor"
     }
   },
   "name": "Penelope",

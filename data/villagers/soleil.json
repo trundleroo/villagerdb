@@ -3,8 +3,6 @@
   "species": "hamster",
   "birthday": "8-9",
   "home_request": "A summery stronghold",
-  "skill": "Skimming books",
-  "goal": "Translator",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "Lots of milk",
@@ -16,7 +14,9 @@
       "personality": "snooty",
       "clothes": "Swell Tee",
       "song": "K.K. Oasis",
-      "phrase": "tarnation"
+      "phrase": "tarnation",
+      "skill": "Skimming books",
+      "goal": "Translator"
     }
   },
   "name": "Soleil",

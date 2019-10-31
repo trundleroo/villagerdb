@@ -2,8 +2,6 @@
   "gender": "female",
   "species": "cow",
   "birthday": "9-20",
-  "skill": "Karaoke",
-  "goal": "Teacher",
   "coffee": {
     "beans": "Mocha",
     "milk": "Lots of milk",
@@ -20,7 +18,9 @@
       "personality": "normal",
       "clothes": "Blue Tartan Shirt",
       "song": "Mountain Song",
-      "phrase": "hoof hoo"
+      "phrase": "hoof hoo",
+      "skill": "Karaoke",
+      "goal": "Teacher"
     }
   },
   "name": "Norma",

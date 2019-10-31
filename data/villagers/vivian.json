@@ -2,8 +2,6 @@
   "gender": "female",
   "species": "wolf",
   "birthday": "1-26",
-  "skill": "Dusting",
-  "goal": "Makeup Artist",
   "coffee": {
     "beans": "Blend",
     "milk": "Lots of milk",
@@ -21,7 +19,9 @@
       "personality": "snooty",
       "clothes": "Dogtooth Tee",
       "song": "K.K. Cruisin'",
-      "phrase": "dawayo"
+      "phrase": "dawayo",
+      "skill": "Dusting",
+      "goal": "Makeup Artist"
     }
   },
   "name": "Vivian",

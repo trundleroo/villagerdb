@@ -3,8 +3,6 @@
   "species": "sheep",
   "birthday": "4-16",
   "home_request": "A place with a fireplace",
-  "skill": "Computing",
-  "goal": "Archaeologist",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "A little bit of milk",
@@ -52,19 +50,9 @@
       "personality": "normal",
       "clothes": "Fall Plaid Tee",
       "song": "K.K. Steppe",
-      "phrase": "baaaffo"
-    },
-    "hhd": {
-      "personality": "normal",
-      "clothes": "Fall Plaid Tee",
-      "song": "K.K. Steppe",
-      "phrase": "baaaffo"
-    },
-    "pc": {
-      "personality": "normal",
-      "clothes": "Fall Plaid Tee",
-      "song": "K.K. Steppe",
-      "phrase": "baaaffo"
+      "phrase": "baaaffo",
+      "skill": "Computing",
+      "goal": "Archaeologist"
     }
   },
   "name": "Vesta",

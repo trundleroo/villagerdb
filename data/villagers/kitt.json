@@ -3,8 +3,6 @@
   "species": "kangaroo",
   "birthday": "10-11",
   "home_request": "An electronic showroom",
-  "skill": "Whistling",
-  "goal": "Cartoonist",
   "coffee": {
     "beans": "Blend",
     "milk": "The regular amount of milk",
@@ -49,7 +47,9 @@
       "personality": "normal",
       "clothes": "Blue Diamond Tee",
       "song": "K.K. Chorale",
-      "phrase": "child mi alma"
+      "phrase": "child mi alma",
+      "skill": "Whistling",
+      "goal": "Cartoonist"
     }
   },
   "name": "Kitt",

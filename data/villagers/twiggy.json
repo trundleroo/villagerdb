@@ -3,8 +3,6 @@
   "species": "bird",
   "birthday": "7-13",
   "home_request": "Surrounded by souvenirs",
-  "skill": "Spoon bending",
-  "goal": "Dentist",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "None at all",
@@ -52,19 +50,9 @@
       "personality": "peppy",
       "clothes": "Barber Tee",
       "song": "K.K. Calypso",
-      "phrase": "cheepers"
-    },
-    "hhd": {
-      "personality": "peppy",
-      "clothes": "Barber Tee",
-      "song": "K.K. Calypso",
-      "phrase": "cheepers"
-    },
-    "pc": {
-      "personality": "peppy",
-      "clothes": "Barber Tee",
-      "song": "K.K. Calypso",
-      "phrase": "cheepers"
+      "phrase": "cheepers",
+      "skill": "Spoon bending",
+      "goal": "Dentist"
     }
   },
   "name": "Twiggy",

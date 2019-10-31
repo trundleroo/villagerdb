@@ -3,8 +3,6 @@
   "species": "hippo",
   "birthday": "4-25",
   "home_request": "A ton of baskets",
-  "skill": "Drawing circles",
-  "goal": "Lawyer",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "Lots of milk",
@@ -37,7 +35,9 @@
       "personality": "normal",
       "clothes": "Funky-Dot Tee",
       "song": "Space K.K.",
-      "phrase": "bloop"
+      "phrase": "bloop",
+      "skill": "Drawing circles",
+      "goal": "Lawyer"
     }
   },
   "name": "Bertha",

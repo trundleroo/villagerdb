@@ -2,8 +2,6 @@
   "gender": "female",
   "species": "cub",
   "birthday": "7-12",
-  "skill": "Dancing",
-  "goal": "Pastry Chef",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "No milk",
@@ -39,7 +37,9 @@
       "personality": "normal",
       "clothes": "Dapper Tee",
       "song": "Cafe K.K.",
-      "phrase": "sweet pea"
+      "phrase": "sweet pea",
+      "skill": "Dancing",
+      "goal": "Pastry Chef"
     }
   },
   "name": "Olive",

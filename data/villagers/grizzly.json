@@ -3,8 +3,6 @@
   "species": "bear",
   "birthday": "7-31",
   "home_request": "An opulent oil tycoon's hall.",
-  "skill": "Brainteasers",
-  "goal": "Photographer",
   "coffee": {
     "beans": "Blend",
     "milk": "The regular amount of milk",
@@ -46,7 +44,9 @@
       "personality": "cranky",
       "clothes": "Houndstooth Tee",
       "song": "K.K. Dirge",
-      "phrase": "grrr"
+      "phrase": "grrr",
+      "skill": "Brainteasers",
+      "goal": "Photographer"
     }
   },
   "name": "Grizzly",

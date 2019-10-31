@@ -3,8 +3,6 @@
   "species": "bird",
   "birthday": "3-4",
   "home_request": "A brand-new hat shop",
-  "skill": "Remembering stuff",
-  "goal": "Explorer",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "The regular amount of milk",
@@ -52,7 +50,9 @@
       "personality": "lazy",
       "clothes": "Earthy Knit Shirt",
       "song": "K.K. Ragtime",
-      "phrase": "chuurp"
+      "phrase": "chuurp",
+      "skill": "Remembering stuff",
+      "goal": "Explorer"
     }
   },
   "name": "Anchovy",

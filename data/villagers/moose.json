@@ -3,8 +3,6 @@
   "species": "mouse",
   "birthday": "9-13",
   "home_request": "A spot to play hoops",
-  "skill": "Telling jokes",
-  "goal": "Mayor",
   "coffee": {
     "beans": "Mocha",
     "milk": "No milk",
@@ -22,7 +20,9 @@
       "personality": "jock",
       "clothes": "Big-Star Tee",
       "song": "Agent K.K.",
-      "phrase": "shorty"
+      "phrase": "shorty",
+      "skill": "Telling jokes",
+      "goal": "Mayor"
     }
   },
   "name": "Moose",

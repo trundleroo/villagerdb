@@ -3,8 +3,6 @@
   "species": "cat",
   "birthday": "2-27",
   "home_request": "An office/studio for a star",
-  "skill": "Karaoke",
-  "goal": "Movie Star",
   "coffee": {
     "beans": "Mocha",
     "milk": "Just a little bit of milk",
@@ -49,22 +47,9 @@
       "personality": "peppy",
       "clothes": "Dazed Tee",
       "song": "Bubblegum K.K.",
-      "phrase": "silly"
-    },
-    "hhd": {
-      "personality": "peppy",
-      "song": "Bubblegum K.K.",
-      "phrase": "silly"
-    },
-    "pc": {
-      "personality": "peppy",
-      "song": "Bubblegum K.K.",
-      "phrase": "silly"
-    },
-    "nh": {
-      "personality": "peppy",
-      "song": "Bubblegum K.K.",
-      "phrase": "silly"
+      "phrase": "silly",
+      "skill": "Karaoke",
+      "goal": "Movie Star"
     }
   },
   "name": "Rosie",

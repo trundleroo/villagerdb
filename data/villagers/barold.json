@@ -3,8 +3,6 @@
   "species": "cub",
   "birthday": "3-2",
   "home_request": "A room for stew.",
-  "skill": "Computing",
-  "goal": "Programmer",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "None at all",
@@ -16,7 +14,9 @@
       "personality": "lazy",
       "clothes": "Tiger Tee",
       "song": "My Place",
-      "phrase": "cubby"
+      "phrase": "cubby",
+      "skill": "Computing",
+      "goal": "Programmer"
     }
   },
   "name": "Barold",

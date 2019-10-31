@@ -3,8 +3,6 @@
   "species": "duck",
   "birthday": "2-23",
   "home_request": "A stylish Internet café",
-  "skill": "Pretending to sleep",
-  "goal": "Archaeologist",
   "coffee": {
     "beans": "Mocha",
     "milk": "The regular amount of milk",
@@ -52,7 +50,9 @@
       "personality": "peppy",
       "clothes": "Winter Sweater",
       "song": "K.K. Steppe",
-      "phrase": "quackle"
+      "phrase": "quackle",
+      "skill": "Pretending to sleep",
+      "goal": "Archaeologist"
     }
   },
   "name": "Pate",

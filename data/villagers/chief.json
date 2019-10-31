@@ -3,8 +3,6 @@
   "species": "wolf",
   "birthday": "12-19",
   "home_request": "A cool garage",
-  "skill": "Speed reading",
-  "goal": "Poet",
   "coffee": {
     "beans": "Blend",
     "milk": "Lots of milk",
@@ -52,19 +50,9 @@
       "personality": "cranky",
       "clothes": "Red-Bar Tee",
       "song": "DJ K.K.",
-      "phrase": "harrumph"
-    },
-    "hhd": {
-      "personality": "cranky",
-      "clothes": "Red-Bar Tee",
-      "song": "DJ K.K.",
-      "phrase": "harrumph"
-    },
-    "pc": {
-      "personality": "cranky",
-      "clothes": "Red-Bar Tee",
-      "song": "DJ K.K.",
-      "phrase": "harrumph"
+      "phrase": "harrumph",
+      "skill": "Speed reading",
+      "goal": "Poet"
     }
   },
   "name": "Chief",

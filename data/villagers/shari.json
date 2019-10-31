@@ -3,8 +3,6 @@
   "species": "monkey",
   "birthday": "4-10",
   "home_request": "A bed of nonwilting flowers.",
-  "skill": "Remembering Stuff",
-  "goal": "Figure Skater",
   "coffee": {
     "beans": "Blend",
     "milk": "No milk",
@@ -16,13 +14,9 @@
       "personality": "uchi",
       "clothes": "Silk Bloom Tee",
       "song": "K.K. Oasis",
-      "phrase": "cheeky"
-    },
-    "pc": {
-      "personality": "uchi",
-      "clothes": "Silk Bloom Tee",
-      "song": "K.K. Oasis",
-      "phrase": "cheeky"
+      "phrase": "cheeky",
+      "skill": "Remembering Stuff",
+      "goal": "Figure Skater"
     }
   },
   "name": "Shari",

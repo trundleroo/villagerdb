@@ -3,8 +3,6 @@
   "species": "eagle",
   "birthday": "11-19",
   "home_request": "An elegant, lofty space",
-  "skill": "Playing poker",
-  "goal": "Lawyer",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "Lots of milk",
@@ -52,7 +50,9 @@
       "personality": "snooty",
       "clothes": "Spiderweb Tee",
       "song": "K.K. Condor",
-      "phrase": "eaglet"
+      "phrase": "eaglet",
+      "skill": "Playing poker",
+      "goal": "Lawyer"
     }
   },
   "name": "Amelia",

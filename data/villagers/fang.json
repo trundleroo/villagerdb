@@ -3,8 +3,6 @@
   "species": "wolf",
   "birthday": "12-18",
   "home_request": "A chair showcase",
-  "skill": "Mental Math",
-  "goal": "Hair stylist",
   "coffee": {
     "beans": "Blend",
     "milk": "Lots of milk",
@@ -46,19 +44,9 @@
       "personality": "cranky",
       "clothes": "Icy Shirt",
       "song": "K.K. Calypso",
-      "phrase": "cha-chomp"
-    },
-    "hhd": {
-      "personality": "cranky",
-      "clothes": "Icy Shirt",
-      "song": "K.K. Calypso",
-      "phrase": "cha-chomp"
-    },
-    "pc": {
-      "personality": "cranky",
-      "clothes": "Icy Shirt",
-      "song": "K.K. Calypso",
-      "phrase": "cha-chomp"
+      "phrase": "cha-chomp",
+      "skill": "Mental Math",
+      "goal": "Hair stylist"
     }
   },
   "name": "Fang",

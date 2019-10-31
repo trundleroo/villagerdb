@@ -3,8 +3,6 @@
   "species": "bear",
   "birthday": "7-1",
   "home_request": "A glory-days trophy room",
-  "skill": "Whistling",
-  "goal": "Carpenter",
   "coffee": {
     "beans": "Mocha",
     "milk": "None at all",
@@ -43,18 +41,6 @@
       "phrase": "fuzzball"
     },
     "cf": {
-      "personality": "cranky",
-      "clothes": "MVP Tee",
-      "song": "K.K. Lament",
-      "phrase": "fuzzball"
-    },
-    "hhd": {
-      "personality": "cranky",
-      "clothes": "MVP Tee",
-      "song": "K.K. Lament",
-      "phrase": "fuzzball"
-    },
-    "pc": {
       "personality": "cranky",
       "clothes": "MVP Tee",
       "song": "K.K. Lament",

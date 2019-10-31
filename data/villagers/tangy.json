@@ -3,8 +3,6 @@
   "species": "cat",
   "birthday": "6-17",
   "home_request": "A deliciously fruity room.",
-  "skill": "Doing Handstands",
-  "goal": "Hair Stylist",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "The regular amount of milk",
@@ -52,7 +50,9 @@
       "personality": "peppy",
       "clothes": "Chain-Gang Tee",
       "song": "K.K. Island",
-      "phrase": "reeeeOWR"
+      "phrase": "reeeeOWR",
+      "skill": "Doing Handstands",
+      "goal": "Hair Stylist"
     }
   },
   "name": "Tangy",

@@ -3,8 +3,6 @@
   "species": "goat",
   "birthday": "8-24",
   "home_request": "A zodiac-figurine stand",
-  "skill": "Playing horseshoes",
-  "goal": "Illustrator",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "None at all",
@@ -46,7 +44,9 @@
       "personality": "normal",
       "clothes": "Citrus Gingham ShirtStraw Shirt",
       "song": "K.K. Etude",
-      "phrase": "kid"
+      "phrase": "kid",
+      "skill": "Playing horseshoes",
+      "goal": "Illustrator"
     }
   },
   "name": "Nan",

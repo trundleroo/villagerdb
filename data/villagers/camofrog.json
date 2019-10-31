@@ -3,8 +3,6 @@
   "species": "frog",
   "birthday": "6-5",
   "home_request": "A nature sanctuary",
-  "skill": "Playing jacks",
-  "goal": "Pilot",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "The regular amount of milk",
@@ -52,7 +50,9 @@
       "personality": "cranky",
       "clothes": "MVP Tee",
       "song": "K.K. Rock",
-      "phrase": "ten-hut"
+      "phrase": "ten-hut",
+      "skill": "Playing jacks",
+      "goal": "Pilot"
     }
   },
   "name": "Camofrog",

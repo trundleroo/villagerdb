@@ -3,8 +3,6 @@
   "species": "deer",
   "birthday": "5-26",
   "home_request": "A mah-jongg parlor",
-  "skill": "Memorizing",
-  "goal": "Pro golfer",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "None at all",
@@ -16,19 +14,9 @@
       "personality": "cranky",
       "clothes": "After-School Jacket",
       "song": "K.K. Blues",
-      "phrase": "gruff"
-    },
-    "hhd": {
-      "personality": "cranky",
-      "clothes": "After-School Jacket",
-      "song": "K.K. Blues",
-      "phrase": "gruff"
-    },
-    "pc": {
-      "personality": "cranky",
-      "clothes": "After-School Jacket",
-      "song": "K.K. Blues",
-      "phrase": "gruff"
+      "phrase": "gruff",
+      "skill": "Memorizing",
+      "goal": "Pro golfer"
     }
   },
   "name": "Bruce",

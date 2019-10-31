@@ -2,8 +2,6 @@
   "gender": "male",
   "species": "frog",
   "birthday": "8-3",
-  "skill": "Telling jokes",
-  "goal": "CEO",
   "coffee": {
     "beans": "Mocha",
     "milk": "A little bit of milk",
@@ -38,7 +36,9 @@
       "personality": "jock",
       "clothes": "One-Ball Tee",
       "song": "Wandering",
-      "phrase": "sluuuurp"
+      "phrase": "sluuuurp",
+      "skill": "Telling jokes",
+      "goal": "CEO"
     }
   },
   "name": "Tad",

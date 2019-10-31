@@ -3,8 +3,6 @@
   "species": "penguin",
   "birthday": "2-20",
   "home_request": "A frozen world to play in",
-  "skill": "Jumping rope",
-  "goal": "Figure skater",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "The regular amount of milk",
@@ -16,19 +14,9 @@
       "personality": "peppy",
       "clothes": "Icy Shirt",
       "song": "Cafe K.K.",
-      "phrase": "frappe"
-    },
-    "hhd": {
-      "personality": "peppy",
-      "clothes": "Icy Shirt",
-      "song": "Cafe K.K.",
-      "phrase": "frappe"
-    },
-    "pc": {
-      "personality": "peppy",
-      "clothes": "Icy Shirt",
-      "song": "Cafe K.K.",
-      "phrase": "frappe"
+      "phrase": "frappe",
+      "skill": "Jumping rope",
+      "goal": "Figure skater"
     }
   },
   "name": "Sprinkle",

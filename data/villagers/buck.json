@@ -3,8 +3,6 @@
   "species": "horse",
   "birthday": "4-4",
   "home_request": "A locker room",
-  "skill": "Vaulting",
-  "goal": "Basketball player",
   "coffee": {
     "beans": "Mocha",
     "milk": "Just a little bit of milk",
@@ -52,7 +50,9 @@
       "personality": "jock",
       "clothes": "Eight-Ball Tee",
       "song": "My Place",
-      "phrase": "pardner"
+      "phrase": "pardner",
+      "skill": "Vaulting",
+      "goal": "Basketball player"
     }
   },
   "name": "Buck",

@@ -3,8 +3,6 @@
   "species": "elephant",
   "birthday": "10-3",
   "home_request": "A superhero cafeteria",
-  "skill": "Tiptoeing",
-  "goal": "Superhero",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "Lots of milk",
@@ -52,19 +50,9 @@
       "personality": "lazy",
       "clothes": "No. 3 Shirt",
       "song": "K.K. Metal",
-      "phrase": "villain"
-    },
-    "hhd": {
-      "personality": "lazy",
-      "clothes": "No. 3 Shirt",
-      "song": "K.K. Metal",
-      "phrase": "villain"
-    },
-    "pc": {
-      "personality": "lazy",
-      "clothes": "No. 3 Shirt",
-      "song": "K.K. Metal",
-      "phrase": "villain"
+      "phrase": "villain",
+      "skill": "Tiptoeing",
+      "goal": "Superhero"
     }
   },
   "name": "Big top",

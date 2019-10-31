@@ -2,8 +2,6 @@
   "gender": "male",
   "species": "lion",
   "birthday": "8-7",
-  "skill": "Tiptoeing",
-  "goal": "Firefighter",
   "coffee": {
     "beans": "Mocha",
     "milk": "Lots of milk",
@@ -15,7 +13,9 @@
       "personality": "jock",
       "clothes": "Periwinkle Tee",
       "song": "K.K. Faire",
-      "phrase": "capital"
+      "phrase": "capital",
+      "skill": "Tiptoeing",
+      "goal": "Firefighter"
     }
   },
   "name": "Rory",

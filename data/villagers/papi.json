@@ -3,8 +3,6 @@
   "species": "horse",
   "birthday": "1-10",
   "home_request": "A wood-inspired abode",
-  "skill": "Ventriloquism",
-  "goal": "Cartoonist",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "The regular amount of milk",
@@ -16,7 +14,9 @@
       "personality": "lazy",
       "clothes": "Speedway Tee",
       "song": "Hypno K.K.",
-      "phrase": "haaay"
+      "phrase": "haaay",
+      "skill": "Ventriloquism",
+      "goal": "Cartoonist"
     }
   },
   "name": "Papi",

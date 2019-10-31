@@ -3,8 +3,6 @@
   "species": "duck",
   "birthday": "2-11",
   "home_request": "A splashy, modern garden",
-  "skill": "Trivia",
-  "goal": "CEO",
   "coffee": {
     "beans": "Mocha",
     "milk": "The regular amount of milk",
@@ -52,13 +50,9 @@
       "personality": "peppy",
       "clothes": "No. 4 Shirt",
       "song": "K.K. Jazz",
-      "phrase": "rah rah"
-    },
-    "pc": {
-      "personality": "peppy",
-      "clothes": "No. 4 Shirt",
-      "song": "K.K. Jazz",
-      "phrase": "rah rah"
+      "phrase": "rah rah",
+      "skill": "Trivia",
+      "goal": "CEO"
     }
   },
   "name": "Pompom",

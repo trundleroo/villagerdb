@@ -3,8 +3,6 @@
   "species": "pig",
   "birthday": "4-7",
   "home_request": "Heist central",
-  "skill": "Staying up late",
-  "goal": "CEO",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "A little bit of milk",
@@ -49,12 +47,9 @@
       "personality": "cranky",
       "clothes": "Rugby Tee",
       "song": "K.K. Faire",
-      "phrase": "swine"
-    },
-    "hhd": {
-      "personality": "cranky",
-      "song": "K.K. Faire",
-      "phrase": "swine"
+      "phrase": "swine",
+      "skill": "Staying up late",
+      "goal": "CEO"
     }
   },
   "name": "Rasher",

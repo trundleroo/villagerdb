@@ -3,8 +3,6 @@
   "species": "eagle",
   "birthday": "2-22",
   "home_request": "A room full of fossils",
-  "skill": "Skimming books",
-  "goal": "Professor",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "Just a little bit of milk",
@@ -28,19 +26,9 @@
       "personality": "cranky",
       "clothes": "Uncommon Shirt",
       "song": "K.K. Condor",
-      "phrase": "skree-haw"
-    },
-    "hhd": {
-      "personality": "cranky",
-      "clothes": "Uncommon Shirt",
-      "song": "K.K. Condor",
-      "phrase": "skree-haw"
-    },
-    "pc": {
-      "personality": "cranky",
-      "clothes": "Uncommon Shirt",
-      "song": "K.K. Condor",
-      "phrase": "skree-haw"
+      "phrase": "skree-haw",
+      "skill": "Skimming books",
+      "goal": "Professor"
     }
   },
   "name": "Avery",

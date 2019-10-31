@@ -3,8 +3,6 @@
   "species": "frog",
   "birthday": "9-21",
   "home_request": "A contemplative train trip",
-  "skill": "Oversleeping",
-  "goal": "Writer",
   "coffee": {
     "beans": "Mocha",
     "milk": "Just a little bit of milk",
@@ -16,7 +14,9 @@
       "personality": "smug",
       "clothes": "Chain-Gang Tee",
       "song": "K.K. Soul",
-      "phrase": "snoozit"
+      "phrase": "snoozit",
+      "skill": "Oversleeping",
+      "goal": "Writer"
     }
   },
   "name": "Henry",

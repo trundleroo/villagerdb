@@ -3,8 +3,6 @@
   "species": "penguin",
   "birthday": "10-6",
   "home_request": "A rehearsal room for a band",
-  "skill": "Sprinting",
-  "goal": "Basketball player",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "The regular amount of milk",
@@ -16,19 +14,9 @@
       "personality": "smug",
       "clothes": "Blue Letter Jacket",
       "song": "K.K. Metal",
-      "phrase": "picante"
-    },
-    "hhd": {
-      "personality": "smug",
-      "clothes": "Blue Letter Jacket",
-      "song": "K.K. Metal",
-      "phrase": "picante"
-    },
-    "pc": {
-      "personality": "smug",
-      "clothes": "Blue Letter Jacket",
-      "song": "K.K. Metal",
-      "phrase": "picante"
+      "phrase": "picante",
+      "skill": "Sprinting",
+      "goal": "Basketball player"
     }
   },
   "name": "Tex",

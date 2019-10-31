@@ -3,8 +3,6 @@
   "species": "horse",
   "birthday": "10-5",
   "home_request": "A sock shop for sock lovers",
-  "skill": "Playing old maid",
-  "goal": "Police officer",
   "coffee": {
     "beans": "Blend",
     "milk": "Lots of milk",
@@ -52,7 +50,9 @@
       "personality": "lazy",
       "clothes": "Periwinkle Tee",
       "song": "K.K. Waltz",
-      "phrase": "tenderfoot"
+      "phrase": "tenderfoot",
+      "skill": "Playing old maid",
+      "goal": "Police officer"
     }
   },
   "name": "Elmer",

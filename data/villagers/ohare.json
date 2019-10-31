@@ -3,8 +3,6 @@
   "species": "rabbit",
   "birthday": "7-24",
   "home_request": "A tropical resort",
-  "skill": "Air guitar",
-  "goal": "Musician",
   "coffee": {
     "beans": "Blend",
     "milk": "No milk",
@@ -34,19 +32,9 @@
       "personality": "smug",
       "clothes": "Blue Aloha Tee",
       "song": "K.K. Island",
-      "phrase": "amigo"
-    },
-    "hhd": {
-      "personality": "smug",
-      "clothes": "Blue Aloha Tee",
-      "song": "K.K. Island",
-      "phrase": "amigo"
-    },
-    "pc": {
-      "personality": "smug",
-      "clothes": "Blue Aloha Tee",
-      "song": "K.K. Island",
-      "phrase": "amigo"
+      "phrase": "amigo",
+      "skill": "Air guitar",
+      "goal": "Musician"
     }
   },
   "name": "O'Hare",

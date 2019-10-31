@@ -3,8 +3,6 @@
   "species": "squirrel",
   "birthday": "6-8",
   "home_request": "The land of the free",
-  "skill": "Hula dancing",
-  "goal": "Model",
   "coffee": {
     "beans": "Mocha",
     "milk": "The regular amount of milk",
@@ -52,25 +50,9 @@
       "personality": "peppy",
       "clothes": "Beatnik Tee",
       "song": "K.K. Salsa",
-      "phrase": "slacker"
-    },
-    "hhd": {
-      "personality": "peppy",
-      "clothes": "Beatnik Tee",
-      "song": "K.K. Salsa",
-      "phrase": "slacker"
-    },
-    "pc": {
-      "personality": "peppy",
-      "clothes": "Beatnik Tee",
-      "song": "K.K. Salsa",
-      "phrase": "slacker"
-    },
-    "nh": {
-      "personality": "peppy",
-      "clothes": "Beatnik Tee",
-      "song": "K.K. Salsa",
-      "phrase": "slacker"
+      "phrase": "slacker",
+      "skill": "Hula dancing",
+      "goal": "Model"
     }
   },
   "name": "Peanut",

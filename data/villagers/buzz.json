@@ -2,8 +2,6 @@
   "gender": "male",
   "species": "eagle",
   "birthday": "12-7",
-  "skill": "Fishing",
-  "goal": "Chef",
   "coffee": {
     "beans": "Blue mountain",
     "milk": "Lots of milk",
@@ -38,7 +36,9 @@
       "personality": "cranky",
       "clothes": "Racer 6 Shirt",
       "song": "K.K. Rally",
-      "phrase": "captain"
+      "phrase": "captain",
+      "skill": "Fishing",
+      "goal": "Chef"
     }
   },
   "name": "Buzz",

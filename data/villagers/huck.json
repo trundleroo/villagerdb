@@ -2,8 +2,6 @@
   "gender": "male",
   "species": "frog",
   "birthday": "7-9",
-  "skill": "Clearing my plate",
-  "goal": "Architect",
   "coffee": {
     "beans": "Mocha",
     "milk": "a little bit of milk",
@@ -38,7 +36,9 @@
       "personality": "smug",
       "clothes": "Melon Gingham",
       "song": "I Love You",
-      "phrase": "hopper"
+      "phrase": "hopper",
+      "skill": "Clearing my plate",
+      "goal": "Architect"
     }
   },
   "name": "Huck",

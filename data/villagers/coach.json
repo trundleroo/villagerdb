@@ -3,8 +3,6 @@
   "species": "bull",
   "birthday": "4-29",
   "home_request": "A gym for athletic contests",
-  "skill": "Eating quickly",
-  "goal": "Fisherman",
   "coffee": {
     "beans": "Blend",
     "milk": "Lots of milk",
@@ -16,7 +14,9 @@
       "personality": "jock",
       "clothes": "Relay Tank",
       "song": "Marine Song 2001",
-      "phrase": "stubble"
+      "phrase": "stubble",
+      "skill": "Eating quickly",
+      "goal": "Fisherman"
     }
   },
   "name": "Coach",

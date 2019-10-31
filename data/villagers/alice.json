@@ -3,8 +3,6 @@
   "species": "koala",
   "birthday": "8-19",
   "home_request": "A mix of antique pieces",
-  "skill": "Photography",
-  "goal": "Stylist",
   "coffee": {
     "beans": "Mocha",
     "milk": "None milk",
@@ -43,18 +41,6 @@
       "phrase": "guvnor"
     },
     "cf": {
-      "personality": "normal",
-      "clothes": "Barber Tee",
-      "song": "Surfin' K.K.",
-      "phrase": "guvnor"
-    },
-    "hhd": {
-      "personality": "normal",
-      "clothes": "Barber Tee",
-      "song": "Surfin' K.K.",
-      "phrase": "guvnor"
-    },
-    "pc": {
       "personality": "normal",
       "clothes": "Barber Tee",
       "song": "Surfin' K.K.",

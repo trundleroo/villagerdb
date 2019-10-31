@@ -3,8 +3,6 @@
   "species": "squirrel",
   "birthday": "5-2",
   "home_request": "An ice-cream shop",
-  "skill": "Cramming for tests",
-  "goal": "Architect",
   "coffee": {
     "beans": "Blend",
     "milk": "No milk",
@@ -52,7 +50,9 @@
       "personality": "snooty",
       "clothes": "Gumdrop Tee",
       "song": "K.K. Soul",
-      "phrase": "ahhhhhh"
+      "phrase": "ahhhhhh",
+      "skill": "Cramming for tests",
+      "goal": "Architect"
     }
   },
   "name": "Mint",

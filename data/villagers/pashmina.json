@@ -3,8 +3,6 @@
   "species": "goat",
   "birthday": "12-26",
   "home_request": "A gorgeous, rococo room",
-  "skill": "Eating frequently",
-  "goal": "Pro golfer",
   "coffee": {
     "beans": "Mocha",
     "milk": "Lots of milk",
@@ -16,7 +14,9 @@
       "personality": "uchi",
       "clothes": "Corseted Shirt",
       "song": "K.K. Tango",
-      "phrase": "kidders"
+      "phrase": "kidders",
+      "skill": "Eating frequently",
+      "goal": "Pro golfer"
     }
   },
   "name": "Pashmina",

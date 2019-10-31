@@ -3,8 +3,6 @@
   "species": "kangaroo",
   "birthday": "12-1",
   "home_request": "A boxing gym",
-  "skill": "Doing push-ups",
-  "goal": "Boxer",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "Just a little bit of milk",
@@ -16,7 +14,9 @@
       "personality": "cranky",
       "clothes": "Black Track Jacket",
       "song": "K.K. Adventure",
-      "phrase": "punches"
+      "phrase": "punches",
+      "skill": "Doing push-ups",
+      "goal": "Boxer"
     }
   },
   "name": "Rooney",

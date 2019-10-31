@@ -3,8 +3,6 @@
   "species": "dog",
   "birthday": "8-3",
   "home_request": "A life of self-sufficiency",
-  "skill": "Brainteasers",
-  "goal": "Archaeologist",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "Just a little bit of milk",
@@ -16,7 +14,9 @@
       "personality": "lazy",
       "clothes": "Subdued-Print Tee",
       "song": "Wandering",
-      "phrase": "alrighty"
+      "phrase": "alrighty",
+      "skill": "Brainteasers",
+      "goal": "Archaeologist"
     }
   },
   "name": "Benjamin",

@@ -3,8 +3,6 @@
   "species": "goat",
   "birthday": "3-6",
   "home_request": "A high-security bank vault",
-  "skill": "Calculating tips",
-  "goal": "Teacher",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "None at all",
@@ -52,13 +50,9 @@
       "personality": "normal",
       "clothes": "Natty Tee",
       "song": "K.K. Chorale",
-      "phrase": "la baa"
-    },
-    "pc": {
-      "personality": "normal",
-      "clothes": "Natty Tee",
-      "song": "K.K. Chorale",
-      "phrase": "la baa"
+      "phrase": "la baa",
+      "skill": "Calculating tips",
+      "goal": "Teacher"
     }
   },
   "name": "Chevre",

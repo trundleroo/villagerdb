@@ -3,8 +3,6 @@
   "species": "hamster",
   "birthday": "5-30",
   "home_request": "A soccer arena",
-  "skill": "Limboing",
-  "goal": "Soccer player",
   "coffee": {
     "beans": "Blend",
     "milk": "The regular amount of milk",
@@ -16,19 +14,9 @@
       "personality": "jock",
       "clothes": "Big-Star Tee",
       "song": "K.K. Reggae",
-      "phrase": "hammie"
-    },
-    "hhd": {
-      "personality": "jock",
-      "clothes": "Big-Star Tee",
-      "song": "K.K. Reggae",
-      "phrase": "hammie"
-    },
-    "pc": {
-      "personality": "jock",
-      "clothes": "Big-Star Tee",
-      "song": "K.K. Reggae",
-      "phrase": "hammie"
+      "phrase": "hammie",
+      "skill": "Limboing",
+      "goal": "Soccer player"
     }
   },
   "name": "Hamlet",

@@ -3,8 +3,6 @@
   "species": "ostrich",
   "birthday": "11-27",
   "home_request": "A personal micro cosmos",
-  "skill": "Beat boxing",
-  "goal": "Baseball player",
   "coffee": {
     "beans": "Mocha",
     "milk": "The regular amount of milk",
@@ -16,7 +14,9 @@
       "personality": "smug",
       "clothes": "Dawn Tee",
       "song": "Steep Hill",
-      "phrase": "hurk"
+      "phrase": "hurk",
+      "skill": "Beat boxing",
+      "goal": "Baseball player"
     }
   },
   "name": "Phil",

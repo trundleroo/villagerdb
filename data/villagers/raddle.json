@@ -2,8 +2,6 @@
   "gender": "male",
   "species": "frog",
   "birthday": "6-6",
-  "skill": "Pretending to sleep",
-  "goal": "Doctor",
   "coffee": {
     "beans": "Blend",
     "milk": "Lots of milk",
@@ -20,7 +18,9 @@
       "personality": "lazy",
       "clothes": "Doctor's Coat",
       "song": "Mr. K.K.",
-      "phrase": "aaach"
+      "phrase": "aaach",
+      "skill": "Pretending to sleep",
+      "goal": "Doctor"
     }
   },
   "name": "Raddle",

@@ -2,8 +2,6 @@
   "gender": "male",
   "species": "bird",
   "birthday": "1-27",
-  "skill": "Writing about pickles",
-  "goal": "Fisherman",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "The regular amount of milk",
@@ -38,7 +36,9 @@
       "personality": "cranky",
       "clothes": "Orange Pinstripe Shirt",
       "song": "Steep Hill",
-      "phrase": "aye aye"
+      "phrase": "aye aye",
+      "skill": "Writing about pickles",
+      "goal": "Fisherman"
     }
   },
   "name": "Admiral",

@@ -3,8 +3,6 @@
   "species": "pig",
   "birthday": "6-2",
   "home_request": "A creepy-looking dollhouse.",
-  "skill": "Baton twirling",
-  "goal": "Tour guide",
   "coffee": {
     "beans": "Mocha",
     "milk": "No milk",
@@ -52,13 +50,9 @@
       "personality": "normal",
       "clothes": "Natty Tee",
       "song": "Comrade K.K.",
-      "phrase": "snoooink"
-    },
-    "hhd": {
-      "personality": "normal",
-      "clothes": "Natty Tee",
-      "song": "Comrade K.K.",
-      "phrase": "snoooink"
+      "phrase": "snoooink",
+      "skill": "Baton twirling",
+      "goal": "Tour guide"
     }
   },
   "name": "Lucy",

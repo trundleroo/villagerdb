@@ -3,8 +3,6 @@
   "species": "gorilla",
   "birthday": "9-12",
   "home_request": "A desert paradise",
-  "skill": "Dancing",
-  "goal": "Rugby player",
   "coffee": {
     "beans": "Blend",
     "milk": "Just a little bit of milk",
@@ -28,19 +26,9 @@
       "personality": "jock",
       "clothes": "Comfy Sweater",
       "song": "K.K. Western",
-      "phrase": "baboom"
-    },
-    "hhd": {
-      "personality": "jock",
-      "clothes": "Comfy Sweater",
-      "song": "K.K. Western",
-      "phrase": "baboom"
-    },
-    "pc": {
-      "personality": "jock",
-      "clothes": "Comfy Sweater",
-      "song": "K.K. Western",
-      "phrase": "baboom"
+      "phrase": "baboom",
+      "skill": "Dancing",
+      "goal": "Rugby player"
     }
   },
   "name": "Boone",

@@ -3,8 +3,6 @@
   "species": "cat",
   "birthday": "2-15",
   "home_request": "A sidewalk bistro",
-  "skill": "Writing Letters",
-  "goal": "CEO",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "None at all",
@@ -46,7 +44,9 @@
       "personality": "snooty",
       "clothes": "Crewel Tee",
       "song": "K.K. Etude",
-      "phrase": "mrowrr"
+      "phrase": "mrowrr",
+      "skill": "Writing Letters",
+      "goal": "CEO"
     }
   },
   "name": "Kitty",

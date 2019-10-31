@@ -3,8 +3,6 @@
   "species": "hippo",
   "birthday": "8-18",
   "home_request": "A danger-filled zone",
-  "skill": "Making puns",
-  "goal": "Boxer",
   "coffee": {
     "beans": "Mocha",
     "milk": "No milk",
@@ -52,19 +50,9 @@
       "personality": "cranky",
       "clothes": "Danger Tee",
       "song": "K.K. Lament",
-      "phrase": "hippie"
-    },
-    "hhd": {
-      "personality": "cranky",
-      "clothes": "Danger Tee",
-      "song": "K.K. Lament",
-      "phrase": "hippie"
-    },
-    "pc": {
-      "personality": "cranky",
-      "clothes": "Danger Tee",
-      "song": "K.K. Lament",
-      "phrase": "hippie"
+      "phrase": "hippie",
+      "skill": "Making puns",
+      "goal": "Boxer"
     }
   },
   "name": "Rocco",

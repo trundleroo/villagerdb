@@ -3,8 +3,6 @@
   "species": "mouse",
   "birthday": "2-18",
   "home_request": "A herb garden",
-  "skill": "Dusting",
-  "goal": "Translator",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "Lots of milk",
@@ -52,7 +50,9 @@
       "personality": "normal",
       "clothes": "Sharp Outfit",
       "song": "Only Me",
-      "phrase": "squeaky"
+      "phrase": "squeaky",
+      "skill": "Dusting",
+      "goal": "Translator"
     }
   },
   "name": "Dora",

@@ -3,8 +3,6 @@
   "species": "rabbit",
   "birthday": "3-3",
   "home_request": "The \"it\" house",
-  "skill": "Competitive eating",
-  "goal": "Swimmer",
   "coffee": {
     "beans": "Mocha",
     "milk": "The regular amount of milk",
@@ -16,13 +14,9 @@
       "personality": "peppy",
       "clothes": "Chocomint Tee",
       "song": "K.K. Disco",
-      "phrase": "deelish"
-    },
-    "hhd": {
-      "personality": "peppy",
-      "clothes": "Chocomint Tee",
-      "song": "K.K. Disco",
-      "phrase": "deelish"
+      "phrase": "deelish",
+      "skill": "Competitive eating",
+      "goal": "Swimmer"
     }
   },
   "name": "Bonbon",

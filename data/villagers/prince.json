@@ -3,8 +3,6 @@
   "species": "frog",
   "birthday": "7-21",
   "home_request": "A barbershop for beards",
-  "skill": "Playing old maid",
-  "goal": "Carpenter",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "None at all",
@@ -46,7 +44,9 @@
       "personality": "lazy",
       "clothes": "Yellow-Bar Tee",
       "song": "To the Edge",
-      "phrase": "burrup"
+      "phrase": "burrup",
+      "skill": "Playing old maid",
+      "goal": "Carpenter"
     }
   },
   "name": "Prince",

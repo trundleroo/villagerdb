@@ -3,8 +3,6 @@
   "species": "eagle",
   "birthday": "1-8",
   "home_request": "A classy training room",
-  "skill": "Playing catch",
-  "goal": "Rugby player",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "Just a little bit of milk",
@@ -46,17 +44,9 @@
       "personality": "jock",
       "clothes": "Circus ShirtCamel Shirt",
       "song": "K.K. Etude",
-      "phrase": "winger"
-    },
-    "hhd": {
-      "personality": "jock",
-      "song": "K.K. Etude",
-      "phrase": "winger"
-    },
-    "pc": {
-      "personality": "jock",
-      "song": "K.K. Etude",
-      "phrase": "winger"
+      "phrase": "winger",
+      "skill": "Playing catch",
+      "goal": "Rugby player"
     }
   },
   "name": "Pierce",

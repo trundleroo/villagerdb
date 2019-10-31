@@ -3,8 +3,6 @@
   "species": "rabbit",
   "birthday": "8-28",
   "home_request": "A delightfully dotted room",
-  "skill": "Staying awake",
-  "goal": "Model",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "Lots of milk",
@@ -28,19 +26,9 @@
       "personality": "peppy",
       "clothes": "Lite Polka Tee",
       "song": "K.K. Waltz",
-      "phrase": "sparkles"
-    },
-    "hhd": {
-      "personality": "peppy",
-      "clothes": "Lite Polka Tee",
-      "song": "K.K. Waltz",
-      "phrase": "sparkles"
-    },
-    "pc": {
-      "personality": "peppy",
-      "clothes": "Lite Polka Tee",
-      "song": "K.K. Waltz",
-      "phrase": "sparkles"
+      "phrase": "sparkles",
+      "skill": "Staying awake",
+      "goal": "Model"
     }
   },
   "name": "Chrissy",

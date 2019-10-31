@@ -2,8 +2,6 @@
   "gender": "male",
   "species": "cub",
   "birthday": "8-6",
-  "skill": "Trivia",
-  "goal": "Teacher",
   "coffee": {
     "beans": "Blend",
     "milk": "Just a little bit of milk",
@@ -21,7 +19,9 @@
       "personality": "lazy",
       "clothes": "Yellow-Bar Tee",
       "song": "Imperial K.K.",
-      "phrase": "rookie"
+      "phrase": "rookie",
+      "skill": "Trivia",
+      "goal": "Teacher"
     }
   },
   "name": "Chester",

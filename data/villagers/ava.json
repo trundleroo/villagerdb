@@ -3,8 +3,6 @@
   "species": "chicken",
   "birthday": "4-28",
   "home_request": "A professional kitchen",
-  "skill": "Peeling apples",
-  "goal": "Pastry Chef",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "The regular amount of milk",
@@ -40,19 +38,9 @@
       "personality": "normal",
       "clothes": "Checkerboard Tee",
       "song": "K.K. Country",
-      "phrase": "beaker"
-    },
-    "hhd": {
-      "personality": "normal",
-      "clothes": "Checkerboard Tee",
-      "song": "K.K. Country",
-      "phrase": "beaker"
-    },
-    "pc": {
-      "personality": "normal",
-      "clothes": "Checkerboard Tee",
-      "song": "K.K. Country",
-      "phrase": "beaker"
+      "phrase": "beaker",
+      "skill": "Peeling apples",
+      "goal": "Pastry Chef"
     }
   },
   "name": "Ava",

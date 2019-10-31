@@ -3,8 +3,6 @@
   "species": "squirrel",
   "birthday": "9-10",
   "home_request": "A chic and relaxed room",
-  "skill": "Forgetting",
-  "goal": "Translator",
   "coffee": {
     "beans": "Blend",
     "milk": "No milk",
@@ -52,7 +50,9 @@
       "personality": "snooty",
       "clothes": "Red-Check Tee",
       "song": "Cafe K.K.",
-      "phrase": "chipmunk"
+      "phrase": "chipmunk",
+      "skill": "Forgetting",
+      "goal": "Translator"
     }
   },
   "name": "Pecan",

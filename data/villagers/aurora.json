@@ -3,8 +3,6 @@
   "species": "penguin",
   "birthday": "1-27",
   "home_request": "A flower shop",
-  "skill": "Making Budgets",
-  "goal": "Doctor",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "The regular amount of milk",
@@ -49,17 +47,9 @@
       "personality": "normal",
       "clothes": "Pink Tartan Tee",
       "song": "K.K. Gumbo",
-      "phrase": "b-b-baby"
-    },
-    "hhd": {
-      "personality": "normal",
-      "song": "K.K. Gumbo",
-      "phrase": "b-b-baby"
-    },
-    "pc": {
-      "personality": "normal",
-      "song": "K.K. Gumbo",
-      "phrase": "b-b-baby"
+      "phrase": "b-b-baby",
+      "skill": "Making Budgets",
+      "goal": "Doctor"
     }
   },
   "name": "Aurora",

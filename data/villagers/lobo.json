@@ -3,8 +3,6 @@
   "species": "wolf",
   "birthday": "11-5",
   "home_request": "A nostalgic throwback",
-  "skill": "Fishing",
-  "goal": "Forest ranger",
   "coffee": {
     "beans": "Blend",
     "milk": "Lots of milk",
@@ -52,19 +50,9 @@
       "personality": "cranky",
       "clothes": "Checkered Tee",
       "song": "K.K. Safari",
-      "phrase": "ah-rooooo"
-    },
-    "hhd": {
-      "personality": "cranky",
-      "clothes": "Checkered Tee",
-      "song": "K.K. Safari",
-      "phrase": "ah-rooooo"
-    },
-    "pc": {
-      "personality": "cranky",
-      "clothes": "Checkered Tee",
-      "song": "K.K. Safari",
-      "phrase": "ah-rooooo"
+      "phrase": "ah-rooooo",
+      "skill": "Fishing",
+      "goal": "Forest ranger"
     }
   },
   "name": "Lobo",

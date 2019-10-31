@@ -3,8 +3,6 @@
   "species": "mouse",
   "birthday": "10-17",
   "home_request": "A self-sustaining sanctuary",
-  "skill": "Making faces",
-  "goal": "Mayor",
   "coffee": {
     "beans": "Mocha",
     "milk": "No milk",
@@ -52,7 +50,9 @@
       "personality": "cranky",
       "clothes": "Subdued-Print Tee",
       "song": "K.K. Folk",
-      "phrase": "squinky"
+      "phrase": "squinky",
+      "skill": "Making faces",
+      "goal": "Mayor"
     }
   },
   "name": "Limberg",

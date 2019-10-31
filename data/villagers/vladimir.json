@@ -3,8 +3,6 @@
   "species": "cub",
   "birthday": "8-2",
   "home_request": "A way below ground",
-  "skill": "Belly dancing",
-  "goal": "Movie director",
   "coffee": {
     "beans": "Mocha",
     "milk": "Lots of milk",
@@ -42,7 +40,9 @@
     "nl": {
       "personality": "cranky",
       "song": "Agent K.K.",
-      "phrase": "nyet"
+      "phrase": "nyet",
+      "skill": "Belly dancing",
+      "goal": "Movie director"
     }
   },
   "name": "Vladimir",

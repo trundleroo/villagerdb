@@ -3,8 +3,6 @@
   "species": "frog",
   "birthday": "10-9",
   "home_request": "A hospital lobby",
-  "skill": "Shadow puppetry",
-  "goal": "Tycoon",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "The regular amount of milk",
@@ -49,7 +47,9 @@
       "personality": "jock",
       "clothes": "No. 67 Shirt",
       "song": "K.K. Country",
-      "phrase": "brah"
+      "phrase": "brah",
+      "skill": "Shadow puppetry",
+      "goal": "Tycoon"
     }
   },
   "name": "Drift",

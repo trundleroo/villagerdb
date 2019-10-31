@@ -3,8 +3,6 @@
   "species": "chicken",
   "birthday": "12-23",
   "home_request": "A ninja hideout",
-  "skill": "Clearing their plate",
-  "goal": "Architect",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "The regular amount of milk",
@@ -16,7 +14,9 @@
       "personality": "smug",
       "clothes": "Ninja Shirt",
       "song": "Comrade K.K.",
-      "phrase": "no doubt"
+      "phrase": "no doubt",
+      "skill": "Clearing their plate",
+      "goal": "Architect"
     }
   },
   "name": "Ken",

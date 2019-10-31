@@ -3,8 +3,6 @@
   "species": "rabbit",
   "birthday": "11-3",
   "home_request": "A ninja mansion",
-  "skill": "Playing jacks",
-  "goal": "Soccer player",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "Lots of milk",
@@ -52,19 +50,9 @@
       "personality": "jock",
       "clothes": "Zipper Shirt",
       "song": "K.K. Lullaby",
-      "phrase": "bunyip"
-    },
-    "hhd": {
-      "personality": "jock",
-      "clothes": "Zipper Shirt",
-      "song": "K.K. Lullaby",
-      "phrase": "bunyip"
-    },
-    "pc": {
-      "personality": "jock",
-      "clothes": "Zipper Shirt",
-      "song": "K.K. Lullaby",
-      "phrase": "bunyip"
+      "phrase": "bunyip",
+      "skill": "Playing jacks",
+      "goal": "Soccer player"
     }
   },
   "name": "Snake",

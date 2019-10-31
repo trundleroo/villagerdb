@@ -3,8 +3,6 @@
   "species": "duck",
   "birthday": "6-13",
   "home_request": "A house with a pool",
-  "skill": "Climbing trees",
-  "goal": "Rugby player",
   "coffee": {
     "beans": "Mocha",
     "milk": "The regular amount of milk",
@@ -46,7 +44,9 @@
       "personality": "jock",
       "clothes": "Frog Tee",
       "song": "Marine Song 2001",
-      "phrase": "zip zoom"
+      "phrase": "zip zoom",
+      "skill": "Climbing trees",
+      "goal": "Rugby player"
     }
   },
   "name": "Scoot",

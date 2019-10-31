@@ -3,8 +3,6 @@
   "species": "dog",
   "birthday": "1-11",
   "home_request": "A stationary room",
-  "skill": "Tongue twisters",
-  "goal": "Tour Guide",
   "coffee": {
     "beans": "Blue mountain",
     "milk": "lots of milk",
@@ -35,17 +33,13 @@
       "song": "Forest Life",
       "phrase": "yippee"
     },
-    "hhd": {
-      "personality": "peppy",
-      "clothes": "Picnic Tee",
-      "song": "Forest Life",
-      "phrase": "yippee"
-    },
     "nl": {
       "personality": "peppy",
       "clothes": "Picnic Tee",
       "song": "Forest Life",
-      "phrase": "yippee"
+      "phrase": "yippee",
+      "skill": "Tongue twisters",
+      "goal": "Tour Guide"
     }
   },
   "name": "Maddie",

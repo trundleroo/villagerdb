@@ -3,8 +3,6 @@
   "species": "penguin",
   "birthday": "1-5",
   "home_request": "A room fit for a racer",
-  "skill": "Belly dancing",
-  "goal": "Pro golfer",
   "coffee": {
     "beans": "Mocha",
     "milk": "Lots of milk",
@@ -52,25 +50,9 @@
       "personality": "jock",
       "clothes": "Cafe Tee",
       "song": "K.K. Parade",
-      "phrase": "b-b-buddy"
-    },
-    "hhd": {
-      "personality": "jock",
-      "clothes": "Cafe Tee",
-      "song": "K.K. Parade",
-      "phrase": "b-b-buddy"
-    },
-    "pc": {
-      "personality": "jock",
-      "clothes": "Cafe Tee",
-      "song": "K.K. Parade",
-      "phrase": "b-b-buddy"
-    },
-    "nh": {
-      "personality": "jock",
-      "clothes": "Cafe Tee",
-      "song": "K.K. Parade",
-      "phrase": "b-b-buddy"
+      "phrase": "b-b-buddy",
+      "skill": "Belly dancing",
+      "goal": "Pro golfer"
     }
   },
   "name": "Roald",

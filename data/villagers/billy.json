@@ -2,8 +2,6 @@
   "gender": "male",
   "species": "goat",
   "birthday": "3-25",
-  "skill": "Subsistence living",
-  "goal": "Archaeologist",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "No milk",
@@ -38,7 +36,9 @@
       "personality": "jock",
       "clothes": "Sharp Outfit",
       "song": "K.K. Sonata",
-      "phrase": "dagnaabit"
+      "phrase": "dagnaabit",
+      "skill": "Subsistence living",
+      "goal": "Archaeologist"
     }
   },
   "name": "Billy",

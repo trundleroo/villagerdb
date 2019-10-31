@@ -3,8 +3,6 @@
   "species": "duck",
   "birthday": "2-19",
   "home_request": "A fishy room under the sea",
-  "skill": "Staying awake",
-  "goal": "Pharmacist",
   "coffee": {
     "beans": "Mocha",
     "milk": "The regular amount of milk",
@@ -52,7 +50,9 @@
       "personality": "peppy",
       "clothes": "Bright Tee",
       "song": "K.K. Song",
-      "phrase": "ducky"
+      "phrase": "ducky",
+      "skill": "Staying awake",
+      "goal": "Pharmacist"
     }
   },
   "name": "Freckles",

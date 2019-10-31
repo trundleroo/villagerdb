@@ -3,8 +3,6 @@
   "species": "squirrel",
   "birthday": "6-3",
   "home_request": "A bounty of balloons",
-  "skill": "Vaulting",
-  "goal": "Pilot",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "Lots of milk",
@@ -51,22 +49,9 @@
       "personality": "lazy",
       "clothes": "Checkered Tee",
       "song": "Two Days Ago",
-      "phrase": "bucko"
-    },
-    "hhd": {
-      "personality": "lazy",
-      "song": "Two Days Ago",
-      "phrase": "bucko"
-    },
-    "pc": {
-      "personality": "lazy",
-      "song": "Two Days Ago",
-      "phrase": "bucko"
-    },
-    "nh": {
-      "personality": "lazy",
-      "song": "Two Days Ago",
-      "phrase": "bucko"
+      "phrase": "bucko",
+      "skill": "Vaulting",
+      "goal": "Pilot"
     }
   },
   "name": "Filbert",

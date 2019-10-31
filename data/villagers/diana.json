@@ -3,8 +3,6 @@
   "species": "deer",
   "birthday": "1-4",
   "home_request": "A tranquil sanctuary",
-  "skill": "Playing poker",
-  "goal": "Dermatologist",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "The regular amount of milk",
@@ -16,19 +14,9 @@
       "personality": "snooty",
       "clothes": "Natty Tee",
       "song": "Stale Cupcakes",
-      "phrase": "no doy"
-    },
-    "hhd": {
-      "personality": "snooty",
-      "clothes": "Natty Tee",
-      "song": "Stale Cupcakes",
-      "phrase": "no doy"
-    },
-    "pc": {
-      "personality": "snooty",
-      "clothes": "Natty Tee",
-      "song": "Stale Cupcakes",
-      "phrase": "no doy"
+      "phrase": "no doy",
+      "skill": "Playing poker",
+      "goal": "Dermatologist"
     }
   },
   "name": "Diana",

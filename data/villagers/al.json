@@ -3,8 +3,6 @@
   "species": "gorilla",
   "birthday": "10-18",
   "home_request": "A kid-friendly exercise room",
-  "skill": "Jumping rope",
-  "goal": "Journalist",
   "coffee": {
     "beans": "Mocha",
     "milk": "Lots of milk",
@@ -22,13 +20,9 @@
       "personality": "lazy",
       "clothes": "Red Warmup Suit",
       "song": "Steep Hill",
-      "phrase": "hoo hoo ha"
-    },
-    "hhd": {
-      "personality": "lazy",
-      "clothes": "Red Warmup Suit",
-      "song": "Steep Hill",
-      "phrase": "hoo hoo ha"
+      "phrase": "hoo hoo ha",
+      "skill": "Jumping rope",
+      "goal": "Journalist"
     }
   },
   "name": "Al",

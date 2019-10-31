@@ -3,8 +3,6 @@
   "species": "duck",
   "birthday": "4-23",
   "home_request": "A stay-healthy home.",
-  "skill": "Subsistence Living",
-  "goal": "Model",
   "coffee": {
     "beans": "Blend",
     "milk": "None at all",
@@ -27,12 +25,9 @@
       "personality": "snooty",
       "clothes": "Amethyst Tee",
       "song": "K.K. Sonata",
-      "phrase": "quackulous"
-    },
-    "hhd": {
-      "personality": "snooty",
-      "song": "K.K. Sonata",
-      "phrase": "quackulous"
+      "phrase": "quackulous",
+      "skill": "Subsistence Living",
+      "goal": "Model"
     }
   },
   "name": "Miranda",

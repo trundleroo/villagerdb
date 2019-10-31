@@ -3,8 +3,6 @@
   "species": "cow",
   "birthday": "5-10",
   "home_request": "An everyday cookout",
-  "skill": "Competitive eating",
-  "goal": "Pastry chef",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "The regular amount of milk",
@@ -52,19 +50,9 @@
       "personality": "peppy",
       "clothes": "Citrus Tee",
       "song": "K.K. Calypso",
-      "phrase": "how now"
-    },
-    "hhd": {
-      "personality": "peppy",
-      "clothes": "Citrus Tee",
-      "song": "K.K. Calypso",
-      "phrase": "how now"
-    },
-    "pc": {
-      "personality": "peppy",
-      "clothes": "Citrus Tee",
-      "song": "K.K. Calypso",
-      "phrase": "how now"
+      "phrase": "how now",
+      "skill": "Competitive eating",
+      "goal": "Pastry chef"
     }
   },
   "name": "Patty",

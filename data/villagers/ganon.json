@@ -2,8 +2,6 @@
   "gender": "male",
   "species": "pig",
   "birthday": "2-21",
-  "skill": "Bug Catching",
-  "goal": "Master of the world",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "Lots of milk",
@@ -15,7 +13,9 @@
       "personality": "cranky",
       "clothes": "Ganon outfit",
       "song": "K.K. Dirge",
-      "phrase": "heh heh"
+      "phrase": "heh heh",
+      "skill": "Bug Catching",
+      "goal": "Master of the world"
     }
   },
   "name": "Ganon",

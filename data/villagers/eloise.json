@@ -3,8 +3,6 @@
   "species": "elephant",
   "birthday": "12-8",
   "home_request": "A nod to all things green",
-  "skill": "Memorizing stuff",
-  "goal": "Painter",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "Lots of milk",
@@ -49,17 +47,9 @@
       "personality": "snooty",
       "clothes": "Yellow-Bar Tee",
       "song": "K.K. Jazz",
-      "phrase": "tooooot"
-    },
-    "hhd": {
-      "personality": "snooty",
-      "song": "K.K. Jazz",
-      "phrase": "tooooot"
-    },
-    "pc": {
-      "personality": "snooty",
-      "song": "K.K. Jazz",
-      "phrase": "tooooot"
+      "phrase": "tooooot",
+      "skill": "Memorizing stuff",
+      "goal": "Painter"
     }
   },
   "name": "Eloise",

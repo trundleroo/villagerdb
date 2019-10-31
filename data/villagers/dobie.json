@@ -2,8 +2,6 @@
   "gender": "male",
   "species": "wolf",
   "birthday": "2-17",
-  "skill": "Speed reading",
-  "goal": "Writer",
   "coffee": {
     "beans": "Mocha",
     "milk": "A little bit of milk",
@@ -30,7 +28,9 @@
       "personality": "cranky",
       "clothes": "Sweater Vest",
       "song": "K.K. Lament",
-      "phrase": "ohmmm"
+      "phrase": "ohmmm",
+      "skill": "Speed reading",
+      "goal": "Writer"
     }
   },
   "name": "Dobie",

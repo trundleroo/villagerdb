@@ -3,8 +3,6 @@
   "species": "squirrel",
   "birthday": "7-2",
   "home_request": "A superhero training area",
-  "skill": "Limboing",
-  "goal": "Dancer",
   "coffee": {
     "beans": "Mocha",
     "milk": "The regular amount of milk",
@@ -52,19 +50,9 @@
       "personality": "peppy",
       "clothes": "No. 2 Shirt",
       "song": "DJ K.K.",
-      "phrase": "sidekick"
-    },
-    "hhd": {
-      "personality": "peppy",
-      "clothes": "No. 2 Shirt",
-      "song": "DJ K.K.",
-      "phrase": "sidekick"
-    },
-    "pc": {
-      "personality": "peppy",
-      "clothes": "No. 2 Shirt",
-      "song": "DJ K.K.",
-      "phrase": "sidekick"
+      "phrase": "sidekick",
+      "skill": "Limboing",
+      "goal": "Dancer"
     }
   },
   "name": "Agent S",

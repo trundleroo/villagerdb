@@ -3,8 +3,6 @@
   "species": "deer",
   "birthday": "3-26",
   "home_request": "A home concert hall",
-  "skill": "Mental math",
-  "goal": "Teacher",
   "coffee": {
     "beans": "Mocha",
     "milk": "Lots of milk",
@@ -16,19 +14,9 @@
       "personality": "normal",
       "clothes": "Shearling Coat",
       "song": "K.K. Stroll",
-      "phrase": "dearie"
-    },
-    "hhd": {
-      "personality": "normal",
-      "clothes": "Shearling Coat",
-      "song": "K.K. Stroll",
-      "phrase": "dearie"
-    },
-    "pc": {
-      "personality": "normal",
-      "clothes": "Shearling Coat",
-      "song": "K.K. Stroll",
-      "phrase": "dearie"
+      "phrase": "dearie",
+      "skill": "Mental math",
+      "goal": "Teacher"
     }
   },
   "name": "Fauna",

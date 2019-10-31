@@ -3,8 +3,6 @@
   "species": "bird",
   "birthday": "12-12",
   "home_request": "A pro-wrestling arena",
-  "skill": "Making faces",
-  "goal": "Pro wrestler",
   "coffee": {
     "beans": "Blend",
     "milk": "Lots of milk",
@@ -16,7 +14,9 @@
       "personality": "smug",
       "clothes": "Dragon Jacket",
       "song": "K.K. Western",
-      "phrase": "cacaw"
+      "phrase": "cacaw",
+      "skill": "Making faces",
+      "goal": "Pro wrestler"
     }
   },
   "name": "Lucha",

@@ -3,8 +3,6 @@
   "species": "frog",
   "birthday": "7-8",
   "home_request": "A blue room, top to bottom",
-  "skill": "Hitting snooze",
-  "goal": "Writer",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "None at all",
@@ -52,7 +50,9 @@
       "personality": "lazy",
       "clothes": "Sunset Tee",
       "song": "K.K. Mambo",
-      "phrase": "nee-deep"
+      "phrase": "nee-deep",
+      "skill": "Hitting snooze",
+      "goal": "Writer"
     }
   },
   "name": "Jeremiah",

@@ -3,8 +3,6 @@
   "species": "cub",
   "birthday": "6-11",
   "home_request": "A nouveau-riche retreat",
-  "skill": "Blowing bubbles",
-  "goal": "Chef",
   "coffee": {
     "beans": "Blend",
     "milk": "Just a little bit of milk",
@@ -51,7 +49,9 @@
     "nl": {
       "personality": "lazy",
       "song": "Rockin' K.K.",
-      "phrase": "pudgy"
+      "phrase": "pudgy",
+      "skill": "Blowing bubbles",
+      "goal": "Chef"
     }
   },
   "name": "Pudge",

@@ -2,8 +2,6 @@
   "gender": "male",
   "species": "cub",
   "birthday": "12-29",
-  "skill": "Brainteasers",
-  "goal": "Teacher",
   "coffee": {
     "beans": "Blend",
     "milk": "A little bit of milk",
@@ -35,7 +33,9 @@
       "personality": "cranky",
       "clothes": "Purple Tie Dye",
       "song": "Pondering",
-      "phrase": "laddie"
+      "phrase": "laddie",
+      "skill": "Brainteasers",
+      "goal": "Teacher"
     }
   },
   "name": "Murphy",

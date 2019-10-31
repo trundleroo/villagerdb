@@ -3,8 +3,6 @@
   "species": "horse",
   "birthday": "11-28",
   "home_request": "An oasis of round furniture",
-  "skill": "Fishing",
-  "goal": "Florist",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "No milk",
@@ -46,7 +44,9 @@
       "personality": "normal",
       "clothes": "Lite Polka Tee",
       "song": "K.K. Song",
-      "phrase": "neighbor"
+      "phrase": "neighbor",
+      "skill": "Fishing",
+      "goal": "Florist"
     }
   },
   "name": "Peaches",

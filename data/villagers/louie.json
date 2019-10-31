@@ -3,8 +3,6 @@
   "species": "gorilla",
   "birthday": "3-26",
   "home_request": "A 30th-anniversary party!",
-  "skill": "Doing handstands",
-  "goal": "Rugby player",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "No milk",
@@ -30,15 +28,12 @@
       "clothes": "Lil Bro's shirt",
       "phrase": "toots"
     },
-    "hhd": {
-      "personality": "jock",
-      "clothes": "Big Bro's Tee",
-      "phrase": "toots"
-    },
     "nl": {
       "personality": "jock",
       "clothes": "Big Bro's Tee",
-      "phrase": "toots"
+      "phrase": "toots",
+      "skill": "Doing handstands",
+      "goal": "Rugby player"
     }
   },
   "name": "Louie",

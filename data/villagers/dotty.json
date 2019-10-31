@@ -3,8 +3,6 @@
   "species": "rabbit",
   "birthday": "3-14",
   "home_request": "A two-tone room",
-  "skill": "Home repair",
-  "goal": "Tennis player",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "Lots of milk",
@@ -52,19 +50,9 @@
       "personality": "peppy",
       "clothes": "Blue-Check Tee",
       "song": "K.K. Technopop",
-      "phrase": "wee one"
-    },
-    "hhd": {
-      "personality": "peppy",
-      "clothes": "Blue-Check Tee",
-      "song": "K.K. Technopop",
-      "phrase": "wee one"
-    },
-    "pc": {
-      "personality": "peppy",
-      "clothes": "Blue-Check Tee",
-      "song": "K.K. Technopop",
-      "phrase": "wee one"
+      "phrase": "wee one",
+      "skill": "Home repair",
+      "goal": "Tennis player"
     }
   },
   "name": "Dotty",

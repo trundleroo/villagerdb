@@ -3,8 +3,6 @@
   "species": "squirrel",
   "birthday": "2-26",
   "home_request": "An all-you-can-game room",
-  "skill": "Making puns",
-  "goal": "Mayor",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "a little bit of milk",
@@ -16,7 +14,9 @@
       "personality": "jock",
       "clothes": "Tiger Jacket",
       "song": "K.K. Folk",
-      "phrase": "cardio"
+      "phrase": "cardio",
+      "skill": "Making puns",
+      "goal": "Mayor"
     }
   },
   "name": "Sheldon",

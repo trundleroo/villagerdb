@@ -3,8 +3,6 @@
   "species": "alligator",
   "birthday": "11-15",
   "home_request": "A jungle",
-  "skill": "Pretending to sleep",
-  "goal": "Explorer",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "Lots of milk",
@@ -16,7 +14,9 @@
       "personality": "jock",
       "clothes": "Jungle-Camo Tee",
       "song": "K.K. Safari",
-      "phrase": "hoo-rah"
+      "phrase": "hoo-rah",
+      "skill": "Pretending to sleep",
+      "goal": "Explorer"
     }
   },
   "name": "Sly",

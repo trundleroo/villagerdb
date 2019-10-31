@@ -3,8 +3,6 @@
   "species": "rabbit",
   "birthday": "12-16",
   "home_request": "A room with a piano",
-  "skill": "Eating quickly",
-  "goal": "Pianist",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "Lots of milk",
@@ -52,13 +50,9 @@
       "personality": "peppy",
       "clothes": "Waffle Tee",
       "song": "K.K. Love Song",
-      "phrase": "honeybun"
-    },
-    "hhd": {
-      "personality": "peppy",
-      "clothes": "Waffle Tee",
-      "song": "K.K. Love Song",
-      "phrase": "honeybun"
+      "phrase": "honeybun",
+      "skill": "Eating quickly",
+      "goal": "Pianist"
     }
   },
   "name": "Gabi",

@@ -3,8 +3,6 @@
   "species": "cow",
   "birthday": "2-28",
   "home_request": "An art gallery",
-  "skill": "Photography",
-  "goal": "Designer",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "The regular amount of milk",
@@ -16,19 +14,9 @@
       "personality": "snooty",
       "clothes": "Groovy Tee",
       "song": "K.K. Milonga",
-      "phrase": "moolah"
-    },
-    "hhd": {
-      "personality": "snooty",
-      "clothes": "Groovy Tee",
-      "song": "K.K. Milonga",
-      "phrase": "moolah"
-    },
-    "pc": {
-      "personality": "snooty",
-      "clothes": "Groovy Tee",
-      "song": "K.K. Milonga",
-      "phrase": "moolah"
+      "phrase": "moolah",
+      "skill": "Photography",
+      "goal": "Designer"
     }
   },
   "name": "Naomi",

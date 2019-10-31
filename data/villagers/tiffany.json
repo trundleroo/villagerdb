@@ -3,8 +3,6 @@
   "species": "rabbit",
   "birthday": "1-9",
   "home_request": "A gorgeous celebrity home",
-  "skill": "Oversleeping",
-  "goal": "CEO",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "A little bit of milk",
@@ -52,13 +50,9 @@
       "personality": "snooty",
       "clothes": "Spiderweb Tee",
       "song": "K.K. Rock",
-      "phrase": "bun bun"
-    },
-    "hhd": {
-      "personality": "snooty",
-      "clothes": "Spiderweb Tee",
-      "song": "K.K. Rock",
-      "phrase": "bun bun"
+      "phrase": "bun bun",
+      "skill": "Oversleeping",
+      "goal": "CEO"
     }
   },
   "name": "Tiffany",

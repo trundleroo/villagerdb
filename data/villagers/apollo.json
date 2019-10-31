@@ -3,8 +3,6 @@
   "species": "eagle",
   "birthday": "7-4",
   "home_request": "A celebration of tallness.",
-  "skill": "Staying up late",
-  "goal": "Pilot",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "Just a little bit of milk",
@@ -52,19 +50,9 @@
       "personality": "cranky",
       "clothes": "Zipper Shirt",
       "song": "K.K. Rock",
-      "phrase": "pah"
-    },
-    "hhd": {
-      "personality": "cranky",
-      "clothes": "Zipper Shirt",
-      "song": "K.K. Rock",
-      "phrase": "pah"
-    },
-    "pc": {
-      "personality": "cranky",
-      "clothes": "Zipper Shirt",
-      "song": "K.K. Rock",
-      "phrase": "pah"
+      "phrase": "pah",
+      "skill": "Staying up late",
+      "goal": "Pilot"
     }
   },
   "name": "Apollo",

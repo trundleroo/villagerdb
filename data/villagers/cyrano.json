@@ -3,8 +3,6 @@
   "species": "anteater",
   "birthday": "3-9",
   "home_request": "An odd-numbers gallery",
-  "skill": "Whistling",
-  "goal": "Journalist",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "Just a little bit of milk",
@@ -52,7 +50,9 @@
       "personality": "cranky",
       "clothes": "Dawn Tee",
       "song": "K.K. Faire",
-      "phrase": "ah-CHOO"
+      "phrase": "ah-CHOO",
+      "skill": "Whistling",
+      "goal": "Journalist"
     }
   },
   "name": "Cyrano",

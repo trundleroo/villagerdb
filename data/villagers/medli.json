@@ -3,8 +3,6 @@
   "species": "bird",
   "birthday": "12-13",
   "home_request": "",
-  "skill": "Helping others",
-  "goal": "Harpist",
   "coffee": {
     "beans": "Mocha",
     "milk": "A little bit of milk",
@@ -16,7 +14,9 @@
       "personality": "normal",
       "clothes": "Medli's outfit",
       "song": "K.K. Island",
-      "phrase": "Gimme"
+      "phrase": "Gimme",
+      "skill": "Helping others",
+      "goal": "Harpist"
     }
   },
   "name": "Medli",

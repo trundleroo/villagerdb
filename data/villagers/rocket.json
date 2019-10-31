@@ -3,8 +3,6 @@
   "species": "gorilla",
   "birthday": "4-14",
   "home_request": "A superhero hideout",
-  "skill": "Cramming for tests",
-  "goal": "Swimmer",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "The regular amount of milk",
@@ -16,7 +14,9 @@
       "personality": "uchi",
       "clothes": "No. 4 Shirt",
       "song": "K.K. Adventure",
-      "phrase": "vroom"
+      "phrase": "vroom",
+      "skill": "Cramming for tests",
+      "goal": "Swimmer"
     }
   },
   "name": "Rocket",

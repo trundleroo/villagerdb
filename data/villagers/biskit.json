@@ -3,8 +3,6 @@
   "species": "dog",
   "birthday": "5-13",
   "home_request": "An eggstravaganza",
-  "skill": "Hitting snooze",
-  "goal": "Architect",
   "coffee": {
     "beans": "Mocha",
     "milk": "The regular amount of milk",
@@ -52,7 +50,9 @@
       "personality": "lazy",
       "clothes": "Blue Tee",
       "song": "K.K. Mambo",
-      "phrase": "dawg"
+      "phrase": "dawg",
+      "skill": "Hitting snooze",
+      "goal": "Architect"
     }
   },
   "name": "Biskit",

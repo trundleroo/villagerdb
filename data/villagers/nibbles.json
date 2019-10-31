@@ -2,8 +2,6 @@
   "gender": "female",
   "species": "squirrel",
   "birthday": "7-19",
-  "skill": "Juggling",
-  "goal": "Journalist",
   "coffee": {
     "beans": "Mocha",
     "milk": "The regular amount of milk",
@@ -51,7 +49,9 @@
       "personality": "peppy",
       "clothes": "Watermelon Tee",
       "song": "K.K. Technopop",
-      "phrase": "niblet"
+      "phrase": "niblet",
+      "skill": "Juggling",
+      "goal": "Journalist"
     }
   },
   "name": "Nibbles",

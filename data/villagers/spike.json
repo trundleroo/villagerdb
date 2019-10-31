@@ -2,8 +2,6 @@
   "gender": "male",
   "species": "rhino",
   "birthday": "6-17",
-  "skill": "Climbing trees",
-  "goal": "Actor",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "The regular amount of milk",
@@ -33,7 +31,9 @@
     "nl": {
       "personality": "cranky",
       "clothes": "Skull Tee",
-      "phrase": "punk"
+      "phrase": "punk",
+      "skill": "Climbing trees",
+      "goal": "Actor"
     }
   },
   "name": "Spike",

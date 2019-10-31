@@ -3,8 +3,6 @@
   "species": "koala",
   "birthday": "10-12",
   "home_request": "A veggie palace",
-  "skill": "Forgetting stuff",
-  "goal": "Astronaut",
   "coffee": {
     "beans": "Mocha",
     "milk": "No milk",
@@ -16,7 +14,9 @@
       "personality": "jock",
       "clothes": "Club Tee",
       "song": "K.K. Island",
-      "phrase": "chips"
+      "phrase": "chips",
+      "skill": "Forgetting stuff",
+      "goal": "Astronaut"
     }
   },
   "name": "Lyman",

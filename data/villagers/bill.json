@@ -3,8 +3,6 @@
   "species": "duck",
   "birthday": "2-1",
   "home_request": "A summer house",
-  "skill": "Bunting",
-  "goal": "Race car driver",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "Just a little bit of milk",
@@ -52,25 +50,9 @@
       "personality": "jock",
       "clothes": "No. 2 Shirt",
       "song": "King K.K.",
-      "phrase": "quacko"
-    },
-    "hhd": {
-      "personality": "jock",
-      "clothes": "No. 2 Shirt",
-      "song": "King K.K.",
-      "phrase": "quacko"
-    },
-    "pc": {
-      "personality": "jock",
-      "clothes": "No. 2 Shirt",
-      "song": "King K.K.",
-      "phrase": "quacko"
-    },
-    "nh": {
-      "personality": "jock",
-      "clothes": "No. 2 Shirt",
-      "song": "King K.K.",
-      "phrase": "quacko"
+      "phrase": "quacko",
+      "skill": "Bunting",
+      "goal": "Race car driver"
     }
   },
   "name": "Bill",

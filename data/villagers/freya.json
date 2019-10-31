@@ -3,8 +3,6 @@
   "species": "wolf",
   "birthday": "12-14",
   "home_request": "A pro chef's kitchen",
-  "skill": "Peeling Apples",
-  "goal": "Judge",
   "coffee": {
     "beans": "Mocha",
     "milk": "A little bit of milk",
@@ -46,19 +44,9 @@
       "personality": "snooty",
       "clothes": "Deer Shirt",
       "song": "Rockin' K.K.",
-      "phrase": "uff da"
-    },
-    "hhd": {
-      "personality": "snooty",
-      "clothes": "Deer Shirt",
-      "song": "Rockin' K.K.",
-      "phrase": "uff da"
-    },
-    "pc": {
-      "personality": "snooty",
-      "clothes": "Deer Shirt",
-      "song": "Rockin' K.K.",
-      "phrase": "uff da"
+      "phrase": "uff da",
+      "skill": "Peeling Apples",
+      "goal": "Judge"
     }
   },
   "name": "Freya",

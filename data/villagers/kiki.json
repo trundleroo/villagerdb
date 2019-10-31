@@ -3,8 +3,6 @@
   "species": "cat",
   "birthday": "10-8",
   "home_request": "A replica aquarium",
-  "skill": "Fishing",
-  "goal": "Writer",
   "coffee": {
     "beans": "Mocha",
     "milk": "Just a little bit of milk",
@@ -52,19 +50,9 @@
       "personality": "normal",
       "clothes": "Argyle Knit Shirt",
       "song": "K.K. Country",
-      "phrase": "kitty cat"
-    },
-    "hhd": {
-      "personality": "normal",
-      "clothes": "Argyle Knit Shirt",
-      "song": "K.K. Country",
-      "phrase": "kitty cat"
-    },
-    "pc": {
-      "personality": "normal",
-      "clothes": "Argyle Knit Shirt",
-      "song": "K.K. Country",
-      "phrase": "kitty cat"
+      "phrase": "kitty cat",
+      "skill": "Fishing",
+      "goal": "Writer"
     }
   },
   "name": "Kiki",

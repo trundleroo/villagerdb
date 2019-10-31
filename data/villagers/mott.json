@@ -2,8 +2,6 @@
   "gender": "male",
   "species": "lion",
   "birthday": "7-10",
-  "skill": "Mental math",
-  "goal": "Lawyer",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "None at all",
@@ -21,7 +19,9 @@
       "personality": "jock",
       "clothes": "Blue Letter Jacket",
       "song": "Marine Song 2001",
-      "phrase": "cagey"
+      "phrase": "cagey",
+      "skill": "Mental math",
+      "goal": "Lawyer"
     }
   },
   "name": "Mott",

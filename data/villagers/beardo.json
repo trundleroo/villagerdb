@@ -3,8 +3,6 @@
   "species": "bear",
   "birthday": "9-27",
   "home_request": "A cultivated garden",
-  "skill": "Memorizing stuff",
-  "goal": "Professor",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "Just a little bit of milk",
@@ -16,7 +14,9 @@
       "personality": "smug",
       "clothes": "Detective Outfit",
       "song": "K.K. Sonata",
-      "phrase": "whiskers"
+      "phrase": "whiskers",
+      "skill": "Memorizing stuff",
+      "goal": "Professor"
     }
   },
   "name": "Beardo",

@@ -3,8 +3,6 @@
   "species": "cub",
   "birthday": "6-15",
   "home_request": "A plush bear den",
-  "skill": "Writing letters",
-  "goal": "Architect",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "The regular amount of milk",
@@ -49,17 +47,9 @@
       "personality": "normal",
       "clothes": "Dapper Tee",
       "song": "I Love You",
-      "phrase": "honey"
-    },
-    "hhd": {
-      "personality": "normal",
-      "song": "I Love You",
-      "phrase": "honey"
-    },
-    "pc": {
-      "personality": "normal",
-      "song": "I Love You",
-      "phrase": "honey"
+      "phrase": "honey",
+      "skill": "Writing letters",
+      "goal": "Architect"
     }
   },
   "name": "Maple",

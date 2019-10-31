@@ -2,8 +2,6 @@
   "gender": "male",
   "species": "duck",
   "birthday": "6-30",
-  "skill": "Beat boxing",
-  "goal": "Musician",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "Lots of milk",
@@ -35,7 +33,9 @@
       "personality": "lazy",
       "clothes": "Bubble Tee",
       "song": "K.K. Fusion",
-      "phrase": "quaa"
+      "phrase": "quaa",
+      "skill": "Beat boxing",
+      "goal": "Musician"
     }
   },
   "name": "Weber",

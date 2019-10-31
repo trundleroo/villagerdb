@@ -3,8 +3,6 @@
   "species": "monkey",
   "birthday": "8-23",
   "home_request": "A serene park to lunch in",
-  "skill": "Making crafts",
-  "goal": "Judge",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "Just a little bit of milk",
@@ -28,19 +26,9 @@
       "personality": "normal",
       "clothes": "Bubble-Gum Tee",
       "song": "K.K. Dixie",
-      "phrase": "po po"
-    },
-    "hhd": {
-      "personality": "normal",
-      "clothes": "Bubble-Gum Tee",
-      "song": "K.K. Dixie",
-      "phrase": "po po"
-    },
-    "pc": {
-      "personality": "normal",
-      "clothes": "Bubble-Gum Tee",
-      "song": "K.K. Dixie",
-      "phrase": "po po"
+      "phrase": "po po",
+      "skill": "Making crafts",
+      "goal": "Judge"
     }
   },
   "name": "Nana",

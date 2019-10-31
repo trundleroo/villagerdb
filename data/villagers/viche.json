@@ -2,7 +2,6 @@
   "gender": "female",
   "species": "squirrel",
   "birthday": "7-7",
-  "skill": "Cosplay",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "Lots of milk",
@@ -14,7 +13,8 @@
       "personality": "normal",
       "clothes": "Marie shirt",
       "song": "Bubblegum K.K.",
-      "phrase": "splatastic"
+      "phrase": "splatastic",
+      "skill": "Cosplay"
     }
   },
   "name": "Viché",

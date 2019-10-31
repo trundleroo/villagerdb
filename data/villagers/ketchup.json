@@ -2,8 +2,6 @@
   "gender": "female",
   "species": "duck",
   "birthday": "7-27",
-  "skill": "Chopping vegetables",
-  "goal": "Singer",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "a little bit of milk",
@@ -20,11 +18,9 @@
       "personality": "peppy",
       "clothes": "Rose Sky Tee",
       "song": "Neapolitan",
-      "phrase": "bitty"
-    },
-    "pc": {
-      "personality": "peppy",
-      "song": "Neapolitan"
+      "phrase": "bitty",
+      "skill": "Chopping vegetables",
+      "goal": "Singer"
     }
   },
   "name": "Ketchup",

@@ -3,8 +3,6 @@
   "species": "goat",
   "birthday": "1-14",
   "home_request": "A fully outfitted classroom",
-  "skill": "Speed reader",
-  "goal": "Lawyer",
   "coffee": {
     "beans": "Mocha",
     "milk": "Lots of milk",
@@ -40,7 +38,9 @@
       "personality": "snooty",
       "clothes": "Swell Tee",
       "song": "K.K. Etude",
-      "phrase": "blih"
+      "phrase": "blih",
+      "skill": "Speed reader",
+      "goal": "Lawyer"
     }
   },
   "name": "Velma",

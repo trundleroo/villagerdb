@@ -3,8 +3,6 @@
   "species": "penguin",
   "birthday": "2-7",
   "home_request": "A captain's cockpit",
-  "skill": "Oversleeping",
-  "goal": "Pilot",
   "coffee": {
     "beans": "Blend",
     "milk": "A little bit of milk",
@@ -40,12 +38,9 @@
       "personality": "lazy",
       "clothes": "Explorer Tee",
       "song": "Aloha K.K.",
-      "phrase": "tu-tutu"
-    },
-    "hhd": {
-      "personality": "lazy",
-      "song": "Aloha K.K.",
-      "phrase": "tu-tutu"
+      "phrase": "tu-tutu",
+      "skill": "Oversleeping",
+      "goal": "Pilot"
     }
   },
   "name": "Boomer",

@@ -3,8 +3,6 @@
   "species": "squirrel",
   "birthday": "7-3",
   "home_request": "A classy hotel",
-  "skill": "Calligraphy",
-  "goal": "Doctor",
   "coffee": {
     "beans": "Blend",
     "milk": "No milk",
@@ -52,7 +50,9 @@
       "personality": "snooty",
       "clothes": "Peachy Tee",
       "song": "K.K. Island",
-      "phrase": "nutlet"
+      "phrase": "nutlet",
+      "skill": "Calligraphy",
+      "goal": "Doctor"
     }
   },
   "name": "Blaire",

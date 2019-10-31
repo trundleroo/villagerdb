@@ -3,8 +3,6 @@
   "species": "duck",
   "birthday": "11-17",
   "home_request": "A harvest-centric home",
-  "skill": "Debating",
-  "goal": "Esthetician",
   "coffee": {
     "beans": "Blend",
     "milk": "None at all",
@@ -52,13 +50,9 @@
       "personality": "snooty",
       "clothes": "Blue-Stripe Tee",
       "song": "K.K. Bossa",
-      "phrase": "quackpth"
-    },
-    "hhd": {
-      "personality": "snooty",
-      "clothes": "Blue-Stripe Tee",
-      "song": "K.K. Bossa",
-      "phrase": "quackpth"
+      "phrase": "quackpth",
+      "skill": "Debating",
+      "goal": "Esthetician"
     }
   },
   "name": "Mallary",

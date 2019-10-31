@@ -3,8 +3,6 @@
   "species": "ostrich",
   "birthday": "2-9",
   "home_request": "A place that's all pink",
-  "skill": "Staying awake",
-  "goal": "Gymnast",
   "coffee": {
     "beans": "Mocha",
     "milk": "The regular amount of milk",
@@ -16,7 +14,9 @@
       "personality": "peppy",
       "clothes": "Gumdrop Tee",
       "song": "K.K. Flamenco",
-      "phrase": "pinky"
+      "phrase": "pinky",
+      "skill": "Staying awake",
+      "goal": "Gymnast"
     }
   },
   "name": "Flora",

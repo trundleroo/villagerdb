@@ -3,8 +3,6 @@
   "species": "penguin",
   "birthday": "9-2",
   "home_request": "A place to practice guitar.",
-  "skill": "Limboing",
-  "goal": "Marathon Runner",
   "coffee": {
     "beans": "Blend",
     "milk": "Just a little bit of milk",
@@ -16,7 +14,9 @@
       "personality": "uchi",
       "clothes": "Fiendish Shirt",
       "song": "Space K.K.",
-      "phrase": "cha"
+      "phrase": "cha",
+      "skill": "Limboing",
+      "goal": "Marathon Runner"
     }
   },
   "name": "Flo",

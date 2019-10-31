@@ -3,8 +3,6 @@
   "species": "rabbit",
   "birthday": "12-3",
   "home_request": "A pro-Nintendo game shop.",
-  "skill": "Calculating tips",
-  "goal": "Superhero",
   "coffee": {
     "beans": "Blend",
     "milk": "None at all",
@@ -39,13 +37,9 @@
       "personality": "lazy",
       "clothes": "Dark Polka Tee",
       "song": "Pondering",
-      "phrase": "hopalong"
-    },
-    "hhd": {
-      "personality": "lazy",
-      "clothes": "Dark Polka Tee",
-      "song": "Pondering",
-      "phrase": "hopalong"
+      "phrase": "hopalong",
+      "skill": "Calculating tips",
+      "goal": "Superhero"
     }
   },
   "name": "Claude",

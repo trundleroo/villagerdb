@@ -3,8 +3,6 @@
   "species": "monkey",
   "birthday": "12-7",
   "home_request": "A monkey mansion",
-  "skill": "Yo-yoing",
-  "goal": "Detective",
   "coffee": {
     "beans": "Mocha",
     "milk": "The regular amount of milk",
@@ -28,7 +26,9 @@
       "personality": "cranky",
       "clothes": "Blue-Bar Tee",
       "song": "Pondering",
-      "phrase": "g'tang"
+      "phrase": "g'tang",
+      "skill": "Yo-yoing",
+      "goal": "Detective"
     }
   },
   "name": "Monty",

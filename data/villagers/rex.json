@@ -2,8 +2,6 @@
   "gender": "male",
   "species": "lion",
   "birthday": "7-24",
-  "skill": "Chugging milk",
-  "goal": "Forest Ranger",
   "coffee": {
     "beans": "Blend",
     "milk": "A little bit of milk",
@@ -39,19 +37,9 @@
       "personality": "lazy",
       "clothes": "Blue-Bar Tee",
       "song": "Wandering",
-      "phrase": "cool cat"
-    },
-    "hhd": {
-      "personality": "lazy",
-      "clothes": "Blue-Bar Tee",
-      "song": "Wandering",
-      "phrase": "cool cat"
-    },
-    "pc": {
-      "personality": "lazy",
-      "clothes": "Blue-Bar Tee",
-      "song": "Wandering",
-      "phrase": "cool cat"
+      "phrase": "cool cat",
+      "skill": "Chugging milk",
+      "goal": "Forest Ranger"
     }
   },
   "name": "Rex",

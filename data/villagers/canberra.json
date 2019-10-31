@@ -3,8 +3,6 @@
   "species": "koala",
   "birthday": "5-14",
   "home_request": "An international restaurant",
-  "skill": "Making Faces",
-  "goal": "Tennis Player",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "Lots of milk",
@@ -16,7 +14,9 @@
       "personality": "uchi",
       "clothes": "Green-Stripe Tank",
       "song": "K.K. House",
-      "phrase": "nuh uh"
+      "phrase": "nuh uh",
+      "skill": "Making Faces",
+      "goal": "Tennis Player"
     }
   },
   "name": "Canberra",

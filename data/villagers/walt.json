@@ -3,8 +3,6 @@
   "species": "kangaroo",
   "birthday": "4-24",
   "home_request": "A shrine to samurai",
-  "skill": "Rock Paper Scissors",
-  "goal": "Carpenter",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "Just a little bit of milk",
@@ -16,7 +14,9 @@
       "personality": "cranky",
       "clothes": "Jinbei Top",
       "song": "Agent K.K.",
-      "phrase": "pockets"
+      "phrase": "pockets",
+      "skill": "Rock Paper Scissors",
+      "goal": "Carpenter"
     }
   },
   "name": "Walt",

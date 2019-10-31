@@ -3,8 +3,6 @@
   "species": "dog",
   "birthday": "12-31",
   "home_request": "A zen-like washroom",
-  "skill": "Eating frequently",
-  "goal": "Artist",
   "coffee": {
     "beans": "Mocha",
     "milk": "The regular amount of milk",
@@ -22,7 +20,9 @@
       "personality": "lazy",
       "clothes": "Chichi-Print Tee",
       "song": "Comrade K.K.",
-      "phrase": "non"
+      "phrase": "non",
+      "skill": "Eating frequently",
+      "goal": "Artist"
     }
   },
   "name": "Marcel",

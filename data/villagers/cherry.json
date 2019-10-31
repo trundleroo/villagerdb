@@ -3,8 +3,6 @@
   "species": "dog",
   "birthday": "5-11",
   "home_request": "A catwalk",
-  "skill": "Waking up early",
-  "goal": "Dancer",
   "coffee": {
     "beans": "Mocha",
     "milk": "The regular amount of milk",
@@ -16,19 +14,9 @@
       "personality": "uchi",
       "clothes": "Spiderweb Tee",
       "song": "K.K. Fusion",
-      "phrase": "what what"
-    },
-    "hhd": {
-      "personality": "uchi",
-      "clothes": "Spiderweb Tee",
-      "song": "K.K. Fusion",
-      "phrase": "what what"
-    },
-    "pc": {
-      "personality": "uchi",
-      "clothes": "Spiderweb Tee",
-      "song": "K.K. Fusion",
-      "phrase": "what what"
+      "phrase": "what what",
+      "skill": "Waking up early",
+      "goal": "Dancer"
     }
   },
   "name": "Cherry",

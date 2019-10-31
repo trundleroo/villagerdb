@@ -3,8 +3,6 @@
   "species": "penguin",
   "birthday": "1-23",
   "home_request": "A day spa",
-  "skill": "Skimming books",
-  "goal": "CEO",
   "coffee": {
     "beans": "Blend",
     "milk": "A little bit of milk",
@@ -49,7 +47,9 @@
       "personality": "snooty",
       "clothes": "Melon Gingham Tee",
       "song": "Cafe K.K.",
-      "phrase": "h-h-hon"
+      "phrase": "h-h-hon",
+      "skill": "Skimming books",
+      "goal": "CEO"
     }
   },
   "name": "Gwen",

@@ -3,8 +3,6 @@
   "species": "lion",
   "birthday": "7-23",
   "home_request": "A royal palace",
-  "skill": "Competitive eating",
-  "goal": "Tycoon",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "No milk",
@@ -28,7 +26,9 @@
       "personality": "cranky",
       "clothes": "Royal Shirt",
       "song": "K.K. Casbah",
-      "phrase": "unh-hunh"
+      "phrase": "unh-hunh",
+      "skill": "Competitive eating",
+      "goal": "Tycoon"
     }
   },
   "name": "Elvis",

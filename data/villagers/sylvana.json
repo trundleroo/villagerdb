@@ -2,8 +2,6 @@
   "gender": "female",
   "species": "squirrel",
   "birthday": "10-22",
-  "skill": "Doodling",
-  "goal": "Superhero",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "Lots of milk",
@@ -20,7 +18,9 @@
       "personality": "normal",
       "clothes": "Kiwi shirt",
       "song": "Spring Blossoms",
-      "phrase": "hubbub"
+      "phrase": "hubbub",
+      "skill": "Doodling",
+      "goal": "Superhero"
     }
   },
   "name": "Sylvana",

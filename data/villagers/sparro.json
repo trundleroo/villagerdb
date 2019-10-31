@@ -3,8 +3,6 @@
   "species": "bird",
   "birthday": "11-20",
   "home_request": "A place to retire",
-  "skill": "Playing Poker",
-  "goal": "Musician",
   "coffee": {
     "beans": "Blend",
     "milk": "Lots of milk",
@@ -16,7 +14,9 @@
       "personality": "jock",
       "clothes": "BB Tee",
       "song": "Steep Hill",
-      "phrase": "like whoa"
+      "phrase": "like whoa",
+      "skill": "Playing Poker",
+      "goal": "Musician"
     }
   },
   "name": "Sparro",

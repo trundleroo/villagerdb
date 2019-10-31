@@ -2,8 +2,6 @@
   "gender": "male",
   "species": "penguin",
   "birthday": "10-30",
-  "skill": "Rock paper scissors",
-  "goal": "Explorer",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "No milk",
@@ -20,7 +18,9 @@
       "personality": "lazy",
       "clothes": "Spade Shirt",
       "song": "K.K. Jongara",
-      "phrase": "so it goes"
+      "phrase": "so it goes",
+      "skill": "Rock paper scissors",
+      "goal": "Explorer"
     }
   },
   "name": "Wade",

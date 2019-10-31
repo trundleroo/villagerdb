@@ -3,8 +3,6 @@
   "species": "hippo",
   "birthday": "10-6",
   "home_request": "Cute homey",
-  "skill": "Stomping ground",
-  "goal": "Designer",
   "coffee": {
     "beans": "Mocha",
     "milk": "None at all",
@@ -40,7 +38,9 @@
       "personality": "snooty",
       "clothes": "Funky Dot Tee",
       "song": "K.K. Disco",
-      "phrase": "my dear"
+      "phrase": "my dear",
+      "skill": "Stomping ground",
+      "goal": "Designer"
     }
   },
   "name": "Bitty",

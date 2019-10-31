@@ -3,8 +3,6 @@
   "species": "frog",
   "birthday": "8-11",
   "home_request": "A space for a classy gal.",
-  "skill": "Subsistence Living",
-  "goal": "President",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "None at all",
@@ -22,7 +20,9 @@
       "personality": "snooty",
       "clothes": "Beaded Tank",
       "song": "Only Me",
-      "phrase": "ribette"
+      "phrase": "ribette",
+      "skill": "Subsistence Living",
+      "goal": "President"
     }
   },
   "name": "Gigi",

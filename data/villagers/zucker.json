@@ -2,8 +2,6 @@
   "gender": "male",
   "species": "octopus",
   "birthday": "3-8",
-  "skill": "Baton twirling",
-  "goal": "Chef",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "A little bit of milk",
@@ -15,7 +13,9 @@
       "personality": "lazy",
       "clothes": "Flan Tank",
       "song": "Spring Blossoms",
-      "phrase": "bloop"
+      "phrase": "bloop",
+      "skill": "Baton twirling",
+      "goal": "Chef"
     }
   },
   "name": "Zucker",

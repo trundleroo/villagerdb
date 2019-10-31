@@ -2,8 +2,6 @@
   "gender": "male",
   "species": "alligator",
   "birthday": "8-7",
-  "skill": "Writing Backwards",
-  "goal": "Sumo Wrestler",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "Lots of milk",
@@ -38,13 +36,9 @@
       "personality": "jock",
       "clothes": "Jester Shirt",
       "song": "K.K. Rally",
-      "phrase": "munchie"
-    },
-    "pc": {
-      "personality": "jock",
-      "clothes": "Jester Shirt",
-      "song": "K.K. Rally",
-      "phrase": "munchie"
+      "phrase": "munchie",
+      "skill": "Writing Backwards",
+      "goal": "Sumo Wrestler"
     }
   },
   "name": "Boots",

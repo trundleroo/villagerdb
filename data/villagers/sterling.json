@@ -3,8 +3,6 @@
   "species": "eagle",
   "birthday": "12-11",
   "home_request": "An outer-space space",
-  "skill": "Doing push-ups",
-  "goal": "Police officer",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "Just a little bit of milk",
@@ -22,7 +20,9 @@
       "personality": "jock",
       "clothes": "Scale-Armor Suit",
       "song": "Lucky K.K.",
-      "phrase": "skraaaaw"
+      "phrase": "skraaaaw",
+      "skill": "Doing push-ups",
+      "goal": "Police officer"
     }
   },
   "name": "Sterling",

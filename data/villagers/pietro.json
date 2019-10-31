@@ -3,8 +3,6 @@
   "species": "sheep",
   "birthday": "4-19",
   "home_request": "A dreamland for Pietro.",
-  "skill": "Making Crafts",
-  "goal": "Artist",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "A little bit of milk",
@@ -16,19 +14,9 @@
       "personality": "smug",
       "clothes": "Dawn Tee",
       "song": "K.K. Parade",
-      "phrase": "honk honk"
-    },
-    "hhd": {
-      "personality": "smug",
-      "clothes": "Dawn Tee",
-      "song": "K.K. Parade",
-      "phrase": "honk honk"
-    },
-    "pc": {
-      "personality": "smug",
-      "clothes": "Dawn Tee",
-      "song": "K.K. Parade",
-      "phrase": "honk honk"
+      "phrase": "honk honk",
+      "skill": "Making Crafts",
+      "goal": "Artist"
     }
   },
   "name": "Pietro",

@@ -3,8 +3,6 @@
   "species": "hippo",
   "birthday": "3-29",
   "home_request": "A sci-fi space",
-  "skill": "Limboing",
-  "goal": "Basketball Player",
   "coffee": {
     "beans": "Mocha",
     "milk": "No milk",
@@ -40,7 +38,9 @@
       "personality": "jock",
       "clothes": "Jagged Tee",
       "song": "The K. Funk",
-      "phrase": "squirt"
+      "phrase": "squirt",
+      "skill": "Limboing",
+      "goal": "Basketball Player"
     }
   },
   "name": "Biff",

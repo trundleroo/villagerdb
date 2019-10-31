@@ -3,8 +3,6 @@
   "species": "mouse",
   "birthday": "12-28",
   "home_request": "A place to practice singing",
-  "skill": "Staying up late",
-  "goal": "Singer",
   "coffee": {
     "beans": "Mocha",
     "milk": "No milk",
@@ -52,7 +50,9 @@
       "personality": "peppy",
       "clothes": "Skull Tee",
       "song": "K.K. Metal",
-      "phrase": "eeks"
+      "phrase": "eeks",
+      "skill": "Staying up late",
+      "goal": "Singer"
     }
   },
   "name": "Bella",

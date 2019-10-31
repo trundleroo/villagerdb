@@ -3,8 +3,6 @@
   "species": "cat",
   "birthday": "11-29",
   "home_request": "A shrine for zen items",
-  "skill": "Drawing circles",
-  "goal": "Actor",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "The regular amount of milk",
@@ -49,7 +47,9 @@
       "personality": "cranky",
       "clothes": "Misty Tee",
       "song": "K.K. Folk",
-      "phrase": "meooo-OH"
+      "phrase": "meooo-OH",
+      "skill": "Drawing circles",
+      "goal": "Actor"
     }
   },
   "name": "Kabuki",

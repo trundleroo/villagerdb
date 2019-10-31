@@ -3,8 +3,6 @@
   "species": "dog",
   "birthday": "11-4",
   "home_request": "A lucky room for a lucky life",
-  "skill": "Forgetting stuff",
-  "goal": "Doctor",
   "coffee": {
     "beans": "Mocha",
     "milk": "The regular amount of milk",
@@ -52,19 +50,9 @@
       "personality": "lazy",
       "clothes": "No. 23 Shirt",
       "song": "K.K. Dirge",
-      "phrase": "rrr-owch"
-    },
-    "hhd": {
-      "personality": "lazy",
-      "clothes": "No. 23 Shirt",
-      "song": "K.K. Dirge",
-      "phrase": "rrr-owch"
-    },
-    "pc": {
-      "personality": "lazy",
-      "clothes": "No. 23 Shirt",
-      "song": "K.K. Dirge",
-      "phrase": "rrr-owch"
+      "phrase": "rrr-owch",
+      "skill": "Forgetting stuff",
+      "goal": "Doctor"
     }
   },
   "name": "Lucky",

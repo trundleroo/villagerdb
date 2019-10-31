@@ -3,8 +3,6 @@
   "species": "ostrich",
   "birthday": "11-13",
   "home_request": "A world of black and white",
-  "skill": "Hitting snooze",
-  "goal": "Dancer",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "A little bit of milk",
@@ -49,7 +47,9 @@
       "personality": "snooty",
       "clothes": "Amethyst Tee",
       "song": "K.K. Gumbo",
-      "phrase": "chicken"
+      "phrase": "chicken",
+      "skill": "Hitting snooze",
+      "goal": "Dancer"
     }
   },
   "name": "Queenie",

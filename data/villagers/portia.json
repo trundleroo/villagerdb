@@ -3,8 +3,6 @@
   "species": "dog",
   "birthday": "10-25",
   "home_request": "A tribute to Festivale",
-  "skill": "Photography",
-  "goal": "Stylist",
   "coffee": {
     "beans": "Mocha",
     "milk": "The regular amount of milk",
@@ -49,7 +47,9 @@
       "personality": "snooty",
       "clothes": "Blue Diamond Tee",
       "song": "Cafe K.K.",
-      "phrase": "ruffian"
+      "phrase": "ruffian",
+      "skill": "Photography",
+      "goal": "Stylist"
     }
   },
   "name": "Portia",

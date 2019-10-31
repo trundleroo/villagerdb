@@ -3,8 +3,6 @@
   "species": "rabbit",
   "birthday": "10-28",
   "home_request": "A backwater clinic",
-  "skill": "Ventriloquism",
-  "goal": "Tycoon",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "Lots of milk",
@@ -52,13 +50,9 @@
       "personality": "cranky",
       "clothes": "Swell Tee",
       "song": "K.K. Dirge",
-      "phrase": "mon chou"
-    },
-    "hhd": {
-      "personality": "cranky",
-      "clothes": "Swell Tee",
-      "song": "K.K. Dirge",
-      "phrase": "mon chou"
+      "phrase": "mon chou",
+      "skill": "Ventriloquism",
+      "goal": "Tycoon"
     }
   },
   "name": "Gaston",

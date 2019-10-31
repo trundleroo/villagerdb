@@ -2,8 +2,6 @@
   "gender": "male",
   "species": "pig",
   "birthday": "11-6",
-  "skill": "Tongue twisters",
-  "goal": "Singer",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "Lots of milk",
@@ -35,7 +33,9 @@
       "personality": "cranky",
       "clothes": "Splendid Shirt",
       "song": "K.K. House",
-      "phrase": "schnort"
+      "phrase": "schnort",
+      "skill": "Tongue twisters",
+      "goal": "Singer"
     }
   },
   "name": "Boris",

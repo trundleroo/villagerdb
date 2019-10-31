@@ -3,8 +3,6 @@
   "species": "duck",
   "birthday": "5-25",
   "home_request": "A private study space",
-  "skill": "Brainteasers",
-  "goal": "Doctor",
   "coffee": {
     "beans": "Blend",
     "milk": "None at all",
@@ -52,7 +50,9 @@
       "personality": "lazy",
       "clothes": "Yellow-Bar Tee",
       "song": "The K. Funk",
-      "phrase": "derrrrr"
+      "phrase": "derrrrr",
+      "skill": "Brainteasers",
+      "goal": "Doctor"
     }
   },
   "name": "Derwin",

@@ -3,8 +3,6 @@
   "species": "frog",
   "birthday": "7-18",
   "home_request": "A noodle shop",
-  "skill": "Bunting",
-  "goal": "Architect",
   "coffee": {
     "beans": "Kilamanjaro",
     "milk": "None at all",
@@ -16,7 +14,9 @@
       "personality": "cranky",
       "clothes": "Imperial Shirt",
       "song": "K.K. Jongara",
-      "phrase": "as if"
+      "phrase": "as if",
+      "skill": "Bunting",
+      "goal": "Architect"
     }
   },
   "name": "Croque",

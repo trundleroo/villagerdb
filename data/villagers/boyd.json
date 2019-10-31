@@ -2,8 +2,6 @@
   "gender": "male",
   "species": "gorilla",
   "birthday": "10-1",
-  "skill": "Baton Twirling",
-  "goal": "Pro Wrestler",
   "coffee": {
     "beans": "Mocha",
     "milk": "Lots of milk",
@@ -20,7 +18,9 @@
       "personality": "cranky",
       "clothes": "Good-fortune clothes",
       "song": "K.K. Groove",
-      "phrase": "uh-oh"
+      "phrase": "uh-oh",
+      "skill": "Baton Twirling",
+      "goal": "Pro Wrestler"
     }
   },
   "name": "Boyd",

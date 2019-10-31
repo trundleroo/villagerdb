@@ -3,8 +3,6 @@
   "species": "lion",
   "birthday": "8-8",
   "home_request": "A beach",
-  "skill": "Rapping",
-  "goal": "Singer",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "No milk",
@@ -42,16 +40,6 @@
     "cf": {
       "personality": "jock",
       "clothes": "Flowery Shirt",
-      "song": "K.K. Ska",
-      "phrase": "maaan"
-    },
-    "hhd": {
-      "personality": "jock",
-      "song": "K.K. Ska",
-      "phrase": "maaan"
-    },
-    "pc": {
-      "personality": "jock",
       "song": "K.K. Ska",
       "phrase": "maaan"
     }

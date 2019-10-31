@@ -2,8 +2,6 @@
   "gender": "male",
   "species": "tiger",
   "birthday": "8-19",
-  "skill": "Bunting",
-  "goal": "Soccer Player",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "No milk",
@@ -38,7 +36,9 @@
       "personality": "jock",
       "clothes": "Two-Ball Shirt",
       "song": "K.K. Salsa",
-      "phrase": "grrRAH"
+      "phrase": "grrRAH",
+      "skill": "Bunting",
+      "goal": "Soccer Player"
     }
   },
   "name": "Tybalt",

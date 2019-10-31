@@ -3,8 +3,6 @@
   "species": "cat",
   "birthday": "8-1",
   "home_request": "A superhero base",
-  "skill": "Sprinting",
-  "goal": "Superhero",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "The regular amount of milk",
@@ -43,18 +41,6 @@
       "phrase": "psst"
     },
     "cf": {
-      "personality": "jock",
-      "clothes": "No. 1 Shirt",
-      "song": "Go K.K. Rider!",
-      "phrase": "psst"
-    },
-    "hhd": {
-      "personality": "jock",
-      "clothes": "No. 1 Shirt",
-      "song": "Go K.K. Rider!",
-      "phrase": "psst"
-    },
-    "pc": {
       "personality": "jock",
       "clothes": "No. 1 Shirt",
       "song": "Go K.K. Rider!",

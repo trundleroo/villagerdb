@@ -3,8 +3,6 @@
   "species": "pig",
   "birthday": "7-28",
   "home_request": "A constant quiz show",
-  "skill": "Trivia",
-  "goal": "Actor",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "A little bit of milk",
@@ -49,17 +47,9 @@
       "personality": "peppy",
       "clothes": "Fern Tee",
       "song": "Two Days Ago",
-      "phrase": "snoutie"
-    },
-    "hhd": {
-      "personality": "peppy",
-      "song": "Two Days Ago",
-      "phrase": "snoutie"
-    },
-    "pc": {
-      "personality": "peppy",
-      "song": "Two Days Ago",
-      "phrase": "snoutie"
+      "phrase": "snoutie",
+      "skill": "Trivia",
+      "goal": "Actor"
     }
   },
   "name": "Truffles",

@@ -2,8 +2,6 @@
   "gender": "female",
   "species": "ostrich",
   "birthday": "7-31",
-  "skill": "Computing",
-  "goal": "CEO",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "Lots of milk",
@@ -20,7 +18,9 @@
       "personality": "snooty",
       "clothes": "Purple Tie-Dye Tee",
       "song": "K.K. Sonata",
-      "phrase": "dahling"
+      "phrase": "dahling",
+      "skill": "Computing",
+      "goal": "CEO"
     }
   },
   "name": "Julia",

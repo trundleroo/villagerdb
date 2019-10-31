@@ -3,8 +3,6 @@
   "species": "ostrich",
   "birthday": "1-15",
   "home_request": "A peaceful zen garden",
-  "skill": "Calligraphy",
-  "goal": "Architect",
   "coffee": {
     "beans": "Mocha",
     "milk": "The regular amount of milk",
@@ -43,12 +41,6 @@
       "phrase": "stretch"
     },
     "cf": {
-      "personality": "normal",
-      "clothes": "Misty Tee",
-      "song": "K.K. Folk",
-      "phrase": "stretch"
-    },
-    "pc": {
       "personality": "normal",
       "clothes": "Misty Tee",
       "song": "K.K. Folk",

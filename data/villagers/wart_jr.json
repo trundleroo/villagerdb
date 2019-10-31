@@ -3,8 +3,6 @@
   "species": "frog",
   "birthday": "8-21",
   "home_request": "A bonsai shrine",
-  "skill": "Writing Backward",
-  "goal": "Detective",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "The regular amount of milk",
@@ -50,7 +48,9 @@
       "personality": "cranky",
       "clothes": "Sharp Outfit",
       "song": "To the Edge",
-      "phrase": "grr-ribbit"
+      "phrase": "grr-ribbit",
+      "skill": "Writing Backward",
+      "goal": "Detective"
     }
   },
   "name": "Wart Jr.",

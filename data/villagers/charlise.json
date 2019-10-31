@@ -3,8 +3,6 @@
   "species": "bear",
   "birthday": "4-17",
   "home_request": "A flower showcase.",
-  "skill": "Hitting snooze",
-  "goal": "Archeologist",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "Lots of milk",
@@ -22,12 +20,9 @@
       "personality": "uchi",
       "clothes": "Red Warmup Suit",
       "song": "Mr. K.K.",
-      "phrase": "urgh"
-    },
-    "pc": {
-      "personality": "uchi",
-      "song": "Mr. K.K.",
-      "phrase": "urgh"
+      "phrase": "urgh",
+      "skill": "Hitting snooze",
+      "goal": "Archeologist"
     }
   },
   "name": "Charlise",

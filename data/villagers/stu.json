@@ -2,8 +2,6 @@
   "gender": "male",
   "species": "bull",
   "birthday": "4-20",
-  "skill": "Hitting snooze",
-  "goal": "Firefighter",
   "coffee": {
     "beans": "Mocha",
     "milk": "a little bit of milk",
@@ -38,7 +36,9 @@
       "personality": "lazy",
       "clothes": "seven-ball Shirt",
       "song": "K.K. Rockabilly",
-      "phrase": "moo-dude"
+      "phrase": "moo-dude",
+      "skill": "Hitting snooze",
+      "goal": "Firefighter"
     }
   },
   "name": "Stu",

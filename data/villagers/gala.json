@@ -3,8 +3,6 @@
   "species": "pig",
   "birthday": "3-5",
   "home_request": "The town bank",
-  "skill": "Rock-Paper-Scissors",
-  "goal": "Violinist",
   "coffee": {
     "beans": "Mocha",
     "milk": "No milk",
@@ -22,13 +20,9 @@
       "personality": "normal",
       "clothes": "Daisy Tee",
       "song": "Two Days Ago",
-      "phrase": "snortie"
-    },
-    "hhd": {
-      "personality": "normal",
-      "clothes": "Daisy Tee",
-      "song": "Two Days Ago",
-      "phrase": "snortie"
+      "phrase": "snortie",
+      "skill": "Rock-Paper-Scissors",
+      "goal": "Violinist"
     }
   },
   "name": "Gala",

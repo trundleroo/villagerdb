@@ -3,8 +3,6 @@
   "species": "cat",
   "birthday": "8-17",
   "home_request": "A pro-wrestling ring",
-  "skill": "Chugging Milk",
-  "goal": "Rugby Player",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "The regular amount of milk",
@@ -46,7 +44,9 @@
       "personality": "jock",
       "clothes": "Splendid Tee",
       "song": "Go K.K. Rider!",
-      "phrase": "GAHHHH"
+      "phrase": "GAHHHH",
+      "skill": "Chugging Milk",
+      "goal": "Rugby Player"
     }
   },
   "name": "Stinky",

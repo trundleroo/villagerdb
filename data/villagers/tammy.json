@@ -3,8 +3,6 @@
   "species": "cub",
   "birthday": "6-23",
   "home_request": "A Halloween-themed place",
-  "skill": "Staying positive",
-  "goal": "Movie director",
   "coffee": {
     "beans": "Blend",
     "milk": "Just a little bit of milk",
@@ -16,19 +14,9 @@
       "personality": "uchi",
       "clothes": "Red Jacket",
       "song": "K.K. Disco",
-      "phrase": "ya heard"
-    },
-    "hhd": {
-      "personality": "uchi",
-      "clothes": "Red Jacket",
-      "song": "K.K. Disco",
-      "phrase": "ya heard"
-    },
-    "nh": {
-      "personality": "uchi",
-      "clothes": "Red Jacket",
-      "song": "K.K. Disco",
-      "phrase": "ya heard"
+      "phrase": "ya heard",
+      "skill": "Staying positive",
+      "goal": "Movie director"
     }
   },
   "name": "Tammy",

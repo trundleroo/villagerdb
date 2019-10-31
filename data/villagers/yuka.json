@@ -3,8 +3,6 @@
   "species": "koala",
   "birthday": "7-20",
   "home_request": "A jungle",
-  "skill": "Staying up late",
-  "goal": "Journalist",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "Lots of milk",
@@ -52,7 +50,9 @@
       "personality": "snooty",
       "clothes": "Lemon Gingham Tee",
       "song": "Soulful K.K.",
-      "phrase": "tsk tsk"
+      "phrase": "tsk tsk",
+      "skill": "Staying up late",
+      "goal": "Journalist"
     }
   },
   "name": "Yuka",

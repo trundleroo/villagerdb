@@ -3,8 +3,6 @@
   "species": "frog",
   "birthday": "2-13",
   "home_request": "A robohouse",
-  "skill": "Ventriloquism",
-  "goal": "Astronaut",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "The regular amount of milk",
@@ -46,17 +44,9 @@
       "personality": "jock",
       "clothes": "Pulse Shirt Lightning Tee",
       "song": "Go K.K. Rider!",
-      "phrase": "zzrrbbitt"
-    },
-    "hhd": {
-      "personality": "jock",
-      "song": "Go K.K. Rider!",
-      "phrase": "zzrrbbitt"
-    },
-    "pc": {
-      "personality": "jock",
-      "song": "Go K.K. Rider!",
-      "phrase": "zzrrbbitt"
+      "phrase": "zzrrbbitt",
+      "skill": "Ventriloquism",
+      "goal": "Astronaut"
     }
   },
   "name": "Ribbot",

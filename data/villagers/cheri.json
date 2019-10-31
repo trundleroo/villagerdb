@@ -3,8 +3,6 @@
   "species": "cub",
   "birthday": "3-17",
   "home_request": "A fruity room for juicing",
-  "skill": "Staying positive",
-  "goal": "Marathon runner",
   "coffee": {
     "beans": "Mocha",
     "milk": "Lots of milk",
@@ -32,17 +30,9 @@
       "personality": "peppy",
       "clothes": "Sunflower Tee",
       "song": "K.K. Synth",
-      "phrase": "tralala"
-    },
-    "hhd": {
-      "personality": "peppy",
-      "song": "K.K. Synth",
-      "phrase": "tralala"
-    },
-    "pc": {
-      "personality": "peppy",
-      "song": "K.K. Synth",
-      "phrase": "tralala"
+      "phrase": "tralala",
+      "skill": "Staying positive",
+      "goal": "Marathon runner"
     }
   },
   "name": "Cheri",

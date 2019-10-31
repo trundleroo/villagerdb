@@ -3,8 +3,6 @@
   "species": "frog",
   "birthday": "2-8",
   "home_request": "A shrine to all things Gracie",
-  "skill": "Eating quickly",
-  "goal": "Artist",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "The regular amount of milk",
@@ -52,7 +50,9 @@
       "personality": "jock",
       "clothes": "Gracie Tank",
       "song": "My Place",
-      "phrase": "fribbit"
+      "phrase": "fribbit",
+      "skill": "Eating quickly",
+      "goal": "Artist"
     }
   },
   "name": "Frobert",

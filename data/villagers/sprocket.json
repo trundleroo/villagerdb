@@ -2,8 +2,6 @@
   "gender": "male",
   "species": "ostrich",
   "birthday": "12-1",
-  "skill": "Air guitar",
-  "goal": "Guitarist",
   "coffee": {
     "beans": "Mocha",
     "milk": "The regular amount of milk",
@@ -38,7 +36,9 @@
       "personality": "jock",
       "clothes": "No. 67 Shirt",
       "song": "K.K. Metal",
-      "phrase": "zort"
+      "phrase": "zort",
+      "skill": "Air guitar",
+      "goal": "Guitarist"
     }
   },
   "name": "Sprocket",

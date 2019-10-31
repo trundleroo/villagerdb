@@ -3,8 +3,6 @@
   "species": "cat",
   "birthday": "5-29",
   "home_request": "A cozy kotatsu cottage",
-  "skill": "Writing backward",
-  "goal": "Movie director",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "None at all",
@@ -49,7 +47,9 @@
       "personality": "snooty",
       "clothes": "Periwinkle Tee",
       "song": "K.K. Swing",
-      "phrase": "kitten"
+      "phrase": "kitten",
+      "skill": "Writing backward",
+      "goal": "Movie director"
     }
   },
   "name": "Purrl",

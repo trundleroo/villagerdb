@@ -3,8 +3,6 @@
   "species": "cow",
   "birthday": "8-25",
   "home_request": "A dairy farm",
-  "skill": "Staying up late",
-  "goal": "Violinist",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "None at all",
@@ -28,7 +26,9 @@
       "personality": "snooty",
       "clothes": "Rainbow Tee",
       "song": "Soulful K.K.",
-      "phrase": "pushy"
+      "phrase": "pushy",
+      "skill": "Staying up late",
+      "goal": "Violinist"
     }
   },
   "name": "Tipper",

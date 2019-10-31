@@ -3,8 +3,6 @@
   "species": "bear",
   "birthday": "3-31",
   "home_request": "An ancient bathhouse",
-  "skill": "Debating",
-  "goal": "Politician",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "Just a little bit of milk",
@@ -52,13 +50,9 @@
       "personality": "smug",
       "clothes": "Gold Armor Suit",
       "song": "K.K. Milonga",
-      "phrase": "strudel"
-    },
-    "nh": {
-      "personality": "smug",
-      "clothes": "Gold Armor Suit",
-      "song": "K.K. Milonga",
-      "phrase": "strudel"
+      "phrase": "strudel",
+      "skill": "Debating",
+      "goal": "Politician"
     }
   },
   "name": "Klaus",

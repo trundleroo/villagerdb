@@ -2,8 +2,6 @@
   "gender": "female",
   "species": "bird",
   "birthday": "4-18",
-  "skill": "Board games",
-  "goal": "Translator",
   "coffee": {
     "beans": "Blend",
     "milk": "Lots of milk",
@@ -35,17 +33,9 @@
       "personality": "peppy",
       "clothes": "Tropical Tee",
       "song": "K.K. Synth",
-      "phrase": "chickadee"
-    },
-    "hhd": {
-      "personality": "peppy",
-      "song": "K.K. Synth",
-      "phrase": "chickadee"
-    },
-    "pc": {
-      "personality": "peppy",
-      "song": "K.K. Synth",
-      "phrase": "chickadee"
+      "phrase": "chickadee",
+      "skill": "Board games",
+      "goal": "Translator"
     }
   },
   "name": "Piper",

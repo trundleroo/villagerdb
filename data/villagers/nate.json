@@ -3,8 +3,6 @@
   "species": "bear",
   "birthday": "8-16",
   "home_request": "A cardboard life",
-  "skill": "Playing horseshoes",
-  "goal": "Sumo wrestler",
   "coffee": {
     "beans": "Mocha",
     "milk": "None at all",
@@ -46,7 +44,9 @@
       "personality": "lazy",
       "clothes": "Spring Shirt",
       "song": "K.K. Lullaby",
-      "phrase": "yawwwn"
+      "phrase": "yawwwn",
+      "skill": "Playing horseshoes",
+      "goal": "Sumo wrestler"
     }
   },
   "name": "Nate",

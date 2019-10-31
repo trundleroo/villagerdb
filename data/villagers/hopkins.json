@@ -2,8 +2,6 @@
   "gender": "male",
   "species": "rabbit",
   "birthday": "3-11",
-  "skill": "Oversleeping",
-  "goal": "Chef",
   "coffee": {
     "beans": "Blend",
     "milk": "None at all",
@@ -21,13 +19,9 @@
       "personality": "lazy",
       "clothes": "Racer Tee",
       "song": "I Love You",
-      "phrase": "thumper"
-    },
-    "pc": {
-      "personality": "lazy",
-      "clothes": "Racer Tee",
-      "song": "I Love You",
-      "phrase": "thumper"
+      "phrase": "thumper",
+      "skill": "Oversleeping",
+      "goal": "Chef"
     }
   },
   "name": "Hopkins",

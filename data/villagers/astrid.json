@@ -3,8 +3,6 @@
   "species": "kangaroo",
   "birthday": "9-8",
   "home_request": "A playful rock studio",
-  "skill": "Karaoke",
-  "goal": "Singer",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "Just a little bit of milk",
@@ -46,19 +44,9 @@
       "personality": "snooty",
       "clothes": "Star Tee",
       "song": "I Love You",
-      "phrase": "my pet"
-    },
-    "hhd": {
-      "personality": "snooty",
-      "clothes": "Star Tee",
-      "song": "I Love You",
-      "phrase": "my pet"
-    },
-    "pc": {
-      "personality": "snooty",
-      "clothes": "Star Tee",
-      "song": "I Love You",
-      "phrase": "my pet"
+      "phrase": "my pet",
+      "skill": "Karaoke",
+      "goal": "Singer"
     }
   },
   "name": "Astrid",

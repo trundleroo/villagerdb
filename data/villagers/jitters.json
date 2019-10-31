@@ -3,8 +3,6 @@
   "species": "bird",
   "birthday": "2-2",
   "home_request": "A soccer arena",
-  "skill": "Playing catch",
-  "goal": "Soccer player",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "None at all",
@@ -28,19 +26,9 @@
       "personality": "jock",
       "clothes": "Soccer Tee",
       "song": "K.K. Samba",
-      "phrase": "bzzert"
-    },
-    "hhd": {
-      "personality": "jock",
-      "clothes": "Soccer Tee",
-      "song": "K.K. Samba",
-      "phrase": "bzzert"
-    },
-    "pc": {
-      "personality": "jock",
-      "clothes": "Soccer Tee",
-      "song": "K.K. Samba",
-      "phrase": "bzzert"
+      "phrase": "bzzert",
+      "skill": "Playing catch",
+      "goal": "Soccer player"
     }
   },
   "name": "Jitters",

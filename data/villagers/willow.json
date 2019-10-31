@@ -3,8 +3,6 @@
   "species": "sheep",
   "birthday": "11-26",
   "home_request": "An alpine-themed home",
-  "skill": "Playing Old Maid",
-  "goal": "Designer",
   "coffee": {
     "beans": "Mocha",
     "milk": "No milk",
@@ -28,7 +26,9 @@
       "personality": "snooty",
       "clothes": "Bad Plaid Tee",
       "song": "K.K. Etude",
-      "phrase": "bo peep"
+      "phrase": "bo peep",
+      "skill": "Playing Old Maid",
+      "goal": "Designer"
     }
   },
   "name": "Willow",

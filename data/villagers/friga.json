@@ -3,8 +3,6 @@
   "species": "penguin",
   "birthday": "10-16",
   "home_request": "A classic, royal room",
-  "skill": "Board games",
-  "goal": "Drummer",
   "coffee": {
     "beans": "Blend",
     "milk": "A little bit of milk",
@@ -49,7 +47,9 @@
       "personality": "snooty",
       "clothes": "Picnic Tee",
       "song": "K.K. Tango",
-      "phrase": "brrmph"
+      "phrase": "brrmph",
+      "skill": "Board games",
+      "goal": "Drummer"
     }
   },
   "name": "Friga",

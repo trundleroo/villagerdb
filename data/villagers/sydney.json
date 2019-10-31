@@ -3,8 +3,6 @@
   "species": "koala",
   "birthday": "6-21",
   "home_request": "An office with a phone",
-  "skill": "Chopping vegetables",
-  "goal": "Translator",
   "coffee": {
     "beans": "Mocha",
     "milk": "None at all",
@@ -46,7 +44,9 @@
       "personality": "normal",
       "clothes": "Big-Dot Tee",
       "song": "K.K. Country",
-      "phrase": "sunshine"
+      "phrase": "sunshine",
+      "skill": "Chopping vegetables",
+      "goal": "Translator"
     }
   },
   "name": "Sydney",

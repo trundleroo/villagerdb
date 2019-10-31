@@ -3,8 +3,6 @@
   "species": "kangaroo",
   "birthday": "11-12",
   "home_request": "A sustainable space",
-  "skill": "Pretending to sleep",
-  "goal": "Writer",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "Just a little bit of milk",
@@ -52,7 +50,9 @@
       "personality": "snooty",
       "clothes": "U-R-Here Tee",
       "song": "K.K. Ragtime",
-      "phrase": "wee baby"
+      "phrase": "wee baby",
+      "skill": "Pretending to sleep",
+      "goal": "Writer"
     }
   },
   "name": "Mathilda",

@@ -3,8 +3,6 @@
   "species": "penguin",
   "birthday": "11-2",
   "home_request": "A winter-sports paradise.",
-  "skill": "Bunting",
-  "goal": "Baseball player",
   "coffee": {
     "beans": "Mocha",
     "milk": "Lots of milk",
@@ -22,13 +20,9 @@
       "personality": "jock",
       "clothes": "Red-Bar Tee",
       "song": "K.K. March",
-      "phrase": "waddler"
-    },
-    "hhd": {
-      "personality": "jock",
-      "clothes": "Red-Bar Tee",
-      "song": "K.K. March",
-      "phrase": "waddler"
+      "phrase": "waddler",
+      "skill": "Bunting",
+      "goal": "Baseball player"
     }
   },
   "name": "Iggly",

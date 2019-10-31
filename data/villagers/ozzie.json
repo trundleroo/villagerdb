@@ -3,8 +3,6 @@
   "species": "koala",
   "birthday": "5-7",
   "home_request": "A trip to the school nurse",
-  "skill": "Baton twirling",
-  "goal": "Pro golfer",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "Lots of milk",
@@ -40,7 +38,9 @@
       "personality": "lazy",
       "clothes": "Giraffe Tee",
       "song": "Mr. K.K.",
-      "phrase": "ol' bear"
+      "phrase": "ol' bear",
+      "skill": "Baton twirling",
+      "goal": "Pro golfer"
     }
   },
   "name": "Ozzie",

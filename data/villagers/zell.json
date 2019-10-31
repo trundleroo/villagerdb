@@ -3,8 +3,6 @@
   "species": "deer",
   "birthday": "6-7",
   "home_request": "A themed hotel",
-  "skill": "Calculating tips",
-  "goal": "Movie director",
   "coffee": {
     "beans": "Blend",
     "milk": "Just a little bit of milk",
@@ -16,19 +14,9 @@
       "personality": "smug",
       "clothes": "Arctic-Camo Tee",
       "song": "K.K. D&B",
-      "phrase": "pronk"
-    },
-    "hhd": {
-      "personality": "smug",
-      "clothes": "Arctic-Camo Tee",
-      "song": "K.K. D&B",
-      "phrase": "pronk"
-    },
-    "pc": {
-      "personality": "smug",
-      "clothes": "Arctic-Camo Tee",
-      "song": "K.K. D&B",
-      "phrase": "pronk"
+      "phrase": "pronk",
+      "skill": "Calculating tips",
+      "goal": "Movie director"
     }
   },
   "name": "Zell",

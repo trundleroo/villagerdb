@@ -3,8 +3,6 @@
   "species": "bird",
   "birthday": "12-4",
   "home_request": "A country teahouse",
-  "skill": "Skimming books",
-  "goal": "Dermatologist",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "The regular amount of milk",
@@ -52,19 +50,9 @@
       "personality": "snooty",
       "clothes": "Kiwi Tee",
       "song": "K.K. Bossa",
-      "phrase": "la-di-da"
-    },
-    "hhd": {
-      "personality": "snooty",
-      "clothes": "Kiwi Tee",
-      "song": "K.K. Bossa",
-      "phrase": "la-di-da"
-    },
-    "pc": {
-      "personality": "snooty",
-      "clothes": "Kiwi Tee",
-      "song": "K.K. Bossa",
-      "phrase": "la-di-da"
+      "phrase": "la-di-da",
+      "skill": "Skimming books",
+      "goal": "Dermatologist"
     }
   },
   "name": "Robin",

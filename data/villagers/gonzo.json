@@ -2,8 +2,6 @@
   "gender": "male",
   "species": "koala",
   "birthday": "10-13",
-  "skill": "Mental math",
-  "goal": "Mayor",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "Lots of milk",
@@ -38,7 +36,9 @@
       "personality": "cranky",
       "clothes": "Earthy Knit",
       "song": "K.K. D & B",
-      "phrase": "mate"
+      "phrase": "mate",
+      "skill": "Mental math",
+      "goal": "Mayor"
     }
   },
   "name": "Gonzo",

@@ -3,8 +3,6 @@
   "species": "kangaroo",
   "birthday": "5-31",
   "home_request": "A nursery school",
-  "skill": "Memorizing",
-  "goal": "Teacher",
   "coffee": {
     "beans": "Mocha",
     "milk": "None at all",
@@ -16,7 +14,9 @@
       "personality": "normal",
       "clothes": "Pink Tartan Tee",
       "song": "K.K. Aria",
-      "phrase": "pouches"
+      "phrase": "pouches",
+      "skill": "Memorizing",
+      "goal": "Teacher"
     }
   },
   "name": "Marcie",

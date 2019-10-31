@@ -3,8 +3,6 @@
   "species": "alligator",
   "birthday": "6-9",
   "home_request": "A starry-sky cake dream",
-  "skill": "Fishing",
-  "goal": "Cartoonist",
   "coffee": {
     "beans": "Mocha",
     "milk": "The regular amount of milk",
@@ -52,19 +50,9 @@
       "personality": "lazy",
       "clothes": "Big Bro's Tee",
       "song": "Forest Life",
-      "phrase": "it'sa me"
-    },
-    "hhd": {
-      "personality": "lazy",
-      "clothes": "Big Bro's Tee",
-      "song": "Forest Life",
-      "phrase": "it'sa me"
-    },
-    "pc": {
-      "personality": "lazy",
-      "clothes": "Big Bro's Tee",
-      "song": "Forest Life",
-      "phrase": "it'sa me"
+      "phrase": "it'sa me",
+      "skill": "Fishing",
+      "goal": "Cartoonist"
     }
   },
   "name": "Alfonso",

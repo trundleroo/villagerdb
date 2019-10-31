@@ -3,8 +3,6 @@
   "species": "penguin",
   "birthday": "1-29",
   "home_request": "An eco-friendly factory",
-  "skill": "Staying awake",
-  "goal": "Astronaut",
   "coffee": {
     "beans": "Blend",
     "milk": "A little bit of milk",
@@ -50,17 +48,9 @@
       "personality": "lazy",
       "clothes": "Big-Dot Tee",
       "song": "K.K. Technopop",
-      "phrase": "d-d-dude"
-    },
-    "hhd": {
-      "personality": "lazy",
-      "song": "K.K. Technopop",
-      "phrase": "d-d-dude"
-    },
-    "pc": {
-      "personality": "lazy",
-      "song": "K.K. Technopop",
-      "phrase": "d-d-dude"
+      "phrase": "d-d-dude",
+      "skill": "Staying awake",
+      "goal": "Astronaut"
     }
   },
   "name": "Cube",

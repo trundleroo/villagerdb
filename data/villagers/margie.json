@@ -3,8 +3,6 @@
   "species": "elephant",
   "birthday": "1-28",
   "home_request": "A place full of clothes",
-  "skill": "Playing old maid",
-  "goal": "Pastry chef",
   "coffee": {
     "beans": "Blend",
     "milk": "None at all",
@@ -43,18 +41,6 @@
       "phrase": "tootie"
     },
     "cf": {
-      "personality": "normal",
-      "clothes": "Hot Spring Tee",
-      "song": "K.K. Bossa",
-      "phrase": "tootie"
-    },
-    "hhd": {
-      "personality": "normal",
-      "clothes": "Hot Spring Tee",
-      "song": "K.K. Bossa",
-      "phrase": "tootie"
-    },
-    "pc": {
       "personality": "normal",
       "clothes": "Hot Spring Tee",
       "song": "K.K. Bossa",

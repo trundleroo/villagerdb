@@ -3,8 +3,6 @@
   "species": "pig",
   "birthday": "5-23",
   "home_request": "A mermaid's life",
-  "skill": "Stomping around",
-  "goal": "Movie star",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "A little bit of milk",
@@ -28,13 +26,9 @@
       "personality": "peppy",
       "clothes": "Blue-Stripe Tee",
       "song": "K.K. Bossa",
-      "phrase": "shweetie"
-    },
-    "hhd": {
-      "personality": "peppy",
-      "clothes": "Blue-Stripe Tee",
-      "song": "K.K. Bossa",
-      "phrase": "shweetie"
+      "phrase": "shweetie",
+      "skill": "Stomping around",
+      "goal": "Movie star"
     }
   },
   "name": "Peggy",

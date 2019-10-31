@@ -3,8 +3,6 @@
   "species": "monkey",
   "birthday": "11-21",
   "home_request": "An ancient bathhouse",
-  "skill": "Climbing trees",
-  "goal": "Pro golfer",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "Just a little bit of milk",
@@ -16,13 +14,9 @@
       "personality": "jock",
       "clothes": "Happi Tee",
       "song": "K.K. Rally",
-      "phrase": "rerack"
-    },
-    "pc": {
-      "personality": "jock",
-      "clothes": "Happi Tee",
-      "song": "K.K. Rally",
-      "phrase": "rerack"
+      "phrase": "rerack",
+      "skill": "Climbing trees",
+      "goal": "Pro golfer"
     }
   },
   "name": "Flip",

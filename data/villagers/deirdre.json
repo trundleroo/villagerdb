@@ -3,8 +3,6 @@
   "species": "deer",
   "birthday": "5-4",
   "home_request": "An autumnal atmosphere",
-  "skill": "Tiptoeing",
-  "goal": "Journalist",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "None at all",
@@ -16,7 +14,9 @@
       "personality": "uchi",
       "clothes": "Fall Leaf Tee",
       "song": "K.K. Cruisin'",
-      "phrase": "whatevs"
+      "phrase": "whatevs",
+      "skill": "Tiptoeing",
+      "goal": "Journalist"
     }
   },
   "name": "Deirdre",

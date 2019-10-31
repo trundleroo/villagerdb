@@ -3,8 +3,6 @@
   "species": "chicken",
   "birthday": "10-4",
   "home_request": "A room for waking up early",
-  "skill": "Waking up early",
-  "goal": "Soccer player",
   "coffee": {
     "beans": "Blend",
     "milk": "Lots of milk",
@@ -52,19 +50,9 @@
       "personality": "jock",
       "clothes": "Tropical Tee",
       "song": "K.K. Country",
-      "phrase": "buh-kay"
-    },
-    "hhd": {
-      "personality": "jock",
-      "clothes": "Tropical Tee",
-      "song": "K.K. Country",
-      "phrase": "buh-kay"
-    },
-    "pc": {
-      "personality": "jock",
-      "clothes": "Tropical Tee",
-      "song": "K.K. Country",
-      "phrase": "buh-kay"
+      "phrase": "buh-kay",
+      "skill": "Waking up early",
+      "goal": "Soccer player"
     }
   },
   "name": "Goose",

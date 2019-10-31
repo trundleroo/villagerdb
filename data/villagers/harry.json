@@ -3,8 +3,6 @@
   "species": "hippo",
   "birthday": "1-7",
   "home_request": "A slop-tastic pad",
-  "skill": "Tongue twisters",
-  "goal": "Fisherman",
   "coffee": {
     "beans": "Mocha",
     "milk": "None at all",
@@ -28,7 +26,9 @@
       "personality": "cranky",
       "clothes": "Jungle-Camo Tee",
       "song": "K.K. Calypso",
-      "phrase": "beach bum"
+      "phrase": "beach bum",
+      "skill": "Tongue twisters",
+      "goal": "Fisherman"
     }
   },
   "name": "Harry",

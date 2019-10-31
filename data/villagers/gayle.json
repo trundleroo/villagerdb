@@ -3,8 +3,6 @@
   "species": "alligator",
   "birthday": "5-17",
   "home_request": "A home with heart",
-  "skill": "Hula dancing",
-  "goal": "Gymnast",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "Just a little bit of milk",
@@ -16,19 +14,9 @@
       "personality": "normal",
       "clothes": "Heart Tee",
       "song": "Bubblegum K.K.",
-      "phrase": "snacky"
-    },
-    "hhd": {
-      "personality": "normal",
-      "clothes": "Heart Tee",
-      "song": "Bubblegum K.K.",
-      "phrase": "snacky"
-    },
-    "pc": {
-      "personality": "normal",
-      "clothes": "Heart Tee",
-      "song": "Bubblegum K.K.",
-      "phrase": "snacky"
+      "phrase": "snacky",
+      "skill": "Hula dancing",
+      "goal": "Gymnast"
     }
   },
   "name": "Gayle",

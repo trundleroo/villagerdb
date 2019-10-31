@@ -3,8 +3,6 @@
   "species": "deer",
   "birthday": "9-19",
   "home_request": "A hangout for li'l rebels",
-  "skill": "Home Repair",
-  "goal": "Makeup Artist",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "None at all",
@@ -16,19 +14,9 @@
       "personality": "uchi",
       "clothes": "Dark Polka Tee",
       "song": "K.K. Rock",
-      "phrase": "girlfriend"
-    },
-    "hhd": {
-      "personality": "uchi",
-      "clothes": "Dark Polka Tee",
-      "song": "K.K. Rock",
-      "phrase": "girlfriend"
-    },
-    "pc": {
-      "personality": "uchi",
-      "clothes": "Dark Polka Tee",
-      "song": "K.K. Rock",
-      "phrase": "girlfriend"
+      "phrase": "girlfriend",
+      "skill": "Home Repair",
+      "goal": "Makeup Artist"
     }
   },
   "name": "Fuchsia",

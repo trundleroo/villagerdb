@@ -3,8 +3,6 @@
   "species": "rabbit",
   "birthday": "7-6",
   "home_request": "A futuristic space",
-  "skill": "Telling jokes",
-  "goal": "Makeup artist",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "A little bit of milk",
@@ -16,19 +14,9 @@
       "personality": "uchi",
       "clothes": "Red-Zap Suit",
       "song": "K.K. Tango",
-      "phrase": "cottontail"
-    },
-    "hhd": {
-      "personality": "uchi",
-      "clothes": "Red-Zap Suit",
-      "song": "K.K. Tango",
-      "phrase": "cottontail"
-    },
-    "pc": {
-      "personality": "uchi",
-      "clothes": "Red-Zap Suit",
-      "song": "K.K. Tango",
-      "phrase": "cottontail"
+      "phrase": "cottontail",
+      "skill": "Telling jokes",
+      "goal": "Makeup artist"
     }
   },
   "name": "Mira",

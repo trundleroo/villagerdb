@@ -3,8 +3,6 @@
   "species": "rabbit",
   "birthday": "3-1",
   "home_request": "An ancient-artifacts exhibit",
-  "skill": "Writing backwards",
-  "goal": "Astronaut",
   "coffee": {
     "beans": "Mocha",
     "milk": "The regular amount of milk",
@@ -49,12 +47,9 @@
       "personality": "normal",
       "clothes": "Dawn Tee",
       "song": "K.K. Dirge",
-      "phrase": "doyoing"
-    },
-    "hhd": {
-      "personality": "normal",
-      "song": "K.K. Dirge",
-      "phrase": "doyoing"
+      "phrase": "doyoing",
+      "skill": "Writing backwards",
+      "goal": "Astronaut"
     }
   },
   "name": "Coco",

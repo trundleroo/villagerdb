@@ -3,8 +3,6 @@
   "species": "eagle",
   "birthday": "6-1",
   "home_request": "A seaside breakfast nook",
-  "skill": "Tongue twisters",
-  "goal": "Musician",
   "coffee": {
     "beans": "Blend",
     "milk": "None at all",
@@ -16,7 +14,9 @@
       "personality": "smug",
       "clothes": "Raglan Tee",
       "song": "K.K. Moody",
-      "phrase": "wingo"
+      "phrase": "wingo",
+      "skill": "Tongue twisters",
+      "goal": "Musician"
     }
   },
   "name": "Keaton",

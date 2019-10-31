@@ -3,8 +3,6 @@
   "species": "horse",
   "birthday": "6-16",
   "home_request": "A black and white bastion",
-  "skill": "Making crafts",
-  "goal": "Lawyer",
   "coffee": {
     "beans": "Mocha",
     "milk": "Just a little bit of milk",
@@ -43,18 +41,6 @@
       "phrase": "nay"
     },
     "cf": {
-      "personality": "cranky",
-      "clothes": "Checkered Tee",
-      "song": "K.K. Dirge",
-      "phrase": "nay"
-    },
-    "hhd": {
-      "personality": "cranky",
-      "clothes": "Checkered Tee",
-      "song": "K.K. Dirge",
-      "phrase": "nay"
-    },
-    "pc": {
       "personality": "cranky",
       "clothes": "Checkered Tee",
       "song": "K.K. Dirge",

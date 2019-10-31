@@ -3,8 +3,6 @@
   "species": "horse",
   "birthday": "1-25",
   "home_request": "A home with natural beauty.",
-  "skill": "Calculating Tips",
-  "goal": "Tour Guide",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "No milk",
@@ -52,19 +50,9 @@
       "personality": "normal",
       "clothes": "Deep-Blue Tee",
       "song": "Forest Life",
-      "phrase": "y'all"
-    },
-    "hhd": {
-      "personality": "normal",
-      "clothes": "Deep-Blue Tee",
-      "song": "Forest Life",
-      "phrase": "y'all"
-    },
-    "pc": {
-      "personality": "normal",
-      "clothes": "Deep-Blue Tee",
-      "song": "Forest Life",
-      "phrase": "y'all"
+      "phrase": "y'all",
+      "skill": "Calculating Tips",
+      "goal": "Tour Guide"
     }
   },
   "name": "Savannah",

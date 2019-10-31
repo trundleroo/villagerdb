@@ -3,8 +3,6 @@
   "species": "frog",
   "birthday": "1-13",
   "home_request": "An adorable, pink room",
-  "skill": "Limboing",
-  "goal": "Tennis player",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "The regular amount of milk",
@@ -52,7 +50,9 @@
       "personality": "peppy",
       "clothes": "Lovely Tee",
       "song": "K.K. Ballad",
-      "phrase": "splish"
+      "phrase": "splish",
+      "skill": "Limboing",
+      "goal": "Tennis player"
     }
   },
   "name": "Puddles",

@@ -2,8 +2,6 @@
   "gender": "male",
   "species": "rhino",
   "birthday": "3-20",
-  "skill": "Bunting/Comedy",
-  "goal": "Artist",
   "coffee": {
     "beans": "Blend",
     "milk": "A little bit of milk",
@@ -38,7 +36,9 @@
       "personality": "lazy",
       "clothes": "Chevron Shirt",
       "song": "K.K. Lament",
-      "phrase": "schnozzle"
+      "phrase": "schnozzle",
+      "skill": "Bunting/Comedy",
+      "goal": "Artist"
     }
   },
   "name": "Hornsby",

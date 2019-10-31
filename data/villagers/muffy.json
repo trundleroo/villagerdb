@@ -3,8 +3,6 @@
   "species": "sheep",
   "birthday": "2-14",
   "home_request": "An ornately decorated room",
-  "skill": "Writing about pickles",
-  "goal": "Dermatologist",
   "coffee": {
     "beans": "Mocha",
     "milk": "No milk",
@@ -16,19 +14,9 @@
       "personality": "uchi",
       "clothes": "Natty Tee",
       "song": "K.K. Sonata",
-      "phrase": "nightshade"
-    },
-    "hhd": {
-      "personality": "uchi",
-      "clothes": "Natty Tee",
-      "song": "K.K. Sonata",
-      "phrase": "nightshade"
-    },
-    "pc": {
-      "personality": "uchi",
-      "clothes": "Natty Tee",
-      "song": "K.K. Sonata",
-      "phrase": "nightshade"
+      "phrase": "nightshade",
+      "skill": "Writing about pickles",
+      "goal": "Dermatologist"
     }
   },
   "name": "Muffy",

@@ -3,8 +3,6 @@
   "species": "mouse",
   "birthday": "12-15",
   "home_request": "A cheesy place to nibble.",
-  "skill": "Cramming for tests",
-  "goal": "Actor",
   "coffee": {
     "beans": "Kilamanjaro",
     "milk": "Lots of milk",
@@ -16,13 +14,9 @@
       "personality": "smug",
       "clothes": "Tuxedo",
       "song": "K.K. Soul",
-      "phrase": "fromage"
-    },
-    "pc": {
-      "personality": "smug",
-      "clothes": "Tuxedo",
-      "song": "K.K. Soul",
-      "phrase": "fromage"
+      "phrase": "fromage",
+      "skill": "Cramming for tests",
+      "goal": "Actor"
     }
   },
   "name": "Chadder",

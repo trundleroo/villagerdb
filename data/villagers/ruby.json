@@ -3,8 +3,6 @@
   "species": "rabbit",
   "birthday": "12-25",
   "home_request": "A room for moon gazing",
-  "skill": "Doing handstands",
-  "goal": "Photography",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "Lots of milk",
@@ -28,13 +26,9 @@
       "personality": "peppy",
       "clothes": "Bunny Tee",
       "song": "K.K. Ska",
-      "phrase": "li'l ears"
-    },
-    "hhd": {
-      "personality": "peppy",
-      "clothes": "Bunny Tee",
-      "song": "K.K. Ska",
-      "phrase": "li'l ears"
+      "phrase": "li'l ears",
+      "skill": "Doing handstands",
+      "goal": "Photography"
     }
   },
   "name": "Ruby",

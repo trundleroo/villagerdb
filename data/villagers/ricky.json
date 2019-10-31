@@ -3,8 +3,6 @@
   "species": "squirrel",
   "birthday": "9-14",
   "home_request": "A chiropractic office",
-  "skill": "Making faces",
-  "goal": "Detective",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "The regular amount of milk",
@@ -40,7 +38,9 @@
       "personality": "cranky",
       "clothes": "Three-Ball Tee",
       "song": "K.K. Western",
-      "phrase": "nutcase"
+      "phrase": "nutcase",
+      "skill": "Making faces",
+      "goal": "Detective"
     }
   },
   "name": "Ricky",

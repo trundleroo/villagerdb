@@ -3,8 +3,6 @@
   "species": "cat",
   "birthday": "1-1",
   "home_request": "A floral atmosphere",
-  "skill": "Yo-Yoing",
-  "goal": "Detective",
   "coffee": {
     "beans": "Kilamanjaro",
     "milk": "No milk",
@@ -52,19 +50,9 @@
       "personality": "lazy",
       "clothes": "Blossom Tee",
       "song": "K.K. Ragtime",
-      "phrase": "pthhhpth"
-    },
-    "hhd": {
-      "personality": "lazy",
-      "clothes": "Blossom Tee",
-      "song": "K.K. Ragtime",
-      "phrase": "pthhhpth"
-    },
-    "pc": {
-      "personality": "lazy",
-      "clothes": "Blossom Tee",
-      "song": "K.K. Ragtime",
-      "phrase": "pthhhpth"
+      "phrase": "pthhhpth",
+      "skill": "Yo-Yoing",
+      "goal": "Detective"
     }
   },
   "name": "Bob",

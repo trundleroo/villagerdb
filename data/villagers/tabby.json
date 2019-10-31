@@ -3,8 +3,6 @@
   "species": "cat",
   "birthday": "8-13",
   "home_request": "An old, abandoned hospital",
-  "skill": "Telling Jokes",
-  "goal": "Tennis Player",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "The regular amount of milk",
@@ -52,7 +50,9 @@
       "personality": "peppy",
       "clothes": "Bone Shirt",
       "song": "To the Edge",
-      "phrase": "me-WOW"
+      "phrase": "me-WOW",
+      "skill": "Telling Jokes",
+      "goal": "Tennis Player"
     }
   },
   "name": "Tabby",

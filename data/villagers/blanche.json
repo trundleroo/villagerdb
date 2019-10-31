@@ -3,8 +3,6 @@
   "species": "ostrich",
   "birthday": "12-21",
   "home_request": "A traditional tearoom",
-  "skill": "Dusting",
-  "goal": "Chef",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "Lots of milk",
@@ -16,7 +14,9 @@
       "personality": "snooty",
       "clothes": "Straw Shirt",
       "song": "K.K. Jongara",
-      "phrase": "quite so"
+      "phrase": "quite so",
+      "skill": "Dusting",
+      "goal": "Chef"
     }
   },
   "name": "Blanche",

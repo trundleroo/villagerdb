@@ -2,8 +2,6 @@
   "gender": "male",
   "species": "rhino",
   "birthday": "5-6",
-  "skill": "Doing push-ups",
-  "goal": "Cartoonist",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "No Milk",
@@ -51,19 +49,9 @@
       "personality": "jock",
       "clothes": "No. 1 Shirt",
       "song": "K.K. Lament",
-      "phrase": "kerPOW"
-    },
-    "hhd": {
-      "personality": "jock",
-      "clothes": "No. 1 Shirt",
-      "song": "K.K. Lament",
-      "phrase": "kerPOW"
-    },
-    "pc": {
-      "personality": "jock",
-      "clothes": "No. 1 Shirt",
-      "song": "K.K. Lament",
-      "phrase": "kerPOW"
+      "phrase": "kerPOW",
+      "skill": "Doing push-ups",
+      "goal": "Cartoonist"
     }
   },
   "name": "Tank",

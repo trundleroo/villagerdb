@@ -3,8 +3,6 @@
   "species": "bird",
   "birthday": "7-17",
   "home_request": "A bowling alley",
-  "skill": "Tongue Twisters",
-  "goal": "Race car driver",
   "coffee": {
     "beans": "Killimanjaro",
     "milk": "None at all",
@@ -52,19 +50,9 @@
       "personality": "jock",
       "clothes": "Six-Ball Tee",
       "song": "K.K. Waltz",
-      "phrase": "heeeeeyy"
-    },
-    "hhd": {
-      "personality": "jock",
-      "clothes": "Six-Ball Tee",
-      "song": "K.K. Waltz",
-      "phrase": "heeeeeyy"
-    },
-    "pc": {
-      "personality": "jock",
-      "clothes": "Six-Ball Tee",
-      "song": "K.K. Waltz",
-      "phrase": "heeeeeyy"
+      "phrase": "heeeeeyy",
+      "skill": "Tongue Twisters",
+      "goal": "Race car driver"
     }
   },
   "name": "Jay",

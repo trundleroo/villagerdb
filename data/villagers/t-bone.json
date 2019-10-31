@@ -3,8 +3,6 @@
   "species": "bull",
   "birthday": "5-20",
   "home_request": "A fire-filled hot spot",
-  "skill": "Pretending to sleep",
-  "goal": "Police officer",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "No milk",
@@ -37,7 +35,9 @@
       "personality": "cranky",
       "clothes": "Hanten Shirt",
       "song": "K.K. Steppe",
-      "phrase": "moocher"
+      "phrase": "moocher",
+      "skill": "Pretending to sleep",
+      "goal": "Police officer"
     }
   },
   "name": "T-bone",

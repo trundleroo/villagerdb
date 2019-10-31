@@ -3,8 +3,6 @@
   "species": "cat",
   "birthday": "12-10",
   "home_request": "A fighter's gym",
-  "skill": "Doing chin-ups",
-  "goal": "Guitarist",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "The regular amount of milk",
@@ -46,19 +44,9 @@
       "personality": "cranky",
       "clothes": "BB Tee",
       "song": "K.K. Rally",
-      "phrase": "me-YOWZA"
-    },
-    "hhd": {
-      "personality": "cranky",
-      "clothes": "BB Tee",
-      "song": "K.K. Rally",
-      "phrase": "me-YOWZA"
-    },
-    "pc": {
-      "personality": "cranky",
-      "clothes": "BB Tee",
-      "song": "K.K. Rally",
-      "phrase": "me-YOWZA"
+      "phrase": "me-YOWZA",
+      "skill": "Doing chin-ups",
+      "goal": "Guitarist"
     }
   },
   "name": "Tom",

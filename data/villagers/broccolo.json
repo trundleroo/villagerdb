@@ -3,8 +3,6 @@
   "species": "mouse",
   "birthday": "6-30",
   "home_request": "A bug house",
-  "skill": "Climbing trees",
-  "goal": "Movie director",
   "coffee": {
     "beans": "Blend",
     "milk": "The regular amount of milk",
@@ -28,19 +26,9 @@
       "personality": "lazy",
       "clothes": "Kiddie Tee",
       "song": "K.K. Ragtime",
-      "phrase": "eat it"
-    },
-    "hhd": {
-      "personality": "lazy",
-      "clothes": "Kiddie Tee",
-      "song": "K.K. Ragtime",
-      "phrase": "eat it"
-    },
-    "pc": {
-      "personality": "lazy",
-      "clothes": "Kiddie Tee",
-      "song": "K.K. Ragtime",
-      "phrase": "eat it"
+      "phrase": "eat it",
+      "skill": "Climbing trees",
+      "goal": "Movie director"
     }
   },
   "name": "Broccolo",

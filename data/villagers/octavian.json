@@ -3,8 +3,6 @@
   "species": "octopus",
   "birthday": "9-20",
   "home_request": "A squid-showdown citadel",
-  "skill": "Trivia",
-  "goal": "Fisherman",
   "coffee": {
     "beans": "Blend",
     "milk": "No milk",
@@ -52,19 +50,9 @@
       "personality": "cranky",
       "clothes": "Big-Star Tee",
       "song": "K.K. D & B",
-      "phrase": "sucker"
-    },
-    "hhd": {
-      "personality": "cranky",
-      "clothes": "Big-Star Tee",
-      "song": "K.K. D & B",
-      "phrase": "sucker"
-    },
-    "pc": {
-      "personality": "cranky",
-      "clothes": "Big-Star Tee",
-      "song": "K.K. D & B",
-      "phrase": "sucker"
+      "phrase": "sucker",
+      "skill": "Trivia",
+      "goal": "Fisherman"
     }
   },
   "name": "Octavian",

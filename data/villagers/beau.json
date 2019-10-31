@@ -3,8 +3,6 @@
   "species": "deer",
   "birthday": "4-5",
   "home_request": "A self-indulgent picnic spot",
-  "skill": "Staying awake",
-  "goal": "Mayor",
   "coffee": {
     "beans": "Mocha",
     "milk": "Lots of milk",
@@ -16,19 +14,9 @@
       "personality": "lazy",
       "clothes": "Deer Shirt",
       "song": "Mountain Song",
-      "phrase": "saltlick"
-    },
-    "hhd": {
-      "personality": "lazy",
-      "clothes": "Deer Shirt",
-      "song": "Mountain Song",
-      "phrase": "saltlick"
-    },
-    "pc": {
-      "personality": "lazy",
-      "clothes": "Deer Shirt",
-      "song": "Mountain Song",
-      "phrase": "saltlick"
+      "phrase": "saltlick",
+      "skill": "Staying awake",
+      "goal": "Mayor"
     }
   },
   "name": "Beau",

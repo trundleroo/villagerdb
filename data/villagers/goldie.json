@@ -3,8 +3,6 @@
   "species": "dog",
   "birthday": "12-27",
   "home_request": "A forest of books",
-  "skill": "Dusting",
-  "goal": "Dentist",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "Lots of milk",
@@ -49,17 +47,9 @@
       "personality": "normal",
       "clothes": "Dapper Tee",
       "song": "K.K. Bossa",
-      "phrase": "woof"
-    },
-    "pc": {
-      "personality": "normal",
-      "song": "K.K. Bossa",
-      "phrase": "woof"
-    },
-    "nh": {
-      "personality": "normal",
-      "song": "K.K. Bossa",
-      "phrase": "woof"
+      "phrase": "woof",
+      "skill": "Dusting",
+      "goal": "Dentist"
     }
   },
   "name": "Goldie",

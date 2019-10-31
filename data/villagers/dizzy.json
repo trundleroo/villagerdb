@@ -3,8 +3,6 @@
   "species": "elephant",
   "birthday": "7-14",
   "home_request": "A super-fun play space",
-  "skill": "Chugging milk",
-  "goal": "Journalist",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "Lots of milk",
@@ -52,7 +50,9 @@
       "personality": "lazy",
       "clothes": "No. 5 Shirt",
       "song": "K.K. Gumbo",
-      "phrase": "woo-oo"
+      "phrase": "woo-oo",
+      "skill": "Chugging milk",
+      "goal": "Journalist"
     }
   },
   "name": "Dizzy",

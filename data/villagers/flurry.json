@@ -3,8 +3,6 @@
   "species": "hamster",
   "birthday": "1-30",
   "home_request": "A winter wonderland",
-  "skill": "Peeling apples",
-  "goal": "Superhero",
   "coffee": {
     "beans": "Mocha",
     "milk": "None at all",
@@ -16,19 +14,9 @@
       "personality": "normal",
       "clothes": "Folk Shirt",
       "song": "Hypno K.K.",
-      "phrase": "powderpuff"
-    },
-    "hhd": {
-      "personality": "normal",
-      "clothes": "Folk Shirt",
-      "song": "Hypno K.K.",
-      "phrase": "powderpuff"
-    },
-    "pc": {
-      "personality": "normal",
-      "clothes": "Folk Shirt",
-      "song": "Hypno K.K.",
-      "phrase": "powderpuff"
+      "phrase": "powderpuff",
+      "skill": "Peeling apples",
+      "goal": "Superhero"
     }
   },
   "name": "Flurry",

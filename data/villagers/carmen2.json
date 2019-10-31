@@ -3,8 +3,6 @@
   "species": "rabbit",
   "birthday": "1-6",
   "home_request": "A chocolate overload",
-  "skill": "Ventriloquism",
-  "goal": "Movie director",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "Lots of milk",
@@ -22,12 +20,9 @@
       "personality": "peppy",
       "clothes": "Mint Gingham Tee",
       "song": "K.K. Technopop",
-      "phrase": "nougat"
-    },
-    "pc": {
-      "personality": "peppy",
-      "song": "K.K. Technopop",
-      "phrase": "nougat"
+      "phrase": "nougat",
+      "skill": "Ventriloquism",
+      "goal": "Movie director"
     }
   },
   "name": "Carmen",

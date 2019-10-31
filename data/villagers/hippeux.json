@@ -3,8 +3,6 @@
   "species": "hippo",
   "birthday": "10-15",
   "home_request": "An artist's studio",
-  "skill": "Juggling",
-  "goal": "Actor",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "Lots of milk",
@@ -16,13 +14,9 @@
       "personality": "smug",
       "clothes": "Beige Emblem Blazer",
       "song": "K.K. Moody",
-      "phrase": "Natch"
-    },
-    "pc": {
-      "personality": "smug",
-      "clothes": "Beige Emblem Blazer",
-      "song": "K.K. Moody",
-      "phrase": "Natch"
+      "phrase": "Natch",
+      "skill": "Juggling",
+      "goal": "Actor"
     }
   },
   "name": "Hippeux",

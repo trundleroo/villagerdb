@@ -2,8 +2,6 @@
   "gender": "female",
   "species": "elephant",
   "birthday": "5-12",
-  "skill": "Calculating tips",
-  "goal": "Dentist",
   "coffee": {
     "beans": "Mocha",
     "milk": "The regular amount of milk",
@@ -38,7 +36,9 @@
       "personality": "normal",
       "clothes": "Red Grid Tee",
       "song": "Cafe K.K.",
-      "phrase": "wee one"
+      "phrase": "wee one",
+      "skill": "Calculating tips",
+      "goal": "Dentist"
     }
   },
   "name": "Ellie",

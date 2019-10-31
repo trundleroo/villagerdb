@@ -3,8 +3,6 @@
   "species": "elephant",
   "birthday": "11-18",
   "home_request": "A space fit for a tea party",
-  "skill": "Writing letters",
-  "goal": "Dentist",
   "coffee": {
     "beans": "Mocha",
     "milk": "The regular amount of milk",
@@ -16,19 +14,9 @@
       "personality": "normal",
       "clothes": "Garden Tank",
       "song": "K.K. Marathon",
-      "phrase": "teacup"
-    },
-    "hhd": {
-      "personality": "normal",
-      "clothes": "Garden Tank",
-      "song": "K.K. Marathon",
-      "phrase": "teacup"
-    },
-    "pc": {
-      "personality": "normal",
-      "clothes": "Garden Tank",
-      "song": "K.K. Marathon",
-      "phrase": "teacup"
+      "phrase": "teacup",
+      "skill": "Writing letters",
+      "goal": "Dentist"
     }
   },
   "name": "Tia",

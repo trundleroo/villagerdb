@@ -3,8 +3,6 @@
   "species": "kangaroo",
   "birthday": "12-5",
   "home_request": "A garden for kids to play in",
-  "skill": "Making budgets",
-  "goal": "Illustrator",
   "coffee": {
     "beans": "Mocha",
     "milk": "none at all",
@@ -39,19 +37,9 @@
       "personality": "normal",
       "clothes": "Toad Tee",
       "song": "K.K. Lullaby",
-      "phrase": "little one"
-    },
-    "hhd": {
-      "personality": "normal",
-      "clothes": "Toad Tee",
-      "song": "K.K. Lullaby",
-      "phrase": "little one"
-    },
-    "pc": {
-      "personality": "normal",
-      "clothes": "Toad Tee",
-      "song": "K.K. Lullaby",
-      "phrase": "little one"
+      "phrase": "little one",
+      "skill": "Making budgets",
+      "goal": "Illustrator"
     }
   },
   "name": "Carrie",

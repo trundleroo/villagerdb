@@ -2,8 +2,6 @@
   "gender": "male",
   "species": "elephant",
   "birthday": "5-5",
-  "skill": "Competitive eating",
-  "goal": "Hair Stylist",
   "coffee": {
     "beans": "Mocha",
     "milk": "The regular amount of milk",
@@ -33,7 +31,9 @@
     "nl": {
       "personality": "lazy",
       "clothes": "Pastel-Stripe Tee",
-      "phrase": "pal"
+      "phrase": "pal",
+      "skill": "Competitive eating",
+      "goal": "Hair Stylist"
     }
   },
   "name": "Paolo",

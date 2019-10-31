@@ -3,8 +3,6 @@
   "species": "cat",
   "birthday": "3-27",
   "home_request": "A lecture hall",
-  "skill": "Peeling Apples",
-  "goal": "Chef",
   "coffee": {
     "beans": "Mocha",
     "milk": "Just a little bit of milk",
@@ -28,7 +26,9 @@
       "personality": "normal",
       "clothes": "Natty Tee",
       "song": "K.K. Stroll",
-      "phrase": "bonbon Ron-ron Kratz"
+      "phrase": "bonbon Ron-ron Kratz",
+      "skill": "Peeling Apples",
+      "goal": "Chef"
     }
   },
   "name": "Lolly",

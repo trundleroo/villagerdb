@@ -3,8 +3,6 @@
   "species": "penguin",
   "birthday": "4-6",
   "home_request": "A dharma dream",
-  "skill": "Mental math",
-  "goal": "Firefighter",
   "coffee": {
     "beans": "Mocha",
     "milk": "Lots of milk",
@@ -52,13 +50,9 @@
       "personality": "cranky",
       "clothes": "Dragon Suit",
       "song": "Lucky K.K.",
-      "phrase": "slushie"
-    },
-    "hhd": {
-      "personality": "cranky",
-      "clothes": "Dragon Suit",
-      "song": "Lucky K.K.",
-      "phrase": "slushie"
+      "phrase": "slushie",
+      "skill": "Mental math",
+      "goal": "Firefighter"
     }
   },
   "name": "Hopper",

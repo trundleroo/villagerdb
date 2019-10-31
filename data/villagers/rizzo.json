@@ -3,8 +3,6 @@
   "species": "mouse",
   "birthday": "1-17",
   "home_request": "A hideout",
-  "skill": "Subsistence living",
-  "goal": "Police officer",
   "coffee": {
     "beans": "Mocha",
     "milk": "No milk",
@@ -45,7 +43,9 @@
       "personality": "cranky",
       "clothes": "Ninja Shirt",
       "song": "K.K. Lament",
-      "phrase": "squee"
+      "phrase": "squee",
+      "skill": "Subsistence living",
+      "goal": "Police officer"
     }
   },
   "name": "Rizzo",

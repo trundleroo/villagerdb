@@ -3,8 +3,6 @@
   "species": "anteater",
   "birthday": "10-20",
   "home_request": "A place decorated simply",
-  "skill": "Playing horseshoes",
-  "goal": "Baseball player",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "Just a little bit of milk",
@@ -52,25 +50,9 @@
       "personality": "jock",
       "clothes": "Big-Star Tee",
       "song": "K.K. Faire",
-      "phrase": "honk"
-    },
-    "hhd": {
-      "personality": "jock",
-      "clothes": "Big-Star Tee",
-      "song": "K.K. Faire",
-      "phrase": "honk"
-    },
-    "pc": {
-      "personality": "jock",
-      "clothes": "Big-Star Tee",
-      "song": "K.K. Faire",
-      "phrase": "honk"
-    },
-    "nh": {
-      "personality": "jock",
-      "clothes": "Big-Star Tee",
-      "song": "K.K. Faire",
-      "phrase": "honk"
+      "phrase": "honk",
+      "skill": "Playing horseshoes",
+      "goal": "Baseball player"
     }
   },
   "name": "Antonio",

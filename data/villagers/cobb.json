@@ -3,8 +3,6 @@
   "species": "pig",
   "birthday": "10-7",
   "home_request": "A secret research lab",
-  "skill": "Debating",
-  "goal": "Teacher",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "A little bit of milk",
@@ -40,19 +38,9 @@
       "personality": "jock",
       "clothes": "Racer Tee",
       "song": "Pondering",
-      "phrase": "hot dog"
-    },
-    "hhd": {
-      "personality": "jock",
-      "clothes": "Racer Tee",
-      "song": "Pondering",
-      "phrase": "hot dog"
-    },
-    "pc": {
-      "personality": "jock",
-      "clothes": "Racer Tee",
-      "song": "Pondering",
-      "phrase": "hot dog"
+      "phrase": "hot dog",
+      "skill": "Debating",
+      "goal": "Teacher"
     }
   },
   "name": "Cobb",

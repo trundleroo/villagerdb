@@ -3,8 +3,6 @@
   "species": "horse",
   "birthday": "12-2",
   "home_request": "A stained-glass tearoom",
-  "skill": "Brainteasers",
-  "goal": "Chef",
   "coffee": {
     "beans": "Blend",
     "milk": "Lots of milk",
@@ -34,12 +32,9 @@
       "personality": "snooty",
       "clothes": "Tropical Tee",
       "song": "K.K. Sonata",
-      "phrase": "nipper"
-    },
-    "hhd": {
-      "personality": "snooty",
-      "song": "K.K. Sonata",
-      "phrase": "nipper"
+      "phrase": "nipper",
+      "skill": "Brainteasers",
+      "goal": "Chef"
     }
   },
   "name": "Annalise",

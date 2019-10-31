@@ -3,8 +3,6 @@
   "species": "dog",
   "birthday": "8-4",
   "home_request": "A second childhood",
-  "skill": "Telling jokes",
-  "goal": "Explorer",
   "coffee": {
     "beans": "Mocha",
     "milk": "The regular amount of milk",
@@ -52,7 +50,9 @@
       "personality": "lazy",
       "clothes": "Caveman Tank",
       "song": "Forest Life",
-      "phrase": "yip yip"
+      "phrase": "yip yip",
+      "skill": "Telling jokes",
+      "goal": "Explorer"
     }
   },
   "name": "Bones",

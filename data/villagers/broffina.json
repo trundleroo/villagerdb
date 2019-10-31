@@ -3,8 +3,6 @@
   "species": "chicken",
   "birthday": "10-24",
   "home_request": "A bus station.",
-  "skill": "Typing",
-  "goal": "Translator",
   "coffee": {
     "beans": "Blend",
     "milk": "Lots of milk",
@@ -16,13 +14,9 @@
       "personality": "snooty",
       "clothes": "Fiendish Shirt",
       "song": "K.K. Flamenco",
-      "phrase": "cluckadoo"
-    },
-    "hhd": {
-      "personality": "snooty",
-      "clothes": "Fiendish Shirt",
-      "song": "K.K. Flamenco",
-      "phrase": "cluckadoo"
+      "phrase": "cluckadoo",
+      "skill": "Typing",
+      "goal": "Translator"
     }
   },
   "name": "Broffina",

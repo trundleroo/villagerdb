@@ -3,8 +3,6 @@
   "species": "rabbit",
   "birthday": "1-21",
   "home_request": "A haunted house",
-  "skill": "Subsistence living",
-  "goal": "Politician",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "Lots of milk",
@@ -52,13 +50,9 @@
       "personality": "jock",
       "clothes": "Misty Tee",
       "song": "King K.K.",
-      "phrase": "otaku"
-    },
-    "hhd": {
-      "personality": "jock",
-      "clothes": "Misty Tee",
-      "song": "King K.K.",
-      "phrase": "otaku"
+      "phrase": "otaku",
+      "skill": "Subsistence living",
+      "goal": "Politician"
     }
   },
   "name": "Genji",

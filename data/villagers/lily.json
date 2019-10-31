@@ -3,8 +3,6 @@
   "species": "frog",
   "birthday": "2-4",
   "home_request": "A zen space with moist air",
-  "skill": "Calligraphy",
-  "goal": "Professor",
   "coffee": {
     "beans": "Mocha",
     "milk": "Just a little bit of milk",
@@ -52,25 +50,9 @@
       "personality": "normal",
       "clothes": "Icy Shirt",
       "song": "K.K. Salsa",
-      "phrase": "toady"
-    },
-    "hhd": {
-      "personality": "normal",
-      "clothes": "Icy Shirt",
-      "song": "K.K. Salsa",
-      "phrase": "toady"
-    },
-    "pc": {
-      "personality": "normal",
-      "clothes": "Icy Shirt",
-      "song": "K.K. Salsa",
-      "phrase": "toady"
-    },
-    "nh": {
-      "personality": "normal",
-      "clothes": "Icy Shirt",
-      "song": "K.K. Salsa",
-      "phrase": "toady"
+      "phrase": "toady",
+      "skill": "Calligraphy",
+      "goal": "Professor"
     }
   },
   "name": "Lily",

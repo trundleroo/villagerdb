@@ -3,8 +3,6 @@
   "species": "bull",
   "birthday": "10-29",
   "home_request": "A milk factory",
-  "skill": "Spoon bending",
-  "goal": "Astronaut",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "The regular amount of milk",
@@ -28,19 +26,9 @@
       "personality": "lazy",
       "clothes": "Beatnik Tee",
       "song": "Stale Cupcakes",
-      "phrase": "chaps"
-    },
-    "hhd": {
-      "personality": "lazy",
-      "clothes": "Beatnik Tee",
-      "song": "Stale Cupcakes",
-      "phrase": "chaps"
-    },
-    "pc": {
-      "personality": "lazy",
-      "clothes": "Beatnik Tee",
-      "song": "Stale Cupcakes",
-      "phrase": "chaps"
+      "phrase": "chaps",
+      "skill": "Spoon bending",
+      "goal": "Astronaut"
     }
   },
   "name": "Rodeo",

@@ -3,8 +3,6 @@
   "species": "duck",
   "birthday": "12-22",
   "home_request": "A recording studio",
-  "skill": "Skimming books",
-  "goal": "Musician",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "Just a little bit of milk",
@@ -16,7 +14,9 @@
       "personality": "smug",
       "clothes": "Tan Puffy Vest",
       "song": "K.K. Groove",
-      "phrase": "ridukulous"
+      "phrase": "ridukulous",
+      "skill": "Skimming books",
+      "goal": "Musician"
     }
   },
   "name": "Quillson",

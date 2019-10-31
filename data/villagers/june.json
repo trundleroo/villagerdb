@@ -2,8 +2,6 @@
   "gender": "female",
   "species": "cub",
   "birthday": "5-21",
-  "skill": "Photography",
-  "goal": "Pharmacist",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "No milk",
@@ -30,12 +28,9 @@
       "personality": "normal",
       "clothes": "Garden Tank",
       "song": "K.K. Aria",
-      "phrase": "rainbow"
-    },
-    "pc": {
-      "personality": "normal",
-      "song": "K.K. Aria",
-      "phrase": "rainbow"
+      "phrase": "rainbow",
+      "skill": "Photography",
+      "goal": "Pharmacist"
     }
   },
   "name": "June",

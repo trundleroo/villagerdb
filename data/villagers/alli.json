@@ -3,8 +3,6 @@
   "species": "alligator",
   "birthday": "11-8",
   "home_request": "A mushroom manor",
-  "skill": "Yo-Yoing",
-  "goal": "Stylist",
   "coffee": {
     "beans": "Mocha",
     "milk": "The regular amount of milk",
@@ -52,7 +50,9 @@
       "personality": "snooty",
       "clothes": "Leopard Tee",
       "song": "K.K. Chorale",
-      "phrase": "graaagh"
+      "phrase": "graaagh",
+      "skill": "Yo-Yoing",
+      "goal": "Stylist"
     }
   },
   "name": "Alli",

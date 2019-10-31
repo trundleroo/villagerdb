@@ -3,8 +3,6 @@
   "species": "pig",
   "birthday": "10-13",
   "home_request": "A king's chamber",
-  "skill": "Making crafts",
-  "goal": "Politician",
   "coffee": {
     "beans": "Mocha",
     "milk": "No milk",
@@ -16,13 +14,9 @@
       "personality": "smug",
       "clothes": "Red Ringmaster Coat",
       "song": "K.K. Moody",
-      "phrase": "Zoink"
-    },
-    "hhd": {
-      "personality": "smug",
-      "clothes": "Red Ringmaster Coat",
-      "song": "K.K. Moody",
-      "phrase": "Zoink"
+      "phrase": "Zoink",
+      "skill": "Making crafts",
+      "goal": "Politician"
     }
   },
   "name": "Chops",

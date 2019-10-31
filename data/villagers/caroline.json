@@ -3,8 +3,6 @@
   "species": "squirrel",
   "birthday": "7-15",
   "home_request": "A rustic ranch house",
-  "skill": "Yo-yoing",
-  "goal": "Volleyball player",
   "coffee": {
     "beans": "Kilamanjaro",
     "milk": "A little bit of milk",
@@ -28,7 +26,9 @@
       "personality": "normal",
       "clothes": "Gelato Tee",
       "song": "DJ K.K.",
-      "phrase": "hulaaaa"
+      "phrase": "hulaaaa",
+      "skill": "Yo-yoing",
+      "goal": "Volleyball player"
     }
   },
   "name": "Caroline",

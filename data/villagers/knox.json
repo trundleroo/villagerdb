@@ -3,8 +3,6 @@
   "species": "chicken",
   "birthday": "11-23",
   "home_request": "A battle enthusiast's abode",
-  "skill": "Calculating tips",
-  "goal": "Firefighter",
   "coffee": {
     "beans": "Blend",
     "milk": "Lots of milk",
@@ -22,7 +20,9 @@
       "personality": "cranky",
       "clothes": "Cavalier Shirt",
       "song": "K.K. Aria",
-      "phrase": "cluckling"
+      "phrase": "cluckling",
+      "skill": "Calculating tips",
+      "goal": "Firefighter"
     }
   },
   "name": "Knox",

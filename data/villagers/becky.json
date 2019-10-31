@@ -3,8 +3,6 @@
   "species": "chicken",
   "birthday": "12-9",
   "home_request": "A classical conservatory",
-  "skill": "Writing letters",
-  "goal": "Singer",
   "coffee": {
     "beans": "Mocha",
     "milk": "Just a little bit of milk",
@@ -28,7 +26,9 @@
       "personality": "snooty",
       "clothes": "Noble Shirt",
       "song": "K.K. Aria",
-      "phrase": "chicklet"
+      "phrase": "chicklet",
+      "skill": "Writing letters",
+      "goal": "Singer"
     }
   },
   "name": "Becky",

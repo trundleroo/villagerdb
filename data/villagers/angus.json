@@ -3,8 +3,6 @@
   "species": "bull",
   "birthday": "4-30",
   "home_request": "A salty seaside shack",
-  "skill": "Doing handstands",
-  "goal": "Forest Ranger",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "No milk",
@@ -52,25 +50,9 @@
       "personality": "cranky",
       "clothes": "Flame Tee",
       "song": "Senor K.K.",
-      "phrase": "macmoo"
-    },
-    "hhd": {
-      "personality": "cranky",
-      "clothes": "Flame Tee",
-      "song": "Senor K.K.",
-      "phrase": "macmoo"
-    },
-    "pc": {
-      "personality": "cranky",
-      "clothes": "Flame Tee",
-      "song": "Senor K.K.",
-      "phrase": "macmoo"
-    },
-    "nh": {
-      "personality": "cranky",
-      "clothes": "Flame Tee",
-      "song": "Senor K.K.",
-      "phrase": "macmoo"
+      "phrase": "macmoo",
+      "skill": "Doing handstands",
+      "goal": "Forest Ranger"
     }
   },
   "name": "Angus",

@@ -3,8 +3,6 @@
   "species": "bear",
   "birthday": "9-15",
   "home_request": "A cool place to chill out",
-  "skill": "Typing",
-  "goal": "Teacher",
   "coffee": {
     "beans": "Blend",
     "milk": "The regular amount of milk",
@@ -46,7 +44,9 @@
       "personality": "peppy",
       "clothes": "Heart Tee",
       "song": "K.K. Steppe",
-      "phrase": "twinkles"
+      "phrase": "twinkles",
+      "skill": "Typing",
+      "goal": "Teacher"
     }
   },
   "name": "Tutu",

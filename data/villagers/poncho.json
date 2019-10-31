@@ -3,8 +3,6 @@
   "species": "cub",
   "birthday": "1-2",
   "home_request": "A wild west space",
-  "skill": "Making puns",
-  "goal": "Astronaut",
   "coffee": {
     "beans": "Mocha",
     "milk": "Lots of milk",
@@ -52,7 +50,9 @@
       "personality": "jock",
       "clothes": "Blue-Grid Tee",
       "song": "K.K. Condor",
-      "phrase": "li'l bear"
+      "phrase": "li'l bear",
+      "skill": "Making puns",
+      "goal": "Astronaut"
     }
   },
   "name": "Poncho",

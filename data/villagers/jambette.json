@@ -3,8 +3,6 @@
   "species": "frog",
   "birthday": "10-27",
   "home_request": "A dressing room",
-  "skill": "Ventriloquism",
-  "goal": "Artist",
   "coffee": {
     "beans": "Mocha",
     "milk": "Just a little bit of milk",
@@ -46,7 +44,9 @@
       "personality": "normal",
       "clothes": "Prism Tee",
       "song": "K.K. Country",
-      "phrase": "croak-kay"
+      "phrase": "croak-kay",
+      "skill": "Ventriloquism",
+      "goal": "Artist"
     }
   },
   "name": "Jambette",

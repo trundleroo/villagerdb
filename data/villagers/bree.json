@@ -3,8 +3,6 @@
   "species": "mouse",
   "birthday": "7-7",
   "home_request": "A tidied-up home",
-  "skill": "Doodling",
-  "goal": "Dermatologist",
   "coffee": {
     "beans": "Blend",
     "milk": "The regular amount of milk",
@@ -43,18 +41,6 @@
       "phrase": "cheeseball"
     },
     "cf": {
-      "personality": "snooty",
-      "clothes": "Floral Knit Tee",
-      "song": "Two Days Ago",
-      "phrase": "cheeseball"
-    },
-    "hhd": {
-      "personality": "snooty",
-      "clothes": "Floral Knit Tee",
-      "song": "Two Days Ago",
-      "phrase": "cheeseball"
-    },
-    "pc": {
       "personality": "snooty",
       "clothes": "Floral Knit Tee",
       "song": "Two Days Ago",

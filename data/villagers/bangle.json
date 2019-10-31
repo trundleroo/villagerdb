@@ -3,8 +3,6 @@
   "species": "tiger",
   "birthday": "8-27",
   "home_request": "An animal-print showcase",
-  "skill": "Tongue twisters",
-  "goal": "President",
   "coffee": {
     "beans": "Mocha",
     "milk": "A little bit of milk",
@@ -40,7 +38,9 @@
       "personality": "peppy",
       "clothes": "Pop Bloom Tee",
       "song": "K.K. Soul",
-      "phrase": "growf"
+      "phrase": "growf",
+      "skill": "Tongue twisters",
+      "goal": "President"
     }
   },
   "name": "Bangle",

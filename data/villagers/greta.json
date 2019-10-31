@@ -3,8 +3,6 @@
   "species": "mouse",
   "birthday": "9-5",
   "home_request": "A hot-springs spa",
-  "skill": "Playing horseshoes",
-  "goal": "Florist",
   "coffee": {
     "beans": "Mocha",
     "milk": "No milk",
@@ -16,7 +14,9 @@
       "personality": "snooty",
       "clothes": "Blossom Tee",
       "song": "K.K. Jongara",
-      "phrase": "yelp"
+      "phrase": "yelp",
+      "skill": "Playing horseshoes",
+      "goal": "Florist"
     }
   },
   "name": "Greta",

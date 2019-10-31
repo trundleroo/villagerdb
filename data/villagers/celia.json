@@ -3,8 +3,6 @@
   "species": "eagle",
   "birthday": "3-25",
   "home_request": "A royal chamber",
-  "skill": "Brainteasers",
-  "goal": "Florist",
   "coffee": {
     "beans": "Mocha",
     "milk": "The regular amount of milk",
@@ -16,19 +14,9 @@
       "personality": "normal",
       "clothes": "Loud-Bloom Tee",
       "song": "K.K. Aria",
-      "phrase": "feathers"
-    },
-    "hhd": {
-      "personality": "normal",
-      "clothes": "Loud-Bloom Tee",
-      "song": "K.K. Aria",
-      "phrase": "feathers"
-    },
-    "pc": {
-      "personality": "normal",
-      "clothes": "Loud-Bloom Tee",
-      "song": "K.K. Aria",
-      "phrase": "feathers"
+      "phrase": "feathers",
+      "skill": "Brainteasers",
+      "goal": "Florist"
     }
   },
   "name": "Celia",

@@ -3,8 +3,6 @@
   "species": "hippo",
   "birthday": "9-18",
   "home_request": "An indoor beach",
-  "skill": "Limboing",
-  "goal": "Volleyball player",
   "coffee": {
     "beans": "Mocha",
     "milk": "No milk",
@@ -40,7 +38,9 @@
       "personality": "peppy",
       "clothes": "Grape Tee",
       "song": "K.K. Stroll",
-      "phrase": "hipster"
+      "phrase": "hipster",
+      "skill": "Limboing",
+      "goal": "Volleyball player"
     }
   },
   "name": "Bubbles",

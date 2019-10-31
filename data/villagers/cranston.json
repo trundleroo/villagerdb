@@ -3,8 +3,6 @@
   "species": "ostrich",
   "birthday": "9-23",
   "home_request": "A place to grow rice",
-  "skill": "Backflipping",
-  "goal": "CEO",
   "coffee": {
     "beans": "Blend",
     "milk": "None at all",
@@ -16,7 +14,9 @@
       "personality": "lazy",
       "clothes": "Lotus Tee",
       "song": "Steep Hill",
-      "phrase": "sweatband"
+      "phrase": "sweatband",
+      "skill": "Backflipping",
+      "goal": "CEO"
     }
   },
   "name": "Cranston",

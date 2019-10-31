@@ -3,8 +3,6 @@
   "species": "cub",
   "birthday": "2-10",
   "home_request": "A colorful toybox",
-  "skill": "Forgetting stuff",
-  "goal": "Lawyer",
   "coffee": {
     "beans": "Blend",
     "milk": "Just a little bit of milk",
@@ -28,19 +26,9 @@
       "personality": "lazy",
       "clothes": "Star Tee",
       "song": "K.K. Lullaby",
-      "phrase": "stuffin'"
-    },
-    "hhd": {
-      "personality": "lazy",
-      "clothes": "Star Tee",
-      "song": "K.K. Lullaby",
-      "phrase": "stuffin'"
-    },
-    "pc": {
-      "personality": "lazy",
-      "clothes": "Star Tee",
-      "song": "K.K. Lullaby",
-      "phrase": "stuffin'"
+      "phrase": "stuffin'",
+      "skill": "Forgetting stuff",
+      "goal": "Lawyer"
     }
   },
   "name": "Stitches",

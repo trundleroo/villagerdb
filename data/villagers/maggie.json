@@ -3,8 +3,6 @@
   "species": "pig",
   "birthday": "9-3",
   "home_request": "Garage code",
-  "skill": "Memorizing stuff",
-  "goal": "Gymnast",
   "coffee": {
     "beans": "Blend",
     "milk": "The regular amount of milk",
@@ -21,7 +19,9 @@
       "personality": "normal",
       "clothes": "Mint Shirt",
       "song": "Forest Life",
-      "phrase": "schep"
+      "phrase": "schep",
+      "skill": "Memorizing stuff",
+      "goal": "Gymnast"
     }
   },
   "name": "Maggie",

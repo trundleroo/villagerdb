@@ -3,8 +3,6 @@
   "species": "rabbit",
   "birthday": "8-10",
   "home_request": "A tropical resort",
-  "skill": "Drawing circles",
-  "goal": "Painter",
   "coffee": {
     "beans": "Blend",
     "milk": "No milk",
@@ -16,13 +14,9 @@
       "personality": "lazy",
       "clothes": "Citrus Tee",
       "song": "Spring Blossoms",
-      "phrase": "duuude"
-    },
-    "hhd": {
-      "personality": "lazy",
-      "clothes": "Citrus Tee",
-      "song": "Spring Blossoms",
-      "phrase": "duuude"
+      "phrase": "duuude",
+      "skill": "Drawing circles",
+      "goal": "Painter"
     }
   },
   "name": "Cole",

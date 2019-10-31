@@ -2,8 +2,6 @@
   "gender": "female",
   "species": "sheep",
   "birthday": "4-9",
-  "skill": "Magic tricks",
-  "goal": "Professor",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "Lots of milk",
@@ -38,7 +36,9 @@
       "personality": "normal",
       "clothes": "Aurora Knit",
       "song": "Only Me",
-      "phrase": "baa-dabing"
+      "phrase": "baa-dabing",
+      "skill": "Magic tricks",
+      "goal": "Professor"
     }
   },
   "name": "Stella",

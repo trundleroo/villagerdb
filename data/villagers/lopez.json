@@ -3,8 +3,6 @@
   "species": "deer",
   "birthday": "8-20",
   "home_request": "A stylish space",
-  "skill": "Debating",
-  "goal": "CEO",
   "coffee": {
     "beans": "Blend",
     "milk": "Just a little bit of milk",
@@ -16,19 +14,9 @@
       "personality": "smug",
       "clothes": "Brown-Bar Tee",
       "song": "K.K. Milonga",
-      "phrase": "buckaroo"
-    },
-    "hhd": {
-      "personality": "smug",
-      "clothes": "Brown-Bar Tee",
-      "song": "K.K. Milonga",
-      "phrase": "buckaroo"
-    },
-    "nh": {
-      "personality": "smug",
-      "clothes": "Brown-Bar Tee",
-      "song": "K.K. Milonga",
-      "phrase": "buckaroo"
+      "phrase": "buckaroo",
+      "skill": "Debating",
+      "goal": "CEO"
     }
   },
   "name": "Lopez",

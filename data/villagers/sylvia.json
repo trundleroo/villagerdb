@@ -3,8 +3,6 @@
   "species": "kangaroo",
   "birthday": "5-3",
   "home_request": "A place with a pool.",
-  "skill": "Playing Jacks",
-  "goal": "Tour Guide",
   "coffee": {
     "beans": "Mocha",
     "milk": "No milk",
@@ -22,7 +20,9 @@
       "personality": "uchi",
       "clothes": "Yellow Aloha Tee",
       "song": "Rockin' K.K.",
-      "phrase": "ne"
+      "phrase": "ne",
+      "skill": "Playing Jacks",
+      "goal": "Tour Guide"
     }
   },
   "name": "Sylvia",

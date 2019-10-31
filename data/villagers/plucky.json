@@ -2,8 +2,6 @@
   "gender": "female",
   "species": "chicken",
   "birthday": "10-12",
-  "skill": "Hula dancing",
-  "goal": "Dancer",
   "coffee": {
     "beans": "Mocha",
     "milk": "A little bit of milk",
@@ -30,7 +28,9 @@
       "personality": "uchi",
       "clothes": "Cool Tank",
       "song": "K.K. Island",
-      "phrase": "chicky poo"
+      "phrase": "chicky poo",
+      "skill": "Hula dancing",
+      "goal": "Dancer"
     }
   },
   "name": "Plucky",

@@ -2,8 +2,6 @@
   "gender": "female",
   "species": "mouse",
   "birthday": "4-13",
-  "skill": "Home repair",
-  "goal": "Judge",
   "coffee": {
     "beans": "Kilimanjaro",
     "milk": "Lots of milk",
@@ -36,7 +34,9 @@
       "personality": "peppy",
       "clothes": "Deer Shirt",
       "song": "K.K. Ragtime",
-      "phrase": "sweetie"
+      "phrase": "sweetie",
+      "skill": "Home repair",
+      "goal": "Judge"
     }
   },
   "name": "Candi",

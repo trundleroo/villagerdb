@@ -3,8 +3,6 @@
   "species": "mouse",
   "birthday": "7-5",
   "home_request": "A room with treasure",
-  "skill": "Eating frequently",
-  "goal": "Photographer",
   "coffee": {
     "beans": "Mocha",
     "milk": "No milk",
@@ -52,7 +50,9 @@
       "personality": "jock",
       "clothes": "Airy Tee",
       "song": "Go K.K. Rider!",
-      "phrase": "pipsqueak"
+      "phrase": "pipsqueak",
+      "skill": "Eating frequently",
+      "goal": "Photographer"
     }
   },
   "name": "Samson",

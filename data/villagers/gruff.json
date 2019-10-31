@@ -3,8 +3,6 @@
   "species": "goat",
   "birthday": "8-29",
   "home_request": "A classic barbershop",
-  "skill": "Staying up late",
-  "goal": "Musician",
   "coffee": {
     "beans": "Blend",
     "milk": "Just a little bit of milk",
@@ -40,7 +38,9 @@
       "personality": "cranky",
       "clothes": "Big-Star Tee",
       "song": "K.K. Rockabilly",
-      "phrase": "bleh eh eh"
+      "phrase": "bleh eh eh",
+      "skill": "Staying up late",
+      "goal": "Musician"
     }
   },
   "name": "Gruff",

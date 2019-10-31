@@ -3,8 +3,6 @@
   "species": "bird",
   "birthday": "6-22",
   "home_request": "A hip music room",
-  "skill": "Beat boxing",
-  "goal": "Singer",
   "coffee": {
     "beans": "Blend",
     "milk": "Lots of milk",
@@ -16,19 +14,9 @@
       "personality": "smug",
       "clothes": "Red Flannel Shirt",
       "song": "K.K. House",
-      "phrase": "zut alors"
-    },
-    "hhd": {
-      "personality": "smug",
-      "clothes": "Red Flannel Shirt",
-      "song": "K.K. House",
-      "phrase": "zut alors"
-    },
-    "pc": {
-      "personality": "smug",
-      "clothes": "Red Flannel Shirt",
-      "song": "K.K. House",
-      "phrase": "zut alors"
+      "phrase": "zut alors",
+      "skill": "Beat boxing",
+      "goal": "Singer"
     }
   },
   "name": "Jacques",

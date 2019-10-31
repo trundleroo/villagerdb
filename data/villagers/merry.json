@@ -3,8 +3,6 @@
   "species": "cat",
   "birthday": "6-29",
   "home_request": "An artsy room for sketching",
-  "skill": "Vaulting",
-  "goal": "Figure Skater",
   "coffee": {
     "beans": "Blue Mountain",
     "milk": "The regular amount of milk",
@@ -28,13 +26,9 @@
       "personality": "peppy",
       "clothes": "Daisy Tee",
       "song": "DJ K.K.",
-      "phrase": "mweee"
-    },
-    "pc": {
-      "personality": "peppy",
-      "clothes": "Daisy Tee",
-      "song": "DJ K.K.",
-      "phrase": "mweee"
+      "phrase": "mweee",
+      "skill": "Vaulting",
+      "goal": "Figure Skater"
     }
   },
   "name": "Merry",
