@@ -140,7 +140,9 @@ class Villagers {
         do {
             const result = await this.redisClient.scanAsync(cursor, 'MATCH', this.keyPrefix + '*', 'COUNT', 100);
             cursor = result[0];
-            await this.redisClient.delAsync(result[1]);
+            if (cursor != 0) {
+                await this.redisClient.delAsync(result[1]);
+            }
         } while (cursor != 0);
 
         // Loop through each file and add it to the database with the proper key prefix.
