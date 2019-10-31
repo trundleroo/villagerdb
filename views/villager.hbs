@@ -14,15 +14,15 @@
             </thead>
             <tbody>
             <tr>
-                <td class="bg-dark text-light">Species</td>
+                <td class="bg-dark text-light font-weight-bold">Species</td>
                 <td>{{species}}</td>
             </tr>
             <tr>
-                <td class="bg-dark text-light">Gender</td>
+                <td class="bg-dark text-light font-weight-bold">Gender</td>
                 <td>{{gender}}</td>
             </tr>
             <tr>
-                <td class="bg-dark text-light">Birthday</td>
+                <td class="bg-dark text-light font-weight-bold">Birthday</td>
                 <td>{{birthday}} ({{zodiac}})</td>
             </tr>
             </tbody>
@@ -44,17 +44,36 @@
             </tbody>
         </table>
     </div>
+
     <div class="col-sm-12 col-md-8 order-md-1 order-sm-12">
-        <h2>Summary</h2>
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+
+            </div>
+            <div class="col-sm-12 col-md-6">
+
+            </div>
+        </div>
+
+        <h2 class="sr-only">Summary</h2>
         <p>{{paragraph}}</p>
 
-        {{> villagerGameData shouldDisplay=hasPersonalities title="Personality Information" valueName="personality"
-            array=personalities}}
-
-        {{> villagerGameData shouldDisplay=hasClothing title="Clothing" valueName="Clothes" array=clothing}}
-
-        {{> villagerGameData shouldDisplay=hasPhrases title="Phrases" valueName="Phrase" array=phrases }}
-
-        {{> villagerGameData shouldDisplay=hasSongs title="Songs" valueName="Song" array=songs }}
+        <div class="row">
+            <div class="col-sm-12 col-lg-6">
+                {{> villagerGameData shouldDisplay=hasPersonalities title="Personality" valueName="personality"
+                        array=personalities}}
+            </div>
+            <div class="col-sm-12 col-lg-6">
+                {{> villagerGameData shouldDisplay=hasClothing title="Clothing" valueName="Clothes" array=clothing}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-lg-6">
+                {{> villagerGameData shouldDisplay=hasPhrases title="Phrases" valueName="Phrase" array=phrases }}
+            </div>
+            <div class="col-sm-12 col-lg-6">
+                {{> villagerGameData shouldDisplay=hasSongs title="Songs" valueName="Song" array=songs }}
+            </div>
+        </div>
     </div>
 </div>
