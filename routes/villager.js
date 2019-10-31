@@ -3,6 +3,25 @@ const router = express.Router();
 const formatUtil = require('../db/util/format.js');
 
 /**
+ * Return a <word> or an <word> depending on first character.
+ *
+ * @param word
+ * @returns {string}
+ */
+function aOrAn(word) {
+    if (word.length === 0) {
+        return '';
+    }
+
+    const firstChar = word[0].toLowerCase();
+    if (firstChar === 'a' || firstChar === 'e' || firstChar === 'i' || firstChar === 'o' || firstChar === 'u') {
+        return 'an ' + word;
+    }
+
+    return 'a ' + word;
+}
+
+/**
  * Find the latest game a villager was featured in.
  *
  * @param villager
@@ -47,16 +66,18 @@ function generateParagraph(villager, formattedVillager) {
     let zodiac = formattedVillager.zodiac;
 
     // Build paragraph
-    let paragraph = name + ' is a ' + personality + ' ' + species + ' villager. ' +
+    let paragraph = name + ' is ' + aOrAn(personality.toLowerCase()) + ' ' + species + ' villager. ' +
         formatUtil.capFirstLetter(pronoun) + ' was born on ' + birthday + ' and ' + posessivePronoun +
         ' star sign  is ' + zodiac + '. ';
     paragraph += name + ' wears the ' + gameData.clothes + ' in ' + latestGameTitle + '. ';
-    paragraph += posessive + ' favorite song is ' + gameData.song + ' in ' + latestGameTitle + '. ';
+    paragraph += formatUtil.capFirstLetter(posessivePronoun) + ' favorite song is ' + gameData.song + ' in ' +
+        latestGameTitle + '. ';
+
     if (gameData.goal) {
-        paragraph += posessive + ' life goal is ' + gameData.goal.toLowerCase() + '. ';
+        paragraph += posessive + ' goal is to be ' + aOrAn(gameData.goal.toLowerCase()) + '. ';
     }
     if (gameData.skill) {
-        paragraph += name + ' is talented at ' + gameData.skill.toLowerCase() + '. ';
+        paragraph += formatUtil.capFirstLetter(pronoun) + ' is talented at ' + gameData.skill.toLowerCase() + '. ';
     }
     if (gameData.style) {
         paragraph += formatUtil.capFirstLetter(posessivePronoun) + ' style is ' + gameData.style.toLowerCase() + '.';
