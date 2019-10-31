@@ -1,5 +1,6 @@
 const express = require('express');
 const router = express.Router();
+const formatUtil = require('../db/util/format.js');
 
 /**
  * Number of entities per page on any result page.
@@ -25,6 +26,10 @@ async function loadVillagers(collection, pageNumber) {
 
     // Load the results.
     resultSet.results = await collection.getByRange(resultSet.startIndex - 1, resultSet.endIndex - 1);
+    for (let i = 0; i < resultSet.results.length; i++) {
+        resultSet.results[i] = formatUtil.formatVillager(resultSet.results[i]);
+    }
+
     resultSet.pageTotal = resultSet.results.length;
     resultSet.hasResults = (resultSet.pageTotal > 0);
 
@@ -51,8 +56,12 @@ async function findVillagers(collection, searchQuery, pageNumber) {
     resultSet.searchQuery = searchQuery;
     resultSet.searchQueryString = encodeURI(searchQuery);
 
-    // Now load actual result objects for this page only.
+    // Now load actual result objects for this page only, and format them.
     resultSet.results = await collection.getByIds(keys.slice(resultSet.startIndex - 1, resultSet.endIndex));
+    for (let i = 0; i < resultSet.results.length; i++) {
+        resultSet.results[i] = formatUtil.formatVillager(resultSet.results[i]);
+    }
+
     resultSet.pageTotal = resultSet.results.length;
     resultSet.hasResults = (resultSet.pageTotal > 0);
 

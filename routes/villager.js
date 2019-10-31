@@ -44,12 +44,12 @@ function generateParagraph(villager, formattedVillager) {
     let personality = gameData.personality;
     let birthday = formattedVillager.birthday;
     let latestGameTitle = formatUtil.games[latestGameId].title;
-    let astrologicalSign = 'Aquarius';
+    let zodiac = formattedVillager.zodiac;
 
     // Build paragraph
     let paragraph = name + ' is a ' + personality + ' ' + species + ' villager. ' +
-        formatUtil.capFirstLetter(pronoun) + ' was born on ' + birthday + ' and has star sign ' +
-        astrologicalSign + '. ';
+        formatUtil.capFirstLetter(pronoun) + ' was born on ' + birthday + ' and ' + posessivePronoun +
+        ' star sign  is ' + zodiac + '. ';
     paragraph += name + ' wears the ' + gameData.clothes + ' in ' + latestGameTitle + '. ';
     paragraph += posessive + ' favorite song is ' + gameData.song + ' in ' + latestGameTitle + '. ';
     if (gameData.goal) {
@@ -77,12 +77,13 @@ function compressGameData(games, property) {
 
     let lastValue = undefined;
     for (let game in games) {
-        let newValue = games[game][property];
+        // Do a case insensitive compare without any extra spaces.
+        let newValue = games[game][property].trim().toLowerCase().replace(/\s+/g, ' ');
         if (newValue) {
             if (newValue !== lastValue) {
                 result.push({
                     title: games[game].title,
-                    value: newValue
+                    value: games[game][property]
                 });
                 lastValue = newValue;
             }

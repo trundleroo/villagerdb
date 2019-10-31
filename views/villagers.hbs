@@ -23,24 +23,24 @@
             {{#each resultSet.results}}
                 <tr>
                     <td class="result-image">
-                        <a href="/villager/{{this.id}}">
-                            <img src="/images/villagers/thumb/{{this.id}}.png" alt="Picture of {{this.name}}"
+                        <a href="/villager/{{id}}">
+                            <img src="/images/villagers/thumb/{{id}}.png" alt="Picture of {{name}}"
                                  class="img-responsive"/>
                         </a>
                     </td>
                     <td>
-                        <a href="/villager/{{this.id}}">
-                            {{this.name}}
+                        <a href="/villager/{{id}}">
+                            {{name}}
                         </a>
                     </td>
                     <td>
-                        {{this.gender}}
+                        {{gender}}
                     </td>
                     <td>
-                        {{this.species}}
+                        {{species}}
                     </td>
                     <td>
-                        {{this.birthday}}
+                        {{birthday}} ({{zodiac}})
                     </td>
                 </tr>
             {{/each}}
