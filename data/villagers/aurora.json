@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Official",
   "games": {
     "af": {
       "personality": "normal",
@@ -49,7 +48,8 @@
       "song": "K.K. Gumbo",
       "phrase": "b-b-baby",
       "skill": "Making Budgets",
-      "goal": "Doctor"
+      "goal": "Doctor",
+      "style": "Official"
     }
   },
   "name": "Aurora",

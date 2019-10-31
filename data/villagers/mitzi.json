@@ -8,7 +8,6 @@
     "milk": "Just a little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Historical",
   "games": {
     "af": {
       "personality": "normal",
@@ -52,7 +51,8 @@
       "song": "K.K. Swing",
       "phrase": "mew",
       "skill": "Hula Dancing",
-      "goal": "Lawyer"
+      "goal": "Lawyer",
+      "style": "Historical"
     }
   },
   "name": "Mitzi",

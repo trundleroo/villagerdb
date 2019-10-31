@@ -8,7 +8,6 @@
     "milk": "A little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Rock 'n' roll",
   "games": {
     "af": {
       "personality": "snooty",
@@ -46,7 +45,8 @@
       "song": "Rockin' K.K.",
       "phrase": "uff da",
       "skill": "Peeling Apples",
-      "goal": "Judge"
+      "goal": "Judge",
+      "style": "Rock 'n' roll"
     }
   },
   "name": "Freya",

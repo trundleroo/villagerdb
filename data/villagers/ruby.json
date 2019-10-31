@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Modern",
   "games": {
     "ww": {
       "personality": "peppy",
@@ -28,7 +27,8 @@
       "song": "K.K. Ska",
       "phrase": "li'l ears",
       "skill": "Doing handstands",
-      "goal": "Photography"
+      "goal": "Photography",
+      "style": "Modern"
     }
   },
   "name": "Ruby",

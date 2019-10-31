@@ -7,7 +7,6 @@
     "milk": "A little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Official",
   "games": {
     "nl": {
       "personality": "lazy",
@@ -15,7 +14,8 @@
       "song": "Spring Blossoms",
       "phrase": "bloop",
       "skill": "Baton twirling",
-      "goal": "Chef"
+      "goal": "Chef",
+      "style": "Official"
     }
   },
   "name": "Zucker",

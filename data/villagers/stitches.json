@@ -8,7 +8,6 @@
     "milk": "Just a little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Flashy",
   "games": {
     "ww": {
       "personality": "lazy",
@@ -28,7 +27,8 @@
       "song": "K.K. Lullaby",
       "phrase": "stuffin'",
       "skill": "Forgetting stuff",
-      "goal": "Lawyer"
+      "goal": "Lawyer",
+      "style": "Flashy"
     }
   },
   "name": "Stitches",

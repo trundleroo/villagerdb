@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Cute",
   "games": {
     "af": {
       "personality": "peppy",
@@ -46,7 +45,8 @@
       "song": "K.K. Steppe",
       "phrase": "twinkles",
       "skill": "Typing",
-      "goal": "Teacher"
+      "goal": "Teacher",
+      "style": "Cute"
     }
   },
   "name": "Tutu",

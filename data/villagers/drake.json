@@ -8,7 +8,6 @@
     "milk": "None at all",
     "sugar": "None at all"
   },
-  "style": "Modern",
   "games": {
     "ww": {
       "personality": "lazy",
@@ -28,7 +27,8 @@
       "song": "K.K. Blues",
       "phrase": "quacko",
       "skill": "Rock paper scissors",
-      "goal": "Cartoonist"
+      "goal": "Cartoonist",
+      "style": "Modern"
     }
   },
   "name": "Drake",

@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Basic",
   "games": {
     "af": {
       "personality": "normal",
@@ -52,7 +51,8 @@
       "song": "K.K. Soul",
       "phrase": "bow-WOW",
       "skill": "Making budgets",
-      "goal": "Archaeologist"
+      "goal": "Archaeologist",
+      "style": "Basic"
     }
   },
   "name": "Daisy",

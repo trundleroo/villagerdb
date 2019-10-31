@@ -8,7 +8,6 @@
     "milk": "No milk",
     "sugar": "No sugar"
   },
-  "style": "Iconic",
   "games": {
     "nl": {
       "personality": "snooty",
@@ -16,7 +15,8 @@
       "song": "K.K. Jongara",
       "phrase": "yelp",
       "skill": "Playing horseshoes",
-      "goal": "Florist"
+      "goal": "Florist",
+      "style": "Iconic"
     }
   },
   "name": "Greta",

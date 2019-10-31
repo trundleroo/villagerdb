@@ -7,7 +7,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Cute",
   "games": {
     "af": {
       "personality": "peppy",
@@ -51,7 +50,8 @@
       "song": "K.K. Technopop",
       "phrase": "niblet",
       "skill": "Juggling",
-      "goal": "Journalist"
+      "goal": "Journalist",
+      "style": "Cute"
     }
   },
   "name": "Nibbles",

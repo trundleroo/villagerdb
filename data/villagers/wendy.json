@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Flashy",
   "games": {
     "cf": {
       "personality": "peppy",
@@ -22,7 +21,8 @@
       "song": "K.K. Bossa",
       "phrase": "lambkins",
       "skill": "Ventriloquism",
-      "goal": "Violinist"
+      "goal": "Violinist",
+      "style": "Flashy"
     }
   },
   "name": "Wendy",

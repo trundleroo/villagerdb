@@ -8,7 +8,6 @@
     "milk": "A little bit of milk",
     "sugar": "1 spoonful of sugar"
   },
-  "style": "Iconic",
   "games": {
     "nl": {
       "personality": "normal",
@@ -16,7 +15,8 @@
       "song": "K.K. Island",
       "phrase": "Gimme",
       "skill": "Helping others",
-      "goal": "Harpist"
+      "goal": "Harpist",
+      "style": "Iconic"
     }
   },
   "name": "Medli",

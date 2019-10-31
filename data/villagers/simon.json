@@ -8,7 +8,6 @@
     "milk": "No milk",
     "sugar": "No sugar"
   },
-  "style": "Sporty",
   "games": {
     "ww": {
       "personality": "lazy",
@@ -28,7 +27,8 @@
       "song": "Forest Life",
       "phrase": "zzzook",
       "skill": "Memorizing",
-      "goal": "Movie director"
+      "goal": "Movie director",
+      "style": "Sporty"
     }
   },
   "name": "Simon",

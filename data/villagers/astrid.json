@@ -8,7 +8,6 @@
     "milk": "Just a little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Rock 'n' roll",
   "games": {
     "af": {
       "personality": "snooty",
@@ -46,7 +45,8 @@
       "song": "I Love You",
       "phrase": "my pet",
       "skill": "Karaoke",
-      "goal": "Singer"
+      "goal": "Singer",
+      "style": "Rock 'n' roll"
     }
   },
   "name": "Astrid",

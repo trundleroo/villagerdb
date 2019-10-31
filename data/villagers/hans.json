@@ -8,7 +8,6 @@
     "milk": "None at all",
     "sugar": "None at all"
   },
-  "style": "Official",
   "games": {
     "nl": {
       "personality": "smug",
@@ -16,7 +15,8 @@
       "song": "K.K. D & B",
       "phrase": "groovy",
       "skill": "Spoon bending",
-      "goal": "Painter"
+      "goal": "Painter",
+      "style": "Official"
     }
   },
   "name": "Hans",

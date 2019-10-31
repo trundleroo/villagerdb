@@ -8,7 +8,6 @@
     "milk": "None at all",
     "sugar": "None at all"
   },
-  "style": "Official",
   "games": {
     "af": {
       "personality": "lazy",
@@ -52,7 +51,8 @@
       "song": "The K. Funk",
       "phrase": "derrrrr",
       "skill": "Brainteasers",
-      "goal": "Doctor"
+      "goal": "Doctor",
+      "style": "Official"
     }
   },
   "name": "Derwin",

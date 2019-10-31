@@ -8,7 +8,6 @@
     "milk": "No milk",
     "sugar": "No sugar"
   },
-  "style": "Ornate",
   "games": {
     "nl": {
       "personality": "smug",
@@ -16,7 +15,8 @@
       "song": "Only Me",
       "phrase": "check it",
       "skill": "Writing about pickles",
-      "goal": "Model"
+      "goal": "Model",
+      "style": "Ornate"
     }
   },
   "name": "Colton",

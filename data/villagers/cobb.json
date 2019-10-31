@@ -8,7 +8,6 @@
     "milk": "A little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Official",
   "games": {
     "af": {
       "personality": "jock",
@@ -40,7 +39,8 @@
       "song": "Pondering",
       "phrase": "hot dog",
       "skill": "Debating",
-      "goal": "Teacher"
+      "goal": "Teacher",
+      "style": "Official"
     }
   },
   "name": "Cobb",

@@ -8,7 +8,6 @@
     "milk": "No milk",
     "sugar": "No sugar"
   },
-  "style": "Cute",
   "games": {
     "nl": {
       "personality": "normal",
@@ -16,7 +15,8 @@
       "song": "Forest Life",
       "phrase": "airmail",
       "skill": "Chopping vegetables",
-      "goal": "Pastry chef"
+      "goal": "Pastry chef",
+      "style": "Cute"
     }
   },
   "name": "Skye",

@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Sporty",
   "games": {
     "nl": {
       "personality": "uchi",
@@ -16,7 +15,8 @@
       "song": "K.K. House",
       "phrase": "nuh uh",
       "skill": "Making Faces",
-      "goal": "Tennis Player"
+      "goal": "Tennis Player",
+      "style": "Sporty"
     }
   },
   "name": "Canberra",

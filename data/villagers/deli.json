@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Iconic",
   "games": {
     "nl": {
       "personality": "lazy",
@@ -16,7 +15,8 @@
       "song": "K.K. Marathon",
       "phrase": "monch",
       "skill": "Jumping rope",
-      "goal": "Musician"
+      "goal": "Musician",
+      "style": "Iconic"
     }
   },
   "name": "Deli",

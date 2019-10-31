@@ -8,7 +8,6 @@
     "milk": "No milk",
     "sugar": "No sugar"
   },
-  "style": "Ornate",
   "games": {
     "nl": {
       "personality": "smug",
@@ -16,7 +15,8 @@
       "song": "K.K. Moody",
       "phrase": "Zoink",
       "skill": "Making crafts",
-      "goal": "Politician"
+      "goal": "Politician",
+      "style": "Ornate"
     }
   },
   "name": "Chops",

@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Basic",
   "games": {
     "cf": {
       "personality": "jock",
@@ -22,7 +21,8 @@
       "song": "K.K. March",
       "phrase": "waddler",
       "skill": "Bunting",
-      "goal": "Baseball player"
+      "goal": "Baseball player",
+      "style": "Basic"
     }
   },
   "name": "Iggly",

@@ -8,7 +8,6 @@
     "milk": "No milk",
     "sugar": "No sugar"
   },
-  "style": "Rock 'n' roll",
   "games": {
     "af": {
       "personality": "cranky",
@@ -52,7 +51,8 @@
       "song": "Senor K.K.",
       "phrase": "macmoo",
       "skill": "Doing handstands",
-      "goal": "Forest Ranger"
+      "goal": "Forest Ranger",
+      "style": "Rock 'n' roll"
     }
   },
   "name": "Angus",

@@ -8,7 +8,6 @@
     "milk": "Just a little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Basic",
   "games": {
     "af": {
       "personality": "jock",
@@ -52,7 +51,8 @@
       "song": "K.K. Faire",
       "phrase": "honk",
       "skill": "Playing horseshoes",
-      "goal": "Baseball player"
+      "goal": "Baseball player",
+      "style": "Basic"
     }
   },
   "name": "Antonio",

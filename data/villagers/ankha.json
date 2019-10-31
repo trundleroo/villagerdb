@@ -8,7 +8,6 @@
     "milk": "No milk",
     "sugar": "No sugar"
   },
-  "style": "Historical",
   "games": {
     "af+": {
       "personality": "snooty",
@@ -39,7 +38,8 @@
       "song": "Marine Song 2001",
       "phrase": "me meow",
       "skill": "Writing about Pickles",
-      "goal": "Astronaut"
+      "goal": "Astronaut",
+      "style": "Historical"
     }
   },
   "name": "Ankha",

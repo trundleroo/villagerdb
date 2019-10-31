@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Iconic",
   "games": {
     "af": {
       "personality": "jock",
@@ -52,7 +51,8 @@
       "song": "King K.K.",
       "phrase": "otaku",
       "skill": "Subsistence living",
-      "goal": "Politician"
+      "goal": "Politician",
+      "style": "Iconic"
     }
   },
   "name": "Genji",

@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Modern",
   "games": {
     "nl": {
       "personality": "snooty",
@@ -16,7 +15,8 @@
       "song": "K.K. Oasis",
       "phrase": "tarnation",
       "skill": "Skimming books",
-      "goal": "Translator"
+      "goal": "Translator",
+      "style": "Modern"
     }
   },
   "name": "Soleil",

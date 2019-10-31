@@ -8,7 +8,6 @@
     "milk": "None at all",
     "sugar": "None at all"
   },
-  "style": "Historical",
   "games": {
     "af": {
       "personality": "lazy",
@@ -46,7 +45,8 @@
       "song": "To the Edge",
       "phrase": "burrup",
       "skill": "Playing old maid",
-      "goal": "Carpenter"
+      "goal": "Carpenter",
+      "style": "Historical"
     }
   },
   "name": "Prince",

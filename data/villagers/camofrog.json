@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Rock 'n' roll",
   "games": {
     "af": {
       "personality": "cranky",
@@ -52,7 +51,8 @@
       "song": "K.K. Rock",
       "phrase": "ten-hut",
       "skill": "Playing jacks",
-      "goal": "Pilot"
+      "goal": "Pilot",
+      "style": "Rock 'n' roll"
     }
   },
   "name": "Camofrog",

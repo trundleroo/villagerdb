@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Ornate",
   "games": {
     "af": {
       "personality": "peppy",
@@ -52,7 +51,8 @@
       "song": "K.K. Love Song",
       "phrase": "honeybun",
       "skill": "Eating quickly",
-      "goal": "Pianist"
+      "goal": "Pianist",
+      "style": "Ornate"
     }
   },
   "name": "Gabi",

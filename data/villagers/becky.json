@@ -8,7 +8,6 @@
     "milk": "Just a little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Ornate",
   "games": {
     "afe+": {
       "personality": "snooty",
@@ -28,7 +27,8 @@
       "song": "K.K. Aria",
       "phrase": "chicklet",
       "skill": "Writing letters",
-      "goal": "Singer"
+      "goal": "Singer",
+      "style": "Ornate"
     }
   },
   "name": "Becky",

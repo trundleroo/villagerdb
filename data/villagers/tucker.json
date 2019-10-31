@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Iconic",
   "games": {
     "nl": {
       "personality": "lazy",
@@ -16,7 +15,8 @@
       "song": "K.K. Safari",
       "phrase": "fuzzers",
       "skill": "Oversleeping",
-      "goal": "Archeologist"
+      "goal": "Archeologist",
+      "style": "Iconic"
     }
   },
   "name": "Tucker",

@@ -8,7 +8,6 @@
     "milk": "Just a little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Sporty",
   "games": {
     "af": {
       "personality": "jock",
@@ -46,7 +45,8 @@
       "song": "K.K. Dixie",
       "phrase": "WHONK",
       "skill": "Competitive eating",
-      "goal": "Basketball Player"
+      "goal": "Basketball Player",
+      "style": "Sporty"
     }
   },
   "name": "Axel",

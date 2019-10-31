@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Iconic",
   "games": {
     "nl": {
       "personality": "smug",
@@ -16,7 +15,8 @@
       "song": "Comrade K.K.",
       "phrase": "no doubt",
       "skill": "Clearing their plate",
-      "goal": "Architect"
+      "goal": "Architect",
+      "style": "Iconic"
     }
   },
   "name": "Ken",

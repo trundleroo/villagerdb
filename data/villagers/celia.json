@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Cute",
   "games": {
     "nl": {
       "personality": "normal",
@@ -16,7 +15,8 @@
       "song": "K.K. Aria",
       "phrase": "feathers",
       "skill": "Brainteasers",
-      "goal": "Florist"
+      "goal": "Florist",
+      "style": "Cute"
     }
   },
   "name": "Celia",

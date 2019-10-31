@@ -8,7 +8,6 @@
     "milk": "Regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Historical",
   "games": {
     "nl": {
       "personality": "cranky",
@@ -16,7 +15,8 @@
       "song": "Lucky K.K.",
       "phrase": "cud",
       "skill": "Doing push-ups",
-      "goal": "Archaeologist"
+      "goal": "Archaeologist",
+      "style": "Historical"
     }
   },
   "name": "Vic",

@@ -8,7 +8,6 @@
     "milk": "Just a little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Basic",
   "games": {
     "afe+": {
       "personality": "normal",
@@ -28,7 +27,8 @@
       "song": "K.K. Stroll",
       "phrase": "bonbon Ron-ron Kratz",
       "skill": "Peeling Apples",
-      "goal": "Chef"
+      "goal": "Chef",
+      "style": "Basic"
     }
   },
   "name": "Lolly",

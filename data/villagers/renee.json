@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "2 spoonfuls of sugar"
   },
-  "style": "Rock 'n' roll",
   "games": {
     "nl": {
       "personality": "uchi",
@@ -16,7 +15,8 @@
       "song": "Surfin' K.K.",
       "phrase": "yo yo yo",
       "skill": "Making puns",
-      "goal": "Marathon runner"
+      "goal": "Marathon runner",
+      "style": "Rock 'n' roll"
     }
   },
   "name": "Renée",

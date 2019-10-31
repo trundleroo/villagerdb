@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Basic",
   "games": {
     "af": {
       "personality": "peppy",
@@ -52,7 +51,8 @@
       "song": "K.K. Mambo",
       "phrase": "li'l hare",
       "skill": "Debating",
-      "goal": "Superhero"
+      "goal": "Superhero",
+      "style": "Basic"
     }
   },
   "name": "Pippy",

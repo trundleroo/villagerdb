@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Flashy",
   "games": {
     "afe+": {
       "personality": "lazy",
@@ -28,7 +27,8 @@
       "song": "K.K. Ragtime",
       "phrase": "eat it",
       "skill": "Climbing trees",
-      "goal": "Movie director"
+      "goal": "Movie director",
+      "style": "Flashy"
     }
   },
   "name": "Broccolo",

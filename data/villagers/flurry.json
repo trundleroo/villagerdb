@@ -8,7 +8,6 @@
     "milk": "None at all",
     "sugar": "None at all"
   },
-  "style": "Iconic",
   "games": {
     "nl": {
       "personality": "normal",
@@ -16,7 +15,8 @@
       "song": "Hypno K.K.",
       "phrase": "powderpuff",
       "skill": "Peeling apples",
-      "goal": "Superhero"
+      "goal": "Superhero",
+      "style": "Iconic"
     }
   },
   "name": "Flurry",

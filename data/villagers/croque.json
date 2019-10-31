@@ -8,7 +8,6 @@
     "milk": "None at all",
     "sugar": "None at all"
   },
-  "style": "Iconic",
   "games": {
     "nl": {
       "personality": "cranky",
@@ -16,7 +15,8 @@
       "song": "K.K. Jongara",
       "phrase": "as if",
       "skill": "Bunting",
-      "goal": "Architect"
+      "goal": "Architect",
+      "style": "Iconic"
     }
   },
   "name": "Croque",

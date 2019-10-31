@@ -1,0 +1,17 @@
+{{#if shouldDisplay }}
+    <h2>{{title}}</h2>
+    <table class="table table-borderless">
+        <thead class="sr-only">
+        <th>Game</th>
+        <th>{{valueName}}</th>
+        </thead>
+        <tbody>
+        {{#each array}}
+            <tr>
+                <td style="width: 40%; font-weight: bold;">{{title}}</td>
+                <td style="width: 60%;">{{value}}</td>
+            </tr>
+        {{/each}}
+        </tbody>
+    </table>
+{{/if}}

@@ -7,7 +7,7 @@
                      style="max-width: 200px; max-height: 200px;"/>
             </a>
         </div>
-        <table class="table table-bordered mt-3">
+        <table class="table table-borderless mt-3">
             <thead>
             <th class="sr-only">Property</th>
             <th class="sr-only">Value</th>
@@ -27,16 +27,34 @@
             </tr>
             </tbody>
         </table>
+        <table class="table table-borderless">
+            <thead class="bg-dark text-light">
+            <th>Appears In</th>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <ul class="list-unstyled">
+                        {{#each games}}
+                            <li>{{title}}</li>
+                        {{/each}}
+                    </ul>
+                </td>
+            </tr>
+            </tbody>
+        </table>
     </div>
     <div class="col-sm-12 col-md-8 order-md-1 order-sm-12">
         <h2>Summary</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+        <p>{{paragraph}}</p>
 
-        <h2>Personality</h2>
-        <dl class="row">
-            <dt class="col-sm-6">a</dt>
-            <dd class="col-sm-6">b</dd>
-        </dl>
+        {{> villagerGameData shouldDisplay=hasPersonalities title="Personality Information" valueName="personality"
+            array=personalities}}
+
+        {{> villagerGameData shouldDisplay=hasClothing title="Clothing" valueName="Clothes" array=clothing}}
+
+        {{> villagerGameData shouldDisplay=hasPhrases title="Phrases" valueName="Phrase" array=phrases }}
+
+        {{> villagerGameData shouldDisplay=hasSongs title="Songs" valueName="Song" array=songs }}
     </div>
 </div>

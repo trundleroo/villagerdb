@@ -8,7 +8,6 @@
     "milk": "Just a little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Modern",
   "games": {
     "nl": {
       "personality": "smug",
@@ -16,7 +15,8 @@
       "song": "K.K. D&B",
       "phrase": "pronk",
       "skill": "Calculating tips",
-      "goal": "Movie director"
+      "goal": "Movie director",
+      "style": "Modern"
     }
   },
   "name": "Zell",

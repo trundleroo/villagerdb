@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Ornate",
   "games": {
     "af": {
       "personality": "snooty",
@@ -52,7 +51,8 @@
       "song": "K.K. Chorale",
       "phrase": "graaagh",
       "skill": "Yo-Yoing",
-      "goal": "Stylist"
+      "goal": "Stylist",
+      "style": "Ornate"
     }
   },
   "name": "Alli",

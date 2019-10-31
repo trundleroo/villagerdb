@@ -8,7 +8,6 @@
     "milk": "No milk",
     "sugar": "No sugar"
   },
-  "style": "Ornate",
   "games": {
     "nl": {
       "personality": "smug",
@@ -16,7 +15,8 @@
       "song": "Stale Cupcakes",
       "phrase": "glitter",
       "skill": "Speed reader",
-      "goal": "Designer"
+      "goal": "Designer",
+      "style": "Ornate"
     }
   },
   "name": "Julian",

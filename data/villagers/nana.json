@@ -8,7 +8,6 @@
     "milk": "Just a little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Cute",
   "games": {
     "ww": {
       "personality": "normal",
@@ -28,7 +27,8 @@
       "song": "K.K. Dixie",
       "phrase": "po po",
       "skill": "Making crafts",
-      "goal": "Judge"
+      "goal": "Judge",
+      "style": "Cute"
     }
   },
   "name": "Nana",

@@ -7,7 +7,6 @@
     "milk": "Lots of milk",
     "sugar": "3 spoonfuls of sugar"
   },
-  "style": "Iconic",
   "games": {
     "afe+": {
       "personality": "snooty",
@@ -21,7 +20,8 @@
       "song": "K.K. Cruisin'",
       "phrase": "dawayo",
       "skill": "Dusting",
-      "goal": "Makeup Artist"
+      "goal": "Makeup Artist",
+      "style": "Iconic"
     }
   },
   "name": "Vivian",

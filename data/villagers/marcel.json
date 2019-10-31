@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Iconic",
   "games": {
     "cf": {
       "personality": "lazy",
@@ -22,7 +21,8 @@
       "song": "Comrade K.K.",
       "phrase": "non",
       "skill": "Eating frequently",
-      "goal": "Artist"
+      "goal": "Artist",
+      "style": "Iconic"
     }
   },
   "name": "Marcel",

@@ -7,7 +7,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Flashy",
   "games": {
     "ww": {
       "personality": "peppy",
@@ -27,7 +26,8 @@
       "song": "Imperial K.K.",
       "phrase": "chimpy",
       "skill": "Making puns",
-      "goal": "Artist"
+      "goal": "Artist",
+      "style": "Flashy"
     }
   },
   "name": "Tammi",

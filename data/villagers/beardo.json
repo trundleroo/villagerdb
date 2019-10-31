@@ -8,7 +8,6 @@
     "milk": "Just a little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Official",
   "games": {
     "nl": {
       "personality": "smug",
@@ -16,7 +15,8 @@
       "song": "K.K. Sonata",
       "phrase": "whiskers",
       "skill": "Memorizing stuff",
-      "goal": "Professor"
+      "goal": "Professor",
+      "style": "Official"
     }
   },
   "name": "Beardo",

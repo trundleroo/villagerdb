@@ -8,7 +8,6 @@
     "milk": "No milk",
     "sugar": "No sugar"
   },
-  "style": "Cute",
   "games": {
     "afe+": {
       "personality": "snooty",
@@ -28,7 +27,8 @@
       "song": "K.K. Etude",
       "phrase": "bo peep",
       "skill": "Playing Old Maid",
-      "goal": "Designer"
+      "goal": "Designer",
+      "style": "Cute"
     }
   },
   "name": "Willow",

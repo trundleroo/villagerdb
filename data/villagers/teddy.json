@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Basic",
   "games": {
     "af": {
       "personality": "jock",
@@ -52,7 +51,8 @@
       "song": "Mr. K.K.",
       "phrase": "grooof",
       "skill": "Playing old maid",
-      "goal": "Police officer"
+      "goal": "Police officer",
+      "style": "Basic"
     }
   },
   "name": "Teddy",

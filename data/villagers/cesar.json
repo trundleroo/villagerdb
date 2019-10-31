@@ -8,7 +8,6 @@
     "milk": "Just a little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Historical",
   "games": {
     "af": {
       "personality": "cranky",
@@ -52,7 +51,8 @@
       "song": "K.K. Lament",
       "phrase": "Highness",
       "skill": "Vaulting",
-      "goal": "Basketball player"
+      "goal": "Basketball player",
+      "style": "Historical"
     }
   },
   "name": "Cesar",

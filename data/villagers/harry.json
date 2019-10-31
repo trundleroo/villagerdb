@@ -8,7 +8,6 @@
     "milk": "None at all",
     "sugar": "None at all"
   },
-  "style": "Historical",
   "games": {
     "afe+": {
       "personality": "jock",
@@ -28,7 +27,8 @@
       "song": "K.K. Calypso",
       "phrase": "beach bum",
       "skill": "Tongue twisters",
-      "goal": "Fisherman"
+      "goal": "Fisherman",
+      "style": "Historical"
     }
   },
   "name": "Harry",

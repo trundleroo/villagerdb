@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Rock 'n' roll",
   "games": {
     "nl": {
       "personality": "jock",
@@ -16,7 +15,8 @@
       "song": "K.K. Safari",
       "phrase": "hoo-rah",
       "skill": "Pretending to sleep",
-      "goal": "Explorer"
+      "goal": "Explorer",
+      "style": "Rock 'n' roll"
     }
   },
   "name": "Sly",

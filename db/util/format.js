@@ -6,9 +6,10 @@ const moment = require('moment');
  * @type {{}}
  */
 const games = {
-    'nl': {title: 'New Leaf', order: 100}, // we always show new leaf first
-    'pc': {title: 'Pocket Camp', order: 9},
-    'hhd': {title: 'Happy Home Designer', order: 8},
+    'nh': {title: 'New Horizons', order: 10},
+    'nl': {title: 'New Leaf', order: 9},
+    'pc': {title: 'Pocket Camp', order: 8},
+    'hhd': {title: 'Happy Home Designer', order: 7},
     'cf': {title: 'City Folk', order: 6},
     'ww': {title: 'Wild World', order: 5},
     'afe+': {title: 'Animal Forest e+', order: 4},
@@ -17,20 +18,6 @@ const games = {
     'af': {title: 'Animal Forest', order: 1}
 };
 
-module.exports.formatVillager = function(villager) {
-    const result = {};
-
-    // Name, gender, species and birthday
-    result.name = villager.name;
-    result.gender = capFirstLetter(villager.gender);
-    result.species = capFirstLetter(villager.species);
-    result.birthday = moment(villager.birthday, 'MM-DD').format('MMM Do');
-
-    // All the game-specific data.
-    // TODO
-
-    return result;
-}
 
 /**
  * Capitalize first letter of given string.
@@ -44,4 +31,35 @@ function capFirstLetter(string) {
     }
 
     return string[0].toUpperCase() + string.substr(1, string.length - 1);
+}
+
+module.exports.games = games;
+module.exports.capFirstLetter = capFirstLetter;
+module.exports.formatVillager = function(villager) {
+    const result = {};
+
+    // Name, gender, species and birthday
+    result.name = villager.name;
+    result.gender = capFirstLetter(villager.gender);
+    result.species = capFirstLetter(villager.species);
+    result.birthday = moment(villager.birthday, 'MM-DD').format('MMM Do');
+
+    // All the game-specific data.
+    result.games = [];
+    for (let game in games) {
+        let data = villager.games[game];
+        if (data) {
+            result.games.push({
+                title: games[game].title,
+                personality: data.personality,
+                clothes: data.clothes,
+                song: data.song,
+                phrase: data.phrase,
+                skill: data.skill,
+                style: data.style
+            });
+        }
+    }
+
+    return result;
 }

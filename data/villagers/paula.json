@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Flashy",
   "games": {
     "afe+": {
       "personality": "peppy",
@@ -22,7 +21,8 @@
       "song": "K.K. Dixie",
       "phrase": "yodelay",
       "skill": "Baton twirling",
-      "goal": "Volleyball player"
+      "goal": "Volleyball player",
+      "style": "Flashy"
     }
   },
   "name": "Paula",

@@ -8,7 +8,6 @@
     "milk": "Just a little bit of milk",
     "sugar": "1 spoonful of sugar"
   },
-  "style": "Historical",
   "games": {
     "af": {
       "personality": "smug",
@@ -52,7 +51,8 @@
       "song": "K.K. Milonga",
       "phrase": "strudel",
       "skill": "Debating",
-      "goal": "Politician"
+      "goal": "Politician",
+      "style": "Historical"
     }
   },
   "name": "Klaus",

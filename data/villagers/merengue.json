@@ -8,7 +8,6 @@
     "milk": "A little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Official",
   "games": {
     "nl": {
       "personality": "normal",
@@ -16,7 +15,8 @@
       "song": "K.K. Stroll",
       "phrase": "shortcake",
       "skill": "Doodling",
-      "goal": "Pastry chef"
+      "goal": "Pastry chef",
+      "style": "Official"
     }
   },
   "name": "Merengue",

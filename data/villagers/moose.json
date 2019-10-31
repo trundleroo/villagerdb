@@ -8,7 +8,6 @@
     "milk": "No milk",
     "sugar": "No sugar"
   },
-  "style": "Flashy",
   "games": {
     "cf": {
       "personality": "jock",
@@ -22,7 +21,8 @@
       "song": "Agent K.K.",
       "phrase": "shorty",
       "skill": "Telling jokes",
-      "goal": "Mayor"
+      "goal": "Mayor",
+      "style": "Flashy"
     }
   },
   "name": "Moose",

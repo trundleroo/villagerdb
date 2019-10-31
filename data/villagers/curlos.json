@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Rock 'n' roll",
   "games": {
     "afe+": {
       "personality": "cranky",
@@ -22,7 +21,8 @@
       "song": "K.K. Samba",
       "phrase": "shearly",
       "skill": "Calculating Tips",
-      "goal": "Actor"
+      "goal": "Actor",
+      "style": "Rock 'n' roll"
     }
   },
   "name": "Curlos",

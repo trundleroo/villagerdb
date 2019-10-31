@@ -8,7 +8,6 @@
     "milk": "A little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Basic",
   "games": {
     "af": {
       "personality": "normal",
@@ -46,7 +45,8 @@
       "song": "K.K. Waltz",
       "phrase": "lambchop",
       "skill": "Dusting",
-      "goal": "Hair stylist"
+      "goal": "Hair stylist",
+      "style": "Basic"
     }
   },
   "name": "Eunice",

@@ -8,7 +8,6 @@
     "milk": "None at all",
     "sugar": "None at all"
   },
-  "style": "Rock 'n' roll",
   "games": {
     "nl": {
       "personality": "cranky",
@@ -16,7 +15,8 @@
       "song": "K.K. Blues",
       "phrase": "gruff",
       "skill": "Memorizing",
-      "goal": "Pro golfer"
+      "goal": "Pro golfer",
+      "style": "Rock 'n' roll"
     }
   },
   "name": "Bruce",

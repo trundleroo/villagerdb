@@ -7,7 +7,6 @@
     "milk": "No milk",
     "sugar": "No sugar"
   },
-  "style": "Rock n' roll",
   "games": {
     "afe+": {
       "personality": "cranky",
@@ -21,7 +20,8 @@
       "song": "K.K. Rock",
       "phrase": "bowes",
       "skill": "Doing chin ups",
-      "goal": "Carpenter"
+      "goal": "Carpenter",
+      "style": "Rock n' roll"
     }
   },
   "name": "Ike",

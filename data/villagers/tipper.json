@@ -8,7 +8,6 @@
     "milk": "None at all",
     "sugar": "None at all"
   },
-  "style": "Flashy",
   "games": {
     "ww": {
       "personality": "snooty",
@@ -28,7 +27,8 @@
       "song": "Soulful K.K.",
       "phrase": "pushy",
       "skill": "Staying up late",
-      "goal": "Violinist"
+      "goal": "Violinist",
+      "style": "Flashy"
     }
   },
   "name": "Tipper",

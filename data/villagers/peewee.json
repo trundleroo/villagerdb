@@ -7,7 +7,6 @@
     "milk": "Just a little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Sporty",
   "games": {
     "af": {
       "personality": "cranky",
@@ -51,7 +50,8 @@
       "song": "K.K. Rally",
       "phrase": "li'l dudeM",
       "skill": "Karaoke",
-      "goal": "Pro wrestler"
+      "goal": "Pro wrestler",
+      "style": "Sporty"
     }
   },
   "name": "Peewee",

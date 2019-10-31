@@ -8,7 +8,6 @@
     "milk": "A little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Cute",
   "games": {
     "af": {
       "personality": "lazy",
@@ -50,7 +49,8 @@
       "song": "K.K. Technopop",
       "phrase": "d-d-dude",
       "skill": "Staying awake",
-      "goal": "Astronaut"
+      "goal": "Astronaut",
+      "style": "Cute"
     }
   },
   "name": "Cube",

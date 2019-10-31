@@ -8,7 +8,6 @@
     "milk": "No milk",
     "sugar": "No sugar"
   },
-  "style": "Basic",
   "games": {
     "ww": {
       "personality": "normal",
@@ -28,7 +27,8 @@
       "song": "K.K. Ragtime",
       "phrase": "toasty",
       "skill": "Yo-yoing",
-      "goal": "Professor"
+      "goal": "Professor",
+      "style": "Basic"
     }
   },
   "name": "Melba",

@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two sugars"
   },
-  "style": "Cute",
   "games": {
     "af": {
       "personality": "peppy",
@@ -52,7 +51,8 @@
       "song": "K.K. Salsa",
       "phrase": "slacker",
       "skill": "Hula dancing",
-      "goal": "Model"
+      "goal": "Model",
+      "style": "Cute"
     }
   },
   "name": "Peanut",

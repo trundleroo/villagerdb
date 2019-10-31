@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Rock 'n' Roll",
   "games": {
     "af": {
       "personality": "cranky",
@@ -52,7 +51,8 @@
       "song": "Surfin' K.K.",
       "phrase": "krzzt",
       "skill": "Backflipping",
-      "goal": "Guitarist"
+      "goal": "Guitarist",
+      "style": "Rock 'n' Roll"
     }
   },
   "name": "Static",

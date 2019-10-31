@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Modern",
   "games": {
     "af": {
       "personality": "peppy",
@@ -52,7 +51,8 @@
       "song": "K.K. Steppe",
       "phrase": "quackle",
       "skill": "Pretending to sleep",
-      "goal": "Archaeologist"
+      "goal": "Archaeologist",
+      "style": "Modern"
     }
   },
   "name": "Pate",

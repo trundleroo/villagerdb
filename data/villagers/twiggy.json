@@ -8,7 +8,6 @@
     "milk": "None at all",
     "sugar": "None at all"
   },
-  "style": "Flashy",
   "games": {
     "af": {
       "personality": "peppy",
@@ -52,7 +51,8 @@
       "song": "K.K. Calypso",
       "phrase": "cheepers",
       "skill": "Spoon bending",
-      "goal": "Dentist"
+      "goal": "Dentist",
+      "style": "Flashy"
     }
   },
   "name": "Twiggy",

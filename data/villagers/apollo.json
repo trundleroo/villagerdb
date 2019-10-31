@@ -8,7 +8,6 @@
     "milk": "Just a little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Rock 'n' roll",
   "games": {
     "af": {
       "personality": "cranky",
@@ -52,7 +51,8 @@
       "song": "K.K. Rock",
       "phrase": "pah",
       "skill": "Staying up late",
-      "goal": "Pilot"
+      "goal": "Pilot",
+      "style": "Rock 'n' roll"
     }
   },
   "name": "Apollo",

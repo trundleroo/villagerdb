@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Official",
   "games": {
     "nl": {
       "personality": "snooty",
@@ -16,7 +15,8 @@
       "song": "K.K. Jongara",
       "phrase": "quite so",
       "skill": "Dusting",
-      "goal": "Chef"
+      "goal": "Chef",
+      "style": "Official"
     }
   },
   "name": "Blanche",

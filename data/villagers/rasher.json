@@ -8,7 +8,6 @@
     "milk": "A little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Rock 'n' roll",
   "games": {
     "af": {
       "personality": "cranky",
@@ -49,7 +48,8 @@
       "song": "K.K. Faire",
       "phrase": "swine",
       "skill": "Staying up late",
-      "goal": "CEO"
+      "goal": "CEO",
+      "style": "Rock 'n' roll"
     }
   },
   "name": "Rasher",

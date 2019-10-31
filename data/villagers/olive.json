@@ -7,7 +7,6 @@
     "milk": "No milk",
     "sugar": "No sugar"
   },
-  "style": "Basic",
   "games": {
     "af": {
       "personality": "normal",
@@ -39,7 +38,8 @@
       "song": "Cafe K.K.",
       "phrase": "sweet pea",
       "skill": "Dancing",
-      "goal": "Pastry Chef"
+      "goal": "Pastry Chef",
+      "style": "Basic"
     }
   },
   "name": "Olive",

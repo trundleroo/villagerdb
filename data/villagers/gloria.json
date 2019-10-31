@@ -8,7 +8,6 @@
     "milk": "None at all",
     "sugar": "None at all"
   },
-  "style": "Ornate",
   "games": {
     "cf": {
       "personality": "snooty",
@@ -22,7 +21,8 @@
       "song": "K.K. Milonga",
       "phrase": "quacker",
       "skill": "Boardgames",
-      "goal": "Stylist"
+      "goal": "Stylist",
+      "style": "Ornate"
     }
   },
   "name": "Gloria",

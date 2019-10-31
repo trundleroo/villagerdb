@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Flashy",
   "games": {
     "af": {
       "personality": "jock",
@@ -49,7 +48,8 @@
       "song": "K.K. Country",
       "phrase": "brah",
       "skill": "Shadow puppetry",
-      "goal": "Tycoon"
+      "goal": "Tycoon",
+      "style": "Flashy"
     }
   },
   "name": "Drift",

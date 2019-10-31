@@ -8,7 +8,6 @@
     "milk": "Just a little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Iconic",
   "games": {
     "ww": {
       "personality": "jock",
@@ -28,7 +27,8 @@
       "song": "K.K. Western",
       "phrase": "baboom",
       "skill": "Dancing",
-      "goal": "Rugby player"
+      "goal": "Rugby player",
+      "style": "Iconic"
     }
   },
   "name": "Boone",

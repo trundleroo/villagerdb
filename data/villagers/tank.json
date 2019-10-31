@@ -7,7 +7,6 @@
     "milk": "No Milk",
     "sugar": "No Sugar"
   },
-  "style": "Rock 'n' roll",
   "games": {
     "af": {
       "personality": "jock",
@@ -51,7 +50,8 @@
       "song": "K.K. Lament",
       "phrase": "kerPOW",
       "skill": "Doing push-ups",
-      "goal": "Cartoonist"
+      "goal": "Cartoonist",
+      "style": "Rock 'n' roll"
     }
   },
   "name": "Tank",

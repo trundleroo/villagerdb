@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Official",
   "games": {
     "af": {
       "personality": "snooty",
@@ -40,7 +39,8 @@
       "song": "K.K. Etude",
       "phrase": "blih",
       "skill": "Speed reader",
-      "goal": "Lawyer"
+      "goal": "Lawyer",
+      "style": "Official"
     }
   },
   "name": "Velma",

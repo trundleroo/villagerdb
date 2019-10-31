@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Flashy",
   "games": {
     "af": {
       "personality": "jock",
@@ -46,7 +45,8 @@
       "song": "Go K.K. Rider!",
       "phrase": "zzrrbbitt",
       "skill": "Ventriloquism",
-      "goal": "Astronaut"
+      "goal": "Astronaut",
+      "style": "Flashy"
     }
   },
   "name": "Ribbot",

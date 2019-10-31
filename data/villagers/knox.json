@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Iconic",
   "games": {
     "cf": {
       "personality": "cranky",
@@ -22,7 +21,8 @@
       "song": "K.K. Aria",
       "phrase": "cluckling",
       "skill": "Calculating tips",
-      "goal": "Firefighter"
+      "goal": "Firefighter",
+      "style": "Iconic"
     }
   },
   "name": "Knox",

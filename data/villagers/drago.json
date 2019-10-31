@@ -8,7 +8,6 @@
     "milk": "Just a little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Iconic",
   "games": {
     "nl": {
       "personality": "lazy",
@@ -16,7 +15,8 @@
       "song": "Imperial K.K.",
       "phrase": "burrrn",
       "skill": "Blowing bubbles",
-      "goal": "Pilot"
+      "goal": "Pilot",
+      "style": "Iconic"
     }
   },
   "name": "Drago",

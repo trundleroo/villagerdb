@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Basic",
   "games": {
     "af": {
       "personality": "normal",
@@ -49,7 +48,8 @@
       "song": "I Love You",
       "phrase": "honey",
       "skill": "Writing letters",
-      "goal": "Architect"
+      "goal": "Architect",
+      "style": "Basic"
     }
   },
   "name": "Maple",

@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Sporty",
   "games": {
     "nl": {
       "personality": "uchi",
@@ -16,7 +15,8 @@
       "song": "K.K. Adventure",
       "phrase": "vroom",
       "skill": "Cramming for tests",
-      "goal": "Swimmer"
+      "goal": "Swimmer",
+      "style": "Sporty"
     }
   },
   "name": "Rocket",

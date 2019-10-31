@@ -8,7 +8,6 @@
     "milk": "A little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Modern",
   "games": {
     "nl": {
       "personality": "snooty",
@@ -16,7 +15,8 @@
       "song": "K.K. Fusion",
       "phrase": "sooey",
       "skill": "Forgetting",
-      "goal": "President"
+      "goal": "President",
+      "style": "Modern"
     }
   },
   "name": "Pancetti",

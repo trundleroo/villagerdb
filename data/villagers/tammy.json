@@ -8,7 +8,6 @@
     "milk": "Just a little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Modern",
   "games": {
     "nl": {
       "personality": "uchi",
@@ -16,7 +15,8 @@
       "song": "K.K. Disco",
       "phrase": "ya heard",
       "skill": "Staying positive",
-      "goal": "Movie director"
+      "goal": "Movie director",
+      "style": "Modern"
     }
   },
   "name": "Tammy",

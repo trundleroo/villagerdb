@@ -8,7 +8,6 @@
     "milk": "None at all",
     "sugar": "None at all"
   },
-  "style": "Ornate",
   "games": {
     "afe+": {
       "personality": "snooty",
@@ -27,7 +26,8 @@
       "song": "K.K. Sonata",
       "phrase": "quackulous",
       "skill": "Subsistence Living",
-      "goal": "Model"
+      "goal": "Model",
+      "style": "Ornate"
     }
   },
   "name": "Miranda",

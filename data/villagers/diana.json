@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Iconic",
   "games": {
     "nl": {
       "personality": "snooty",
@@ -16,7 +15,8 @@
       "song": "Stale Cupcakes",
       "phrase": "no doy",
       "skill": "Playing poker",
-      "goal": "Dermatologist"
+      "goal": "Dermatologist",
+      "style": "Iconic"
     }
   },
   "name": "Diana",

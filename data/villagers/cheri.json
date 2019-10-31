@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Sporty",
   "games": {
     "af+": {
       "personality": "peppy",
@@ -32,7 +31,8 @@
       "song": "K.K. Synth",
       "phrase": "tralala",
       "skill": "Staying positive",
-      "goal": "Marathon runner"
+      "goal": "Marathon runner",
+      "style": "Sporty"
     }
   },
   "name": "Cheri",

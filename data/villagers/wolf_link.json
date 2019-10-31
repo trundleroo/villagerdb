@@ -8,7 +8,6 @@
     "milk": "Regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Iconic",
   "games": {
     "nl": {
       "personality": "smug",
@@ -16,7 +15,8 @@
       "song": "K.K. Western",
       "phrase": "Ruff ruff",
       "skill": "Change forms freely",
-      "goal": "Become a real boy"
+      "goal": "Become a real boy",
+      "style": "Iconic"
     }
   },
   "name": "Wolf link",

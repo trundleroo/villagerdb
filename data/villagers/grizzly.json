@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Basic",
   "games": {
     "af": {
       "personality": "cranky",
@@ -46,7 +45,8 @@
       "song": "K.K. Dirge",
       "phrase": "grrr",
       "skill": "Brainteasers",
-      "goal": "Photographer"
+      "goal": "Photographer",
+      "style": "Basic"
     }
   },
   "name": "Grizzly",

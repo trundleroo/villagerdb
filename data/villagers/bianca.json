@@ -8,7 +8,6 @@
     "milk": "No milk",
     "sugar": "No sugar"
   },
-  "style": "Modern",
   "games": {
     "nl": {
       "personality": "peppy",
@@ -16,7 +15,8 @@
       "song": "K.K. House",
       "phrase": "glimmer",
       "skill": "Vaulting",
-      "goal": "Figure Skater"
+      "goal": "Figure Skater",
+      "style": "Modern"
     }
   },
   "name": "Bianca",

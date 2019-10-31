@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Ornate",
   "games": {
     "ww": {
       "personality": "normal",
@@ -27,7 +26,8 @@
       "song": "K.K. Ballad",
       "phrase": "bigfoot",
       "skill": "Making crafts",
-      "goal": "Writer"
+      "goal": "Writer",
+      "style": "Ornate"
     }
   },
   "name": "Rhonda",

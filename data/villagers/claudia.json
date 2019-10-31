@@ -7,7 +7,6 @@
     "milk": "A little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Ornate",
   "games": {
     "nl": {
       "personality": "snooty",
@@ -15,7 +14,8 @@
       "song": "K.K. Synth",
       "phrase": "ooh la la",
       "skill": "Stomping around",
-      "goal": "CEO"
+      "goal": "CEO",
+      "style": "Ornate"
     }
   },
   "name": "Claudia",

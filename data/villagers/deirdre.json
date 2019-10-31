@@ -8,7 +8,6 @@
     "milk": "None at all",
     "sugar": "None at all"
   },
-  "style": "Historical",
   "games": {
     "nl": {
       "personality": "uchi",
@@ -16,7 +15,8 @@
       "song": "K.K. Cruisin'",
       "phrase": "whatevs",
       "skill": "Tiptoeing",
-      "goal": "Journalist"
+      "goal": "Journalist",
+      "style": "Historical"
     }
   },
   "name": "Deirdre",

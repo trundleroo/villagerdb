@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Official",
   "games": {
     "af+": {
       "personality": "snooty",
@@ -34,7 +33,8 @@
       "song": "K.K. Sonata",
       "phrase": "nipper",
       "skill": "Brainteasers",
-      "goal": "Chef"
+      "goal": "Chef",
+      "style": "Official"
     }
   },
   "name": "Annalise",

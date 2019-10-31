@@ -8,7 +8,6 @@
     "milk": "None at all",
     "sugar": "None at all"
   },
-  "style": "Cute",
   "games": {
     "nl": {
       "personality": "normal",
@@ -16,7 +15,8 @@
       "song": "K.K. Aria",
       "phrase": "pouches",
       "skill": "Memorizing",
-      "goal": "Teacher"
+      "goal": "Teacher",
+      "style": "Cute"
     }
   },
   "name": "Marcie",

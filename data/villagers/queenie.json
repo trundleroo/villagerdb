@@ -8,7 +8,6 @@
     "milk": "A little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Ornate",
   "games": {
     "af": {
       "personality": "snooty",
@@ -49,7 +48,8 @@
       "song": "K.K. Gumbo",
       "phrase": "chicken",
       "skill": "Hitting snooze",
-      "goal": "Dancer"
+      "goal": "Dancer",
+      "style": "Ornate"
     }
   },
   "name": "Queenie",

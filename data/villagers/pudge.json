@@ -8,7 +8,6 @@
     "milk": "Just a little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Historical",
   "games": {
     "af": {
       "personality": "lazy",
@@ -51,7 +50,8 @@
       "song": "Rockin' K.K.",
       "phrase": "pudgy",
       "skill": "Blowing bubbles",
-      "goal": "Chef"
+      "goal": "Chef",
+      "style": "Historical"
     }
   },
   "name": "Pudge",

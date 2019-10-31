@@ -7,7 +7,6 @@
     "milk": "Lots of milk",
     "sugar": "3 spoonfuls of sugar"
   },
-  "style": "Historical",
   "games": {
     "af": {
       "personality": "peppy",
@@ -36,7 +35,8 @@
       "song": "K.K. Ragtime",
       "phrase": "sweetie",
       "skill": "Home repair",
-      "goal": "Judge"
+      "goal": "Judge",
+      "style": "Historical"
     }
   },
   "name": "Candi",

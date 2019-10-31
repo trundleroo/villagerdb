@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Official",
   "games": {
     "af": {
       "personality": "cranky",
@@ -46,7 +45,8 @@
       "song": "K.K. Calypso",
       "phrase": "cha-chomp",
       "skill": "Mental Math",
-      "goal": "Hair stylist"
+      "goal": "Hair stylist",
+      "style": "Official"
     }
   },
   "name": "Fang",

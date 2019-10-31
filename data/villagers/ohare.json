@@ -8,7 +8,6 @@
     "milk": "No milk",
     "sugar": "No sugar"
   },
-  "style": "Modern",
   "games": {
     "af+": {
       "personality": "cranky",
@@ -34,7 +33,8 @@
       "song": "K.K. Island",
       "phrase": "amigo",
       "skill": "Air guitar",
-      "goal": "Musician"
+      "goal": "Musician",
+      "style": "Modern"
     }
   },
   "name": "O'Hare",

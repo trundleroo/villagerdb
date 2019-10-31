@@ -8,7 +8,6 @@
     "milk": "No milk",
     "sugar": "No sugar"
   },
-  "style": "Modern",
   "games": {
     "nl": {
       "personality": "lazy",
@@ -16,7 +15,8 @@
       "song": "Spring Blossoms",
       "phrase": "duuude",
       "skill": "Drawing circles",
-      "goal": "Painter"
+      "goal": "Painter",
+      "style": "Modern"
     }
   },
   "name": "Cole",

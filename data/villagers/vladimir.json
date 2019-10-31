@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Flashy",
   "games": {
     "af": {
       "personality": "cranky",
@@ -42,7 +41,8 @@
       "song": "Agent K.K.",
       "phrase": "nyet",
       "skill": "Belly dancing",
-      "goal": "Movie director"
+      "goal": "Movie director",
+      "style": "Flashy"
     }
   },
   "name": "Vladimir",

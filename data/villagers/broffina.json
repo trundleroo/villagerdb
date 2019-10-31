@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Flashy",
   "games": {
     "nl": {
       "personality": "snooty",
@@ -16,7 +15,8 @@
       "song": "K.K. Flamenco",
       "phrase": "cluckadoo",
       "skill": "Typing",
-      "goal": "Translator"
+      "goal": "Translator",
+      "style": "Flashy"
     }
   },
   "name": "Broffina",

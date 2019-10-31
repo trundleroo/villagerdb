@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Historical",
   "games": {
     "af": {
       "personality": "cranky",
@@ -49,7 +48,8 @@
       "song": "K.K. Folk",
       "phrase": "meooo-OH",
       "skill": "Drawing circles",
-      "goal": "Actor"
+      "goal": "Actor",
+      "style": "Historical"
     }
   },
   "name": "Kabuki",

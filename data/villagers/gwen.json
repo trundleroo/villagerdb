@@ -8,7 +8,6 @@
     "milk": "A little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Ornate",
   "games": {
     "af": {
       "personality": "snooty",
@@ -49,7 +48,8 @@
       "song": "Cafe K.K.",
       "phrase": "h-h-hon",
       "skill": "Skimming books",
-      "goal": "CEO"
+      "goal": "CEO",
+      "style": "Ornate"
     }
   },
   "name": "Gwen",

@@ -8,7 +8,6 @@
     "milk": "A little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Iconic",
   "games": {
     "af": {
       "personality": "cranky",
@@ -52,7 +51,8 @@
       "song": "Spring Blossoms",
       "phrase": "grrrolf",
       "skill": "Doing handstands",
-      "goal": "Pro wrestler"
+      "goal": "Pro wrestler",
+      "style": "Iconic"
     }
   },
   "name": "Rolf",

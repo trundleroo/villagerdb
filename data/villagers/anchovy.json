@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Flashy",
   "games": {
     "af": {
       "personality": "lazy",
@@ -52,7 +51,8 @@
       "song": "K.K. Ragtime",
       "phrase": "chuurp",
       "skill": "Remembering stuff",
-      "goal": "Explorer"
+      "goal": "Explorer",
+      "style": "Flashy"
     }
   },
   "name": "Anchovy",

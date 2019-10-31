@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Official",
   "games": {
     "af": {
       "personality": "snooty",
@@ -52,7 +51,8 @@
       "song": "K.K. Bossa",
       "phrase": "la-di-da",
       "skill": "Skimming books",
-      "goal": "Dermatologist"
+      "goal": "Dermatologist",
+      "style": "Official"
     }
   },
   "name": "Robin",

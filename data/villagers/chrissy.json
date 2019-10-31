@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Cute",
   "games": {
     "afe+": {
       "personality": "peppy",
@@ -28,7 +27,8 @@
       "song": "K.K. Waltz",
       "phrase": "sparkles",
       "skill": "Staying awake",
-      "goal": "Model"
+      "goal": "Model",
+      "style": "Cute"
     }
   },
   "name": "Chrissy",

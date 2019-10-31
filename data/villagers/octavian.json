@@ -8,7 +8,6 @@
     "milk": "No milk",
     "sugar": "No sugar"
   },
-  "style": "Official",
   "games": {
     "af": {
       "personality": "cranky",
@@ -52,7 +51,8 @@
       "song": "K.K. D & B",
       "phrase": "sucker",
       "skill": "Trivia",
-      "goal": "Fisherman"
+      "goal": "Fisherman",
+      "style": "Official"
     }
   },
   "name": "Octavian",

@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar."
   },
-  "style": "Basic",
   "games": {
     "af": {
       "personality": "lazy",
@@ -51,7 +50,8 @@
       "song": "Two Days Ago",
       "phrase": "bucko",
       "skill": "Vaulting",
-      "goal": "Pilot"
+      "goal": "Pilot",
+      "style": "Basic"
     }
   },
   "name": "Filbert",

@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Historical",
   "games": {
     "nl": {
       "personality": "smug",
@@ -16,7 +15,8 @@
       "song": "Bubblegum K.K.",
       "phrase": "Indeed",
       "skill": "Computing",
-      "goal": "Writer"
+      "goal": "Writer",
+      "style": "Historical"
     }
   },
   "name": "Graham",

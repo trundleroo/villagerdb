@@ -8,7 +8,6 @@
     "milk": "Just a little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Iconic",
   "games": {
     "nl": {
       "personality": "cranky",
@@ -16,7 +15,8 @@
       "song": "Agent K.K.",
       "phrase": "pockets",
       "skill": "Rock Paper Scissors",
-      "goal": "Carpenter"
+      "goal": "Carpenter",
+      "style": "Iconic"
     }
   },
   "name": "Walt",

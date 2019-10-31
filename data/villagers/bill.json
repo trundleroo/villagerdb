@@ -8,7 +8,6 @@
     "milk": "Just a little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Sporty",
   "games": {
     "af": {
       "personality": "jock",
@@ -52,7 +51,8 @@
       "song": "King K.K.",
       "phrase": "quacko",
       "skill": "Bunting",
-      "goal": "Race car driver"
+      "goal": "Race car driver",
+      "style": "Sporty"
     }
   },
   "name": "Bill",

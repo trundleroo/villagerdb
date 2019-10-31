@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Modern",
   "games": {
     "nl": {
       "personality": "peppy",
@@ -16,7 +15,8 @@
       "song": "K.K. Flamenco",
       "phrase": "pinky",
       "skill": "Staying awake",
-      "goal": "Gymnast"
+      "goal": "Gymnast",
+      "style": "Modern"
     }
   },
   "name": "Flora",

@@ -8,7 +8,6 @@
     "milk": "None at all",
     "sugar": "None at all"
   },
-  "style": "Modern",
   "games": {
     "af": {
       "personality": "snooty",
@@ -52,7 +51,8 @@
       "song": "Two Days Ago",
       "phrase": "purrr",
       "skill": "Brainteasers",
-      "goal": "Drummer"
+      "goal": "Drummer",
+      "style": "Modern"
     }
   },
   "name": "Olivia",

@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Sporty",
   "games": {
     "afe+": {
       "personality": "peppy",
@@ -22,7 +21,8 @@
       "song": "Mr. K.K.",
       "phrase": "urgh",
       "skill": "Hitting snooze",
-      "goal": "Archeologist"
+      "goal": "Archeologist",
+      "style": "Sporty"
     }
   },
   "name": "Charlise",

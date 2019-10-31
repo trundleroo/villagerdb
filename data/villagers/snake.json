@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Sporty",
   "games": {
     "af": {
       "personality": "jock",
@@ -52,7 +51,8 @@
       "song": "K.K. Lullaby",
       "phrase": "bunyip",
       "skill": "Playing jacks",
-      "goal": "Soccer player"
+      "goal": "Soccer player",
+      "style": "Sporty"
     }
   },
   "name": "Snake",

@@ -8,7 +8,6 @@
     "milk": "None at all",
     "sugar": "None at all"
   },
-  "style": "Official",
   "games": {
     "nl": {
       "personality": "smug",
@@ -16,7 +15,8 @@
       "song": "K.K. Milonga",
       "phrase": "whiffa",
       "skill": "Dancing",
-      "goal": "Dancer"
+      "goal": "Dancer",
+      "style": "Official"
     }
   },
   "name": "Olaf",

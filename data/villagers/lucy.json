@@ -8,7 +8,6 @@
     "milk": "No milk",
     "sugar": "No sugar"
   },
-  "style": "Cute",
   "games": {
     "af": {
       "personality": "normal",
@@ -52,7 +51,8 @@
       "song": "Comrade K.K.",
       "phrase": "snoooink",
       "skill": "Baton twirling",
-      "goal": "Tour guide"
+      "goal": "Tour guide",
+      "style": "Cute"
     }
   },
   "name": "Lucy",

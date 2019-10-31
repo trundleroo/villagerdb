@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Official",
   "games": {
     "afe+": {
       "personality": "lazy",
@@ -22,7 +21,8 @@
       "song": "Comrade K.K.",
       "phrase": "wut",
       "skill": "Blowing bubbles",
-      "goal": "Hair stylist"
+      "goal": "Hair stylist",
+      "style": "Official"
     }
   },
   "name": "Kidd",

@@ -8,7 +8,6 @@
     "milk": "Just a little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Rock 'n' roll",
   "games": {
     "af": {
       "personality": "snooty",
@@ -52,7 +51,8 @@
       "song": "K.K. Ragtime",
       "phrase": "wee baby",
       "skill": "Pretending to sleep",
-      "goal": "Writer"
+      "goal": "Writer",
+      "style": "Rock 'n' roll"
     }
   },
   "name": "Mathilda",

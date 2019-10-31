@@ -8,7 +8,6 @@
     "milk": "Just a little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Modern",
   "games": {
     "af": {
       "personality": "normal",
@@ -46,7 +45,8 @@
       "song": "K.K. Country",
       "phrase": "croak-kay",
       "skill": "Ventriloquism",
-      "goal": "Artist"
+      "goal": "Artist",
+      "style": "Modern"
     }
   },
   "name": "Jambette",

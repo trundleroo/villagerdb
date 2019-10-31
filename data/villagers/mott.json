@@ -7,7 +7,6 @@
     "milk": "None at all",
     "sugar": "None at all"
   },
-  "style": "Iconic",
   "games": {
     "cf": {
       "personality": "jock",
@@ -21,7 +20,8 @@
       "song": "Marine Song 2001",
       "phrase": "cagey",
       "skill": "Mental math",
-      "goal": "Lawyer"
+      "goal": "Lawyer",
+      "style": "Iconic"
     }
   },
   "name": "Mott",

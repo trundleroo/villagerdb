@@ -8,7 +8,6 @@
     "milk": "Just a little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Cute",
   "games": {
     "af": {
       "personality": "normal",
@@ -52,7 +51,8 @@
       "song": "K.K. Salsa",
       "phrase": "toady",
       "skill": "Calligraphy",
-      "goal": "Professor"
+      "goal": "Professor",
+      "style": "Cute"
     }
   },
   "name": "Lily",

@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Modern",
   "games": {
     "af": {
       "personality": "snooty",
@@ -52,7 +51,8 @@
       "song": "Soulful K.K.",
       "phrase": "tsk tsk",
       "skill": "Staying up late",
-      "goal": "Journalist"
+      "goal": "Journalist",
+      "style": "Modern"
     }
   },
   "name": "Yuka",

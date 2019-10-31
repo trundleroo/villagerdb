@@ -8,7 +8,6 @@
     "milk": "Just a little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Basic",
   "games": {
     "af": {
       "personality": "normal",
@@ -52,7 +51,8 @@
       "song": "K.K. Country",
       "phrase": "kitty cat",
       "skill": "Fishing",
-      "goal": "Writer"
+      "goal": "Writer",
+      "style": "Basic"
     }
   },
   "name": "Kiki",

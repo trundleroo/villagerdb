@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Official",
   "games": {
     "nl": {
       "personality": "normal",
@@ -16,7 +15,8 @@
       "song": "K.K. Ballad",
       "phrase": "quackidee",
       "skill": "Drawing circles",
-      "goal": "Florist"
+      "goal": "Florist",
+      "style": "Official"
     }
   },
   "name": "Molly",

@@ -8,7 +8,6 @@
     "milk": "None at all",
     "sugar": "None at all"
   },
-  "style": "Iconic",
   "games": {
     "af": {
       "personality": "snooty",
@@ -49,7 +48,8 @@
       "song": "K.K. Swing",
       "phrase": "kitten",
       "skill": "Writing backward",
-      "goal": "Movie director"
+      "goal": "Movie director",
+      "style": "Iconic"
     }
   },
   "name": "Purrl",

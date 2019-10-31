@@ -8,7 +8,6 @@
     "milk": "A little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Ornate",
   "games": {
     "af": {
       "personality": "peppy",
@@ -40,7 +39,8 @@
       "song": "K.K. Soul",
       "phrase": "growf",
       "skill": "Tongue twisters",
-      "goal": "President"
+      "goal": "President",
+      "style": "Ornate"
     }
   },
   "name": "Bangle",

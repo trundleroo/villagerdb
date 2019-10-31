@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Sporty",
   "games": {
     "af": {
       "personality": "peppy",
@@ -52,7 +51,8 @@
       "song": "To the Edge",
       "phrase": "me-WOW",
       "skill": "Telling Jokes",
-      "goal": "Tennis Player"
+      "goal": "Tennis Player",
+      "style": "Sporty"
     }
   },
   "name": "Tabby",

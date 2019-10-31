@@ -8,7 +8,6 @@
     "milk": "No milk",
     "sugar": "No sugar"
   },
-  "style": "Cute",
   "games": {
     "cf": {
       "personality": "normal",
@@ -22,7 +21,8 @@
       "song": "Two Days Ago",
       "phrase": "snortie",
       "skill": "Rock-Paper-Scissors",
-      "goal": "Violinist"
+      "goal": "Violinist",
+      "style": "Cute"
     }
   },
   "name": "Gala",

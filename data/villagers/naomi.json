@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Modern",
   "games": {
     "nl": {
       "personality": "snooty",
@@ -16,7 +15,8 @@
       "song": "K.K. Milonga",
       "phrase": "moolah",
       "skill": "Photography",
-      "goal": "Designer"
+      "goal": "Designer",
+      "style": "Modern"
     }
   },
   "name": "Naomi",

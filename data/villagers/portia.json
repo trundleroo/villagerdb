@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls sugar"
   },
-  "style": "Modern",
   "games": {
     "af": {
       "personality": "snooty",
@@ -49,7 +48,8 @@
       "song": "Cafe K.K.",
       "phrase": "ruffian",
       "skill": "Photography",
-      "goal": "Stylist"
+      "goal": "Stylist",
+      "style": "Modern"
     }
   },
   "name": "Portia",

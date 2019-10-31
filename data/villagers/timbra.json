@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Ornate",
   "games": {
     "nl": {
       "personality": "snooty",
@@ -16,7 +15,8 @@
       "song": "K.K. Cruisin'",
       "phrase": "pine nut",
       "skill": "Spoon bending",
-      "goal": "Stylist"
+      "goal": "Stylist",
+      "style": "Ornate"
     }
   },
   "name": "Timbra",

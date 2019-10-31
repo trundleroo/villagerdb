@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Flashy",
   "games": {
     "nl": {
       "personality": "smug",
@@ -16,7 +15,8 @@
       "song": "K.K. House",
       "phrase": "zut alors",
       "skill": "Beat boxing",
-      "goal": "Singer"
+      "goal": "Singer",
+      "style": "Flashy"
     }
   },
   "name": "Jacques",

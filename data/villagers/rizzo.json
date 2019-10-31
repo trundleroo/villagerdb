@@ -8,7 +8,6 @@
     "milk": "No milk",
     "sugar": "No sugar"
   },
-  "style": "Iconic",
   "games": {
     "af": {
       "personality": "cranky",
@@ -45,7 +44,8 @@
       "song": "K.K. Lament",
       "phrase": "squee",
       "skill": "Subsistence living",
-      "goal": "Police officer"
+      "goal": "Police officer",
+      "style": "Iconic"
     }
   },
   "name": "Rizzo",

@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Sporty",
   "games": {
     "nl": {
       "personality": "jock",
@@ -16,7 +15,8 @@
       "song": "Marine Song 2001",
       "phrase": "stubble",
       "skill": "Eating quickly",
-      "goal": "Fisherman"
+      "goal": "Fisherman",
+      "style": "Sporty"
     }
   },
   "name": "Coach",

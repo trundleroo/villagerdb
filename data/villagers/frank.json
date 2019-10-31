@@ -8,7 +8,6 @@
     "milk": "Just a little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Rock 'n' roll",
   "games": {
     "afe+": {
       "personality": "cranky",
@@ -22,7 +21,8 @@
       "song": "K.K. Casbah",
       "phrase": "crushy",
       "skill": "Pretending to sleep",
-      "goal": "Teacher"
+      "goal": "Teacher",
+      "style": "Rock 'n' roll"
     }
   },
   "name": "Frank",

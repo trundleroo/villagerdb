@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Modern",
   "games": {
     "af": {
       "personality": "peppy",
@@ -52,7 +51,8 @@
       "song": "K.K. Calypso",
       "phrase": "how now",
       "skill": "Competitive eating",
-      "goal": "Pastry chef"
+      "goal": "Pastry chef",
+      "style": "Modern"
     }
   },
   "name": "Patty",

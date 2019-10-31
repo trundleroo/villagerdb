@@ -7,7 +7,6 @@
     "milk": "A little bit of milk",
     "sugar": "1 spoonful of sugar"
   },
-  "style": "Basic",
   "games": {
     "af": {
       "personality": "lazy",
@@ -39,7 +38,8 @@
       "song": "Wandering",
       "phrase": "cool cat",
       "skill": "Chugging milk",
-      "goal": "Forest Ranger"
+      "goal": "Forest Ranger",
+      "style": "Basic"
     }
   },
   "name": "Rex",

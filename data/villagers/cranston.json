@@ -8,7 +8,6 @@
     "milk": "None at all",
     "sugar": "None at all"
   },
-  "style": "Modern",
   "games": {
     "nl": {
       "personality": "lazy",
@@ -16,7 +15,8 @@
       "song": "Steep Hill",
       "phrase": "sweatband",
       "skill": "Backflipping",
-      "goal": "CEO"
+      "goal": "CEO",
+      "style": "Modern"
     }
   },
   "name": "Cranston",

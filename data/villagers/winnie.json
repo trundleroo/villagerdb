@@ -8,7 +8,6 @@
     "milk": "Just a little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Modern",
   "games": {
     "af": {
       "personality": "peppy",
@@ -46,7 +45,8 @@
       "song": "My Place",
       "phrase": "hay-OK",
       "skill": "Tiptoeing",
-      "goal": "Volleyball player"
+      "goal": "Volleyball player",
+      "style": "Modern"
     }
   },
   "name": "Winnie",

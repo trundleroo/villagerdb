@@ -8,7 +8,6 @@
     "milk": "No milk",
     "sugar": "No sugar"
   },
-  "style": "Official",
   "games": {
     "ww": {
       "personality": "snooty",
@@ -26,7 +25,8 @@
       "song": "Neapolitan",
       "phrase": "puh-lease",
       "skill": "Mental Math",
-      "goal": "Archaeologist"
+      "goal": "Archaeologist",
+      "style": "Official"
     }
   },
   "name": "Elise",

@@ -7,7 +7,6 @@
     "milk": "None at all",
     "sugar": "None at all"
   },
-  "style": "Sporty",
   "games": {
     "afe+": {
       "personality": "lazy",
@@ -21,7 +20,8 @@
       "song": "I Love You",
       "phrase": "thumper",
       "skill": "Oversleeping",
-      "goal": "Chef"
+      "goal": "Chef",
+      "style": "Sporty"
     }
   },
   "name": "Hopkins",

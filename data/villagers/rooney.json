@@ -8,7 +8,6 @@
     "milk": "Just a little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Sporty",
   "games": {
     "nl": {
       "personality": "cranky",
@@ -16,7 +15,8 @@
       "song": "K.K. Adventure",
       "phrase": "punches",
       "skill": "Doing push-ups",
-      "goal": "Boxer"
+      "goal": "Boxer",
+      "style": "Sporty"
     }
   },
   "name": "Rooney",

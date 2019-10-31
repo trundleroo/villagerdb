@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Basic",
   "games": {
     "af": {
       "personality": "lazy",
@@ -46,7 +45,8 @@
       "song": "K.K. Mambo",
       "phrase": "snork",
       "skill": "Chugging milk",
-      "goal": "Poet"
+      "goal": "Poet",
+      "style": "Basic"
     }
   },
   "name": "Spork",

@@ -8,7 +8,6 @@
     "milk": "A little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Cute",
   "games": {
     "ww": {
       "personality": "normal",
@@ -28,7 +27,8 @@
       "song": "DJ K.K.",
       "phrase": "hulaaaa",
       "skill": "Yo-yoing",
-      "goal": "Volleyball player"
+      "goal": "Volleyball player",
+      "style": "Cute"
     }
   },
   "name": "Caroline",

@@ -8,7 +8,6 @@
     "milk": "a little bit of milk",
     "sugar": "one spoonful of sugar"
   },
-  "style": "Rock 'n' roll",
   "games": {
     "nl": {
       "personality": "jock",
@@ -16,7 +15,8 @@
       "song": "K.K. Folk",
       "phrase": "cardio",
       "skill": "Making puns",
-      "goal": "Mayor"
+      "goal": "Mayor",
+      "style": "Rock 'n' roll"
     }
   },
   "name": "Sheldon",

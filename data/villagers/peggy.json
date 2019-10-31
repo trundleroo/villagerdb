@@ -8,7 +8,6 @@
     "milk": "A little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Sporty",
   "games": {
     "afe+": {
       "personality": "peppy",
@@ -28,7 +27,8 @@
       "song": "K.K. Bossa",
       "phrase": "shweetie",
       "skill": "Stomping around",
-      "goal": "Movie star"
+      "goal": "Movie star",
+      "style": "Sporty"
     }
   },
   "name": "Peggy",

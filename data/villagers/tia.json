@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Cute",
   "games": {
     "nl": {
       "personality": "normal",
@@ -16,7 +15,8 @@
       "song": "K.K. Marathon",
       "phrase": "teacup",
       "skill": "Writing letters",
-      "goal": "Dentist"
+      "goal": "Dentist",
+      "style": "Cute"
     }
   },
   "name": "Tia",

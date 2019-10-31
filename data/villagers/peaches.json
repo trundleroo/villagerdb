@@ -8,7 +8,6 @@
     "milk": "No milk",
     "sugar": "No sugar"
   },
-  "style": "Cute",
   "games": {
     "af": {
       "personality": "normal",
@@ -46,7 +45,8 @@
       "song": "K.K. Song",
       "phrase": "neighbor",
       "skill": "Fishing",
-      "goal": "Florist"
+      "goal": "Florist",
+      "style": "Cute"
     }
   },
   "name": "Peaches",

@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Historical",
   "games": {
     "nl": {
       "personality": "smug",
@@ -16,7 +15,8 @@
       "song": "K.K. Moody",
       "phrase": "precisely",
       "skill": "Drawing circles",
-      "goal": "Professor"
+      "goal": "Professor",
+      "style": "Historical"
     }
   },
   "name": "Lionel",

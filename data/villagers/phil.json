@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Iconic",
   "games": {
     "nl": {
       "personality": "smug",
@@ -16,7 +15,8 @@
       "song": "Steep Hill",
       "phrase": "hurk",
       "skill": "Beat boxing",
-      "goal": "Baseball player"
+      "goal": "Baseball player",
+      "style": "Iconic"
     }
   },
   "name": "Phil",

@@ -7,7 +7,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Iconic",
   "games": {
     "nl": {
       "personality": "cranky",
@@ -15,7 +14,8 @@
       "song": "K.K. Dirge",
       "phrase": "heh heh",
       "skill": "Bug Catching",
-      "goal": "Master of the world"
+      "goal": "Master of the world",
+      "style": "Iconic"
     }
   },
   "name": "Ganon",

@@ -8,7 +8,6 @@
     "milk": "Just a  little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Historical",
   "games": {
     "nl": {
       "personality": "cranky",
@@ -16,7 +15,8 @@
       "song": "K.K. Rally",
       "phrase": "snort",
       "skill": "Eating quickly",
-      "goal": "Fisherman"
+      "goal": "Fisherman",
+      "style": "Historical"
     }
   },
   "name": "Hamphrey",

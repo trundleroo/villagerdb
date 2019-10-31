@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Cute",
   "games": {
     "afe+": {
       "personality": "peppy",
@@ -28,7 +27,8 @@
       "song": "DJ K.K.",
       "phrase": "mweee",
       "skill": "Vaulting",
-      "goal": "Figure Skater"
+      "goal": "Figure Skater",
+      "style": "Cute"
     }
   },
   "name": "Merry",

@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Sporty",
   "games": {
     "af": {
       "personality": "jock",
@@ -46,7 +45,8 @@
       "song": "Go K.K. Rider!",
       "phrase": "GAHHHH",
       "skill": "Chugging Milk",
-      "goal": "Rugby Player"
+      "goal": "Rugby Player",
+      "style": "Sporty"
     }
   },
   "name": "Stinky",

@@ -8,7 +8,6 @@
     "milk": "Just a little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Iconic",
   "games": {
     "af": {
       "personality": "cranky",
@@ -52,7 +51,8 @@
       "song": "K.K. Faire",
       "phrase": "ah-CHOO",
       "skill": "Whistling",
-      "goal": "Journalist"
+      "goal": "Journalist",
+      "style": "Iconic"
     }
   },
   "name": "Cyrano",

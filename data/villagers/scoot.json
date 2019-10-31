@@ -8,7 +8,6 @@
     "milk": "The regular amount of milk",
     "sugar": "Two spoonfuls of sugar"
   },
-  "style": "Sporty",
   "games": {
     "af": {
       "personality": "jock",
@@ -46,7 +45,8 @@
       "song": "Marine Song 2001",
       "phrase": "zip zoom",
       "skill": "Climbing trees",
-      "goal": "Rugby player"
+      "goal": "Rugby player",
+      "style": "Sporty"
     }
   },
   "name": "Scoot",

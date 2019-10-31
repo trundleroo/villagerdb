@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Cute",
   "games": {
     "af": {
       "personality": "peppy",
@@ -52,7 +51,8 @@
       "song": "K.K. Ska",
       "phrase": "peach",
       "skill": "Spoon bending",
-      "goal": "Cartoonist"
+      "goal": "Cartoonist",
+      "style": "Cute"
     }
   },
   "name": "Bluebear",

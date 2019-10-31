@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Modern",
   "games": {
     "af": {
       "personality": "peppy",
@@ -52,7 +51,8 @@
       "song": "K.K. Technopop",
       "phrase": "wee one",
       "skill": "Home repair",
-      "goal": "Tennis player"
+      "goal": "Tennis player",
+      "style": "Modern"
     }
   },
   "name": "Dotty",

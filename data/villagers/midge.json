@@ -8,7 +8,6 @@
     "milk": "Lots of milk",
     "sugar": "Three spoonfuls of sugar"
   },
-  "style": "Iconic",
   "games": {
     "af": {
       "personality": "normal",
@@ -46,7 +45,8 @@
       "song": "K.K. Lullaby",
       "phrase": "tweedledee",
       "skill": "Tongue twisters",
-      "goal": "Artist"
+      "goal": "Artist",
+      "style": "Iconic"
     }
   },
   "name": "Midge",

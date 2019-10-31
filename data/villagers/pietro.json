@@ -8,7 +8,6 @@
     "milk": "A little bit of milk",
     "sugar": "One spoonful of sugar"
   },
-  "style": "Flashy",
   "games": {
     "nl": {
       "personality": "smug",
@@ -16,7 +15,8 @@
       "song": "K.K. Parade",
       "phrase": "honk honk",
       "skill": "Making Crafts",
-      "goal": "Artist"
+      "goal": "Artist",
+      "style": "Flashy"
     }
   },
   "name": "Pietro",
