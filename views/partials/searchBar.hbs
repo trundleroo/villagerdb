@@ -1,6 +1,7 @@
 <form class="form mt-5 mb-5" method="get" action="/villagers/search">
     <div class="input-group">
-        <input type="text" class="form-control" name="q" placeholder="{{placeholder}}"
+        <label class="sr-only" for="q">Search for a villager</label>
+        <input type="text" class="form-control" id="q" name="q" placeholder="{{placeholder}}"
                {{#if resultSet.isSearch}}value="{{resultSet.searchQuery}}"{{/if}}/>
         <span class="input-group-btn">
             <button class="btn btn-primary" type="submit">Search</button>
