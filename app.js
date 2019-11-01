@@ -3,6 +3,7 @@ const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const lessMiddleware = require('less-middleware');
+const favicon = require('serve-favicon');
 const logger = require('morgan');
 const hbs = require('express-handlebars');
 
@@ -26,10 +27,15 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
+app.use(favicon(path.join(__dirname, 'public', 'images', 'favicon.ico')));
 app.use(lessMiddleware(path.join(__dirname, 'public'),
     {once: app.get('env') === 'production'}));
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Do not send X-Powered-By header.
+app.disable('x-powered-by');
+
+// Router setup.
 app.use('/', indexRouter);
 app.use('/villagers', villagersRouter);
 app.use('/villager', villagerRouter);
