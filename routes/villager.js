@@ -159,6 +159,9 @@ async function loadVillager(collection, id) {
     // Generate the paragraph.
     result.paragraph = generateParagraph(villager, result);
 
+    // Social media information
+    result.shareUrl = encodeURIComponent('https://villagerdb.com/villager/' + result.id);
+
     return result;
 }
 
