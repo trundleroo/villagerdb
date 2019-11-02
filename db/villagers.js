@@ -96,6 +96,7 @@ class Villagers {
      */
     async searchById(glob) {
         // Clean up the search string a bit.
+        glob = glob.toLowerCase();
         glob = glob.replace(/\s+/g, '_'); // replace one or more spaces with a single _
         glob = glob.replace(/[^\w]/g, ''); // remove any non-alphanumeric characters.
 
