@@ -125,8 +125,7 @@ function compressGameData(games, property) {
  *
  * @param collection
  * @param id
- * @param res
- * @returns {Promise<void>}
+ * @returns {Promise<{}>}
  */
 async function loadVillager(collection, id) {
     // Load villager
@@ -157,8 +156,11 @@ async function loadVillager(collection, id) {
     result.hasPhrases = result.phrases.length > 0;
     result.hasSongs = result.songs.length > 0;
 
-    // Finally, generate the paragraph.
+    // Generate the paragraph.
     result.paragraph = generateParagraph(villager, result);
+
+    // Social media share URL
+    result.shareUrl = 'https://villagerdb.com/villager/' + result.id;
     return result;
 }
 
