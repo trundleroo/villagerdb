@@ -1,4 +1,4 @@
-# villagerdb
+# VillagerDB
 
 ## Introduction
 VillagerDB is an attempt to organize as much metadata as we
