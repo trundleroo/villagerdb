@@ -1,0 +1,22 @@
+{
+  "gender": "male",
+  "species": "rabbit",
+  "birthday": "7-10",
+  "games": {
+    "nl": {
+      "personality": "snooty",
+      "phrase": "ribbit",
+      "clothes": "Kerokerokeroppi top",
+      "skill": "Swimming",
+      "goal": "Weatherperson",
+      "song": "King K.K."
+    }
+  },
+  "name": "Toby",
+  "id": "toby",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "The regular amount of milk",
+    "sugar": "2 spoonfuls of sugar"
+  }
+}

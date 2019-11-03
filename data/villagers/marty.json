@@ -1,0 +1,22 @@
+{
+  "gender": "male",
+  "species": "cub",
+  "birthday": "4-16",
+  "games": {
+    "nl": {
+      "personality": "lazy",
+      "phrase": "pompom",
+      "clothes": "Pompompurin outfit",
+      "skill": "Hiding shoes",
+      "goal": "Baker",
+      "song": "My Place"
+    }
+  },
+  "name": "Marty",
+  "id": "marty",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  }
+}

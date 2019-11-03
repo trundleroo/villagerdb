@@ -1,0 +1,22 @@
+{
+  "gender": "female",
+  "species": "gorilla",
+  "birthday": "11-1",
+  "games": {
+    "nl": {
+      "personality": "peppy",
+      "phrase": "hello",
+      "clothes": "Hello Kitty Outfit",
+      "skill": "Baking",
+      "goal": "Kitty White",
+      "song": "Bubblegum K.K."
+    }
+  },
+  "name": "Rilla",
+  "id": "rilla",
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  }
+}

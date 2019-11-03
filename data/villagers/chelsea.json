@@ -1,0 +1,22 @@
+{
+  "gender": "female",
+  "species": "deer",
+  "birthday": "3-6",
+  "games": {
+    "nl": {
+      "personality": "normal",
+      "phrase": "pound cake",
+      "clothes": "My Melody Outfit",
+      "skill": "Making sweets",
+      "goal": "Pastry chef",
+      "song": "K.K. Stroll"
+    }
+  },
+  "name": "Chelsea",
+  "id": "chelsea",
+  "coffee": {
+    "beans": "Mocha",
+    "milk": "Lots of milk",
+    "sugar": "3 spoonfulls of sugar"
+  }
+}

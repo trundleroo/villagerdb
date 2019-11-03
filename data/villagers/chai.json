@@ -1,0 +1,22 @@
+{
+  "gender": "female",
+  "species": "elephant",
+  "birthday": "3-6",
+  "games": {
+    "nl": {
+      "personality": "peppy",
+      "phrase": "flap flap",
+      "clothes": "Cinnamoroll Outfit",
+      "skill": "Napping",
+      "goal": "Cafe Owner",
+      "song": "K.K. Bossa"
+    }
+  },
+  "name": "Chai",
+  "id": "chai",
+  "coffee": {
+    "beans": "Blend",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  }
+}

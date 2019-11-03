@@ -1,0 +1,14 @@
+{
+  "gender": "female",
+  "species": "anteater",
+  "birthday": "2-16",
+  "games": {
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Red Aloha Shirt",
+      "phrase": "araara"
+    }
+  },
+  "name": "Lulu",
+  "id": "lulu2"
+}

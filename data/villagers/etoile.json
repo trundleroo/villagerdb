@@ -1,0 +1,22 @@
+{
+  "gender": "female",
+  "species": "sheep",
+  "birthday": "12-25",
+  "games": {
+    "nl": {
+      "personality": "normal",
+      "phrase": "fuzzy",
+      "clothes": "Kiki and Lala Outfit",
+      "skill": "Handiwork",
+      "goal": "Interior designer",
+      "song": "K.K. Lullaby"
+    }
+  },
+  "name": "Etoile",
+  "id": "etoile",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "Lots of milk",
+    "sugar": "3 spoonfulls of sugar"
+  }
+}
