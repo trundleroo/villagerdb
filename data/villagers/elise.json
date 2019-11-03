@@ -12,16 +12,18 @@
     "ww": {
       "personality": "snooty",
       "song": "Neapolitan",
-      "phrase": "puh-lease"
+      "phrase": "puh-lease",
+      "clothes": "Cool Shirt"
     },
     "cf": {
       "personality": "snooty",
       "song": "Neapolitan",
-      "phrase": "puh-lease"
+      "phrase": "puh-lease",
+      "clothes": "Cool Shirt"
     },
     "nl": {
       "personality": "snooty",
-      "clothes": "Cool ShirtGumdrop Tee",
+      "clothes": "Gumdrop Tee",
       "song": "Neapolitan",
       "phrase": "puh-lease",
       "skill": "Mental Math",

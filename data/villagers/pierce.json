@@ -12,38 +12,44 @@
     "af": {
       "personality": "jock",
       "song": "K.K. Etude",
-      "phrase": "winger"
+      "phrase": "winger",
+      "clothes": "Circus Shirt"
     },
     "af+": {
       "personality": "jock",
       "song": "K.K. Etude",
-      "phrase": "winger"
+      "phrase": "winger",
+      "clothes": "Circus Shirt"
     },
     "ac": {
       "personality": "jock",
       "song": "K.K. Etude",
-      "phrase": "winger"
+      "phrase": "winger",
+      "clothes": "Circus Shirt"
     },
     "afe+": {
       "personality": "jock",
       "song": "K.K. Etude",
-      "phrase": "winger"
+      "phrase": "winger",
+      "clothes": "Circus Shirt"
     },
     "ww": {
       "personality": "jock",
       "song": "K.K. Etude",
-      "phrase": "winger"
+      "phrase": "hawkeye",
+      "clothes": "Circus Shirt"
     },
     "cf": {
       "personality": "jock",
       "song": "K.K. Etude",
-      "phrase": "winger"
+      "phrase": "hawkeye",
+      "clothes": "Circus Shirt"
     },
     "nl": {
       "personality": "jock",
-      "clothes": "Circus ShirtCamel Shirt",
+      "clothes": "Camel Shirt",
       "song": "K.K. Etude",
-      "phrase": "winger",
+      "phrase": "hawkeye",
       "skill": "Playing catch",
       "goal": "Rugby player",
       "style": "Sporty"

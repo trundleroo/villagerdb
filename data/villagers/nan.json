@@ -12,36 +12,42 @@
     "af": {
       "personality": "normal",
       "song": "K.K. Etude",
-      "phrase": "kid"
+      "phrase": "kid",
+      "clothes": "Citrus Gingham Shirt"
     },
     "af+": {
       "personality": "normal",
       "song": "K.K. Etude",
-      "phrase": "kid"
+      "phrase": "kid",
+      "clothes": "Citrus Gingham Shirt"
     },
     "ac": {
       "personality": "normal",
       "song": "K.K. Etude",
-      "phrase": "kid"
+      "phrase": "kid",
+      "clothes": "Citrus Gingham Shirt"
     },
     "afe+": {
       "personality": "normal",
       "song": "K.K. Etude",
-      "phrase": "kid"
+      "phrase": "kid",
+      "clothes": "Citrus Gingham Shirt"
     },
     "ww": {
       "personality": "normal",
       "song": "K.K. Etude",
-      "phrase": "kid"
+      "phrase": "kid",
+      "clothes": "Citrus Gingham Shirt"
     },
     "cf": {
       "personality": "normal",
       "song": "K.K. Etude",
-      "phrase": "kid"
+      "phrase": "kid",
+      "clothes": "Citrus Gingham Shirt"
     },
     "nl": {
       "personality": "normal",
-      "clothes": "Citrus Gingham ShirtStraw Shirt",
+      "clothes": "Straw Shirt",
       "song": "K.K. Etude",
       "phrase": "kid",
       "skill": "Playing horseshoes",
