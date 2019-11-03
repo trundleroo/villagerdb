@@ -1,0 +1,15 @@
+{
+  "gender": "male",
+  "species": "wolf",
+  "birthday": "10-29",
+  "games": {
+    "afe+": {
+      "personality": "jock",
+      "clothes": "Black Tooth Tee",
+      "phrase": "waon",
+      "song": "Only Me"
+    }
+  },
+  "name": "Tarou",
+  "id": "tarou"
+}

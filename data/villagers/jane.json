@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "gorilla",
+  "birthday": "1-25",
+  "games": {
+    "af": {
+      "personality": "snooty",
+      "clothes": "Rainbow Shirt",
+      "song": "K.K. Soul",
+      "phrase": "chimp"
+    },
+    "af+": {
+      "personality": "snooty",
+      "clothes": "Rainbow Shirt",
+      "song": "K.K. Soul",
+      "phrase": "chimp"
+    },
+    "ac": {
+      "personality": "snooty",
+      "clothes": "Rainbow Shirt",
+      "song": "K.K. Soul",
+      "phrase": "chimp"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "Rainbow Shirt",
+      "song": "K.K. Soul",
+      "phrase": "chimp"
+    }
+  },
+  "name": "Jane",
+  "id": "jane"
+}

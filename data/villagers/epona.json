@@ -1,0 +1,22 @@
+{
+  "gender": "female",
+  "species": "horse",
+  "birthday": "11-21",
+  "games": {
+    "nl": {
+      "personality": "peppy",
+      "phrase": "neigh",
+      "clothes": "Epona Outfit",
+      "skill": "Galloping",
+      "goal": "Hero's companion",
+      "song": "Wandering"
+    }
+  },
+  "name": "Epona",
+  "id": "epona",
+  "coffee": {
+    "beans": "Kilimanjaro",
+    "milk": "No milk",
+    "sugar": "No sugar"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "gender": "male",
+  "species": "hamster",
+  "birthday": "6-11",
+  "games": {
+    "nl": {
+      "personality": "jock",
+      "phrase": "glue stick",
+      "clothes": "High Spirits Shirt",
+      "song": "K.K. Samba"
+    }
+  },
+  "name": "Holden",
+  "id": "holden"
+}

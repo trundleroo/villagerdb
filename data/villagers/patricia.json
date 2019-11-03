@@ -1,0 +1,14 @@
+{
+  "gender": "female",
+  "species": "rhino",
+  "birthday": "9-4",
+  "games": {
+    "afe+": {
+      "personality": "normal",
+      "clothes": "Red Aloha Shirt",
+      "phrase": "ehe-tsu"
+    }
+  },
+  "name": "Patricia",
+  "id": "patricia"
+}

@@ -1,0 +1,20 @@
+{
+  "gender": "male",
+  "species": "octopus",
+  "birthday": "6-2",
+  "games": {
+    "nl": {
+      "personality": "jock",
+      "phrase": "Splat!",
+      "clothes": "Black anchor tee",
+      "song": "K.K. Adventure"
+    }
+  },
+  "coffee": {
+    "beans": "Blue Mountain",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "name": "Inkwell",
+  "id": "inkwell"
+}
