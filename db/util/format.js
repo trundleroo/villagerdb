@@ -18,6 +18,7 @@ const zodiacData = [
     {title: 'Scorpio',     start: moment('10-23-2000', 'MM-DD-YYYY').unix(), end: moment('11-22-2000', 'MM-DD-YYYY').unix()},
     {title: 'Sagittarius', start: moment('11-22-2000', 'MM-DD-YYYY').unix(), end: moment('12-22-2000', 'MM-DD-YYYY').unix()},
     {title: 'Capricorn',   start: moment('12-22-2000', 'MM-DD-YYYY').unix(), end: moment('12-31-2000', 'MM-DD-YYYY').unix()},
+    {title: 'Capricorn',   start: moment('12-31-2000', 'MM-DD-YYYY').unix(), end: moment('01-20-2001', 'MM-DD-YYYY').unix()}
 ];
 
 /**
@@ -66,9 +67,14 @@ module.exports.formatVillager = function(villager) {
     result.gender = capFirstLetter(villager.gender);
     result.species = capFirstLetter(villager.species);
 
-    let momentBirthdate = moment(villager.birthday + '-2000', 'MM-DD-YYYY'); // we only store month/year, so add 2000.
-    result.birthday = momentBirthdate.format('MMM Do');
-    result.zodiac = getZodiac(momentBirthdate);
+    if (villager.birthday) {
+        let momentBirthdate = moment(villager.birthday + '-2000', 'MM-DD-YYYY'); // we only store month/year, so add 2000.
+        result.birthday = momentBirthdate.format('MMM Do');
+        result.zodiac = getZodiac(momentBirthdate);
+    } else {
+        result.birthday = 'Unknown';
+        result.zodiac = 'Unknown';
+    }
 
     // All the game-specific data.
     result.games = {};
