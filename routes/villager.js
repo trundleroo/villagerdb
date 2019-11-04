@@ -107,13 +107,14 @@ function compressGameData(games, property) {
         let newValue = games[game][property];
         if (newValue) {
             newValue = newValue.trim().toLowerCase().replace(/\s+/g, ' ');
-            if (newValue !== lastValue) {
-                result.push({
-                    title: games[game].title,
-                    value: games[game][property]
-                });
-                lastValue = newValue;
-            }
+            result.push({
+                shortTitle: formatUtil.games[game].shortTitle,
+                title: formatUtil.games[game].title,
+                year: formatUtil.games[game].year,
+                value: games[game][property],
+                isNew: (lastValue !== newValue)
+            });
+            lastValue = newValue;
         }
     }
 
@@ -142,7 +143,6 @@ async function loadVillager(collection, id) {
     // Some extra metadata the template needs.
     result.id = villager.id;
     result.pageTitle = villager.name;
-    result.astrology = 'Aquarius';
 
     // Game-specific attributes.
     result.personalities = compressGameData(result.games, 'personality');

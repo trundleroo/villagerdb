@@ -1,15 +1,17 @@
 {{#if shouldDisplay }}
     <h2>{{title}}</h2>
-    <table class="table table-borderless table-striped">
+    <table class="table">
         <thead class="sr-only">
         <th>Game</th>
+        <th>Year</th>
         <th>{{valueName}}</th>
         </thead>
         <tbody>
         {{#each array}}
-            <tr>
-                <td style="width: 40%; font-weight: bold;">{{title}}</td>
-                <td style="width: 60%;">{{value}}</td>
+            <tr {{#unless isNew}}style="color: #999;"{{/unless}}>
+                <td style="width: 10%; font-weight: bold;"><abbr title="{{title}}">{{shortTitle}}</abbr></td>
+                <td style="width: 20%; text-align: center;">{{year}}</td>
+                <td style="width: 70%;">{{value}}</td>
             </tr>
         {{/each}}
         </tbody>

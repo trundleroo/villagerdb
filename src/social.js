@@ -9,7 +9,6 @@ $(document).ready(() => {
         if (e.currentTarget && e.currentTarget.href) {
             window.open(e.currentTarget.href, '_blank',
                 'toolbar=no,menubar=no,scrollbars=yes,resizble=yes,width=600,height=600');
-            console.log(e.currentTarget.href);
         }
     });
 });

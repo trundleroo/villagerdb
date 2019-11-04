@@ -5,6 +5,9 @@ const moment = require('moment');
  * @type {*[]}
  */
 const zodiacData = [
+    {title: 'Capricorn',   start: moment('12-22-1999', 'MM-DD-YYYY').unix(), end: moment('01-20-2000', 'MM-DD-YYYY').unix()},
+    {title: 'Aquarius',    start: moment('01-20-2000', 'MM-DD-YYYY').unix(), end: moment('02-19-2000', 'MM-DD-YYYY').unix()},
+    {title: 'Pisces',      start: moment('02-19-2000', 'MM-DD-YYYY').unix(), end: moment('03-21-2000', 'MM-DD-YYYY').unix()},
     {title: 'Aries',       start: moment('03-21-2000', 'MM-DD-YYYY').unix(), end: moment('04-20-2000', 'MM-DD-YYYY').unix()},
     {title: 'Taurus',      start: moment('04-20-2000', 'MM-DD-YYYY').unix(), end: moment('05-21-2000', 'MM-DD-YYYY').unix()},
     {title: 'Gemini',      start: moment('05-21-2000', 'MM-DD-YYYY').unix(), end: moment('06-21-2000', 'MM-DD-YYYY').unix()},
@@ -14,9 +17,7 @@ const zodiacData = [
     {title: 'Libra',       start: moment('09-23-2000', 'MM-DD-YYYY').unix(), end: moment('10-23-2000', 'MM-DD-YYYY').unix()},
     {title: 'Scorpio',     start: moment('10-23-2000', 'MM-DD-YYYY').unix(), end: moment('11-22-2000', 'MM-DD-YYYY').unix()},
     {title: 'Sagittarius', start: moment('11-22-2000', 'MM-DD-YYYY').unix(), end: moment('12-22-2000', 'MM-DD-YYYY').unix()},
-    {title: 'Capricorn',   start: moment('12-22-2000', 'MM-DD-YYYY').unix(), end: moment('01-20-2000', 'MM-DD-YYYY').unix()},
-    {title: 'Aquarius',    start: moment('01-20-2000', 'MM-DD-YYYY').unix(), end: moment('02-19-2000', 'MM-DD-YYYY').unix()},
-    {title: 'Pisces',      start: moment('02-19-2000', 'MM-DD-YYYY').unix(), end: moment('03-21-2000', 'MM-DD-YYYY').unix()},
+    {title: 'Capricorn',   start: moment('12-22-2000', 'MM-DD-YYYY').unix(), end: moment('12-31-2000', 'MM-DD-YYYY').unix()},
 ];
 
 /**
@@ -25,18 +26,16 @@ const zodiacData = [
  * @type {{}}
  */
 const games = {
-    'nh': {title: 'New Horizons', order: 10},
-    'nl': {title: 'New Leaf', order: 9},
-    'pc': {title: 'Pocket Camp', order: 8},
-    'hhd': {title: 'Happy Home Designer', order: 7},
-    'cf': {title: 'City Folk', order: 6},
-    'ww': {title: 'Wild World', order: 5},
-    'afe+': {title: 'Animal Forest e+', order: 4},
-    'ac': {title: 'Animal Crossing', order: 3},
-    'af+': {title: 'Animal Forest+', order: 2},
-    'af': {title: 'Animal Forest', order: 1}
+    'af':   {shortTitle: 'AF',   title: 'Animal Forest',    year: 2001, order: 1},
+    'af+':  {shortTitle: 'AF+',  title: 'Animal Forest+',   year: 2001, order: 2},
+    'ac':   {shortTitle: 'AC',   title: 'Animal Crossing',  year: 2002, order: 3},
+    'afe+': {shortTitle: 'AFe+', title: 'Animal Forest e+', year: 2003, order: 4},
+    'ww':   {shortTitle: 'WW',   title: 'Wild World',       year: 2005, order: 5},
+    'cf':   {shortTitle: 'CF',   title: 'City Folk',        year: 2008, order: 6},
+    'nl':   {shortTitle: 'NL',   title: 'New Leaf',         year: 2012, order: 7},
+    'nh':   {shortTitle: 'NH',   title: 'New Horizons',     year: 2020, order: 8}
 };
-
+module.exports.games = games;
 
 /**
  * Capitalize first letter of given string.
@@ -51,8 +50,6 @@ function capFirstLetter(string) {
 
     return string[0].toUpperCase() + string.substr(1, string.length - 1);
 }
-
-module.exports.games = games;
 module.exports.capFirstLetter = capFirstLetter;
 
 /**
@@ -74,21 +71,23 @@ module.exports.formatVillager = function(villager) {
     result.zodiac = getZodiac(momentBirthdate);
 
     // All the game-specific data.
-    result.games = [];
+    result.games = {};
+    result.gameTitles = [];
     for (let game in games) {
         let data = villager.games[game];
         if (data) {
-            result.games.push({
-                title: games[game].title,
+            result.gameTitles.push(games[game].title);
+            result.games[game] = {
                 personality: data.personality,
                 clothes: data.clothes,
                 song: data.song,
                 phrase: data.phrase,
                 skill: data.skill,
                 style: data.style
-            });
+            };
         }
     }
+    result.gameTitles.reverse();
 
     return result;
 }
