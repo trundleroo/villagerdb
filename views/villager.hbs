@@ -55,15 +55,11 @@
         <p>{{paragraph}}</p>
 
         <div class="row">
-            <div class="col-sm-12 col-lg-6">
-                {{> villagerGameData shouldDisplay=hasPersonalities title="Personality" valueName="personality"
-                        array=personalities}}
-                {{> villagerGameData shouldDisplay=hasClothing title="Clothing" valueName="Clothes" array=clothing}}
-            </div>
-            <div class="col-sm-12 col-lg-6">
-                {{> villagerGameData shouldDisplay=hasPhrases title="Phrases" valueName="Phrase" array=phrases }}
-                {{> villagerGameData shouldDisplay=hasSongs title="Songs" valueName="Song" array=songs }}
-            </div>
+            {{> villagerGameData shouldDisplay=hasPersonalities title="Personality" valueName="personality"
+                    array=personalities}}
+            {{> villagerGameData shouldDisplay=hasClothing title="Clothing" valueName="Clothes" array=clothing}}
+            {{> villagerGameData shouldDisplay=hasPhrases title="Phrases" valueName="Phrase" array=phrases }}
+            {{> villagerGameData shouldDisplay=hasSongs title="Songs" valueName="Song" array=songs }}
         </div>
     </div>
 </div>
