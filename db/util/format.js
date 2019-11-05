@@ -84,7 +84,7 @@ module.exports.formatVillager = function(villager) {
         if (data) {
             result.gameTitles.push(games[game].title);
             result.games[game] = {
-                personality: data.personality,
+                personality: capFirstLetter(data.personality),
                 clothes: data.clothes,
                 song: data.song,
                 phrase: data.phrase,
