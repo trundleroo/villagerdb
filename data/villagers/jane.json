@@ -6,14 +6,12 @@
     "af": {
       "personality": "snooty",
       "clothes": "Rainbow Shirt",
-      "song": "K.K. Soul",
-      "phrase": "chimp"
+      "song": "K.K. Soul"
     },
     "af+": {
       "personality": "snooty",
       "clothes": "Rainbow Shirt",
-      "song": "K.K. Soul",
-      "phrase": "chimp"
+      "song": "K.K. Soul"
     },
     "ac": {
       "personality": "snooty",
@@ -24,8 +22,7 @@
     "afe+": {
       "personality": "snooty",
       "clothes": "Rainbow Shirt",
-      "song": "K.K. Soul",
-      "phrase": "chimp"
+      "song": "K.K. Soul"
     }
   },
   "name": "Jane",

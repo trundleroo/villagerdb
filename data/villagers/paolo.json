@@ -10,13 +10,11 @@
   "games": {
     "af": {
       "personality": "lazy",
-      "clothes": "N64 Shirt",
-      "phrase": "pal"
+      "clothes": "N64 Shirt"
     },
     "af+": {
       "personality": "lazy",
-      "clothes": "Diner Uniform",
-      "phrase": "pal"
+      "clothes": "Diner Uniform"
     },
     "ac": {
       "personality": "lazy",
@@ -25,8 +23,7 @@
     },
     "afe+": {
       "personality": "lazy",
-      "clothes": "Cherry Shirt",
-      "phrase": "pal"
+      "clothes": "Cherry Shirt"
     },
     "nl": {
       "personality": "lazy",

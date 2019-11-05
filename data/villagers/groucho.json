@@ -10,13 +10,11 @@
   "games": {
     "af": {
       "personality": "cranky",
-      "song": "K.K. Metal",
-      "phrase": "grumble"
+      "song": "K.K. Metal"
     },
     "af+": {
       "personality": "cranky",
-      "song": "K.K. Metal",
-      "phrase": "grumble"
+      "song": "K.K. Metal"
     },
     "ac": {
       "personality": "cranky",
@@ -26,8 +24,7 @@
     },
     "afe+": {
       "personality": "cranky",
-      "song": "K.K. Metal",
-      "phrase": "grumble"
+      "song": "K.K. Metal"
     },
     "cf": {
       "personality": "cranky",

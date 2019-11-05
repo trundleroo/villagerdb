@@ -10,13 +10,11 @@
   "games": {
     "af": {
       "personality": "lazy",
-      "song": "K.K. Fusion",
-      "phrase": "quaa"
+      "song": "K.K. Fusion"
     },
     "af+": {
       "personality": "lazy",
-      "song": "K.K. Fusion",
-      "phrase": "quaa"
+      "song": "K.K. Fusion"
     },
     "ac": {
       "personality": "lazy",
@@ -26,8 +24,7 @@
     "afe+": {
       "personality": "lazy",
       "clothes": "Fish Knit",
-      "song": "K.K. Fusion",
-      "phrase": "quaa"
+      "song": "K.K. Fusion"
     },
     "nl": {
       "personality": "lazy",

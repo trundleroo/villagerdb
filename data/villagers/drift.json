@@ -10,13 +10,11 @@
   "games": {
     "af": {
       "personality": "jock",
-      "song": "K.K. Country",
-      "phrase": "brah"
+      "song": "K.K. Country"
     },
     "af+": {
       "personality": "jock",
-      "song": "K.K. Country",
-      "phrase": "brah"
+      "song": "K.K. Country"
     },
     "ac": {
       "personality": "jock",
@@ -26,8 +24,7 @@
     },
     "afe+": {
       "personality": "jock",
-      "song": "K.K. Country",
-      "phrase": "brah"
+      "song": "K.K. Country"
     },
     "ww": {
       "personality": "jock",

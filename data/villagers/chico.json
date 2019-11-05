@@ -6,14 +6,12 @@
     "af": {
       "personality": "lazy",
       "clothes": "Blue plaid tee",
-      "song": "K.K. Faire",
-      "phrase": "cheeeeese"
+      "song": "K.K. Faire"
     },
     "af+": {
       "personality": "lazy",
       "clothes": "Blue plaid tee",
-      "song": "K.K. Faire",
-      "phrase": "cheeeeese"
+      "song": "K.K. Faire"
     },
     "ac": {
       "personality": "lazy",
@@ -24,8 +22,7 @@
     "afe+": {
       "personality": "lazy",
       "clothes": "Blue plaid tee",
-      "song": "K.K. Faire",
-      "phrase": "cheeeeese"
+      "song": "K.K. Faire"
     }
   },
   "name": "Chico",

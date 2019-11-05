@@ -10,8 +10,7 @@
   "games": {
     "af+": {
       "personality": "lazy",
-      "song": "K.K. Lament",
-      "phrase": "ohmmm"
+      "song": "K.K. Lament"
     },
     "ac": {
       "personality": "lazy",
@@ -21,8 +20,7 @@
     "afe+": {
       "personality": "lazy",
       "clothes": "Blue Aloha Shirt",
-      "song": "K.K. Lament",
-      "phrase": "ohmmm"
+      "song": "K.K. Lament"
     },
     "nl": {
       "personality": "cranky",

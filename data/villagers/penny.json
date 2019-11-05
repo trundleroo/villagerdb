@@ -6,14 +6,12 @@
     "af": {
       "personality": "peppy",
       "clothes": "Subdued Print",
-      "song": "K.K. Parade",
-      "phrase": "ska-WEAK"
+      "song": "K.K. Parade"
     },
     "af+": {
       "personality": "peppy",
       "clothes": "Subdued Print",
-      "song": "K.K. Parade",
-      "phrase": "ska-WEAK"
+      "song": "K.K. Parade"
     },
     "ac": {
       "personality": "peppy",
@@ -24,8 +22,7 @@
     "afe+": {
       "personality": "peppy",
       "clothes": "Subdued Print",
-      "song": "K.K. Parade",
-      "phrase": "ska-WEAK"
+      "song": "K.K. Parade"
     }
   },
   "name": "Penny",

@@ -10,13 +10,11 @@
   "games": {
     "af": {
       "personality": "cranky",
-      "song": "K.K. Folk",
-      "phrase": "meooo-OH"
+      "song": "K.K. Folk"
     },
     "af+": {
       "personality": "cranky",
-      "song": "K.K. Folk",
-      "phrase": "meooo-OH"
+      "song": "K.K. Folk"
     },
     "ac": {
       "personality": "cranky",
@@ -26,8 +24,7 @@
     },
     "afe+": {
       "personality": "cranky",
-      "song": "K.K. Folk",
-      "phrase": "meooo-OH"
+      "song": "K.K. Folk"
     },
     "ww": {
       "personality": "cranky",

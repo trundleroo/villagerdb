@@ -10,13 +10,11 @@
   "games": {
     "af": {
       "personality": "cranky",
-      "song": "K.K. House",
-      "phrase": "schnort"
+      "song": "K.K. House"
     },
     "af+": {
       "personality": "cranky",
-      "song": "K.K. House",
-      "phrase": "schnort"
+      "song": "K.K. House"
     },
     "ac": {
       "personality": "cranky",
@@ -26,8 +24,7 @@
     "afe+": {
       "personality": "cranky",
       "clothes": "Kafei's Shirt",
-      "song": "K.K. House",
-      "phrase": "schnort"
+      "song": "K.K. House"
     },
     "nl": {
       "personality": "cranky",

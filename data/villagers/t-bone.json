@@ -10,13 +10,11 @@
   "games": {
     "af": {
       "personality": "lazy",
-      "song": "K.K. Steppe",
-      "phrase": "moocher"
+      "song": "K.K. Steppe"
     },
     "af+": {
       "personality": "lazy",
-      "song": "K.K. Steppe",
-      "phrase": "moocher"
+      "song": "K.K. Steppe"
     },
     "ac": {
       "personality": "lazy",
@@ -26,8 +24,7 @@
     },
     "afe+": {
       "personality": "lazy",
-      "song": "K.K. Steppe",
-      "phrase": "moocher"
+      "song": "K.K. Steppe"
     },
     "nl": {
       "personality": "cranky",

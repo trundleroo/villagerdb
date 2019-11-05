@@ -10,13 +10,11 @@
   "games": {
     "af": {
       "personality": "cranky",
-      "song": "K.K. Faire",
-      "phrase": "swine"
+      "song": "K.K. Faire"
     },
     "af+": {
       "personality": "cranky",
-      "song": "K.K. Faire",
-      "phrase": "swine"
+      "song": "K.K. Faire"
     },
     "ac": {
       "personality": "cranky",
@@ -26,8 +24,7 @@
     },
     "afe+": {
       "personality": "cranky",
-      "song": "K.K. Faire",
-      "phrase": "swine"
+      "song": "K.K. Faire"
     },
     "ww": {
       "personality": "cranky",

@@ -10,13 +10,11 @@
   "games": {
     "af": {
       "personality": "peppy",
-      "song": "Two Days Ago",
-      "phrase": "snoutie"
+      "song": "Two Days Ago"
     },
     "af+": {
       "personality": "peppy",
-      "song": "Two Days Ago",
-      "phrase": "snoutie"
+      "song": "Two Days Ago"
     },
     "ac": {
       "personality": "peppy",
@@ -26,8 +24,7 @@
     },
     "afe+": {
       "personality": "peppy",
-      "song": "Two Days Ago",
-      "phrase": "snoutie"
+      "song": "Two Days Ago"
     },
     "ww": {
       "personality": "peppy",

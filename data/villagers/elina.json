@@ -5,8 +5,7 @@
   "games": {
     "af+": {
       "personality": "snooty",
-      "clothes": "Red Aloha Shirt",
-      "phrase": "shrimp"
+      "clothes": "Red Aloha Shirt"
     },
     "ac": {
       "personality": "snooty",
@@ -15,8 +14,7 @@
     },
     "afe+": {
       "personality": "snooty",
-      "clothes": "Red Aloha Shirt",
-      "phrase": "shrimp"
+      "clothes": "Red Aloha Shirt"
     }
   },
   "name": "Elina",

@@ -10,13 +10,11 @@
   "games": {
     "af": {
       "personality": "cranky",
-      "song": "Agent K.K.",
-      "phrase": "nyet"
+      "song": "Agent K.K."
     },
     "af+": {
       "personality": "cranky",
-      "song": "Agent K.K.",
-      "phrase": "nyet"
+      "song": "Agent K.K."
     },
     "ac": {
       "personality": "cranky",
@@ -26,8 +24,7 @@
     },
     "afe+": {
       "personality": "cranky",
-      "song": "Agent K.K.",
-      "phrase": "nyet"
+      "song": "Agent K.K."
     },
     "cf": {
       "personality": "cranky",

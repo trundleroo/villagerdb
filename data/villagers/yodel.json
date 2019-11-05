@@ -5,8 +5,7 @@
   "games": {
     "af+": {
       "personality": "lazy",
-      "clothes": "Blue Aloha Shirt",
-      "phrase": "odelay"
+      "clothes": "Blue Aloha Shirt"
     },
     "ac": {
       "personality": "lazy",
@@ -15,8 +14,7 @@
     },
     "afe+": {
       "personality": "lazy",
-      "clothes": "Blue Aloha Shirt",
-      "phrase": "odelay"
+      "clothes": "Blue Aloha Shirt"
     }
   },
   "name": "Yodel",

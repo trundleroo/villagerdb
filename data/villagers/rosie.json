@@ -10,13 +10,11 @@
   "games": {
     "af": {
       "personality": "peppy",
-      "song": "Bubblegum K.K.",
-      "phrase": "silly"
+      "song": "Bubblegum K.K."
     },
     "af+": {
       "personality": "peppy",
-      "song": "Bubblegum K.K.",
-      "phrase": "silly"
+      "song": "Bubblegum K.K."
     },
     "ac": {
       "personality": "peppy",
@@ -26,8 +24,7 @@
     },
     "afe+": {
       "personality": "peppy",
-      "song": "Bubblegum K.K.",
-      "phrase": "silly"
+      "song": "Bubblegum K.K."
     },
     "ww": {
       "personality": "peppy",

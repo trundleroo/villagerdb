@@ -10,13 +10,11 @@
   "games": {
     "af": {
       "personality": "snooty",
-      "song": "K.K. Tango",
-      "phrase": "brrmph"
+      "song": "K.K. Tango"
     },
     "af+": {
       "personality": "snooty",
-      "song": "K.K. Tango",
-      "phrase": "brrmph"
+      "song": "K.K. Tango"
     },
     "ac": {
       "personality": "snooty",
@@ -26,8 +24,7 @@
     },
     "afe+": {
       "personality": "snooty",
-      "song": "K.K. Tango",
-      "phrase": "brrmph"
+      "song": "K.K. Tango"
     },
     "ww": {
       "personality": "snooty",

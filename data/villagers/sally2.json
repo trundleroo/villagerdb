@@ -10,13 +10,11 @@
   "games": {
     "af": {
       "personality": "normal",
-      "song": "K.K. Fusion",
-      "phrase": "nutmeg"
+      "song": "K.K. Fusion"
     },
     "af+": {
       "personality": "normal",
-      "song": "K.K. Fusion",
-      "phrase": "nutmeg"
+      "song": "K.K. Fusion"
     },
     "ac": {
       "personality": "normal",
@@ -26,8 +24,7 @@
     },
     "afe+": {
       "personality": "normal",
-      "song": "K.K. Fusion",
-      "phrase": "nutmeg"
+      "song": "K.K. Fusion"
     },
     "ww": {
       "personality": "normal",

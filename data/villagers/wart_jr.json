@@ -11,13 +11,11 @@
     "af": {
       "personality": "cranky",
       "clothes": "Static Shirt",
-      "song": "To the Edge",
-      "phrase": "grr-ribbit"
+      "song": "To the Edge"
     },
     "af+": {
       "personality": "cranky",
-      "song": "To the Edge",
-      "phrase": "grr-ribbit"
+      "song": "To the Edge"
     },
     "ac": {
       "personality": "cranky",
@@ -27,8 +25,7 @@
     },
     "afe+": {
       "personality": "cranky",
-      "song": "To the Edge",
-      "phrase": "grr-ribbit"
+      "song": "To the Edge"
     },
     "ww": {
       "personality": "cranky",

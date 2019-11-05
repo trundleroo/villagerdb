@@ -11,14 +11,12 @@
     "af": {
       "personality": "lazy",
       "clothes": "Melon Gingham",
-      "song": "I Love You",
-      "phrase": "hopper"
+      "song": "I Love You"
     },
     "af+": {
       "personality": "lazy",
       "clothes": "Melon Gingham",
-      "song": "I Love You",
-      "phrase": "hopper"
+      "song": "I Love You"
     },
     "ac": {
       "personality": "lazy",
@@ -29,8 +27,7 @@
     "afe+": {
       "personality": "lazy",
       "clothes": "Melon Gingham",
-      "song": "I Love You",
-      "phrase": "hopper"
+      "song": "I Love You"
     },
     "nl": {
       "personality": "smug",

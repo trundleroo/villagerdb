@@ -5,13 +5,11 @@
   "games": {
     "af": {
       "personality": "normal",
-      "clothes": "Ladybug Shirt",
-      "phrase": "WHEE"
+      "clothes": "Ladybug Shirt"
     },
     "af+": {
       "personality": "normal",
-      "clothes": "Ladybug Shirt",
-      "phrase": "WHEE"
+      "clothes": "Ladybug Shirt"
     },
     "ac": {
       "personality": "normal",
@@ -20,8 +18,7 @@
     },
     "afe+": {
       "personality": "normal",
-      "clothes": "Ladybug Shirt",
-      "phrase": "WHEE"
+      "clothes": "Ladybug Shirt"
     }
   },
   "name": "Sally",

@@ -10,13 +10,11 @@
   "games": {
     "af": {
       "personality": "normal",
-      "song": "K.K. Bossa",
-      "phrase": "woof"
+      "song": "K.K. Bossa"
     },
     "af+": {
       "personality": "normal",
-      "song": "K.K. Bossa",
-      "phrase": "woof"
+      "song": "K.K. Bossa"
     },
     "ac": {
       "personality": "normal",
@@ -26,8 +24,7 @@
     },
     "afe+": {
       "personality": "normal",
-      "song": "K.K. Bossa",
-      "phrase": "woof"
+      "song": "K.K. Bossa"
     },
     "ww": {
       "personality": "normal",

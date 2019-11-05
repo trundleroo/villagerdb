@@ -10,13 +10,11 @@
   "games": {
     "af": {
       "personality": "cranky",
-      "song": "K.K. D & B",
-      "phrase": "laddie"
+      "song": "K.K. D & B"
     },
     "af+": {
       "personality": "cranky",
-      "song": "K.K. D & B",
-      "phrase": "laddie"
+      "song": "K.K. D & B"
     },
     "ac": {
       "personality": "cranky",
@@ -26,8 +24,7 @@
     },
     "afe+": {
       "personality": "cranky",
-      "song": "K.K. D & B",
-      "phrase": "laddie"
+      "song": "K.K. D & B"
     },
     "nl": {
       "personality": "cranky",

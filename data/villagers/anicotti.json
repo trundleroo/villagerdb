@@ -10,13 +10,11 @@
   "games": {
     "af": {
       "personality": "peppy",
-      "song": "Neapolitan",
-      "phrase": "cannoli"
+      "song": "Neapolitan"
     },
     "af+": {
       "personality": "peppy",
-      "song": "Neapolitan",
-      "phrase": "cannoli"
+      "song": "Neapolitan"
     },
     "ac": {
       "personality": "peppy",
@@ -26,8 +24,7 @@
     },
     "afe+": {
       "personality": "peppy",
-      "song": "Neapolitan",
-      "phrase": "cannoli"
+      "song": "Neapolitan"
     },
     "nl": {
       "personality": "peppy",

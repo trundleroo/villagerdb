@@ -6,14 +6,12 @@
     "af": {
       "personality": "cranky",
       "clothes": "Leather Jerkin",
-      "song": "K.K. Western",
-      "phrase": "bully"
+      "song": "K.K. Western"
     },
     "af+": {
       "personality": "cranky",
       "clothes": "Leather Jerkin",
-      "song": "K.K. Western",
-      "phrase": "bully"
+      "song": "K.K. Western"
     },
     "ac": {
       "personality": "cranky",
@@ -24,8 +22,7 @@
     "afe+": {
       "personality": "cranky",
       "clothes": "Leather Jerkin",
-      "song": "K.K. Western",
-      "phrase": "bully"
+      "song": "K.K. Western"
     }
   },
   "name": "Oxford",

@@ -10,13 +10,11 @@
   "games": {
     "af": {
       "personality": "normal",
-      "song": "I Love You",
-      "phrase": "honey"
+      "song": "I Love You"
     },
     "af+": {
       "personality": "normal",
-      "song": "I Love You",
-      "phrase": "honey"
+      "song": "I Love You"
     },
     "ac": {
       "personality": "normal",
@@ -26,8 +24,7 @@
     },
     "afe+": {
       "personality": "normal",
-      "song": "I Love You",
-      "phrase": "honey"
+      "song": "I Love You"
     },
     "ww": {
       "personality": "normal",

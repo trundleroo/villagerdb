@@ -5,13 +5,11 @@
   "games": {
     "af": {
       "personality": "snooty",
-      "clothes": "Snappy Print",
-      "phrase": "snort"
+      "clothes": "Snappy Print"
     },
     "af+": {
       "personality": "snooty",
-      "clothes": "Snappy Print",
-      "phrase": "snort"
+      "clothes": "Snappy Print"
     },
     "ac": {
       "personality": "snooty",
@@ -20,8 +18,7 @@
     },
     "afe+": {
       "personality": "snooty",
-      "clothes": "Snappy Print",
-      "phrase": "snort"
+      "clothes": "Snappy Print"
     }
   },
   "name": "Sue E.",

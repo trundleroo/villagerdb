@@ -10,13 +10,11 @@
   "games": {
     "af": {
       "personality": "peppy",
-      "song": "K.K. Ragtime",
-      "phrase": "sweetie"
+      "song": "K.K. Ragtime"
     },
     "af+": {
       "personality": "peppy",
-      "song": "K.K. Ragtime",
-      "phrase": "sweetie"
+      "song": "K.K. Ragtime"
     },
     "ac": {
       "personality": "peppy",
@@ -26,8 +24,7 @@
     "afe+": {
       "personality": "peppy",
       "clothes": "Ancient Knit",
-      "song": "K.K. Ragtime",
-      "phrase": "sweetie"
+      "song": "K.K. Ragtime"
     },
     "nl": {
       "personality": "peppy",

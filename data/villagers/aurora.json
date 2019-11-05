@@ -10,13 +10,11 @@
   "games": {
     "af": {
       "personality": "normal",
-      "song": "K.K. Gumbo",
-      "phrase": "b-b-baby"
+      "song": "K.K. Gumbo"
     },
     "af+": {
       "personality": "normal",
-      "song": "K.K. Gumbo",
-      "phrase": "b-b-baby"
+      "song": "K.K. Gumbo"
     },
     "ac": {
       "personality": "normal",
@@ -26,8 +24,7 @@
     },
     "afe+": {
       "personality": "normal",
-      "song": "K.K. Gumbo",
-      "phrase": "b-b-baby"
+      "song": "K.K. Gumbo"
     },
     "ww": {
       "personality": "normal",

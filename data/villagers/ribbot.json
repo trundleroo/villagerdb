@@ -10,13 +10,11 @@
   "games": {
     "af": {
       "personality": "jock",
-      "song": "Go K.K. Rider!",
-      "phrase": "zzrrbbitt"
+      "song": "Go K.K. Rider!"
     },
     "af+": {
       "personality": "jock",
-      "song": "Go K.K. Rider!",
-      "phrase": "zzrrbbitt"
+      "song": "Go K.K. Rider!"
     },
     "ac": {
       "personality": "jock",
@@ -25,8 +23,7 @@
     },
     "afe+": {
       "personality": "jock",
-      "song": "Go K.K. Rider!",
-      "phrase": "zzrrbbitt"
+      "song": "Go K.K. Rider!"
     },
     "ww": {
       "personality": "jock",

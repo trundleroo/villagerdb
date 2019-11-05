@@ -10,13 +10,11 @@
   "games": {
     "af": {
       "personality": "cranky",
-      "clothes": "Skull Tee",
-      "phrase": "punk"
+      "clothes": "Skull Tee"
     },
     "af+": {
       "personality": "cranky",
-      "clothes": "Skull Tee",
-      "phrase": "punk"
+      "clothes": "Skull Tee"
     },
     "ac": {
       "personality": "cranky",
@@ -25,8 +23,7 @@
     },
     "afe+": {
       "personality": "cranky",
-      "clothes": "Skull Tee",
-      "phrase": "punk"
+      "clothes": "Skull Tee"
     },
     "nl": {
       "personality": "cranky",

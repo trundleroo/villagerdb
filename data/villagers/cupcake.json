@@ -6,14 +6,12 @@
     "af": {
       "personality": "snooty",
       "clothes": "Dreamy Shirt",
-      "song": "K.K. Waltz",
-      "phrase": "sugar pie"
+      "song": "K.K. Waltz"
     },
     "af+": {
       "personality": "snooty",
       "clothes": "Dreamy Shirt",
-      "song": "K.K. Waltz",
-      "phrase": "sugar pie"
+      "song": "K.K. Waltz"
     },
     "ac": {
       "personality": "snooty",
@@ -24,8 +22,7 @@
     "afe+": {
       "personality": "snooty",
       "clothes": "Dreamy Shirt",
-      "song": "K.K. Waltz",
-      "phrase": "sugar pie"
+      "song": "K.K. Waltz"
     }
   },
   "name": "Cupcake",

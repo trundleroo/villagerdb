@@ -10,13 +10,11 @@
   "games": {
     "af": {
       "personality": "peppy",
-      "song": "K.K. Synth",
-      "phrase": "chickadee"
+      "song": "K.K. Synth"
     },
     "af+": {
       "personality": "peppy",
-      "song": "K.K. Synth",
-      "phrase": "chickadee"
+      "song": "K.K. Synth"
     },
     "ac": {
       "personality": "peppy",
@@ -26,8 +24,7 @@
     "afe+": {
       "personality": "peppy",
       "clothes": "Striking Outfit",
-      "song": "K.K. Synth",
-      "phrase": "chickadee"
+      "song": "K.K. Synth"
     },
     "nl": {
       "personality": "peppy",

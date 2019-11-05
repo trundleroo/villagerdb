@@ -6,14 +6,12 @@
     "af": {
       "personality": "normal",
       "clothes": "Neo-Classic Knit",
-      "song": "K.K. Fusion",
-      "phrase": "nutmeg"
+      "song": "K.K. Fusion"
     },
     "af+": {
       "personality": "normal",
       "clothes": "Neo-Classic Knit",
-      "song": "K.K. Fusion",
-      "phrase": "nutmeg"
+      "song": "K.K. Fusion"
     },
     "ac": {
       "personality": "normal",
@@ -24,8 +22,7 @@
     "afe+": {
       "personality": "normal",
       "clothes": "Neo-Classic Knit",
-      "song": "K.K. Fusion",
-      "phrase": "nutmeg"
+      "song": "K.K. Fusion"
     }
   },
   "name": "Hazel",

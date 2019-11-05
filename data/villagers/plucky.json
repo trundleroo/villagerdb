@@ -10,8 +10,7 @@
   "games": {
     "af+": {
       "personality": "peppy",
-      "song": "K.K. Island",
-      "phrase": "chicky poo"
+      "song": "K.K. Island"
     },
     "ac": {
       "personality": "peppy",
@@ -21,8 +20,7 @@
     "afe+": {
       "personality": "peppy",
       "clothes": "Red Aloha Shirt",
-      "song": "K.K. Island",
-      "phrase": "chicky poo"
+      "song": "K.K. Island"
     },
     "nl": {
       "personality": "uchi",

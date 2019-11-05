@@ -10,13 +10,11 @@
   "games": {
     "af": {
       "personality": "normal",
-      "song": "K.K. Soul",
-      "phrase": "speedy"
+      "song": "K.K. Soul"
     },
     "af+": {
       "personality": "normal",
-      "song": "K.K. Soul",
-      "phrase": "speedy"
+      "song": "K.K. Soul"
     },
     "ac": {
       "personality": "normal",
@@ -26,8 +24,7 @@
     "afe+": {
       "personality": "normal",
       "clothes": "Blue Scale Shirt",
-      "song": "K.K. Soul",
-      "phrase": "speedy"
+      "song": "K.K. Soul"
     },
     "nl": {
       "personality": "normal",

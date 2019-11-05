@@ -10,8 +10,7 @@
   "games": {
     "af+": {
       "personality": "normal",
-      "song": "K.K. Aria",
-      "phrase": "rainbow"
+      "song": "K.K. Aria"
     },
     "ac": {
       "personality": "normal",
@@ -21,8 +20,7 @@
     "afe+": {
       "personality": "normal",
       "clothes": "Red Aloha Shirt",
-      "song": "K.K. Aria",
-      "phrase": "rainbow"
+      "song": "K.K. Aria"
     },
     "nl": {
       "personality": "normal",

@@ -10,12 +10,10 @@
   "games": {
     "af": {
       "personality": "jock",
-      "clothes": "Lil Bro's shirt",
-      "phrase": "toots"
+      "clothes": "Lil Bro's shirt"
     },
     "af+": {
-      "personality": "jock",
-      "phrase": "toots"
+      "personality": "jock"
     },
     "ac": {
       "personality": "jock",
@@ -23,8 +21,7 @@
     },
     "afe+": {
       "personality": "jock",
-      "clothes": "Lil Bro's shirt",
-      "phrase": "toots"
+      "clothes": "Lil Bro's shirt"
     },
     "nl": {
       "personality": "jock",
