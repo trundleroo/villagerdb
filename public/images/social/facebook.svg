@@ -1,1 +1,13 @@
-<svg height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><rect height="512" rx="64" ry="64" width="512" fill="#3b5998"/><path d="M286.96783 455.99972V273.53753h61.244l9.1699-71.10266h-70.41246v-45.39493c0-20.58828 5.72066-34.61942 35.23496-34.61942l37.6554-.0112V58.807915c-6.5097-.87381-28.8571-2.80794-54.8675-2.80794-54.28803 0-91.44995 33.14585-91.44995 93.998125v52.43708h-61.40181v71.10266h61.40039v182.46219h73.42707z" fill="#fff"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 12.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 51448)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+]>
+<svg  version="1.1" id="Layer_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="512" height="512" viewBox="0 0 512 512"
+	 overflow="visible" enable-background="new 0 0 512 512" xml:space="preserve">
+<path fill="#3B5998" d="M244,240h24c2.209,0,4,1.791,4,4v24c0,2.209-1.791,4-4,4h-24c-2.209,0-4-1.791-4-4v-24
+	C240,241.791,241.791,240,244,240z"/>
+<path fill="#FFFFFF" d="M257.936,268.5v-11.404h3.828l0.572-4.443h-4.4v-2.837c0-1.287,0.357-2.164,2.202-2.164l2.354-0.001v-3.975
+	c-0.407-0.054-1.804-0.175-3.429-0.175c-3.394,0-5.716,2.072-5.716,5.875v3.277h-3.837v4.443h3.837V268.5H257.936L257.936,268.5z"/>
+</svg>
