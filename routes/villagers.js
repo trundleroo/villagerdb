@@ -113,6 +113,7 @@ function computePageProperties(pageNumber, pageSize, totalCount, resultSet) {
     resultSet.isFirstPage = (pageNumber == 1);
     resultSet.isLastPage = (pageNumber === resultSet.totalPages);
 }
+
 /**
  * Villager list entry point.
  *
@@ -126,7 +127,12 @@ function listVillagers(res, next, pageNumber) {
     loadVillagers(res.app.locals.db.villagers, pageNumber)
         .then((resultSet) => {
             data.resultSet = resultSet;
-            res.render('villagers', data);
+            res.app.locals.db.birthdays.getBirthdays()
+                .then((birthdays) => {
+                    data.birthdays = birthdays;
+                    data.shouldDisplayBirthdays = !(birthdays == null);
+                    res.render('villagers', data);
+                }).catch((next));
         }).catch(next);
 }
 
@@ -151,7 +157,13 @@ function search(searchQuery, res, next, pageNumber) {
     findVillagers(res.app.locals.db.villagers, searchQuery, pageNumber)
         .then((resultSet) => {
             data.resultSet = resultSet;
-            res.render('villagers', data);
+            res.app.locals.db.birthdays.getBirthdays()
+                .then((birthdays) => {
+                    if (!(birthdays == null)) {
+                        data.birthdays = birthdays;
+                    }
+                    res.render('villagers', data);
+                }).catch((next));
         }).catch(next);
 }
 

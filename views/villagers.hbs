@@ -8,6 +8,8 @@
 
 {{> searchBar resultSet=resultSet placeholder="Enter a villager name" }}
 
+{{> birthdays birthdays=birthdays shouldDisplayBirthdays=shouldDisplayBirthdays }}
+
 {{#if resultSet.hasResults}}
     {{> pagination resultSet=resultSet }}
     <div class="table-responsive">

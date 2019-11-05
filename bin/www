@@ -41,6 +41,8 @@ redisClient.on('connect', (err) => {
     app.locals.db = {};
     const Villagers = require('../db/villagers');
     app.locals.db.villagers = new Villagers(redisClient);
+    const Birthdays = require('../db/birthdays');
+    app.locals.db.birthdays = new Birthdays(redisClient);
 
 
     // Finally, listen on port.

@@ -1,5 +1,6 @@
 const path = require('path');
 const fs = require('fs');
+const Birthdays = require('./birthdays');
 
 /**
  * Villager repository.
@@ -19,6 +20,10 @@ class Villagers {
         this._populateRedis(path.join('data', 'villagers'))
             .then(() => {
                 console.log('Villager databases populated.');
+                let birthdays = new Birthdays(this.redisClient);
+                birthdays.storeBirthdays().then(() => {
+                    console.log('Birthdays database populated.');
+                });
             });
     }
 
