@@ -8,29 +8,10 @@
     "sugar": "No sugar"
   },
   "games": {
-    "af": {
-      "personality": "normal",
-      "clothes": "Barber Tee",
-      "song": "Surfin' K.K.",
-      "phrase": "guvnor"
-    },
-    "af+": {
-      "personality": "normal",
-      "clothes": "Barber Tee",
-      "song": "Surfin' K.K.",
-      "phrase": "guvnor"
-    },
-    "ac": {
-      "personality": "normal",
-      "clothes": "Barber Tee",
-      "song": "Surfin' K.K.",
-      "phrase": "guvnor"
-    },
     "afe+": {
       "personality": "normal",
       "clothes": "Barber Tee",
-      "song": "Surfin' K.K.",
-      "phrase": "guvnor"
+      "song": "Surfin' K.K."
     },
     "ww": {
       "personality": "normal",
@@ -39,6 +20,12 @@
       "phrase": "guvnor"
     },
     "cf": {
+      "personality": "normal",
+      "clothes": "Barber Tee",
+      "song": "Surfin' K.K.",
+      "phrase": "guvnor"
+    },
+    "nl": {
       "personality": "normal",
       "clothes": "Barber Tee",
       "song": "Surfin' K.K.",

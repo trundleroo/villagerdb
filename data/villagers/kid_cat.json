@@ -8,29 +8,10 @@
     "sugar": "Two spoonfuls of sugar"
   },
   "games": {
-    "af": {
-      "personality": "jock",
-      "clothes": "No. 1 Shirt",
-      "song": "Go K.K. Rider!",
-      "phrase": "psst"
-    },
-    "af+": {
-      "personality": "jock",
-      "clothes": "No. 1 Shirt",
-      "song": "Go K.K. Rider!",
-      "phrase": "psst"
-    },
-    "ac": {
-      "personality": "jock",
-      "clothes": "No. 1 Shirt",
-      "song": "Go K.K. Rider!",
-      "phrase": "psst"
-    },
     "afe+": {
       "personality": "jock",
       "clothes": "No. 1 Shirt",
-      "song": "Go K.K. Rider!",
-      "phrase": "psst"
+      "song": "Go K.K. Rider!"
     },
     "ww": {
       "personality": "jock",
@@ -39,6 +20,12 @@
       "phrase": "psst"
     },
     "cf": {
+      "personality": "jock",
+      "clothes": "No. 1 Shirt",
+      "song": "Go K.K. Rider!",
+      "phrase": "psst"
+    },
+    "nl": {
       "personality": "jock",
       "clothes": "No. 1 Shirt",
       "song": "Go K.K. Rider!",

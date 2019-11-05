@@ -8,37 +8,24 @@
     "sugar": "None at all"
   },
   "games": {
-    "af": {
-      "personality": "cranky",
-      "clothes": "MVP Tee",
-      "song": "K.K. Lament",
-      "phrase": "fuzzball"
-    },
-    "af+": {
-      "personality": "cranky",
-      "clothes": "MVP Tee",
-      "song": "K.K. Lament",
-      "phrase": "fuzzball"
-    },
-    "ac": {
-      "personality": "cranky",
-      "clothes": "MVP Tee",
-      "song": "K.K. Lament",
-      "phrase": "fuzzball"
-    },
     "afe+": {
       "personality": "cranky",
       "clothes": "MVP Tee",
-      "song": "K.K. Lament",
-      "phrase": "fuzzball"
+      "song": "K.K. Jazz"
     },
     "ww": {
       "personality": "cranky",
       "clothes": "MVP Tee",
-      "song": "K.K. Lament",
+      "song": "K.K. Jazz",
       "phrase": "fuzzball"
     },
     "cf": {
+      "personality": "cranky",
+      "clothes": "MVP Tee",
+      "song": "K.K. Jazz",
+      "phrase": "fuzzball"
+    },
+    "nl": {
       "personality": "cranky",
       "clothes": "MVP Tee",
       "song": "K.K. Lament",

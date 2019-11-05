@@ -8,26 +8,20 @@
     "sugar": "No sugar"
   },
   "games": {
-    "af": {
-      "personality": "jock",
-      "song": "K.K. Ska",
-      "phrase": "maaan"
-    },
     "af+": {
       "personality": "jock",
-      "song": "K.K. Ska",
-      "phrase": "maaan"
+      "song": "K.K. Ska"
     },
     "ac": {
       "personality": "jock",
       "clothes": "Blue Aloha Shirt",
       "song": "K.K. Ska",
-      "phrase": "maaan"
+      "phrase": "dood"
     },
     "afe+": {
       "personality": "jock",
       "song": "K.K. Ska",
-      "phrase": "maaan"
+      "phrase": "dood"
     },
     "ww": {
       "personality": "jock",
@@ -36,6 +30,12 @@
       "phrase": "maaan"
     },
     "cf": {
+      "personality": "jock",
+      "clothes": "Flowery Shirt",
+      "song": "K.K. Ska",
+      "phrase": "maaan"
+    },
+    "nl": {
       "personality": "jock",
       "clothes": "Flowery Shirt",
       "song": "K.K. Ska",

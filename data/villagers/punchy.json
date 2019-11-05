@@ -8,16 +8,10 @@
     "sugar": "None at all"
   },
   "games": {
-    "af": {
-      "personality": "lazy",
-      "song": "K.K. Love Song",
-      "phrase": "mrmpht"
-    },
     "af+": {
       "personality": "lazy",
       "clothes": "GC Shirt",
-      "song": "K.K. Love Song",
-      "phrase": "mrmpht"
+      "song": "K.K. Love Song"
     },
     "ac": {
       "personality": "lazy",
@@ -28,6 +22,7 @@
     "afe+": {
       "personality": "lazy",
       "song": "K.K. Love Song",
+      "clothes": "Cherry Shirt",
       "phrase": "mrmpht"
     },
     "ww": {
@@ -37,6 +32,12 @@
       "phrase": "mrmpht"
     },
     "cf": {
+      "personality": "lazy",
+      "clothes": "Gray Tartan Tee",
+      "song": "K.K. Love Song",
+      "phrase": "mrmpht"
+    },
+    "nl": {
       "personality": "lazy",
       "clothes": "Gray Tartan Tee",
       "song": "K.K. Love Song",

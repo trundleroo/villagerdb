@@ -8,11 +8,6 @@
     "sugar": "None at all"
   },
   "games": {
-    "af": {
-      "personality": "snooty",
-      "song": "Cafe K.K.",
-      "phrase": "duckling"
-    },
     "af+": {
       "personality": "snooty",
       "clothes": "Red Aloha Shirt",
@@ -38,6 +33,12 @@
       "phrase": "duckling"
     },
     "cf": {
+      "personality": "snooty",
+      "clothes": "Heart Tee",
+      "song": "Cafe K.K.",
+      "phrase": "duckling"
+    },
+    "nl": {
       "personality": "snooty",
       "clothes": "Heart Tee",
       "song": "Cafe K.K.",

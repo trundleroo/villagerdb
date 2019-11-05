@@ -8,29 +8,10 @@
     "sugar": "No sugar"
   },
   "games": {
-    "af": {
-      "personality": "jock",
-      "clothes": "Zipper Shirt",
-      "song": "K.K. March",
-      "phrase": "ace"
-    },
-    "af+": {
-      "personality": "jock",
-      "clothes": "Zipper Shirt",
-      "song": "K.K. March",
-      "phrase": "ace"
-    },
-    "ac": {
-      "personality": "jock",
-      "clothes": "Zipper Shirt",
-      "song": "K.K. March",
-      "phrase": "ace"
-    },
     "afe+": {
       "personality": "jock",
       "clothes": "Zipper Shirt",
-      "song": "K.K. March",
-      "phrase": "ace"
+      "song": "K.K. March"
     },
     "ww": {
       "personality": "jock",
@@ -39,6 +20,12 @@
       "phrase": "ace"
     },
     "cf": {
+      "personality": "jock",
+      "clothes": "Zipper Shirt",
+      "song": "K.K. March",
+      "phrase": "ace"
+    },
+    "nl": {
       "personality": "jock",
       "clothes": "Zipper Shirt",
       "song": "K.K. March",

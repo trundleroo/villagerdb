@@ -12,25 +12,25 @@
       "personality": "cranky",
       "clothes": "Blue Aloha Shirt",
       "song": "K.K. Love Song",
-      "phrase": "mango"
+      "phrase": "speedy"
     },
     "af+": {
       "personality": "cranky",
       "clothes": "Blue Aloha Shirt",
       "song": "K.K. Love Song",
-      "phrase": "mango"
+      "phrase": "speedy"
     },
     "ac": {
       "personality": "cranky",
       "clothes": "Blue Aloha Shirt",
       "song": "K.K. Love Song",
-      "phrase": "mango"
+      "phrase": "speedy"
     },
     "afe+": {
       "personality": "cranky",
       "clothes": "Blue Aloha Shirt",
       "song": "K.K. Love Song",
-      "phrase": "mango"
+      "phrase": "speedy"
     },
     "ww": {
       "personality": "jock",
@@ -39,6 +39,12 @@
       "phrase": "mango"
     },
     "cf": {
+      "personality": "jock",
+      "clothes": "Blue Dot Tee",
+      "song": "K.K. Love Song",
+      "phrase": "mango"
+    },
+    "nl": {
       "personality": "jock",
       "clothes": "Blue Dot Tee",
       "song": "K.K. Love Song",

@@ -8,29 +8,10 @@
     "sugar": "None at all"
   },
   "games": {
-    "af": {
-      "personality": "lazy",
-      "clothes": "Fish Bone Shirt",
-      "song": "K.K. Ragtime",
-      "phrase": "myawn"
-    },
-    "af+": {
-      "personality": "lazy",
-      "clothes": "Fish Bone Shirt",
-      "song": "K.K. Ragtime",
-      "phrase": "myawn"
-    },
-    "ac": {
-      "personality": "lazy",
-      "clothes": "Fish Bone Shirt",
-      "song": "K.K. Ragtime",
-      "phrase": "myawn"
-    },
     "afe+": {
       "personality": "lazy",
       "clothes": "Fish Bone Shirt",
-      "song": "K.K. Ragtime",
-      "phrase": "myawn"
+      "song": "K.K. Ragtime"
     },
     "ww": {
       "personality": "lazy",
@@ -39,6 +20,12 @@
       "phrase": "myawn"
     },
     "cf": {
+      "personality": "lazy",
+      "clothes": "BB Tee",
+      "song": "K.K. Ragtime",
+      "phrase": "myawn"
+    },
+    "nl": {
       "personality": "lazy",
       "clothes": "BB Tee",
       "song": "K.K. Ragtime",

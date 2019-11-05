@@ -8,18 +8,6 @@
     "sugar": "Two spoonfuls of sugar"
   },
   "games": {
-    "af": {
-      "personality": "lazy",
-      "clothes": "No. 67 Shirt",
-      "song": "Two Days Ago",
-      "phrase": "wuh"
-    },
-    "af+": {
-      "personality": "lazy",
-      "clothes": "No. 67 Shirt",
-      "song": "Two Days Ago",
-      "phrase": "wuh"
-    },
     "ac": {
       "personality": "lazy",
       "clothes": "No. 67 Shirt",
@@ -39,6 +27,12 @@
       "phrase": "wuh"
     },
     "cf": {
+      "personality": "lazy",
+      "clothes": "No. 67 Shirt",
+      "song": "Two Days Ago",
+      "phrase": "wuh"
+    },
+    "nl": {
       "personality": "lazy",
       "clothes": "No. 67 Shirt",
       "song": "Two Days Ago",

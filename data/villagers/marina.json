@@ -8,21 +8,6 @@
     "sugar": "Three spoonfuls of sugar"
   },
   "games": {
-    "af": {
-      "personality": "normal",
-      "song": "Soulful K.K.",
-      "phrase": "blurp"
-    },
-    "af+": {
-      "personality": "normal",
-      "song": "Soulful K.K.",
-      "phrase": "blurp"
-    },
-    "ac": {
-      "personality": "normal",
-      "song": "Soulful K.K.",
-      "phrase": "blurp"
-    },
     "afe+": {
       "personality": "normal",
       "clothes": "Red Aloha Shirt",
@@ -36,6 +21,12 @@
       "phrase": "blurp"
     },
     "cf": {
+      "personality": "normal",
+      "clothes": "Bubble-Gum Tee",
+      "song": "Soulful K.K.",
+      "phrase": "blurp"
+    },
+    "nl": {
       "personality": "normal",
       "clothes": "Bubble-Gum Tee",
       "song": "Soulful K.K.",

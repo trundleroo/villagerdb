@@ -8,41 +8,28 @@
     "sugar": "One spoonful of sugar"
   },
   "games": {
-    "af": {
-      "personality": "lazy",
-      "clothes": "Two-Ball Tee",
-      "song": "I Love You",
-      "phrase": "cocorico"
-    },
-    "af+": {
-      "personality": "lazy",
-      "clothes": "Two-Ball Tee",
-      "song": "I Love You",
-      "phrase": "cocorico"
-    },
-    "ac": {
-      "personality": "lazy",
-      "clothes": "Two-Ball Tee",
-      "song": "I Love You",
-      "phrase": "cocorico"
-    },
     "afe+": {
       "personality": "lazy",
       "clothes": "Two-Ball Tee",
-      "song": "I Love You",
-      "phrase": "cocorico"
+      "song": "I Love You"
     },
     "ww": {
       "personality": "lazy",
       "clothes": "Two-Ball Tee",
       "song": "I Love You",
-      "phrase": "cocorico"
+      "phrase": "uh-hoo"
     },
     "cf": {
       "personality": "lazy",
       "clothes": "Two-Ball Tee",
       "song": "I Love You",
-      "phrase": "cocorico"
+      "phrase": "uh-hoo"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "Two-Ball Tee",
+      "song": "I Love You",
+      "phrase": "uh-hoo"
     }
   },
   "name": "Benedict",

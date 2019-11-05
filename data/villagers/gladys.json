@@ -8,29 +8,10 @@
     "sugar": "Two spoonfuls of sugar"
   },
   "games": {
-    "af": {
-      "personality": "normal",
-      "clothes": "Misty Tee",
-      "song": "K.K. Folk",
-      "phrase": "stretch"
-    },
-    "af+": {
-      "personality": "normal",
-      "clothes": "Misty Tee",
-      "song": "K.K. Folk",
-      "phrase": "stretch"
-    },
-    "ac": {
-      "personality": "normal",
-      "clothes": "Misty Tee",
-      "song": "K.K. Folk",
-      "phrase": "stretch"
-    },
     "afe+": {
       "personality": "normal",
       "clothes": "Misty Tee",
-      "song": "K.K. Folk",
-      "phrase": "stretch"
+      "song": "K.K. Folk"
     },
     "ww": {
       "personality": "normal",
@@ -39,6 +20,12 @@
       "phrase": "stretch"
     },
     "cf": {
+      "personality": "normal",
+      "clothes": "Misty Tee",
+      "song": "K.K. Folk",
+      "phrase": "stretch"
+    },
+    "nl": {
       "personality": "normal",
       "clothes": "Misty Tee",
       "song": "K.K. Folk",

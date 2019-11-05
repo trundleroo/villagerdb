@@ -8,29 +8,10 @@
     "sugar": "One spoonful of sugar"
   },
   "games": {
-    "af": {
-      "personality": "cranky",
-      "clothes": "Checkered Tee",
-      "song": "K.K. Dirge",
-      "phrase": "nay"
-    },
-    "af+": {
-      "personality": "cranky",
-      "clothes": "Checkered Tee",
-      "song": "K.K. Dirge",
-      "phrase": "nay"
-    },
-    "ac": {
-      "personality": "cranky",
-      "clothes": "Checkered Tee",
-      "song": "K.K. Dirge",
-      "phrase": "nay"
-    },
     "afe+": {
       "personality": "cranky",
       "clothes": "Checkered Tee",
-      "song": "K.K. Dirge",
-      "phrase": "nay"
+      "song": "K.K. Dirge"
     },
     "ww": {
       "personality": "cranky",
@@ -39,6 +20,12 @@
       "phrase": "nay"
     },
     "cf": {
+      "personality": "cranky",
+      "clothes": "Checkered Tee",
+      "song": "K.K. Dirge",
+      "phrase": "nay"
+    },
+    "nl": {
       "personality": "cranky",
       "clothes": "Checkered Tee",
       "song": "K.K. Dirge",

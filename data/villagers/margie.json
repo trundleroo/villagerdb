@@ -8,24 +8,6 @@
     "sugar": "None at all"
   },
   "games": {
-    "af": {
-      "personality": "normal",
-      "clothes": "Hot Spring Tee",
-      "song": "K.K. Bossa",
-      "phrase": "tootie"
-    },
-    "af+": {
-      "personality": "normal",
-      "clothes": "Hot Spring Tee",
-      "song": "K.K. Bossa",
-      "phrase": "tootie"
-    },
-    "ac": {
-      "personality": "normal",
-      "clothes": "Hot Spring Tee",
-      "song": "K.K. Bossa",
-      "phrase": "tootie"
-    },
     "afe+": {
       "personality": "normal",
       "clothes": "Hot Spring Tee",
@@ -39,6 +21,12 @@
       "phrase": "tootie"
     },
     "cf": {
+      "personality": "normal",
+      "clothes": "Hot Spring Tee",
+      "song": "K.K. Bossa",
+      "phrase": "tootie"
+    },
+    "nl": {
       "personality": "normal",
       "clothes": "Hot Spring Tee",
       "song": "K.K. Bossa",
