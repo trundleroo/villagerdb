@@ -48,7 +48,8 @@
       "phrase": "quackle",
       "skill": "Pretending to sleep",
       "goal": "Archaeologist",
-      "style": "Modern"
+      "style": "Modern",
+      "fear": "Werewolf Hood"
     }
   },
   "name": "Pate",

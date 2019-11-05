@@ -15,7 +15,8 @@
       "phrase": "Indeed",
       "skill": "Computing",
       "goal": "Writer",
-      "style": "Historical"
+      "style": "Historical",
+      "fear": "Werewolf Hood"
     }
   },
   "name": "Graham",

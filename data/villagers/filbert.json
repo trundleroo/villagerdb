@@ -47,7 +47,8 @@
       "phrase": "bucko",
       "skill": "Vaulting",
       "goal": "Pilot",
-      "style": "Basic"
+      "style": "Basic",
+      "fear": "Werewolf Hood"
     }
   },
   "name": "Filbert",

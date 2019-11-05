@@ -36,7 +36,8 @@
       "phrase": "beaker",
       "skill": "Peeling apples",
       "goal": "Pastry Chef",
-      "style": "Official"
+      "style": "Official",
+      "fear": "Monster Mask"
     }
   },
   "name": "Ava",

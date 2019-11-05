@@ -15,7 +15,8 @@
       "phrase": "saltlick",
       "skill": "Staying awake",
       "goal": "Mayor",
-      "style": "Basic"
+      "style": "Basic",
+      "fear": "Werewolf Hood"
     }
   },
   "name": "Beau",

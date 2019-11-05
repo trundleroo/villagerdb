@@ -45,7 +45,8 @@
       "phrase": "woof",
       "skill": "Dusting",
       "goal": "Dentist",
-      "style": "Basic"
+      "style": "Basic",
+      "fear": "Werewolf Hood"
     }
   },
   "name": "Goldie",

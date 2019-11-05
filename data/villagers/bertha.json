@@ -33,7 +33,8 @@
       "phrase": "bloop",
       "skill": "Drawing circles",
       "goal": "Lawyer",
-      "style": "Iconic"
+      "style": "Iconic",
+      "fear": "Bug Mask"
     }
   },
   "name": "Bertha",

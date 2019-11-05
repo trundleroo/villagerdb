@@ -26,7 +26,8 @@
       "phrase": "bonbon",
       "skill": "Peeling Apples",
       "goal": "Chef",
-      "style": "Basic"
+      "style": "Basic",
+      "fear": "Bug Mask"
     }
   },
   "name": "Lolly",

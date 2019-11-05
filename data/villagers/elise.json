@@ -27,7 +27,8 @@
       "phrase": "puh-lease",
       "skill": "Mental Math",
       "goal": "Archaeologist",
-      "style": "Official"
+      "style": "Official",
+      "fear": "Bug Mask"
     }
   },
   "name": "Elise",

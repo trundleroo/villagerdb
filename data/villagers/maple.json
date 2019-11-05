@@ -45,7 +45,8 @@
       "phrase": "honey",
       "skill": "Writing letters",
       "goal": "Architect",
-      "style": "Basic"
+      "style": "Basic",
+      "fear": "Bug Mask"
     }
   },
   "name": "Maple",

@@ -48,7 +48,8 @@
       "phrase": "bunyip",
       "skill": "Playing jacks",
       "goal": "Soccer player",
-      "style": "Sporty"
+      "style": "Sporty",
+      "fear": "Bug Mask"
     }
   },
   "name": "Snake",

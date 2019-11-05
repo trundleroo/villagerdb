@@ -15,7 +15,8 @@
       "phrase": "snoozit",
       "skill": "Oversleeping",
       "goal": "Writer",
-      "style": "Basic"
+      "style": "Basic",
+      "fear": "Werewolf Hood"
     }
   },
   "name": "Henry",

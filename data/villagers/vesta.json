@@ -48,7 +48,8 @@
       "phrase": "baaaffo",
       "skill": "Computing",
       "goal": "Archaeologist",
-      "style": "Historical"
+      "style": "Historical",
+      "fear": "Werewolf Hood"
     }
   },
   "name": "Vesta",

@@ -42,7 +42,8 @@
       "phrase": "neighbor",
       "skill": "Fishing",
       "goal": "Florist",
-      "style": "Cute"
+      "style": "Cute",
+      "fear": "Monster Mask"
     }
   },
   "name": "Peaches",
