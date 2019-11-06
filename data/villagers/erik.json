@@ -17,7 +17,8 @@
       "goal": "Carpenter",
       "style": "Basic",
       "fear": "Werewolf Hood",
-      "quote": "If you're afraid of wolves, don't go to the woods."
+      "quote": "If you're afraid of wolves, don't go to the woods.",
+      "siblings": "Youngest of 2 kids"
     }
   },
   "name": "Erik",

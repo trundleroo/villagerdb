@@ -13,11 +13,12 @@
       "clothes": "Wolf Link outfit",
       "song": "K.K. Western",
       "phrase": "Ruff ruff",
-      "skill": "Change forms freely",
-      "goal": "Become a real boy",
+      "skill": "Howling",
+      "goal": "Normal boy",
       "style": "Iconic",
       "fear": "Skeleton Hood",
-      "quote": "Walk on the wild side."
+      "quote": "Walk on the wild side.",
+      "siblings": "Only child"
     }
   },
   "name": "Wolf Link",

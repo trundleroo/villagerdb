@@ -35,7 +35,8 @@
       "goal": "Archaeologist",
       "style": "Historical",
       "fear": "Werewolf Hood",
-      "quote": "Request forgiveness, not permission."
+      "quote": "Request forgiveness, not permission.",
+      "siblings": "The only child"
     }
   },
   "name": "Snooty",

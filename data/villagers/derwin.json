@@ -51,7 +51,8 @@
       "goal": "Doctor",
       "style": "Official",
       "fear": "Monster Mask",
-      "quote": "Everything in moderation. Except for snacks."
+      "quote": "Everything in moderation. Except for snacks.",
+      "siblings": "Only child"
     }
   },
   "name": "Derwin",

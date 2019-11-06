@@ -34,10 +34,11 @@
       "clothes": "Chevron Shirt",
       "song": "K.K. Lament",
       "phrase": "schnozzle",
-      "skill": "Bunting/Comedy",
-      "goal": "Artist",
+      "skill": "Bunting",
+      "goal": "An artist",
       "fear": "Monster Mask",
-      "quote": "You can't hit a mosquito with a horseshoe."
+      "quote": "You can't hit a mosquito with a horseshoe.",
+      "siblings": "Youngest of 3 kids"
     }
   },
   "name": "Hornsby",

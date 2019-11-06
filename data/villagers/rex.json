@@ -35,10 +35,11 @@
       "song": "Wandering",
       "phrase": "cool cat",
       "skill": "Chugging milk",
-      "goal": "Forest Ranger",
+      "goal": "Forest ranger",
       "style": "Basic",
       "fear": "Werewolf Hood",
-      "quote": "Two wrongs don't make a right, but three rights make a left."
+      "quote": "Two wrongs don't make a right, but three rights make a left.",
+      "siblings": "Youngest quadruplet"
     }
   },
   "name": "Rex",

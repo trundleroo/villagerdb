@@ -44,7 +44,8 @@
       "goal": "Superhero",
       "style": "Sporty",
       "fear": "Werewolf Hood",
-      "quote": "A bad attitude will land you in the penalty box."
+      "quote": "A bad attitude will land you in the penalty box.",
+      "siblings": "Middle kid"
     }
   },
   "name": "Puck",
