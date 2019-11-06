@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "squirrel",
   "birthday": "6-3",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar."
-  },
   "games": {
     "af": {
       "personality": "lazy",
@@ -53,7 +48,12 @@
       "siblings": "Youngest quadruplet",
       "favoriteStyle": "Basic",
       "dislikedStyle": "Ornate",
-      "favoriteColor": "green"
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar."
+      }
     }
   },
   "name": "Filbert",

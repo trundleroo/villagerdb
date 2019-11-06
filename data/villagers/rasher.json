@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "pig",
   "birthday": "4-7",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "A little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
@@ -51,7 +46,12 @@
       "siblings": "Eldest of 2 kids",
       "favoriteStyle": "Rock",
       "dislikedStyle": "Basic",
-      "favoriteColor": "black"
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Rasher",

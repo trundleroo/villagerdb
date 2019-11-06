@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "koala",
   "birthday": "8-19",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "None milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "afe+": {
       "personality": "normal",
@@ -38,7 +33,12 @@
       "siblings": "Youngest of 2 kids",
       "favoriteStyle": "Cute/Fancy",
       "dislikedStyle": "Ornate",
-      "favoriteColor": "purple"
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "None milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Alice",

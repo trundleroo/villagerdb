@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "duck",
   "birthday": "6-13",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
@@ -47,7 +42,12 @@
       "siblings": "Fourth of 5 kids",
       "favoriteStyle": "Sporty",
       "dislikedStyle": "Historical",
-      "favoriteColor": "blue"
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Scoot",

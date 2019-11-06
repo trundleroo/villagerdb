@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "kangaroo",
   "birthday": "10-11",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "normal",
@@ -51,7 +46,12 @@
       "siblings": "Eldest of 2 kids",
       "favoriteStyle": "Official",
       "dislikedStyle": "Sporty",
-      "favoriteColor": "beige"
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Kitt",

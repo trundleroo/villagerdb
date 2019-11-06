@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "dog",
   "birthday": "11-11",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "cf": {
       "personality": "jock",
@@ -26,7 +21,12 @@
       "siblings": "Eldest quadruplet",
       "favoriteStyle": "Sporty",
       "dislikedStyle": "Ornate",
-      "favoriteColor": "red"
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Mac",

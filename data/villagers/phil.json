@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "ostrich",
   "birthday": "11-27",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "smug",
@@ -20,7 +15,12 @@
       "siblings": "Eldest quintuplet",
       "favoriteStyle": "Iconic",
       "dislikedStyle": "Modern",
-      "favoriteColor": "blue"
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Phil",

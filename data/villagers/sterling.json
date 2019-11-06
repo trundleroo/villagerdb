@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "eagle",
   "birthday": "12-11",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "cf": {
       "personality": "jock",
@@ -26,7 +21,12 @@
       "siblings": "Eldest of 5 kids",
       "favoriteStyle": "Historical",
       "dislikedStyle": "Flashy",
-      "favoriteColor": "blue"
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Sterling",

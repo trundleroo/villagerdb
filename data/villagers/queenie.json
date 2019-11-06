@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "ostrich",
   "birthday": "11-13",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "A little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "snooty",
@@ -51,7 +46,12 @@
       "siblings": "Older twin sister",
       "favoriteStyle": "Ornate",
       "dislikedStyle": "Basic",
-      "favoriteColor": "black"
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Queenie",

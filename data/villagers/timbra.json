@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "sheep",
   "birthday": "10-21",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "snooty",
@@ -20,7 +15,12 @@
       "siblings": "Older twin",
       "favoriteStyle": "Ornate",
       "dislikedStyle": "Iconic",
-      "favoriteColor": "brown"
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Timbra",

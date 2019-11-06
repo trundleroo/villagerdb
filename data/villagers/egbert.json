@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "chicken",
   "birthday": "10-14",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "lazy",
@@ -54,7 +49,12 @@
       "siblings": "Third of 4 kids",
       "favoriteStyle": "Historical",
       "dislikedStyle": "Iconic",
-      "favoriteColor": "red"
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Egbert",

@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "deer",
   "birthday": "3-26",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "normal",
@@ -20,7 +15,12 @@
       "siblings": "Middle of 3 kids",
       "favoriteStyle": "Basic",
       "dislikedStyle": "Rock",
-      "favoriteColor": "beige"
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Fauna",

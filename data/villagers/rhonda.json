@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "rhino",
   "birthday": "1-24",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "ww": {
       "personality": "normal",
@@ -32,7 +27,12 @@
       "siblings": "Only child",
       "favoriteStyle": "Ornate",
       "dislikedStyle": "Iconic",
-      "favoriteColor": "white"
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Rhonda",

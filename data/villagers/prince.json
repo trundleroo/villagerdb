@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "frog",
   "birthday": "7-21",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "af": {
       "personality": "lazy",
@@ -47,7 +42,12 @@
       "siblings": "Eldest of 10 kids",
       "favoriteStyle": "Historical",
       "dislikedStyle": "Official",
-      "favoriteColor": "green"
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Prince",

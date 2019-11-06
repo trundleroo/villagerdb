@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "squirrel",
   "birthday": "11-30",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "2 spoonfuls of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "snooty",
@@ -22,7 +17,12 @@
       "goal": "Hairstylist",
       "fear": "Werewolf Hood",
       "quote": "There's no such thing as a safe secret.",
-      "siblings": "Third of 4 kids"
+      "siblings": "Third of 4 kids",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "2 spoonfuls of sugar"
+      }
     }
   },
   "name": "Tasha",

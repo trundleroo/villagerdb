@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "penguin",
   "birthday": "2-20",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "peppy",
@@ -20,7 +15,12 @@
       "siblings": "Fourth of 5 kids",
       "favoriteStyle": "Cute/Fancy",
       "dislikedStyle": "Iconic",
-      "favoriteColor": "aqua"
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Sprinkle",

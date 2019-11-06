@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "bull",
   "birthday": "10-29",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "ww": {
       "personality": "lazy",
@@ -33,7 +28,12 @@
       "siblings": "Youngest triplet",
       "favoriteStyle": "Historical",
       "dislikedStyle": "Flashy",
-      "favoriteColor": "red"
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Rodeo",

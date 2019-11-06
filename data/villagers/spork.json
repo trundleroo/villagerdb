@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "pig",
   "birthday": "9-3",
-  "coffee": {
-    "beans": "Kilamanjaro",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "lazy",
@@ -47,7 +42,12 @@
       "siblings": "Younger twin brother",
       "favoriteStyle": "Basic",
       "dislikedStyle": "Iconic",
-      "favoriteColor": "green"
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Kilamanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Spork",

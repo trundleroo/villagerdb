@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "bird",
   "birthday": "7-13",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "af": {
       "personality": "peppy",
@@ -54,7 +49,12 @@
       "siblings": "Second of 4 sisters",
       "favoriteStyle": "Flashy",
       "dislikedStyle": "Official",
-      "favoriteColor": "blue"
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Twiggy",

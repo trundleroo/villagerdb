@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "koala",
   "birthday": "4-12",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "ww": {
       "personality": "normal",
@@ -33,7 +28,12 @@
       "siblings": "Second of 4 kids",
       "favoriteStyle": "Basic",
       "dislikedStyle": "Flashy",
-      "favoriteColor": "green"
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Melba",

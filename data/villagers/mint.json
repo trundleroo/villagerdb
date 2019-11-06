@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "squirrel",
   "birthday": "5-2",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af": {
       "personality": "snooty",
@@ -54,7 +49,12 @@
       "siblings": "Second of 4 kids",
       "favoriteStyle": "Official",
       "dislikedStyle": "Flashy",
-      "favoriteColor": "blue"
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Mint",

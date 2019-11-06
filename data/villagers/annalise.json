@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "horse",
   "birthday": "12-2",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af+": {
       "personality": "snooty",
@@ -36,7 +31,12 @@
       "siblings": "Youngest of 3 sisters",
       "favoriteStyle": "Official",
       "dislikedStyle": "Flashy",
-      "favoriteColor": "purple"
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Annalise",

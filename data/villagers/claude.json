@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "rabbit",
   "birthday": "12-3",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "af": {
       "personality": "lazy",
@@ -41,7 +36,12 @@
       "siblings": "Second of 6 kids",
       "favoriteStyle": "Modern",
       "dislikedStyle": "Historical",
-      "favoriteColor": "Black"
+      "favoriteColor": "Black",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Claude",

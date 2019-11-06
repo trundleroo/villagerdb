@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "penguin",
   "birthday": "1-23",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "A little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "snooty",
@@ -51,7 +46,12 @@
       "siblings": "Second of 4 sisters",
       "favoriteStyle": "Ornate",
       "dislikedStyle": "Flashy",
-      "favoriteColor": "purple"
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Gwen",

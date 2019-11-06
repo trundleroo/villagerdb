@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "hamster",
   "birthday": "10-19",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "nl": {
       "personality": "lazy",
@@ -20,7 +15,12 @@
       "siblings": "Eldest of 7 kids",
       "favoriteStyle": "Historical",
       "dislikedStyle": "Cute/Fancy",
-      "favoriteColor": "beige"
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Clay",

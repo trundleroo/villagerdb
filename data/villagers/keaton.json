@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "eagle",
   "birthday": "6-1",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "nl": {
       "personality": "smug",
@@ -20,7 +15,12 @@
       "siblings": "Fifth of 6 kids",
       "favoriteStyle": "Flashy",
       "dislikedStyle": "Basic",
-      "favoriteColor": "aqua"
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Keaton",

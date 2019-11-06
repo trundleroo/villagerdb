@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "koala",
   "birthday": "5-14",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "uchi",
@@ -20,7 +15,12 @@
       "siblings": "Second of 6 kids",
       "favoriteStyle": "Sporty",
       "dislikedStyle": "Iconic",
-      "favoriteColor": "orange"
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Canberra",

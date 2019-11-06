@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "cat",
   "birthday": "12-10",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
@@ -47,7 +42,12 @@
       "siblings": "Second quadruplet",
       "favoriteStyle": "Rock",
       "dislikedStyle": "Cute/Fancy",
-      "favoriteColor": "brown"
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Tom",

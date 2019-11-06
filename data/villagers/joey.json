@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "duck",
   "birthday": "1-3",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "af": {
       "personality": "lazy",
@@ -54,7 +49,12 @@
       "siblings": "Fourth quintuplet",
       "favoriteStyle": "Basic",
       "dislikedStyle": "Rock",
-      "favoriteColor": "purple"
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Joey",

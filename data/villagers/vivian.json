@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "wolf",
   "birthday": "1-26",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Lots of milk",
-    "sugar": "3 spoonfuls of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "snooty",
@@ -25,7 +20,12 @@
       "siblings": "Eldest of 3 kids",
       "favoriteStyle": "Iconic",
       "dislikedStyle": "Flashy",
-      "favoriteColor": "Red"
+      "favoriteColor": "Red",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "3 spoonfuls of sugar"
+      }
     }
   },
   "name": "Vivian",

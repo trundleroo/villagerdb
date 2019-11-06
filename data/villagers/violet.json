@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "gorilla",
   "birthday": "9-1",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "peppy",
@@ -31,7 +26,12 @@
       "siblings": "Second of 5 kids",
       "favoriteStyle": "Historical",
       "dislikedStyle": "Rock",
-      "favoriteColor": "pink"
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Violet",

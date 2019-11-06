@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "lion",
   "birthday": "7-10",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "cf": {
       "personality": "jock",
@@ -26,7 +21,12 @@
       "siblings": "Eldest of 2 kids",
       "favoriteStyle": "Iconic",
       "dislikedStyle": "Flashy",
-      "favoriteColor": "aqua"
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Mott",

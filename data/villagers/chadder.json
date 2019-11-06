@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "mouse",
   "birthday": "12-15",
-  "coffee": {
-    "beans": "Kilamanjaro",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "smug",
@@ -20,7 +15,12 @@
       "siblings": "Eldest of 9 kids",
       "favoriteStyle": "Official",
       "dislikedStyle": "Ornate",
-      "favoriteColor": "yellow"
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Kilamanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Chadder",

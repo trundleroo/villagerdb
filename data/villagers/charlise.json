@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "bear",
   "birthday": "4-17",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "peppy",
@@ -25,7 +20,12 @@
       "siblings": "Youngest of 6 kids",
       "favoriteStyle": "Sporty",
       "dislikedStyle": "Ornate",
-      "favoriteColor": "orange"
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Charlise",

@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "horse",
   "birthday": "11-28",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af": {
       "personality": "normal",
@@ -47,7 +42,12 @@
       "siblings": "Middle of 5 kids",
       "favoriteStyle": "Cute/Fancy",
       "dislikedStyle": "Sporty",
-      "favoriteColor": "pink"
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Peaches",

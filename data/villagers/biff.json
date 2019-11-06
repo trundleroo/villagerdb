@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "hippo",
   "birthday": "3-29",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
@@ -41,7 +36,12 @@
       "siblings": "Second of 4 kids",
       "favoriteStyle": "Flashy",
       "dislikedStyle": "Basic",
-      "favoriteColor": "green"
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Biff",

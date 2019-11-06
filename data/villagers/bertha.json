@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "hippo",
   "birthday": "4-25",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "normal",
@@ -38,7 +33,12 @@
       "siblings": "Youngest of 3 sisters",
       "favoriteStyle": "Iconic",
       "dislikedStyle": "Rock",
-      "favoriteColor": "gray"
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Bertha",

@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "eagle",
   "birthday": "3-25",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "normal",
@@ -20,7 +15,12 @@
       "siblings": "Youngest of 3 kids",
       "favoriteStyle": "Cute/Fancy",
       "dislikedStyle": "Historical",
-      "favoriteColor": "pink"
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Celia",

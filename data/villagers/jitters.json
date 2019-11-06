@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "bird",
   "birthday": "2-2",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "ww": {
       "personality": "jock",
@@ -33,7 +28,12 @@
       "siblings": "Second quintuplet",
       "favoriteStyle": "Sporty",
       "dislikedStyle": "Cute/Fancy",
-      "favoriteColor": "yellow"
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Jitters",

@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "bear",
   "birthday": "7-31",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
@@ -47,7 +42,12 @@
       "siblings": "Eldest of 4 kids",
       "favoriteStyle": "Basic",
       "dislikedStyle": "Ornate",
-      "favoriteColor": "brown"
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Grizzly",

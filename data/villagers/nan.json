@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "goat",
   "birthday": "8-24",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "af": {
       "personality": "normal",
@@ -54,7 +49,12 @@
       "siblings": "Fourth of 5 kids",
       "favoriteStyle": "Basic",
       "dislikedStyle": "Flashy",
-      "favoriteColor": "black"
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Nan",

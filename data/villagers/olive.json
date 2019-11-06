@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "cub",
   "birthday": "7-12",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af": {
       "personality": "normal",
@@ -41,7 +36,12 @@
       "siblings": "Youngest of 2 kids",
       "favoriteStyle": "Basic",
       "dislikedStyle": "Ornate",
-      "favoriteColor": "Pink"
+      "favoriteColor": "Pink",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Olive",

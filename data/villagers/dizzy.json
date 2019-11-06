@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "elephant",
   "birthday": "7-14",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "lazy",
@@ -54,7 +49,12 @@
       "siblings": "Youngest of 6 kids",
       "favoriteStyle": "Basic",
       "dislikedStyle": "Flashy",
-      "favoriteColor": "black"
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Dizzy",

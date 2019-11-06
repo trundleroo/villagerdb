@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "mouse",
   "birthday": "7-5",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
@@ -54,7 +49,12 @@
       "siblings": "Second quintuplet",
       "favoriteStyle": "Modern",
       "dislikedStyle": "Rock",
-      "favoriteColor": "colorful"
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Samson",

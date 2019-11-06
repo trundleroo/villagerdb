@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "cat",
   "birthday": "1-6",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Lots of Milk",
-    "sugar": "3 Spoonfuls Sugar"
-  },
   "games": {
     "nl": {
       "personality": "lazy",
@@ -20,7 +15,12 @@
       "siblings": "Only child",
       "favoriteStyle": "Sporty",
       "dislikedStyle": "Cute/Fancy",
-      "favoriteColor": "None"
+      "favoriteColor": "None",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of Milk",
+        "sugar": "3 Spoonfuls Sugar"
+      }
     }
   },
   "name": "Felyne",

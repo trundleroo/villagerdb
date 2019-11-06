@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "monkey",
   "birthday": "5-24",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "lazy",
@@ -20,7 +15,12 @@
       "siblings": "Youngest of 2 kids",
       "favoriteStyle": "Iconic",
       "dislikedStyle": "Flashy",
-      "favoriteColor": "purple"
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Deli",

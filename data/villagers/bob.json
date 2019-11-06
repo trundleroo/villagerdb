@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "cat",
   "birthday": "1-1",
-  "coffee": {
-    "beans": "Kilamanjaro",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af": {
       "personality": "lazy",
@@ -54,7 +49,12 @@
       "siblings": "Fourth of 6 kids",
       "favoriteStyle": "Flashy",
       "dislikedStyle": "Basic",
-      "favoriteColor": "colorful"
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Kilamanjaro",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Bob",

@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "pig",
   "birthday": "12-30",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "A lot of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "lazy",
@@ -54,7 +49,12 @@
       "siblings": "Third quadruplet",
       "favoriteStyle": "Modern",
       "dislikedStyle": "Official",
-      "favoriteColor": "blue"
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "A lot of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Hugh",

@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "dog",
   "birthday": "6-18",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "af": {
       "personality": "peppy",
@@ -47,7 +42,12 @@
       "siblings": "Fifth of 6 kids",
       "favoriteStyle": "Cute/Fancy",
       "dislikedStyle": "Historical",
-      "favoriteColor": "green"
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Cookie",

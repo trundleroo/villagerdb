@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "frog",
   "birthday": "7-18",
-  "coffee": {
-    "beans": "Kilamanjaro",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "nl": {
       "personality": "cranky",
@@ -20,7 +15,12 @@
       "siblings": "Eldest of 3 kids",
       "favoriteStyle": "Iconic",
       "dislikedStyle": "Cute/Fancy",
-      "favoriteColor": "red"
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Kilamanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Croque",

@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "kangaroo",
   "birthday": "4-24",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "nl": {
       "personality": "cranky",
@@ -20,7 +15,12 @@
       "siblings": "Eldest of 5 kids",
       "favoriteStyle": "Iconic",
       "dislikedStyle": "Modern",
-      "favoriteColor": "gray"
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Walt",

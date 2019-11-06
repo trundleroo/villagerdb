@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "pig",
   "birthday": "4-26",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "nl": {
       "personality": "jock",
@@ -20,7 +15,12 @@
       "siblings": "Second quintuplet",
       "favoriteStyle": "Sporty",
       "dislikedStyle": "Official",
-      "favoriteColor": "orange"
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Kevin",

@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "cat",
   "birthday": "10-8",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "normal",
@@ -54,7 +49,12 @@
       "siblings": "Second of 5 kids",
       "favoriteStyle": "Basic",
       "dislikedStyle": "Flashy",
-      "favoriteColor": "brown"
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Kiki",

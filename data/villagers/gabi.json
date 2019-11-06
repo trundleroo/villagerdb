@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "rabbit",
   "birthday": "12-16",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
@@ -54,7 +49,12 @@
       "siblings": "Fourth of 6 kids",
       "favoriteStyle": "Ornate",
       "dislikedStyle": "Official",
-      "favoriteColor": "brown"
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Gabi",

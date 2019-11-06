@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "pig",
   "birthday": "11-6",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Lots of milk",
-    "sugar": "3 spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
@@ -38,7 +33,12 @@
       "siblings": "Second quadruplet",
       "favoriteStyle": "Flashy",
       "dislikedStyle": "Basic",
-      "favoriteColor": "Black"
+      "favoriteColor": "Black",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "3 spoonfuls of sugar"
+      }
     }
   },
   "name": "Boris",

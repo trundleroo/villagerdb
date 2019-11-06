@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "mouse",
   "birthday": "12-28",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
@@ -54,7 +49,12 @@
       "siblings": "Youngest of 4 sisters",
       "favoriteStyle": "Rock",
       "dislikedStyle": "Basic",
-      "favoriteColor": "black"
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Bella",

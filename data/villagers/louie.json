@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "gorilla",
   "birthday": "3-26",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
@@ -34,7 +29,12 @@
       "siblings": "Eldest of 5 kids",
       "favoriteStyle": "Sporty",
       "dislikedStyle": "Cute/Fancy",
-      "favoriteColor": "Blue"
+      "favoriteColor": "Blue",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Louie",

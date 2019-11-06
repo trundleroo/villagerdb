@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "chicken",
   "birthday": "11-23",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "cf": {
       "personality": "cranky",
@@ -26,7 +21,12 @@
       "siblings": "Eldest triplet",
       "favoriteStyle": "Iconic",
       "dislikedStyle": "Flashy",
-      "favoriteColor": "brown"
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Knox",

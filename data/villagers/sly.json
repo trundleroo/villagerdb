@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "alligator",
   "birthday": "11-15",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "jock",
@@ -20,7 +15,12 @@
       "siblings": "Eldest of 7 kids",
       "favoriteStyle": "Rock",
       "dislikedStyle": "Modern",
-      "favoriteColor": "colorful"
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Sly",

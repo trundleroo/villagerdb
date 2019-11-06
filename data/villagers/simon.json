@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "monkey",
   "birthday": "1-19",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "ww": {
       "personality": "lazy",
@@ -33,7 +28,12 @@
       "siblings": "Third of 6 kids",
       "favoriteStyle": "Sporty",
       "dislikedStyle": "Official",
-      "favoriteColor": "colorful"
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Simon",

@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "rabbit",
   "birthday": "5-9",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
@@ -54,7 +49,12 @@
       "siblings": "Eldest of 3 kids",
       "favoriteStyle": "Cute/Fancy",
       "dislikedStyle": "Iconic",
-      "favoriteColor": "pink"
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Bunnie",

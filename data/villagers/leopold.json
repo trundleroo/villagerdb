@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "lion",
   "birthday": "8-14",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Lots of milk",
-    "sugar": "3 spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
@@ -41,7 +36,12 @@
       "siblings": "Eldest triplet",
       "favoriteStyle": "Ornate",
       "dislikedStyle": "Historical",
-      "favoriteColor": "Green"
+      "favoriteColor": "Green",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "3 spoonfuls of sugar"
+      }
     }
   },
   "name": "Leopold",

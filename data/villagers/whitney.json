@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "wolf",
   "birthday": "9-17",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "A little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "ww": {
       "personality": "snooty",
@@ -33,7 +28,12 @@
       "siblings": "Eldest of 6 kids",
       "favoriteStyle": "Ornate",
       "dislikedStyle": "Sporty",
-      "favoriteColor": "purple"
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Whitney",

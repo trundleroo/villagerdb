@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "dog",
   "birthday": "6-10",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "ac": {
       "personality": "lazy",
@@ -44,7 +39,12 @@
       "siblings": "Eldest of 10 kids",
       "favoriteStyle": "Historical",
       "dislikedStyle": "Ornate",
-      "favoriteColor": "red"
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Walker",

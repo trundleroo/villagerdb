@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "elephant",
   "birthday": "1-28",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "afe+": {
       "personality": "normal",
@@ -38,7 +33,12 @@
       "siblings": "Third of 5 kids",
       "favoriteStyle": "Iconic",
       "dislikedStyle": "Rock",
-      "favoriteColor": "brown"
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Margie",

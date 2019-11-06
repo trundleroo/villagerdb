@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "dog",
   "birthday": "11-24",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "smug",
@@ -20,7 +15,12 @@
       "siblings": "Third quadruplet",
       "favoriteStyle": "Historical",
       "dislikedStyle": "Flashy",
-      "favoriteColor": "beige"
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Shep",

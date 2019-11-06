@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "bull",
   "birthday": "4-29",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "jock",
@@ -20,7 +15,12 @@
       "siblings": "Eldest of 6 kids",
       "favoriteStyle": "Sporty",
       "dislikedStyle": "Modern",
-      "favoriteColor": "red"
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Coach",

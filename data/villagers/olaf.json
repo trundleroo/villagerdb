@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "anteater",
   "birthday": "5-19",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "nl": {
       "personality": "smug",
@@ -20,7 +15,12 @@
       "siblings": "Older twin",
       "favoriteStyle": "Official",
       "dislikedStyle": "Modern",
-      "favoriteColor": "red"
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Olaf",

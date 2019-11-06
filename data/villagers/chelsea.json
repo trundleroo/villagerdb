@@ -15,14 +15,14 @@
       "siblings": "Eldest of 2 kids",
       "favoriteStyle": "Cute/Fancy",
       "dislikedStyle": "Basic",
-      "favoriteColor": "Pink"
+      "favoriteColor": "Pink",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "3 spoonfulls of sugar"
+      }
     }
   },
   "name": "Chelsea",
-  "id": "chelsea",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Lots of milk",
-    "sugar": "3 spoonfulls of sugar"
-  }
+  "id": "chelsea"
 }

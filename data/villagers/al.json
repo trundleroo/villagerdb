@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "gorilla",
   "birthday": "10-18",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "cf": {
       "personality": "lazy",
@@ -26,7 +21,12 @@
       "siblings": "Eldest of 7 kids",
       "favoriteStyle": "Basic",
       "dislikedStyle": "Official",
-      "favoriteColor": "pink"
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Al",

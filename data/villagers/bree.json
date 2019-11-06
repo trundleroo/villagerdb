@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "mouse",
   "birthday": "7-7",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "snooty",
@@ -38,7 +33,12 @@
       "siblings": "Third of 5 kids",
       "favoriteStyle": "Official",
       "dislikedStyle": "Historical",
-      "favoriteColor": "white"
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Bree",

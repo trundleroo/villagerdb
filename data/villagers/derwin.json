@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "duck",
   "birthday": "5-25",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "af": {
       "personality": "lazy",
@@ -54,7 +49,12 @@
       "siblings": "Only child",
       "favoriteStyle": "Official",
       "dislikedStyle": "Rock",
-      "favoriteColor": "beige"
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Derwin",

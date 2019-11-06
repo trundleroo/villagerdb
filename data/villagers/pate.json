@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "duck",
   "birthday": "2-23",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
@@ -54,7 +49,12 @@
       "siblings": "Fourth of 5 kids",
       "favoriteStyle": "Modern",
       "dislikedStyle": "Official",
-      "favoriteColor": "yellow"
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Pate",

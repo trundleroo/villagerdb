@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "chicken",
   "birthday": "12-9",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "snooty",
@@ -31,7 +26,12 @@
       "siblings": "Second of 3 kids",
       "favoriteStyle": "Ornate",
       "dislikedStyle": "Sporty",
-      "favoriteColor": "purple"
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Becky",

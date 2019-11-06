@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "dog",
   "birthday": "5-11",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "uchi",
@@ -20,7 +15,12 @@
       "siblings": "Second of 5 kids",
       "favoriteStyle": "Rock",
       "dislikedStyle": "Official",
-      "favoriteColor": "purple"
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Cherry",

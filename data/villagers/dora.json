@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "mouse",
   "birthday": "2-18",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "normal",
@@ -54,7 +49,12 @@
       "siblings": "Eldest of 6 kids",
       "favoriteStyle": "Iconic",
       "dislikedStyle": "Flashy",
-      "favoriteColor": "purple"
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Dora",

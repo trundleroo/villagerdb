@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "penguin",
   "birthday": "10-30",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "afe+": {
       "personality": "lazy",
@@ -25,7 +20,12 @@
       "siblings": "Fourth of 6 kids",
       "favoriteStyle": "Basic",
       "dislikedStyle": "Ornate",
-      "favoriteColor": "Brown"
+      "favoriteColor": "Brown",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Wade",

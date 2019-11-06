@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "cat",
   "birthday": "12-20",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "nl": {
       "personality": "jock",
@@ -20,7 +15,12 @@
       "siblings": "Third of 6 kids",
       "favoriteStyle": "Sporty",
       "dislikedStyle": "Rock",
-      "favoriteColor": "beige"
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Rudy",

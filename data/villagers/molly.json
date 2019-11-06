@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "duck",
   "birthday": "3-7",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "normal",
@@ -20,7 +15,12 @@
       "siblings": "Eldest of 9 kids",
       "favoriteStyle": "Official",
       "dislikedStyle": "Sporty",
-      "favoriteColor": "beige"
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Molly",

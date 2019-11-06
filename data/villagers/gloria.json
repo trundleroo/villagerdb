@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "duck",
   "birthday": "8-12",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "cf": {
       "personality": "snooty",
@@ -26,7 +21,12 @@
       "siblings": "Eldest of 2 kids",
       "favoriteStyle": "Ornate",
       "dislikedStyle": "Cute/Fancy",
-      "favoriteColor": "black"
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Gloria",

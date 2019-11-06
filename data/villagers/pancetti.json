@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "pig",
   "birthday": "11-14",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "A little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "nl": {
       "personality": "snooty",
@@ -20,7 +15,12 @@
       "siblings": "Eldest of 7 kids",
       "favoriteStyle": "Modern",
       "dislikedStyle": "Historical",
-      "favoriteColor": "yellow"
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Pancetti",

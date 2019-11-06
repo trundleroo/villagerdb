@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "deer",
   "birthday": "11-7",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "nl": {
       "personality": "jock",
@@ -20,7 +15,12 @@
       "siblings": "Fourth of 5 kids",
       "favoriteStyle": "Sporty",
       "dislikedStyle": "Iconic",
-      "favoriteColor": "aqua"
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Bam",

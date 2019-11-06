@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "pig",
   "birthday": "7-26",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "A little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
@@ -54,7 +49,12 @@
       "siblings": "Middle triplet",
       "favoriteStyle": "Basic",
       "dislikedStyle": "Ornate",
-      "favoriteColor": "red"
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Curly",

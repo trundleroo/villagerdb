@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "cat",
   "birthday": "3-30",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "peppy",
@@ -31,7 +26,12 @@
       "siblings": "Second of 3 sisters",
       "favoriteStyle": "Cute/Fancy",
       "dislikedStyle": "Flashy",
-      "favoriteColor": "beige"
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Felicity",

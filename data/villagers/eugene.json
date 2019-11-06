@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "koala",
   "birthday": "10-26",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "nl": {
       "personality": "smug",
@@ -20,7 +15,12 @@
       "siblings": "Youngest of 3 kids",
       "favoriteStyle": "Rock",
       "dislikedStyle": "Iconic",
-      "favoriteColor": "black"
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Eugene",

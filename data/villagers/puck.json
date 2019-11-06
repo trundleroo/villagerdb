@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "penguin",
   "birthday": "2-21",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "A little bit of milk",
-    "sugar": "One sugar"
-  },
   "games": {
     "af": {
       "personality": "lazy",
@@ -47,7 +42,12 @@
       "siblings": "Middle kid",
       "favoriteStyle": "Sporty",
       "dislikedStyle": "Iconic",
-      "favoriteColor": "blue"
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "A little bit of milk",
+        "sugar": "One sugar"
+      }
     }
   },
   "name": "Puck",

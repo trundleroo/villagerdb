@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "squirrel",
   "birthday": "8-30",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "nl": {
       "personality": "uchi",
@@ -20,7 +15,12 @@
       "siblings": "Eldest of 2 kids",
       "favoriteStyle": "Iconic",
       "dislikedStyle": "Ornate",
-      "favoriteColor": "orange"
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Hazel",

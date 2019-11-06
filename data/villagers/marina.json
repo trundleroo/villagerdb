@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "octopus",
   "birthday": "6-26",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "normal",
@@ -38,7 +33,12 @@
       "siblings": "Middle triplet",
       "favoriteStyle": "Official",
       "dislikedStyle": "Sporty",
-      "favoriteColor": "pink"
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Marina",

@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "bird",
   "birthday": "12-12",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "smug",
@@ -20,7 +15,12 @@
       "siblings": "Fifth of 6 kids",
       "favoriteStyle": "Sporty",
       "dislikedStyle": "Basic",
-      "favoriteColor": "red"
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Lucha",

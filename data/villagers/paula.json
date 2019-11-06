@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "bear",
   "birthday": "3-22",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "peppy",
@@ -25,7 +20,12 @@
       "siblings": "Eldest of 4 kids",
       "favoriteStyle": "Flashy",
       "dislikedStyle": "Basic",
-      "favoriteColor": "orange"
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Paula",

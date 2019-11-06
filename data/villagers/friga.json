@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "penguin",
   "birthday": "10-16",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "A little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "snooty",
@@ -51,7 +46,12 @@
       "siblings": "Eldest of 2 kids",
       "favoriteStyle": "Ornate",
       "dislikedStyle": "Sporty",
-      "favoriteColor": "pink"
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Friga",

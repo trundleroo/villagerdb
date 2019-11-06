@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "cub",
   "birthday": "6-11",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "lazy",
@@ -53,7 +48,12 @@
       "siblings": "Youngest of 5 kids",
       "favoriteStyle": "Historical",
       "dislikedStyle": "Cute/Fancy",
-      "favoriteColor": "blue"
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Pudge",

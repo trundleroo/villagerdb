@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "bear",
   "birthday": "8-16",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "af": {
       "personality": "lazy",
@@ -47,7 +42,12 @@
       "siblings": "Third of 4 kids",
       "favoriteStyle": "Basic",
       "dislikedStyle": "Modern",
-      "favoriteColor": "white"
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Nate",

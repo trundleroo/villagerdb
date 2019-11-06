@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "cub",
   "birthday": "8-2",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
@@ -43,7 +38,12 @@
       "siblings": "Second of 6 kids",
       "favoriteStyle": "Flashy",
       "dislikedStyle": "Basic",
-      "favoriteColor": "yellow"
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Vladimir",

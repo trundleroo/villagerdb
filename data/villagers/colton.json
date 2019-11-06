@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "horse",
   "birthday": "5-22",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "nl": {
       "personality": "smug",
@@ -20,7 +15,12 @@
       "siblings": "Youngest of 2 kids",
       "favoriteStyle": "Ornate",
       "dislikedStyle": "Sporty",
-      "favoriteColor": "beige"
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Colton",

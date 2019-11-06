@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "horse",
   "birthday": "1-31",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
@@ -47,7 +42,12 @@
       "siblings": "Only child",
       "favoriteStyle": "Modern",
       "dislikedStyle": "Rock",
-      "favoriteColor": "colorful"
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Winnie",

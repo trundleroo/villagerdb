@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "gorilla",
   "birthday": "10-1",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Lots of milk",
-    "sugar": "3 spoonfuls of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "cranky",
@@ -25,7 +20,12 @@
       "siblings": "Second of 5 kids",
       "favoriteStyle": "Sporty",
       "dislikedStyle": "Cute/Fancy",
-      "favoriteColor": "Blue"
+      "favoriteColor": "Blue",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "3 spoonfuls of sugar"
+      }
     }
   },
   "name": "Boyd",

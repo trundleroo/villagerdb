@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "squirrel",
   "birthday": "9-14",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
@@ -41,7 +36,12 @@
       "siblings": "Eldest of 10 kids",
       "favoriteStyle": "Iconic",
       "dislikedStyle": "Ornate",
-      "favoriteColor": "aqua"
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Ricky",

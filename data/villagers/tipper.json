@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "cow",
   "birthday": "8-25",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "ww": {
       "personality": "snooty",
@@ -33,7 +28,12 @@
       "siblings": "Third of 6 kids",
       "favoriteStyle": "Flashy",
       "dislikedStyle": "Historical",
-      "favoriteColor": "colorful"
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Tipper",

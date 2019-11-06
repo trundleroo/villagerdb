@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "monkey",
   "birthday": "3-21",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "ww": {
       "personality": "snooty",
@@ -33,7 +28,12 @@
       "siblings": "Eldest of 4 sisters",
       "favoriteStyle": "Official",
       "dislikedStyle": "Historical",
-      "favoriteColor": "colorful"
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Elise",

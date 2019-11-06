@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "tiger",
   "birthday": "5-15",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "A little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "jock",
@@ -25,7 +20,12 @@
       "siblings": "Fourth of 6 kids",
       "favoriteStyle": "Sporty",
       "dislikedStyle": "Official",
-      "favoriteColor": "orange"
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Leonardo",

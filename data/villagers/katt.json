@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "cat",
   "birthday": "4-27",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "nl": {
       "personality": "uchi",
@@ -20,7 +15,12 @@
       "siblings": "Third of 4 kids",
       "favoriteStyle": "Rock",
       "dislikedStyle": "Official",
-      "favoriteColor": "purple"
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Katt",

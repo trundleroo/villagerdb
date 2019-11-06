@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "goat",
   "birthday": "8-29",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
@@ -41,7 +36,12 @@
       "siblings": "Eldest of 9 kids",
       "favoriteStyle": "Historical",
       "dislikedStyle": "Cute/Fancy",
-      "favoriteColor": "purple"
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Gruff",

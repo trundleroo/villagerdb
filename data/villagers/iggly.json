@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "penguin",
   "birthday": "11-2",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "cf": {
       "personality": "jock",
@@ -26,7 +21,12 @@
       "siblings": "Only child",
       "favoriteStyle": "Basic",
       "dislikedStyle": "Iconic",
-      "favoriteColor": "blue"
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Iggly",

@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "pig",
   "birthday": "10-13",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "nl": {
       "personality": "smug",
@@ -20,7 +15,12 @@
       "siblings": "Eldest of 3 kids",
       "favoriteStyle": "Ornate",
       "dislikedStyle": "Basic",
-      "favoriteColor": "gray"
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Chops",

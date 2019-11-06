@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "tiger",
   "birthday": "8-19",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
@@ -41,7 +36,12 @@
       "siblings": "Fourth quintuplet",
       "favoriteStyle": "Sporty",
       "dislikedStyle": "Cute/Fancy",
-      "favoriteColor": "Green"
+      "favoriteColor": "Green",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Tybalt",

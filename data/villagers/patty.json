@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "cow",
   "birthday": "5-10",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
@@ -54,7 +49,12 @@
       "siblings": "Eldest of 4 sisters",
       "favoriteStyle": "Modern",
       "dislikedStyle": "Iconic",
-      "favoriteColor": "red"
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Patty",

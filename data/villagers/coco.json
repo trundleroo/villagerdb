@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "rabbit",
   "birthday": "3-1",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "normal",
@@ -51,7 +46,12 @@
       "siblings": "Second of 5 kids",
       "favoriteStyle": "Iconic",
       "dislikedStyle": "Ornate",
-      "favoriteColor": "beige"
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Coco",

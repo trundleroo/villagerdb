@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "wolf",
   "birthday": "12-18",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
@@ -47,7 +42,12 @@
       "siblings": "Eldest of 4 kids",
       "favoriteStyle": "Official",
       "dislikedStyle": "Cute/Fancy",
-      "favoriteColor": "beige"
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Fang",

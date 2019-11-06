@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "monkey",
   "birthday": "8-23",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "ww": {
       "personality": "normal",
@@ -33,7 +28,12 @@
       "siblings": "Youngest of 2 kids",
       "favoriteStyle": "Cute/Fancy",
       "dislikedStyle": "Iconic",
-      "favoriteColor": "colorful"
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Nana",

@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "cat",
   "birthday": "2-15",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "af": {
       "personality": "snooty",
@@ -47,7 +42,12 @@
       "siblings": "Middle of 3 kids",
       "favoriteStyle": "Official",
       "dislikedStyle": "Rock",
-      "favoriteColor": "white"
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Kitty",

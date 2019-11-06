@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "bear",
   "birthday": "3-31",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Just a little bit of milk",
-    "sugar": "1 spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "smug",
@@ -53,7 +48,12 @@
       "siblings": "Eldest of 7 kids",
       "favoriteStyle": "Historical",
       "dislikedStyle": "Cute/Fancy",
-      "favoriteColor": "gray"
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Just a little bit of milk",
+        "sugar": "1 spoonful of sugar"
+      }
     }
   },
   "name": "Klaus",

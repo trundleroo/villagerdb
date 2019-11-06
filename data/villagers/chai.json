@@ -15,14 +15,14 @@
       "siblings": "Only child",
       "favoriteStyle": "Cute/Fancy",
       "dislikedStyle": "Basic",
-      "favoriteColor": "None"
+      "favoriteColor": "None",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Chai",
-  "id": "chai",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  }
+  "id": "chai"
 }

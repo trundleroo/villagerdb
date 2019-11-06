@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "cub",
   "birthday": "3-17",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af+": {
       "personality": "peppy",
@@ -34,7 +29,12 @@
       "siblings": "Youngest of 3 kids",
       "favoriteStyle": "Sporty",
       "dislikedStyle": "Historical",
-      "favoriteColor": "yellow"
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Cheri",

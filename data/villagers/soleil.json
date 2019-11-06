@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "hamster",
   "birthday": "8-9",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "snooty",
@@ -20,7 +15,12 @@
       "siblings": "Fourth of 6 kids",
       "favoriteStyle": "Modern",
       "dislikedStyle": "Rock",
-      "favoriteColor": "orange"
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Soleil",

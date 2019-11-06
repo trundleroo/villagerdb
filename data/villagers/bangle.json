@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "tiger",
   "birthday": "8-27",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "A little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
@@ -41,7 +36,12 @@
       "siblings": "Second of 6 kids",
       "favoriteStyle": "Ornate",
       "dislikedStyle": "Basic",
-      "favoriteColor": "orange"
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Bangle",

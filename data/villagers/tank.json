@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "rhino",
   "birthday": "5-6",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "No Milk",
-    "sugar": "No Sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
@@ -54,7 +49,12 @@
       "siblings": "Younger twin brother",
       "favoriteStyle": "Rock",
       "dislikedStyle": "Modern",
-      "favoriteColor": "green"
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "No Milk",
+        "sugar": "No Sugar"
+      }
     }
   },
   "name": "Tank",

@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "horse",
   "birthday": "7-11",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "peppy",
@@ -38,7 +33,12 @@
       "siblings": "Third of 4 kids",
       "favoriteStyle": "Sporty",
       "dislikedStyle": "Official",
-      "favoriteColor": "red"
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Victoria",

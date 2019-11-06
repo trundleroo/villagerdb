@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "mouse",
   "birthday": "8-14",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "afe+": {
       "personality": "jock",
@@ -38,7 +33,12 @@
       "siblings": "Youngest quadruplet",
       "favoriteStyle": "Rock",
       "dislikedStyle": "Iconic",
-      "favoriteColor": "purple"
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Rod",

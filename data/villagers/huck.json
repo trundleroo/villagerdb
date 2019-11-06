@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "frog",
   "birthday": "7-9",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "a little bit of milk",
-    "sugar": "1 spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "lazy",
@@ -41,7 +36,12 @@
       "siblings": "Eldest of 9 kids",
       "favoriteStyle": "Cute/Fancy",
       "dislikedStyle": "Historical",
-      "favoriteColor": "Yellow"
+      "favoriteColor": "Yellow",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "a little bit of milk",
+        "sugar": "1 spoonful of sugar"
+      }
     }
   },
   "name": "Huck",

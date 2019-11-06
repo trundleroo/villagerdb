@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "rabbit",
   "birthday": "1-6",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "cf": {
       "personality": "peppy",
@@ -26,7 +21,12 @@
       "siblings": "Eldest of 7 kids",
       "favoriteStyle": "Modern",
       "dislikedStyle": "Sporty",
-      "favoriteColor": "brown"
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Carmen",

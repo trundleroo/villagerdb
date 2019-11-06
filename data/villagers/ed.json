@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "horse",
   "birthday": "9-16",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
@@ -47,7 +42,12 @@
       "siblings": "Third of 4 kids",
       "favoriteStyle": "Flashy",
       "dislikedStyle": "Historical",
-      "favoriteColor": "black"
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Ed",

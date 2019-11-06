@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "wolf",
   "birthday": "3-24",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "nl": {
       "personality": "normal",
@@ -20,7 +15,12 @@
       "siblings": "Fourth of 5 kids",
       "favoriteStyle": "Cute/Fancy",
       "dislikedStyle": "Flashy",
-      "favoriteColor": "aqua"
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Skye",

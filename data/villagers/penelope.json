@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "mouse",
   "birthday": "2-5",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "A lot of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "peppy",
@@ -20,7 +15,12 @@
       "siblings": "Younger twin sister",
       "favoriteStyle": "Cute/Fancy",
       "dislikedStyle": "Iconic",
-      "favoriteColor": "pink"
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "A lot of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Penelope",

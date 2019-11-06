@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "goat",
   "birthday": "3-6",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "af": {
       "personality": "normal",
@@ -54,7 +49,12 @@
       "siblings": "Eldest of 5 kids",
       "favoriteStyle": "Cute/Fancy",
       "dislikedStyle": "Rock",
-      "favoriteColor": "white"
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Chevre",

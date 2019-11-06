@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "alligator",
   "birthday": "5-27",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "afe+": {
       "personality": "cranky",
@@ -31,7 +26,12 @@
       "siblings": "Second of 5 kids",
       "favoriteStyle": "Sporty",
       "dislikedStyle": "Ornate",
-      "favoriteColor": "blue"
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Del",

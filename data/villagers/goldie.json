@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "dog",
   "birthday": "12-27",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "normal",
@@ -51,7 +46,12 @@
       "siblings": "Eldest triplet",
       "favoriteStyle": "Basic",
       "dislikedStyle": "Flashy",
-      "favoriteColor": "white"
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Goldie",

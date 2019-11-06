@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "hamster",
   "birthday": "6-20",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "smug",
@@ -20,7 +15,12 @@
       "siblings": "Third quintuplet",
       "favoriteStyle": "Historical",
       "dislikedStyle": "Ornate",
-      "favoriteColor": "orange"
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Graham",

@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "horse",
   "birthday": "1-25",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af": {
       "personality": "normal",
@@ -54,7 +49,12 @@
       "siblings": "Second of 6 kids",
       "favoriteStyle": "Modern",
       "dislikedStyle": "Historical",
-      "favoriteColor": "gray"
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Savannah",

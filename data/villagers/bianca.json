@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "tiger",
   "birthday": "12-13",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "nl": {
       "personality": "peppy",
@@ -20,7 +15,12 @@
       "siblings": "Fifth of 6 kids",
       "favoriteStyle": "Modern",
       "dislikedStyle": "Iconic",
-      "favoriteColor": "white"
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Bianca",

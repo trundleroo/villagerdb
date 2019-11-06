@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "squirrel",
   "birthday": "7-15",
-  "coffee": {
-    "beans": "Kilamanjaro",
-    "milk": "A little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "ww": {
       "personality": "normal",
@@ -33,7 +28,12 @@
       "siblings": "Second of 4 kids",
       "favoriteStyle": "Cute/Fancy",
       "dislikedStyle": "Iconic",
-      "favoriteColor": "colorful"
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Kilamanjaro",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Caroline",

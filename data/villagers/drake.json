@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "duck",
   "birthday": "6-25",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "ww": {
       "personality": "lazy",
@@ -33,7 +28,12 @@
       "siblings": "Youngest triplet",
       "favoriteStyle": "Modern",
       "dislikedStyle": "Cute/Fancy",
-      "favoriteColor": "brown"
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Drake",

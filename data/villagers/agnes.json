@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "pig",
   "birthday": "4-21",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "uchi",
@@ -20,7 +15,12 @@
       "siblings": "Youngest of 4 kids",
       "favoriteStyle": "Rock",
       "dislikedStyle": "Historical",
-      "favoriteColor": "white"
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Agnes",

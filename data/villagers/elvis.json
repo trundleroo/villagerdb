@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "lion",
   "birthday": "7-23",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "ww": {
       "personality": "cranky",
@@ -33,7 +28,12 @@
       "siblings": "Eldest quadruplet",
       "favoriteStyle": "Ornate",
       "dislikedStyle": "Basic",
-      "favoriteColor": "gray"
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Elvis",

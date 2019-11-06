@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "rabbit",
   "birthday": "11-3",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
@@ -54,7 +49,12 @@
       "siblings": "Third quadruplet",
       "favoriteStyle": "Sporty",
       "dislikedStyle": "Modern",
-      "favoriteColor": "black"
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Snake",

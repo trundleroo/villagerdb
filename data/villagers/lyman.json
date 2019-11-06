@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "koala",
   "birthday": "10-12",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "nl": {
       "personality": "jock",
@@ -20,7 +15,12 @@
       "siblings": "Fifth of 6 kids",
       "favoriteStyle": "Official",
       "dislikedStyle": "Ornate",
-      "favoriteColor": "green"
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Lyman",

@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "dog",
   "birthday": "12-31",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "cf": {
       "personality": "lazy",
@@ -26,7 +21,12 @@
       "siblings": "Eldest of 5 kids",
       "favoriteStyle": "Iconic",
       "dislikedStyle": "Cute/Fancy",
-      "favoriteColor": "green"
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Marcel",

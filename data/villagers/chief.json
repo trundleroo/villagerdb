@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "wolf",
   "birthday": "12-19",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
@@ -54,7 +49,12 @@
       "siblings": "Older twin brother",
       "favoriteStyle": "Iconic",
       "dislikedStyle": "Ornate",
-      "favoriteColor": "gray"
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Chief",

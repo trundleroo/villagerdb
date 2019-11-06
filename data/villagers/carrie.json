@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "kangaroo",
   "birthday": "12-5",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "none at all",
-    "sugar": "none at all"
-  },
   "games": {
     "af": {
       "personality": "normal",
@@ -41,7 +36,12 @@
       "siblings": "Middle of 3 kids",
       "favoriteStyle": "Cute/Fancy",
       "dislikedStyle": "Flashy",
-      "favoriteColor": "Pink"
+      "favoriteColor": "Pink",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "none at all",
+        "sugar": "none at all"
+      }
     }
   },
   "name": "Carrie",

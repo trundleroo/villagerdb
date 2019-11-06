@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "sheep",
   "birthday": "5-8",
-  "coffee": {
-    "beans": "Kilamanjaro",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "cranky",
@@ -25,7 +20,12 @@
       "siblings": "Eldest quadruplet",
       "favoriteStyle": "Rock",
       "dislikedStyle": "Modern",
-      "favoriteColor": "yellow"
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Kilamanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Curlos",

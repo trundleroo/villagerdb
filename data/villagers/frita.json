@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "sheep",
   "birthday": "7-16",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "nl": {
       "personality": "uchi",
@@ -20,7 +15,12 @@
       "siblings": "Eldest of 8 kids",
       "favoriteStyle": "Flashy",
       "dislikedStyle": "Official",
-      "favoriteColor": "yellow"
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Frita",

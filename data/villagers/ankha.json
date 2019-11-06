@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "cat",
   "birthday": "9-22",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af+": {
       "personality": "snooty",
@@ -41,7 +36,12 @@
       "siblings": "Eldest of 10 kids",
       "favoriteStyle": "Historical",
       "dislikedStyle": "Rock",
-      "favoriteColor": "yellow"
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Ankha",

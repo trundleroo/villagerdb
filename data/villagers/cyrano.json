@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "anteater",
   "birthday": "3-9",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
@@ -54,7 +49,12 @@
       "siblings": "Eldest of 5 kids",
       "favoriteStyle": "Iconic",
       "dislikedStyle": "Modern",
-      "favoriteColor": "yellow"
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Cyrano",

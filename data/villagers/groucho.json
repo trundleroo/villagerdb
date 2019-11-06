@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "bear",
   "birthday": "10-23",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
@@ -44,7 +39,12 @@
       "siblings": "Second of 5 kids",
       "favoriteStyle": "Historical",
       "dislikedStyle": "Ornate",
-      "favoriteColor": "black"
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Groucho",

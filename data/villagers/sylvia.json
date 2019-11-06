@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "kangaroo",
   "birthday": "5-3",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "afe+": {
       "personality": "snooty",
@@ -25,7 +20,12 @@
       "siblings": "Youngest of 5 kids",
       "favoriteStyle": "Ornate",
       "dislikedStyle": "Historical",
-      "favoriteColor": "pink"
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Sylvia",

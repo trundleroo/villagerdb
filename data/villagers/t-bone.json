@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "bull",
   "birthday": "5-20",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af": {
       "personality": "lazy",
@@ -38,7 +33,12 @@
       "siblings": "Youngest quadruplet",
       "favoriteStyle": "Historical",
       "dislikedStyle": "Cute/Fancy",
-      "favoriteColor": "gray"
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "T-Bone",

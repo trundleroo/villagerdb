@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "kangaroo",
   "birthday": "9-8",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "snooty",
@@ -47,7 +42,12 @@
       "siblings": "Youngest of 4 kids",
       "favoriteStyle": "Rock",
       "dislikedStyle": "Modern",
-      "favoriteColor": "gray"
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Astrid",

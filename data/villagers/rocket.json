@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "gorilla",
   "birthday": "4-14",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "uchi",
@@ -20,7 +15,12 @@
       "siblings": "Youngest of 4 kids",
       "favoriteStyle": "Sporty",
       "dislikedStyle": "Official",
-      "favoriteColor": "pink"
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Rocket",

@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "frog",
   "birthday": "12-17",
-  "coffee": {
-    "beans": "Blue mountain",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
@@ -47,7 +42,12 @@
       "siblings": "Eldest of 7 kids",
       "favoriteStyle": "Iconic",
       "dislikedStyle": "Cute/Fancy",
-      "favoriteColor": "red"
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blue mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Cousteau",

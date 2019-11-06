@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "octopus",
   "birthday": "9-20",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
@@ -54,7 +49,12 @@
       "siblings": "Second quadruplet",
       "favoriteStyle": "Official",
       "dislikedStyle": "Sporty",
-      "favoriteColor": "red"
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Octavian",

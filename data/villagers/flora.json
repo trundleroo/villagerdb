@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "ostrich",
   "birthday": "2-9",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "peppy",
@@ -20,7 +15,12 @@
       "siblings": "Youngest of 4 sisters",
       "favoriteStyle": "Modern",
       "dislikedStyle": "Historical",
-      "favoriteColor": "pink"
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Flora",

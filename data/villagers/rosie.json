@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "cat",
   "birthday": "2-27",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
@@ -51,7 +46,12 @@
       "siblings": "Eldest of 2 kids",
       "favoriteStyle": "Cute/Fancy",
       "dislikedStyle": "Sporty",
-      "favoriteColor": "red"
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Rosie",

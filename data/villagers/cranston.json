@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "ostrich",
   "birthday": "9-23",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "nl": {
       "personality": "lazy",
@@ -20,7 +15,12 @@
       "siblings": "Second quadruplet",
       "favoriteStyle": "Modern",
       "dislikedStyle": "Official",
-      "favoriteColor": "red"
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Cranston",

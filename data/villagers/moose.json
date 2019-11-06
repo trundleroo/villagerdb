@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "mouse",
   "birthday": "9-13",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "cf": {
       "personality": "jock",
@@ -26,7 +21,12 @@
       "siblings": "Third of 5 kids",
       "favoriteStyle": "Flashy",
       "dislikedStyle": "Modern",
-      "favoriteColor": "yellow"
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Moose",

@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "frog",
   "birthday": "1-13",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
@@ -54,7 +49,12 @@
       "siblings": "Younger twin sister",
       "favoriteStyle": "Ornate",
       "dislikedStyle": "Historical",
-      "favoriteColor": "pink"
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Puddles",

@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "bear",
   "birthday": "5-16",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "afe+": {
       "personality": "cranky",
@@ -25,7 +20,12 @@
       "siblings": "Eldest of 3 kids",
       "favoriteStyle": "Rock",
       "dislikedStyle": "Basic",
-      "favoriteColor": "Blue"
+      "favoriteColor": "Blue",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Ike",

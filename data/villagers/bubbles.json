@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "hippo",
   "birthday": "9-18",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
@@ -41,7 +36,12 @@
       "siblings": "Third of 4 kids",
       "favoriteStyle": "Sporty",
       "dislikedStyle": "Flashy",
-      "favoriteColor": "orange"
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Bubbles",

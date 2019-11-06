@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "mouse",
   "birthday": "2-24",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
@@ -38,7 +33,12 @@
       "siblings": "Middle triplet",
       "favoriteStyle": "Flashy",
       "dislikedStyle": "Historical",
-      "favoriteColor": "pink"
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Anicotti",

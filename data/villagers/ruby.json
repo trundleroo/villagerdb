@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "rabbit",
   "birthday": "12-25",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "ww": {
       "personality": "peppy",
@@ -33,7 +28,12 @@
       "siblings": "Only child",
       "favoriteStyle": "Modern",
       "dislikedStyle": "Rock",
-      "favoriteColor": "yellow"
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Ruby",

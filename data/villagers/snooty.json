@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "anteater",
   "birthday": "10-24",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "A little bit of milk",
-    "sugar": "1 spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "snooty",
@@ -38,7 +33,12 @@
       "siblings": "The only child",
       "favoriteStyle": "Historical",
       "dislikedStyle": "Modern",
-      "favoriteColor": "Brown"
+      "favoriteColor": "Brown",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "A little bit of milk",
+        "sugar": "1 spoonful of sugar"
+      }
     }
   },
   "name": "Snooty",

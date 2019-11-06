@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "duck",
   "birthday": "4-8",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "af+": {
       "personality": "snooty",
@@ -49,7 +44,12 @@
       "siblings": "Second of 4 sisters",
       "favoriteStyle": "Modern",
       "dislikedStyle": "Sporty",
-      "favoriteColor": "white"
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Maelle",

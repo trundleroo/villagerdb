@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "pig",
   "birthday": "7-28",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "A little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
@@ -51,7 +46,12 @@
       "siblings": "Youngest of 6 kids",
       "favoriteStyle": "Cute/Fancy",
       "dislikedStyle": "Iconic",
-      "favoriteColor": "pink"
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Truffles",

@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "elephant",
   "birthday": "12-8",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "snooty",
@@ -51,7 +46,12 @@
       "siblings": "Second of 4 kids",
       "favoriteStyle": "Official",
       "dislikedStyle": "Flashy",
-      "favoriteColor": "green"
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Eloise",

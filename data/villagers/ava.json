@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "chicken",
   "birthday": "4-28",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "normal",
@@ -41,7 +36,12 @@
       "siblings": "Eldest of 6 kids",
       "favoriteStyle": "Official",
       "dislikedStyle": "Cute/Fancy",
-      "favoriteColor": "brown"
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Ava",

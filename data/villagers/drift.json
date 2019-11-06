@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "frog",
   "birthday": "10-9",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
@@ -51,7 +46,12 @@
       "siblings": "Youngest of 3 kids",
       "favoriteStyle": "Flashy",
       "dislikedStyle": "Cute/Fancy",
-      "favoriteColor": "orange"
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Drift",

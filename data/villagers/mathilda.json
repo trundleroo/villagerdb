@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "kangaroo",
   "birthday": "11-12",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "snooty",
@@ -54,7 +49,12 @@
       "siblings": "Youngest of 3 sisters",
       "favoriteStyle": "Rock",
       "dislikedStyle": "Iconic",
-      "favoriteColor": "black"
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Mathilda",

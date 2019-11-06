@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "penguin",
   "birthday": "2-7",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "A little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af+": {
       "personality": "lazy",
@@ -42,7 +37,12 @@
       "siblings": "Eldest of 6 kids",
       "favoriteStyle": "Historical",
       "dislikedStyle": "Modern",
-      "favoriteColor": "brown"
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Boomer",

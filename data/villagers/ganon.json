@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "pig",
   "birthday": "2-21",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "cranky",
@@ -20,7 +15,12 @@
       "siblings": "Only child",
       "favoriteStyle": "Iconic",
       "dislikedStyle": "Cute/Fancy",
-      "favoriteColor": "Black"
+      "favoriteColor": "Black",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Ganon",

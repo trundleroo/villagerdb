@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "bird",
   "birthday": "3-12",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "normal",
@@ -47,7 +42,12 @@
       "siblings": "Eldest of 10 kids",
       "favoriteStyle": "Iconic",
       "dislikedStyle": "Rock",
-      "favoriteColor": "pink"
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Midge",

@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "anteater",
   "birthday": "2-6",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "normal",
@@ -20,7 +15,12 @@
       "siblings": "Second of 3 sisters",
       "favoriteStyle": "Iconic",
       "dislikedStyle": "Sporty",
-      "favoriteColor": "red"
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Annalisa",

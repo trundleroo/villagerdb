@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "ostrich",
   "birthday": "10-21",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af": {
       "personality": "normal",
@@ -38,7 +33,12 @@
       "siblings": "Fourth of 6 kids",
       "favoriteStyle": "Rock",
       "dislikedStyle": "Cute/Fancy",
-      "favoriteColor": "Pink"
+      "favoriteColor": "Pink",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Sandy",

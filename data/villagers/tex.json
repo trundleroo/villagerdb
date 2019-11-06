@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "penguin",
   "birthday": "10-6",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "smug",
@@ -20,7 +15,12 @@
       "siblings": "Eldest of 4 kids",
       "favoriteStyle": "Rock",
       "dislikedStyle": "Official",
-      "favoriteColor": "purple"
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Tex",

@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "chicken",
   "birthday": "10-4",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
@@ -54,7 +49,12 @@
       "siblings": "Eldest of 5 kids",
       "favoriteStyle": "Basic",
       "dislikedStyle": "Cute/Fancy",
-      "favoriteColor": "white"
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Goose",

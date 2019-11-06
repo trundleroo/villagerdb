@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "eagle",
   "birthday": "2-22",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "cranky",
@@ -31,7 +26,12 @@
       "siblings": "Older twin",
       "favoriteStyle": "Iconic",
       "dislikedStyle": "Ornate",
-      "favoriteColor": "brown"
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Avery",

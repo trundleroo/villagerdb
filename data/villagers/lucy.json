@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "pig",
   "birthday": "6-2",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af": {
       "personality": "normal",
@@ -54,7 +49,12 @@
       "siblings": "Youngest triplet",
       "favoriteStyle": "Cute/Fancy",
       "dislikedStyle": "Modern",
-      "favoriteColor": "orange"
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Lucy",

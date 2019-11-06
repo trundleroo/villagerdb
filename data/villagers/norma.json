@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "cow",
   "birthday": "9-20",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "normal",
@@ -25,7 +20,12 @@
       "siblings": "Second of 3 sisters",
       "favoriteStyle": "Cute/Fancy",
       "dislikedStyle": "Rock",
-      "favoriteColor": "White"
+      "favoriteColor": "White",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Norma",

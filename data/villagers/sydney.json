@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "koala",
   "birthday": "6-21",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "af": {
       "personality": "normal",
@@ -47,7 +42,12 @@
       "siblings": "Youngest of 3 kids",
       "favoriteStyle": "Iconic",
       "dislikedStyle": "Sporty",
-      "favoriteColor": "brown"
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Sydney",

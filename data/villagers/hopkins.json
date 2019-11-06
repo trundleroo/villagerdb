@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "rabbit",
   "birthday": "3-11",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "afe+": {
       "personality": "lazy",
@@ -25,7 +20,12 @@
       "siblings": "Youngest quintuplet",
       "favoriteStyle": "Sporty",
       "dislikedStyle": "Ornate",
-      "favoriteColor": "Yellow"
+      "favoriteColor": "Yellow",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Hopkins",

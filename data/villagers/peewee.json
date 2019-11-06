@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "gorilla",
   "birthday": "9-11",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
@@ -54,7 +49,12 @@
       "siblings": "Third of 6 kids",
       "favoriteStyle": "Sporty",
       "dislikedStyle": "Official",
-      "favoriteColor": "gray"
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Peewee",

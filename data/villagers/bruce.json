@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "deer",
   "birthday": "5-26",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "nl": {
       "personality": "cranky",
@@ -20,7 +15,12 @@
       "siblings": "Eldest of 3 kids",
       "favoriteStyle": "Rock",
       "dislikedStyle": "Cute/Fancy",
-      "favoriteColor": "blue"
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Bruce",

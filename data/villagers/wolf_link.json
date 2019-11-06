@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "wolf",
   "birthday": "12-2",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "smug",
@@ -20,7 +15,12 @@
       "siblings": "Only child",
       "favoriteStyle": "Iconic",
       "dislikedStyle": "Ornate",
-      "favoriteColor": "Green"
+      "favoriteColor": "Green",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Wolf Link",

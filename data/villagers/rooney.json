@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "kangaroo",
   "birthday": "12-1",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "nl": {
       "personality": "cranky",
@@ -20,7 +15,12 @@
       "siblings": "Eldest of 2 kids",
       "favoriteStyle": "Sporty",
       "dislikedStyle": "Modern",
-      "favoriteColor": "red"
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Rooney",

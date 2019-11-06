@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "dog",
   "birthday": "10-25",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls sugar"
-  },
   "games": {
     "af": {
       "personality": "snooty",
@@ -51,7 +46,12 @@
       "siblings": "Second of 6 kids",
       "favoriteStyle": "Modern",
       "dislikedStyle": "Iconic",
-      "favoriteColor": "white"
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls sugar"
+      }
     }
   },
   "name": "Portia",

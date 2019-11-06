@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "goat",
   "birthday": "1-14",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "snooty",
@@ -41,7 +36,12 @@
       "siblings": "Eldest of 2 kids",
       "favoriteStyle": "Official",
       "dislikedStyle": "Rock",
-      "favoriteColor": "purple"
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Velma",

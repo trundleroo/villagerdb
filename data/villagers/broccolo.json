@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "mouse",
   "birthday": "6-30",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "lazy",
@@ -31,7 +26,12 @@
       "siblings": "Youngest triplet",
       "favoriteStyle": "Flashy",
       "dislikedStyle": "Iconic",
-      "favoriteColor": "colorful"
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Broccolo",

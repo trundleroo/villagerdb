@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "cat",
   "birthday": "8-1",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "jock",
@@ -38,7 +33,12 @@
       "siblings": "Eldest of 4 kids",
       "favoriteStyle": "Sporty",
       "dislikedStyle": "Historical",
-      "favoriteColor": "red"
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Kid Cat",

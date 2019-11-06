@@ -15,14 +15,14 @@
       "siblings": "Eldest of 2 kids",
       "favoriteStyle": "Sporty",
       "dislikedStyle": "Cute/Fancy",
-      "favoriteColor": "Yellow"
+      "favoriteColor": "Yellow",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Marty",
-  "id": "marty",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  }
+  "id": "marty"
 }

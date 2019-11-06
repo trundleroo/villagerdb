@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "tiger",
   "birthday": "8-26",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "A little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
@@ -54,7 +49,12 @@
       "siblings": "Middle triplet",
       "favoriteStyle": "Rock",
       "dislikedStyle": "Flashy",
-      "favoriteColor": "yellow"
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Rowan",

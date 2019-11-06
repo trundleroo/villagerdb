@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "frog",
   "birthday": "8-11",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "cf": {
       "personality": "snooty",
@@ -26,7 +21,12 @@
       "siblings": "Eldest of 4 kids",
       "favoriteStyle": "Ornate",
       "dislikedStyle": "Sporty",
-      "favoriteColor": "black"
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Gigi",

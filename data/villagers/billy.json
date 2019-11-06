@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "goat",
   "birthday": "3-25",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
@@ -41,7 +36,12 @@
       "siblings": "Eldest of 2 kids",
       "favoriteStyle": "Historical",
       "dislikedStyle": "Modern",
-      "favoriteColor": "Brown"
+      "favoriteColor": "Brown",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Billy",

@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "cub",
   "birthday": "8-6",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "cf": {
       "personality": "lazy",
@@ -26,7 +21,12 @@
       "siblings": "Youngest quintuplet",
       "favoriteStyle": "Basic",
       "dislikedStyle": "Rock",
-      "favoriteColor": "green"
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Chester",

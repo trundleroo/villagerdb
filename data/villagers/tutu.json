@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "bear",
   "birthday": "9-15",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
@@ -47,7 +42,12 @@
       "siblings": "Eldest of 3 kids",
       "favoriteStyle": "Cute/Fancy",
       "dislikedStyle": "Sporty",
-      "favoriteColor": "pink"
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Tutu",

@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "rabbit",
   "birthday": "1-22",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "A little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "snooty",
@@ -31,7 +26,12 @@
       "siblings": "Eldest of 4 kids",
       "favoriteStyle": "Ornate",
       "dislikedStyle": "Historical",
-      "favoriteColor": "blue"
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Francine",

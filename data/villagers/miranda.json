@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "duck",
   "birthday": "4-23",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "afe+": {
       "personality": "snooty",
@@ -30,7 +25,12 @@
       "siblings": "Older twin sister",
       "favoriteStyle": "Ornate",
       "dislikedStyle": "Sporty",
-      "favoriteColor": "yellow"
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Miranda",

@@ -15,14 +15,14 @@
       "siblings": "Older twin sister",
       "favoriteStyle": "Cute/Fancy",
       "dislikedStyle": "Basic",
-      "favoriteColor": "Red"
+      "favoriteColor": "Red",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Rilla",
-  "id": "rilla",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  }
+  "id": "rilla"
 }

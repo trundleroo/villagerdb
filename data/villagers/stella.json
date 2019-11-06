@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "sheep",
   "birthday": "4-9",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Lots of milk",
-    "sugar": "3 spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "normal",
@@ -41,7 +36,12 @@
       "siblings": "Eldest of 3 sisters",
       "favoriteStyle": "Ornate",
       "dislikedStyle": "Basic",
-      "favoriteColor": "Pink"
+      "favoriteColor": "Pink",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "3 spoonfuls of sugar"
+      }
     }
   },
   "name": "Stella",

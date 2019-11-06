@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "squirrel",
   "birthday": "2-26",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "a little bit of milk",
-    "sugar": "one spoonful of sugar"
-  },
   "games": {
     "nl": {
       "personality": "jock",
@@ -20,7 +15,12 @@
       "siblings": "Fourth quintuplet",
       "favoriteStyle": "Rock",
       "dislikedStyle": "Modern",
-      "favoriteColor": "orange"
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "a little bit of milk",
+        "sugar": "one spoonful of sugar"
+      }
     }
   },
   "name": "Sheldon",

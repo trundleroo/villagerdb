@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "ostrich",
   "birthday": "1-15",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "normal",
@@ -38,7 +33,12 @@
       "siblings": "Eldest of 3 sisters",
       "favoriteStyle": "Iconic",
       "dislikedStyle": "Modern",
-      "favoriteColor": "green"
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Gladys",

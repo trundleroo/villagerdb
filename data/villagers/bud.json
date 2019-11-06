@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "lion",
   "birthday": "8-8",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af+": {
       "personality": "jock",
@@ -47,7 +42,12 @@
       "siblings": "Fourth quintuplet",
       "favoriteStyle": "Sporty",
       "dislikedStyle": "Modern",
-      "favoriteColor": "colorful"
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Bud",

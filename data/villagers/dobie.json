@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "wolf",
   "birthday": "2-17",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "A little bit of milk",
-    "sugar": "1 spoonful of sugar"
-  },
   "games": {
     "af+": {
       "personality": "lazy",
@@ -34,7 +29,12 @@
       "siblings": "Eldest of 2 kids",
       "favoriteStyle": "Official",
       "dislikedStyle": "Ornate",
-      "favoriteColor": "Black"
+      "favoriteColor": "Black",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "A little bit of milk",
+        "sugar": "1 spoonful of sugar"
+      }
     }
   },
   "name": "Dobie",

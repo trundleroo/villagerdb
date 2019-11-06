@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "squirrel",
   "birthday": "9-4",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "A little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "nl": {
       "personality": "normal",
@@ -20,7 +15,12 @@
       "siblings": "Eldest of 4 sisters",
       "favoriteStyle": "Official",
       "dislikedStyle": "Sporty",
-      "favoriteColor": "green"
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Cally",

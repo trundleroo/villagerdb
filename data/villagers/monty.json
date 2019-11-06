@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "monkey",
   "birthday": "12-7",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "ww": {
       "personality": "cranky",
@@ -33,7 +28,12 @@
       "siblings": "Second of 5 kids",
       "favoriteStyle": "Iconic",
       "dislikedStyle": "Official",
-      "favoriteColor": "blue"
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Monty",

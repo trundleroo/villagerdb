@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "mouse",
   "birthday": "9-5",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "nl": {
       "personality": "snooty",
@@ -20,7 +15,12 @@
       "siblings": "Eldest of 4 kids",
       "favoriteStyle": "Iconic",
       "dislikedStyle": "Sporty",
-      "favoriteColor": "purple"
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Greta",

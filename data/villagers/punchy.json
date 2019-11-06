@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "cat",
   "birthday": "4-11",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "af+": {
       "personality": "lazy",
@@ -49,7 +44,12 @@
       "siblings": "Youngest of 6 kids",
       "favoriteStyle": "Basic",
       "dislikedStyle": "Iconic",
-      "favoriteColor": "blue"
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Punchy",

@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "bear",
   "birthday": "1-16",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af": {
       "personality": "snooty",
@@ -41,7 +36,12 @@
       "siblings": "Eldest of 2 kids",
       "favoriteStyle": "Iconic",
       "dislikedStyle": "Rock",
-      "favoriteColor": "Red"
+      "favoriteColor": "Red",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Ursala",

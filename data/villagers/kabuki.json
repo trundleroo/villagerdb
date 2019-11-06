@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "cat",
   "birthday": "11-29",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
@@ -51,7 +46,12 @@
       "siblings": "Eldest of 3 kids",
       "favoriteStyle": "Historical",
       "dislikedStyle": "Modern",
-      "favoriteColor": "purple"
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Kabuki",

@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "koala",
   "birthday": "10-13",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
@@ -41,7 +36,12 @@
       "siblings": "Eldest of 3 kids",
       "favoriteStyle": "Basic",
       "dislikedStyle": "Cute/Fancy",
-      "favoriteColor": "Black"
+      "favoriteColor": "Black",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Gonzo",

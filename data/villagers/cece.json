@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "squirrel",
   "birthday": "5-28",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Little bit of milk",
-    "sugar": "one spoonful of sugar"
-  },
   "games": {
     "nl": {
       "personality": "peppy",
@@ -20,7 +15,12 @@
       "siblings": "Youngest of 2 kids",
       "favoriteStyle": "Sporty",
       "dislikedStyle": "Cute/Fancy",
-      "favoriteColor": "None"
+      "favoriteColor": "None",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Little bit of milk",
+        "sugar": "one spoonful of sugar"
+      }
     }
   },
   "name": "Cece",

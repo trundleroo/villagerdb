@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "cat",
   "birthday": "5-29",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "af": {
       "personality": "snooty",
@@ -51,7 +46,12 @@
       "siblings": "Youngest triplet",
       "favoriteStyle": "Iconic",
       "dislikedStyle": "Sporty",
-      "favoriteColor": "gray"
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Purrl",

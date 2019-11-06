@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "pig",
   "birthday": "3-5",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "cf": {
       "personality": "normal",
@@ -26,7 +21,12 @@
       "siblings": "Youngest of 2 kids",
       "favoriteStyle": "Cute/Fancy",
       "dislikedStyle": "Rock",
-      "favoriteColor": "pink"
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Gala",
