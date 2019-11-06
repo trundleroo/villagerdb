@@ -33,7 +33,8 @@
       "personality": "lazy",
       "clothes": "No. 3 Shirt",
       "song": "K.K. Metal",
-      "phrase": "villain"
+      "phrase": "villain",
+      "quote": "World domination!"
     },
     "cf": {
       "personality": "lazy",
@@ -49,7 +50,8 @@
       "skill": "Tiptoeing",
       "goal": "Superhero",
       "style": "Basic",
-      "fear": "Bug Mask"
+      "fear": "Bug Mask",
+      "quote": "A big nose never spoiled a handsome face."
     }
   },
   "name": "Big Top",

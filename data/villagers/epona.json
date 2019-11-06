@@ -10,7 +10,8 @@
       "skill": "Galloping",
       "goal": "Hero's companion",
       "song": "Wandering",
-      "fear": "Werewolf Hood"
+      "fear": "Werewolf Hood",
+      "quote": "A good rider knows temper to curb."
     }
   },
   "name": "Epona",

@@ -33,7 +33,8 @@
       "personality": "snooty",
       "clothes": "Purple Tie-Dye Tee",
       "song": "K.K. Swing",
-      "phrase": "daahling"
+      "phrase": "daahling",
+      "quote": "I'm so soft that I don't even need a pillow!"
     },
     "cf": {
       "personality": "snooty",
@@ -49,7 +50,8 @@
       "skill": "Drawing circles",
       "goal": "Esthetician",
       "style": "Ornate",
-      "fear": "Werewolf Hood"
+      "fear": "Werewolf Hood",
+      "quote": "Don't just follow the flock."
     }
   },
   "name": "Baabara",

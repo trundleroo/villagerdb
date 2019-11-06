@@ -33,7 +33,8 @@
       "personality": "peppy",
       "clothes": "Citrus Tee",
       "song": "K.K. Calypso",
-      "phrase": "how now"
+      "phrase": "how now",
+      "quote": "This month's Ms. Nintendique cover girl!"
     },
     "cf": {
       "personality": "peppy",
@@ -49,7 +50,8 @@
       "skill": "Competitive eating",
       "goal": "Pastry chef",
       "style": "Modern",
-      "fear": "Werewolf Hood"
+      "fear": "Werewolf Hood",
+      "quote": "A friend in need is a friend indeed!"
     }
   },
   "name": "Patty",

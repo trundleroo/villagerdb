@@ -33,7 +33,8 @@
       "personality": "lazy",
       "clothes": "Gaudy Sweater",
       "song": "K.K. Waltz",
-      "phrase": "tenderfoot"
+      "phrase": "tenderfoot",
+      "quote": "Got any snacks on you?"
     },
     "cf": {
       "personality": "lazy",
@@ -49,7 +50,8 @@
       "skill": "Playing old maid",
       "goal": "Police officer",
       "style": "Basic",
-      "fear": "Skeleton Hood"
+      "fear": "Skeleton Hood",
+      "quote": "The horse doesn't pull the cart, the oats do."
     }
   },
   "name": "Elmer",

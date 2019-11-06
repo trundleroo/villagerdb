@@ -33,7 +33,8 @@
       "personality": "peppy",
       "clothes": "Waffle Tee",
       "song": "K.K. Love Song",
-      "phrase": "honeybun"
+      "phrase": "honeybun",
+      "quote": "I'm trying out a new earstyle here."
     },
     "cf": {
       "personality": "peppy",
@@ -49,7 +50,8 @@
       "skill": "Eating quickly",
       "goal": "Pianist",
       "style": "Ornate",
-      "fear": "Monster Mask"
+      "fear": "Monster Mask",
+      "quote": "The more the merrier."
     }
   },
   "name": "Gabi",

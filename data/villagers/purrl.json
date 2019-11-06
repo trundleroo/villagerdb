@@ -30,7 +30,8 @@
       "personality": "snooty",
       "clothes": "Asian Shirt",
       "song": "K.K. Swing",
-      "phrase": "kitten"
+      "phrase": "kitten",
+      "quote": "You don't mind if I use your bed to sharpen my claws, do you?"
     },
     "cf": {
       "personality": "snooty",
@@ -46,7 +47,8 @@
       "skill": "Writing backward",
       "goal": "Movie director",
       "style": "Iconic",
-      "fear": "Monster Mask"
+      "fear": "Monster Mask",
+      "quote": "Let them drink cream."
     }
   },
   "name": "Purrl",

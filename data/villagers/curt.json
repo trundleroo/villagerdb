@@ -17,7 +17,8 @@
       "personality": "cranky",
       "clothes": "MVP Tee",
       "song": "K.K. Jazz",
-      "phrase": "fuzzball"
+      "phrase": "fuzzball",
+      "quote": "I'm watching you!"
     },
     "cf": {
       "personality": "cranky",
@@ -30,7 +31,8 @@
       "clothes": "MVP Tee",
       "song": "K.K. Lament",
       "phrase": "fuzzball",
-      "fear": "Bug Mask"
+      "fear": "Bug Mask",
+      "quote": "A bell saved is a bell earned."
     }
   },
   "name": "Curt",

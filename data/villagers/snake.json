@@ -33,7 +33,8 @@
       "personality": "jock",
       "clothes": "Zipper Shirt",
       "song": "K.K. Lullaby",
-      "phrase": "bunyip"
+      "phrase": "bunyip",
+      "quote": "Snake's number one!"
     },
     "cf": {
       "personality": "jock",
@@ -49,7 +50,8 @@
       "skill": "Playing jacks",
       "goal": "Soccer player",
       "style": "Sporty",
-      "fear": "Bug Mask"
+      "fear": "Bug Mask",
+      "quote": "A good ninja is neither seen, nor heard."
     }
   },
   "name": "Snake",

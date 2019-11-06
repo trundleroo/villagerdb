@@ -12,7 +12,8 @@
       "personality": "jock",
       "clothes": "Soccer Tee",
       "song": "K.K. Samba",
-      "phrase": "bzzert"
+      "phrase": "bzzert",
+      "quote": "When you're a team of one, you're always captain!"
     },
     "cf": {
       "personality": "jock",
@@ -28,7 +29,8 @@
       "skill": "Playing catch",
       "goal": "Soccer player",
       "style": "Sporty",
-      "fear": "Skeleton Hood"
+      "fear": "Skeleton Hood",
+      "quote": "When you're a team of one, you're always captain!"
     }
   },
   "name": "Jitters",

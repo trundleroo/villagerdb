@@ -30,7 +30,8 @@
       "personality": "normal",
       "clothes": "Icy Shirt",
       "song": "K.K. Fusion",
-      "phrase": "nutmeg"
+      "phrase": "nutmeg",
+      "quote": "Just something to remember me by."
     },
     "cf": {
       "personality": "normal",
@@ -46,7 +47,8 @@
       "skill": "Blowing bubbles",
       "goal": "Chef",
       "style": "Official",
-      "fear": "Skeleton Hood"
+      "fear": "Skeleton Hood",
+      "quote": "Even the smallest acorn may grow into the tallest tree."
     }
   },
   "name": "Sally",

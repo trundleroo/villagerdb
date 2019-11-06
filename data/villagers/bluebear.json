@@ -33,7 +33,8 @@
       "personality": "peppy",
       "clothes": "Lemon Gingham Tee",
       "song": "K.K. Ska",
-      "phrase": "peach"
+      "phrase": "peach",
+      "quote": "I enjoy tap dancing and raspberry jam!"
     },
     "cf": {
       "personality": "peppy",
@@ -49,7 +50,8 @@
       "skill": "Spoon bending",
       "goal": "Cartoonist",
       "style": "Cute",
-      "fear": "Mummy Mask"
+      "fear": "Mummy Mask",
+      "quote": "Candy makes the world go 'round."
     }
   },
   "name": "Bluebear",

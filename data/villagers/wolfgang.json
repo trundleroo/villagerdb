@@ -33,7 +33,8 @@
       "personality": "cranky",
       "clothes": "Gracie Tank",
       "song": "K.K. Song",
-      "phrase": "snarrrl"
+      "phrase": "snarrrl",
+      "quote": "I could eat you for breakfast, short stack!"
     },
     "cf": {
       "personality": "cranky",
@@ -49,7 +50,8 @@
       "skill": "Memorizing stuff",
       "goal": "Journalist",
       "style": "Modern",
-      "fear": "Werewolf Hood"
+      "fear": "Werewolf Hood",
+      "quote": "Don't be afraid to show your fangs."
     }
   },
   "name": "Wolfgang",

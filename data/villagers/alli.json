@@ -33,7 +33,8 @@
       "personality": "snooty",
       "clothes": "Leopard Tee",
       "song": "K.K. Chorale",
-      "phrase": "graaagh"
+      "phrase": "graaagh",
+      "quote": "The most important parts of any ensemble are the purse and shoes."
     },
     "cf": {
       "personality": "snooty",
@@ -49,7 +50,8 @@
       "skill": "Yo-Yoing",
       "goal": "Stylist",
       "style": "Ornate",
-      "fear": "Ghost Mask"
+      "fear": "Ghost Mask",
+      "quote": "Think before you act."
     }
   },
   "name": "Alli",

@@ -33,7 +33,8 @@
       "personality": "cranky",
       "clothes": "Flame Tee",
       "song": "Senor K.K.",
-      "phrase": "macmoo"
+      "phrase": "macmoo",
+      "quote": "Even strong men cry."
     },
     "cf": {
       "personality": "cranky",
@@ -49,7 +50,8 @@
       "skill": "Doing handstands",
       "goal": "Forest Ranger",
       "style": "Rock 'n' roll",
-      "fear": "Mummy Mask"
+      "fear": "Mummy Mask",
+      "quote": "Even strong men cry."
     }
   },
   "name": "Angus",

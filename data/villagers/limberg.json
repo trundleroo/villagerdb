@@ -33,7 +33,8 @@
       "personality": "cranky",
       "clothes": "Subdued-Print Tee",
       "song": "K.K. Folk",
-      "phrase": "squinky"
+      "phrase": "squinky",
+      "quote": "Something stinks!"
     },
     "cf": {
       "personality": "cranky",
@@ -49,7 +50,8 @@
       "skill": "Making faces",
       "goal": "Mayor",
       "style": "Historical",
-      "fear": "Mummy Mask"
+      "fear": "Mummy Mask",
+      "quote": "Don’t build a better mousetrap."
     }
   },
   "name": "Limberg",

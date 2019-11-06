@@ -33,7 +33,8 @@
       "personality": "normal",
       "song": "K.K. Etude",
       "phrase": "kid",
-      "clothes": "Citrus Gingham Shirt"
+      "clothes": "Citrus Gingham Shirt",
+      "quote": "Nanny-nanny boo-boo!"
     },
     "cf": {
       "personality": "normal",
@@ -49,7 +50,8 @@
       "skill": "Playing horseshoes",
       "goal": "Illustrator",
       "style": "Basic",
-      "fear": "Ghost Mask"
+      "fear": "Ghost Mask",
+      "quote": "Nanny-nanny boo-boo!"
     }
   },
   "name": "Nan",

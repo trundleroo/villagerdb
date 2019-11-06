@@ -33,7 +33,8 @@
       "personality": "lazy",
       "clothes": "No. 23 Shirt",
       "song": "K.K. Dirge",
-      "phrase": "rrr-owch"
+      "phrase": "rrr-owch",
+      "quote": "Ow."
     },
     "cf": {
       "personality": "lazy",
@@ -49,7 +50,8 @@
       "skill": "Forgetting stuff",
       "goal": "Doctor",
       "style": "Flashy",
-      "fear": "Mummy Mask"
+      "fear": "Mummy Mask",
+      "quote": "Don't bite the hand that feeds you."
     }
   },
   "name": "Lucky",

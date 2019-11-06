@@ -33,7 +33,8 @@
       "personality": "snooty",
       "clothes": "Gumdrop Tee",
       "song": "K.K. Soul",
-      "phrase": "ahhhhhh"
+      "phrase": "ahhhhhh",
+      "quote": "I'm totally fresh and you know it!"
     },
     "cf": {
       "personality": "snooty",
@@ -49,7 +50,8 @@
       "skill": "Cramming for tests",
       "goal": "Architect",
       "style": "Official",
-      "fear": "Werewolf Hood"
+      "fear": "Werewolf Hood",
+      "quote": "Always lead by example."
     }
   },
   "name": "Mint",

@@ -31,7 +31,8 @@
       "personality": "cranky",
       "clothes": "Sharp Outfit",
       "song": "To the Edge",
-      "phrase": "grr-ribbit"
+      "phrase": "grr-ribbit",
+      "quote": "I've got my eye on you."
     },
     "cf": {
       "personality": "cranky",
@@ -47,7 +48,8 @@
       "skill": "Writing Backward",
       "goal": "Detective",
       "style": "Historical",
-      "fear": "Mummy Mask"
+      "fear": "Mummy Mask",
+      "quote": "Age before beauty."
     }
   },
   "name": "Wart Jr.",

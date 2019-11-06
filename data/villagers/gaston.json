@@ -33,7 +33,8 @@
       "personality": "cranky",
       "clothes": "Swell Tee",
       "song": "K.K. Dirge",
-      "phrase": "mon chou"
+      "phrase": "mon chou",
+      "quote": "Sacre bleu!"
     },
     "cf": {
       "personality": "cranky",
@@ -49,7 +50,8 @@
       "skill": "Ventriloquism",
       "goal": "Tycoon",
       "style": "Flashy",
-      "fear": "Werewolf Hood"
+      "fear": "Werewolf Hood",
+      "quote": "An ear for an ear leaves everyone deaf."
     }
   },
   "name": "Gaston",

@@ -33,7 +33,8 @@
       "personality": "lazy",
       "clothes": "Mod Top",
       "song": "K.K. Mambo",
-      "phrase": "dawg"
+      "phrase": "dawg",
+      "quote": "Let sleeping dogs lie."
     },
     "cf": {
       "personality": "lazy",
@@ -49,7 +50,8 @@
       "skill": "Hitting snooze",
       "goal": "Architect",
       "style": "Basic",
-      "fear": "Mummy Mask"
+      "fear": "Mummy Mask",
+      "quote": "Let sleeping dogs lie."
     }
   },
   "name": "Biskit",

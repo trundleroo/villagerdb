@@ -12,7 +12,8 @@
       "personality": "normal",
       "clothes": "Green-Stripe Tank",
       "song": "K.K. Ragtime",
-      "phrase": "toasty"
+      "phrase": "toasty",
+      "quote": "You're my new best bud!"
     },
     "cf": {
       "personality": "normal",
@@ -28,7 +29,8 @@
       "skill": "Yo-yoing",
       "goal": "Professor",
       "style": "Basic",
-      "fear": "Mummy Mask"
+      "fear": "Mummy Mask",
+      "quote": "A friend who shares is a friend who cares."
     }
   },
   "name": "Melba",

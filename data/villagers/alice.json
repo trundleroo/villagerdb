@@ -17,7 +17,8 @@
       "personality": "normal",
       "clothes": "Barber Tee",
       "song": "Surfin' K.K.",
-      "phrase": "guvnor"
+      "phrase": "guvnor",
+      "quote": "I like having you around."
     },
     "cf": {
       "personality": "normal",
@@ -30,7 +31,8 @@
       "clothes": "Barber Tee",
       "song": "Surfin' K.K.",
       "phrase": "guvnor",
-      "fear": "Mummy Mask"
+      "fear": "Mummy Mask",
+      "quote": "Treat others as you would like to be treated."
     }
   },
   "name": "Alice",

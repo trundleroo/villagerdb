@@ -33,7 +33,8 @@
       "personality": "jock",
       "clothes": "Tropical Tee",
       "song": "K.K. Country",
-      "phrase": "buh-kay"
+      "phrase": "buh-kay",
+      "quote": "Who are you callin' chicken, chicken?!"
     },
     "cf": {
       "personality": "jock",
@@ -49,7 +50,8 @@
       "skill": "Waking up early",
       "goal": "Soccer player",
       "style": "Basic",
-      "fear": "Werewolf Hood"
+      "fear": "Werewolf Hood",
+      "quote": "Birds of a feather crow together."
     }
   },
   "name": "Goose",

@@ -12,7 +12,8 @@
       "personality": "lazy",
       "clothes": "Star Tee",
       "song": "K.K. Lullaby",
-      "phrase": "stuffin'"
+      "phrase": "stuffin'",
+      "quote": "Sometimes the sum is greater than its parts! Get it? A huh huh huh!"
     },
     "cf": {
       "personality": "lazy",
@@ -28,7 +29,8 @@
       "skill": "Forgetting stuff",
       "goal": "Lawyer",
       "style": "Flashy",
-      "fear": "Ghost Mask"
+      "fear": "Ghost Mask",
+      "quote": "One stitch in time saves nine!"
     }
   },
   "name": "Stitches",

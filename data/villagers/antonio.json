@@ -33,7 +33,8 @@
       "personality": "jock",
       "clothes": "Big-Star Tee",
       "song": "K.K. Faire",
-      "phrase": "honk"
+      "phrase": "honk",
+      "quote": "Always go for the burn!"
     },
     "cf": {
       "personality": "jock",
@@ -49,7 +50,8 @@
       "skill": "Playing horseshoes",
       "goal": "Baseball player",
       "style": "Basic",
-      "fear": "Mummy Mask"
+      "fear": "Mummy Mask",
+      "quote": "Always go for the burn!"
     }
   },
   "name": "Antonio",

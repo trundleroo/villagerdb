@@ -33,7 +33,8 @@
       "personality": "jock",
       "clothes": "Club Tee",
       "song": "Mr. K.K.",
-      "phrase": "grooof"
+      "phrase": "grooof",
+      "quote": "You gotta play through the pain!"
     },
     "cf": {
       "personality": "jock",
@@ -49,7 +50,8 @@
       "skill": "Playing old maid",
       "goal": "Police officer",
       "style": "Basic",
-      "fear": "Mummy Mask"
+      "fear": "Mummy Mask",
+      "quote": "No pain, no gain!"
     }
   },
   "name": "Teddy",

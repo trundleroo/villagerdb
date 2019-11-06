@@ -32,7 +32,8 @@
       "personality": "lazy",
       "clothes": "Vogue Top",
       "song": "Two Days Ago",
-      "phrase": "bucko"
+      "phrase": "bucko",
+      "quote": "Don't go nuts or anything."
     },
     "cf": {
       "personality": "lazy",
@@ -48,7 +49,8 @@
       "skill": "Vaulting",
       "goal": "Pilot",
       "style": "Basic",
-      "fear": "Werewolf Hood"
+      "fear": "Werewolf Hood",
+      "quote": "Don't go nuts or anything."
     }
   },
   "name": "Filbert",

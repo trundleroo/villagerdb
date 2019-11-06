@@ -33,7 +33,8 @@
       "personality": "cranky",
       "clothes": "Arctic-Camo Tee",
       "song": "K.K. Fusion",
-      "phrase": "ROOOOOWF"
+      "phrase": "ROOOOOWF",
+      "quote": "I'm watching you!"
     },
     "cf": {
       "personality": "cranky",
@@ -49,7 +50,8 @@
       "skill": "Air guitar",
       "goal": "Race car driver",
       "style": "Sporty",
-      "fear": "Monster Mask"
+      "fear": "Monster Mask",
+      "quote": "A house without either a cat or a dog is a sad house indeed."
     }
   },
   "name": "Butch",

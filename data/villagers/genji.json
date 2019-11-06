@@ -33,7 +33,8 @@
       "personality": "jock",
       "clothes": "Misty Tee",
       "song": "King K.K.",
-      "phrase": "otaku"
+      "phrase": "otaku",
+      "quote": "Hai-ya!"
     },
     "cf": {
       "personality": "jock",
@@ -49,7 +50,8 @@
       "skill": "Subsistence living",
       "goal": "Politician",
       "style": "Iconic",
-      "fear": "Bug Mask"
+      "fear": "Bug Mask",
+      "quote": "Fall down seven times, get up eight."
     }
   },
   "name": "Genji",

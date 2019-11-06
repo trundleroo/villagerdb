@@ -33,7 +33,8 @@
       "personality": "jock",
       "song": "K.K. Etude",
       "phrase": "hawkeye",
-      "clothes": "Circus Shirt"
+      "clothes": "Circus Shirt",
+      "quote": "Nobody likes flabby wings."
     },
     "cf": {
       "personality": "jock",
@@ -49,7 +50,8 @@
       "skill": "Playing catch",
       "goal": "Rugby player",
       "style": "Sporty",
-      "fear": "Bug Mask"
+      "fear": "Bug Mask",
+      "quote": "When someone says fly, you ask how high!"
     }
   },
   "name": "Pierce",

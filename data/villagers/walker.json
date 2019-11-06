@@ -23,7 +23,8 @@
       "personality": "lazy",
       "clothes": "No. 67 Shirt",
       "song": "Two Days Ago",
-      "phrase": "wuh"
+      "phrase": "wuh",
+      "quote": "Perhaps you know me as my superhero alter ego, Fashion Lad."
     },
     "cf": {
       "personality": "lazy",
@@ -36,7 +37,8 @@
       "clothes": "No. 67 Shirt",
       "song": "Two Days Ago",
       "phrase": "wuh",
-      "fear": "Mummy Mask"
+      "fear": "Mummy Mask",
+      "quote": "The dog wags his tail, not for you, but for your bread."
     }
   },
   "name": "Walker",

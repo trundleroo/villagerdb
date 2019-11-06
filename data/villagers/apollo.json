@@ -33,7 +33,8 @@
       "personality": "cranky",
       "clothes": "Zipper Shirt",
       "song": "K.K. Rock",
-      "phrase": "pah"
+      "phrase": "pah",
+      "quote": "I'm not bald! I've just got fine feathers, that's all!"
     },
     "cf": {
       "personality": "cranky",
@@ -49,7 +50,8 @@
       "skill": "Staying up late",
       "goal": "Pilot",
       "style": "Rock 'n' roll",
-      "fear": "Ghost Mask"
+      "fear": "Ghost Mask",
+      "quote": "What goes up must come down."
     }
   },
   "name": "Apollo",

@@ -33,7 +33,8 @@
       "personality": "lazy",
       "clothes": "Jade Plaid Tee",
       "song": "K.K. Mambo",
-      "phrase": "snortle"
+      "phrase": "snortle",
+      "quote": "Keep it real. Real chill."
     },
     "cf": {
       "personality": "lazy",
@@ -49,7 +50,8 @@
       "skill": "Eating quickly",
       "goal": "Carpenter",
       "style": "Modern",
-      "fear": "Bug Mask"
+      "fear": "Bug Mask",
+      "quote": "Keep it real. Real chill."
     }
   },
   "name": "Hugh",

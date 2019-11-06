@@ -17,7 +17,8 @@
       "personality": "lazy",
       "clothes": "Two-Ball Tee",
       "song": "I Love You",
-      "phrase": "uh-hoo"
+      "phrase": "uh-hoo",
+      "quote": "Bok bok bok?! Just kidding. A huh huh huh!"
     },
     "cf": {
       "personality": "lazy",
@@ -30,7 +31,8 @@
       "clothes": "Two-Ball Tee",
       "song": "I Love You",
       "phrase": "uh-hoo",
-      "fear": "Skeleton Hood"
+      "fear": "Skeleton Hood",
+      "quote": "Don't put all your eggs in one basket."
     }
   },
   "name": "Benedict",

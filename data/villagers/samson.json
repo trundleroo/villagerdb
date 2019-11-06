@@ -33,7 +33,8 @@
       "personality": "jock",
       "clothes": "Airy Tee",
       "song": "Go K.K. Rider!",
-      "phrase": "pipsqueak"
+      "phrase": "pipsqueak",
+      "quote": "This isn't a dress I'm wearing! It's a muscle tee!"
     },
     "cf": {
       "personality": "jock",
@@ -49,7 +50,8 @@
       "skill": "Eating frequently",
       "goal": "Photographer",
       "style": "Modern",
-      "fear": "Bug Mask"
+      "fear": "Bug Mask",
+      "quote": "Squeak softly and carry a big stick."
     }
   },
   "name": "Samson",

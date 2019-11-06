@@ -33,7 +33,8 @@
       "personality": "cranky",
       "clothes": "Checkered Tee",
       "song": "K.K. Safari",
-      "phrase": "ah-rooooo"
+      "phrase": "ah-rooooo",
+      "quote": "I'm always watching you!"
     },
     "cf": {
       "personality": "cranky",
@@ -49,7 +50,8 @@
       "skill": "Fishing",
       "goal": "Forest ranger",
       "style": "Rock 'n' roll",
-      "fear": "Werewolf Hood"
+      "fear": "Werewolf Hood",
+      "quote": "If it's not one thing, it's another."
     }
   },
   "name": "Lobo",

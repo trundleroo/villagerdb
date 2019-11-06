@@ -33,7 +33,8 @@
       "personality": "jock",
       "clothes": "Green-Bar Tee",
       "song": "K.K. Reggae",
-      "phrase": "nyoink"
+      "phrase": "nyoink",
+      "quote": "Get fired up!"
     },
     "cf": {
       "personality": "jock",
@@ -49,7 +50,8 @@
       "skill": "Clearing my plate",
       "goal": "Explorer",
       "style": "Basic",
-      "fear": "Mummy Mask"
+      "fear": "Mummy Mask",
+      "quote": "Get fired up!"
     }
   },
   "name": "Curly",

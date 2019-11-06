@@ -12,7 +12,8 @@
       "personality": "lazy",
       "clothes": "Red-Bar Tee",
       "song": "Forest Life",
-      "phrase": "zzzook"
+      "phrase": "zzzook",
+      "quote": "It's kind of a stereotype, but I really do love bananas!"
     },
     "cf": {
       "personality": "lazy",
@@ -28,7 +29,8 @@
       "skill": "Memorizing",
       "goal": "Movie director",
       "style": "Sporty",
-      "fear": "Monster Mask"
+      "fear": "Monster Mask",
+      "quote": "Friends go together like peanut butter and bananas."
     }
   },
   "name": "Simon",

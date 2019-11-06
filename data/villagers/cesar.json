@@ -33,7 +33,8 @@
       "personality": "cranky",
       "clothes": "A Tee",
       "song": "K.K. Lament",
-      "phrase": "Highness"
+      "phrase": "Highness",
+      "quote": "All hail my moustache!"
     },
     "cf": {
       "personality": "cranky",
@@ -49,7 +50,8 @@
       "skill": "Vaulting",
       "goal": "Basketball player",
       "style": "Historical",
-      "fear": "Monster Mask"
+      "fear": "Monster Mask",
+      "quote": "As soon as you can grow a moustache, do it."
     }
   },
   "name": "Cesar",

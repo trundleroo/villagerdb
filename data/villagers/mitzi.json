@@ -33,7 +33,8 @@
       "personality": "normal",
       "clothes": "Gumdrop Tee",
       "song": "K.K. Swing",
-      "phrase": "mew"
+      "phrase": "mew",
+      "quote": "Sometimes I think I'm the only sane one around."
     },
     "cf": {
       "personality": "normal",
@@ -49,7 +50,8 @@
       "skill": "Hula Dancing",
       "goal": "Lawyer",
       "style": "Historical",
-      "fear": "Bug Mask"
+      "fear": "Bug Mask",
+      "quote": "Practice makes purrrfect!"
     }
   },
   "name": "Mitzi",

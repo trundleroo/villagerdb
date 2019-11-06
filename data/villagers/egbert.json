@@ -33,7 +33,8 @@
       "personality": "lazy",
       "clothes": "Swell Tee",
       "song": "K.K. Technopop",
-      "phrase": "doodle-duh"
+      "phrase": "doodle-duh",
+      "quote": "Napping is when I do my best thinking."
     },
     "cf": {
       "personality": "lazy",
@@ -49,7 +50,8 @@
       "skill": "Cramming for tests",
       "goal": "Astronaut",
       "style": "Historical",
-      "fear": "Skeleton Hood"
+      "fear": "Skeleton Hood",
+      "quote": "You gotta break a few eggs to make an omelet."
     }
   },
   "name": "Egbert",

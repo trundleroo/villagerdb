@@ -11,7 +11,8 @@
     "ww": {
       "personality": "normal",
       "song": "K.K. Ballad",
-      "phrase": "bigfoot"
+      "phrase": "bigfoot",
+      "quote": "Don't look down your nose at people!"
     },
     "cf": {
       "personality": "normal",
@@ -27,7 +28,8 @@
       "skill": "Making crafts",
       "goal": "Writer",
       "style": "Ornate",
-      "fear": "Ghost Mask"
+      "fear": "Ghost Mask",
+      "quote": "Don't look down your nose at people!"
     }
   },
   "name": "Rhonda",

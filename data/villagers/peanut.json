@@ -33,7 +33,8 @@
       "personality": "peppy",
       "clothes": "Beatnik Tee",
       "song": "K.K. Salsa",
-      "phrase": "slacker"
+      "phrase": "slacker",
+      "quote": "This is my star smile."
     },
     "cf": {
       "personality": "peppy",
@@ -49,7 +50,8 @@
       "skill": "Hula dancing",
       "goal": "Model",
       "style": "Cute",
-      "fear": "Bug Mask"
+      "fear": "Bug Mask",
+      "quote": "Never take a nibble when you can take a bite."
     }
   },
   "name": "Peanut",

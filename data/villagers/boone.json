@@ -12,7 +12,8 @@
       "personality": "jock",
       "clothes": "Comfy Sweater",
       "song": "K.K. Western",
-      "phrase": "baboom"
+      "phrase": "baboom",
+      "quote": "Words to live by: Don't ever wimp out!"
     },
     "cf": {
       "personality": "jock",
@@ -28,7 +29,8 @@
       "skill": "Dancing",
       "goal": "Rugby player",
       "style": "Iconic",
-      "fear": "Skeleton Hood"
+      "fear": "Skeleton Hood",
+      "quote": "Never settle for second best."
     }
   },
   "name": "Boone",

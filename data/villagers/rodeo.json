@@ -12,7 +12,8 @@
       "personality": "lazy",
       "clothes": "Beatnik Tee",
       "song": "Stale Cupcakes",
-      "phrase": "chaps"
+      "phrase": "chaps",
+      "quote": "Zzzzzzzzzzzzzzzzz..."
     },
     "cf": {
       "personality": "lazy",
@@ -28,7 +29,8 @@
       "skill": "Spoon bending",
       "goal": "Astronaut",
       "style": "Historical",
-      "fear": "Ghost Mask"
+      "fear": "Ghost Mask",
+      "quote": "Zzzzzzzzzzzzzzzzz..."
     }
   },
   "name": "Rodeo",

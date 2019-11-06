@@ -17,7 +17,8 @@
       "personality": "snooty",
       "clothes": "Floral Knit Tee",
       "song": "Two Days Ago",
-      "phrase": "cheeseball"
+      "phrase": "cheeseball",
+      "quote": "Just in case you were wondering, I like presents."
     },
     "cf": {
       "personality": "snooty",
@@ -30,7 +31,8 @@
       "clothes": "Floral Knit Tee",
       "song": "Two Days Ago",
       "phrase": "cheeseball",
-      "fear": "Skeleton Hood"
+      "fear": "Skeleton Hood",
+      "quote": "The gift says more about the giver."
     }
   },
   "name": "Bree",

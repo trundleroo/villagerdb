@@ -33,7 +33,8 @@
       "personality": "lazy",
       "clothes": "Big Bro's Tee",
       "song": "Forest Life",
-      "phrase": "it'sa me"
+      "phrase": "it'sa me",
+      "quote": "We're friends, so I won't gnaw on your legs, even though I'm starving."
     },
     "cf": {
       "personality": "lazy",
@@ -49,7 +50,8 @@
       "skill": "Fishing",
       "goal": "Cartoonist",
       "style": "Basic",
-      "fear": "Bug Mask"
+      "fear": "Bug Mask",
+      "quote": "Slow and steady wins the race."
     }
   },
   "name": "Alfonso",

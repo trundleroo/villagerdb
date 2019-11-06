@@ -30,7 +30,8 @@
       "personality": "normal",
       "clothes": "Red Check Tee",
       "song": "K.K. Bossa",
-      "phrase": "woof"
+      "phrase": "woof",
+      "quote": "I'm really into that Lab on the cover of Nintendogs. He's pretty dreamy."
     },
     "cf": {
       "personality": "normal",
@@ -46,7 +47,8 @@
       "skill": "Dusting",
       "goal": "Dentist",
       "style": "Basic",
-      "fear": "Werewolf Hood"
+      "fear": "Werewolf Hood",
+      "quote": "A little bit of happiness is better than a lot of anguish."
     }
   },
   "name": "Goldie",

@@ -33,7 +33,8 @@
       "personality": "cranky",
       "clothes": "Red-Bar Tee",
       "song": "DJ K.K.",
-      "phrase": "harrumph"
+      "phrase": "harrumph",
+      "quote": "Harrumph!"
     },
     "cf": {
       "personality": "cranky",
@@ -49,7 +50,8 @@
       "skill": "Speed reading",
       "goal": "Poet",
       "style": "Iconic",
-      "fear": "Werewolf Hood"
+      "fear": "Werewolf Hood",
+      "quote": "Don't wish it was easier; wish you were better."
     }
   },
   "name": "Chief",

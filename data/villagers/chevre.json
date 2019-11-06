@@ -33,7 +33,8 @@
       "personality": "normal",
       "clothes": "Natty Tee",
       "song": "K.K. Chorale",
-      "phrase": "la baa"
+      "phrase": "la baa",
+      "quote": "Dream a little dream."
     },
     "cf": {
       "personality": "normal",
@@ -49,7 +50,8 @@
       "skill": "Calculating tips",
       "goal": "Teacher",
       "style": "Cute",
-      "fear": "Ghost Mask"
+      "fear": "Ghost Mask",
+      "quote": "If you're gonna dream, dream big."
     }
   },
   "name": "Chevre",

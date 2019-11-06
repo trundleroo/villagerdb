@@ -33,7 +33,8 @@
       "personality": "jock",
       "clothes": "Orange Check Shirt",
       "song": "K.K. Country",
-      "phrase": "okey-dokey"
+      "phrase": "okey-dokey",
+      "quote": "Drop and give me twenty!"
     },
     "cf": {
       "personality": "jock",
@@ -49,7 +50,8 @@
       "skill": "Eating frequently",
       "goal": "Baseball player",
       "style": "Sporty",
-      "fear": "Monster Mask"
+      "fear": "Monster Mask",
+      "quote": "The sky's the limit!"
     }
   },
   "name": "Kody",

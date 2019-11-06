@@ -12,7 +12,8 @@
       "personality": "peppy",
       "clothes": "New Spring Tee",
       "song": "Imperial K.K.",
-      "phrase": "chimpy"
+      "phrase": "chimpy",
+      "quote": "EEEEEEEEEEK!"
     },
     "cf": {
       "personality": "peppy",
@@ -28,7 +29,8 @@
       "skill": "Making puns",
       "goal": "Artist",
       "style": "Flashy",
-      "fear": "Mummy Mask"
+      "fear": "Mummy Mask",
+      "quote": "Always be down to monkey around."
     }
   },
   "name": "Tammi",

@@ -33,7 +33,8 @@
       "personality": "peppy",
       "clothes": "Mint Gingham Tee",
       "song": "K.K. Mambo",
-      "phrase": "li'l hare"
+      "phrase": "li'l hare",
+      "quote": "HOPPING HOTCAKES!"
     },
     "cf": {
       "personality": "peppy",
@@ -49,7 +50,8 @@
       "skill": "Debating",
       "goal": "Superhero",
       "style": "Basic",
-      "fear": "Monster Mask"
+      "fear": "Monster Mask",
+      "quote": "Fake it till you make it!"
     }
   },
   "name": "Pippy",

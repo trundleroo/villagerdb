@@ -33,7 +33,8 @@
       "personality": "cranky",
       "clothes": "Star Tee",
       "song": "K.K. Steppe",
-      "phrase": "aiya"
+      "phrase": "aiya",
+      "quote": "Remember...I'm always watching you."
     },
     "cf": {
       "personality": "cranky",
@@ -49,7 +50,8 @@
       "skill": "Trivia",
       "goal": "Chef",
       "style": "Flashy",
-      "fear": "Bug Mask"
+      "fear": "Bug Mask",
+      "quote": "All good things must come to an end."
     }
   },
   "name": "Chow",

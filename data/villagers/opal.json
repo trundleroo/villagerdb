@@ -33,7 +33,8 @@
       "personality": "snooty",
       "clothes": "Gray Tartan Tee",
       "song": "Forest Life",
-      "phrase": "snoot"
+      "phrase": "snoot",
+      "quote": "Now whenever you see this picture of me, you can think warm thoughts."
     },
     "cf": {
       "personality": "snooty",
@@ -49,7 +50,8 @@
       "skill": "Memorizing",
       "goal": "Doctor",
       "style": "Official",
-      "fear": "Ghost Mask"
+      "fear": "Ghost Mask",
+      "quote": "However little you think of an elephant, you can't say it won't fill a pot."
     }
   },
   "name": "Opal",

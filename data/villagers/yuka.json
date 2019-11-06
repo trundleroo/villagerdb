@@ -33,7 +33,8 @@
       "personality": "snooty",
       "clothes": "Lemon Gingham Tee",
       "song": "Soulful K.K.",
-      "phrase": "tsk tsk"
+      "phrase": "tsk tsk",
+      "quote": "It's nice that you have me as a friend."
     },
     "cf": {
       "personality": "snooty",
@@ -49,7 +50,8 @@
       "skill": "Staying up late",
       "goal": "Journalist",
       "style": "Modern",
-      "fear": "Bug Mask"
+      "fear": "Bug Mask",
+      "quote": "Beauty is in the eye of the beholder."
     }
   },
   "name": "Yuka",

@@ -12,7 +12,8 @@
       "personality": "normal",
       "clothes": "Bubble-Gum Tee",
       "song": "K.K. Dixie",
-      "phrase": "po po"
+      "phrase": "po po",
+      "quote": "Pink is the new black!"
     },
     "cf": {
       "personality": "normal",
@@ -28,7 +29,8 @@
       "skill": "Making crafts",
       "goal": "Judge",
       "style": "Cute",
-      "fear": "Monster Mask"
+      "fear": "Monster Mask",
+      "quote": "Bread always falls peanut-butter side down."
     }
   },
   "name": "Nana",

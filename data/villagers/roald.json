@@ -33,7 +33,8 @@
       "personality": "jock",
       "clothes": "Cafe Tee",
       "song": "K.K. Parade",
-      "phrase": "b-b-buddy"
+      "phrase": "b-b-buddy",
+      "quote": "I'm not waddling! I'm working my glutes!"
     },
     "cf": {
       "personality": "jock",
@@ -49,7 +50,8 @@
       "skill": "Belly dancing",
       "goal": "Pro golfer",
       "style": "Basic",
-      "fear": "Bug Mask"
+      "fear": "Bug Mask",
+      "quote": "You must learn to waddle before you can swim."
     }
   },
   "name": "Roald",

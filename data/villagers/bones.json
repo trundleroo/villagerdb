@@ -33,7 +33,8 @@
       "personality": "lazy",
       "clothes": "Caveman Tank",
       "song": "Forest Life",
-      "phrase": "yip yip"
+      "phrase": "yip yip",
+      "quote": "Thanks for the snacks. Hint hint."
     },
     "cf": {
       "personality": "lazy",
@@ -49,7 +50,8 @@
       "skill": "Telling jokes",
       "goal": "Explorer",
       "style": "Historical",
-      "fear": "Mummy Mask"
+      "fear": "Mummy Mask",
+      "quote": "A snack a day keeps the vacuum away."
     }
   },
   "name": "Bones",

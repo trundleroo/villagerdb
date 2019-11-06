@@ -33,7 +33,8 @@
       "personality": "cranky",
       "clothes": "Danger Tee",
       "song": "K.K. Lament",
-      "phrase": "hippie"
+      "phrase": "hippie",
+      "quote": "You smell like patchouli!"
     },
     "cf": {
       "personality": "cranky",
@@ -49,7 +50,8 @@
       "skill": "Making puns",
       "goal": "Boxer",
       "style": "Iconic",
-      "fear": "Monster Mask"
+      "fear": "Monster Mask",
+      "quote": "The only thing to fear is fear itself... and bees."
     }
   },
   "name": "Rocco",

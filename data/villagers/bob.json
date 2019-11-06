@@ -33,7 +33,8 @@
       "personality": "lazy",
       "clothes": "Blossom Tee",
       "song": "K.K. Ragtime",
-      "phrase": "pthhhpth"
+      "phrase": "pthhhpth",
+      "quote": "I'm a cat. Chillin' is in my blood, man."
     },
     "cf": {
       "personality": "lazy",
@@ -49,7 +50,8 @@
       "skill": "Yo-Yoing",
       "goal": "Detective",
       "style": "Flashy",
-      "fear": "Monster Mask"
+      "fear": "Monster Mask",
+      "quote": "You only live once...or nine times."
     }
   },
   "name": "Bob",

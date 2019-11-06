@@ -33,7 +33,8 @@
       "personality": "lazy",
       "clothes": "No.3 Shirt",
       "song": "K.K. Calypso",
-      "phrase": "bleeeeeck"
+      "phrase": "bleeeeeck",
+      "quote": "Don't get your feathers all ruffled. Just chill."
     },
     "cf": {
       "personality": "lazy",
@@ -49,7 +50,8 @@
       "skill": "Blowing bubbles",
       "goal": "Sumo wrestler",
       "style": "Basic",
-      "fear": "Monster Mask"
+      "fear": "Monster Mask",
+      "quote": "Don't get your feathers all ruffled. Just chill."
     }
   },
   "name": "Joey",

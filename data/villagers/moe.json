@@ -17,7 +17,8 @@
       "personality": "lazy",
       "clothes": "BB Tee",
       "song": "K.K. Ragtime",
-      "phrase": "myawn"
+      "phrase": "myawn",
+      "quote": "Whoa..."
     },
     "cf": {
       "personality": "lazy",
@@ -30,7 +31,8 @@
       "clothes": "BB Tee",
       "song": "K.K. Ragtime",
       "phrase": "myawn",
-      "fear": "Monster Mask"
+      "fear": "Monster Mask",
+      "quote": "Ignorance is bliss."
     }
   },
   "name": "Moe",

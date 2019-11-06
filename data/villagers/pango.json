@@ -33,7 +33,8 @@
       "personality": "peppy",
       "clothes": "Subdued-Print Tee",
       "song": "K.K. Casbah",
-      "phrase": "snooooof"
+      "phrase": "snooooof",
+      "quote": "Now you can say you knew me when!"
     },
     "cf": {
       "personality": "peppy",
@@ -49,7 +50,8 @@
       "skill": "Tongue twister",
       "goal": "Esthetician",
       "style": "Modern",
-      "fear": "Ghost Mask"
+      "fear": "Ghost Mask",
+      "quote": "A thing of beauty is a joy forever!"
     }
   },
   "name": "Pango",

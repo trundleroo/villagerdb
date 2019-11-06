@@ -12,7 +12,8 @@
       "personality": "snooty",
       "song": "Neapolitan",
       "phrase": "puh-lease",
-      "clothes": "Cool Shirt"
+      "clothes": "Cool Shirt",
+      "quote": "If you say anything stupid about bananas or monkeying around, I'll scream!"
     },
     "cf": {
       "personality": "snooty",
@@ -28,7 +29,8 @@
       "skill": "Mental Math",
       "goal": "Archaeologist",
       "style": "Official",
-      "fear": "Bug Mask"
+      "fear": "Bug Mask",
+      "quote": "Do as I say, not as I do."
     }
   },
   "name": "Elise",

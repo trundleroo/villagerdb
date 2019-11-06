@@ -28,7 +28,8 @@
       "personality": "lazy",
       "clothes": "Gray Tartan Tee",
       "song": "K.K. Love Song",
-      "phrase": "mrmpht"
+      "phrase": "mrmpht",
+      "quote": "Turn the other cheek."
     },
     "cf": {
       "personality": "lazy",
@@ -41,7 +42,8 @@
       "clothes": "Gray Tartan Tee",
       "song": "K.K. Love Song",
       "phrase": "mrmpht",
-      "fear": "Monster Mask"
+      "fear": "Monster Mask",
+      "quote": "There's always more fish in the sea!"
     }
   },
   "name": "Punchy",

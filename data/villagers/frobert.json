@@ -33,7 +33,8 @@
       "personality": "jock",
       "clothes": "Gracie Tank",
       "song": "My Place",
-      "phrase": "fribbit"
+      "phrase": "fribbit",
+      "quote": "I don't wanna see any lily-livered jumping! Always aim high!"
     },
     "cf": {
       "personality": "jock",
@@ -49,7 +50,8 @@
       "skill": "Eating quickly",
       "goal": "Artist",
       "style": "Sporty",
-      "fear": "Bug Mask"
+      "fear": "Bug Mask",
+      "quote": "Always aim high!"
     }
   },
   "name": "Frobert",

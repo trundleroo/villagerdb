@@ -33,7 +33,8 @@
       "personality": "peppy",
       "clothes": "Jade Plaid Tee",
       "song": "K.K. Aria",
-      "phrase": "tee-hee"
+      "phrase": "tee-hee",
+      "quote": "Come on! Get amped!"
     },
     "cf": {
       "personality": "peppy",
@@ -49,7 +50,8 @@
       "skill": "Staying positive",
       "goal": "Gymnast",
       "style": "Cute",
-      "fear": "Monster Mask"
+      "fear": "Monster Mask",
+      "quote": "Hare today, gone tomorrow."
     }
   },
   "name": "Bunnie",

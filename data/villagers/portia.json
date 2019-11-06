@@ -30,7 +30,8 @@
       "personality": "snooty",
       "clothes": "Polar Fleece",
       "song": "Cafe K.K.",
-      "phrase": "ruffian"
+      "phrase": "ruffian",
+      "quote": "Of course my photo doesn't need retouching!"
     },
     "cf": {
       "personality": "snooty",
@@ -46,7 +47,8 @@
       "skill": "Photography",
       "goal": "Stylist",
       "style": "Modern",
-      "fear": "Monster Mask"
+      "fear": "Monster Mask",
+      "quote": "Charity begins at home."
     }
   },
   "name": "Portia",

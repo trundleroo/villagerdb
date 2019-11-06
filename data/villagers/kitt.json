@@ -30,7 +30,8 @@
       "personality": "normal",
       "clothes": "Blue Diamond Tee",
       "song": "K.K. Chorale",
-      "phrase": "child"
+      "phrase": "child",
+      "quote": "They say that ugly parents have ugly kids."
     },
     "cf": {
       "personality": "normal",
@@ -46,7 +47,8 @@
       "skill": "Whistling",
       "goal": "Cartoonist",
       "style": "Official",
-      "fear": "Werewolf Hood"
+      "fear": "Werewolf Hood",
+      "quote": "Funny parents have funny kids."
     }
   },
   "name": "Kitt",

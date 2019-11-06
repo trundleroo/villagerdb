@@ -33,7 +33,8 @@
       "personality": "jock",
       "clothes": "Blue-Grid Tee",
       "song": "K.K. Condor",
-      "phrase": "li'l bear"
+      "phrase": "li'l bear",
+      "quote": "C'mere! I wanna bench-press you!"
     },
     "cf": {
       "personality": "jock",
@@ -49,7 +50,8 @@
       "skill": "Making puns",
       "goal": "Astronaut",
       "style": "Basic",
-      "fear": "Monster Mask"
+      "fear": "Monster Mask",
+      "quote": "Fortune favors the brave!"
     }
   },
   "name": "Poncho",

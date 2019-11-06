@@ -30,7 +30,8 @@
       "personality": "normal",
       "clothes": "Citrus Gingham",
       "song": "I Love You",
-      "phrase": "honey"
+      "phrase": "honey",
+      "quote": "Maple + Moppina = BFF!"
     },
     "cf": {
       "personality": "normal",
@@ -46,7 +47,8 @@
       "skill": "Writing letters",
       "goal": "Architect",
       "style": "Basic",
-      "fear": "Bug Mask"
+      "fear": "Bug Mask",
+      "quote": "Waste not, want not."
     }
   },
   "name": "Maple",

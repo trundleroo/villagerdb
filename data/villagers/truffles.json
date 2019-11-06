@@ -30,7 +30,8 @@
       "personality": "peppy",
       "clothes": "Turnip Top",
       "song": "Two Days Ago",
-      "phrase": "snoutie"
+      "phrase": "snoutie",
+      "quote": "JUMPING JELLY BEANS!"
     },
     "cf": {
       "personality": "peppy",
@@ -46,7 +47,8 @@
       "skill": "Trivia",
       "goal": "Actor",
       "style": "Cute",
-      "fear": "Monster Mask"
+      "fear": "Monster Mask",
+      "quote": "The best things in life are free."
     }
   },
   "name": "Truffles",

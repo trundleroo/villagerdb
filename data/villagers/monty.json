@@ -12,7 +12,8 @@
       "personality": "cranky",
       "clothes": "Blue-Bar Tee",
       "song": "Pondering",
-      "phrase": "g'tang"
+      "phrase": "g'tang",
+      "quote": "What are YOU looking at?!"
     },
     "cf": {
       "personality": "cranky",
@@ -28,7 +29,8 @@
       "skill": "Yo-yoing",
       "goal": "Detective",
       "style": "Iconic",
-      "fear": "Skeleton Hood"
+      "fear": "Skeleton Hood",
+      "quote": "No news is good news."
     }
   },
   "name": "Monty",

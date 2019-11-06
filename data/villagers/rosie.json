@@ -30,7 +30,8 @@
       "personality": "peppy",
       "clothes": "Dazed Tee",
       "song": "Bubblegum K.K.",
-      "phrase": "silly"
+      "phrase": "silly",
+      "quote": "To the president of the Rosie Fan Club!"
     },
     "cf": {
       "personality": "peppy",
@@ -46,7 +47,8 @@
       "skill": "Karaoke",
       "goal": "Movie Star",
       "style": "Cute",
-      "fear": "Werewolf Hood"
+      "fear": "Werewolf Hood",
+      "quote": "One good purr deserves another."
     }
   },
   "name": "Rosie",

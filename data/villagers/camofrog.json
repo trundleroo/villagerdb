@@ -33,7 +33,8 @@
       "personality": "cranky",
       "clothes": "MVP Tee",
       "song": "K.K. Rock",
-      "phrase": "ten-hut"
+      "phrase": "ten-hut",
+      "quote": "You can't see me."
     },
     "cf": {
       "personality": "cranky",
@@ -49,7 +50,8 @@
       "skill": "Playing jacks",
       "goal": "Pilot",
       "style": "Rock 'n' roll",
-      "fear": "Mummy Mask"
+      "fear": "Mummy Mask",
+      "quote": "What you can't see can't hurt you."
     }
   },
   "name": "Camofrog",

@@ -17,7 +17,8 @@
       "personality": "normal",
       "clothes": "Misty Tee",
       "song": "K.K. Folk",
-      "phrase": "stretch"
+      "phrase": "stretch",
+      "quote": "Smiles are free, you know."
     },
     "cf": {
       "personality": "normal",
@@ -30,7 +31,8 @@
       "clothes": "Misty Tee",
       "song": "K.K. Folk",
       "phrase": "stretch",
-      "fear": "Bug Mask"
+      "fear": "Bug Mask",
+      "quote": "Smiles are free."
     }
   },
   "name": "Gladys",

@@ -12,7 +12,8 @@
       "personality": "normal",
       "clothes": "Gelato Tee",
       "song": "DJ K.K.",
-      "phrase": "hulaaaa"
+      "phrase": "hulaaaa",
+      "quote": "Relax!"
     },
     "cf": {
       "personality": "normal",
@@ -28,7 +29,8 @@
       "skill": "Yo-yoing",
       "goal": "Volleyball player",
       "style": "Cute",
-      "fear": "Skeleton Hood"
+      "fear": "Skeleton Hood",
+      "quote": "New brooms sweep clean."
     }
   },
   "name": "Caroline",

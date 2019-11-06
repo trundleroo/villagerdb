@@ -30,7 +30,8 @@
       "personality": "snooty",
       "clothes": "Laced Shirt",
       "song": "K.K. Gumbo",
-      "phrase": "chicken"
+      "phrase": "chicken",
+      "quote": "No retouching necessary!"
     },
     "cf": {
       "personality": "snooty",
@@ -46,7 +47,8 @@
       "skill": "Hitting snooze",
       "goal": "Dancer",
       "style": "Ornate",
-      "fear": "Mummy Mask"
+      "fear": "Mummy Mask",
+      "quote": "You never get a second chance to make a first impression."
     }
   },
   "name": "Queenie",

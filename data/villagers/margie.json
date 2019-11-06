@@ -17,7 +17,8 @@
       "personality": "normal",
       "clothes": "Hot Spring Tee",
       "song": "K.K. Bossa",
-      "phrase": "tootie"
+      "phrase": "tootie",
+      "quote": "Keep your feet on the ground."
     },
     "cf": {
       "personality": "normal",
@@ -30,7 +31,8 @@
       "clothes": "Hot Spring Tee",
       "song": "K.K. Bossa",
       "phrase": "tootie",
-      "fear": "Skeleton Hood"
+      "fear": "Skeleton Hood",
+      "quote": "Keep your feet on the ground."
     }
   },
   "name": "Margie",

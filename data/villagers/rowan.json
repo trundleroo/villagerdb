@@ -33,7 +33,8 @@
       "personality": "jock",
       "clothes": "Blue Dot Tee",
       "song": "K.K. Love Song",
-      "phrase": "mango"
+      "phrase": "mango",
+      "quote": "Why be junior varsity when you can be VARSITY?!"
     },
     "cf": {
       "personality": "jock",
@@ -46,7 +47,8 @@
       "clothes": "Blue Dot Tee",
       "song": "K.K. Love Song",
       "phrase": "mango",
-      "fear": "Werewolf Hood"
+      "fear": "Werewolf Hood",
+      "quote": "Refuse to lose."
     }
   },
   "name": "Rowan",

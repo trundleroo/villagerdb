@@ -33,7 +33,8 @@
       "personality": "jock",
       "clothes": "Eight-Ball Tee",
       "song": "My Place",
-      "phrase": "pardner"
+      "phrase": "pardner",
+      "quote": "What are you staring at?!"
     },
     "cf": {
       "personality": "jock",
@@ -49,7 +50,8 @@
       "skill": "Vaulting",
       "goal": "Basketball player",
       "style": "Sporty",
-      "fear": "Werewolf Hood"
+      "fear": "Werewolf Hood",
+      "quote": "Keep your eyes on the prize."
     }
   },
   "name": "Buck",

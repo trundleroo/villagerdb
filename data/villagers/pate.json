@@ -33,7 +33,8 @@
       "personality": "peppy",
       "clothes": "Winter Sweater",
       "song": "K.K. Steppe",
-      "phrase": "quackle"
+      "phrase": "quackle",
+      "quote": "SHRIEKING SUGARCUBES!"
     },
     "cf": {
       "personality": "peppy",
@@ -49,7 +50,8 @@
       "skill": "Pretending to sleep",
       "goal": "Archaeologist",
       "style": "Modern",
-      "fear": "Werewolf Hood"
+      "fear": "Werewolf Hood",
+      "quote": "A duck won't bite you."
     }
   },
   "name": "Pate",

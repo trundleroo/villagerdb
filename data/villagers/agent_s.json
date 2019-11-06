@@ -33,7 +33,8 @@
       "personality": "peppy",
       "clothes": "No. 2 Shirt",
       "song": "DJ K.K.",
-      "phrase": "sidekick"
+      "phrase": "sidekick",
+      "quote": "I'm gonna, like, save the world!"
     },
     "cf": {
       "personality": "peppy",
@@ -49,7 +50,8 @@
       "skill": "Limboing",
       "goal": "Dancer",
       "style": "Sporty",
-      "fear": "Bug Mask"
+      "fear": "Bug Mask",
+      "quote": "You gotta put the pedal to the metal!"
     }
   },
   "name": "Agent S",

@@ -12,7 +12,8 @@
       "personality": "snooty",
       "clothes": "Floral Knit Tee",
       "song": "Lucky K.K.",
-      "phrase": "snappy"
+      "phrase": "snappy",
+      "quote": "If you even THINK about crossing me, just think about these pearly whites!"
     },
     "cf": {
       "personality": "snooty",
@@ -28,7 +29,8 @@
       "skill": "Typing",
       "goal": "Makeup artist",
       "style": "Ornate",
-      "fear": "Bug Mask"
+      "fear": "Bug Mask",
+      "quote": "Don't cry wolf unless you mean it."
     }
   },
   "name": "Whitney",

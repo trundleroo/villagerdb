@@ -30,7 +30,8 @@
       "personality": "cranky",
       "clothes": "Rugby Tee",
       "song": "K.K. Faire",
-      "phrase": "swine"
+      "phrase": "swine",
+      "quote": "Stop looking at me with those hungry eyes! I'm not a pork chop!"
     },
     "cf": {
       "personality": "cranky",
@@ -46,7 +47,8 @@
       "skill": "Staying up late",
       "goal": "CEO",
       "style": "Rock 'n' roll",
-      "fear": "Ghost Mask"
+      "fear": "Ghost Mask",
+      "quote": "Don't judge a book by its cover."
     }
   },
   "name": "Rasher",

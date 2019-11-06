@@ -26,7 +26,8 @@
       "personality": "jock",
       "clothes": "Flowery Shirt",
       "song": "K.K. Ska",
-      "phrase": "maaan"
+      "phrase": "maaan",
+      "quote": "You're not living unless you're sweating!"
     },
     "cf": {
       "personality": "jock",
@@ -39,7 +40,8 @@
       "clothes": "Flowery Shirt",
       "song": "K.K. Ska",
       "phrase": "maaan",
-      "fear": "Ghost Mask"
+      "fear": "Ghost Mask",
+      "quote": "You're not living unless you're sweating!"
     }
   },
   "name": "Bud",

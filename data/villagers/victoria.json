@@ -17,7 +17,8 @@
       "personality": "peppy",
       "clothes": "One-Ball Tee",
       "song": "K.K. Country",
-      "phrase": "sugar cube"
+      "phrase": "sugar cube",
+      "quote": "CATERWAULING CARROT CAKE!"
     },
     "cf": {
       "personality": "peppy",
@@ -30,7 +31,8 @@
       "clothes": "One-Ball Tee",
       "song": "K.K. Country",
       "phrase": "sugar cube",
-      "fear": "Werewolf Hood"
+      "fear": "Werewolf Hood",
+      "quote": "Don't put the cart before the horse."
     }
   },
   "name": "Victoria",

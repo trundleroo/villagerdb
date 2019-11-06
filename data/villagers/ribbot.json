@@ -28,7 +28,8 @@
     "ww": {
       "personality": "jock",
       "song": "Go K.K. Rider!",
-      "phrase": "zzrrbbitt"
+      "phrase": "zzrrbbitt",
+      "quote": "Never rest, never rust."
     },
     "cf": {
       "personality": "jock",
@@ -43,7 +44,8 @@
       "skill": "Ventriloquism",
       "goal": "Astronaut",
       "style": "Flashy",
-      "fear": "Bug Mask"
+      "fear": "Bug Mask",
+      "quote": "Never rest, never rust."
     }
   },
   "name": "Ribbot",

@@ -33,7 +33,8 @@
       "personality": "normal",
       "clothes": "Deep-Blue Tee",
       "song": "Forest Life",
-      "phrase": "y'all"
+      "phrase": "y'all",
+      "quote": "Keep your chin up!"
     },
     "cf": {
       "personality": "normal",
@@ -49,7 +50,8 @@
       "skill": "Calculating Tips",
       "goal": "Tour Guide",
       "style": "Modern",
-      "fear": "Monster Mask"
+      "fear": "Monster Mask",
+      "quote": "Keep your chin up!"
     }
   },
   "name": "Savannah",

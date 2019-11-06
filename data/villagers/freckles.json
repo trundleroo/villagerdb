@@ -33,7 +33,8 @@
       "personality": "peppy",
       "clothes": "Bright Tee",
       "song": "K.K. Song",
-      "phrase": "ducky"
+      "phrase": "ducky",
+      "quote": "CATAPULTING CUPCAKES!"
     },
     "cf": {
       "personality": "peppy",
@@ -49,7 +50,8 @@
       "skill": "Staying awake",
       "goal": "Pharmacist",
       "style": "Flashy",
-      "fear": "Werewolf Hood"
+      "fear": "Werewolf Hood",
+      "quote": "Act now before you change your mind!"
     }
   },
   "name": "Freckles",

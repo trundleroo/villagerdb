@@ -33,7 +33,8 @@
       "personality": "peppy",
       "clothes": "Bone Shirt",
       "song": "To the Edge",
-      "phrase": "me-WOW"
+      "phrase": "me-WOW",
+      "quote": "This is my new headshot!"
     },
     "cf": {
       "personality": "peppy",
@@ -49,7 +50,8 @@
       "skill": "Telling Jokes",
       "goal": "Tennis Player",
       "style": "Sporty",
-      "fear": "Werewolf Hood"
+      "fear": "Werewolf Hood",
+      "quote": "You can never have too much of a good thing!"
     }
   },
   "name": "Tabby",

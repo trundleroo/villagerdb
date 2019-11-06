@@ -12,7 +12,8 @@
       "personality": "peppy",
       "clothes": "Tropical Tee",
       "song": "Aloha K.K.",
-      "phrase": "snorty"
+      "phrase": "snorty",
+      "quote": "I'll remember you even when I'm famous!"
     },
     "cf": {
       "personality": "peppy",
@@ -28,7 +29,8 @@
       "skill": "Jumping rope",
       "goal": "Judge",
       "style": "Cute",
-      "fear": "Ghost Mask"
+      "fear": "Ghost Mask",
+      "quote": "Dance like no one's watching!"
     }
   },
   "name": "Anabelle",

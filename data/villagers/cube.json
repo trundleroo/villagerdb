@@ -31,7 +31,8 @@
       "personality": "lazy",
       "clothes": "Big-Dot Tee",
       "song": "K.K. Technopop",
-      "phrase": "d-d-dude"
+      "phrase": "d-d-dude",
+      "quote": "Stay cool."
     },
     "cf": {
       "personality": "lazy",
@@ -47,7 +48,8 @@
       "skill": "Staying awake",
       "goal": "Astronaut",
       "style": "Cute",
-      "fear": "Werewolf Hood"
+      "fear": "Werewolf Hood",
+      "quote": "Sometimes you gotta learn to chill."
     }
   },
   "name": "Cube",

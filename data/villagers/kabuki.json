@@ -30,7 +30,8 @@
       "personality": "cranky",
       "clothes": "Misty Tee",
       "song": "K.K. Folk",
-      "phrase": "meooo-OH"
+      "phrase": "meooo-OH",
+      "quote": "Hoo-ha konichiwa!"
     },
     "cf": {
       "personality": "cranky",
@@ -46,7 +47,8 @@
       "skill": "Drawing circles",
       "goal": "Actor",
       "style": "Historical",
-      "fear": "Skeleton Hood"
+      "fear": "Skeleton Hood",
+      "quote": "If you make your opponent flinch, you have already won."
     }
   },
   "name": "Kabuki",

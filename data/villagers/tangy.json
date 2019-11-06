@@ -33,7 +33,8 @@
       "personality": "peppy",
       "clothes": "Chain-Gang Tee",
       "song": "K.K. Island",
-      "phrase": "reeeeOWR"
+      "phrase": "reeeeOWR",
+      "quote": "They say cats hate citrus. THAT REALLY HURTS MY FEELINGS!"
     },
     "cf": {
       "personality": "peppy",
@@ -49,7 +50,8 @@
       "skill": "Doing Handstands",
       "goal": "Hair Stylist",
       "style": "Flashy",
-      "fear": "Werewolf Hood"
+      "fear": "Werewolf Hood",
+      "quote": "When life gives you lemons, make lemonade."
     }
   },
   "name": "Tangy",

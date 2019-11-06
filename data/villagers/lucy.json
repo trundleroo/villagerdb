@@ -33,7 +33,8 @@
       "personality": "normal",
       "clothes": "Natty Tee",
       "song": "Comrade K.K.",
-      "phrase": "snoooink"
+      "phrase": "snoooink",
+      "quote": "This picture entitles you to one free smile!"
     },
     "cf": {
       "personality": "normal",
@@ -49,7 +50,8 @@
       "skill": "Baton twirling",
       "goal": "Tour guide",
       "style": "Cute",
-      "fear": "Monster Mask"
+      "fear": "Monster Mask",
+      "quote": "The best is yet to come."
     }
   },
   "name": "Lucy",

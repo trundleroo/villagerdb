@@ -33,7 +33,8 @@
       "personality": "snooty",
       "clothes": "U-R-Here Tee",
       "song": "K.K. Ragtime",
-      "phrase": "wee baby"
+      "phrase": "wee baby",
+      "quote": "Blood is thicker than water!"
     },
     "cf": {
       "personality": "snooty",
@@ -49,7 +50,8 @@
       "skill": "Pretending to sleep",
       "goal": "Writer",
       "style": "Rock 'n' roll",
-      "fear": "Skeleton Hood"
+      "fear": "Skeleton Hood",
+      "quote": "Nail polish is thicker than water."
     }
   },
   "name": "Mathilda",

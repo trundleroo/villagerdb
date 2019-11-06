@@ -33,7 +33,8 @@
       "personality": "peppy",
       "clothes": "No. 4 Shirt",
       "song": "K.K. Jazz",
-      "phrase": "rah rah"
+      "phrase": "rah rah",
+      "quote": "This one goes out to all my fans!"
     },
     "cf": {
       "personality": "peppy",
@@ -49,7 +50,8 @@
       "skill": "Trivia",
       "goal": "CEO",
       "style": "Cute",
-      "fear": "Werewolf Hood"
+      "fear": "Werewolf Hood",
+      "quote": "Happiness is a rainy day."
     }
   },
   "name": "Pompom",

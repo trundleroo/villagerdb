@@ -33,7 +33,8 @@
       "personality": "peppy",
       "clothes": "Watermelon Tee",
       "song": "K.K. Technopop",
-      "phrase": "niblet"
+      "phrase": "niblet",
+      "quote": "Coming soon to a billboard near you!"
     },
     "cf": {
       "personality": "peppy",
@@ -49,7 +50,8 @@
       "skill": "Juggling",
       "goal": "Journalist",
       "style": "Cute",
-      "fear": "Bug Mask"
+      "fear": "Bug Mask",
+      "quote": "Appearances are, like, totally deceiving."
     }
   },
   "name": "Nibbles",

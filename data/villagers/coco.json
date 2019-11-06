@@ -30,7 +30,8 @@
       "personality": "normal",
       "clothes": "Dawn Tee",
       "song": "K.K. Dirge",
-      "phrase": "doyoing"
+      "phrase": "doyoing",
+      "quote": "I'm feeling kind of blank today."
     },
     "cf": {
       "personality": "normal",
@@ -46,7 +47,8 @@
       "skill": "Writing backwards",
       "goal": "Astronaut",
       "style": "Iconic",
-      "fear": "Mummy Mask"
+      "fear": "Mummy Mask",
+      "quote": "Don't put off till tomorrow what you can do today."
     }
   },
   "name": "Coco",

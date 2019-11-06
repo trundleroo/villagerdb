@@ -33,7 +33,8 @@
       "personality": "lazy",
       "clothes": "Green Ring Shirt",
       "song": "Rockin' K.K.",
-      "phrase": "pudgy"
+      "phrase": "pudgy",
+      "quote": "Keep it real. Yeah."
     },
     "cf": {
       "personality": "lazy",
@@ -48,7 +49,8 @@
       "skill": "Blowing bubbles",
       "goal": "Chef",
       "style": "Historical",
-      "fear": "Ghost Mask"
+      "fear": "Ghost Mask",
+      "quote": "There's no such thing as a free lunch."
     }
   },
   "name": "Pudge",

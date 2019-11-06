@@ -28,7 +28,8 @@
       "personality": "snooty",
       "clothes": "Heart Tee",
       "song": "Cafe K.K.",
-      "phrase": "duckling"
+      "phrase": "duckling",
+      "quote": "I like long walks on the beach. Alone."
     },
     "cf": {
       "personality": "snooty",
@@ -41,7 +42,8 @@
       "clothes": "Heart Tee",
       "song": "Cafe K.K.",
       "phrase": "duckling",
-      "fear": "Mummy Mask"
+      "fear": "Mummy Mask",
+      "quote": "A wise duck takes care of her bill."
     }
   },
   "name": "Maelle",

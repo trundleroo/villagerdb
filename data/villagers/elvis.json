@@ -12,7 +12,8 @@
       "personality": "cranky",
       "clothes": "Royal Shirt",
       "song": "K.K. Casbah",
-      "phrase": "unh-hunh"
+      "phrase": "unh-hunh",
+      "quote": "Thank you very much."
     },
     "cf": {
       "personality": "cranky",
@@ -28,7 +29,8 @@
       "skill": "Competitive eating",
       "goal": "Tycoon",
       "style": "Ornate",
-      "fear": "Bug Mask"
+      "fear": "Bug Mask",
+      "quote": "Better a live coward than a dead hero."
     }
   },
   "name": "Elvis",

@@ -33,7 +33,8 @@
       "personality": "snooty",
       "clothes": "Grape Tee",
       "song": "K.K. Swing",
-      "phrase": "pffffft"
+      "phrase": "pffffft",
+      "quote": "No airbrushing necessary!"
     },
     "cf": {
       "personality": "snooty",
@@ -49,7 +50,8 @@
       "skill": "Juggling",
       "goal": "Drummer",
       "style": "Ornate",
-      "fear": "Monster Mask"
+      "fear": "Monster Mask",
+      "quote": "All publicity is good publicity!"
     }
   },
   "name": "Monique",

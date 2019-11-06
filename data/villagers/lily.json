@@ -33,7 +33,8 @@
       "personality": "normal",
       "clothes": "Icy Shirt",
       "song": "K.K. Salsa",
-      "phrase": "toady"
+      "phrase": "toady",
+      "quote": "Don't jump to conclusions!"
     },
     "cf": {
       "personality": "normal",
@@ -49,7 +50,8 @@
       "skill": "Calligraphy",
       "goal": "Professor",
       "style": "Cute",
-      "fear": "Ghost Mask"
+      "fear": "Ghost Mask",
+      "quote": "Don't jump to conclusions!"
     }
   },
   "name": "Lily",

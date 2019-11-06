@@ -33,7 +33,8 @@
       "personality": "jock",
       "clothes": "No. 2 Shirt",
       "song": "King K.K.",
-      "phrase": "quacko"
+      "phrase": "quacko",
+      "quote": "Even though there's no \"I\" in team, there's no \"everybody\" either!"
     },
     "cf": {
       "personality": "jock",
@@ -49,7 +50,8 @@
       "skill": "Bunting",
       "goal": "Race car driver",
       "style": "Sporty",
-      "fear": "Werewolf Hood"
+      "fear": "Werewolf Hood",
+      "quote": "Even though there's no 'I' in team, there is a 'me'!"
     }
   },
   "name": "Bill",

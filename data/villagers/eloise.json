@@ -30,7 +30,8 @@
       "personality": "snooty",
       "clothes": "Yellow-Bar Tee",
       "song": "K.K. Jazz",
-      "phrase": "tooooot"
+      "phrase": "tooooot",
+      "quote": "You'll want to display this prominently!"
     },
     "cf": {
       "personality": "snooty",
@@ -46,7 +47,8 @@
       "skill": "Memorizing stuff",
       "goal": "Painter",
       "style": "Official",
-      "fear": "Ghost Mask"
+      "fear": "Ghost Mask",
+      "quote": "An elephant never forgets."
     }
   },
   "name": "Eloise",

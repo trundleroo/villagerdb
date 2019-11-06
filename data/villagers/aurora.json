@@ -30,7 +30,8 @@
       "personality": "normal",
       "clothes": "Pink Tartan Tee",
       "song": "K.K. Gumbo",
-      "phrase": "b-b-baby"
+      "phrase": "b-b-baby",
+      "quote": "Just keep your cool."
     },
     "cf": {
       "personality": "normal",
@@ -46,7 +47,8 @@
       "skill": "Making Budgets",
       "goal": "Doctor",
       "style": "Official",
-      "fear": "Skeleton Hood"
+      "fear": "Skeleton Hood",
+      "quote": "Just keep your cool."
     }
   },
   "name": "Aurora",

@@ -30,7 +30,8 @@
       "personality": "snooty",
       "clothes": "Picnic Tee",
       "song": "K.K. Tango",
-      "phrase": "brrmph"
+      "phrase": "brrmph",
+      "quote": "This isn't a fortune cookie! It's an important life lesson!"
     },
     "cf": {
       "personality": "snooty",
@@ -46,7 +47,8 @@
       "skill": "Board games",
       "goal": "Drummer",
       "style": "Ornate",
-      "fear": "Mummy Mask"
+      "fear": "Mummy Mask",
+      "quote": "You can't learn a life lesson from a fortune cookie."
     }
   },
   "name": "Friga",

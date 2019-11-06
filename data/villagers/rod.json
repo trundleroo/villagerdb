@@ -17,7 +17,8 @@
       "personality": "jock",
       "clothes": "Zipper Shirt",
       "song": "K.K. March",
-      "phrase": "ace"
+      "phrase": "ace",
+      "quote": "You're not done 'til your muscles are screaming in agony!"
     },
     "cf": {
       "personality": "jock",
@@ -30,7 +31,8 @@
       "clothes": "Zipper Shirt",
       "song": "K.K. March",
       "phrase": "ace",
-      "fear": "Bug Mask"
+      "fear": "Bug Mask",
+      "quote": "If you can't beat 'em, work harder."
     }
   },
   "name": "Rod",

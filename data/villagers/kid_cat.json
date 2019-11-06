@@ -17,7 +17,8 @@
       "personality": "jock",
       "clothes": "No. 1 Shirt",
       "song": "Go K.K. Rider!",
-      "phrase": "psst"
+      "phrase": "psst",
+      "quote": "Spandex is the best disguise."
     },
     "cf": {
       "personality": "jock",
@@ -30,7 +31,8 @@
       "clothes": "No. 1 Shirt",
       "song": "Go K.K. Rider!",
       "phrase": "psst",
-      "fear": "Ghost Mask"
+      "fear": "Ghost Mask",
+      "quote": "Crime doesn't pay!"
     }
   },
   "name": "Kid Cat",

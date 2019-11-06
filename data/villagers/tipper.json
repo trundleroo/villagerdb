@@ -12,7 +12,8 @@
       "personality": "snooty",
       "clothes": "Rainbow Tee",
       "song": "Soulful K.K.",
-      "phrase": "pushy"
+      "phrase": "pushy",
+      "quote": "I know you'll treasure this forever."
     },
     "cf": {
       "personality": "snooty",
@@ -28,7 +29,8 @@
       "skill": "Staying up late",
       "goal": "Violinist",
       "style": "Flashy",
-      "fear": "Ghost Mask"
+      "fear": "Ghost Mask",
+      "quote": "It takes two to tango."
     }
   },
   "name": "Tipper",

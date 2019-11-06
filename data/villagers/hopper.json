@@ -33,7 +33,8 @@
       "personality": "cranky",
       "clothes": "Dragon Suit",
       "song": "Lucky K.K.",
-      "phrase": "slushie"
+      "phrase": "slushie",
+      "quote": "This is my good side."
     },
     "cf": {
       "personality": "cranky",
@@ -49,7 +50,8 @@
       "skill": "Mental math",
       "goal": "Firefighter",
       "style": "Rock 'n' roll",
-      "fear": "Monster Mask"
+      "fear": "Monster Mask",
+      "quote": "Always have a comeback."
     }
   },
   "name": "Hopper",

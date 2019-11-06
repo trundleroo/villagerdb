@@ -17,7 +17,8 @@
       "personality": "normal",
       "clothes": "Bubble-Gum Tee",
       "song": "Soulful K.K.",
-      "phrase": "blurp"
+      "phrase": "blurp",
+      "quote": "I think I'm the only sane one in this town."
     },
     "cf": {
       "personality": "normal",
@@ -30,7 +31,8 @@
       "clothes": "Bubble-Gum Tee",
       "song": "Soulful K.K.",
       "phrase": "blurp",
-      "fear": "Skeleton Hood"
+      "fear": "Skeleton Hood",
+      "quote": "If you can't say something nice, don't say anything at all."
     }
   },
   "name": "Marina",

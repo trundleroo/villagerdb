@@ -33,7 +33,8 @@
       "personality": "lazy",
       "clothes": "No. 5 Shirt",
       "song": "K.K. Gumbo",
-      "phrase": "woo-oo"
+      "phrase": "woo-oo",
+      "quote": "Keep it mellow."
     },
     "cf": {
       "personality": "lazy",
@@ -49,7 +50,8 @@
       "skill": "Chugging milk",
       "goal": "Journalist",
       "style": "Basic",
-      "fear": "Bug Mask"
+      "fear": "Bug Mask",
+      "quote": "Keep it mellow."
     }
   },
   "name": "Dizzy",

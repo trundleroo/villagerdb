@@ -33,7 +33,8 @@
       "personality": "lazy",
       "clothes": "Yellow-Bar Tee",
       "song": "The K. Funk",
-      "phrase": "derrrrr"
+      "phrase": "derrrrr",
+      "quote": "Everything in moderation. Except for snacks."
     },
     "cf": {
       "personality": "lazy",
@@ -49,7 +50,8 @@
       "skill": "Brainteasers",
       "goal": "Doctor",
       "style": "Official",
-      "fear": "Monster Mask"
+      "fear": "Monster Mask",
+      "quote": "Everything in moderation. Except for snacks."
     }
   },
   "name": "Derwin",

@@ -33,7 +33,8 @@
       "personality": "lazy",
       "clothes": "Sunset Tee",
       "song": "K.K. Mambo",
-      "phrase": "nee-deep"
+      "phrase": "nee-deep",
+      "quote": "Think about it, man. Bullfrog is only one letter away from blue frog."
     },
     "cf": {
       "personality": "lazy",
@@ -49,7 +50,8 @@
       "skill": "Hitting snooze",
       "goal": "Writer",
       "style": "Basic",
-      "fear": "Monster Mask"
+      "fear": "Monster Mask",
+      "quote": "Sleep before you leap."
     }
   },
   "name": "Jeremiah",

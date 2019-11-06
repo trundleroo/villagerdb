@@ -30,7 +30,8 @@
       "personality": "jock",
       "clothes": "No. 67 Shirt",
       "song": "K.K. Country",
-      "phrase": "brah"
+      "phrase": "brah",
+      "quote": "Always go for the gold!"
     },
     "cf": {
       "personality": "jock",
@@ -46,7 +47,8 @@
       "skill": "Shadow puppetry",
       "goal": "Tycoon",
       "style": "Flashy",
-      "fear": "Bug Mask"
+      "fear": "Bug Mask",
+      "quote": "Always go for the gold!"
     }
   },
   "name": "Drift",
