@@ -35,7 +35,10 @@
       "quote": "Keep your feet on the ground.",
       "skill": "Playing Old Maid",
       "goal": "Pastry chef",
-      "siblings": "Third of 5 kids"
+      "siblings": "Third of 5 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "brown"
     }
   },
   "name": "Margie",

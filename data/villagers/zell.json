@@ -15,10 +15,12 @@
       "phrase": "pronk",
       "skill": "Calculating tips",
       "goal": "Movie director",
-      "style": "Modern",
       "fear": "Skeleton Hood",
       "quote": "Clothes totally make the man.",
-      "siblings": "Second of 4 kids"
+      "siblings": "Second of 4 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "purple"
     }
   },
   "name": "Zell",

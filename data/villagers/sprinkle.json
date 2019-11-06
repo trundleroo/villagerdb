@@ -15,10 +15,12 @@
       "phrase": "frappe",
       "skill": "Jumping rope",
       "goal": "Figure skater",
-      "style": "Cute",
       "fear": "Skeleton Hood",
       "quote": "Frosting is just the icing on the cake.",
-      "siblings": "Fourth of 5 kids"
+      "siblings": "Fourth of 5 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "aqua"
     }
   },
   "name": "Sprinkle",

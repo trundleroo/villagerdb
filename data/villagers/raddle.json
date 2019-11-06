@@ -22,7 +22,10 @@
       "goal": "Doctor",
       "fear": "Monster Mask",
       "quote": "A healthy mind makes for a healthy body.",
-      "siblings": "Third quadruplet"
+      "siblings": "Third quadruplet",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "White"
     }
   },
   "name": "Raddle",

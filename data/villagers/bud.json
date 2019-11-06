@@ -44,7 +44,10 @@
       "quote": "You're not living unless you're sweating!",
       "skill": "Rapping",
       "goal": "Singer",
-      "siblings": "Fourth quintuplet"
+      "siblings": "Fourth quintuplet",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "colorful"
     }
   },
   "name": "Bud",

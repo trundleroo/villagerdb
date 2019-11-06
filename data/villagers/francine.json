@@ -26,10 +26,12 @@
       "phrase": "karat",
       "skill": "Pretending to sleep",
       "goal": "Designer",
-      "style": "Ornate",
       "fear": "Skeleton Hood",
       "quote": "You can't have wise men if you don't have fools too.",
-      "siblings": "Eldest of 4 kids"
+      "siblings": "Eldest of 4 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "blue"
     }
   },
   "name": "Francine",

@@ -38,7 +38,10 @@
       "goal": "Chef",
       "fear": "Werewolf Hood",
       "quote": "100% Wool.",
-      "siblings": "Eldest of 4 kids"
+      "siblings": "Eldest of 4 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "Red"
     }
   },
   "name": "Cashmere",

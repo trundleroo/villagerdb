@@ -15,10 +15,12 @@
       "phrase": "yeah buddy",
       "skill": "Rapping",
       "goal": "Guitarist",
-      "style": "Rock'n'roll",
       "fear": "Monster Mask",
       "quote": "Imitation is the sincerest form of flattery.",
-      "siblings": "Youngest of 3 kids"
+      "siblings": "Youngest of 3 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "black"
     }
   },
   "name": "Eugene",

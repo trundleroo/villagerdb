@@ -49,10 +49,12 @@
       "phrase": "grrrolf",
       "skill": "Doing handstands",
       "goal": "Pro wrestler",
-      "style": "Iconic",
       "fear": "Skeleton Hood",
       "quote": "Don't skip lunch. Ever.",
-      "siblings": "Eldest of 5 kids"
+      "siblings": "Eldest of 5 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "yellow"
     }
   },
   "name": "Rolf",

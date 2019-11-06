@@ -49,10 +49,12 @@
       "phrase": "pah",
       "skill": "Staying up late",
       "goal": "Pilot",
-      "style": "Rock 'n' roll",
       "fear": "Ghost Mask",
       "quote": "What goes up must come down.",
-      "siblings": "Eldest quintuplet"
+      "siblings": "Eldest quintuplet",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "white"
     }
   },
   "name": "Apollo",

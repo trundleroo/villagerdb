@@ -15,10 +15,12 @@
       "phrase": "cheekers",
       "skill": "Karaoke",
       "goal": "Movie star",
-      "style": "Cute",
       "fear": "Bug Mask",
       "quote": "One spoiled apple spoils the barrel.",
-      "siblings": "Third of 4 sisters"
+      "siblings": "Third of 4 sisters",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "red"
     }
   },
   "name": "Apple",

@@ -39,10 +39,12 @@
       "phrase": "grumble",
       "skill": "Competitive eating",
       "goal": "Pro wrestler",
-      "style": "Historical",
       "fear": "Bug Mask",
       "quote": "Rocky road is more than just a flavor of ice cream.",
-      "siblings": "Second of 5 kids"
+      "siblings": "Second of 5 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "black"
     }
   },
   "name": "Groucho",

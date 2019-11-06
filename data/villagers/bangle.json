@@ -36,10 +36,12 @@
       "phrase": "growf",
       "skill": "Tongue twisters",
       "goal": "President",
-      "style": "Ornate",
       "fear": "Ghost Mask",
       "quote": "Don't blink or you'll miss it.",
-      "siblings": "Second of 6 kids"
+      "siblings": "Second of 6 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "orange"
     }
   },
   "name": "Bangle",

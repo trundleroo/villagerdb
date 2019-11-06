@@ -26,10 +26,12 @@
       "phrase": "mimimi",
       "skill": "Rock-paper-scissors",
       "goal": "Swimmer",
-      "style": "Cute",
       "fear": "Werewolf Hood",
       "quote": "Love has no bounds.",
-      "siblings": "Second of 3 sisters"
+      "siblings": "Second of 3 sisters",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "beige"
     }
   },
   "name": "Felicity",

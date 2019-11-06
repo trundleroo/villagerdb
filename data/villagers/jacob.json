@@ -22,7 +22,10 @@
       "goal": "Poet",
       "fear": "Mummy Mask",
       "quote": "Your greatest strength can be your greatest weakness.",
-      "siblings": "Youngest of 5 kids"
+      "siblings": "Youngest of 5 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "Brown"
     }
   },
   "name": "Jacob",

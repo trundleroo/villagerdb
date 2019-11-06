@@ -46,10 +46,12 @@
       "phrase": "brrmph",
       "skill": "Board games",
       "goal": "Drummer",
-      "style": "Ornate",
       "fear": "Mummy Mask",
       "quote": "You can't learn a life lesson from a fortune cookie.",
-      "siblings": "Eldest of 2 kids"
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "pink"
     }
   },
   "name": "Friga",

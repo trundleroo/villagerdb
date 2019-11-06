@@ -38,7 +38,10 @@
       "goal": "Archaeologist",
       "fear": "Skeleton Hood",
       "quote": "Old dogs can learn new tricks.",
-      "siblings": "Eldest of 2 kids"
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "Brown"
     }
   },
   "name": "Billy",

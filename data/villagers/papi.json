@@ -15,10 +15,12 @@
       "phrase": "haaay",
       "skill": "Ventriloquism",
       "goal": "Cartoonist",
-      "style": "Basic",
       "fear": "Skeleton Hood",
       "quote": "Never say neigh.",
-      "siblings": "Middle kid"
+      "siblings": "Middle kid",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "beige"
     }
   },
   "name": "Papi",

@@ -42,10 +42,12 @@
       "phrase": "WHONK",
       "skill": "Competitive eating",
       "goal": "Basketball player",
-      "style": "Sporty",
       "fear": "Monster Mask",
       "quote": "Do not compare a fly with an elephant.",
-      "siblings": "Eldest of 4 kids"
+      "siblings": "Eldest of 4 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "colorful"
     }
   },
   "name": "Axel",

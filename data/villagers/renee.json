@@ -15,10 +15,12 @@
       "phrase": "yo yo yo",
       "skill": "Making puns",
       "goal": "Marathon runner",
-      "style": "Rock 'n' roll",
       "fear": "Mummy Mask",
       "quote": "Reckless youth makes rueful age.",
-      "siblings": "Fourth of 6 kids"
+      "siblings": "Fourth of 6 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "purple"
     }
   },
   "name": "Renée",

@@ -38,7 +38,10 @@
       "goal": "Architect",
       "fear": "Werewolf Hood",
       "quote": "Cold coffee makes for a cold demeanor.",
-      "siblings": "Eldest of 9 kids"
+      "siblings": "Eldest of 9 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "Yellow"
     }
   },
   "name": "Huck",

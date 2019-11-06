@@ -15,10 +15,12 @@
       "phrase": "snoozit",
       "skill": "Oversleeping",
       "goal": "Writer",
-      "style": "Basic",
       "fear": "Werewolf Hood",
       "quote": "The way to a frog's heart is through his stomach.",
-      "siblings": "Youngest quintuplet"
+      "siblings": "Youngest quintuplet",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Official",
+      "favoriteColor": "aqua"
     }
   },
   "name": "Henry",

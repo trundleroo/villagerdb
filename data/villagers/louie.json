@@ -29,10 +29,12 @@
       "phrase": "toots",
       "skill": "Handstands",
       "goal": "Rugby player",
-      "style": "Sporty",
       "fear": "Skeleton Hood",
       "quote": "It's all about the muscle.",
-      "siblings": "Eldest of 5 kids"
+      "siblings": "Eldest of 5 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "Blue"
     }
   },
   "name": "Louie",

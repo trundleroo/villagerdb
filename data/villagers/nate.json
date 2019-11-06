@@ -42,10 +42,12 @@
       "phrase": "yawwwn",
       "skill": "Playing horseshoes",
       "goal": "Sumo wrestler",
-      "style": "Basic",
       "fear": "Werewolf Hood",
       "quote": "Be true to yourself.",
-      "siblings": "Third of 4 kids"
+      "siblings": "Third of 4 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "white"
     }
   },
   "name": "Nate",

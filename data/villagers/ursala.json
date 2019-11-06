@@ -38,7 +38,10 @@
       "goal": "Florist",
       "fear": "Monster Mask",
       "quote": "Surround yourself with things you love.",
-      "siblings": "Eldest of 2 kids"
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "Red"
     }
   },
   "name": "Ursala",

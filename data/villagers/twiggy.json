@@ -49,10 +49,12 @@
       "phrase": "cheepers",
       "skill": "Spoon bending",
       "goal": "Dentist",
-      "style": "Flashy",
       "fear": "Mummy Mask",
       "quote": "It's the early bird that catches the worm!",
-      "siblings": "Second of 4 sisters"
+      "siblings": "Second of 4 sisters",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Official",
+      "favoriteColor": "blue"
     }
   },
   "name": "Twiggy",

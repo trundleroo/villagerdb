@@ -15,10 +15,12 @@
       "phrase": "dearie",
       "skill": "Mental math",
       "goal": "Teacher",
-      "style": "Basic",
       "fear": "Werewolf Hood",
       "quote": "The first step is always the hardest.",
-      "siblings": "Middle of 3 kids"
+      "siblings": "Middle of 3 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "beige"
     }
   },
   "name": "Fauna",

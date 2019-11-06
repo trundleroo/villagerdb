@@ -48,10 +48,12 @@
       "phrase": "pudgy",
       "skill": "Blowing bubbles",
       "goal": "Chef",
-      "style": "Historical",
       "fear": "Ghost Mask",
       "quote": "There's no such thing as a free lunch.",
-      "siblings": "Youngest of 5 kids"
+      "siblings": "Youngest of 5 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "blue"
     }
   },
   "name": "Pudge",

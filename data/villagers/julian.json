@@ -15,10 +15,12 @@
       "phrase": "glitter",
       "skill": "Speed-reading",
       "goal": "Designer",
-      "style": "Ornate",
       "fear": "Bug Mask",
       "quote": "Never trot when you can prance.",
-      "siblings": "Youngest twin"
+      "siblings": "Youngest twin",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "aqua"
     }
   },
   "name": "Julian",

@@ -15,10 +15,12 @@
       "phrase": "WHEE",
       "skill": "Whistling",
       "goal": "Professor",
-      "style": "Official",
       "fear": "Skeleton Hood",
       "quote": "It's always teatime somewhere.",
-      "siblings": "Eldest of 4 sisters"
+      "siblings": "Eldest of 4 sisters",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "green"
     }
   },
   "name": "Cally",

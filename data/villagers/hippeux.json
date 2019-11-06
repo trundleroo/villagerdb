@@ -15,10 +15,12 @@
       "phrase": "Natch",
       "skill": "Juggling",
       "goal": "Actor",
-      "style": "Ornate",
       "fear": "Skeleton Hood",
       "quote": "Mottoes are for the unoriginal.",
-      "siblings": "Youngest of 3 kids"
+      "siblings": "Youngest of 3 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "aqua"
     }
   },
   "name": "Hippeux",

@@ -15,10 +15,12 @@
       "phrase": "uni-wow",
       "skill": "Making budgets",
       "goal": "Dentist",
-      "style": "Iconic",
       "fear": "Monster Mask",
       "quote": "Never say never!",
-      "siblings": "Eldest of 2 kids"
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "orange"
     }
   },
   "name": "Hazel",

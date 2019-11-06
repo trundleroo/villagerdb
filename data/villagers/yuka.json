@@ -49,10 +49,12 @@
       "phrase": "tsk tsk",
       "skill": "Staying up late",
       "goal": "Journalist",
-      "style": "Modern",
       "fear": "Bug Mask",
       "quote": "Beauty is in the eye of the beholder.",
-      "siblings": "Third of 4 sisters"
+      "siblings": "Third of 4 sisters",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "white"
     }
   },
   "name": "Yuka",

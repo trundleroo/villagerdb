@@ -38,7 +38,10 @@
       "goal": "Dentist",
       "fear": "Werewolf Hood",
       "quote": "The perfect pair complements each other.",
-      "siblings": "Older twin sister"
+      "siblings": "Older twin sister",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "Green"
     }
   },
   "name": "Bea",

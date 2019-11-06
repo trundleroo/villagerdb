@@ -26,10 +26,12 @@
       "phrase": "eat it",
       "skill": "Climbing trees",
       "goal": "Movie director",
-      "style": "Flashy",
       "fear": "Werewolf Hood",
       "quote": "One nap leads to another.",
-      "siblings": "Youngest triplet"
+      "siblings": "Youngest triplet",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "colorful"
     }
   },
   "name": "Broccolo",

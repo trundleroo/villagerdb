@@ -42,10 +42,12 @@
       "phrase": "brrrrrrrrr",
       "skill": "Doing handstands",
       "goal": "Superhero",
-      "style": "Sporty",
       "fear": "Werewolf Hood",
       "quote": "A bad attitude will land you in the penalty box.",
-      "siblings": "Middle kid"
+      "siblings": "Middle kid",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "blue"
     }
   },
   "name": "Puck",

@@ -35,7 +35,10 @@
       "goal": "Artist",
       "fear": "Bug Mask",
       "quote": "Soaring through the sky takes more than a pair of wings.",
-      "siblings": "Fourth of 6 kids"
+      "siblings": "Fourth of 6 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "Pink"
     }
   },
   "name": "Sandy",

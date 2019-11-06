@@ -28,10 +28,12 @@
       "phrase": "toasty",
       "skill": "Shadow puppetry",
       "goal": "Professor",
-      "style": "Basic",
       "fear": "Mummy Mask",
       "quote": "A friend who shares is a friend who cares.",
-      "siblings": "Second of 4 kids"
+      "siblings": "Second of 4 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "green"
     }
   },
   "name": "Melba",

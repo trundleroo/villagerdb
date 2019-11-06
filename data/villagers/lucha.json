@@ -15,10 +15,12 @@
       "phrase": "cacaw",
       "skill": "Making faces",
       "goal": "Pro wrestler",
-      "style": "Sporty",
       "fear": "Bug Mask",
       "quote": "Birds of a feather, et cetera, et cetera...",
-      "siblings": "Fifth of 6 kids"
+      "siblings": "Fifth of 6 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "red"
     }
   },
   "name": "Lucha",

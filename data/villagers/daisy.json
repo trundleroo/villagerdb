@@ -49,10 +49,12 @@
       "phrase": "bow-WOW",
       "skill": "Making budgets",
       "goal": "Archaeologist",
-      "style": "Basic",
       "fear": "Werewolf Hood",
       "quote": "It's not always a dog-eat-dog world.",
-      "siblings": "Eldest of 9 kids"
+      "siblings": "Eldest of 9 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "brown"
     }
   },
   "name": "Daisy",

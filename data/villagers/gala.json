@@ -21,10 +21,12 @@
       "phrase": "snortie",
       "skill": "Rock-paper-scissors",
       "goal": "Violinist",
-      "style": "Cute",
       "fear": "Monster Mask",
       "quote": "Still waters run deep.",
-      "siblings": "Youngest of 2 kids"
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "pink"
     }
   },
   "name": "Gala",

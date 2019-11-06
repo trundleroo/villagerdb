@@ -49,10 +49,12 @@
       "phrase": "ten-hut",
       "skill": "Playing jacks",
       "goal": "Pilot",
-      "style": "Rock 'n' roll",
       "fear": "Mummy Mask",
       "quote": "What you can't see can't hurt you.",
-      "siblings": "Second of 5 kids"
+      "siblings": "Second of 5 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "blue"
     }
   },
   "name": "Camofrog",

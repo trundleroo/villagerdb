@@ -15,10 +15,12 @@
       "phrase": "pine nut",
       "skill": "Spoon bending",
       "goal": "Stylist",
-      "style": "Ornate",
       "fear": "Werewolf Hood",
       "quote": "Don't pine for the past.",
-      "siblings": "Older twin"
+      "siblings": "Older twin",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "brown"
     }
   },
   "name": "Timbra",

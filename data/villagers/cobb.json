@@ -36,10 +36,12 @@
       "phrase": "hot dog",
       "skill": "Debating",
       "goal": "Teacher",
-      "style": "Official",
       "fear": "Mummy Mask",
       "quote": "Might makes right.",
-      "siblings": "Second of 6 kids"
+      "siblings": "Second of 6 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "gray"
     }
   },
   "name": "Cobb",

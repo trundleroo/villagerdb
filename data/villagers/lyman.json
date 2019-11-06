@@ -15,10 +15,12 @@
       "phrase": "chips",
       "skill": "Forgetting stuff",
       "goal": "Astronaut",
-      "style": "Official",
       "fear": "Ghost Mask",
       "quote": "Eucalyptus is the spice of life.",
-      "siblings": "Fifth of 6 kids"
+      "siblings": "Fifth of 6 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "green"
     }
   },
   "name": "Lyman",

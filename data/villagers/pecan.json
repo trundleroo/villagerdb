@@ -49,10 +49,12 @@
       "phrase": "chipmunk",
       "skill": "Forgetting stuff",
       "goal": "Translator",
-      "style": "Official",
       "fear": "Werewolf Hood",
       "quote": "Promises are like pie crusts - they're made to be broken.",
-      "siblings": "Older twin"
+      "siblings": "Older twin",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "red"
     }
   },
   "name": "Pecan",

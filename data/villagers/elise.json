@@ -28,10 +28,12 @@
       "phrase": "puh-lease",
       "skill": "Mental math",
       "goal": "Archaeologist",
-      "style": "Official",
       "fear": "Bug Mask",
       "quote": "Do as I say, not as I do.",
-      "siblings": "Eldest of 4 sisters"
+      "siblings": "Eldest of 4 sisters",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "colorful"
     }
   },
   "name": "Elise",

@@ -46,10 +46,12 @@
       "phrase": "silly",
       "skill": "Karaoke",
       "goal": "Movie star",
-      "style": "Cute",
       "fear": "Werewolf Hood",
       "quote": "One good purr deserves another.",
-      "siblings": "Eldest of 2 kids"
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "red"
     }
   },
   "name": "Rosie",

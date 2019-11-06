@@ -21,10 +21,12 @@
       "phrase": "clip-clawp",
       "skill": "Pretending to sleep",
       "goal": "Superhero",
-      "style": "Flashy",
       "fear": "Skeleton Hood",
       "quote": "The grass is always greener.",
-      "siblings": "Eldest of 9 kids"
+      "siblings": "Eldest of 9 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "colorful"
     }
   },
   "name": "Clyde",

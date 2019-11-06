@@ -49,10 +49,12 @@
       "phrase": "snoot",
       "skill": "Memorizing stuff",
       "goal": "Doctor",
-      "style": "Official",
       "fear": "Ghost Mask",
       "quote": "However little you think of an elephant, you can't say it won't fill a pot.",
-      "siblings": "Middle of 3 kids"
+      "siblings": "Middle of 3 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "white"
     }
   },
   "name": "Opal",

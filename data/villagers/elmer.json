@@ -49,10 +49,12 @@
       "phrase": "tenderfoot",
       "skill": "Playing Old Maid",
       "goal": "Police officer",
-      "style": "Basic",
       "fear": "Skeleton Hood",
       "quote": "The horse doesn't pull the cart, the oats do.",
-      "siblings": "Youngest of 5 kids"
+      "siblings": "Youngest of 5 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "green"
     }
   },
   "name": "Elmer",

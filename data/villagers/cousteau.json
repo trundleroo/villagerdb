@@ -42,10 +42,12 @@
       "phrase": "oui oui",
       "skill": "Telling jokes",
       "goal": "CEO",
-      "style": "Iconic",
       "fear": "Bug Mask",
       "quote": "Jump first; ask questions later.",
-      "siblings": "Eldest of 7 kids"
+      "siblings": "Eldest of 7 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "red"
     }
   },
   "name": "Cousteau",

@@ -15,10 +15,12 @@
       "phrase": "no doy",
       "skill": "Writing about pickles",
       "goal": "Dermatologist",
-      "style": "Iconic",
       "fear": "Monster Mask",
       "quote": "Sometimes you have to lose to win.",
-      "siblings": "Eldest of 5 kids"
+      "siblings": "Eldest of 5 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "white"
     }
   },
   "name": "Diana",

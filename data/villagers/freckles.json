@@ -49,10 +49,12 @@
       "phrase": "ducky",
       "skill": "Staying awake",
       "goal": "Pharmacist",
-      "style": "Flashy",
       "fear": "Werewolf Hood",
       "quote": "Act now before you change your mind!",
-      "siblings": "Middle triplet"
+      "siblings": "Middle triplet",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "colorful"
     }
   },
   "name": "Freckles",

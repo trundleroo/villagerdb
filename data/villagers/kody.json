@@ -49,10 +49,12 @@
       "phrase": "okey-dokey",
       "skill": "Eating frequently",
       "goal": "Baseball player",
-      "style": "Sporty",
       "fear": "Monster Mask",
       "quote": "The sky's the limit!",
-      "siblings": "Third quadruplet"
+      "siblings": "Third quadruplet",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "colorful"
     }
   },
   "name": "Kody",

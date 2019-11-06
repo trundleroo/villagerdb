@@ -15,10 +15,12 @@
       "phrase": "quite so",
       "skill": "Dusting",
       "goal": "Chef",
-      "style": "Official",
       "fear": "Mummy Mask",
       "quote": "Nothing beats personal experience.",
-      "siblings": "Fourth of 5 kids"
+      "siblings": "Fourth of 5 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "white"
     }
   },
   "name": "Blanche",

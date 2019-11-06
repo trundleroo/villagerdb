@@ -15,10 +15,12 @@
       "phrase": "capital",
       "skill": "Tiptoeing",
       "goal": "Firefighter",
-      "style": "Iconic",
       "fear": "Ghost Mask",
       "quote": "Set 'em up and knock 'em down.",
-      "siblings": "Middle triplet"
+      "siblings": "Middle triplet",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "red"
     }
   },
   "name": "Rory",

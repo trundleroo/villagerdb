@@ -28,10 +28,12 @@
       "phrase": "chimpy",
       "skill": "Making puns",
       "goal": "Artist",
-      "style": "Flashy",
       "fear": "Mummy Mask",
       "quote": "Always be down to monkey around.",
-      "siblings": "Youngest of 3 kids"
+      "siblings": "Youngest of 3 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "brown"
     }
   },
   "name": "Tammi",

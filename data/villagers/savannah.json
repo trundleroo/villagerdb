@@ -49,10 +49,12 @@
       "phrase": "y'all",
       "skill": "Calculating tips",
       "goal": "Tour guide",
-      "style": "Modern",
       "fear": "Monster Mask",
       "quote": "Keep your chin up!",
-      "siblings": "Second of 6 kids"
+      "siblings": "Second of 6 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "gray"
     }
   },
   "name": "Savannah",

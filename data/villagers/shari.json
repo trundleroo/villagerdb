@@ -15,10 +15,12 @@
       "phrase": "cheeky",
       "skill": "Remembering stuff",
       "goal": "Figure skater",
-      "style": "Cute",
       "fear": "Ghost Mask",
       "quote": "A good start leads to a good end.",
-      "siblings": "Third of 4 kids"
+      "siblings": "Third of 4 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "beige"
     }
   },
   "name": "Shari",

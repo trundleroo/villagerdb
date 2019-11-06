@@ -49,10 +49,12 @@
       "phrase": "li'l hare",
       "skill": "Debating",
       "goal": "Superhero",
-      "style": "Basic",
       "fear": "Monster Mask",
       "quote": "Fake it till you make it!",
-      "siblings": "Eldest of 9 kids"
+      "siblings": "Eldest of 9 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "pink"
     }
   },
   "name": "Pippy",

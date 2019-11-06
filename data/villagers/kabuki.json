@@ -46,10 +46,12 @@
       "phrase": "meooo-OH",
       "skill": "Drawing circles",
       "goal": "Actor",
-      "style": "Historical",
       "fear": "Skeleton Hood",
       "quote": "If you make your opponent flinch, you have already won.",
-      "siblings": "Eldest of 3 kids"
+      "siblings": "Eldest of 3 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "purple"
     }
   },
   "name": "Kabuki",

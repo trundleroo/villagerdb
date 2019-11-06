@@ -49,10 +49,12 @@
       "phrase": "grooof",
       "skill": "Playing Old Maid",
       "goal": "Police officer",
-      "style": "Basic",
       "fear": "Mummy Mask",
       "quote": "No pain, no gain!",
-      "siblings": "Eldest of 2 kids"
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "black"
     }
   },
   "name": "Teddy",

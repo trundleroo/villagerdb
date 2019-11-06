@@ -15,10 +15,12 @@
       "phrase": "tokana",
       "skill": "Cramming for tests",
       "goal": "Artist",
-      "style": "Sporty",
       "fear": "Ghost Mask",
       "quote": "Always land on your feet!",
-      "siblings": "Third of 6 kids"
+      "siblings": "Third of 6 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "beige"
     }
   },
   "name": "Rudy",

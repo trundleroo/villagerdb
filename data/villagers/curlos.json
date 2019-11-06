@@ -20,10 +20,12 @@
       "phrase": "shearly",
       "skill": "Calculating tips",
       "goal": "Actor",
-      "style": "Rock 'n' roll",
       "fear": "Werewolf Hood",
       "quote": "If you want to know yourself, ask your neighbors.",
-      "siblings": "Eldest quadruplet"
+      "siblings": "Eldest quadruplet",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "yellow"
     }
   },
   "name": "Curlos",

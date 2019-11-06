@@ -42,10 +42,12 @@
       "phrase": "GAHHHH",
       "skill": "Chugging milk",
       "goal": "Rugby player",
-      "style": "Sporty",
       "fear": "Ghost Mask",
       "quote": "If the mask fits, wear it!",
-      "siblings": "Third quintuplet"
+      "siblings": "Third quintuplet",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Official",
+      "favoriteColor": "blue"
     }
   },
   "name": "Stinky",

@@ -35,7 +35,10 @@
       "quote": "If you can't say something nice, don't say anything at all.",
       "skill": "Tongue twisters",
       "goal": "Pharmacist",
-      "siblings": "Middle triplet"
+      "siblings": "Middle triplet",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "pink"
     }
   },
   "name": "Marina",

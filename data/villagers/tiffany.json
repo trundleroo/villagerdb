@@ -49,10 +49,12 @@
       "phrase": "bun bun",
       "skill": "Oversleeping",
       "goal": "CEO",
-      "style": "Rock 'n' roll",
       "fear": "Skeleton Hood",
       "quote": "What is cheap is most costly.",
-      "siblings": "Third of 4 kids"
+      "siblings": "Third of 4 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Official",
+      "favoriteColor": "red"
     }
   },
   "name": "Tiffany",

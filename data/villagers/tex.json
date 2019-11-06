@@ -15,10 +15,12 @@
       "phrase": "picante",
       "skill": "Sprinting",
       "goal": "Basketball player",
-      "style": "Rock 'n' roll",
       "fear": "Ghost Mask",
       "quote": "Rules were made to be broken.",
-      "siblings": "Eldest of 4 kids"
+      "siblings": "Eldest of 4 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Official",
+      "favoriteColor": "purple"
     }
   },
   "name": "Tex",

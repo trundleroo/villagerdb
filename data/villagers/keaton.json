@@ -15,10 +15,12 @@
       "phrase": "wingo",
       "skill": "Tongue twisters",
       "goal": "Musician",
-      "style": "Flashy",
       "fear": "Werewolf Hood",
       "quote": "Even in a room full of fools, someone is the smartest.",
-      "siblings": "Fifth of 6 kids"
+      "siblings": "Fifth of 6 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "aqua"
     }
   },
   "name": "Keaton",

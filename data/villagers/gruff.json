@@ -36,10 +36,12 @@
       "phrase": "bleh eh eh",
       "skill": "Staying up late",
       "goal": "Musician",
-      "style": "Historical",
       "fear": "Skeleton Hood",
       "quote": "Don't burn bridges.",
-      "siblings": "Eldest of 9 kids"
+      "siblings": "Eldest of 9 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "purple"
     }
   },
   "name": "Gruff",

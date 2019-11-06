@@ -15,10 +15,12 @@
       "phrase": "Indeed",
       "skill": "Computing",
       "goal": "Writer",
-      "style": "Historical",
       "fear": "Werewolf Hood",
       "quote": "Knowledge is power.",
-      "siblings": "Third quintuplet"
+      "siblings": "Third quintuplet",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "orange"
     }
   },
   "name": "Graham",

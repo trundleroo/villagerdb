@@ -26,10 +26,12 @@
       "phrase": "shweetie",
       "skill": "Stomping around",
       "goal": "Movie star",
-      "style": "Sporty",
       "fear": "Monster Mask",
       "quote": "We're all diamonds in the rough.",
-      "siblings": "Youngest of 5 kids"
+      "siblings": "Youngest of 5 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Official",
+      "favoriteColor": "blue"
     }
   },
   "name": "Peggy",

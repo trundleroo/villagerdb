@@ -46,10 +46,12 @@
       "phrase": "snoutie",
       "skill": "Trivia",
       "goal": "Actor",
-      "style": "Cute",
       "fear": "Monster Mask",
       "quote": "The best things in life are free.",
-      "siblings": "Youngest of 6 kids"
+      "siblings": "Youngest of 6 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "pink"
     }
   },
   "name": "Truffles",

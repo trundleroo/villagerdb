@@ -15,10 +15,12 @@
       "phrase": "nuh uh",
       "skill": "Making faces",
       "goal": "Tennis player",
-      "style": "Sporty",
       "fear": "Werewolf Hood",
       "quote": "It's never too late to start over.",
-      "siblings": "Second of 6 kids"
+      "siblings": "Second of 6 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "orange"
     }
   },
   "name": "Canberra",

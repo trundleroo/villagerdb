@@ -33,7 +33,10 @@
       "goal": "Hairstylist",
       "fear": "Bug Mask",
       "quote": "When it works, it works.",
-      "siblings": "Youngest of 3 kids"
+      "siblings": "Youngest of 3 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "Blue"
     }
   },
   "name": "Paolo",

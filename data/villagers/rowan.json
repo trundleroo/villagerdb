@@ -51,7 +51,10 @@
       "quote": "Refuse to lose.",
       "skill": "Waking up early",
       "goal": "Basketball player",
-      "siblings": "Middle triplet"
+      "siblings": "Middle triplet",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "yellow"
     }
   },
   "name": "Rowan",

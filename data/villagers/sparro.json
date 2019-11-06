@@ -15,10 +15,12 @@
       "phrase": "like whoa",
       "skill": "Writing about pickles",
       "goal": "Musician",
-      "style": "Historical",
       "fear": "Skeleton Hood",
       "quote": "The proof of the pudding is in the eating.",
-      "siblings": "Fourth of 5 kids"
+      "siblings": "Fourth of 5 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "gray"
     }
   },
   "name": "Sparro",

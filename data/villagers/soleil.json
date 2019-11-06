@@ -15,10 +15,12 @@
       "phrase": "tarnation",
       "skill": "Skimming books",
       "goal": "Translator",
-      "style": "Modern",
       "fear": "Ghost Mask",
       "quote": "Sometimes dreams are merely dreams.",
-      "siblings": "Fourth of 6 kids"
+      "siblings": "Fourth of 6 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "orange"
     }
   },
   "name": "Soleil",

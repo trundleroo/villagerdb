@@ -15,10 +15,12 @@
       "phrase": "gruff",
       "skill": "Memorizing stuff",
       "goal": "Pro golfer",
-      "style": "Rock 'n' roll",
       "fear": "Bug Mask",
       "quote": "Nobody's perfect.",
-      "siblings": "Eldest of 3 kids"
+      "siblings": "Eldest of 3 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "blue"
     }
   },
   "name": "Bruce",

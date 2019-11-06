@@ -46,7 +46,10 @@
       "quote": "A wise duck takes care of her bill.",
       "skill": "Stomping around",
       "goal": "Makeup artist",
-      "siblings": "Second of 4 sisters"
+      "siblings": "Second of 4 sisters",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "white"
     }
   },
   "name": "Maelle",

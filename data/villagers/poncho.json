@@ -49,10 +49,12 @@
       "phrase": "li'l bear",
       "skill": "Making puns",
       "goal": "Astronaut",
-      "style": "Basic",
       "fear": "Monster Mask",
       "quote": "Fortune favors the brave!",
-      "siblings": "Second of 6 kids"
+      "siblings": "Second of 6 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "orange"
     }
   },
   "name": "Poncho",

@@ -20,10 +20,12 @@
       "phrase": "yodelay",
       "skill": "Baton twirling",
       "goal": "Volleyball player",
-      "style": "Flashy",
       "fear": "Monster Mask",
       "quote": "Trends always make a comeback.",
-      "siblings": "Eldest of 4 kids"
+      "siblings": "Eldest of 4 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "orange"
     }
   },
   "name": "Paula",

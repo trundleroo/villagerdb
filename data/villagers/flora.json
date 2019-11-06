@@ -15,10 +15,12 @@
       "phrase": "pinky",
       "skill": "Staying awake",
       "goal": "Gymnast",
-      "style": "Modern",
       "fear": "Werewolf Hood",
       "quote": "Pink is the new black.",
-      "siblings": "Youngest of 4 sisters"
+      "siblings": "Youngest of 4 sisters",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "pink"
     }
   },
   "name": "Flora",

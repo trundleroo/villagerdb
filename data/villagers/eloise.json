@@ -46,10 +46,12 @@
       "phrase": "tooooot",
       "skill": "Memorizing stuff",
       "goal": "Painter",
-      "style": "Official",
       "fear": "Ghost Mask",
       "quote": "An elephant never forgets.",
-      "siblings": "Second of 4 kids"
+      "siblings": "Second of 4 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "green"
     }
   },
   "name": "Eloise",

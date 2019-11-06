@@ -49,10 +49,12 @@
       "phrase": "niblet",
       "skill": "Juggling",
       "goal": "Journalist",
-      "style": "Cute",
       "fear": "Bug Mask",
       "quote": "Appearances are, like, totally deceiving.",
-      "siblings": "Eldest of 9 kids"
+      "siblings": "Eldest of 9 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "brown"
     }
   },
   "name": "Nibbles",

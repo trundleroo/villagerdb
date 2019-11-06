@@ -15,10 +15,12 @@
       "phrase": "girlfriend",
       "skill": "Home repair",
       "goal": "Makeup artist",
-      "style": "Rock 'n' roll",
       "fear": "Ghost Mask",
       "quote": "It takes one to know one.",
-      "siblings": "Youngest of 2 kids"
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "pink"
     }
   },
   "name": "Fuchsia",

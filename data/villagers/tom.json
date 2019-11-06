@@ -42,10 +42,12 @@
       "phrase": "me-YOWZA",
       "skill": "Doing chin-ups",
       "goal": "Guitarist",
-      "style": "Rock 'n' roll",
       "fear": "Skeleton Hood",
       "quote": "There's no use crying over spilled milk.",
-      "siblings": "Second quadruplet"
+      "siblings": "Second quadruplet",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "brown"
     }
   },
   "name": "Tom",

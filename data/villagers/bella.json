@@ -49,10 +49,12 @@
       "phrase": "eeks",
       "skill": "Staying up late",
       "goal": "Singer",
-      "style": "Rock 'n' roll",
       "fear": "Monster Mask",
       "quote": "A head shot is worth a thousand words.",
-      "siblings": "Youngest of 4 sisters"
+      "siblings": "Youngest of 4 sisters",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "black"
     }
   },
   "name": "Bella",

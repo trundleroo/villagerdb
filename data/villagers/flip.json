@@ -15,10 +15,12 @@
       "phrase": "rerack",
       "skill": "Climbing trees",
       "goal": "Pro golfer",
-      "style": "Sporty",
       "fear": "Ghost Mask",
       "quote": "See no donut, hear no donut, speak no donut.",
-      "siblings": "Second of 4 kids"
+      "siblings": "Second of 4 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "yellow"
     }
   },
   "name": "Flip",

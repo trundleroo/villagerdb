@@ -15,10 +15,12 @@
       "phrase": "what what",
       "skill": "Waking up early",
       "goal": "Dancer",
-      "style": "Rock 'n' roll",
       "fear": "Ghost Mask",
       "quote": "One dog barks at something; the rest bark at him.",
-      "siblings": "Second of 5 kids"
+      "siblings": "Second of 5 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Official",
+      "favoriteColor": "purple"
     }
   },
   "name": "Cherry",

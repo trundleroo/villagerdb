@@ -38,7 +38,10 @@
       "goal": "Soccer player",
       "fear": "Werewolf Hood",
       "quote": "There's no excuse for half-baked potatoes.",
-      "siblings": "Fourth quintuplet"
+      "siblings": "Fourth quintuplet",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "Green"
     }
   },
   "name": "Tybalt",

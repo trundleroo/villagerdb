@@ -26,10 +26,12 @@
       "phrase": "mweee",
       "skill": "Vaulting",
       "goal": "Figure skater",
-      "style": "Cute",
       "fear": "Werewolf Hood",
       "quote": "A smile increases your face value.",
-      "siblings": "Eldest of 2 kids"
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "aqua"
     }
   },
   "name": "Merry",

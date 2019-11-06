@@ -49,10 +49,12 @@
       "phrase": "wee one",
       "skill": "Home repair",
       "goal": "Tennis player",
-      "style": "Modern",
       "fear": "Monster Mask",
       "quote": "It's always a good hare day.",
-      "siblings": "Youngest triplet"
+      "siblings": "Youngest triplet",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Official",
+      "favoriteColor": "black"
     }
   },
   "name": "Dotty",

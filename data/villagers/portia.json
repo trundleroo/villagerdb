@@ -46,10 +46,12 @@
       "phrase": "ruffian",
       "skill": "Photography",
       "goal": "Stylist",
-      "style": "Modern",
       "fear": "Monster Mask",
       "quote": "Charity begins at home.",
-      "siblings": "Second of 6 kids"
+      "siblings": "Second of 6 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "white"
     }
   },
   "name": "Portia",

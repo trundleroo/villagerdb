@@ -15,10 +15,12 @@
       "phrase": "heh heh",
       "skill": "Javelin throwing",
       "goal": "Master of the world",
-      "style": "Iconic",
       "fear": "Ghost Mask",
       "quote": "Never be ashamed to pig out.",
-      "siblings": "Only child"
+      "siblings": "Only child",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "Black"
     }
   },
   "name": "Ganon",

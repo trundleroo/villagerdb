@@ -38,7 +38,10 @@
       "goal": "Tour guide",
       "fear": "Bug Mask",
       "quote": "The IT revolution is under way.",
-      "siblings": "Middle triplet"
+      "siblings": "Middle triplet",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "Pink"
     }
   },
   "name": "Maddie",

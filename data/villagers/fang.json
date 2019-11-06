@@ -42,10 +42,12 @@
       "phrase": "cha-chomp",
       "skill": "Mental math",
       "goal": "Hair stylist",
-      "style": "Official",
       "fear": "Werewolf Hood",
       "quote": "You mess with the wolf, you get the fangs.",
-      "siblings": "Eldest of 4 kids"
+      "siblings": "Eldest of 4 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "beige"
     }
   },
   "name": "Fang",

@@ -15,10 +15,12 @@
       "phrase": "cardio",
       "skill": "Making puns",
       "goal": "Mayor",
-      "style": "Rock 'n' roll",
       "fear": "Mummy Mask",
       "quote": "Winners don't quit, and quitters never win.",
-      "siblings": "Fourth quintuplet"
+      "siblings": "Fourth quintuplet",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "orange"
     }
   },
   "name": "Sheldon",

@@ -49,10 +49,12 @@
       "phrase": "ah-rooooo",
       "skill": "Fishing",
       "goal": "Forest ranger",
-      "style": "Rock 'n' roll",
       "fear": "Werewolf Hood",
       "quote": "If it's not one thing, it's another.",
-      "siblings": "Third quadruplet"
+      "siblings": "Third quadruplet",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Official",
+      "favoriteColor": "black"
     }
   },
   "name": "Lobo",

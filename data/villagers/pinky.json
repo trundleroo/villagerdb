@@ -49,10 +49,12 @@
       "phrase": "cubbie",
       "skill": "Hula dancing",
       "goal": "Cartoonist",
-      "style": "Cute",
       "fear": "Skeleton Hood",
       "quote": "Time spent with friends is time well spent!",
-      "siblings": "Eldest of 3 sisters"
+      "siblings": "Eldest of 3 sisters",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "red"
     }
   },
   "name": "Pinky",

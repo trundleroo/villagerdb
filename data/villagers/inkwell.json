@@ -12,7 +12,10 @@
       "quote": "A sucker is born every minute.",
       "skill": "Defending territory",
       "goal": "Squid",
-      "siblings": "Only child"
+      "siblings": "Only child",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "None"
     }
   },
   "coffee": {

@@ -15,10 +15,12 @@
       "phrase": "cluckadoo",
       "skill": "Typing",
       "goal": "Translator",
-      "style": "Flashy",
       "fear": "Ghost Mask",
       "quote": "Don't peck the hand that feeds you.",
-      "siblings": "Younger twin"
+      "siblings": "Younger twin",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "black"
     }
   },
   "name": "Broffina",

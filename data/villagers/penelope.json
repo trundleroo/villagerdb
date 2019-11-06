@@ -15,10 +15,12 @@
       "phrase": "oh bow",
       "skill": "Photography",
       "goal": "Actor",
-      "style": "Cute",
       "fear": "Monster Mask",
       "quote": "One mile or a thousand makes no difference to love.",
-      "siblings": "Younger twin sister"
+      "siblings": "Younger twin sister",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "pink"
     }
   },
   "name": "Penelope",

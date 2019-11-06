@@ -49,10 +49,12 @@
       "phrase": "pardner",
       "skill": "Vaulting",
       "goal": "Basketball player",
-      "style": "Sporty",
       "fear": "Werewolf Hood",
       "quote": "Keep your eyes on the prize.",
-      "siblings": "Only child"
+      "siblings": "Only child",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "brown"
     }
   },
   "name": "Buck",

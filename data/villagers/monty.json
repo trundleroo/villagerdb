@@ -28,10 +28,12 @@
       "phrase": "g'tang",
       "skill": "Yo-yoing",
       "goal": "Detective",
-      "style": "Iconic",
       "fear": "Skeleton Hood",
       "quote": "No news is good news.",
-      "siblings": "Second of 5 kids"
+      "siblings": "Second of 5 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Official",
+      "favoriteColor": "blue"
     }
   },
   "name": "Monty",

@@ -28,10 +28,12 @@
       "phrase": "pushy",
       "skill": "Staying up late",
       "goal": "Violinist",
-      "style": "Flashy",
       "fear": "Ghost Mask",
       "quote": "It takes two to tango.",
-      "siblings": "Third of 6 kids"
+      "siblings": "Third of 6 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "colorful"
     }
   },
   "name": "Tipper",

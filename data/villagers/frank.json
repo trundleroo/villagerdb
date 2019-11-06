@@ -20,10 +20,12 @@
       "phrase": "crushy",
       "skill": "Pretending to sleep",
       "goal": "Teacher",
-      "style": "Rock 'n' roll",
       "fear": "Ghost Mask",
       "quote": "Today is the last day of the rest of your life.",
-      "siblings": "Third of 4 kids"
+      "siblings": "Third of 4 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Official",
+      "favoriteColor": "gray"
     }
   },
   "name": "Frank",

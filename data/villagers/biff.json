@@ -36,10 +36,12 @@
       "phrase": "squirt",
       "skill": "Limboing",
       "goal": "Basketball player",
-      "style": "Flashy",
       "fear": "Ghost Mask",
       "quote": "Eighth place is just the seventh loser.",
-      "siblings": "Second of 4 kids"
+      "siblings": "Second of 4 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "green"
     }
   },
   "name": "Biff",

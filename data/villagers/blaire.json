@@ -49,10 +49,12 @@
       "phrase": "nutlet",
       "skill": "Calligraphy",
       "goal": "Doctor",
-      "style": "Official",
       "fear": "Werewolf Hood",
       "quote": "Practice makes perfect.",
-      "siblings": "Fourth of 5 kids"
+      "siblings": "Fourth of 5 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "orange"
     }
   },
   "name": "Blaire",

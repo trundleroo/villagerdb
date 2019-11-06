@@ -22,7 +22,10 @@
       "goal": "Superhero",
       "fear": "Skeleton Hood",
       "quote": "Remember to see the forest between the trees.",
-      "siblings": "Eldest of 4 sisters"
+      "siblings": "Eldest of 4 sisters",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "White"
     }
   },
   "name": "Sylvana",

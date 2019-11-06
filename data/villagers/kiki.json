@@ -49,10 +49,12 @@
       "phrase": "kitty cat",
       "skill": "Fishing",
       "goal": "Writer",
-      "style": "Basic",
       "fear": "Bug Mask",
       "quote": "Nothing ventured, nothing gained.",
-      "siblings": "Second of 5 kids"
+      "siblings": "Second of 5 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "brown"
     }
   },
   "name": "Kiki",

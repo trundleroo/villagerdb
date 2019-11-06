@@ -22,7 +22,10 @@
       "goal": "An explorer",
       "fear": "Werewolf Hood",
       "quote": "Which came first, the seeds or the sunflower?",
-      "siblings": "Fourth of 6 kids"
+      "siblings": "Fourth of 6 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "Brown"
     }
   },
   "name": "Wade",

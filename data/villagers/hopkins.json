@@ -20,10 +20,12 @@
       "phrase": "thumper",
       "skill": "Oversleeping",
       "goal": "Chef",
-      "style": "Sporty",
       "fear": "Ghost Mask",
       "quote": "A wise man gives danger a wide berth.",
-      "siblings": "Youngest quintuplet"
+      "siblings": "Youngest quintuplet",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "Yellow"
     }
   },
   "name": "Hopkins",

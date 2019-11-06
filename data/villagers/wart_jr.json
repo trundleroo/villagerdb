@@ -47,10 +47,12 @@
       "phrase": "grr-ribbit",
       "skill": "Writing Backwards",
       "goal": "Detective",
-      "style": "Historical",
       "fear": "Mummy Mask",
       "quote": "Age before beauty.",
-      "siblings": "Second of quadruplets"
+      "siblings": "Second of quadruplets",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "green"
     }
   },
   "name": "Wart Jr.",

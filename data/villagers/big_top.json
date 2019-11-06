@@ -49,10 +49,12 @@
       "phrase": "villain",
       "skill": "Tiptoeing",
       "goal": "Superhero",
-      "style": "Basic",
       "fear": "Bug Mask",
       "quote": "A big nose never spoiled a handsome face.",
-      "siblings": "Third of 5 kids"
+      "siblings": "Third of 5 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "blue"
     }
   },
   "name": "Big Top",

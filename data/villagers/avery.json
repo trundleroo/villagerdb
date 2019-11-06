@@ -26,10 +26,12 @@
       "phrase": "skree-haw",
       "skill": "Skimming books",
       "goal": "Professor",
-      "style": "Iconic",
       "fear": "Ghost Mask",
       "quote": "What goes around comes around.",
-      "siblings": "Older twin"
+      "siblings": "Older twin",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "brown"
     }
   },
   "name": "Avery",

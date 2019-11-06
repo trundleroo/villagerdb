@@ -49,10 +49,12 @@
       "phrase": "kid",
       "skill": "Playing horseshoes",
       "goal": "Illustrator",
-      "style": "Basic",
       "fear": "Ghost Mask",
       "quote": "Nanny-nanny boo-boo!",
-      "siblings": "Fourth of 5 kids"
+      "siblings": "Fourth of 5 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "black"
     }
   },
   "name": "Nan",

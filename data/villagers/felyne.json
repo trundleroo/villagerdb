@@ -13,12 +13,14 @@
       "clothes": "Felyne's Suit",
       "song": "K.K. March",
       "phrase": "nya",
-      "style": "Sporty",
       "fear": "Monster Mask",
       "quote": "♪ Calmly gathering. Ah, the life of a hunter. ♪",
       "skill": "Befriending cats",
       "goal": "Monster hunter",
-      "siblings": "Only child"
+      "siblings": "Only child",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "None"
     }
   },
   "name": "Felyne",

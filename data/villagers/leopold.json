@@ -38,7 +38,10 @@
       "goal": "Professor",
       "fear": "Monster Mask",
       "quote": "The bigger the first, the bigger your dinner.",
-      "siblings": "Eldest triplet"
+      "siblings": "Eldest triplet",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "Green"
     }
   },
   "name": "Leopold",

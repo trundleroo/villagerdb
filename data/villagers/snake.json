@@ -49,10 +49,12 @@
       "phrase": "bunyip",
       "skill": "Playing jacks",
       "goal": "Soccer player",
-      "style": "Sporty",
       "fear": "Bug Mask",
       "quote": "A good ninja is neither seen, nor heard.",
-      "siblings": "Third quadruplet"
+      "siblings": "Third quadruplet",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "black"
     }
   },
   "name": "Snake",

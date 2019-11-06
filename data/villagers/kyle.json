@@ -15,10 +15,12 @@
       "phrase": "alpha",
       "skill": "Typing",
       "goal": "Singer",
-      "style": "Rock 'n' roll",
       "fear": "Skeleton Hood",
       "quote": "Never trust a sheep in wolf's clothing.",
-      "siblings": "Eldest of 10 kids"
+      "siblings": "Eldest of 10 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "gray"
     }
   },
   "name": "Kyle",

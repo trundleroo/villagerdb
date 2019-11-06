@@ -21,10 +21,12 @@
       "phrase": "cluckling",
       "skill": "Calculating tips",
       "goal": "Firefighter",
-      "style": "Iconic",
       "fear": "Mummy Mask",
       "quote": "A man's coop is his castle.",
-      "siblings": "Eldest triplet"
+      "siblings": "Eldest triplet",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "brown"
     }
   },
   "name": "Knox",

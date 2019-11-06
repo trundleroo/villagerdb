@@ -15,10 +15,12 @@
       "phrase": "burrrn",
       "skill": "Blowing bubbles",
       "goal": "Pilot",
-      "style": "Iconic",
       "fear": "Bug Mask",
       "quote": "There's no room for two dragons in one pond.",
-      "siblings": "Fifth of 6 kids"
+      "siblings": "Fifth of 6 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "red"
     }
   },
   "name": "Drago",

@@ -15,10 +15,12 @@
       "phrase": "le ham",
       "skill": "Hitting snooze",
       "goal": "Chef",
-      "style": "Flashy",
       "fear": "Werewolf Hood",
       "quote": "Everything is temporary.",
-      "siblings": "Eldest of 9 kids"
+      "siblings": "Eldest of 9 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "colorful"
     }
   },
   "name": "Rodney",

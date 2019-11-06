@@ -42,10 +42,12 @@
       "phrase": "snork",
       "skill": "Chugging milk",
       "goal": "Poet",
-      "style": "Basic",
       "fear": "Bug Mask",
       "quote": "It's never too late for a snack.",
-      "siblings": "Younger twin brother"
+      "siblings": "Younger twin brother",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "green"
     }
   },
   "name": "Spork",

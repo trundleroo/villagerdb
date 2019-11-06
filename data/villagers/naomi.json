@@ -15,10 +15,12 @@
       "phrase": "moolah",
       "skill": "Photography",
       "goal": "Designer",
-      "style": "Modern",
       "fear": "Ghost Mask",
       "quote": "Moo like there's no tomorrow.",
-      "siblings": "Eldest of 3 kids"
+      "siblings": "Eldest of 3 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "colorful"
     }
   },
   "name": "Naomi",

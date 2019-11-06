@@ -38,7 +38,10 @@
       "goal": "CEO",
       "fear": "Bug Mask",
       "quote": "Take a leap!",
-      "siblings": "Third quintuplet"
+      "siblings": "Third quintuplet",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "Yellow"
     }
   },
   "name": "Tad",

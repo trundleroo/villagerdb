@@ -12,7 +12,10 @@
       "song": "King K.K.",
       "fear": "Bug Mask",
       "quote": "Toby or not Toby? I don't know, I'm asking you.",
-      "siblings": "Youngest of 5 kids"
+      "siblings": "Youngest of 5 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "Green"
     }
   },
   "name": "Toby",

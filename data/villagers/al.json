@@ -21,10 +21,12 @@
       "phrase": "Ayyeeee",
       "skill": "Jumping rope",
       "goal": "Journalist",
-      "style": "Basic",
       "fear": "Mummy Mask",
       "quote": "Life is a buffet - always go back for seconds.",
-      "siblings": "Eldest of 7 kids"
+      "siblings": "Eldest of 7 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Official",
+      "favoriteColor": "pink"
     }
   },
   "name": "Al",

@@ -49,10 +49,12 @@
       "phrase": "honk",
       "skill": "Playing horseshoes",
       "goal": "Baseball player",
-      "style": "Basic",
       "fear": "Mummy Mask",
       "quote": "Always go for the burn!",
-      "siblings": "Youngest of 4 kids"
+      "siblings": "Youngest of 4 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "aqua"
     }
   },
   "name": "Antonio",

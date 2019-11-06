@@ -15,10 +15,12 @@
       "phrase": "whiffa",
       "skill": "Dancing",
       "goal": "Dancer",
-      "style": "Official",
       "fear": "Monster Mask",
       "quote": "Keep your nose clean.",
-      "siblings": "Older twin"
+      "siblings": "Older twin",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "red"
     }
   },
   "name": "Olaf",

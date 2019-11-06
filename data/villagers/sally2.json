@@ -46,10 +46,12 @@
       "phrase": "nutmeg",
       "skill": "Blowing bubbles",
       "goal": "Chef",
-      "style": "Official",
       "fear": "Skeleton Hood",
       "quote": "Even the smallest acorn may grow into the tallest tree.",
-      "siblings": "Youngest of 6 kids"
+      "siblings": "Youngest of 6 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "yellow"
     }
   },
   "name": "Sally",

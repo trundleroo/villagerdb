@@ -49,10 +49,12 @@
       "phrase": "slushie",
       "skill": "Mental math",
       "goal": "Firefighter",
-      "style": "Rock 'n' roll",
       "fear": "Monster Mask",
       "quote": "Always have a comeback.",
-      "siblings": "Eldest of 2 kids"
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "yellow"
     }
   },
   "name": "Hopper",

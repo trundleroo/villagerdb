@@ -46,10 +46,12 @@
       "phrase": "honey",
       "skill": "Writing letters",
       "goal": "Architect",
-      "style": "Basic",
       "fear": "Bug Mask",
       "quote": "Waste not, want not.",
-      "siblings": "Eldest of 4 kids"
+      "siblings": "Eldest of 4 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "yellow"
     }
   },
   "name": "Maple",

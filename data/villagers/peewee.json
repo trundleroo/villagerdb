@@ -49,10 +49,12 @@
       "phrase": "li'l dude",
       "skill": "Karaoke",
       "goal": "Pro wrestler",
-      "style": "Sporty",
       "fear": "Monster Mask",
       "quote": "Look behind you.",
-      "siblings": "Third of 6 kids"
+      "siblings": "Third of 6 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Official",
+      "favoriteColor": "gray"
     }
   },
   "name": "Peewee",

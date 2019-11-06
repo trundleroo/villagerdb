@@ -49,10 +49,12 @@
       "phrase": "splish",
       "skill": "Limboing",
       "goal": "Tennis player",
-      "style": "Ornate",
       "fear": "Skeleton Hood",
       "quote": "Look before you leap.",
-      "siblings": "Younger twin sister"
+      "siblings": "Younger twin sister",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "pink"
     }
   },
   "name": "Puddles",

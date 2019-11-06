@@ -28,10 +28,12 @@
       "phrase": "unh-hunh",
       "skill": "Competitive eating",
       "goal": "Tycoon",
-      "style": "Ornate",
       "fear": "Bug Mask",
       "quote": "Better a live coward than a dead hero.",
-      "siblings": "Eldest quadruplet"
+      "siblings": "Eldest quadruplet",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "gray"
     }
   },
   "name": "Elvis",

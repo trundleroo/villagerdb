@@ -49,10 +49,12 @@
       "phrase": "kerPOW",
       "skill": "Doing push-ups",
       "goal": "Cartoonist",
-      "style": "Rock 'n' roll",
       "fear": "Skeleton Hood",
       "quote": "Remember to keep your core muscles engaged!",
-      "siblings": "Younger twin brother"
+      "siblings": "Younger twin brother",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "green"
     }
   },
   "name": "Tank",

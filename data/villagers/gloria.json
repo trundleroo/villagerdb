@@ -21,10 +21,12 @@
       "phrase": "quacker",
       "skill": "Board games",
       "goal": "Stylist",
-      "style": "Ornate",
       "fear": "Mummy Mask",
       "quote": "Time is money.",
-      "siblings": "Eldest of 2 kids"
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "black"
     }
   },
   "name": "Gloria",

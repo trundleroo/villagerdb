@@ -49,10 +49,12 @@
       "phrase": "snortle",
       "skill": "Eating quickly",
       "goal": "Carpenter",
-      "style": "Modern",
       "fear": "Bug Mask",
       "quote": "Keep it real. Real chill.",
-      "siblings": "Third quadruplet"
+      "siblings": "Third quadruplet",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Official",
+      "favoriteColor": "blue"
     }
   },
   "name": "Hugh",

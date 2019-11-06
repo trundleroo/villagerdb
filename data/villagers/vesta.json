@@ -49,10 +49,12 @@
       "phrase": "baaaffo",
       "skill": "Computing",
       "goal": "Archaeologist",
-      "style": "Historical",
       "fear": "Werewolf Hood",
       "quote": "No sweater off my back.",
-      "siblings": "Eldest of 7 kids"
+      "siblings": "Eldest of 7 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "orange"
     }
   },
   "name": "Vesta",

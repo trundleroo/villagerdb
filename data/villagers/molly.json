@@ -15,10 +15,12 @@
       "phrase": "quackidee",
       "skill": "Drawing circles",
       "goal": "Florist",
-      "style": "Official",
       "fear": "Ghost Mask",
       "quote": "Like water off a duck's back.",
-      "siblings": "Eldest of 9 kids"
+      "siblings": "Eldest of 9 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "beige"
     }
   },
   "name": "Molly",

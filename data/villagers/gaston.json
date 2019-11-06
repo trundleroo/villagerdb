@@ -49,10 +49,12 @@
       "phrase": "mon chou",
       "skill": "Ventriloquism",
       "goal": "Tycoon",
-      "style": "Flashy",
       "fear": "Werewolf Hood",
       "quote": "An ear for an ear leaves everyone deaf.",
-      "siblings": "Eldest triplet"
+      "siblings": "Eldest triplet",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "green"
     }
   },
   "name": "Gaston",

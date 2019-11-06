@@ -20,10 +20,12 @@
       "phrase": "dawayo",
       "skill": "Dusting",
       "goal": "Makeup artist",
-      "style": "Iconic",
       "fear": "Bug Mask",
       "quote": "Onwards and upwards!",
-      "siblings": "Eldest of 3 kids"
+      "siblings": "Eldest of 3 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "Red"
     }
   },
   "name": "Vivian",

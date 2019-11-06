@@ -26,10 +26,12 @@
       "phrase": "faboom",
       "skill": "Blowing bubbles",
       "goal": "Pharmacist",
-      "style": "Historical",
       "fear": "Werewolf Hood",
       "quote": "Pearls are a pink gorilla's best friend.",
-      "siblings": "Second of 5 kids"
+      "siblings": "Second of 5 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "pink"
     }
   },
   "name": "Violet",

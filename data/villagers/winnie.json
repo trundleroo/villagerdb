@@ -42,10 +42,12 @@
       "phrase": "hay-OK",
       "skill": "Tiptoeing",
       "goal": "Volleyball player",
-      "style": "Modern",
       "fear": "Werewolf Hood",
       "quote": "Smile, and the world smiles with you.",
-      "siblings": "Only child"
+      "siblings": "Only child",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "colorful"
     }
   },
   "name": "Winnie",

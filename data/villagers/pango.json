@@ -49,10 +49,12 @@
       "phrase": "snooooof",
       "skill": "Tongue twisters",
       "goal": "Aesthetician",
-      "style": "Modern",
       "fear": "Ghost Mask",
       "quote": "A thing of beauty is a joy forever!",
-      "siblings": "Eldest of 3 kids"
+      "siblings": "Eldest of 3 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "orange"
     }
   },
   "name": "Pango",

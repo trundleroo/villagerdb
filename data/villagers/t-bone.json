@@ -33,10 +33,12 @@
       "phrase": "moocher",
       "skill": "Pretending to sleep",
       "goal": "Police officer",
-      "style": "Historical",
       "fear": "Mummy Mask",
       "quote": "Don't have a cow.",
-      "siblings": "Youngest quadruplet"
+      "siblings": "Youngest quadruplet",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "gray"
     }
   },
   "name": "T-Bone",

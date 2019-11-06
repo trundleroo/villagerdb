@@ -35,7 +35,10 @@
       "quote": "Don't put all your eggs in one basket.",
       "skill": "Remembering stuff",
       "goal": "Poet",
-      "siblings": "Youngest quadruplet"
+      "siblings": "Youngest quadruplet",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "yellow"
     }
   },
   "name": "Benedict",

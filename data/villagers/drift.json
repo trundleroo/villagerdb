@@ -46,10 +46,12 @@
       "phrase": "brah",
       "skill": "Shadow puppetry",
       "goal": "Tycoon",
-      "style": "Flashy",
       "fear": "Bug Mask",
       "quote": "Always go for the gold!",
-      "siblings": "Youngest of 3 kids"
+      "siblings": "Youngest of 3 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "orange"
     }
   },
   "name": "Drift",

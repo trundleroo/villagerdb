@@ -20,10 +20,12 @@
       "phrase": "bowes",
       "skill": "Doing chin ups",
       "goal": "Carpenter",
-      "style": "Rock n' roll",
       "fear": "Bug Mask",
       "quote": "The higher you climb, the smaller things look.",
-      "siblings": "Eldest of 3 kids"
+      "siblings": "Eldest of 3 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "Blue"
     }
   },
   "name": "Ike",

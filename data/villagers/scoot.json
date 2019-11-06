@@ -42,10 +42,12 @@
       "phrase": "zip zoom",
       "skill": "Climbing trees",
       "goal": "Rugby player",
-      "style": "Sporty",
       "fear": "Werewolf Hood",
       "quote": "Some birds avoid the water; ducks look for it.",
-      "siblings": "Fourth of 5 kids"
+      "siblings": "Fourth of 5 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "blue"
     }
   },
   "name": "Scoot",

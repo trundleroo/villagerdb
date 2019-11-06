@@ -35,7 +35,10 @@
       "quote": "The gift says more about the giver.",
       "skill": "Doodling",
       "goal": "Dermatologist",
-      "siblings": "Third of 5 kids"
+      "siblings": "Third of 5 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "white"
     }
   },
   "name": "Bree",

@@ -49,10 +49,12 @@
       "phrase": "it'sa me",
       "skill": "Fishing",
       "goal": "Cartoonist",
-      "style": "Basic",
       "fear": "Bug Mask",
       "quote": "Slow and steady wins the race.",
-      "siblings": "Youngest quintuplet"
+      "siblings": "Youngest quintuplet",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Official",
+      "favoriteColor": "green"
     }
   },
   "name": "Alfonso",

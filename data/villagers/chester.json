@@ -21,10 +21,12 @@
       "phrase": "rookie",
       "skill": "Trivia",
       "goal": "Teacher",
-      "style": "Basic",
       "fear": "Ghost Mask",
       "quote": "Sleep early. Wake late.",
-      "siblings": "Youngest quintuplet"
+      "siblings": "Youngest quintuplet",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "green"
     }
   },
   "name": "Chester",

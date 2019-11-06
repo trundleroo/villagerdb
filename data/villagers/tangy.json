@@ -49,10 +49,12 @@
       "phrase": "reeeeOWR",
       "skill": "Doing handstands",
       "goal": "Hair stylist",
-      "style": "Flashy",
       "fear": "Werewolf Hood",
       "quote": "When life gives you lemons, make lemonade.",
-      "siblings": "Third of 6 kids"
+      "siblings": "Third of 6 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "orange"
     }
   },
   "name": "Tangy",

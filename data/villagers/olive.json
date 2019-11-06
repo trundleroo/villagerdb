@@ -36,10 +36,12 @@
       "phrase": "sweet pea",
       "skill": "Dancing",
       "goal": "Pastry chef",
-      "style": "Basic",
       "fear": "Bug Mask",
       "quote": "Sticky fingers attract bees.",
-      "siblings": "Youngest of 2 kids"
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "Pink"
     }
   },
   "name": "Olive",

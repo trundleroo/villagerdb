@@ -28,10 +28,12 @@
       "phrase": "chaps",
       "skill": "Spoon bending",
       "goal": "Astronaut",
-      "style": "Historical",
       "fear": "Ghost Mask",
       "quote": "Zzzzzzzzzzzzzzzzz...",
-      "siblings": "Youngest triplet"
+      "siblings": "Youngest triplet",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "red"
     }
   },
   "name": "Rodeo",

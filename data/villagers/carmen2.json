@@ -21,10 +21,12 @@
       "phrase": "nougat",
       "skill": "Ventriloquism",
       "goal": "Movie director",
-      "style": "Modern",
       "fear": "Monster Mask",
       "quote": "Absence makes the heart grow fonder.",
-      "siblings": "Eldest of 7 kids"
+      "siblings": "Eldest of 7 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "brown"
     }
   },
   "name": "Carmen",

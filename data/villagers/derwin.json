@@ -49,10 +49,12 @@
       "phrase": "derrrrr",
       "skill": "Brainteasers",
       "goal": "Doctor",
-      "style": "Official",
       "fear": "Monster Mask",
       "quote": "Everything in moderation. Except for snacks.",
-      "siblings": "Only child"
+      "siblings": "Only child",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "beige"
     }
   },
   "name": "Derwin",

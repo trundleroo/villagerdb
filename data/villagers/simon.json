@@ -28,10 +28,12 @@
       "phrase": "zzzook",
       "skill": "Memorizing stuff",
       "goal": "Movie director",
-      "style": "Sporty",
       "fear": "Monster Mask",
       "quote": "Friends go together like peanut butter and bananas.",
-      "siblings": "Third of 6 kids"
+      "siblings": "Third of 6 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Official",
+      "favoriteColor": "colorful"
     }
   },
   "name": "Simon",

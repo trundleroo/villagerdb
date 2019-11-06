@@ -14,11 +14,13 @@
       "song": "Bubblegum K.K.",
       "phrase": "splatastic",
       "skill": "Cosplay",
-      "style": "Sporty",
       "fear": "Skeleton Hood",
       "quote": "TWO heads are better than one!",
       "goal": "Illustrator",
-      "siblings": "Eldest of 2"
+      "siblings": "Eldest of 2",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "None"
     }
   },
   "name": "Viché",

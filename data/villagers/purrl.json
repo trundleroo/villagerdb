@@ -46,10 +46,12 @@
       "phrase": "kitten",
       "skill": "Writing backward",
       "goal": "Movie director",
-      "style": "Iconic",
       "fear": "Monster Mask",
       "quote": "Let them drink cream.",
-      "siblings": "Youngest triplet"
+      "siblings": "Youngest triplet",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "gray"
     }
   },
   "name": "Purrl",

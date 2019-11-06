@@ -22,7 +22,10 @@
       "goal": "CEO",
       "fear": "Mummy Mask",
       "quote": "Cut once, measure twice... Wait- reverse that.",
-      "siblings": "Youngest triplet"
+      "siblings": "Youngest triplet",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "Red"
     }
   },
   "name": "Julia",

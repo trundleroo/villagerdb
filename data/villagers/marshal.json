@@ -15,10 +15,12 @@
       "phrase": "sulky",
       "skill": "Mental math",
       "goal": "Designer",
-      "style": "Ornate",
       "fear": "Ghost Mask",
       "quote": "Seize the day.",
-      "siblings": "Middle kid"
+      "siblings": "Middle kid",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "aqua"
     }
   },
   "name": "Marshal",

@@ -35,7 +35,10 @@
       "goal": "Teacher",
       "fear": "Skeleton Hood",
       "quote": "More money, more problems.",
-      "siblings": "Second of 5 kids"
+      "siblings": "Second of 5 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "White"
     }
   },
   "name": "Murphy",

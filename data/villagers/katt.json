@@ -15,10 +15,12 @@
       "phrase": "purrty",
       "skill": "Playing Old Maid",
       "goal": "Swimmer",
-      "style": "Rock 'n' roll",
       "fear": "Mummy Mask",
       "quote": "MeowMEOWmeow!",
-      "siblings": "Third of 4 kids"
+      "siblings": "Third of 4 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Official",
+      "favoriteColor": "purple"
     }
   },
   "name": "Katt",

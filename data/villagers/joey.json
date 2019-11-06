@@ -49,10 +49,12 @@
       "phrase": "bleeeeeck",
       "skill": "Blowing bubbles",
       "goal": "Sumo wrestler",
-      "style": "Basic",
       "fear": "Monster Mask",
       "quote": "Don't get your feathers all ruffled. Just chill.",
-      "siblings": "Fourth quintuplet"
+      "siblings": "Fourth quintuplet",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "purple"
     }
   },
   "name": "Joey",

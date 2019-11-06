@@ -49,10 +49,12 @@
       "phrase": "pipsqueak",
       "skill": "Eating frequently",
       "goal": "Photographer",
-      "style": "Modern",
       "fear": "Bug Mask",
       "quote": "Squeak softly and carry a big stick.",
-      "siblings": "Second quintuplet"
+      "siblings": "Second quintuplet",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "colorful"
     }
   },
   "name": "Samson",

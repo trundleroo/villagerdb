@@ -42,10 +42,12 @@
       "phrase": "arfer",
       "skill": "Dancing",
       "goal": "Actor",
-      "style": "Cute",
       "fear": "Bug Mask",
       "quote": "Don't lose sight of what you're really after.",
-      "siblings": "Fifth of 6 kids"
+      "siblings": "Fifth of 6 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "green"
     }
   },
   "name": "Cookie",

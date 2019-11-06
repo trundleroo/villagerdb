@@ -22,7 +22,10 @@
       "goal": "Singer",
       "fear": "Werewolf Hood",
       "quote": "When in doubt, eat a tomato!",
-      "siblings": "Eldest triplet"
+      "siblings": "Eldest triplet",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "yellow"
     }
   },
   "name": "Ketchup",

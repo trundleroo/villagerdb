@@ -49,10 +49,12 @@
       "phrase": "eaglet",
       "skill": "Writing about pickles",
       "goal": "Lawyer",
-      "style": "Ornate",
       "fear": "Skeleton Hood",
       "quote": "Pampering yourself is as important as food, water, and shelter!",
-      "siblings": "Eldest of 5 kids"
+      "siblings": "Eldest of 5 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "red"
     }
   },
   "name": "Amelia",

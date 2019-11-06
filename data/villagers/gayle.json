@@ -15,10 +15,12 @@
       "phrase": "snacky",
       "skill": "Hula dancing",
       "goal": "Gymnast",
-      "style": "Cute",
       "fear": "Werewolf Hood",
       "quote": "An ounce of prevention is worth a pound of cure.",
-      "siblings": "Eldest of 2 kids"
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "white"
     }
   },
   "name": "Gayle",

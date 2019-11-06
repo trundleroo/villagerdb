@@ -15,10 +15,12 @@
       "phrase": "fuzzers",
       "skill": "Oversleeping",
       "goal": "Archaeologist",
-      "style": "Iconic",
       "fear": "Bug Mask",
       "quote": "Time makes fossils of us all.",
-      "siblings": "Youngest of 2 kids"
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "orange"
     }
   },
   "name": "Tucker",

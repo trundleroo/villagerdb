@@ -49,10 +49,12 @@
       "phrase": "peach",
       "skill": "Spoon bending",
       "goal": "Cartoonist",
-      "style": "Cute",
       "fear": "Mummy Mask",
       "quote": "Candy makes the world go 'round.",
-      "siblings": "Eldest of 3 sisters"
+      "siblings": "Eldest of 3 sisters",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "blue"
     }
   },
   "name": "Bluebear",

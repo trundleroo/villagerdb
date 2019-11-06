@@ -46,10 +46,12 @@
       "phrase": "b-b-baby",
       "skill": "Making budgets",
       "goal": "Doctor",
-      "style": "Official",
       "fear": "Skeleton Hood",
       "quote": "Just keep your cool.",
-      "siblings": "Youngest of 2 kids"
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "pink"
     }
   },
   "name": "Aurora",

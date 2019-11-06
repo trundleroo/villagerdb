@@ -15,10 +15,12 @@
       "phrase": "cubby",
       "skill": "Computing",
       "goal": "Programmer",
-      "style": "Historical",
       "fear": "Ghost Mask",
       "quote": "Please DO feed the bears!",
-      "siblings": "Eldest of 2 kids"
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "aqua"
     }
   },
   "name": "Barold",

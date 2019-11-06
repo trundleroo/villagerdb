@@ -15,10 +15,12 @@
       "phrase": "Zoink",
       "skill": "Making crafts",
       "goal": "Politician",
-      "style": "Ornate",
       "fear": "Werewolf Hood",
       "quote": "You can't have your cake and eat it too.",
-      "siblings": "Eldest of 3 kids"
+      "siblings": "Eldest of 3 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "gray"
     }
   },
   "name": "Chops",

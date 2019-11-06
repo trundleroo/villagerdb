@@ -31,10 +31,12 @@
       "phrase": "amigo",
       "skill": "Air guitar",
       "goal": "Musician",
-      "style": "Modern",
       "fear": "Bug Mask",
       "quote": "It's not old; it's vintage.",
-      "siblings": "Second quintuplet"
+      "siblings": "Second quintuplet",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "orange"
     }
   },
   "name": "O'Hare",

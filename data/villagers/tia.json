@@ -15,10 +15,12 @@
       "phrase": "teacup",
       "skill": "Writing letters",
       "goal": "Dentist",
-      "style": "Cute",
       "fear": "Skeleton Hood",
       "quote": "Tea is a cup of life.",
-      "siblings": "Fourth of 6 kids"
+      "siblings": "Fourth of 6 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "beige"
     }
   },
   "name": "Tia",

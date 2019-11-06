@@ -49,10 +49,12 @@
       "phrase": "ah-CHOO",
       "skill": "Whistling",
       "goal": "Journalist",
-      "style": "Iconic",
       "fear": "Bug Mask",
       "quote": "Don't cut off your nose to spite your face.",
-      "siblings": "Eldest of 5 kids"
+      "siblings": "Eldest of 5 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "yellow"
     }
   },
   "name": "Cyrano",

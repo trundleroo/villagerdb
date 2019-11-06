@@ -15,10 +15,12 @@
       "phrase": "ya know",
       "skill": "Home repair",
       "goal": "Hair stylist",
-      "style": "Ornate",
       "fear": "Ghost Mask",
       "quote": "Eyes are the windows to the soul.",
-      "siblings": "Middle of 3 kids"
+      "siblings": "Middle of 3 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "purple"
     }
   },
   "name": "Diva",

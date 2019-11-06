@@ -15,10 +15,12 @@
       "phrase": "airmail",
       "skill": "Chopping vegetables",
       "goal": "Pastry chef",
-      "style": "Cute",
       "fear": "Mummy Mask",
       "quote": "Love makes the world go 'round.",
-      "siblings": "Fourth of 5 kids"
+      "siblings": "Fourth of 5 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "aqua"
     }
   },
   "name": "Skye",

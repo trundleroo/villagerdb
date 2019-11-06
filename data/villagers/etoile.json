@@ -12,7 +12,10 @@
       "song": "K.K. Lullaby",
       "fear": "Werewolf Hood",
       "quote": "Who knows what the stars have in store for us?",
-      "siblings": "Older twin sister"
+      "siblings": "Older twin sister",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "Pink"
     }
   },
   "name": "Etoile",

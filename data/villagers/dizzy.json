@@ -49,10 +49,12 @@
       "phrase": "woo-oo",
       "skill": "Chugging milk",
       "goal": "Journalist",
-      "style": "Basic",
       "fear": "Bug Mask",
       "quote": "Keep it mellow.",
-      "siblings": "Youngest of 6 kids"
+      "siblings": "Youngest of 6 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "black"
     }
   },
   "name": "Dizzy",

@@ -15,10 +15,12 @@
       "phrase": "honk honk",
       "skill": "Making crafts",
       "goal": "Artist",
-      "style": "Flashy",
       "fear": "Werewolf Hood",
       "quote": "Be the class clown!",
-      "siblings": "Eldest of 3 kids"
+      "siblings": "Eldest of 3 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "colorful"
     }
   },
   "name": "Pietro",

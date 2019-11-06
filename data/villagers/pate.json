@@ -49,10 +49,12 @@
       "phrase": "quackle",
       "skill": "Pretending to sleep",
       "goal": "Archaeologist",
-      "style": "Modern",
       "fear": "Werewolf Hood",
       "quote": "A duck won't bite you.",
-      "siblings": "Fourth of 5 kids"
+      "siblings": "Fourth of 5 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Official",
+      "favoriteColor": "yellow"
     }
   },
   "name": "Pate",

@@ -15,10 +15,12 @@
       "phrase": "Gimme",
       "skill": "Helping others",
       "goal": "Harpist",
-      "style": "Iconic",
       "fear": "Ghost Mask",
       "quote": "A bird on the wing is worth two on the ground.",
-      "siblings": "Only child"
+      "siblings": "Only child",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "White"
     }
   },
   "name": "Medli",

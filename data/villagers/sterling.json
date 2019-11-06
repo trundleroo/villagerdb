@@ -21,10 +21,12 @@
       "phrase": "skraaaaw",
       "skill": "Doing chin-ups",
       "goal": "Police officer",
-      "style": "Historical",
       "fear": "Bug Mask",
       "quote": "Discretion is the better part of valor.",
-      "siblings": "Eldest of 5 kids"
+      "siblings": "Eldest of 5 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "blue"
     }
   },
   "name": "Sterling",

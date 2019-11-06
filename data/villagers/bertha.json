@@ -33,10 +33,12 @@
       "phrase": "bloop",
       "skill": "Drawing circles",
       "goal": "Professor",
-      "style": "Iconic",
       "fear": "Bug Mask",
       "quote": "The best part of spring is the picnics!",
-      "siblings": "Youngest of 3 sisters"
+      "siblings": "Youngest of 3 sisters",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "gray"
     }
   },
   "name": "Bertha",

@@ -20,10 +20,12 @@
       "phrase": "wut",
       "skill": "Blowing bubbles",
       "goal": "Hair stylist",
-      "style": "Official",
       "fear": "Monster Mask",
       "quote": "Be yourself - everyone else is already taken.",
-      "siblings": "Youngest of 3 kids"
+      "siblings": "Youngest of 3 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "gray"
     }
   },
   "name": "Kidd",

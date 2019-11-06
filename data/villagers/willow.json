@@ -26,10 +26,12 @@
       "phrase": "bo peep",
       "skill": "Playing Old Maid",
       "goal": "Designer",
-      "style": "Cute",
       "fear": "Werewolf Hood",
       "quote": "You can't fight your genes.",
-      "siblings": "Second of 3 sisters"
+      "siblings": "Second of 3 sisters",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "white"
     }
   },
   "name": "Willow",

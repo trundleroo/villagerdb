@@ -15,10 +15,12 @@
       "phrase": "sooey",
       "skill": "Forgetting stuff",
       "goal": "President",
-      "style": "Modern",
       "fear": "Mummy Mask",
       "quote": "Always get it in writing.",
-      "siblings": "Eldest of 7 kids"
+      "siblings": "Eldest of 7 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "yellow"
     }
   },
   "name": "Pancetti",

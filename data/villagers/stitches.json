@@ -28,10 +28,12 @@
       "phrase": "stuffin'",
       "skill": "Forgetting stuff",
       "goal": "Lawyer",
-      "style": "Flashy",
       "fear": "Ghost Mask",
       "quote": "One stitch in time saves nine!",
-      "siblings": "Youngest of 4 kids"
+      "siblings": "Youngest of 4 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "colorful"
     }
   },
   "name": "Stitches",

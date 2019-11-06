@@ -15,10 +15,12 @@
       "phrase": "hammie",
       "skill": "Limboing",
       "goal": "Soccer player",
-      "style": "Basic",
       "fear": "Monster Mask",
       "quote": "The ear's the thing.",
-      "siblings": "Youngest of 6 kids"
+      "siblings": "Youngest of 6 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Official",
+      "favoriteColor": "orange"
     }
   },
   "name": "Hamlet",

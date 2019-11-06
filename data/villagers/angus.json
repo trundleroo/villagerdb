@@ -49,10 +49,12 @@
       "phrase": "macmoo",
       "skill": "Doing handstands",
       "goal": "Forest ranger",
-      "style": "Rock 'n' roll",
       "fear": "Mummy Mask",
       "quote": "Even strong men cry.",
-      "siblings": "Second of 5 kids"
+      "siblings": "Second of 5 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "green"
     }
   },
   "name": "Angus",

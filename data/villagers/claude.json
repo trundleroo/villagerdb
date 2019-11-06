@@ -38,7 +38,10 @@
       "goal": "Superhero",
       "fear": "Ghost Mask",
       "quote": "Don't judge a rabbit by its ears.",
-      "siblings": "Second of 6 kids"
+      "siblings": "Second of 6 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "Black"
     }
   },
   "name": "Claude",

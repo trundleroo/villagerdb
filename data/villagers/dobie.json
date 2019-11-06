@@ -31,7 +31,10 @@
       "goal": "Writer",
       "fear": "Werewolf Hood",
       "quote": "Old longings never truly fade.",
-      "siblings": "Eldest of 2 kids"
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "Black"
     }
   },
   "name": "Dobie",

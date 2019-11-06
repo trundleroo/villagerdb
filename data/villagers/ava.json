@@ -36,10 +36,12 @@
       "phrase": "beaker",
       "skill": "Peeling apples",
       "goal": "Pastry chef",
-      "style": "Official",
       "fear": "Monster Mask",
       "quote": "Early to bed, early to rise.",
-      "siblings": "Eldest of 6 kids"
+      "siblings": "Eldest of 6 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "brown"
     }
   },
   "name": "Ava",

@@ -25,10 +25,12 @@
       "phrase": "quackulous",
       "skill": "Subsistence living",
       "goal": "Model",
-      "style": "Ornate",
       "fear": "Mummy Mask",
       "quote": "If the world was flooded, it will be easy for the duck.",
-      "siblings": "Older twin sister"
+      "siblings": "Older twin sister",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "yellow"
     }
   },
   "name": "Miranda",

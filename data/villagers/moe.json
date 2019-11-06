@@ -35,7 +35,10 @@
       "quote": "Ignorance is bliss.",
       "skill": "Fishing",
       "goal": "CEO",
-      "siblings": "Youngest of 5 kids"
+      "siblings": "Youngest of 5 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "colorful"
     }
   },
   "name": "Moe",

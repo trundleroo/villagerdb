@@ -15,10 +15,12 @@
       "phrase": "Ruff ruff",
       "skill": "Howling",
       "goal": "Normal boy",
-      "style": "Iconic",
       "fear": "Skeleton Hood",
       "quote": "Walk on the wild side.",
-      "siblings": "Only child"
+      "siblings": "Only child",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "Green"
     }
   },
   "name": "Wolf Link",

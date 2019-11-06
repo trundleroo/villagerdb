@@ -28,10 +28,12 @@
       "phrase": "li'l ears",
       "skill": "Doing handstands",
       "goal": "Photographer",
-      "style": "Modern",
       "fear": "Monster Mask",
       "quote": "You can always take the red-eye.",
-      "siblings": "Only child"
+      "siblings": "Only child",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "yellow"
     }
   },
   "name": "Ruby",

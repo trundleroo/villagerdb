@@ -15,10 +15,12 @@
       "phrase": "nightshade",
       "skill": "Writing about pickles",
       "goal": "Dermatologist",
-      "style": "Ornate",
       "fear": "Werewolf Hood",
       "quote": "There's a black sheep in every family.",
-      "siblings": "Only child"
+      "siblings": "Only child",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "black"
     }
   },
   "name": "Muffy",

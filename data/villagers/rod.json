@@ -35,7 +35,10 @@
       "quote": "If you can't beat 'em, work harder.",
       "skill": "Sprinting",
       "goal": "Explorer",
-      "siblings": "Youngest quadruplet"
+      "siblings": "Youngest quadruplet",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "purple"
     }
   },
   "name": "Rod",

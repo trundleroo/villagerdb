@@ -36,10 +36,12 @@
       "phrase": "cool cat",
       "skill": "Chugging milk",
       "goal": "Forest ranger",
-      "style": "Basic",
       "fear": "Werewolf Hood",
       "quote": "Two wrongs don't make a right, but three rights make a left.",
-      "siblings": "Youngest quadruplet"
+      "siblings": "Youngest quadruplet",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "Blue"
     }
   },
   "name": "Rex",

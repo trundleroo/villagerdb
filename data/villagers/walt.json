@@ -15,10 +15,12 @@
       "phrase": "pockets",
       "skill": "Rock-paper-scissors",
       "goal": "Carpenter",
-      "style": "Iconic",
       "fear": "Bug Mask",
       "quote": "Take the good with the bad.",
-      "siblings": "Eldest of 5 kids"
+      "siblings": "Eldest of 5 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "gray"
     }
   },
   "name": "Walt",

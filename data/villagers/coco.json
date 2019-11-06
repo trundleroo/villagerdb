@@ -46,10 +46,12 @@
       "phrase": "doyoing",
       "skill": "Writing backward",
       "goal": "Astronaut",
-      "style": "Iconic",
       "fear": "Mummy Mask",
       "quote": "Don't put off till tomorrow what you can do today.",
-      "siblings": "Second of 5 kids"
+      "siblings": "Second of 5 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "beige"
     }
   },
   "name": "Coco",

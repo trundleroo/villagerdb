@@ -26,10 +26,12 @@
       "phrase": "chicklet",
       "skill": "Writing letters",
       "goal": "Singer",
-      "style": "Ornate",
       "fear": "Ghost Mask",
       "quote": "A fool and his Bells are soon parted.",
-      "siblings": "Second of 3 kids"
+      "siblings": "Second of 3 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "purple"
     }
   },
   "name": "Becky",

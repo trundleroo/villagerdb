@@ -35,7 +35,10 @@
       "goal": "Singer",
       "fear": "Ghost Mask",
       "quote": "Life's short. Eat chocolate.",
-      "siblings": "Second quadruplet"
+      "siblings": "Second quadruplet",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "Black"
     }
   },
   "name": "Boris",

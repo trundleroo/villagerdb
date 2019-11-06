@@ -15,10 +15,12 @@
       "phrase": "glimmer",
       "skill": "Vaulting",
       "goal": "Figure skater",
-      "style": "Modern",
       "fear": "Ghost Mask",
       "quote": "There is such a thing as love at first sight.",
-      "siblings": "Fifth of 6 kids"
+      "siblings": "Fifth of 6 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "white"
     }
   },
   "name": "Bianca",

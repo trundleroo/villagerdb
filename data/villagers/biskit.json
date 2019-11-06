@@ -49,10 +49,12 @@
       "phrase": "dawg",
       "skill": "Hitting snooze",
       "goal": "Architect",
-      "style": "Basic",
       "fear": "Mummy Mask",
       "quote": "Let sleeping dogs lie.",
-      "siblings": "Youngest of 4 kids"
+      "siblings": "Youngest of 4 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Official",
+      "favoriteColor": "orange"
     }
   },
   "name": "Biskit",

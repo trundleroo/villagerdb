@@ -38,7 +38,10 @@
       "goal": "Guitarist",
       "fear": "Ghost Mask",
       "quote": "Strike while the iron is hot.",
-      "siblings": "Middle triplet"
+      "siblings": "Middle triplet",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "Blue"
     }
   },
   "name": "Sprocket",

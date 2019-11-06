@@ -49,10 +49,12 @@
       "phrase": "slacker",
       "skill": "Hula dancing",
       "goal": "Model",
-      "style": "Cute",
       "fear": "Bug Mask",
       "quote": "Never take a nibble when you can take a bite.",
-      "siblings": "Middle triplet"
+      "siblings": "Middle triplet",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "red"
     }
   },
   "name": "Peanut",

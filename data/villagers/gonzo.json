@@ -38,7 +38,10 @@
       "goal": "Mayor",
       "fear": "Monster Mask",
       "quote": "Brothers are brothers; cheese is cheese.",
-      "siblings": "Eldest of 3 kids"
+      "siblings": "Eldest of 3 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "Black"
     }
   },
   "name": "Gonzo",

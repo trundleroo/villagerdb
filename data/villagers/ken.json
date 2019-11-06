@@ -15,10 +15,12 @@
       "phrase": "no doubt",
       "skill": "Clearing my plate",
       "goal": "Architect",
-      "style": "Iconic",
       "fear": "Monster Mask",
       "quote": "C'est la vie!",
-      "siblings": "Fifth of 6 kids"
+      "siblings": "Fifth of 6 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "purple"
     }
   },
   "name": "Ken",

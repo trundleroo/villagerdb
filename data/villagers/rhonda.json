@@ -27,10 +27,12 @@
       "phrase": "bigfoot",
       "skill": "Magic tricks",
       "goal": "Writer",
-      "style": "Ornate",
       "fear": "Ghost Mask",
       "quote": "Don't look down your nose at people!",
-      "siblings": "Only child"
+      "siblings": "Only child",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "white"
     }
   },
   "name": "Rhonda",

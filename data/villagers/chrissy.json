@@ -26,10 +26,12 @@
       "phrase": "sparkles",
       "skill": "Staying awake",
       "goal": "Model",
-      "style": "Cute",
       "fear": "Monster Mask",
       "quote": "A fool and her Bells are soon parted.",
-      "siblings": "Youngest of 4 sisters"
+      "siblings": "Youngest of 4 sisters",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "pink"
     }
   },
   "name": "Chrissy",

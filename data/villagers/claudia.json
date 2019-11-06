@@ -15,10 +15,12 @@
       "phrase": "ooh la la",
       "skill": "Stomping around",
       "goal": "CEO",
-      "style": "Ornate",
       "fear": "Monster Mask",
       "quote": "A tiger can't change its stripes.",
-      "siblings": "Third of 4 sisters"
+      "siblings": "Third of 4 sisters",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "purple"
     }
   },
   "name": "Claudia",

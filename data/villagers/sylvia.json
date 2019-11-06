@@ -20,10 +20,12 @@
       "phrase": "ne",
       "skill": "Playing jacks",
       "goal": "Tour guide",
-      "style": "Ornate",
       "fear": "Mummy Mask",
       "quote": "Hop first; ask questions later.",
-      "siblings": "Youngest of 5 kids"
+      "siblings": "Youngest of 5 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "pink"
     }
   },
   "name": "Sylvia",

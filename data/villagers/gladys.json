@@ -35,7 +35,10 @@
       "quote": "Smiles are free.",
       "skill": "Calligraphy",
       "goal": "Architect",
-      "siblings": "Eldest of 3 sisters"
+      "siblings": "Eldest of 3 sisters",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "green"
     }
   },
   "name": "Gladys",

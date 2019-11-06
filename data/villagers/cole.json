@@ -15,10 +15,12 @@
       "phrase": "duuude",
       "skill": "Drawing circles",
       "goal": "Painter",
-      "style": "Modern",
       "fear": "Ghost Mask",
       "quote": "Little pitchers have big ears.",
-      "siblings": "Only child"
+      "siblings": "Only child",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "black"
     }
   },
   "name": "Cole",

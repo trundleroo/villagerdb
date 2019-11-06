@@ -36,10 +36,12 @@
       "phrase": "blih",
       "skill": "Speed-reading",
       "goal": "Lawyer",
-      "style": "Official",
       "fear": "Bug Mask",
       "quote": "Work smarter, not harder.",
-      "siblings": "Eldest of 2 kids"
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "purple"
     }
   },
   "name": "Velma",

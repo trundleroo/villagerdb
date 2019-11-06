@@ -21,10 +21,12 @@
       "phrase": "nutty",
       "skill": "Making budgets",
       "goal": "Stylist",
-      "style": "Modern",
       "fear": "Skeleton Hood",
       "quote": "It's all about positive thinking!",
-      "siblings": "Youngest of 5 kids"
+      "siblings": "Youngest of 5 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "green"
     }
   },
   "name": "Poppy",

@@ -15,10 +15,12 @@
       "phrase": "punches",
       "skill": "Doing push-ups",
       "goal": "Boxer",
-      "style": "Sporty",
       "fear": "Bug Mask",
       "quote": "Bob and weave! Bob and weave!",
-      "siblings": "Eldest of 2 kids"
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "red"
     }
   },
   "name": "Rooney",

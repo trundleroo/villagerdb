@@ -49,10 +49,12 @@
       "phrase": "graaagh",
       "skill": "Yo-yoing",
       "goal": "Stylist",
-      "style": "Ornate",
       "fear": "Ghost Mask",
       "quote": "Think before you act.",
-      "siblings": "Eldest triplet"
+      "siblings": "Eldest triplet",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "blue"
     }
   },
   "name": "Alli",

@@ -15,10 +15,12 @@
       "phrase": "check it",
       "skill": "Playing poker",
       "goal": "Model",
-      "style": "Ornate",
       "fear": "Bug Mask",
       "quote": "Make hay while the sun shines.",
-      "siblings": "Youngest of 2 kids"
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "beige"
     }
   },
   "name": "Colton",

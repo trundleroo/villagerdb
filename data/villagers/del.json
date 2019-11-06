@@ -26,10 +26,12 @@
       "phrase": "gronk",
       "skill": "Subsistence living",
       "goal": "Firefighter",
-      "style": "Sporty",
       "fear": "Mummy Mask",
       "quote": "The hero is brave in deeds as well as words.",
-      "siblings": "Second of 5 kids"
+      "siblings": "Second of 5 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "blue"
     }
   },
   "name": "Del",

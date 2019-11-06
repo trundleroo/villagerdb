@@ -15,10 +15,12 @@
       "phrase": "kidders",
       "skill": "Eating frequently",
       "goal": "Pro golfer",
-      "style": "Modern",
       "fear": "Mummy Mask",
       "quote": "Before you judge someone, walk a mile in her hooves.",
-      "siblings": "Youngest of 2 kids"
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "beige"
     }
   },
   "name": "Pashmina",

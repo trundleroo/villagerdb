@@ -38,7 +38,10 @@
       "goal": "Chef",
       "fear": "Ghost Mask",
       "quote": "Pride'll put you in a pickle.",
-      "siblings": "Eldest of 6 kids"
+      "siblings": "Eldest of 6 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "Red"
     }
   },
   "name": "Buzz",

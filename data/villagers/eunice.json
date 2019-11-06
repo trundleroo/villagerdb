@@ -42,10 +42,12 @@
       "phrase": "lambchop",
       "skill": "Dusting",
       "goal": "Hair stylist",
-      "style": "Basic",
       "fear": "Werewolf Hood",
       "quote": "There is a point to every encounter.",
-      "siblings": "Middle triplet"
+      "siblings": "Middle triplet",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "black"
     }
   },
   "name": "Eunice",

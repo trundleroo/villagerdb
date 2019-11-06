@@ -15,10 +15,12 @@
       "phrase": "whatevs",
       "skill": "Tiptoeing",
       "goal": "Journalist",
-      "style": "Historical",
       "fear": "Ghost Mask",
       "quote": "Legs of an antelope, heart of an eagle.",
-      "siblings": "Youngest of 3 sisters"
+      "siblings": "Youngest of 3 sisters",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "orange"
     }
   },
   "name": "Deirdre",

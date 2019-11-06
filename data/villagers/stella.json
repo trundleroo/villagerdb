@@ -38,7 +38,10 @@
       "goal": "Professor",
       "fear": "Werewolf Hood",
       "quote": "100% Natural Fiber.",
-      "siblings": "Eldest of 3 sisters"
+      "siblings": "Eldest of 3 sisters",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "Pink"
     }
   },
   "name": "Stella",

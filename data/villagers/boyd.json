@@ -22,7 +22,10 @@
       "goal": "Pro wrestler",
       "fear": "Monster Mask",
       "quote": "There's always time to take a second look.",
-      "siblings": "Second of 5 kids"
+      "siblings": "Second of 5 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "Blue"
     }
   },
   "name": "Boyd",

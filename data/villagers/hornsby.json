@@ -38,7 +38,10 @@
       "goal": "An artist",
       "fear": "Monster Mask",
       "quote": "You can't hit a mosquito with a horseshoe.",
-      "siblings": "Youngest of 3 kids"
+      "siblings": "Youngest of 3 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "Brown"
     }
   },
   "name": "Hornsby",

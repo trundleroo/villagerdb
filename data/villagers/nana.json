@@ -28,10 +28,12 @@
       "phrase": "po po",
       "skill": "Magic tricks",
       "goal": "Judge",
-      "style": "Cute",
       "fear": "Monster Mask",
       "quote": "Bread always falls peanut-butter side down.",
-      "siblings": "Youngest of 2 kids"
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "colorful"
     }
   },
   "name": "Nana",

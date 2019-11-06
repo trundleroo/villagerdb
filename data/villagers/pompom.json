@@ -49,10 +49,12 @@
       "phrase": "rah rah",
       "skill": "Trivia",
       "goal": "CEO",
-      "style": "Cute",
       "fear": "Werewolf Hood",
       "quote": "Happiness is a rainy day.",
-      "siblings": "Third of 6 kids"
+      "siblings": "Third of 6 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "aqua"
     }
   },
   "name": "Pompom",

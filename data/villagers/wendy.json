@@ -21,10 +21,12 @@
       "phrase": "lambkins",
       "skill": "Ventriloquism",
       "goal": "Violinist",
-      "style": "Flashy",
       "fear": "Werewolf Hood",
       "quote": "Every cloud has a silver lining.",
-      "siblings": "Youngest of 3 kids"
+      "siblings": "Youngest of 3 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "white"
     }
   },
   "name": "Wendy",

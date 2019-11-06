@@ -31,10 +31,12 @@
       "phrase": "nipper",
       "skill": "Brainteasers",
       "goal": "Chef",
-      "style": "Official",
       "fear": "Mummy Mask",
       "quote": "Let gossip in one ear and out the other.",
-      "siblings": "Youngest of 3 sisters"
+      "siblings": "Youngest of 3 sisters",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "purple"
     }
   },
   "name": "Annalise",

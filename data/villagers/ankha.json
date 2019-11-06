@@ -36,10 +36,12 @@
       "phrase": "me meow",
       "skill": "Writing about pickles",
       "goal": "Astronaut",
-      "style": "Historical",
       "fear": "Monster Mask",
       "quote": "All that glitters is not gold.",
-      "siblings": "Eldest of 10 kids"
+      "siblings": "Eldest of 10 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "yellow"
     }
   },
   "name": "Ankha",

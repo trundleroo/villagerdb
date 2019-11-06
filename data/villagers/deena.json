@@ -49,10 +49,12 @@
       "phrase": "sugarbill",
       "skill": "Blowing bubbles",
       "goal": "Illustrator",
-      "style": "Modern",
       "fear": "Ghost Mask",
       "quote": "Duck...duck...GOOSE!",
-      "siblings": "Second of 5 kids"
+      "siblings": "Second of 5 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "gray"
     }
   },
   "name": "Deena",

@@ -42,10 +42,12 @@
       "phrase": "mrowrr",
       "skill": "Writing letters",
       "goal": "CEO",
-      "style": "Official",
       "fear": "Monster Mask",
       "quote": "If you want something done well, do it yourself.",
-      "siblings": "Middle of 3 kids"
+      "siblings": "Middle of 3 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "white"
     }
   },
   "name": "Kitty",

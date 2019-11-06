@@ -35,7 +35,10 @@
       "quote": "Trouble rides a fast horse.",
       "skill": "Making crafts",
       "goal": "Lawyer",
-      "siblings": "Third of 6 kids"
+      "siblings": "Third of 6 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "black"
     }
   },
   "name": "Roscoe",

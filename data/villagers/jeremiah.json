@@ -49,10 +49,12 @@
       "phrase": "nee-deep",
       "skill": "Hitting snooze",
       "goal": "Writer",
-      "style": "Basic",
       "fear": "Monster Mask",
       "quote": "Sleep before you leap.",
-      "siblings": "Second of 4 kids"
+      "siblings": "Second of 4 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "blue"
     }
   },
   "name": "Jeremiah",

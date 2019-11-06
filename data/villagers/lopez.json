@@ -15,10 +15,12 @@
       "phrase": "buckaroo",
       "skill": "Debating",
       "goal": "CEO",
-      "style": "Flashy",
       "fear": "Skeleton Hood",
       "quote": "Always look both ways before crossing the street.",
-      "siblings": "Second of 6 kids"
+      "siblings": "Second of 6 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "gray"
     }
   },
   "name": "Lopez",

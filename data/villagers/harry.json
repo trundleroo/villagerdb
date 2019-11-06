@@ -26,10 +26,12 @@
       "phrase": "beach bum",
       "skill": "Tongue twisters",
       "goal": "Fisherman",
-      "style": "Historical",
       "fear": "Monster Mask",
       "quote": "Patience is a virtue for folks with time.",
-      "siblings": "Eldest of 5 kids"
+      "siblings": "Eldest of 5 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "aqua"
     }
   },
   "name": "Harry",

@@ -49,10 +49,12 @@
       "phrase": "sucker",
       "skill": "Trivia",
       "goal": "Fisherman",
-      "style": "Official",
       "fear": "Werewolf Hood",
       "quote": "Don't be a sucker!",
-      "siblings": "Second quadruplet"
+      "siblings": "Second quadruplet",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "red"
     }
   },
   "name": "Octavian",

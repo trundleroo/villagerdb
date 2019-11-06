@@ -42,10 +42,12 @@
       "phrase": "neighbor",
       "skill": "Fishing",
       "goal": "Florist",
-      "style": "Cute",
       "fear": "Monster Mask",
       "quote": "Every day is a gift.",
-      "siblings": "Middle of 5 kids"
+      "siblings": "Middle of 5 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "pink"
     }
   },
   "name": "Peaches",

@@ -36,10 +36,12 @@
       "phrase": "hipster",
       "skill": "Limboing",
       "goal": "Volleyball player",
-      "style": "Sporty",
       "fear": "Ghost Mask",
       "quote": "It's best to keep your lips and purse sealed.",
-      "siblings": "Third of 4 kids"
+      "siblings": "Third of 4 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "orange"
     }
   },
   "name": "Bubbles",

@@ -28,10 +28,12 @@
       "phrase": "baboom",
       "skill": "Dancing",
       "goal": "Rugby player",
-      "style": "Iconic",
       "fear": "Skeleton Hood",
       "quote": "Never settle for second best.",
-      "siblings": "Second of 4 kids"
+      "siblings": "Second of 4 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "colorful"
     }
   },
   "name": "Boone",

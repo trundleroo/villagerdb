@@ -49,10 +49,12 @@
       "phrase": "buh-kay",
       "skill": "Waking up early",
       "goal": "Soccer player",
-      "style": "Basic",
       "fear": "Werewolf Hood",
       "quote": "Birds of a feather crow together.",
-      "siblings": "Eldest of 5 kids"
+      "siblings": "Eldest of 5 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "white"
     }
   },
   "name": "Goose",

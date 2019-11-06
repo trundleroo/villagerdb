@@ -38,7 +38,10 @@
       "goal": "Fisherman",
       "fear": "Bug Mask",
       "quote": "Only quitters give up.",
-      "siblings": "Eldest of 4 kids"
+      "siblings": "Eldest of 4 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "Black"
     }
   },
   "name": "Admiral",

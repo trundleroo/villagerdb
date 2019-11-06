@@ -31,7 +31,10 @@
       "goal": "Dancer",
       "fear": "Ghost Mask",
       "quote": "Keep your crumbs out of the bed.",
-      "siblings": "Third of 5 kids"
+      "siblings": "Third of 5 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "Yellow"
     }
   },
   "name": "Plucky",

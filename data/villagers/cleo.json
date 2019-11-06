@@ -38,7 +38,10 @@
       "goal": "Dermatologist",
       "fear": "Mummy Mask",
       "quote": "There's something loveable in all of us.",
-      "siblings": "Eldest of 7 kids"
+      "siblings": "Eldest of 7 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "White"
     }
   },
   "name": "Cleo",

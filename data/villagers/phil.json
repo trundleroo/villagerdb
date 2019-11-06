@@ -15,10 +15,12 @@
       "phrase": "hurk",
       "skill": "Beat boxing",
       "goal": "Baseball player",
-      "style": "Iconic",
       "fear": "Mummy Mask",
       "quote": "Best not say too much.",
-      "siblings": "Eldest quintuplet"
+      "siblings": "Eldest quintuplet",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "blue"
     }
   },
   "name": "Phil",

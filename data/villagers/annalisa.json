@@ -15,10 +15,12 @@
       "phrase": "gumdrop",
       "skill": "Waking up early",
       "goal": "Astronaut",
-      "style": "Iconic",
       "fear": "Skeleton Hood",
       "quote": "Home is where the heart is.",
-      "siblings": "Second of 3 sisters"
+      "siblings": "Second of 3 sisters",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "red"
     }
   },
   "name": "Annalisa",

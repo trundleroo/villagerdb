@@ -21,10 +21,12 @@
       "phrase": "waddler",
       "skill": "Bunting",
       "goal": "Baseball player",
-      "style": "Basic",
       "fear": "Bug Mask",
       "quote": "Six of one, half dozen of the other.",
-      "siblings": "Only child"
+      "siblings": "Only child",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "blue"
     }
   },
   "name": "Iggly",

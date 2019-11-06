@@ -49,10 +49,12 @@
       "phrase": "b-b-buddy",
       "skill": "Belly dancing",
       "goal": "Pro golfer",
-      "style": "Basic",
       "fear": "Bug Mask",
       "quote": "You must learn to waddle before you can swim.",
-      "siblings": "Youngest of 5 kids"
+      "siblings": "Youngest of 5 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "orange"
     }
   },
   "name": "Roald",

@@ -33,7 +33,10 @@
       "goal": "Actor",
       "fear": "Skeleton Hood",
       "quote": "Keep your eye on the ball.",
-      "siblings": "Third of 4 kids"
+      "siblings": "Third of 4 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "Blue"
     }
   },
   "name": "Spike",

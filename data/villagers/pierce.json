@@ -49,10 +49,12 @@
       "phrase": "hawkeye",
       "skill": "Playing catch",
       "goal": "Rugby player",
-      "style": "Sporty",
       "fear": "Bug Mask",
       "quote": "When someone says fly, you ask how high!",
-      "siblings": "Youngest triplet"
+      "siblings": "Youngest triplet",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "blue"
     }
   },
   "name": "Pierce",

@@ -22,7 +22,10 @@
       "goal": "Teacher",
       "fear": "Bug Mask",
       "quote": "If you like what you have, then you'll have what you like!",
-      "siblings": "Second of 3 sisters"
+      "siblings": "Second of 3 sisters",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "White"
     }
   },
   "name": "Norma",

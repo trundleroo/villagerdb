@@ -49,10 +49,12 @@
       "phrase": "daahling",
       "skill": "Drawing circles",
       "goal": "Aesthetician",
-      "style": "Ornate",
       "fear": "Werewolf Hood",
       "quote": "Don't just follow the flock.",
-      "siblings": "Third of 6 kids"
+      "siblings": "Third of 6 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "brown"
     }
   },
   "name": "Baabara",

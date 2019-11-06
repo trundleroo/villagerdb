@@ -20,10 +20,12 @@
       "phrase": "flexin",
       "skill": "Playing catch",
       "goal": "Soccer player",
-      "style": "Sporty",
       "fear": "Werewolf Hood",
       "quote": "That's the way the energy bar crumbles.",
-      "siblings": "Fourth of 6 kids"
+      "siblings": "Fourth of 6 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Official",
+      "favoriteColor": "orange"
     }
   },
   "name": "Leonardo",

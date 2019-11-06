@@ -35,7 +35,10 @@
       "quote": "Don't put the cart before the horse.",
       "skill": "Playing horseshoes",
       "goal": "Marathon runner",
-      "siblings": "Third of 4 kids"
+      "siblings": "Third of 4 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Official",
+      "favoriteColor": "red"
     }
   },
   "name": "Victoria",

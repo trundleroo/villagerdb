@@ -15,10 +15,12 @@
       "phrase": "cottontail",
       "skill": "Telling jokes",
       "goal": "Makeup artist",
-      "style": "Rock 'n' roll",
       "fear": "Bug Mask",
       "quote": "Always help a friend in need.",
-      "siblings": "Younger twin sister"
+      "siblings": "Younger twin sister",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "yellow"
     }
   },
   "name": "Mira",

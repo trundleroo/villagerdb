@@ -49,10 +49,12 @@
       "phrase": "pffffft",
       "skill": "Juggling",
       "goal": "Drummer",
-      "style": "Ornate",
       "fear": "Monster Mask",
       "quote": "All publicity is good publicity!",
-      "siblings": "Eldest of 4 kids"
+      "siblings": "Eldest of 4 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "pink"
     }
   },
   "name": "Monique",

@@ -15,10 +15,12 @@
       "phrase": "snuffle",
       "skill": "Cramming for tests",
       "goal": "Pro golfer",
-      "style": "Rock 'n' roll",
       "fear": "Skeleton Hood",
       "quote": "You reap what you sow.",
-      "siblings": "Youngest of 4 kids"
+      "siblings": "Youngest of 4 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "white"
     }
   },
   "name": "Agnes",

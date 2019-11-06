@@ -49,10 +49,12 @@
       "phrase": "heeeeeyy",
       "skill": "Tongue twisters",
       "goal": "Race car driver",
-      "style": "Sporty",
       "fear": "Skeleton Hood",
       "quote": "He who hesitates has lost!",
-      "siblings": "Third of 6 kids"
+      "siblings": "Third of 6 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "blue"
     }
   },
   "name": "Jay",

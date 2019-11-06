@@ -49,10 +49,12 @@
       "phrase": "toady",
       "skill": "Calligraphy",
       "goal": "Professor",
-      "style": "Cute",
       "fear": "Ghost Mask",
       "quote": "Don't jump to conclusions!",
-      "siblings": "Eldest of 3 sisters"
+      "siblings": "Eldest of 3 sisters",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "green"
     }
   },
   "name": "Lily",

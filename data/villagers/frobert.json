@@ -49,10 +49,12 @@
       "phrase": "fribbit",
       "skill": "Eating quickly",
       "goal": "Artist",
-      "style": "Sporty",
       "fear": "Bug Mask",
       "quote": "Always aim high!",
-      "siblings": "Youngest of 2 kids"
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "colorful"
     }
   },
   "name": "Frobert",

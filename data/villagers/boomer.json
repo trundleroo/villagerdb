@@ -37,10 +37,12 @@
       "phrase": "tu-tutu",
       "skill": "Oversleeping",
       "goal": "Pilot",
-      "style": "Historical",
       "fear": "Werewolf Hood",
       "quote": "Flying is believing.",
-      "siblings": "Eldest of 6 kids"
+      "siblings": "Eldest of 6 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "brown"
     }
   },
   "name": "Boomer",

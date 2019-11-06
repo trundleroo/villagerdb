@@ -35,7 +35,10 @@
       "quote": "Crime doesn't pay!",
       "skill": "Sprinting",
       "goal": "Superhero",
-      "siblings": "Eldest of 4 kids"
+      "siblings": "Eldest of 4 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "red"
     }
   },
   "name": "Kid Cat",

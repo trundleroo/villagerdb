@@ -46,10 +46,12 @@
       "phrase": "chicken",
       "skill": "Hitting snooze",
       "goal": "Dancer",
-      "style": "Ornate",
       "fear": "Mummy Mask",
       "quote": "You never get a second chance to make a first impression.",
-      "siblings": "Older twin sister"
+      "siblings": "Older twin sister",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "black"
     }
   },
   "name": "Queenie",

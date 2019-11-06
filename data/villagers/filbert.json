@@ -48,10 +48,12 @@
       "phrase": "bucko",
       "skill": "Vaulting",
       "goal": "Pilot",
-      "style": "Basic",
       "fear": "Werewolf Hood",
       "quote": "Don't go nuts or anything.",
-      "siblings": "Youngest quadruplet"
+      "siblings": "Youngest quadruplet",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "green"
     }
   },
   "name": "Filbert",

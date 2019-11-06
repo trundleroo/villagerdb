@@ -35,7 +35,10 @@
       "goal": "Translator",
       "fear": "Mummy Mask",
       "quote": "Where there's life, there's hope.",
-      "siblings": "Eldest of 2 kids"
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "Black"
     }
   },
   "name": "Piper",

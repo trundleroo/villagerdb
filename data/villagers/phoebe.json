@@ -15,10 +15,12 @@
       "phrase": "sparky",
       "skill": "Eating frequently",
       "goal": "Swimmer",
-      "style": "Ornate",
       "fear": "Skeleton Hood",
       "quote": "You can't keep a good bird down.",
-      "siblings": "Fifth of 6 kids"
+      "siblings": "Fifth of 6 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "yellow"
     }
   },
   "name": "Phoebe",

@@ -15,10 +15,12 @@
       "phrase": "ridukulous",
       "skill": "Skimming books",
       "goal": "Musician",
-      "style": "Sporty",
       "fear": "Bug Mask",
       "quote": "There is beauty in everything.",
-      "siblings": "Middle of 7 kids"
+      "siblings": "Middle of 7 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "orange"
     }
   },
   "name": "Quillson",

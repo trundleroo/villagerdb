@@ -49,10 +49,12 @@
       "phrase": "doodle-duh",
       "skill": "Cramming for tests",
       "goal": "Astronaut",
-      "style": "Historical",
       "fear": "Skeleton Hood",
       "quote": "You gotta break a few eggs to make an omelet.",
-      "siblings": "Third of 4 kids"
+      "siblings": "Third of 4 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "red"
     }
   },
   "name": "Egbert",

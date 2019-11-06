@@ -46,10 +46,12 @@
       "phrase": "woof",
       "skill": "Dusting",
       "goal": "Dentist",
-      "style": "Basic",
       "fear": "Werewolf Hood",
       "quote": "A little bit of happiness is better than a lot of anguish.",
-      "siblings": "Eldest triplet"
+      "siblings": "Eldest triplet",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "white"
     }
   },
   "name": "Goldie",

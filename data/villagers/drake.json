@@ -28,10 +28,12 @@
       "phrase": "quacko",
       "skill": "Rock-paper-scissors",
       "goal": "Cartoonist",
-      "style": "Modern",
       "fear": "Monster Mask",
       "quote": "...Quack.",
-      "siblings": "Youngest triplet"
+      "siblings": "Youngest triplet",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "brown"
     }
   },
   "name": "Drake",

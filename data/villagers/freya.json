@@ -42,10 +42,12 @@
       "phrase": "uff da",
       "skill": "Peeling apples",
       "goal": "Judge",
-      "style": "Rock 'n' roll",
       "fear": "Bug Mask",
       "quote": "Don't stray too far from the pack.",
-      "siblings": "Eldest of 7 kids"
+      "siblings": "Eldest of 7 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "black"
     }
   },
   "name": "Freya",

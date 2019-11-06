@@ -42,10 +42,12 @@
       "phrase": "croak-kay",
       "skill": "Ventriloquism",
       "goal": "Artist",
-      "style": "Modern",
       "fear": "Ghost Mask",
       "quote": "It takes more muscles to frown than to smile.",
-      "siblings": "Third of 4 kids"
+      "siblings": "Third of 4 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "brown"
     }
   },
   "name": "Jambette",

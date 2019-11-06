@@ -36,10 +36,12 @@
       "phrase": "ol' bunny",
       "skill": "Typing",
       "goal": "Programmer",
-      "style": "Official",
       "fear": "Ghost Mask",
       "quote": "One cannot live on carrots alone.",
-      "siblings": "Older twin brother"
+      "siblings": "Older twin brother",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "aqua"
     }
   },
   "name": "Doc",

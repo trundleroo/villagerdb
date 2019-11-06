@@ -49,10 +49,12 @@
       "phrase": "mew",
       "skill": "Hula dancing",
       "goal": "Lawyer",
-      "style": "Historical",
       "fear": "Bug Mask",
       "quote": "Practice makes purrrfect!",
-      "siblings": "Eldest of 3 kids"
+      "siblings": "Eldest of 3 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "brown"
     }
   },
   "name": "Mitzi",
