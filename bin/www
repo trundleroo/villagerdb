@@ -47,49 +47,7 @@ redisClient.onAsync('connect')
         const es = new elasticsearch.Client();
         app.locals.es = es;
 
-        // Empty out elasticsearch index
-        es.indices.delete({
-            index: 'zvillager'
-        })
-            .catch((e) => {}) // doesn't matter that it failed to delete
-            .then(() => {
-                console.log('a');
-                return es.indices.create({
-                    index: 'villfager'
-                });
-            })
-            .then(() => {
-                console.log('b');
-                return es.index({
-                    id: 'test',
-                    index: 'villager',
-                    body: {
-                        'name': 'Rosie2',
-                        'id': 'rosie2'
-                    }
-                });
-            })
-            .then(() => {
-                console.log('c');
-                return es.search({
-                    index: 'villager',
-                    body: {
-                        query: {
-                            match: {
-                                name: {
-                                    query: 'rosie',
-                                    operator: 'and',
-                                    fuzziness: 'auto'
-                                }
-                            }
-                        }
-                    }
-                })
-            })
-            .then((results) => {
-                console.log('d');
-                console.log(results);
-            });
+
 
         // Finally, listen on port.
         server.listen(port);
