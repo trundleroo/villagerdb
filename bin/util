@@ -12,7 +12,7 @@ function usage() {
 async function deleteSearchIndex() {
     const es = new elasticsearch.Client();
 
-    // Empty out elasticsearch index
+    // Delete the elasticsearch index
     return es.indices.delete({
         index: 'villager'
     })
@@ -21,8 +21,24 @@ async function deleteSearchIndex() {
 async function buildSearchIndex() {
     const es = new elasticsearch.Client();
 
+    // Create the index.
     await es.indices.create({
         index: 'villager'
+    });
+
+    // Define the index mappings properly.
+    await es.indices.putMapping({
+        index: 'villager',
+        body: {
+            properties: {
+                keyword: {
+                    type: 'keyword'
+                },
+                name: {
+                    type: 'text'
+                }
+            }
+        }
     });
 
     const files = fs.readdirSync(path.join('data', 'villagers'));
@@ -33,7 +49,8 @@ async function buildSearchIndex() {
             index: 'villager',
             id: parsed.id,
             body: {
-                'name': parsed.name
+                keyword: parsed.name,
+                name: parsed.name
             }
         });
         console.log('Indexed ' + parsed.id);
@@ -56,12 +73,12 @@ if (!command) {
         });
 } else if (command === 'build-search-index') {
     buildSearchIndex()
+        .then(() => {
+            console.log('Built search index successfully.');
+        })
         .catch((e) => {
             console.log('Failed to build search index.');
             console.error(e);
-        })
-        .then(() => {
-            console.log('Built search index successfully.');
         });
 } else {
     console.error('Valid commands: delete-search-index, build-search-index');

@@ -13,19 +13,46 @@ const pageSize = 25;
  * Load villagers on a particular page number.
  *
  * @param collection collection of villagers from Mongo
+ * @param es
  * @param pageNumber the already sanity checked page number
  * @returns {Promise<void>}
  */
-async function loadVillagers(collection, pageNumber) {
+async function loadVillagers(collection, es, pageNumber) {
     const resultSet = {};
 
-    // Pagination data.
-    const totalCount = await collection.count();
-    computePageProperties(pageNumber, pageSize, totalCount, resultSet);
+    // Query for count and serch.
+    const query = {
+        match_all: {}
+    };
+
+    // Count.
+    const totalCount = await es.count({
+        index: 'villager',
+        body: {
+            query: query
+        }
+    });
+
+    // Load all on this page.
+    const results = await es.search({
+        index: 'villager',
+        from: pageSize * (pageNumber - 1),
+        size: pageSize,
+        body: {
+            sort: [
+                {
+                    keyword: "asc"
+                }
+            ],
+            query: query
+        }
+    });
+    computePageProperties(pageNumber, pageSize, totalCount.count, resultSet);
     resultSet.pageUrlPrefix = '/villagers/page/';
 
     // Load the results.
-    resultSet.results = await collection.getByRange(resultSet.startIndex - 1, resultSet.endIndex - 1);
+    const keys = results.hits.hits.map(hit => hit._id);
+    resultSet.results = await collection.getByIds(keys);
     for (let i = 0; i < resultSet.results.length; i++) {
         resultSet.results[i] = formatUtil.formatVillager(resultSet.results[i]);
     }
@@ -39,25 +66,48 @@ async function loadVillagers(collection, pageNumber) {
 /**
  * Get villagers on a particular page number of a search query.
  *
+ * @param collection
+ * @param es
  * @param searchQuery
  * @param pageNumber
  * @returns {Promise<void>}
  */
-async function findVillagers(collection, searchQuery, pageNumber) {
+async function findVillagers(collection, es, searchQuery, pageNumber) {
     const resultSet = {};
 
     // Get matches and compute pagination.
-    const keys = await collection.searchById(searchQuery);
-    keys.sort();
+    const results = await es.search({
+        index: 'villager',
+        from: pageSize * (pageNumber - 1),
+        size: pageSize,
+        body: {
+            sort: [
+                "_score",
+                {
+                    keyword: "asc"
+                }
+            ],
+            query: {
+                match: {
+                    name: {
+                        query: searchQuery,
+                        operator: 'and',
+                        fuzziness: 'auto'
+                    }
+                }
+            }
+        }
+    });
 
-    computePageProperties(pageNumber, pageSize, keys.length, resultSet);
+    computePageProperties(pageNumber, pageSize, results.hits.hits.length, resultSet);
     resultSet.pageUrlPrefix = '/villagers/search/page/';
     resultSet.isSearch = true;
     resultSet.searchQuery = searchQuery;
     resultSet.searchQueryString = encodeURI(searchQuery);
 
-    // Now load actual result objects for this page only, and format them.
-    resultSet.results = await collection.getByIds(keys.slice(resultSet.startIndex - 1, resultSet.endIndex));
+    // Get all the keys on this page and show them
+    const keys = results.hits.hits.map(hit => hit._id);
+    resultSet.results = await collection.getByIds(keys);
     for (let i = 0; i < resultSet.results.length; i++) {
         resultSet.results[i] = formatUtil.formatVillager(resultSet.results[i]);
     }
@@ -123,7 +173,7 @@ function computePageProperties(pageNumber, pageSize, totalCount, resultSet) {
 function listVillagers(res, next, pageNumber) {
     const data = {};
     data.pageTitle = 'All Villagers - Page ' + pageNumber;
-    loadVillagers(res.app.locals.db.villagers, pageNumber)
+    loadVillagers(res.app.locals.db.villagers, res.app.locals.es, pageNumber)
         .then((resultSet) => {
             data.resultSet = resultSet;
             res.render('villagers', data);
@@ -140,7 +190,7 @@ function listVillagers(res, next, pageNumber) {
  */
 function search(searchQuery, res, next, pageNumber) {
     // If there is no query string, redirect back to the main list.
-    if (typeof searchQuery !== 'string' || searchQuery.length === 0) {
+    if (typeof searchQuery !== 'string' || searchQuery.trim().length === 0) {
         res.redirect(302, '/villagers');
         return;
     }
@@ -148,7 +198,7 @@ function search(searchQuery, res, next, pageNumber) {
     // Execute async find and then return result or error.
     const data = {};
     data.pageTitle = 'Search results for ' + searchQuery; // template engine handles HTML escape
-    findVillagers(res.app.locals.db.villagers, searchQuery, pageNumber)
+    findVillagers(res.app.locals.db.villagers, res.app.locals.es, searchQuery, pageNumber)
         .then((resultSet) => {
             data.resultSet = resultSet;
             res.render('villagers', data);
