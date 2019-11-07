@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "lion",
   "birthday": "7-29",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "smug",
@@ -15,7 +10,17 @@
       "phrase": "precisely",
       "skill": "Drawing circles",
       "goal": "Professor",
-      "style": "Historical"
+      "fear": "Monster Mask",
+      "quote": "Love is blind.",
+      "siblings": "Eldest of 10 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Lionel",

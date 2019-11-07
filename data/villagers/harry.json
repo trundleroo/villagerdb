@@ -2,17 +2,11 @@
   "gender": "male",
   "species": "hippo",
   "birthday": "1-7",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "afe+": {
       "personality": "jock",
       "clothes": "Blue Aloha Shirt",
-      "song": "K.K. Calypso",
-      "phrase": "beach bum"
+      "song": "K.K. Calypso"
     },
     "cf": {
       "personality": "cranky",
@@ -27,7 +21,17 @@
       "phrase": "beach bum",
       "skill": "Tongue twisters",
       "goal": "Fisherman",
-      "style": "Historical"
+      "fear": "Monster Mask",
+      "quote": "Patience is a virtue for folks with time.",
+      "siblings": "Eldest of 5 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Harry",

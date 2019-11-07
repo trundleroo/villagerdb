@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "duck",
   "birthday": "2-23",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
       "clothes": "Winter Sweater",
-      "song": "K.K. Steppe",
-      "phrase": "quackle"
+      "song": "K.K. Steppe"
     },
     "af+": {
       "personality": "peppy",
       "clothes": "Winter Sweater",
-      "song": "K.K. Steppe",
-      "phrase": "quackle"
+      "song": "K.K. Steppe"
     },
     "ac": {
       "personality": "peppy",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "peppy",
       "clothes": "Winter Sweater",
-      "song": "K.K. Steppe",
-      "phrase": "quackle"
+      "song": "K.K. Steppe"
     },
     "ww": {
       "personality": "peppy",
       "clothes": "Winter Sweater",
       "song": "K.K. Steppe",
-      "phrase": "quackle"
+      "phrase": "quackle",
+      "quote": "SHRIEKING SUGARCUBES!"
     },
     "cf": {
       "personality": "peppy",
@@ -51,7 +44,17 @@
       "phrase": "quackle",
       "skill": "Pretending to sleep",
       "goal": "Archaeologist",
-      "style": "Modern"
+      "fear": "Werewolf Hood",
+      "quote": "A duck won't bite you.",
+      "siblings": "Fourth of 5 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Official",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Pate",

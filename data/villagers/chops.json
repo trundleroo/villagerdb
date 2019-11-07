@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "pig",
   "birthday": "10-13",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "nl": {
       "personality": "smug",
@@ -15,7 +10,17 @@
       "phrase": "Zoink",
       "skill": "Making crafts",
       "goal": "Politician",
-      "style": "Ornate"
+      "fear": "Werewolf Hood",
+      "quote": "You can't have your cake and eat it too.",
+      "siblings": "Eldest of 3 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Chops",

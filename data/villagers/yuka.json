@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "koala",
   "birthday": "7-20",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "snooty",
       "clothes": "Lemon Gingham Tee",
-      "song": "Soulful K.K.",
-      "phrase": "tsk tsk"
+      "song": "Soulful K.K."
     },
     "af+": {
       "personality": "snooty",
       "clothes": "Lemon Gingham Tee",
-      "song": "Soulful K.K.",
-      "phrase": "tsk tsk"
+      "song": "Soulful K.K."
     },
     "ac": {
       "personality": "snooty",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "snooty",
       "clothes": "Lemon Gingham Tee",
-      "song": "Soulful K.K.",
-      "phrase": "tsk tsk"
+      "song": "Soulful K.K."
     },
     "ww": {
       "personality": "snooty",
       "clothes": "Lemon Gingham Tee",
       "song": "Soulful K.K.",
-      "phrase": "tsk tsk"
+      "phrase": "tsk tsk",
+      "quote": "It's nice that you have me as a friend."
     },
     "cf": {
       "personality": "snooty",
@@ -51,7 +44,17 @@
       "phrase": "tsk tsk",
       "skill": "Staying up late",
       "goal": "Journalist",
-      "style": "Modern"
+      "fear": "Bug Mask",
+      "quote": "Beauty is in the eye of the beholder.",
+      "siblings": "Third of 4 sisters",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Yuka",

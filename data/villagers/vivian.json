@@ -2,17 +2,11 @@
   "gender": "female",
   "species": "wolf",
   "birthday": "1-26",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Lots of milk",
-    "sugar": "3 spoonfuls of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "snooty",
       "clothes": "Subdued print",
-      "song": "K.K. Cruisin'",
-      "phrase": "dawayo"
+      "song": "K.K. Cruisin'"
     },
     "nl": {
       "personality": "snooty",
@@ -20,8 +14,18 @@
       "song": "K.K. Cruisin'",
       "phrase": "dawayo",
       "skill": "Dusting",
-      "goal": "Makeup Artist",
-      "style": "Iconic"
+      "goal": "Makeup artist",
+      "fear": "Bug Mask",
+      "quote": "Onwards and upwards!",
+      "siblings": "Eldest of 3 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "Red",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "3 spoonfuls of sugar"
+      }
     }
   },
   "name": "Vivian",

@@ -2,21 +2,14 @@
   "gender": "female",
   "species": "cat",
   "birthday": "5-29",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "af": {
       "personality": "snooty",
-      "song": "K.K. Swing",
-      "phrase": "kitten"
+      "song": "K.K. Swing"
     },
     "af+": {
       "personality": "snooty",
-      "song": "K.K. Swing",
-      "phrase": "kitten"
+      "song": "K.K. Swing"
     },
     "ac": {
       "personality": "snooty",
@@ -26,14 +19,14 @@
     },
     "afe+": {
       "personality": "snooty",
-      "song": "K.K. Swing",
-      "phrase": "kitten"
+      "song": "K.K. Swing"
     },
     "ww": {
       "personality": "snooty",
       "clothes": "Asian Shirt",
       "song": "K.K. Swing",
-      "phrase": "kitten"
+      "phrase": "kitten",
+      "quote": "You don't mind if I use your bed to sharpen my claws, do you?"
     },
     "cf": {
       "personality": "snooty",
@@ -48,7 +41,17 @@
       "phrase": "kitten",
       "skill": "Writing backward",
       "goal": "Movie director",
-      "style": "Iconic"
+      "fear": "Monster Mask",
+      "quote": "Let them drink cream.",
+      "siblings": "Youngest triplet",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Purrl",

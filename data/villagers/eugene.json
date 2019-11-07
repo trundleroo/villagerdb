@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "koala",
   "birthday": "10-26",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "nl": {
       "personality": "smug",
@@ -15,7 +10,17 @@
       "phrase": "yeah buddy",
       "skill": "Rapping",
       "goal": "Guitarist",
-      "style": "Rock'n'roll"
+      "fear": "Monster Mask",
+      "quote": "Imitation is the sincerest form of flattery.",
+      "siblings": "Youngest of 3 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Eugene",

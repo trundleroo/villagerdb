@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "goat",
   "birthday": "3-6",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "af": {
       "personality": "normal",
       "clothes": "Natty Tee",
-      "song": "K.K. Chorale",
-      "phrase": "la baa"
+      "song": "K.K. Chorale"
     },
     "af+": {
       "personality": "normal",
       "clothes": "Natty Tee",
-      "song": "K.K. Chorale",
-      "phrase": "la baa"
+      "song": "K.K. Chorale"
     },
     "ac": {
       "personality": "normal",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "normal",
       "clothes": "Natty Tee",
-      "song": "K.K. Chorale",
-      "phrase": "la baa"
+      "song": "K.K. Chorale"
     },
     "ww": {
       "personality": "normal",
       "clothes": "Natty Tee",
       "song": "K.K. Chorale",
-      "phrase": "la baa"
+      "phrase": "la baa",
+      "quote": "Dream a little dream."
     },
     "cf": {
       "personality": "normal",
@@ -51,7 +44,17 @@
       "phrase": "la baa",
       "skill": "Calculating tips",
       "goal": "Teacher",
-      "style": "Cute"
+      "fear": "Ghost Mask",
+      "quote": "If you're gonna dream, dream big.",
+      "siblings": "Eldest of 5 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Chevre",

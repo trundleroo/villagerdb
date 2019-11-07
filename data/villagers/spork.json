@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "pig",
   "birthday": "9-3",
-  "coffee": {
-    "beans": "Kilamanjaro",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "lazy",
       "clothes": "Jade Plaid Tee",
-      "song": "K.K. Mambo",
-      "phrase": "snork"
+      "song": "K.K. Mambo"
     },
     "af+": {
       "personality": "lazy",
       "clothes": "Jade Plaid Tee",
-      "song": "K.K. Mambo",
-      "phrase": "snork"
+      "song": "K.K. Mambo"
     },
     "ac": {
       "personality": "lazy",
@@ -29,8 +22,7 @@
     "afe+": {
       "personality": "lazy",
       "clothes": "Jade Plaid Tee",
-      "song": "K.K. Mambo",
-      "phrase": "snork"
+      "song": "K.K. Mambo"
     },
     "cf": {
       "personality": "lazy",
@@ -45,7 +37,17 @@
       "phrase": "snork",
       "skill": "Chugging milk",
       "goal": "Poet",
-      "style": "Basic"
+      "fear": "Bug Mask",
+      "quote": "It's never too late for a snack.",
+      "siblings": "Younger twin brother",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Kilamanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Spork",

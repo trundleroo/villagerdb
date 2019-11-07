@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "pig",
   "birthday": "4-26",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "nl": {
       "personality": "jock",
@@ -15,7 +10,17 @@
       "phrase": "weeweewee",
       "skill": "Whistling",
       "goal": "Sumo wrestler",
-      "style": "Sporty"
+      "fear": "Mummy Mask",
+      "quote": "Sometimes it's OK to get dirty.",
+      "siblings": "Second quintuplet",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Official",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Kevin",

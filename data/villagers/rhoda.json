@@ -6,14 +6,12 @@
     "af": {
       "personality": "snooty",
       "clothes": "Red Tie-Dye",
-      "song": "The K. Funk",
-      "phrase": "clucky"
+      "song": "The K. Funk"
     },
     "af+": {
       "personality": "snooty",
       "clothes": "Red Tie-Dye",
-      "song": "The K. Funk",
-      "phrase": "clucky"
+      "song": "The K. Funk"
     },
     "ac": {
       "personality": "snooty",
@@ -24,8 +22,7 @@
     "afe+": {
       "personality": "snooty",
       "clothes": "Red Tie-Dye",
-      "song": "The K. Funk",
-      "phrase": "clucky"
+      "song": "The K. Funk"
     }
   },
   "name": "Rhoda",

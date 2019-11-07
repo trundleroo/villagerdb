@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "bird",
   "birthday": "7-13",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "af": {
       "personality": "peppy",
       "clothes": "Barber Tee",
-      "song": "K.K. Calypso",
-      "phrase": "cheepers"
+      "song": "K.K. Calypso"
     },
     "af+": {
       "personality": "peppy",
       "clothes": "Barber Tee",
-      "song": "K.K. Calypso",
-      "phrase": "cheepers"
+      "song": "K.K. Calypso"
     },
     "ac": {
       "personality": "peppy",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "peppy",
       "clothes": "Barber Tee",
-      "song": "K.K. Calypso",
-      "phrase": "cheepers"
+      "song": "K.K. Calypso"
     },
     "ww": {
       "personality": "peppy",
       "clothes": "Barber Tee",
       "song": "K.K. Calypso",
-      "phrase": "cheepers"
+      "phrase": "cheepers",
+      "quote": "Do you want my autograph, too?"
     },
     "cf": {
       "personality": "peppy",
@@ -51,7 +44,17 @@
       "phrase": "cheepers",
       "skill": "Spoon bending",
       "goal": "Dentist",
-      "style": "Flashy"
+      "fear": "Mummy Mask",
+      "quote": "It's the early bird that catches the worm!",
+      "siblings": "Second of 4 sisters",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Official",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Twiggy",

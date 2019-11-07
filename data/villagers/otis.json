@@ -5,13 +5,11 @@
   "games": {
     "af": {
       "personality": "lazy",
-      "clothes": "Moldy Shirt",
-      "phrase": "I s'pose"
+      "clothes": "Moldy Shirt"
     },
     "af+": {
       "personality": "lazy",
-      "clothes": "Moldy Shirt",
-      "phrase": "I s'pose"
+      "clothes": "Moldy Shirt"
     },
     "ac": {
       "personality": "lazy",
@@ -20,8 +18,7 @@
     },
     "afe+": {
       "personality": "lazy",
-      "clothes": "Moldy Shirt",
-      "phrase": "I s'pose"
+      "clothes": "Moldy Shirt"
     }
   },
   "name": "Otis",

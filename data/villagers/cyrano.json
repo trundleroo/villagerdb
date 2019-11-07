@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "anteater",
   "birthday": "3-9",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
       "clothes": "Wave Shirt",
-      "song": "K.K. Faire",
-      "phrase": "ah-CHOO"
+      "song": "K.K. Faire"
     },
     "af+": {
       "personality": "cranky",
       "clothes": "Wave Shirt",
-      "song": "K.K. Faire",
-      "phrase": "ah-CHOO"
+      "song": "K.K. Faire"
     },
     "ac": {
       "personality": "cranky",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "cranky",
       "clothes": "Wave Shirt",
-      "song": "K.K. Faire",
-      "phrase": "ah-CHOO"
+      "song": "K.K. Faire"
     },
     "ww": {
       "personality": "cranky",
       "clothes": "Dawn Tee",
       "song": "K.K. Faire",
-      "phrase": "ah-CHOO"
+      "phrase": "ah-CHOO",
+      "quote": "Wish you were here!"
     },
     "cf": {
       "personality": "cranky",
@@ -51,7 +44,17 @@
       "phrase": "ah-CHOO",
       "skill": "Whistling",
       "goal": "Journalist",
-      "style": "Iconic"
+      "fear": "Bug Mask",
+      "quote": "Don't cut off your nose to spite your face.",
+      "siblings": "Eldest of 5 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Cyrano",

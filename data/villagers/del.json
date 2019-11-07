@@ -2,17 +2,11 @@
   "gender": "male",
   "species": "alligator",
   "birthday": "5-27",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "afe+": {
       "personality": "cranky",
       "clothes": "Wave Shirt",
-      "song": "K.K. March",
-      "phrase": "gronk"
+      "song": "K.K. March"
     },
     "cf": {
       "personality": "cranky",
@@ -27,7 +21,17 @@
       "phrase": "gronk",
       "skill": "Subsistence living",
       "goal": "Firefighter",
-      "style": "Sporty"
+      "fear": "Mummy Mask",
+      "quote": "The hero is brave in deeds as well as words.",
+      "siblings": "Second of 5 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Del",

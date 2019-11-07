@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "sheep",
   "birthday": "4-9",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Lots of milk",
-    "sugar": "3 spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "normal",
       "clothes": "Aurora Knit",
-      "song": "Only Me",
-      "phrase": "baa-dabing"
+      "song": "Only Me"
     },
     "af+": {
       "personality": "normal",
       "clothes": "Aurora Knit",
-      "song": "Only Me",
-      "phrase": "baa-dabing"
+      "song": "Only Me"
     },
     "ac": {
       "personality": "normal",
@@ -29,8 +22,7 @@
     "afe+": {
       "personality": "normal",
       "clothes": "Aurora Knit",
-      "song": "Only Me",
-      "phrase": "baa-dabing"
+      "song": "Only Me"
     },
     "nl": {
       "personality": "normal",
@@ -38,7 +30,18 @@
       "song": "Only Me",
       "phrase": "baa-dabing",
       "skill": "Magic tricks",
-      "goal": "Professor"
+      "goal": "Professor",
+      "fear": "Werewolf Hood",
+      "quote": "100% Natural Fiber.",
+      "siblings": "Eldest of 3 sisters",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "Pink",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "3 spoonfuls of sugar"
+      }
     }
   },
   "name": "Stella",

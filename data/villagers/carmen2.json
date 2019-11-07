@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "rabbit",
   "birthday": "1-6",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "cf": {
       "personality": "peppy",
@@ -21,7 +16,17 @@
       "phrase": "nougat",
       "skill": "Ventriloquism",
       "goal": "Movie director",
-      "style": "Modern"
+      "fear": "Monster Mask",
+      "quote": "Absence makes the heart grow fonder.",
+      "siblings": "Eldest of 7 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Carmen",

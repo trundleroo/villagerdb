@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "horse",
   "birthday": "4-4",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
       "clothes": "Eight-Ball Tee",
-      "song": "My Place",
-      "phrase": "pardner"
+      "song": "My Place"
     },
     "af+": {
       "personality": "jock",
       "clothes": "Eight-Ball Tee",
-      "song": "My Place",
-      "phrase": "pardner"
+      "song": "My Place"
     },
     "ac": {
       "personality": "jock",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "jock",
       "clothes": "Eight-Ball Tee",
-      "song": "My Place",
-      "phrase": "pardner"
+      "song": "My Place"
     },
     "ww": {
       "personality": "jock",
       "clothes": "Eight-Ball Tee",
       "song": "My Place",
-      "phrase": "pardner"
+      "phrase": "pardner",
+      "quote": "What are you staring at?!"
     },
     "cf": {
       "personality": "jock",
@@ -51,7 +44,17 @@
       "phrase": "pardner",
       "skill": "Vaulting",
       "goal": "Basketball player",
-      "style": "Sporty"
+      "fear": "Werewolf Hood",
+      "quote": "Keep your eyes on the prize.",
+      "siblings": "Only child",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Buck",

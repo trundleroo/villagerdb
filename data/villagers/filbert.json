@@ -2,22 +2,15 @@
   "gender": "male",
   "species": "squirrel",
   "birthday": "6-3",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar."
-  },
   "games": {
     "af": {
       "personality": "lazy",
       "clothes": "Vogue Top",
-      "song": "Two Days Ago",
-      "phrase": "bucko"
+      "song": "Two Days Ago"
     },
     "af+": {
       "personality": "lazy",
-      "song": "Two Days Ago",
-      "phrase": "bucko"
+      "song": "Two Days Ago"
     },
     "ac": {
       "personality": "lazy",
@@ -28,14 +21,14 @@
     "afe+": {
       "personality": "lazy",
       "clothes": "Vogue Top",
-      "song": "Two Days Ago",
-      "phrase": "bucko"
+      "song": "Two Days Ago"
     },
     "ww": {
       "personality": "lazy",
       "clothes": "Vogue Top",
       "song": "Two Days Ago",
-      "phrase": "bucko"
+      "phrase": "bucko",
+      "quote": "Don't go nuts or anything."
     },
     "cf": {
       "personality": "lazy",
@@ -50,7 +43,17 @@
       "phrase": "bucko",
       "skill": "Vaulting",
       "goal": "Pilot",
-      "style": "Basic"
+      "fear": "Werewolf Hood",
+      "quote": "Don't go nuts or anything.",
+      "siblings": "Youngest quadruplet",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar."
+      }
     }
   },
   "name": "Filbert",

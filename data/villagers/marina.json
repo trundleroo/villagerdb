@@ -2,44 +2,43 @@
   "gender": "female",
   "species": "octopus",
   "birthday": "6-26",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
-    "af": {
-      "personality": "normal",
-      "song": "Soulful K.K.",
-      "phrase": "blurp"
-    },
-    "af+": {
-      "personality": "normal",
-      "song": "Soulful K.K.",
-      "phrase": "blurp"
-    },
-    "ac": {
-      "personality": "normal",
-      "song": "Soulful K.K.",
-      "phrase": "blurp"
-    },
     "afe+": {
       "personality": "normal",
       "clothes": "Red Aloha Shirt",
-      "song": "Soulful K.K.",
-      "phrase": "blurp"
+      "song": "Soulful K.K."
     },
     "ww": {
       "personality": "normal",
       "clothes": "Bubble-Gum Tee",
       "song": "Soulful K.K.",
-      "phrase": "blurp"
+      "phrase": "blurp",
+      "quote": "I think I'm the only sane one in this town."
     },
     "cf": {
       "personality": "normal",
       "clothes": "Bubble-Gum Tee",
       "song": "Soulful K.K.",
       "phrase": "blurp"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Bubble-Gum Tee",
+      "song": "Soulful K.K.",
+      "phrase": "blurp",
+      "fear": "Skeleton Hood",
+      "quote": "If you can't say something nice, don't say anything at all.",
+      "skill": "Tongue twisters",
+      "goal": "Pharmacist",
+      "siblings": "Middle triplet",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Marina",

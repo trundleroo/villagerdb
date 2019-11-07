@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "penguin",
   "birthday": "11-2",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "cf": {
       "personality": "jock",
@@ -21,7 +16,17 @@
       "phrase": "waddler",
       "skill": "Bunting",
       "goal": "Baseball player",
-      "style": "Basic"
+      "fear": "Bug Mask",
+      "quote": "Six of one, half dozen of the other.",
+      "siblings": "Only child",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Iggly",

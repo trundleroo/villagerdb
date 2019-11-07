@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "bear",
   "birthday": "9-26",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
       "clothes": "Club Tee",
-      "song": "Mr. K.K.",
-      "phrase": "grooof"
+      "song": "Mr. K.K."
     },
     "af+": {
       "personality": "jock",
       "clothes": "Club Tee",
-      "song": "Mr. K.K.",
-      "phrase": "grooof"
+      "song": "Mr. K.K."
     },
     "ac": {
       "personality": "jock",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "jock",
       "clothes": "Club Tee",
-      "song": "Mr. K.K.",
-      "phrase": "grooof"
+      "song": "Mr. K.K."
     },
     "ww": {
       "personality": "jock",
       "clothes": "Club Tee",
       "song": "Mr. K.K.",
-      "phrase": "grooof"
+      "phrase": "grooof",
+      "quote": "You gotta play through the pain!"
     },
     "cf": {
       "personality": "jock",
@@ -49,9 +42,19 @@
       "clothes": "Club Tee",
       "song": "Mr. K.K.",
       "phrase": "grooof",
-      "skill": "Playing old maid",
+      "skill": "Playing Old Maid",
       "goal": "Police officer",
-      "style": "Basic"
+      "fear": "Mummy Mask",
+      "quote": "No pain, no gain!",
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Teddy",

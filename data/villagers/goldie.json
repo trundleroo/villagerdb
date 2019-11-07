@@ -2,21 +2,14 @@
   "gender": "female",
   "species": "dog",
   "birthday": "12-27",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "normal",
-      "song": "K.K. Bossa",
-      "phrase": "woof"
+      "song": "K.K. Bossa"
     },
     "af+": {
       "personality": "normal",
-      "song": "K.K. Bossa",
-      "phrase": "woof"
+      "song": "K.K. Bossa"
     },
     "ac": {
       "personality": "normal",
@@ -26,14 +19,14 @@
     },
     "afe+": {
       "personality": "normal",
-      "song": "K.K. Bossa",
-      "phrase": "woof"
+      "song": "K.K. Bossa"
     },
     "ww": {
       "personality": "normal",
       "clothes": "Red Check Tee",
       "song": "K.K. Bossa",
-      "phrase": "woof"
+      "phrase": "woof",
+      "quote": "I'm really into that Lab on the cover of Nintendogs. He's pretty dreamy."
     },
     "cf": {
       "personality": "normal",
@@ -48,7 +41,17 @@
       "phrase": "woof",
       "skill": "Dusting",
       "goal": "Dentist",
-      "style": "Basic"
+      "fear": "Werewolf Hood",
+      "quote": "A little bit of happiness is better than a lot of anguish.",
+      "siblings": "Eldest triplet",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Goldie",

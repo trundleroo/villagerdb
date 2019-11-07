@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "squirrel",
   "birthday": "6-8",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "Two sugars"
-  },
   "games": {
     "af": {
       "personality": "peppy",
       "clothes": "Beatnik Tee",
-      "song": "K.K. Salsa",
-      "phrase": "slacker"
+      "song": "K.K. Salsa"
     },
     "af+": {
       "personality": "peppy",
       "clothes": "Beatnik Tee",
-      "song": "K.K. Salsa",
-      "phrase": "slacker"
+      "song": "K.K. Salsa"
     },
     "ac": {
       "personality": "peppy",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "peppy",
       "clothes": "Beatnik Tee",
-      "song": "K.K. Salsa",
-      "phrase": "slacker"
+      "song": "K.K. Salsa"
     },
     "ww": {
       "personality": "peppy",
       "clothes": "Beatnik Tee",
       "song": "K.K. Salsa",
-      "phrase": "slacker"
+      "phrase": "slacker",
+      "quote": "This is my star smile."
     },
     "cf": {
       "personality": "peppy",
@@ -51,7 +44,17 @@
       "phrase": "slacker",
       "skill": "Hula dancing",
       "goal": "Model",
-      "style": "Cute"
+      "fear": "Bug Mask",
+      "quote": "Never take a nibble when you can take a bite.",
+      "siblings": "Middle triplet",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two sugars"
+      }
     }
   },
   "name": "Peanut",

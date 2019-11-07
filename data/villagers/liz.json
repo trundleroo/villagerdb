@@ -5,13 +5,11 @@
   "games": {
     "af": {
       "personality": "normal",
-      "clothes": "Diamond Shirt",
-      "phrase": "groonch"
+      "clothes": "Diamond Shirt"
     },
     "af+": {
       "personality": "normal",
-      "clothes": "Diamond Shirt",
-      "phrase": "groonch"
+      "clothes": "Diamond Shirt"
     },
     "ac": {
       "personality": "normal",
@@ -20,8 +18,7 @@
     },
     "afe+": {
       "personality": "normal",
-      "clothes": "Diamond Shirt",
-      "phrase": "groonch"
+      "clothes": "Diamond Shirt"
     }
   },
   "name": "Liz",

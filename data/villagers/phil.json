@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "ostrich",
   "birthday": "11-27",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "smug",
@@ -15,7 +10,17 @@
       "phrase": "hurk",
       "skill": "Beat boxing",
       "goal": "Baseball player",
-      "style": "Iconic"
+      "fear": "Mummy Mask",
+      "quote": "Best not say too much.",
+      "siblings": "Eldest quintuplet",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Phil",

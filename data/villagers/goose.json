@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "chicken",
   "birthday": "10-4",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
       "clothes": "Tropical Tee",
-      "song": "K.K. Country",
-      "phrase": "buh-kay"
+      "song": "K.K. Country"
     },
     "af+": {
       "personality": "jock",
       "clothes": "Tropical Tee",
-      "song": "K.K. Country",
-      "phrase": "buh-kay"
+      "song": "K.K. Country"
     },
     "ac": {
       "personality": "jock",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "jock",
       "clothes": "Tropical Tee",
-      "song": "K.K. Country",
-      "phrase": "buh-kay"
+      "song": "K.K. Country"
     },
     "ww": {
       "personality": "jock",
       "clothes": "Tropical Tee",
       "song": "K.K. Country",
-      "phrase": "buh-kay"
+      "phrase": "buh-kay",
+      "quote": "Who are you callin' chicken, chicken?!"
     },
     "cf": {
       "personality": "jock",
@@ -51,7 +44,17 @@
       "phrase": "buh-kay",
       "skill": "Waking up early",
       "goal": "Soccer player",
-      "style": "Basic"
+      "fear": "Werewolf Hood",
+      "quote": "Birds of a feather crow together.",
+      "siblings": "Eldest of 5 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Goose",

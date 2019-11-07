@@ -69,31 +69,43 @@ module.exports.formatVillager = function(villager) {
 
     if (villager.birthday) {
         let momentBirthdate = moment(villager.birthday + '-2000', 'MM-DD-YYYY'); // we only store month/year, so add 2000.
-        result.birthday = momentBirthdate.format('MMM Do');
+        result.birthday = momentBirthdate.format('MMMM Do');
         result.zodiac = getZodiac(momentBirthdate);
     } else {
         result.birthday = 'Unknown';
         result.zodiac = 'Unknown';
     }
 
-    // All the game-specific data.
+    // All the game-specific data, sort games in reverse chronological order.
     result.games = {};
     result.gameTitles = [];
-    for (let game in games) {
+    const gamesSorted = Object.entries(games)
+        .sort((a, b) => {
+            return (a[1].order >= b[1].order) ? -1 : 1;
+        })
+        .map((a) => {
+            return a[0];
+        });
+    for (let game of gamesSorted) {
         let data = villager.games[game];
         if (data) {
             result.gameTitles.push(games[game].title);
             result.games[game] = {
-                personality: data.personality,
+                personality: capFirstLetter(data.personality),
                 clothes: data.clothes,
                 song: data.song,
-                phrase: data.phrase,
-                skill: data.skill,
-                style: data.style
+                phrase: data.phrase
             };
         }
     }
-    result.gameTitles.reverse();
+
+    // Coffee data, if we have any (new leaf only)
+    result.coffee = [];
+    if (villager.games['nl'] && villager.games['nl'].coffee) {
+        result.coffee.push(villager.games['nl'].coffee.beans + ',');
+        result.coffee.push(villager.games['nl'].coffee.milk + ',');
+        result.coffee.push(villager.games['nl'].coffee.sugar);
+    }
 
     return result;
 }

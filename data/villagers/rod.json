@@ -2,47 +2,43 @@
   "gender": "male",
   "species": "mouse",
   "birthday": "8-14",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
-    "af": {
-      "personality": "jock",
-      "clothes": "Zipper Shirt",
-      "song": "K.K. March",
-      "phrase": "ace"
-    },
-    "af+": {
-      "personality": "jock",
-      "clothes": "Zipper Shirt",
-      "song": "K.K. March",
-      "phrase": "ace"
-    },
-    "ac": {
-      "personality": "jock",
-      "clothes": "Zipper Shirt",
-      "song": "K.K. March",
-      "phrase": "ace"
-    },
     "afe+": {
       "personality": "jock",
       "clothes": "Zipper Shirt",
-      "song": "K.K. March",
-      "phrase": "ace"
+      "song": "K.K. March"
     },
     "ww": {
       "personality": "jock",
       "clothes": "Zipper Shirt",
       "song": "K.K. March",
-      "phrase": "ace"
+      "phrase": "ace",
+      "quote": "You're not done 'til your muscles are screaming in agony!"
     },
     "cf": {
       "personality": "jock",
       "clothes": "Zipper Shirt",
       "song": "K.K. March",
       "phrase": "ace"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "Zipper Shirt",
+      "song": "K.K. March",
+      "phrase": "ace",
+      "fear": "Bug Mask",
+      "quote": "If you can't beat 'em, work harder.",
+      "skill": "Sprinting",
+      "goal": "Explorer",
+      "siblings": "Youngest quadruplet",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Rod",

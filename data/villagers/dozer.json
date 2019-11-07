@@ -5,13 +5,11 @@
   "games": {
     "af": {
       "personality": "lazy",
-      "clothes": "Bear Shirt",
-      "phrase": "zzzzzz"
+      "clothes": "Bear Shirt"
     },
     "af+": {
       "personality": "lazy",
-      "clothes": "Bear Shirt",
-      "phrase": "zzzzzz"
+      "clothes": "Bear Shirt"
     },
     "ac": {
       "personality": "lazy",
@@ -20,8 +18,7 @@
     },
     "afe+": {
       "personality": "lazy",
-      "clothes": "Bear Shirt",
-      "phrase": "zzzzzz"
+      "clothes": "Bear Shirt"
     }
   },
   "name": "Dozer",

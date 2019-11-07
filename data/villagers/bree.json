@@ -2,47 +2,43 @@
   "gender": "female",
   "species": "mouse",
   "birthday": "7-7",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
-    "af": {
-      "personality": "snooty",
-      "clothes": "Floral Knit Tee",
-      "song": "Two Days Ago",
-      "phrase": "cheeseball"
-    },
-    "af+": {
-      "personality": "snooty",
-      "clothes": "Floral Knit Tee",
-      "song": "Two Days Ago",
-      "phrase": "cheeseball"
-    },
-    "ac": {
-      "personality": "snooty",
-      "clothes": "Floral Knit Tee",
-      "song": "Two Days Ago",
-      "phrase": "cheeseball"
-    },
     "afe+": {
       "personality": "snooty",
       "clothes": "Floral Knit Tee",
-      "song": "Two Days Ago",
-      "phrase": "cheeseball"
+      "song": "Two Days Ago"
     },
     "ww": {
       "personality": "snooty",
       "clothes": "Floral Knit Tee",
       "song": "Two Days Ago",
-      "phrase": "cheeseball"
+      "phrase": "cheeseball",
+      "quote": "Just in case you were wondering, I like presents."
     },
     "cf": {
       "personality": "snooty",
       "clothes": "Floral Knit Tee",
       "song": "Two Days Ago",
       "phrase": "cheeseball"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "Floral Knit Tee",
+      "song": "Two Days Ago",
+      "phrase": "cheeseball",
+      "fear": "Skeleton Hood",
+      "quote": "The gift says more about the giver.",
+      "skill": "Doodling",
+      "goal": "Dermatologist",
+      "siblings": "Third of 5 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Bree",

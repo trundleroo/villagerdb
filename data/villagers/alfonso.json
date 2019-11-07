@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "alligator",
   "birthday": "6-9",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "lazy",
       "clothes": "Big Bro's Tee",
-      "song": "Forest Life",
-      "phrase": "it'sa me"
+      "song": "Forest Life"
     },
     "af+": {
       "personality": "lazy",
       "clothes": "Big Bro's Tee",
-      "song": "Forest Life",
-      "phrase": "it'sa me"
+      "song": "Forest Life"
     },
     "ac": {
       "personality": "lazy",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "lazy",
       "clothes": "Big Bro's Tee",
-      "song": "Forest Life",
-      "phrase": "it'sa me"
+      "song": "Forest Life"
     },
     "ww": {
       "personality": "lazy",
       "clothes": "Big Bro's Tee",
       "song": "Forest Life",
-      "phrase": "it'sa me"
+      "phrase": "it'sa me",
+      "quote": "We're friends, so I won't gnaw on your legs, even though I'm starving."
     },
     "cf": {
       "personality": "lazy",
@@ -51,7 +44,17 @@
       "phrase": "it'sa me",
       "skill": "Fishing",
       "goal": "Cartoonist",
-      "style": "Basic"
+      "fear": "Bug Mask",
+      "quote": "Slow and steady wins the race.",
+      "siblings": "Youngest quintuplet",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Official",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Alfonso",

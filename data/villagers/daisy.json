@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "dog",
   "birthday": "11-16",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "normal",
       "clothes": "Kiddie Tee",
-      "song": "K.K. Soul",
-      "phrase": "bow-WOW"
+      "song": "K.K. Soul"
     },
     "af+": {
       "personality": "normal",
       "clothes": "Kiddie Tee",
-      "song": "K.K. Soul",
-      "phrase": "bow-WOW"
+      "song": "K.K. Soul"
     },
     "ac": {
       "personality": "normal",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "normal",
       "clothes": "Kiddie Tee",
-      "song": "K.K. Soul",
-      "phrase": "bow-WOW"
+      "song": "K.K. Soul"
     },
     "ww": {
       "personality": "normal",
       "clothes": "Kiddie Tee",
       "song": "K.K. Soul",
-      "phrase": "bow-WOW"
+      "phrase": "bow-WOW",
+      "quote": "Just a regular girl in a crazy world!"
     },
     "cf": {
       "personality": "normal",
@@ -51,7 +44,17 @@
       "phrase": "bow-WOW",
       "skill": "Making budgets",
       "goal": "Archaeologist",
-      "style": "Basic"
+      "fear": "Werewolf Hood",
+      "quote": "It's not always a dog-eat-dog world.",
+      "siblings": "Eldest of 9 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Daisy",

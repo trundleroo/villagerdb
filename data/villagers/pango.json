@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "anteater",
   "birthday": "11-9",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
       "clothes": "Subdued-Print Tee",
-      "song": "K.K. Casbah",
-      "phrase": "snooooof"
+      "song": "K.K. Casbah"
     },
     "af+": {
       "personality": "peppy",
       "clothes": "Subdued-Print Tee",
-      "song": "K.K. Casbah",
-      "phrase": "snooooof"
+      "song": "K.K. Casbah"
     },
     "ac": {
       "personality": "peppy",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "peppy",
       "clothes": "Subdued-Print Tee",
-      "song": "K.K. Casbah",
-      "phrase": "snooooof"
+      "song": "K.K. Casbah"
     },
     "ww": {
       "personality": "peppy",
       "clothes": "Subdued-Print Tee",
       "song": "K.K. Casbah",
-      "phrase": "snooooof"
+      "phrase": "snooooof",
+      "quote": "Now you can say you knew me when!"
     },
     "cf": {
       "personality": "peppy",
@@ -49,9 +42,19 @@
       "clothes": "Subdued-Print Tee",
       "song": "K.K. Casbah",
       "phrase": "snooooof",
-      "skill": "Tongue twister",
-      "goal": "Esthetician",
-      "style": "Modern"
+      "skill": "Tongue twisters",
+      "goal": "Aesthetician",
+      "fear": "Ghost Mask",
+      "quote": "A thing of beauty is a joy forever!",
+      "siblings": "Eldest of 3 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Pango",

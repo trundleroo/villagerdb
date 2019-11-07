@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "eagle",
   "birthday": "12-7",
-  "coffee": {
-    "beans": "Blue mountain",
-    "milk": "Lots of milk",
-    "sugar": "3 spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
       "clothes": "Racer 6 Shirt",
-      "song": "K.K. Rally",
-      "phrase": "captain"
+      "song": "K.K. Rally"
     },
     "af+": {
       "personality": "cranky",
       "clothes": "Racer 6 Shirt",
-      "song": "K.K. Rally",
-      "phrase": "captain"
+      "song": "K.K. Rally"
     },
     "ac": {
       "personality": "cranky",
@@ -29,8 +22,7 @@
     "afe+": {
       "personality": "cranky",
       "clothes": "Racer 6 Shirt",
-      "song": "K.K. Rally",
-      "phrase": "captain"
+      "song": "K.K. Rally"
     },
     "nl": {
       "personality": "cranky",
@@ -38,7 +30,18 @@
       "song": "K.K. Rally",
       "phrase": "captain",
       "skill": "Fishing",
-      "goal": "Chef"
+      "goal": "Chef",
+      "fear": "Ghost Mask",
+      "quote": "Pride'll put you in a pickle.",
+      "siblings": "Eldest of 6 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "Red",
+      "coffee": {
+        "beans": "Blue mountain",
+        "milk": "Lots of milk",
+        "sugar": "3 spoonfuls of sugar"
+      }
     }
   },
   "name": "Buzz",

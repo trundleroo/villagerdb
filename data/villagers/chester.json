@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "cub",
   "birthday": "8-6",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "cf": {
       "personality": "lazy",
@@ -21,7 +16,17 @@
       "phrase": "rookie",
       "skill": "Trivia",
       "goal": "Teacher",
-      "style": "Basic"
+      "fear": "Ghost Mask",
+      "quote": "Sleep early. Wake late.",
+      "siblings": "Youngest quintuplet",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Chester",

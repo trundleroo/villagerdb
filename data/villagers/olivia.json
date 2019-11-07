@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "cat",
   "birthday": "2-3",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "af": {
       "personality": "snooty",
       "clothes": "Floral Knit Tee",
-      "song": "Two Days Ago",
-      "phrase": "purrr"
+      "song": "Two Days Ago"
     },
     "af+": {
       "personality": "snooty",
       "clothes": "Floral Knit Tee",
-      "song": "Two Days Ago",
-      "phrase": "purrr"
+      "song": "Two Days Ago"
     },
     "ac": {
       "personality": "snooty",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "snooty",
       "clothes": "Floral Knit Tee",
-      "song": "Two Days Ago",
-      "phrase": "purrr"
+      "song": "Two Days Ago"
     },
     "ww": {
       "personality": "snooty",
       "clothes": "Floral Knit Tee",
       "song": "Two Days Ago",
-      "phrase": "purrr"
+      "phrase": "purrr",
+      "quote": "You're the best kind of friend because you make me look even prettier."
     },
     "cf": {
       "personality": "snooty",
@@ -51,7 +44,17 @@
       "phrase": "purrr",
       "skill": "Brainteasers",
       "goal": "Drummer",
-      "style": "Modern"
+      "fear": "Monster Mask",
+      "quote": "There's an exception to every rule.",
+      "siblings": "Eldest of 4 sisters",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Olivia",

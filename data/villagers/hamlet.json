@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "hamster",
   "birthday": "5-30",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "jock",
@@ -15,7 +10,17 @@
       "phrase": "hammie",
       "skill": "Limboing",
       "goal": "Soccer player",
-      "style": "Basic"
+      "fear": "Monster Mask",
+      "quote": "The ear's the thing.",
+      "siblings": "Youngest of 6 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Official",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Hamlet",

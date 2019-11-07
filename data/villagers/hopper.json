@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "penguin",
   "birthday": "4-6",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
       "clothes": "Dragon Suit",
-      "song": "Lucky K.K.",
-      "phrase": "slushie"
+      "song": "Lucky K.K."
     },
     "af+": {
       "personality": "cranky",
       "clothes": "Dragon Suit",
-      "song": "Lucky K.K.",
-      "phrase": "slushie"
+      "song": "Lucky K.K."
     },
     "ac": {
       "personality": "cranky",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "cranky",
       "clothes": "Dragon Suit",
-      "song": "Lucky K.K.",
-      "phrase": "slushie"
+      "song": "Lucky K.K."
     },
     "ww": {
       "personality": "cranky",
       "clothes": "Dragon Suit",
       "song": "Lucky K.K.",
-      "phrase": "slushie"
+      "phrase": "slushie",
+      "quote": "This is my good side."
     },
     "cf": {
       "personality": "cranky",
@@ -51,7 +44,17 @@
       "phrase": "slushie",
       "skill": "Mental math",
       "goal": "Firefighter",
-      "style": "Rock 'n' roll"
+      "fear": "Monster Mask",
+      "quote": "Always have a comeback.",
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Hopper",

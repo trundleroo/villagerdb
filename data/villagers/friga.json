@@ -2,21 +2,14 @@
   "gender": "female",
   "species": "penguin",
   "birthday": "10-16",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "A little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "snooty",
-      "song": "K.K. Tango",
-      "phrase": "brrmph"
+      "song": "K.K. Tango"
     },
     "af+": {
       "personality": "snooty",
-      "song": "K.K. Tango",
-      "phrase": "brrmph"
+      "song": "K.K. Tango"
     },
     "ac": {
       "personality": "snooty",
@@ -26,14 +19,14 @@
     },
     "afe+": {
       "personality": "snooty",
-      "song": "K.K. Tango",
-      "phrase": "brrmph"
+      "song": "K.K. Tango"
     },
     "ww": {
       "personality": "snooty",
       "clothes": "Picnic Tee",
       "song": "K.K. Tango",
-      "phrase": "brrmph"
+      "phrase": "brrmph",
+      "quote": "This isn't a fortune cookie! It's an important life lesson!"
     },
     "cf": {
       "personality": "snooty",
@@ -48,7 +41,17 @@
       "phrase": "brrmph",
       "skill": "Board games",
       "goal": "Drummer",
-      "style": "Ornate"
+      "fear": "Mummy Mask",
+      "quote": "You can't learn a life lesson from a fortune cookie.",
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Friga",

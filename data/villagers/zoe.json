@@ -5,13 +5,11 @@
   "games": {
     "af": {
       "personality": "normal",
-      "clothes": "Hot Spring Shirt",
-      "phrase": "whiiifff"
+      "clothes": "Hot Spring Shirt"
     },
     "af+": {
       "personality": "normal",
-      "clothes": "Hot Spring Shirt",
-      "phrase": "whiiifff"
+      "clothes": "Hot Spring Shirt"
     },
     "ac": {
       "personality": "normal",
@@ -20,8 +18,7 @@
     },
     "afe+": {
       "personality": "normal",
-      "clothes": "Hot Spring Shirt",
-      "phrase": "whiiifff"
+      "clothes": "Hot Spring Shirt"
     }
   },
   "name": "Zoe",

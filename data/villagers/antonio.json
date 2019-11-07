@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "anteater",
   "birthday": "10-20",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
       "clothes": "Big-Star Tee",
-      "song": "K.K. Faire",
-      "phrase": "honk"
+      "song": "K.K. Faire"
     },
     "af+": {
       "personality": "jock",
       "clothes": "Big-Star Tee",
-      "song": "K.K. Faire",
-      "phrase": "honk"
+      "song": "K.K. Faire"
     },
     "ac": {
       "personality": "jock",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "jock",
       "clothes": "Big-Star Tee",
-      "song": "K.K. Faire",
-      "phrase": "honk"
+      "song": "K.K. Faire"
     },
     "ww": {
       "personality": "jock",
       "clothes": "Big-Star Tee",
       "song": "K.K. Faire",
-      "phrase": "honk"
+      "phrase": "honk",
+      "quote": "Always go for the burn!"
     },
     "cf": {
       "personality": "jock",
@@ -51,7 +44,17 @@
       "phrase": "honk",
       "skill": "Playing horseshoes",
       "goal": "Baseball player",
-      "style": "Basic"
+      "fear": "Mummy Mask",
+      "quote": "Always go for the burn!",
+      "siblings": "Youngest of 4 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Antonio",

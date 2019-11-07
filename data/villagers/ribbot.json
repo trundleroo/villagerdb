@@ -2,21 +2,14 @@
   "gender": "male",
   "species": "frog",
   "birthday": "2-13",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
-      "song": "Go K.K. Rider!",
-      "phrase": "zzrrbbitt"
+      "song": "Go K.K. Rider!"
     },
     "af+": {
       "personality": "jock",
-      "song": "Go K.K. Rider!",
-      "phrase": "zzrrbbitt"
+      "song": "Go K.K. Rider!"
     },
     "ac": {
       "personality": "jock",
@@ -25,13 +18,13 @@
     },
     "afe+": {
       "personality": "jock",
-      "song": "Go K.K. Rider!",
-      "phrase": "zzrrbbitt"
+      "song": "Go K.K. Rider!"
     },
     "ww": {
       "personality": "jock",
       "song": "Go K.K. Rider!",
-      "phrase": "zzrrbbitt"
+      "phrase": "zzrrbbitt",
+      "quote": "Never rest, never rust."
     },
     "cf": {
       "personality": "jock",
@@ -45,7 +38,17 @@
       "phrase": "zzrrbbitt",
       "skill": "Ventriloquism",
       "goal": "Astronaut",
-      "style": "Flashy"
+      "fear": "Bug Mask",
+      "quote": "Never rest, never rust.",
+      "siblings": "Eldest of 9 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Ribbot",

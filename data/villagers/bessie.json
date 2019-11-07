@@ -6,14 +6,12 @@
     "af": {
       "personality": "normal",
       "clothes": "Berry Gingham",
-      "song": "K.K. Salsa",
-      "phrase": "buttercup"
+      "song": "K.K. Salsa"
     },
     "af+": {
       "personality": "normal",
       "clothes": "Berry Gingham",
-      "song": "K.K. Salsa",
-      "phrase": "buttercup"
+      "song": "K.K. Salsa"
     },
     "ac": {
       "personality": "normal",
@@ -24,8 +22,7 @@
     "afe+": {
       "personality": "normal",
       "clothes": "Berry Gingham",
-      "song": "K.K. Salsa",
-      "phrase": "buttercup"
+      "song": "K.K. Salsa"
     }
   },
   "name": "Bessie",

@@ -6,14 +6,12 @@
     "af": {
       "personality": "peppy",
       "clothes": "Flowery Shirt",
-      "song": "K.K. Bossa",
-      "phrase": "yaaaawl"
+      "song": "K.K. Bossa"
     },
     "af+": {
       "personality": "peppy",
       "clothes": "Flowery Shirt",
-      "song": "K.K. Bossa",
-      "phrase": "yaaaawl"
+      "song": "K.K. Bossa"
     },
     "ac": {
       "personality": "peppy",
@@ -24,8 +22,7 @@
     "afe+": {
       "personality": "peppy",
       "clothes": "Flowery Shirt",
-      "song": "K.K. Bossa",
-      "phrase": "yaaaawl"
+      "song": "K.K. Bossa"
     }
   },
   "name": "Lulu",

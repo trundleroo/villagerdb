@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "frog",
   "birthday": "12-17",
-  "coffee": {
-    "beans": "Blue mountain",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
       "clothes": "Rally Tee",
-      "song": "Imperial K.K.",
-      "phrase": "oui oui"
+      "song": "Imperial K.K."
     },
     "af+": {
       "personality": "jock",
       "clothes": "Rally Tee",
-      "song": "Imperial K.K.",
-      "phrase": "oui oui"
+      "song": "Imperial K.K."
     },
     "ac": {
       "personality": "jock",
@@ -29,8 +22,7 @@
     "afe+": {
       "personality": "jock",
       "clothes": "Rally Tee",
-      "song": "Imperial K.K.",
-      "phrase": "oui oui"
+      "song": "Imperial K.K."
     },
     "cf": {
       "personality": "jock",
@@ -45,7 +37,17 @@
       "phrase": "oui oui",
       "skill": "Telling jokes",
       "goal": "CEO",
-      "style": "Iconic"
+      "fear": "Bug Mask",
+      "quote": "Jump first; ask questions later.",
+      "siblings": "Eldest of 7 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blue mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Cousteau",

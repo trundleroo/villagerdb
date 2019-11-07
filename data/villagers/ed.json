@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "horse",
   "birthday": "9-16",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
       "clothes": "Mod Top",
-      "song": "K.K. Ballad",
-      "phrase": "greenhorn"
+      "song": "K.K. Ballad"
     },
     "af+": {
       "personality": "jock",
       "clothes": "Mod Top",
-      "song": "K.K. Ballad",
-      "phrase": "greenhorn"
+      "song": "K.K. Ballad"
     },
     "ac": {
       "personality": "jock",
@@ -29,8 +22,7 @@
     "afe+": {
       "personality": "jock",
       "clothes": "Mod Top",
-      "song": "K.K. Ballad",
-      "phrase": "greenhorn"
+      "song": "K.K. Ballad"
     },
     "cf": {
       "personality": "jock",
@@ -45,7 +37,17 @@
       "phrase": "greenhorn",
       "skill": "Juggling",
       "goal": "Singer",
-      "style": "Flashy"
+      "fear": "Bug Mask",
+      "quote": "Beauty is pain!",
+      "siblings": "Third of 4 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Ed",

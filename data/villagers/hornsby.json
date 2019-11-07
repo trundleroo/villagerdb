@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "rhino",
   "birthday": "3-20",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "A little bit of milk",
-    "sugar": "1 spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "lazy",
       "clothes": "Chevron Shirt",
-      "song": "Aloha K.K.",
-      "phrase": "schnozzle"
+      "song": "Aloha K.K."
     },
     "af+": {
       "personality": "lazy",
       "clothes": "Chevron Shirt",
-      "song": "Aloha K.K.",
-      "phrase": "schnozzle"
+      "song": "Aloha K.K."
     },
     "ac": {
       "personality": "lazy",
@@ -29,16 +22,26 @@
     "afe+": {
       "personality": "lazy",
       "clothes": "Chevron Shirt",
-      "song": "Aloha K.K",
-      "phrase": "schnozzle"
+      "song": "Aloha K.K"
     },
     "nl": {
       "personality": "lazy",
       "clothes": "Chevron Shirt",
       "song": "K.K. Lament",
       "phrase": "schnozzle",
-      "skill": "Bunting/Comedy",
-      "goal": "Artist"
+      "skill": "Bunting",
+      "goal": "An artist",
+      "fear": "Monster Mask",
+      "quote": "You can't hit a mosquito with a horseshoe.",
+      "siblings": "Youngest of 3 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "Brown",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "A little bit of milk",
+        "sugar": "1 spoonful of sugar"
+      }
     }
   },
   "name": "Hornsby",

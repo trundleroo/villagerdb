@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "cub",
   "birthday": "6-24",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
       "clothes": "Lemon Gingham Tee",
-      "song": "K.K. Ska",
-      "phrase": "peach"
+      "song": "K.K. Ska"
     },
     "af+": {
       "personality": "peppy",
       "clothes": "Lemon Gingham Tee",
-      "song": "K.K. Ska",
-      "phrase": "peach"
+      "song": "K.K. Ska"
     },
     "ac": {
       "personality": "peppy",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "peppy",
       "clothes": "Lemon Gingham Tee",
-      "song": "K.K. Ska",
-      "phrase": "peach"
+      "song": "K.K. Ska"
     },
     "ww": {
       "personality": "peppy",
       "clothes": "Lemon Gingham Tee",
       "song": "K.K. Ska",
-      "phrase": "peach"
+      "phrase": "peach",
+      "quote": "I enjoy tap dancing and raspberry jam!"
     },
     "cf": {
       "personality": "peppy",
@@ -51,7 +44,17 @@
       "phrase": "peach",
       "skill": "Spoon bending",
       "goal": "Cartoonist",
-      "style": "Cute"
+      "fear": "Mummy Mask",
+      "quote": "Candy makes the world go 'round.",
+      "siblings": "Eldest of 3 sisters",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Bluebear",

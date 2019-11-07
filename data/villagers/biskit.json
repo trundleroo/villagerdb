@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "dog",
   "birthday": "5-13",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "lazy",
       "clothes": "Mod Top",
-      "song": "K.K. Mambo",
-      "phrase": "dawg"
+      "song": "K.K. Mambo"
     },
     "af+": {
       "personality": "lazy",
       "clothes": "Mod Top",
-      "song": "K.K. Mambo",
-      "phrase": "dawg"
+      "song": "K.K. Mambo"
     },
     "ac": {
       "personality": "lazy",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "lazy",
       "clothes": "Mod Top",
-      "song": "K.K. Mambo",
-      "phrase": "dawg"
+      "song": "K.K. Mambo"
     },
     "ww": {
       "personality": "lazy",
       "clothes": "Mod Top",
       "song": "K.K. Mambo",
-      "phrase": "dawg"
+      "phrase": "dawg",
+      "quote": "Let sleeping dogs lie."
     },
     "cf": {
       "personality": "lazy",
@@ -51,7 +44,17 @@
       "phrase": "dawg",
       "skill": "Hitting snooze",
       "goal": "Architect",
-      "style": "Basic"
+      "fear": "Mummy Mask",
+      "quote": "Let sleeping dogs lie.",
+      "siblings": "Youngest of 4 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Official",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Biskit",

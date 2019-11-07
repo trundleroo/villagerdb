@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "frog",
   "birthday": "7-8",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "af": {
       "personality": "lazy",
       "clothes": "Sunset Tee",
-      "song": "K.K. Mambo",
-      "phrase": "nee-deep"
+      "song": "K.K. Mambo"
     },
     "af+": {
       "personality": "lazy",
       "clothes": "Sunset Tee",
-      "song": "K.K. Mambo",
-      "phrase": "nee-deep"
+      "song": "K.K. Mambo"
     },
     "ac": {
       "personality": "lazy",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "lazy",
       "clothes": "Sunset Tee",
-      "song": "K.K. Mambo",
-      "phrase": "nee-deep"
+      "song": "K.K. Mambo"
     },
     "ww": {
       "personality": "lazy",
       "clothes": "Sunset Tee",
       "song": "K.K. Mambo",
-      "phrase": "nee-deep"
+      "phrase": "nee-deep",
+      "quote": "Think about it, man. Bullfrog is only one letter away from blue frog."
     },
     "cf": {
       "personality": "lazy",
@@ -51,7 +44,17 @@
       "phrase": "nee-deep",
       "skill": "Hitting snooze",
       "goal": "Writer",
-      "style": "Basic"
+      "fear": "Monster Mask",
+      "quote": "Sleep before you leap.",
+      "siblings": "Second of 4 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Jeremiah",

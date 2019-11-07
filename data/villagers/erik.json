@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "deer",
   "birthday": "7-27",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "lazy",
@@ -15,7 +10,17 @@
       "phrase": "chow down",
       "skill": "Playing horseshoes",
       "goal": "Carpenter",
-      "style": "Basic"
+      "fear": "Werewolf Hood",
+      "quote": "If you're afraid of wolves, don't go to the woods.",
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Erik",

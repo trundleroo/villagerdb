@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "ostrich",
   "birthday": "4-22",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "nl": {
       "personality": "uchi",
@@ -15,7 +10,17 @@
       "phrase": "sparky",
       "skill": "Eating frequently",
       "goal": "Swimmer",
-      "style": "Ornate"
+      "fear": "Skeleton Hood",
+      "quote": "You can't keep a good bird down.",
+      "siblings": "Fifth of 6 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Phoebe",

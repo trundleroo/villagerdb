@@ -2,24 +2,7 @@
   "gender": "male",
   "species": "dog",
   "birthday": "6-10",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
-    "af": {
-      "personality": "lazy",
-      "clothes": "No. 67 Shirt",
-      "song": "Two Days Ago",
-      "phrase": "wuh"
-    },
-    "af+": {
-      "personality": "lazy",
-      "clothes": "No. 67 Shirt",
-      "song": "Two Days Ago",
-      "phrase": "wuh"
-    },
     "ac": {
       "personality": "lazy",
       "clothes": "No. 67 Shirt",
@@ -29,20 +12,39 @@
     "afe+": {
       "personality": "lazy",
       "clothes": "No. 67 Shirt",
-      "song": "Two Days Ago",
-      "phrase": "wuh"
+      "song": "Two Days Ago"
     },
     "ww": {
       "personality": "lazy",
       "clothes": "No. 67 Shirt",
       "song": "Two Days Ago",
-      "phrase": "wuh"
+      "phrase": "wuh",
+      "quote": "Perhaps you know me as my superhero alter ego, Fashion Lad."
     },
     "cf": {
       "personality": "lazy",
       "clothes": "No. 67 Shirt",
       "song": "Two Days Ago",
       "phrase": "wuh"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "No. 67 Shirt",
+      "song": "Two Days Ago",
+      "phrase": "wuh",
+      "fear": "Mummy Mask",
+      "quote": "The dog wags his tail, not for you, but for your bread.",
+      "skill": "Clearing my plate",
+      "goal": "Photographer",
+      "siblings": "Eldest of 10 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Walker",

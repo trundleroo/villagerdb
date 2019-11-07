@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "bear",
   "birthday": "7-31",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
       "clothes": "Houndstooth Tee",
-      "song": "K.K. Dirge",
-      "phrase": "grrr"
+      "song": "K.K. Dirge"
     },
     "af+": {
       "personality": "cranky",
       "clothes": "Houndstooth Tee",
-      "song": "K.K. Dirge",
-      "phrase": "grrr"
+      "song": "K.K. Dirge"
     },
     "ac": {
       "personality": "cranky",
@@ -29,8 +22,7 @@
     "afe+": {
       "personality": "cranky",
       "clothes": "Houndstooth Tee",
-      "song": "K.K. Dirge",
-      "phrase": "grrr"
+      "song": "K.K. Dirge"
     },
     "cf": {
       "personality": "cranky",
@@ -45,7 +37,17 @@
       "phrase": "grrr",
       "skill": "Brainteasers",
       "goal": "Photographer",
-      "style": "Basic"
+      "fear": "Bug Mask",
+      "quote": "Those who live in glass houses shouldn't throw stones.",
+      "siblings": "Eldest of 4 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Grizzly",

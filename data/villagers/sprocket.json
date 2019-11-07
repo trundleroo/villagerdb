@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "ostrich",
   "birthday": "12-1",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "2 spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
       "clothes": "No. 67 Shirt",
-      "song": "K.K. Metal",
-      "phrase": "zort"
+      "song": "K.K. Metal"
     },
     "af+": {
       "personality": "jock",
       "clothes": "No. 67 Shirt",
-      "song": "K.K. Metal",
-      "phrase": "zort"
+      "song": "K.K. Metal"
     },
     "ac": {
       "personality": "jock",
@@ -29,8 +22,7 @@
     "afe+": {
       "personality": "jock",
       "clothes": "No. 67 Shirt",
-      "song": "K.K. Metal",
-      "phrase": "zort"
+      "song": "K.K. Metal"
     },
     "nl": {
       "personality": "jock",
@@ -38,7 +30,18 @@
       "song": "K.K. Metal",
       "phrase": "zort",
       "skill": "Air guitar",
-      "goal": "Guitarist"
+      "goal": "Guitarist",
+      "fear": "Ghost Mask",
+      "quote": "Strike while the iron is hot.",
+      "siblings": "Middle triplet",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "Blue",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "2 spoonfuls of sugar"
+      }
     }
   },
   "name": "Sprocket",

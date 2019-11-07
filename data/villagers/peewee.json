@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "gorilla",
   "birthday": "9-11",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
       "clothes": "Five-Ball Tee",
-      "song": "K.K. Rally",
-      "phrase": "li'l dude"
+      "song": "K.K. Rally"
     },
     "af+": {
       "personality": "cranky",
       "clothes": "Five-Ball Tee",
-      "song": "K.K. Rally",
-      "phrase": "li'l dude"
+      "song": "K.K. Rally"
     },
     "ac": {
       "personality": "cranky",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "cranky",
       "clothes": "Five-Ball Tee",
-      "song": "K.K. Rally",
-      "phrase": "li'l dude"
+      "song": "K.K. Rally"
     },
     "ww": {
       "personality": "cranky",
       "clothes": "Five-Ball Tee",
       "song": "K.K. Rally",
-      "phrase": "li'l dude"
+      "phrase": "li'l dude",
+      "quote": "I AM BEHIND YOU!"
     },
     "cf": {
       "personality": "cranky",
@@ -51,7 +44,17 @@
       "phrase": "li'l dude",
       "skill": "Karaoke",
       "goal": "Pro wrestler",
-      "style": "Sporty"
+      "fear": "Monster Mask",
+      "quote": "Look behind you.",
+      "siblings": "Third of 6 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Official",
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Peewee",

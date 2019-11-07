@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "anteater",
   "birthday": "2-6",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "normal",
@@ -15,7 +10,17 @@
       "phrase": "gumdrop",
       "skill": "Waking up early",
       "goal": "Astronaut",
-      "style": "Iconic"
+      "fear": "Skeleton Hood",
+      "quote": "Home is where the heart is.",
+      "siblings": "Second of 3 sisters",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Annalisa",

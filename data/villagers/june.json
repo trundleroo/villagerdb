@@ -2,16 +2,10 @@
   "gender": "female",
   "species": "cub",
   "birthday": "5-21",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af+": {
       "personality": "normal",
-      "song": "K.K. Aria",
-      "phrase": "rainbow"
+      "song": "K.K. Aria"
     },
     "ac": {
       "personality": "normal",
@@ -21,8 +15,7 @@
     "afe+": {
       "personality": "normal",
       "clothes": "Red Aloha Shirt",
-      "song": "K.K. Aria",
-      "phrase": "rainbow"
+      "song": "K.K. Aria"
     },
     "nl": {
       "personality": "normal",
@@ -30,7 +23,18 @@
       "song": "K.K. Aria",
       "phrase": "rainbow",
       "skill": "Photography",
-      "goal": "Pharmacist"
+      "goal": "Pharmacist",
+      "fear": "Bug Mask",
+      "quote": "Dream big, expect little.",
+      "siblings": "Eldest of 3 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "White",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "June",

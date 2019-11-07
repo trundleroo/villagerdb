@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "bear",
   "birthday": "9-27",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "nl": {
       "personality": "smug",
@@ -15,7 +10,17 @@
       "phrase": "whiskers",
       "skill": "Memorizing stuff",
       "goal": "Professor",
-      "style": "Official"
+      "fear": "Ghost Mask",
+      "quote": "Ladies first!",
+      "siblings": "Middle kid",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Beardo",

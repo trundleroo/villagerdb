@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "bull",
   "birthday": "4-29",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "jock",
@@ -15,7 +10,17 @@
       "phrase": "stubble",
       "skill": "Eating quickly",
       "goal": "Fisherman",
-      "style": "Sporty"
+      "fear": "Monster Mask",
+      "quote": "Fool me once, shame on you. Fool me twice, shame on me.",
+      "siblings": "Eldest of 6 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Coach",

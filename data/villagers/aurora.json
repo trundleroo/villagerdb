@@ -2,21 +2,14 @@
   "gender": "female",
   "species": "penguin",
   "birthday": "1-27",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "normal",
-      "song": "K.K. Gumbo",
-      "phrase": "b-b-baby"
+      "song": "K.K. Gumbo"
     },
     "af+": {
       "personality": "normal",
-      "song": "K.K. Gumbo",
-      "phrase": "b-b-baby"
+      "song": "K.K. Gumbo"
     },
     "ac": {
       "personality": "normal",
@@ -26,14 +19,14 @@
     },
     "afe+": {
       "personality": "normal",
-      "song": "K.K. Gumbo",
-      "phrase": "b-b-baby"
+      "song": "K.K. Gumbo"
     },
     "ww": {
       "personality": "normal",
       "clothes": "Pink Tartan Tee",
       "song": "K.K. Gumbo",
-      "phrase": "b-b-baby"
+      "phrase": "b-b-baby",
+      "quote": "Just keep your cool."
     },
     "cf": {
       "personality": "normal",
@@ -46,9 +39,19 @@
       "clothes": "Pink Tartan Tee",
       "song": "K.K. Gumbo",
       "phrase": "b-b-baby",
-      "skill": "Making Budgets",
+      "skill": "Making budgets",
       "goal": "Doctor",
-      "style": "Official"
+      "fear": "Skeleton Hood",
+      "quote": "Just keep your cool.",
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Aurora",

@@ -5,8 +5,7 @@
   "games": {
     "af+": {
       "personality": "jock",
-      "clothes": "Blue Aloha Shirt",
-      "phrase": "arrrn"
+      "clothes": "Blue Aloha Shirt"
     },
     "ac": {
       "personality": "jock",
@@ -15,8 +14,7 @@
     },
     "afe+": {
       "personality": "jock",
-      "clothes": "Blue Aloha Shirt",
-      "phrase": "arrrn"
+      "clothes": "Blue Aloha Shirt"
     }
   },
   "name": "Pigleg",

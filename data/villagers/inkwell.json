@@ -7,13 +7,21 @@
       "personality": "jock",
       "phrase": "Splat!",
       "clothes": "Black anchor tee",
-      "song": "K.K. Adventure"
+      "song": "K.K. Adventure",
+      "fear": "Mummy Mask",
+      "quote": "A sucker is born every minute.",
+      "skill": "Defending territory",
+      "goal": "Squid",
+      "siblings": "Only child",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "None",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
-  },
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
   },
   "name": "Inkwell",
   "id": "inkwell"

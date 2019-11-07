@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "bird",
   "birthday": "12-12",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "smug",
@@ -15,7 +10,17 @@
       "phrase": "cacaw",
       "skill": "Making faces",
       "goal": "Pro wrestler",
-      "style": "Sporty"
+      "fear": "Bug Mask",
+      "quote": "Birds of a feather, et cetera, et cetera...",
+      "siblings": "Fifth of 6 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Lucha",

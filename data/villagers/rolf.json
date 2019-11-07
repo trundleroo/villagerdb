@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "tiger",
   "birthday": "8-22",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "A little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
       "clothes": "Bubble Tee",
-      "song": "Spring Blossoms",
-      "phrase": "grrrolf"
+      "song": "Spring Blossoms"
     },
     "af+": {
       "personality": "cranky",
       "clothes": "Bubble Tee",
-      "song": "Spring Blossoms",
-      "phrase": "grrrolf"
+      "song": "Spring Blossoms"
     },
     "ac": {
       "personality": "cranky",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "cranky",
       "clothes": "Bubble Tee",
-      "song": "Spring Blossoms",
-      "phrase": "grrrolf"
+      "song": "Spring Blossoms"
     },
     "ww": {
       "personality": "cranky",
       "clothes": "Bubble Tee",
       "song": "Spring Blossoms",
-      "phrase": "grrrolf"
+      "phrase": "grrrolf",
+      "quote": "I could eat you for lunch, you know."
     },
     "cf": {
       "personality": "cranky",
@@ -51,7 +44,17 @@
       "phrase": "grrrolf",
       "skill": "Doing handstands",
       "goal": "Pro wrestler",
-      "style": "Iconic"
+      "fear": "Skeleton Hood",
+      "quote": "Don't skip lunch. Ever.",
+      "siblings": "Eldest of 5 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Rolf",

@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "bull",
   "birthday": "12-29",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "cranky",
@@ -15,7 +10,17 @@
       "phrase": "cud",
       "skill": "Doing push-ups",
       "goal": "Archaeologist",
-      "style": "Historical"
+      "fear": "Mummy Mask",
+      "quote": "You mess with the bull, you get the horns.",
+      "siblings": "Eldest of 8 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Vic",

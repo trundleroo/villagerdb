@@ -2,17 +2,13 @@
   "gender": "male",
   "species": "lion",
   "birthday": "7-23",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "ww": {
       "personality": "cranky",
       "clothes": "Royal Shirt",
       "song": "K.K. Casbah",
-      "phrase": "unh-hunh"
+      "phrase": "unh-hunh",
+      "quote": "Thank you very much."
     },
     "cf": {
       "personality": "cranky",
@@ -27,7 +23,17 @@
       "phrase": "unh-hunh",
       "skill": "Competitive eating",
       "goal": "Tycoon",
-      "style": "Ornate"
+      "fear": "Bug Mask",
+      "quote": "Better a live coward than a dead hero.",
+      "siblings": "Eldest quadruplet",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Elvis",

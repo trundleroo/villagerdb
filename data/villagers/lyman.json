@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "koala",
   "birthday": "10-12",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "nl": {
       "personality": "jock",
@@ -15,7 +10,17 @@
       "phrase": "chips",
       "skill": "Forgetting stuff",
       "goal": "Astronaut",
-      "style": "Official"
+      "fear": "Ghost Mask",
+      "quote": "Eucalyptus is the spice of life.",
+      "siblings": "Fifth of 6 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Lyman",

@@ -2,21 +2,14 @@
   "gender": "female",
   "species": "bird",
   "birthday": "4-18",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Lots of milk",
-    "sugar": "3 spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
-      "song": "K.K. Synth",
-      "phrase": "chickadee"
+      "song": "K.K. Synth"
     },
     "af+": {
       "personality": "peppy",
-      "song": "K.K. Synth",
-      "phrase": "chickadee"
+      "song": "K.K. Synth"
     },
     "ac": {
       "personality": "peppy",
@@ -26,8 +19,7 @@
     "afe+": {
       "personality": "peppy",
       "clothes": "Striking Outfit",
-      "song": "K.K. Synth",
-      "phrase": "chickadee"
+      "song": "K.K. Synth"
     },
     "nl": {
       "personality": "peppy",
@@ -35,7 +27,18 @@
       "song": "K.K. Synth",
       "phrase": "chickadee",
       "skill": "Board games",
-      "goal": "Translator"
+      "goal": "Translator",
+      "fear": "Mummy Mask",
+      "quote": "Where there's life, there's hope.",
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "Black",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "3 spoonfuls of sugar"
+      }
     }
   },
   "name": "Piper",

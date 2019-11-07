@@ -2,21 +2,14 @@
   "gender": "female",
   "species": "hippo",
   "birthday": "4-25",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "normal",
-      "song": "Space K.K.",
-      "phrase": "bloop"
+      "song": "Space K.K."
     },
     "af+": {
       "personality": "normal",
-      "song": "Space K.K.",
-      "phrase": "bloop"
+      "song": "Space K.K."
     },
     "ac": {
       "personality": "normal",
@@ -26,8 +19,7 @@
     "afe+": {
       "personality": "normal",
       "clothes": "Pink Tartan Shirt",
-      "song": "Space K.K.",
-      "phrase": "bloop"
+      "song": "Space K.K."
     },
     "nl": {
       "personality": "normal",
@@ -35,8 +27,18 @@
       "song": "Space K.K.",
       "phrase": "bloop",
       "skill": "Drawing circles",
-      "goal": "Lawyer",
-      "style": "Iconic"
+      "goal": "Professor",
+      "fear": "Bug Mask",
+      "quote": "The best part of spring is the picnics!",
+      "siblings": "Youngest of 3 sisters",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Bertha",

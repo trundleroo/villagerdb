@@ -2,22 +2,15 @@
   "gender": "female",
   "species": "goat",
   "birthday": "8-24",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "af": {
       "personality": "normal",
       "song": "K.K. Etude",
-      "phrase": "kid",
       "clothes": "Citrus Gingham Shirt"
     },
     "af+": {
       "personality": "normal",
       "song": "K.K. Etude",
-      "phrase": "kid",
       "clothes": "Citrus Gingham Shirt"
     },
     "ac": {
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "normal",
       "song": "K.K. Etude",
-      "phrase": "kid",
       "clothes": "Citrus Gingham Shirt"
     },
     "ww": {
       "personality": "normal",
       "song": "K.K. Etude",
       "phrase": "kid",
-      "clothes": "Citrus Gingham Shirt"
+      "clothes": "Citrus Gingham Shirt",
+      "quote": "Nanny-nanny boo-boo!"
     },
     "cf": {
       "personality": "normal",
@@ -51,7 +44,17 @@
       "phrase": "kid",
       "skill": "Playing horseshoes",
       "goal": "Illustrator",
-      "style": "Basic"
+      "fear": "Ghost Mask",
+      "quote": "Nanny-nanny boo-boo!",
+      "siblings": "Fourth of 5 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Nan",

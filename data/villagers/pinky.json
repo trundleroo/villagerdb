@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "bear",
   "birthday": "9-9",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
       "clothes": "Dazed Tee",
-      "song": "Imperial K.K.",
-      "phrase": "cubbie"
+      "song": "Imperial K.K."
     },
     "af+": {
       "personality": "peppy",
       "clothes": "Dazed Tee",
-      "song": "Imperial K.K.",
-      "phrase": "cubbie"
+      "song": "Imperial K.K."
     },
     "ac": {
       "personality": "peppy",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "peppy",
       "clothes": "Dazed Tee",
-      "song": "Imperial K.K.",
-      "phrase": "cubbie"
+      "song": "Imperial K.K."
     },
     "ww": {
       "personality": "peppy",
       "clothes": "Dazed Tee",
       "song": "Imperial K.K.",
-      "phrase": "cubbie"
+      "phrase": "cubbie",
+      "quote": "LEAPING LOLLIPOPS!"
     },
     "cf": {
       "personality": "peppy",
@@ -51,7 +44,17 @@
       "phrase": "cubbie",
       "skill": "Hula dancing",
       "goal": "Cartoonist",
-      "style": "Cute"
+      "fear": "Skeleton Hood",
+      "quote": "Time spent with friends is time well spent!",
+      "siblings": "Eldest of 3 sisters",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Pinky",

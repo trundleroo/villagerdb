@@ -2,47 +2,43 @@
   "gender": "female",
   "species": "ostrich",
   "birthday": "1-15",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
-    "af": {
-      "personality": "normal",
-      "clothes": "Misty Tee",
-      "song": "K.K. Folk",
-      "phrase": "stretch"
-    },
-    "af+": {
-      "personality": "normal",
-      "clothes": "Misty Tee",
-      "song": "K.K. Folk",
-      "phrase": "stretch"
-    },
-    "ac": {
-      "personality": "normal",
-      "clothes": "Misty Tee",
-      "song": "K.K. Folk",
-      "phrase": "stretch"
-    },
     "afe+": {
       "personality": "normal",
       "clothes": "Misty Tee",
-      "song": "K.K. Folk",
-      "phrase": "stretch"
+      "song": "K.K. Folk"
     },
     "ww": {
       "personality": "normal",
       "clothes": "Misty Tee",
       "song": "K.K. Folk",
-      "phrase": "stretch"
+      "phrase": "stretch",
+      "quote": "Smiles are free, you know."
     },
     "cf": {
       "personality": "normal",
       "clothes": "Misty Tee",
       "song": "K.K. Folk",
       "phrase": "stretch"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "Misty Tee",
+      "song": "K.K. Folk",
+      "phrase": "stretch",
+      "fear": "Bug Mask",
+      "quote": "Smiles are free.",
+      "skill": "Calligraphy",
+      "goal": "Architect",
+      "siblings": "Eldest of 3 sisters",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Gladys",

@@ -9,14 +9,20 @@
       "clothes": "Hello Kitty Outfit",
       "skill": "Baking",
       "goal": "Kitty White",
-      "song": "Bubblegum K.K."
+      "song": "Bubblegum K.K.",
+      "fear": "Skeleton Hood",
+      "quote": "Where there's a will, there's a way.",
+      "siblings": "Older twin sister",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "Red",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Rilla",
-  "id": "rilla",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  }
+  "id": "rilla"
 }

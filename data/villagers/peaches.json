@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "horse",
   "birthday": "11-28",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af": {
       "personality": "normal",
       "clothes": "Lite Polka Tee",
-      "song": "K.K. Song",
-      "phrase": "neighbor"
+      "song": "K.K. Song"
     },
     "af+": {
       "personality": "normal",
       "clothes": "Lite Polka Tee",
-      "song": "K.K. Song",
-      "phrase": "neighbor"
+      "song": "K.K. Song"
     },
     "ac": {
       "personality": "normal",
@@ -29,8 +22,7 @@
     "afe+": {
       "personality": "normal",
       "clothes": "Lite Polka Tee",
-      "song": "K.K. Song",
-      "phrase": "neighbor"
+      "song": "K.K. Song"
     },
     "cf": {
       "personality": "normal",
@@ -45,7 +37,17 @@
       "phrase": "neighbor",
       "skill": "Fishing",
       "goal": "Florist",
-      "style": "Cute"
+      "fear": "Monster Mask",
+      "quote": "Every day is a gift.",
+      "siblings": "Middle of 5 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Peaches",

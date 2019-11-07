@@ -9,14 +9,20 @@
       "clothes": "Pompompurin outfit",
       "skill": "Hiding shoes",
       "goal": "Baker",
-      "song": "My Place"
+      "song": "My Place",
+      "fear": "Ghost Mask",
+      "quote": "Just wait until I get started!",
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "Yellow",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Marty",
-  "id": "marty",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  }
+  "id": "marty"
 }

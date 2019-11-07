@@ -9,14 +9,20 @@
       "clothes": "Kiki and Lala Outfit",
       "skill": "Handiwork",
       "goal": "Interior designer",
-      "song": "K.K. Lullaby"
+      "song": "K.K. Lullaby",
+      "fear": "Werewolf Hood",
+      "quote": "Who knows what the stars have in store for us?",
+      "siblings": "Older twin sister",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "Pink",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "3 spoonfulls of sugar"
+      }
     }
   },
   "name": "Etoile",
-  "id": "etoile",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Lots of milk",
-    "sugar": "3 spoonfulls of sugar"
-  }
+  "id": "etoile"
 }

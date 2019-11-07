@@ -2,20 +2,25 @@
   "gender": "male",
   "species": "kangaroo",
   "birthday": "4-24",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "nl": {
       "personality": "cranky",
       "clothes": "Jinbei Top",
       "song": "Agent K.K.",
       "phrase": "pockets",
-      "skill": "Rock Paper Scissors",
+      "skill": "Rock-paper-scissors",
       "goal": "Carpenter",
-      "style": "Iconic"
+      "fear": "Bug Mask",
+      "quote": "Take the good with the bad.",
+      "siblings": "Eldest of 5 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Walt",

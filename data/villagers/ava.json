@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "chicken",
   "birthday": "4-28",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "normal",
       "clothes": "Checkerboard Tee",
-      "song": "K.K. Country",
-      "phrase": "beaker"
+      "song": "K.K. Country"
     },
     "af+": {
       "personality": "normal",
       "clothes": "Checkerboard Tee",
-      "song": "K.K. Country",
-      "phrase": "beaker"
+      "song": "K.K. Country"
     },
     "ac": {
       "personality": "normal",
@@ -29,8 +22,7 @@
     "afe+": {
       "personality": "normal",
       "clothes": "Checkerboard Tee",
-      "song": "K.K. Country",
-      "phrase": "beaker"
+      "song": "K.K. Country"
     },
     "nl": {
       "personality": "normal",
@@ -38,8 +30,18 @@
       "song": "K.K. Country",
       "phrase": "beaker",
       "skill": "Peeling apples",
-      "goal": "Pastry Chef",
-      "style": "Official"
+      "goal": "Pastry chef",
+      "fear": "Monster Mask",
+      "quote": "Early to bed, early to rise.",
+      "siblings": "Eldest of 6 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Ava",

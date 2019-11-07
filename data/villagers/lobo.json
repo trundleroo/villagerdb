@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "wolf",
   "birthday": "11-5",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
       "clothes": "Checkered Tee",
-      "song": "K.K. Safari",
-      "phrase": "ah-rooooo"
+      "song": "K.K. Safari"
     },
     "af+": {
       "personality": "cranky",
       "clothes": "Checkered Tee",
-      "song": "K.K. Safari",
-      "phrase": "ah-rooooo"
+      "song": "K.K. Safari"
     },
     "ac": {
       "personality": "cranky",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "cranky",
       "clothes": "Checkered Tee",
-      "song": "K.K. Safari",
-      "phrase": "ah-rooooo"
+      "song": "K.K. Safari"
     },
     "ww": {
       "personality": "cranky",
       "clothes": "Checkered Tee",
       "song": "K.K. Safari",
-      "phrase": "ah-rooooo"
+      "phrase": "ah-rooooo",
+      "quote": "I'm always watching you!"
     },
     "cf": {
       "personality": "cranky",
@@ -51,7 +44,17 @@
       "phrase": "ah-rooooo",
       "skill": "Fishing",
       "goal": "Forest ranger",
-      "style": "Rock 'n' roll"
+      "fear": "Werewolf Hood",
+      "quote": "If it's not one thing, it's another.",
+      "siblings": "Third quadruplet",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Official",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Lobo",

@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "cub",
   "birthday": "7-12",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af": {
       "personality": "normal",
       "clothes": "Dapper Tee",
-      "song": "Cafe K.K.",
-      "phrase": "sweet pea"
+      "song": "Cafe K.K."
     },
     "af+": {
       "personality": "normal",
       "clothes": "Dapper Tee",
-      "song": "Cafe K.K.",
-      "phrase": "sweet pea"
+      "song": "Cafe K.K."
     },
     "ac": {
       "personality": "normal",
@@ -29,8 +22,7 @@
     "afe+": {
       "personality": "normal",
       "clothes": "Dapper Tee",
-      "song": "Cafe K.K.",
-      "phrase": "sweet pea"
+      "song": "Cafe K.K."
     },
     "nl": {
       "personality": "normal",
@@ -38,8 +30,18 @@
       "song": "Cafe K.K.",
       "phrase": "sweet pea",
       "skill": "Dancing",
-      "goal": "Pastry Chef",
-      "style": "Basic"
+      "goal": "Pastry chef",
+      "fear": "Bug Mask",
+      "quote": "Sticky fingers attract bees.",
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "Pink",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Olive",

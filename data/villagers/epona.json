@@ -9,14 +9,20 @@
       "clothes": "Epona Outfit",
       "skill": "Galloping",
       "goal": "Hero's companion",
-      "song": "Wandering"
+      "song": "Wandering",
+      "fear": "Werewolf Hood",
+      "quote": "A good rider knows temper to curb.",
+      "siblings": "Only child",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "Brown",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Epona",
-  "id": "epona",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  }
+  "id": "epona"
 }

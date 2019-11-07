@@ -2,20 +2,13 @@
   "gender": "male",
   "species": "gorilla",
   "birthday": "3-26",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
-      "clothes": "Lil Bro's shirt",
-      "phrase": "toots"
+      "clothes": "Lil Bro's shirt"
     },
     "af+": {
-      "personality": "jock",
-      "phrase": "toots"
+      "personality": "jock"
     },
     "ac": {
       "personality": "jock",
@@ -23,16 +16,25 @@
     },
     "afe+": {
       "personality": "jock",
-      "clothes": "Lil Bro's shirt",
-      "phrase": "toots"
+      "clothes": "Lil Bro's shirt"
     },
     "nl": {
       "personality": "jock",
       "clothes": "Big Bro's Tee",
       "phrase": "toots",
-      "skill": "Doing handstands",
+      "skill": "Handstands",
       "goal": "Rugby player",
-      "style": "Sporty"
+      "fear": "Skeleton Hood",
+      "quote": "It's all about the muscle.",
+      "siblings": "Eldest of 5 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "Blue",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Louie",

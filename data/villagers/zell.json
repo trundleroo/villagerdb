@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "deer",
   "birthday": "6-7",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "nl": {
       "personality": "smug",
@@ -15,7 +10,17 @@
       "phrase": "pronk",
       "skill": "Calculating tips",
       "goal": "Movie director",
-      "style": "Modern"
+      "fear": "Skeleton Hood",
+      "quote": "Clothes totally make the man.",
+      "siblings": "Second of 4 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Zell",

@@ -6,14 +6,12 @@
     "af": {
       "personality": "jock",
       "clothes": "Dark Polka Shirt",
-      "song": "K.K. Rock",
-      "phrase": "biz-aaa"
+      "song": "K.K. Rock"
     },
     "af+": {
       "personality": "jock",
       "clothes": "Dark Polka Shirt",
-      "song": "K.K. Rock",
-      "phrase": "biz-aaa"
+      "song": "K.K. Rock"
     },
     "ac": {
       "personality": "jock",
@@ -24,8 +22,7 @@
     "afe+": {
       "personality": "jock",
       "clothes": "Dark Polka Shirt",
-      "song": "K.K. Rock",
-      "phrase": "biz-aaa"
+      "song": "K.K. Rock"
     }
   },
   "name": "Woolio",

@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "alligator",
   "birthday": "8-7",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Lots of milk",
-    "sugar": "3 spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
       "clothes": "Jester Shirt",
-      "song": "K.K. Rally",
-      "phrase": "munchie"
+      "song": "K.K. Rally"
     },
     "af+": {
       "personality": "jock",
       "clothes": "Jester Shirt",
-      "song": "K.K. Rally",
-      "phrase": "munchie"
+      "song": "K.K. Rally"
     },
     "ac": {
       "personality": "jock",
@@ -29,16 +22,26 @@
     "afe+": {
       "personality": "jock",
       "clothes": "Jester Shirt",
-      "song": "K.K. Rally",
-      "phrase": "munchie"
+      "song": "K.K. Rally"
     },
     "nl": {
       "personality": "jock",
       "clothes": "Jester Shirt",
       "song": "K.K. Rally",
       "phrase": "munchie",
-      "skill": "Writing Backwards",
-      "goal": "Sumo Wrestler"
+      "skill": "Writing backward",
+      "goal": "Sumo wrestler",
+      "fear": "Monster Mask",
+      "quote": "Strength lies in muscles.",
+      "siblings": "Second of 4 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "Brown",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "3 spoonfuls of sugar"
+      }
     }
   },
   "name": "Boots",

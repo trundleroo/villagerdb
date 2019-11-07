@@ -2,17 +2,11 @@
   "gender": "male",
   "species": "frog",
   "birthday": "6-6",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Lots of milk",
-    "sugar": "3 spoonfuls of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "lazy",
       "clothes": "Blue Aloha Shirt",
-      "song": "Mr. K.K.",
-      "phrase": "aaach"
+      "song": "Mr. K.K."
     },
     "nl": {
       "personality": "lazy",
@@ -20,7 +14,18 @@
       "song": "Mr. K.K.",
       "phrase": "aaach",
       "skill": "Pretending to sleep",
-      "goal": "Doctor"
+      "goal": "Doctor",
+      "fear": "Monster Mask",
+      "quote": "A healthy mind makes for a healthy body.",
+      "siblings": "Third quadruplet",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "White",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "3 spoonfuls of sugar"
+      }
     }
   },
   "name": "Raddle",

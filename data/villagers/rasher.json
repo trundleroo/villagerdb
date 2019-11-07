@@ -2,21 +2,14 @@
   "gender": "male",
   "species": "pig",
   "birthday": "4-7",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "A little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
-      "song": "K.K. Faire",
-      "phrase": "swine"
+      "song": "K.K. Faire"
     },
     "af+": {
       "personality": "cranky",
-      "song": "K.K. Faire",
-      "phrase": "swine"
+      "song": "K.K. Faire"
     },
     "ac": {
       "personality": "cranky",
@@ -26,14 +19,14 @@
     },
     "afe+": {
       "personality": "cranky",
-      "song": "K.K. Faire",
-      "phrase": "swine"
+      "song": "K.K. Faire"
     },
     "ww": {
       "personality": "cranky",
       "clothes": "Rugby Tee",
       "song": "K.K. Faire",
-      "phrase": "swine"
+      "phrase": "swine",
+      "quote": "Stop looking at me with those hungry eyes! I'm not a pork chop!"
     },
     "cf": {
       "personality": "cranky",
@@ -48,7 +41,17 @@
       "phrase": "swine",
       "skill": "Staying up late",
       "goal": "CEO",
-      "style": "Rock 'n' roll"
+      "fear": "Ghost Mask",
+      "quote": "Don't judge a book by its cover.",
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Rasher",

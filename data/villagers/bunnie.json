@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "rabbit",
   "birthday": "5-9",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
       "clothes": "Flicker Shirt",
-      "song": "K.K. Aria",
-      "phrase": "tee-hee"
+      "song": "K.K. Aria"
     },
     "af+": {
       "personality": "peppy",
       "clothes": "Flicker Shirt",
-      "song": "K.K. Aria",
-      "phrase": "tee-hee"
+      "song": "K.K. Aria"
     },
     "ac": {
       "personality": "peppy",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "peppy",
       "clothes": "Flicker Shirt",
-      "song": "K.K. Aria",
-      "phrase": "tee-hee"
+      "song": "K.K. Aria"
     },
     "ww": {
       "personality": "peppy",
       "clothes": "Jade Plaid Tee",
       "song": "K.K. Aria",
-      "phrase": "tee-hee"
+      "phrase": "tee-hee",
+      "quote": "Come on! Get amped!"
     },
     "cf": {
       "personality": "peppy",
@@ -51,7 +44,17 @@
       "phrase": "tee-hee",
       "skill": "Staying positive",
       "goal": "Gymnast",
-      "style": "Cute"
+      "fear": "Monster Mask",
+      "quote": "Hare today, gone tomorrow.",
+      "siblings": "Eldest of 3 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Bunnie",

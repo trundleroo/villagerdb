@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "ostrich",
   "birthday": "12-21",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "snooty",
@@ -15,7 +10,17 @@
       "phrase": "quite so",
       "skill": "Dusting",
       "goal": "Chef",
-      "style": "Official"
+      "fear": "Mummy Mask",
+      "quote": "Nothing beats personal experience.",
+      "siblings": "Fourth of 5 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Blanche",

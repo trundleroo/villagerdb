@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "hamster",
   "birthday": "1-30",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "nl": {
       "personality": "normal",
@@ -15,7 +10,17 @@
       "phrase": "powderpuff",
       "skill": "Peeling apples",
       "goal": "Superhero",
-      "style": "Iconic"
+      "fear": "Bug Mask",
+      "quote": "Squeak your mind, even if your voice shakes.",
+      "siblings": "Eldest of 10 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Flurry",

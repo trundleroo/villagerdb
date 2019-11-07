@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "duck",
   "birthday": "6-27",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "normal",
       "clothes": "Rainbow Shirt",
-      "song": "Mr. K.K.",
-      "phrase": "sugarbill"
+      "song": "Mr. K.K."
     },
     "af+": {
       "personality": "normal",
       "clothes": "Rainbow Shirt",
-      "song": "Mr. K.K.",
-      "phrase": "sugarbill"
+      "song": "Mr. K.K."
     },
     "ac": {
       "personality": "normal",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "normal",
       "clothes": "Rainbow Shirt",
-      "song": "Mr. K.K.",
-      "phrase": "sugarbill"
+      "song": "Mr. K.K."
     },
     "ww": {
       "personality": "normal",
       "clothes": "Kiddie Tee",
       "song": "Mr. K.K.",
-      "phrase": "sugarbill"
+      "phrase": "sugarbill",
+      "quote": "I'm not a lame duck!"
     },
     "cf": {
       "personality": "normal",
@@ -51,7 +44,17 @@
       "phrase": "sugarbill",
       "skill": "Blowing bubbles",
       "goal": "Illustrator",
-      "style": "Modern"
+      "fear": "Ghost Mask",
+      "quote": "Duck...duck...GOOSE!",
+      "siblings": "Second of 5 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Deena",

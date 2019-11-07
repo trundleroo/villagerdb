@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "frog",
   "birthday": "8-3",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "A little bit of milk",
-    "sugar": "1 spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
       "clothes": "One-Ball Tee",
-      "song": "Wandering",
-      "phrase": "sluuuurp"
+      "song": "Wandering"
     },
     "af+": {
       "personality": "jock",
       "clothes": "One-Ball Tee",
-      "song": "Wandering",
-      "phrase": "sluuuurp"
+      "song": "Wandering"
     },
     "ac": {
       "personality": "jock",
@@ -29,8 +22,7 @@
     "afe+": {
       "personality": "jock",
       "clothes": "One-Ball Tee",
-      "song": "Wandering",
-      "phrase": "sluuuurp"
+      "song": "Wandering"
     },
     "nl": {
       "personality": "jock",
@@ -38,7 +30,18 @@
       "song": "Wandering",
       "phrase": "sluuuurp",
       "skill": "Telling jokes",
-      "goal": "CEO"
+      "goal": "CEO",
+      "fear": "Bug Mask",
+      "quote": "Take a leap!",
+      "siblings": "Third quintuplet",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "Yellow",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "A little bit of milk",
+        "sugar": "1 spoonful of sugar"
+      }
     }
   },
   "name": "Tad",

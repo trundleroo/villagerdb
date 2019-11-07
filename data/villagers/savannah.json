@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "horse",
   "birthday": "1-25",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af": {
       "personality": "normal",
       "clothes": "Deep-Blue Tee",
-      "song": "Forest Life",
-      "phrase": "y'all"
+      "song": "Forest Life"
     },
     "af+": {
       "personality": "normal",
       "clothes": "Deep-Blue Tee",
-      "song": "Forest Life",
-      "phrase": "y'all"
+      "song": "Forest Life"
     },
     "ac": {
       "personality": "normal",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "normal",
       "clothes": "Deep-Blue Tee",
-      "song": "Forest Life",
-      "phrase": "y'all"
+      "song": "Forest Life"
     },
     "ww": {
       "personality": "normal",
       "clothes": "Deep-Blue Tee",
       "song": "Forest Life",
-      "phrase": "y'all"
+      "phrase": "y'all",
+      "quote": "Keep your chin up!"
     },
     "cf": {
       "personality": "normal",
@@ -49,9 +42,19 @@
       "clothes": "Deep-Blue Tee",
       "song": "Forest Life",
       "phrase": "y'all",
-      "skill": "Calculating Tips",
-      "goal": "Tour Guide",
-      "style": "Modern"
+      "skill": "Calculating tips",
+      "goal": "Tour guide",
+      "fear": "Monster Mask",
+      "quote": "Keep your chin up!",
+      "siblings": "Second of 6 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Savannah",

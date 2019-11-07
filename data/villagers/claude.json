@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "rabbit",
   "birthday": "12-3",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "af": {
       "personality": "lazy",
       "clothes": "Dark Polka Tee",
-      "song": "Pondering",
-      "phrase": "hopalong"
+      "song": "Pondering"
     },
     "af+": {
       "personality": "lazy",
       "clothes": "Dark Polka Tee",
-      "song": "Pondering",
-      "phrase": "hopalong"
+      "song": "Pondering"
     },
     "ac": {
       "personality": "lazy",
@@ -29,8 +22,7 @@
     "afe+": {
       "personality": "lazy",
       "clothes": "Dark Polka Tee",
-      "song": "Pondering",
-      "phrase": "hopalong"
+      "song": "Pondering"
     },
     "nl": {
       "personality": "lazy",
@@ -38,7 +30,18 @@
       "song": "Pondering",
       "phrase": "hopalong",
       "skill": "Calculating tips",
-      "goal": "Superhero"
+      "goal": "Superhero",
+      "fear": "Ghost Mask",
+      "quote": "Don't judge a rabbit by its ears.",
+      "siblings": "Second of 6 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "Black",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Claude",

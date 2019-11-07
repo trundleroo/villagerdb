@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "cat",
   "birthday": "8-17",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
       "clothes": "Splendid Tee",
-      "song": "Go K.K. Rider!",
-      "phrase": "GAHHHH"
+      "song": "Go K.K. Rider!"
     },
     "af+": {
       "personality": "jock",
       "clothes": "Splendid Tee",
-      "song": "Go K.K. Rider!",
-      "phrase": "GAHHHH"
+      "song": "Go K.K. Rider!"
     },
     "ac": {
       "personality": "jock",
@@ -29,8 +22,7 @@
     "afe+": {
       "personality": "jock",
       "clothes": "Splendid Tee",
-      "song": "Go K.K. Rider!",
-      "phrase": "GAHHHH"
+      "song": "Go K.K. Rider!"
     },
     "cf": {
       "personality": "jock",
@@ -43,9 +35,19 @@
       "clothes": "Splendid Tee",
       "song": "Go K.K. Rider!",
       "phrase": "GAHHHH",
-      "skill": "Chugging Milk",
-      "goal": "Rugby Player",
-      "style": "Sporty"
+      "skill": "Chugging milk",
+      "goal": "Rugby player",
+      "fear": "Ghost Mask",
+      "quote": "If the mask fits, wear it!",
+      "siblings": "Third quintuplet",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Official",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Stinky",

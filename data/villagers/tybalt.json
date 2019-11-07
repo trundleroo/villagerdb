@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "tiger",
   "birthday": "8-19",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
       "clothes": "Two-Ball Shirt",
-      "song": "K.K. Salsa",
-      "phrase": "grrRAH"
+      "song": "K.K. Salsa"
     },
     "af+": {
       "personality": "jock",
       "clothes": "Two-Ball Shirt",
-      "song": "K.K. Salsa",
-      "phrase": "grrRAH"
+      "song": "K.K. Salsa"
     },
     "ac": {
       "personality": "jock",
@@ -29,8 +22,7 @@
     "afe+": {
       "personality": "jock",
       "clothes": "Two-Ball Shirt",
-      "song": "K.K. Salsa",
-      "phrase": "grrRAH"
+      "song": "K.K. Salsa"
     },
     "nl": {
       "personality": "jock",
@@ -38,7 +30,18 @@
       "song": "K.K. Salsa",
       "phrase": "grrRAH",
       "skill": "Bunting",
-      "goal": "Soccer Player"
+      "goal": "Soccer player",
+      "fear": "Werewolf Hood",
+      "quote": "There's no excuse for half-baked potatoes.",
+      "siblings": "Fourth quintuplet",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "Green",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Tybalt",

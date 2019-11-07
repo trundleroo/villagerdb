@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "cat",
   "birthday": "6-17",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
       "clothes": "Chain-Gang Tee",
-      "song": "K.K. Island",
-      "phrase": "reeeeOWR"
+      "song": "K.K. Island"
     },
     "af+": {
       "personality": "peppy",
       "clothes": "Chain-Gang Tee",
-      "song": "K.K. Island",
-      "phrase": "reeeeOWR"
+      "song": "K.K. Island"
     },
     "ac": {
       "personality": "peppy",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "peppy",
       "clothes": "Chain-Gang Tee",
-      "song": "K.K. Island",
-      "phrase": "reeeeOWR"
+      "song": "K.K. Island"
     },
     "ww": {
       "personality": "peppy",
       "clothes": "Chain-Gang Tee",
       "song": "K.K. Island",
-      "phrase": "reeeeOWR"
+      "phrase": "reeeeOWR",
+      "quote": "They say cats hate citrus. THAT REALLY HURTS MY FEELINGS!"
     },
     "cf": {
       "personality": "peppy",
@@ -49,9 +42,19 @@
       "clothes": "Chain-Gang Tee",
       "song": "K.K. Island",
       "phrase": "reeeeOWR",
-      "skill": "Doing Handstands",
-      "goal": "Hair Stylist",
-      "style": "Flashy"
+      "skill": "Doing handstands",
+      "goal": "Hair stylist",
+      "fear": "Werewolf Hood",
+      "quote": "When life gives you lemons, make lemonade.",
+      "siblings": "Third of 6 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Tangy",

@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "mouse",
   "birthday": "6-12",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "cf": {
       "personality": "normal",
@@ -21,7 +16,17 @@
       "phrase": "eekers",
       "skill": "Forgetting stuff",
       "goal": "Chef",
-      "style": "Official"
+      "fear": "Ghost Mask",
+      "quote": "No time like the present!",
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Bettina",

@@ -5,8 +5,7 @@
   "games": {
     "af+": {
       "personality": "cranky",
-      "clothes": "Blue Aloha Shirt",
-      "phrase": "babe"
+      "clothes": "Blue Aloha Shirt"
     },
     "ac": {
       "personality": "cranky",
@@ -15,8 +14,7 @@
     },
     "afe+": {
       "personality": "cranky",
-      "clothes": "Blue Aloha Shirt",
-      "phrase": "babe"
+      "clothes": "Blue Aloha Shirt"
     }
   },
   "name": "Flash",

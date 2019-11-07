@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "cat",
   "birthday": "2-15",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "af": {
       "personality": "snooty",
       "clothes": "Crewel Tee",
-      "song": "K.K. Etude",
-      "phrase": "mrowrr"
+      "song": "K.K. Etude"
     },
     "af+": {
       "personality": "snooty",
       "clothes": "Crewel Tee",
-      "song": "K.K. Etude",
-      "phrase": "mrowrr"
+      "song": "K.K. Etude"
     },
     "ac": {
       "personality": "snooty",
@@ -29,8 +22,7 @@
     "afe+": {
       "personality": "snooty",
       "clothes": "Crewel Tee",
-      "song": "K.K. Etude",
-      "phrase": "mrowrr"
+      "song": "K.K. Etude"
     },
     "cf": {
       "personality": "snooty",
@@ -43,9 +35,19 @@
       "clothes": "Crewel Tee",
       "song": "K.K. Etude",
       "phrase": "mrowrr",
-      "skill": "Writing Letters",
+      "skill": "Writing letters",
       "goal": "CEO",
-      "style": "Official"
+      "fear": "Monster Mask",
+      "quote": "If you want something done well, do it yourself.",
+      "siblings": "Middle of 3 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Kitty",
