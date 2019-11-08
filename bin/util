@@ -43,10 +43,13 @@ async function buildSearchIndex() {
                 personality: {
                     type: 'keyword'
                 },
+                game: {
+                    type: 'keyword'
+                },
                 name: {
                     type: 'text'
                 },
-                phrases: {
+                phrase: {
                     type: 'text'
                 }
             }
@@ -59,9 +62,12 @@ async function buildSearchIndex() {
         const parsed = JSON.parse(data);
 
         // Get unique phrases and personalities.
+        const games = [];
         const phrases = [];
         const personalities = [];
         for (let game in parsed.games) {
+            games.push(game);
+
             const phrase = parsed.games[game].phrase;
             const personality = parsed.games[game].personality;
             if (phrase && !phrases.includes(phrase)) {
@@ -81,8 +87,9 @@ async function buildSearchIndex() {
                 gender: parsed.gender,
                 species: parsed.species,
                 personality: personalities,
+                game: games,
                 name: parsed.name,
-                phrases: phrases
+                phrase: phrases
             }
         });
         console.log('Indexed ' + parsed.id);

@@ -44,8 +44,9 @@ async function find(collection, es, pageNumber, searchQuery) {
                     },
                     {
                         match: {
-                            phrases: {
-                                query: searchQuery
+                            phrase: {
+                                query: searchQuery,
+                                fuzziness: 'auto'
                             }
                         }
                     }
@@ -75,6 +76,11 @@ async function find(collection, es, pageNumber, searchQuery) {
                 species: {
                     terms: {
                         field: 'species'
+                    }
+                },
+                games: {
+                    terms: {
+                        field: 'game'
                     }
                 }
             },
