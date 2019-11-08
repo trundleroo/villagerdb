@@ -23,12 +23,36 @@ async function find(collection, es, pageNumber, searchQuery) {
 
     // Is it a search? Initialize resultSet and ES body appropriately
     let body;
+    let query;
     if (searchQuery) {
         // Set up result set for search display
         resultSet.pageUrlPrefix = '/villagers/search/page/';
         resultSet.isSearch = true;
         resultSet.searchQuery = searchQuery;
         resultSet.searchQueryString = encodeURI(searchQuery);
+
+        // Elastic Search query and body.
+        query = {
+            bool: {
+                should: [
+                    {
+                        match: {
+                            name: {
+                                query: searchQuery
+                            }
+                        }
+                    },
+                    {
+                        match: {
+                            phrases: {
+                                query: searchQuery
+                            }
+                        }
+                    }
+                ]
+            }
+        };
+
         body =  {
             sort: [
                 "_score",
@@ -36,30 +60,7 @@ async function find(collection, es, pageNumber, searchQuery) {
                     keyword: "asc"
                 }
             ],
-            query: {
-                bool: {
-                    should: [
-                        {
-                            match: {
-                                name: {
-                                    query: searchQuery,
-                                    operator: 'and',
-                                    fuzziness: 'auto'
-                                }
-                            }
-                        },
-                        {
-                            match: {
-                                phrases: {
-                                    query: searchQuery,
-                                    operator: 'and',
-                                    fuzziness: 'auto'
-                                }
-                            }
-                        }
-                    ]
-                }
-            },
+            query: query,
             aggregations: {
                 genders: {
                     terms: {
@@ -80,42 +81,52 @@ async function find(collection, es, pageNumber, searchQuery) {
         };
     } else {
         resultSet.pageUrlPrefix = '/villagers/page/';
+
+        // Elastic Search query and body.
+        query = {
+            match_all: {}
+        };
+
         body = {
             sort: [
                 {
                     keyword: "asc"
                 }
             ],
-            query: {
-                match_all: {}
-            }
+            query: query
         }
     }
 
     // Count.
     const totalCount = await es.count({
         index: 'villager',
-        body: body
+        body: {
+            query: query
+        }
     });
 
-    // Load all on this page.
-    const results = await es.search({
-        index: 'villager',
-        from: pageSize * (pageNumber - 1),
-        size: pageSize,
-        body: body
-    });
+    // Update page information.
     computePageProperties(pageNumber, pageSize, totalCount.count, resultSet);
 
-    // Load the results.
-    const keys = results.hits.hits.map(hit => hit._id);
-    resultSet.results = await collection.getByIds(keys);
-    for (let i = 0; i < resultSet.results.length; i++) {
-        resultSet.results[i] = formatUtil.formatVillager(resultSet.results[i]);
-    }
-
-    resultSet.pageTotal = resultSet.results.length;
+    resultSet.pageTotal = totalCount.count;
     resultSet.hasResults = (resultSet.pageTotal > 0);
+
+    if (resultSet.hasResults) {
+        // Load all on this page.
+        const results = await es.search({
+            index: 'villager',
+            from: pageSize * (resultSet.currentPage - 1),
+            size: pageSize,
+            body: body
+        });
+
+        // Load the results.
+        const keys = results.hits.hits.map(hit => hit._id);
+        resultSet.results = await collection.getByIds(keys);
+        for (let i = 0; i < resultSet.results.length; i++) {
+            resultSet.results[i] = formatUtil.formatVillager(resultSet.results[i]);
+        }
+    }
 
     return resultSet;
 }
@@ -213,12 +224,12 @@ router.get('/page/:pageNumber', function (req, res, next) {
 
 /* GET villagers search */
 router.get('/search', function (req, res, next) {
-    search(res, next, 1, parseQuery(req.query.q));
+    listVillagers(res, next, 1, parseQuery(req.query.q));
 });
 
 /* GET villagers search page number */
 router.get('/search/page/:pageNumber', function (req, res, next) {
-    search(res, next, parsePositiveInteger(req.params.pageNumber), parseQuery(req.query.q));
+    listVillagers(res, next, parsePositiveInteger(req.params.pageNumber), parseQuery(req.query.q));
 });
 
 module.exports = router;
