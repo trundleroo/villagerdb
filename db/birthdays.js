@@ -35,6 +35,7 @@ class Birthdays {
                 let JsonBirthday = {}
                 JsonBirthday.id = villagerData['id'];
                 JsonBirthday.name = villagerData['name'];
+                JsonBirthday.shareUrl = "https://villagerdb.com/villagers/" + villagerData['id'];
                 results.push(JsonBirthday);
             }
             await this.redisClient.setAsync('birthdays', JSON.stringify(results));
