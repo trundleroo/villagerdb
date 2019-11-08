@@ -88,12 +88,27 @@ async function findVillagers(collection, es, searchQuery, pageNumber) {
                 }
             ],
             query: {
-                match: {
-                    name: {
-                        query: searchQuery,
-                        operator: 'and',
-                        fuzziness: 'auto'
-                    }
+                bool: {
+                    should: [
+                        {
+                            match: {
+                                name: {
+                                    query: searchQuery,
+                                    operator: 'and',
+                                    fuzziness: 'auto'
+                                }
+                            }
+                        },
+                        {
+                            match: {
+                                phrases: {
+                                    query: searchQuery,
+                                    operator: 'and',
+                                    fuzziness: 'auto'
+                                }
+                            }
+                        }
+                    ]
                 }
             }
         }

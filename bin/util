@@ -34,7 +34,19 @@ async function buildSearchIndex() {
                 keyword: {
                     type: 'keyword'
                 },
+                gender: {
+                    type: 'keyword'
+                },
+                species: {
+                    type: 'keyword'
+                },
+                personality: {
+                    type: 'keyword'
+                },
                 name: {
+                    type: 'text'
+                },
+                phrases: {
                     type: 'text'
                 }
             }
@@ -45,12 +57,27 @@ async function buildSearchIndex() {
     for (let file of files) {
         const data = fs.readFileSync(path.join('data', 'villagers', file), 'utf8');
         const parsed = JSON.parse(data);
+
+        // Get unique phrases.
+        const phrases = [];
+        for (let game in parsed.games) {
+            const phrase = parsed.games[game].phrase;
+            if (phrase && !phrases.includes(phrase)) {
+                phrases.push(phrase);
+            }
+        }
+
+        // Create the villager document.
         await es.index({
             index: 'villager',
             id: parsed.id,
             body: {
                 keyword: parsed.name,
-                name: parsed.name
+                gender: parsed.gender,
+                species: parsed.species,
+                personality: parsed.personality,
+                name: parsed.name,
+                phrases: phrases
             }
         });
         console.log('Indexed ' + parsed.id);
