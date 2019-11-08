@@ -2,17 +2,11 @@
   "gender": "female",
   "species": "pig",
   "birthday": "5-23",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "A little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "peppy",
       "clothes": "Blue-Stripe Tee",
-      "song": "K.K. Bossa",
-      "phrase": "shweetie"
+      "song": "K.K. Bossa"
     },
     "cf": {
       "personality": "peppy",
@@ -27,7 +21,17 @@
       "phrase": "shweetie",
       "skill": "Stomping around",
       "goal": "Movie star",
-      "style": "Sporty"
+      "fear": "Monster Mask",
+      "quote": "We're all diamonds in the rough.",
+      "siblings": "Youngest of 5 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Official",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Peggy",

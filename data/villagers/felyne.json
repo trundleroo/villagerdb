@@ -2,18 +2,25 @@
   "gender": "male",
   "species": "cat",
   "birthday": "1-6",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Lots of Milk",
-    "sugar": "3 Spoonfuls Sugar"
-  },
   "games": {
     "nl": {
       "personality": "lazy",
       "clothes": "Felyne's Suit",
       "song": "K.K. March",
       "phrase": "nya",
-      "style": "Sporty"
+      "fear": "Monster Mask",
+      "quote": "♪ Calmly gathering. Ah, the life of a hunter. ♪",
+      "skill": "Befriending cats",
+      "goal": "Monster hunter",
+      "siblings": "Only child",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "None",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of Milk",
+        "sugar": "3 Spoonfuls Sugar"
+      }
     }
   },
   "name": "Felyne",

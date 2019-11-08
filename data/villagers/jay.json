@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "bird",
   "birthday": "7-17",
-  "coffee": {
-    "beans": "Killimanjaro",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "af": {
       "personality": "jock",
       "clothes": "Six-Ball Tee",
-      "song": "K.K. Waltz",
-      "phrase": "heeeeeyy"
+      "song": "K.K. Waltz"
     },
     "af+": {
       "personality": "jock",
       "clothes": "Six-Ball Tee",
-      "song": "K.K. Waltz",
-      "phrase": "heeeeeyy"
+      "song": "K.K. Waltz"
     },
     "ac": {
       "personality": "jock",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "jock",
       "clothes": "Six-Ball Tee",
-      "song": "K.K. Waltz",
-      "phrase": "heeeeeyy"
+      "song": "K.K. Waltz"
     },
     "ww": {
       "personality": "jock",
       "clothes": "Six-Ball Tee",
       "song": "K.K. Waltz",
-      "phrase": "heeeeeyy"
+      "phrase": "heeeeeyy",
+      "quote": "You gotta want it!"
     },
     "cf": {
       "personality": "jock",
@@ -49,9 +42,19 @@
       "clothes": "Six-Ball Tee",
       "song": "K.K. Waltz",
       "phrase": "heeeeeyy",
-      "skill": "Tongue Twisters",
+      "skill": "Tongue twisters",
       "goal": "Race car driver",
-      "style": "Sporty"
+      "fear": "Skeleton Hood",
+      "quote": "He who hesitates has lost!",
+      "siblings": "Third of 6 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Killimanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Jay",

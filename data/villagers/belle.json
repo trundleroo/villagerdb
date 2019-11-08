@@ -6,14 +6,12 @@
     "af": {
       "personality": "peppy",
       "clothes": "Denim Shirt",
-      "song": "K.K. Country",
-      "phrase": "cuddles"
+      "song": "K.K. Country"
     },
     "af+": {
       "personality": "peppy",
       "clothes": "Denim Shirt",
-      "song": "K.K. Country",
-      "phrase": "cuddles"
+      "song": "K.K. Country"
     },
     "ac": {
       "personality": "peppy",
@@ -24,8 +22,7 @@
     "afe+": {
       "personality": "peppy",
       "clothes": "Denim Shirt",
-      "song": "K.K. Country",
-      "phrase": "cuddles"
+      "song": "K.K. Country"
     }
   },
   "name": "Belle",

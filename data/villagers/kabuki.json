@@ -2,21 +2,14 @@
   "gender": "male",
   "species": "cat",
   "birthday": "11-29",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
-      "song": "K.K. Folk",
-      "phrase": "meooo-OH"
+      "song": "K.K. Folk"
     },
     "af+": {
       "personality": "cranky",
-      "song": "K.K. Folk",
-      "phrase": "meooo-OH"
+      "song": "K.K. Folk"
     },
     "ac": {
       "personality": "cranky",
@@ -26,14 +19,14 @@
     },
     "afe+": {
       "personality": "cranky",
-      "song": "K.K. Folk",
-      "phrase": "meooo-OH"
+      "song": "K.K. Folk"
     },
     "ww": {
       "personality": "cranky",
       "clothes": "Misty Tee",
       "song": "K.K. Folk",
-      "phrase": "meooo-OH"
+      "phrase": "meooo-OH",
+      "quote": "Hoo-ha konichiwa!"
     },
     "cf": {
       "personality": "cranky",
@@ -48,7 +41,17 @@
       "phrase": "meooo-OH",
       "skill": "Drawing circles",
       "goal": "Actor",
-      "style": "Historical"
+      "fear": "Skeleton Hood",
+      "quote": "If you make your opponent flinch, you have already won.",
+      "siblings": "Eldest of 3 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Kabuki",

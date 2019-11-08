@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "deer",
   "birthday": "4-5",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "lazy",
@@ -15,7 +10,17 @@
       "phrase": "saltlick",
       "skill": "Staying awake",
       "goal": "Mayor",
-      "style": "Basic"
+      "fear": "Werewolf Hood",
+      "quote": "You snooze, you lose.",
+      "siblings": "Eldest of 8 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Beau",

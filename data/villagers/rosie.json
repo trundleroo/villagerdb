@@ -2,21 +2,14 @@
   "gender": "female",
   "species": "cat",
   "birthday": "2-27",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
-      "song": "Bubblegum K.K.",
-      "phrase": "silly"
+      "song": "Bubblegum K.K."
     },
     "af+": {
       "personality": "peppy",
-      "song": "Bubblegum K.K.",
-      "phrase": "silly"
+      "song": "Bubblegum K.K."
     },
     "ac": {
       "personality": "peppy",
@@ -26,14 +19,14 @@
     },
     "afe+": {
       "personality": "peppy",
-      "song": "Bubblegum K.K.",
-      "phrase": "silly"
+      "song": "Bubblegum K.K."
     },
     "ww": {
       "personality": "peppy",
       "clothes": "Dazed Tee",
       "song": "Bubblegum K.K.",
-      "phrase": "silly"
+      "phrase": "silly",
+      "quote": "To the president of the Rosie Fan Club!"
     },
     "cf": {
       "personality": "peppy",
@@ -47,8 +40,18 @@
       "song": "Bubblegum K.K.",
       "phrase": "silly",
       "skill": "Karaoke",
-      "goal": "Movie Star",
-      "style": "Cute"
+      "goal": "Movie star",
+      "fear": "Werewolf Hood",
+      "quote": "One good purr deserves another.",
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Rosie",

@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "wolf",
   "birthday": "12-19",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
       "clothes": "Red-Bar Tee",
-      "song": "DJ K.K.",
-      "phrase": "harrumph"
+      "song": "DJ K.K."
     },
     "af+": {
       "personality": "cranky",
       "clothes": "Red-Bar Tee",
-      "song": "DJ K.K.",
-      "phrase": "harrumph"
+      "song": "DJ K.K."
     },
     "ac": {
       "personality": "cranky",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "cranky",
       "clothes": "Red-Bar Tee",
-      "song": "DJ K.K.",
-      "phrase": "harrumph"
+      "song": "DJ K.K."
     },
     "ww": {
       "personality": "cranky",
       "clothes": "Red-Bar Tee",
       "song": "DJ K.K.",
-      "phrase": "harrumph"
+      "phrase": "harrumph",
+      "quote": "Harrumph!"
     },
     "cf": {
       "personality": "cranky",
@@ -49,9 +42,19 @@
       "clothes": "Red-Bar Tee",
       "song": "DJ K.K.",
       "phrase": "harrumph",
-      "skill": "Speed reading",
+      "skill": "Speed-reading",
       "goal": "Poet",
-      "style": "Iconic"
+      "fear": "Werewolf Hood",
+      "quote": "Don't wish it was easier; wish you were better.",
+      "siblings": "Older twin brother",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Chief",

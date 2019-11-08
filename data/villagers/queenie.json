@@ -2,21 +2,14 @@
   "gender": "female",
   "species": "ostrich",
   "birthday": "11-13",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "A little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "snooty",
-      "song": "K.K. Gumbo",
-      "phrase": "chicken"
+      "song": "K.K. Gumbo"
     },
     "af+": {
       "personality": "snooty",
-      "song": "K.K. Gumbo",
-      "phrase": "chicken"
+      "song": "K.K. Gumbo"
     },
     "ac": {
       "personality": "snooty",
@@ -26,14 +19,14 @@
     },
     "afe+": {
       "personality": "snooty",
-      "song": "K.K. Gumbo",
-      "phrase": "chicken"
+      "song": "K.K. Gumbo"
     },
     "ww": {
       "personality": "snooty",
       "clothes": "Laced Shirt",
       "song": "K.K. Gumbo",
-      "phrase": "chicken"
+      "phrase": "chicken",
+      "quote": "No retouching necessary!"
     },
     "cf": {
       "personality": "snooty",
@@ -48,7 +41,17 @@
       "phrase": "chicken",
       "skill": "Hitting snooze",
       "goal": "Dancer",
-      "style": "Ornate"
+      "fear": "Mummy Mask",
+      "quote": "You never get a second chance to make a first impression.",
+      "siblings": "Older twin sister",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Queenie",

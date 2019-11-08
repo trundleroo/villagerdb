@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "horse",
   "birthday": "1-10",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "lazy",
@@ -15,7 +10,17 @@
       "phrase": "haaay",
       "skill": "Ventriloquism",
       "goal": "Cartoonist",
-      "style": "Basic"
+      "fear": "Skeleton Hood",
+      "quote": "Never say neigh.",
+      "siblings": "Middle kid",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Papi",

@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "cub",
   "birthday": "3-2",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "nl": {
       "personality": "lazy",
@@ -15,7 +10,17 @@
       "phrase": "cubby",
       "skill": "Computing",
       "goal": "Programmer",
-      "style": "Historical"
+      "fear": "Ghost Mask",
+      "quote": "Please DO feed the bears!",
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Barold",

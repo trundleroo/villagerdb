@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "gorilla",
   "birthday": "12-5",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "nl": {
       "personality": "smug",
@@ -15,7 +10,17 @@
       "phrase": "groovy",
       "skill": "Spoon bending",
       "goal": "Painter",
-      "style": "Official"
+      "fear": "Ghost Mask",
+      "quote": "One good turn deserves another.",
+      "siblings": "Youngest of 3 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Hans",

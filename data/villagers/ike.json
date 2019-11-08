@@ -2,17 +2,11 @@
   "gender": "male",
   "species": "bear",
   "birthday": "5-16",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "afe+": {
       "personality": "cranky",
       "clothes": "Jungle-camo shirt",
-      "song": "K.K. Rock",
-      "phrase": "bowes"
+      "song": "K.K. Rock"
     },
     "nl": {
       "personality": "cranky",
@@ -21,7 +15,17 @@
       "phrase": "bowes",
       "skill": "Doing chin ups",
       "goal": "Carpenter",
-      "style": "Rock n' roll"
+      "fear": "Bug Mask",
+      "quote": "The higher you climb, the smaller things look.",
+      "siblings": "Eldest of 3 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "Blue",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Ike",

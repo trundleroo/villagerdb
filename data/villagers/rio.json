@@ -6,14 +6,12 @@
     "af": {
       "personality": "peppy",
       "clothes": "Red Scale Shirt",
-      "song": "K.K. Samba",
-      "phrase": "li'l chick"
+      "song": "K.K. Samba"
     },
     "af+": {
       "personality": "peppy",
       "clothes": "Red Scale Shirt",
-      "song": "K.K. Samba",
-      "phrase": "li'l chick"
+      "song": "K.K. Samba"
     },
     "ac": {
       "personality": "peppy",
@@ -24,8 +22,7 @@
     "afe+": {
       "personality": "peppy",
       "clothes": "Red Scale Shirt",
-      "song": "K.K. Samba",
-      "phrase": "li'l chick"
+      "song": "K.K. Samba"
     }
   },
   "name": "Rio",

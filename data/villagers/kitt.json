@@ -2,21 +2,14 @@
   "gender": "female",
   "species": "kangaroo",
   "birthday": "10-11",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "normal",
-      "song": "K.K. Chorale",
-      "phrase": "child"
+      "song": "K.K. Chorale"
     },
     "af+": {
       "personality": "normal",
-      "song": "K.K. Chorale",
-      "phrase": "child"
+      "song": "K.K. Chorale"
     },
     "ac": {
       "personality": "normal",
@@ -26,14 +19,14 @@
     },
     "afe+": {
       "personality": "normal",
-      "song": "K.K. Chorale",
-      "phrase": "child"
+      "song": "K.K. Chorale"
     },
     "ww": {
       "personality": "normal",
       "clothes": "Blue Diamond Tee",
       "song": "K.K. Chorale",
-      "phrase": "child"
+      "phrase": "child",
+      "quote": "They say that ugly parents have ugly kids."
     },
     "cf": {
       "personality": "normal",
@@ -48,7 +41,17 @@
       "phrase": "child",
       "skill": "Whistling",
       "goal": "Cartoonist",
-      "style": "Official"
+      "fear": "Werewolf Hood",
+      "quote": "Funny parents have funny kids.",
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Kitt",

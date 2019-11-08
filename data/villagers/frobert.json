@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "frog",
   "birthday": "2-8",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
       "clothes": "Gracie Tank",
-      "song": "My Place",
-      "phrase": "fribbit"
+      "song": "My Place"
     },
     "af+": {
       "personality": "jock",
       "clothes": "Gracie Tank",
-      "song": "My Place",
-      "phrase": "fribbit"
+      "song": "My Place"
     },
     "ac": {
       "personality": "jock",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "jock",
       "clothes": "Gracie Tank",
-      "song": "My Place",
-      "phrase": "fribbit"
+      "song": "My Place"
     },
     "ww": {
       "personality": "jock",
       "clothes": "Gracie Tank",
       "song": "My Place",
-      "phrase": "fribbit"
+      "phrase": "fribbit",
+      "quote": "I don't wanna see any lily-livered jumping! Always aim high!"
     },
     "cf": {
       "personality": "jock",
@@ -51,7 +44,17 @@
       "phrase": "fribbit",
       "skill": "Eating quickly",
       "goal": "Artist",
-      "style": "Sporty"
+      "fear": "Bug Mask",
+      "quote": "Always aim high!",
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Frobert",

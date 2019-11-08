@@ -62,7 +62,6 @@ function generateParagraph(villager, formattedVillager) {
     let species = formattedVillager.species.toLowerCase();
     let personality = gameData.personality;
     let birthday = formattedVillager.birthday;
-    let latestGameTitle = formatUtil.games[latestGameId].title;
     let zodiac = formattedVillager.zodiac;
 
     // Build paragraph
@@ -70,22 +69,28 @@ function generateParagraph(villager, formattedVillager) {
         formatUtil.capFirstLetter(pronoun) + ' was born on ' + birthday + ' and ' + posessivePronoun +
         ' star sign  is ' + zodiac + '. ';
     if (gameData.clothes) {
-        paragraph += name + ' wears the ' + gameData.clothes + ' in ' + latestGameTitle + '. ';
+        paragraph += name + ' wears the ' + gameData.clothes + '. ';
     }
     if (gameData.song) {
-        paragraph += formatUtil.capFirstLetter(posessivePronoun) + ' favorite song is ' + gameData.song + ' in ' +
-            latestGameTitle + '. ';
+        paragraph += formatUtil.capFirstLetter(posessivePronoun) + ' favorite song is ' + gameData.song + '. ';
     }
-
-
     if (gameData.goal) {
         paragraph += posessive + ' goal is to be ' + aOrAn(gameData.goal.toLowerCase()) + '. ';
     }
     if (gameData.skill) {
         paragraph += formatUtil.capFirstLetter(pronoun) + ' is talented at ' + gameData.skill.toLowerCase() + '. ';
     }
-    if (gameData.style) {
-        paragraph += formatUtil.capFirstLetter(posessivePronoun) + ' style is ' + gameData.style.toLowerCase() + '.';
+    if (gameData.favoriteStyle && gameData.dislikedStyle) {
+        paragraph += formatUtil.capFirstLetter(posessivePronoun) + ' favorite style is ' +
+            gameData.favoriteStyle.toLowerCase() + ', but ' + pronoun + ' dislikes the ' +
+            gameData.dislikedStyle.toLowerCase() + ' style. ';
+    }
+    if (gameData.favoriteColor) {
+        paragraph += posessive + ' favorite color is ' + gameData.favoriteColor.toLowerCase() + '. ';
+    }
+    if (gameData.siblings) {
+        paragraph += 'In ' + posessivePronoun + ' family, ' + name + ' is the ' + gameData.siblings.toLowerCase() +
+            '. ';
     }
 
     return paragraph;
@@ -122,6 +127,28 @@ function compressGameData(games, property) {
 }
 
 /**
+ * Get quotes for the villager. They will be sorted in reverse chronological order because that's the way the
+ * formatted villager game list comes back.
+ *
+ * @param villager
+ * @param formattedVillager
+ * @returns {Array}
+ */
+function getQuotes(villager, formattedVillager) {
+    const quotes = [];
+    for (let game in formattedVillager.games) {
+        if (villager.games[game].quote) {
+            quotes.push({
+                title: formatUtil.games[game].title,
+                quote: villager.games[game].quote
+            });
+        }
+    }
+
+    return quotes;
+}
+
+/**
  * Load the specified villager.
  *
  * @param collection
@@ -145,6 +172,7 @@ async function loadVillager(collection, id) {
     result.pageTitle = villager.name;
 
     // Game-specific attributes.
+    result.quotes = getQuotes(villager, result);
     result.personalities = compressGameData(result.games, 'personality');
     result.clothing = compressGameData(result.games, 'clothes');
     result.phrases = compressGameData(result.games, 'phrase');
@@ -155,6 +183,8 @@ async function loadVillager(collection, id) {
     result.hasClothing = result.clothing.length > 0;
     result.hasPhrases = result.phrases.length > 0;
     result.hasSongs = result.songs.length > 0;
+    result.hasQuotes = result.quotes.length > 0;
+    result.hasCoffee = result.coffee.length > 0;
 
     // Generate the paragraph.
     result.paragraph = generateParagraph(villager, result);

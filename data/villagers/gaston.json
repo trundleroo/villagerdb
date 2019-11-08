@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "rabbit",
   "birthday": "10-28",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
       "clothes": "Swell Tee",
-      "song": "K.K. Dirge",
-      "phrase": "mon chou"
+      "song": "K.K. Dirge"
     },
     "af+": {
       "personality": "cranky",
       "clothes": "Swell Tee",
-      "song": "K.K. Dirge",
-      "phrase": "mon chou"
+      "song": "K.K. Dirge"
     },
     "ac": {
       "personality": "cranky",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "cranky",
       "clothes": "Swell Tee",
-      "song": "K.K. Dirge",
-      "phrase": "mon chou"
+      "song": "K.K. Dirge"
     },
     "ww": {
       "personality": "cranky",
       "clothes": "Swell Tee",
       "song": "K.K. Dirge",
-      "phrase": "mon chou"
+      "phrase": "mon chou",
+      "quote": "Sacre bleu!"
     },
     "cf": {
       "personality": "cranky",
@@ -51,7 +44,17 @@
       "phrase": "mon chou",
       "skill": "Ventriloquism",
       "goal": "Tycoon",
-      "style": "Flashy"
+      "fear": "Werewolf Hood",
+      "quote": "An ear for an ear leaves everyone deaf.",
+      "siblings": "Eldest triplet",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Gaston",

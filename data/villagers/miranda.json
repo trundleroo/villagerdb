@@ -2,16 +2,10 @@
   "gender": "female",
   "species": "duck",
   "birthday": "4-23",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "afe+": {
       "personality": "snooty",
-      "song": "K.K. Sonata",
-      "phrase": "quackulous"
+      "song": "K.K. Sonata"
     },
     "cf": {
       "personality": "snooty",
@@ -24,9 +18,19 @@
       "clothes": "Amethyst Tee",
       "song": "K.K. Sonata",
       "phrase": "quackulous",
-      "skill": "Subsistence Living",
+      "skill": "Subsistence living",
       "goal": "Model",
-      "style": "Ornate"
+      "fear": "Mummy Mask",
+      "quote": "If the world was flooded, it will be easy for the duck.",
+      "siblings": "Older twin sister",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Miranda",

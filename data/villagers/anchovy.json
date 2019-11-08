@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "bird",
   "birthday": "3-4",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "lazy",
       "clothes": "Straw  Shirt",
-      "song": "K.K. Ragtime",
-      "phrase": "chuurp"
+      "song": "K.K. Ragtime"
     },
     "af+": {
       "personality": "lazy",
       "clothes": "Straw Shirt",
-      "song": "K.K. Ragtime",
-      "phrase": "chuurp"
+      "song": "K.K. Ragtime"
     },
     "ac": {
       "personality": "lazy",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "lazy",
       "clothes": "Straw Shirt",
-      "song": "K.K. Ragtime",
-      "phrase": "chuurp"
+      "song": "K.K. Ragtime"
     },
     "ww": {
       "personality": "lazy",
       "clothes": "Earthy Knit Shirt",
       "song": "K.K. Ragtime",
-      "phrase": "chuurp"
+      "phrase": "chuurp",
+      "quote": "I'm hungry."
     },
     "cf": {
       "personality": "lazy",
@@ -51,7 +44,17 @@
       "phrase": "chuurp",
       "skill": "Remembering stuff",
       "goal": "Explorer",
-      "style": "Flashy"
+      "fear": "Mummy Mask",
+      "quote": "Why do today what you can put off until tomorrow.",
+      "siblings": "Eldest of 9 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Anchovy",

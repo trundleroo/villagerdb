@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "deer",
   "birthday": "5-4",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "nl": {
       "personality": "uchi",
@@ -15,7 +10,17 @@
       "phrase": "whatevs",
       "skill": "Tiptoeing",
       "goal": "Journalist",
-      "style": "Historical"
+      "fear": "Ghost Mask",
+      "quote": "Legs of an antelope, heart of an eagle.",
+      "siblings": "Youngest of 3 sisters",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Deirdre",

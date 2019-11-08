@@ -2,21 +2,14 @@
   "gender": "male",
   "species": "bear",
   "birthday": "10-23",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
-      "song": "K.K. Metal",
-      "phrase": "grumble"
+      "song": "K.K. Metal"
     },
     "af+": {
       "personality": "cranky",
-      "song": "K.K. Metal",
-      "phrase": "grumble"
+      "song": "K.K. Metal"
     },
     "ac": {
       "personality": "cranky",
@@ -26,8 +19,7 @@
     },
     "afe+": {
       "personality": "cranky",
-      "song": "K.K. Metal",
-      "phrase": "grumble"
+      "song": "K.K. Metal"
     },
     "cf": {
       "personality": "cranky",
@@ -42,7 +34,17 @@
       "phrase": "grumble",
       "skill": "Competitive eating",
       "goal": "Pro wrestler",
-      "style": "Historical"
+      "fear": "Bug Mask",
+      "quote": "Rocky road is more than just a flavor of ice cream.",
+      "siblings": "Second of 5 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Groucho",

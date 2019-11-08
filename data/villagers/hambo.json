@@ -5,13 +5,11 @@
   "games": {
     "af": {
       "personality": "jock",
-      "clothes": "Concierge Shirt",
-      "phrase": "yo"
+      "clothes": "Concierge Shirt"
     },
     "af+": {
       "personality": "jock",
-      "clothes": "Concierge Shirt",
-      "phrase": "yo"
+      "clothes": "Concierge Shirt"
     },
     "ac": {
       "personality": "jock",
@@ -20,8 +18,7 @@
     },
     "afe+": {
       "personality": "jock",
-      "clothes": "Concierge Shirt",
-      "phrase": "yo"
+      "clothes": "Concierge Shirt"
     }
   },
   "name": "Hambo",

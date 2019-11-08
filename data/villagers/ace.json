@@ -6,14 +6,12 @@
     "af": {
       "personality": "jock",
       "clothes": "Spade Shirt",
-      "song": "K.K. Parade",
-      "phrase": "ace"
+      "song": "K.K. Parade"
     },
     "af+": {
       "personality": "jock",
       "clothes": "Spade Shirt",
-      "song": "K.K. Parade",
-      "phrase": "ace"
+      "song": "K.K. Parade"
     },
     "ac": {
       "personality": "jock",
@@ -24,8 +22,7 @@
     "afe+": {
       "personality": "jock",
       "clothes": "Spade Shirt",
-      "song": "K.K. Parade",
-      "phrase": "ace"
+      "song": "K.K. Parade"
     }
   },
   "name": "Ace",

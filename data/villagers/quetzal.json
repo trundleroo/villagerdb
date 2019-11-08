@@ -5,13 +5,11 @@
   "games": {
     "af": {
       "personality": "jock",
-      "clothes": "Rally Shirt",
-      "phrase": "SKREEE"
+      "clothes": "Rally Shirt"
     },
     "af+": {
       "personality": "jock",
-      "clothes": "Rally Shirt",
-      "phrase": "SKREEE"
+      "clothes": "Rally Shirt"
     },
     "ac": {
       "personality": "jock",
@@ -20,8 +18,7 @@
     },
     "afe+": {
       "personality": "jock",
-      "clothes": "Rally Shirt",
-      "phrase": "SKREEE"
+      "clothes": "Rally Shirt"
     }
   },
   "name": "Quetzal",

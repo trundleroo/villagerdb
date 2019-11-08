@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "rhino",
   "birthday": "5-6",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "No Milk",
-    "sugar": "No Sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
       "clothes": "No. 1 Shirt",
-      "song": "K.K. Lament",
-      "phrase": "kerPOW"
+      "song": "K.K. Lament"
     },
     "af+": {
       "personality": "jock",
       "clothes": "No. 1 Shirt",
-      "song": "K.K. Lament",
-      "phrase": "kerPOW"
+      "song": "K.K. Lament"
     },
     "ac": {
       "personality": "jock",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "jock",
       "clothes": "No. 1 Shirt",
-      "song": "K.K. Lament",
-      "phrase": "kerPOW"
+      "song": "K.K. Lament"
     },
     "ww": {
       "personality": "jock",
       "clothes": "No. 1 Shirt",
       "song": "K.K. Lament",
-      "phrase": "kerPOW"
+      "phrase": "kerPOW",
+      "quote": "Remember to keep your core muscles engaged!"
     },
     "cf": {
       "personality": "jock",
@@ -51,7 +44,17 @@
       "phrase": "kerPOW",
       "skill": "Doing push-ups",
       "goal": "Cartoonist",
-      "style": "Rock 'n' roll"
+      "fear": "Skeleton Hood",
+      "quote": "Remember to keep your core muscles engaged!",
+      "siblings": "Younger twin brother",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "No Milk",
+        "sugar": "No Sugar"
+      }
     }
   },
   "name": "Tank",

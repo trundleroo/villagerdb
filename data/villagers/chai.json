@@ -8,15 +8,21 @@
       "phrase": "flap flap",
       "clothes": "Cinnamoroll Outfit",
       "skill": "Napping",
-      "goal": "Cafe Owner",
-      "song": "K.K. Bossa"
+      "goal": "Café owner",
+      "song": "K.K. Bossa",
+      "fear": "Bug Mask",
+      "quote": "He who chases two rabbit catches none.",
+      "siblings": "Only child",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "None",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Chai",
-  "id": "chai",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  }
+  "id": "chai"
 }

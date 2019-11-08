@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "chicken",
   "birthday": "10-14",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "lazy",
       "clothes": "Swell Tee",
-      "song": "K.K. Technopop",
-      "phrase": "doodle-duh"
+      "song": "K.K. Technopop"
     },
     "af+": {
       "personality": "lazy",
       "clothes": "Swell Tee",
-      "song": "K.K. Technopop",
-      "phrase": "doodle-duh"
+      "song": "K.K. Technopop"
     },
     "ac": {
       "personality": "lazy",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "lazy",
       "clothes": "Swell Tee",
-      "song": "K.K. Technopop",
-      "phrase": "doodle-duh"
+      "song": "K.K. Technopop"
     },
     "ww": {
       "personality": "lazy",
       "clothes": "Swell Tee",
       "song": "K.K. Technopop",
-      "phrase": "doodle-duh"
+      "phrase": "doodle-duh",
+      "quote": "Napping is when I do my best thinking."
     },
     "cf": {
       "personality": "lazy",
@@ -51,7 +44,17 @@
       "phrase": "doodle-duh",
       "skill": "Cramming for tests",
       "goal": "Astronaut",
-      "style": "Historical"
+      "fear": "Skeleton Hood",
+      "quote": "You gotta break a few eggs to make an omelet.",
+      "siblings": "Third of 4 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Egbert",

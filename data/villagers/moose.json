@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "mouse",
   "birthday": "9-13",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "cf": {
       "personality": "jock",
@@ -21,7 +16,17 @@
       "phrase": "shorty",
       "skill": "Telling jokes",
       "goal": "Mayor",
-      "style": "Flashy"
+      "fear": "Bug Mask",
+      "quote": "A cornered rat will summon the courage to bite a cat.",
+      "siblings": "Third of 5 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Moose",

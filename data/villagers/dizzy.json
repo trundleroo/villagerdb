@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "elephant",
   "birthday": "7-14",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "lazy",
       "clothes": "No. 5 Shirt",
-      "song": "K.K. Gumbo",
-      "phrase": "woo-oo"
+      "song": "K.K. Gumbo"
     },
     "af+": {
       "personality": "lazy",
       "clothes": "No. 5 Shirt",
-      "song": "K.K. Gumbo",
-      "phrase": "woo-oo"
+      "song": "K.K. Gumbo"
     },
     "ac": {
       "personality": "lazy",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "lazy",
       "clothes": "No. 5 Shirt",
-      "song": "K.K. Gumbo",
-      "phrase": "woo-oo"
+      "song": "K.K. Gumbo"
     },
     "ww": {
       "personality": "lazy",
       "clothes": "No. 5 Shirt",
       "song": "K.K. Gumbo",
-      "phrase": "woo-oo"
+      "phrase": "woo-oo",
+      "quote": "Keep it mellow."
     },
     "cf": {
       "personality": "lazy",
@@ -51,7 +44,17 @@
       "phrase": "woo-oo",
       "skill": "Chugging milk",
       "goal": "Journalist",
-      "style": "Basic"
+      "fear": "Bug Mask",
+      "quote": "Keep it mellow.",
+      "siblings": "Youngest of 6 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Dizzy",

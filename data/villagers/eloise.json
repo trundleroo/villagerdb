@@ -2,22 +2,15 @@
   "gender": "female",
   "species": "elephant",
   "birthday": "12-8",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "snooty",
       "clothes": "Green Bar Shirt",
-      "song": "K.K. Jazz",
-      "phrase": "tooooot"
+      "song": "K.K. Jazz"
     },
     "af+": {
       "personality": "snooty",
-      "song": "K.K. Jazz",
-      "phrase": "tooooot"
+      "song": "K.K. Jazz"
     },
     "ac": {
       "personality": "snooty",
@@ -26,14 +19,14 @@
     },
     "afe+": {
       "personality": "snooty",
-      "song": "K.K. Jazz",
-      "phrase": "tooooot"
+      "song": "K.K. Jazz"
     },
     "ww": {
       "personality": "snooty",
       "clothes": "Yellow-Bar Tee",
       "song": "K.K. Jazz",
-      "phrase": "tooooot"
+      "phrase": "tooooot",
+      "quote": "You'll want to display this prominently!"
     },
     "cf": {
       "personality": "snooty",
@@ -48,7 +41,17 @@
       "phrase": "tooooot",
       "skill": "Memorizing stuff",
       "goal": "Painter",
-      "style": "Official"
+      "fear": "Ghost Mask",
+      "quote": "An elephant never forgets.",
+      "siblings": "Second of 4 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Eloise",

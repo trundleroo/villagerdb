@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "cow",
   "birthday": "5-10",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
       "clothes": "Citrus Tee",
-      "song": "K.K. Calypso",
-      "phrase": "how now"
+      "song": "K.K. Calypso"
     },
     "af+": {
       "personality": "peppy",
       "clothes": "Citrus Tee",
-      "song": "K.K. Calypso",
-      "phrase": "how now"
+      "song": "K.K. Calypso"
     },
     "ac": {
       "personality": "peppy",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "peppy",
       "clothes": "Citrus Tee",
-      "song": "K.K. Calypso",
-      "phrase": "how now"
+      "song": "K.K. Calypso"
     },
     "ww": {
       "personality": "peppy",
       "clothes": "Citrus Tee",
       "song": "K.K. Calypso",
-      "phrase": "how now"
+      "phrase": "how now",
+      "quote": "This month's Ms. Nintendique cover girl!"
     },
     "cf": {
       "personality": "peppy",
@@ -51,7 +44,17 @@
       "phrase": "how now",
       "skill": "Competitive eating",
       "goal": "Pastry chef",
-      "style": "Modern"
+      "fear": "Werewolf Hood",
+      "quote": "A friend in need is a friend indeed!",
+      "siblings": "Eldest of 4 sisters",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Patty",

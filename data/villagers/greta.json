@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "mouse",
   "birthday": "9-5",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "nl": {
       "personality": "snooty",
@@ -15,7 +10,17 @@
       "phrase": "yelp",
       "skill": "Playing horseshoes",
       "goal": "Florist",
-      "style": "Iconic"
+      "fear": "Skeleton Hood",
+      "quote": "The world is a stage.",
+      "siblings": "Eldest of 4 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Greta",

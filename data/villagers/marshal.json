@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "squirrel",
   "birthday": "9-29",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "A little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "nl": {
       "personality": "smug",
@@ -15,7 +10,17 @@
       "phrase": "sulky",
       "skill": "Mental math",
       "goal": "Designer",
-      "style": "Ornate"
+      "fear": "Ghost Mask",
+      "quote": "Seize the day.",
+      "siblings": "Middle kid",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Marshal",

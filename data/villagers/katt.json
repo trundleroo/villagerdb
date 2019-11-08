@@ -2,20 +2,25 @@
   "gender": "female",
   "species": "cat",
   "birthday": "4-27",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "nl": {
       "personality": "uchi",
       "clothes": "Pep-Squad Tee",
       "song": "Surfin' K.K.",
       "phrase": "purrty",
-      "skill": "Playing old maid",
+      "skill": "Playing Old Maid",
       "goal": "Swimmer",
-      "style": "Rock 'n' roll"
+      "fear": "Mummy Mask",
+      "quote": "MeowMEOWmeow!",
+      "siblings": "Third of 4 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Official",
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Katt",

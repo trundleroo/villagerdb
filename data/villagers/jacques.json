@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "bird",
   "birthday": "6-22",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "smug",
@@ -15,7 +10,17 @@
       "phrase": "zut alors",
       "skill": "Beat boxing",
       "goal": "Singer",
-      "style": "Flashy"
+      "fear": "Bug Mask",
+      "quote": "Better to have loved and squawked than to have never loved at all.",
+      "siblings": "Third of 5 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Jacques",

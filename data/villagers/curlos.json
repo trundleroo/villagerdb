@@ -2,26 +2,30 @@
   "gender": "male",
   "species": "sheep",
   "birthday": "5-8",
-  "coffee": {
-    "beans": "Kilamanjaro",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "cranky",
       "clothes": "Blue Aloha Shirt",
-      "song": "K.K. Samba",
-      "phrase": "shearly"
+      "song": "K.K. Samba"
     },
     "nl": {
       "personality": "smug",
       "clothes": "Reggae Tee",
       "song": "K.K. Samba",
       "phrase": "shearly",
-      "skill": "Calculating Tips",
+      "skill": "Calculating tips",
       "goal": "Actor",
-      "style": "Rock 'n' roll"
+      "fear": "Werewolf Hood",
+      "quote": "If you want to know yourself, ask your neighbors.",
+      "siblings": "Eldest quadruplet",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Kilamanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Curlos",

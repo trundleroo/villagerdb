@@ -2,21 +2,14 @@
   "gender": "female",
   "species": "pig",
   "birthday": "7-28",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "A little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
-      "song": "Two Days Ago",
-      "phrase": "snoutie"
+      "song": "Two Days Ago"
     },
     "af+": {
       "personality": "peppy",
-      "song": "Two Days Ago",
-      "phrase": "snoutie"
+      "song": "Two Days Ago"
     },
     "ac": {
       "personality": "peppy",
@@ -26,14 +19,14 @@
     },
     "afe+": {
       "personality": "peppy",
-      "song": "Two Days Ago",
-      "phrase": "snoutie"
+      "song": "Two Days Ago"
     },
     "ww": {
       "personality": "peppy",
       "clothes": "Turnip Top",
       "song": "Two Days Ago",
-      "phrase": "snoutie"
+      "phrase": "snoutie",
+      "quote": "JUMPING JELLY BEANS!"
     },
     "cf": {
       "personality": "peppy",
@@ -48,7 +41,17 @@
       "phrase": "snoutie",
       "skill": "Trivia",
       "goal": "Actor",
-      "style": "Cute"
+      "fear": "Monster Mask",
+      "quote": "The best things in life are free.",
+      "siblings": "Youngest of 6 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Truffles",

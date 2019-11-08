@@ -2,16 +2,12 @@
   "gender": "female",
   "species": "rhino",
   "birthday": "1-24",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "ww": {
       "personality": "normal",
       "song": "K.K. Ballad",
-      "phrase": "bigfoot"
+      "phrase": "bigfoot",
+      "quote": "Don't look down your nose at people!"
     },
     "cf": {
       "personality": "normal",
@@ -24,9 +20,19 @@
       "clothes": "Corseted Shirt",
       "song": "K.K. Ballad",
       "phrase": "bigfoot",
-      "skill": "Making crafts",
+      "skill": "Magic tricks",
       "goal": "Writer",
-      "style": "Ornate"
+      "fear": "Ghost Mask",
+      "quote": "Don't look down your nose at people!",
+      "siblings": "Only child",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Rhonda",

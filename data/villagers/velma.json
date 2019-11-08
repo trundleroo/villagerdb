@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "goat",
   "birthday": "1-14",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "snooty",
       "clothes": "Cool Shirt",
-      "song": "K.K. Etude",
-      "phrase": "blih"
+      "song": "K.K. Etude"
     },
     "af+": {
       "personality": "snooty",
       "clothes": "Cool Shirt",
-      "song": "K.K. Etude",
-      "phrase": "blih"
+      "song": "K.K. Etude"
     },
     "ac": {
       "personality": "snooty",
@@ -29,17 +22,26 @@
     "afe+": {
       "personality": "snooty",
       "clothes": "Cool Shirt",
-      "song": "K.K. Etude",
-      "phrase": "blih"
+      "song": "K.K. Etude"
     },
     "nl": {
       "personality": "snooty",
       "clothes": "Swell Tee",
       "song": "K.K. Etude",
       "phrase": "blih",
-      "skill": "Speed reader",
+      "skill": "Speed-reading",
       "goal": "Lawyer",
-      "style": "Official"
+      "fear": "Bug Mask",
+      "quote": "Work smarter, not harder.",
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Velma",

@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "bear",
   "birthday": "8-16",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "af": {
       "personality": "lazy",
       "clothes": "Spring Shirt",
-      "song": "K.K. Lullaby",
-      "phrase": "yawwwn"
+      "song": "K.K. Lullaby"
     },
     "af+": {
       "personality": "lazy",
       "clothes": "Spring Shirt",
-      "song": "K.K. Lullaby",
-      "phrase": "yawwwn"
+      "song": "K.K. Lullaby"
     },
     "ac": {
       "personality": "lazy",
@@ -29,8 +22,7 @@
     "afe+": {
       "personality": "lazy",
       "clothes": "Spring Shirt",
-      "song": "K.K. Lullaby",
-      "phrase": "yawwwn"
+      "song": "K.K. Lullaby"
     },
     "cf": {
       "personality": "lazy",
@@ -45,7 +37,17 @@
       "phrase": "yawwwn",
       "skill": "Playing horseshoes",
       "goal": "Sumo wrestler",
-      "style": "Basic"
+      "fear": "Werewolf Hood",
+      "quote": "Be true to yourself.",
+      "siblings": "Third of 4 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Nate",

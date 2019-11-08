@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "dog",
   "birthday": "1-11",
-  "coffee": {
-    "beans": "Blue mountain",
-    "milk": "lots of milk",
-    "sugar": "3 spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
       "clothes": "Fortune Shirt",
-      "song": "Forest Life",
-      "phrase": "yippee"
+      "song": "Forest Life"
     },
     "af+": {
       "personality": "peppy",
       "clothes": "Fortune Shirt",
-      "song": "Forest Life",
-      "phrase": "yippee"
+      "song": "Forest Life"
     },
     "ac": {
       "personality": "peppy",
@@ -29,16 +22,26 @@
     "afe+": {
       "personality": "peppy",
       "clothes": "Fortune Shirt",
-      "song": "Forest Life",
-      "phrase": "yippee"
+      "song": "Forest Life"
     },
     "nl": {
       "personality": "peppy",
       "clothes": "Picnic Tee",
       "song": "Forest Life",
       "phrase": "yippee",
-      "skill": "Tongue twisters",
-      "goal": "Tour Guide"
+      "skill": "Tonque twisters",
+      "goal": "Tour guide",
+      "fear": "Bug Mask",
+      "quote": "The IT revolution is under way.",
+      "siblings": "Middle triplet",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "Pink",
+      "coffee": {
+        "beans": "Blue mountain",
+        "milk": "lots of milk",
+        "sugar": "3 spoonfuls of sugar"
+      }
     }
   },
   "name": "Maddie",

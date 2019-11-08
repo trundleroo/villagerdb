@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "koala",
   "birthday": "10-13",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
       "clothes": "Earthy Knit",
-      "song": "K.K. D & B",
-      "phrase": "mate"
+      "song": "K.K. D & B"
     },
     "af+": {
       "personality": "cranky",
       "clothes": "Earthy Knit",
-      "song": "K.K. D & B",
-      "phrase": "mate"
+      "song": "K.K. D & B"
     },
     "ac": {
       "personality": "cranky",
@@ -29,8 +22,7 @@
     "afe+": {
       "personality": "cranky",
       "clothes": "Earthy Knit",
-      "song": "K.K. D & B",
-      "phrase": "mate"
+      "song": "K.K. D & B"
     },
     "nl": {
       "personality": "cranky",
@@ -38,7 +30,18 @@
       "song": "K.K. D & B",
       "phrase": "mate",
       "skill": "Mental math",
-      "goal": "Mayor"
+      "goal": "Mayor",
+      "fear": "Monster Mask",
+      "quote": "Brothers are brothers; cheese is cheese.",
+      "siblings": "Eldest of 3 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "Black",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Gonzo",

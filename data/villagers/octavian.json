@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "octopus",
   "birthday": "9-20",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
       "clothes": "Big-Star Tee",
-      "song": "K.K. D & B",
-      "phrase": "sucker"
+      "song": "K.K. D & B"
     },
     "af+": {
       "personality": "cranky",
       "clothes": "Big-Star Tee",
-      "song": "K.K. D & B",
-      "phrase": "sucker"
+      "song": "K.K. D & B"
     },
     "ac": {
       "personality": "cranky",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "cranky",
       "clothes": "Big-Star Tee",
-      "song": "K.K. D & B",
-      "phrase": "sucker"
+      "song": "K.K. D & B"
     },
     "ww": {
       "personality": "cranky",
       "clothes": "Big-Star Tee",
       "song": "K.K. D & B",
-      "phrase": "sucker"
+      "phrase": "sucker",
+      "quote": "Don't be a sucker!"
     },
     "cf": {
       "personality": "cranky",
@@ -51,7 +44,17 @@
       "phrase": "sucker",
       "skill": "Trivia",
       "goal": "Fisherman",
-      "style": "Official"
+      "fear": "Werewolf Hood",
+      "quote": "Don't be a sucker!",
+      "siblings": "Second quadruplet",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Octavian",

@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "cat",
   "birthday": "1-12",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "afe+": {
       "personality": "lazy",
@@ -17,7 +12,8 @@
       "personality": "lazy",
       "clothes": "BB Tee",
       "song": "K.K. Ragtime",
-      "phrase": "myawn"
+      "phrase": "myawn",
+      "quote": "Whoa..."
     },
     "cf": {
       "personality": "lazy",
@@ -29,7 +25,20 @@
       "personality": "lazy",
       "clothes": "BB Tee",
       "song": "K.K. Ragtime",
-      "phrase": "myawn"
+      "phrase": "myawn",
+      "fear": "Monster Mask",
+      "quote": "Ignorance is bliss.",
+      "skill": "Fishing",
+      "goal": "CEO",
+      "siblings": "Youngest of 5 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Moe",

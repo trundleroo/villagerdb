@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "kangaroo",
   "birthday": "11-12",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "snooty",
       "clothes": "U-R-Here Tee",
-      "song": "K.K. Ragtime",
-      "phrase": "wee baby"
+      "song": "K.K. Ragtime"
     },
     "af+": {
       "personality": "snooty",
       "clothes": "U-R-Here Tee",
-      "song": "K.K. Ragtime",
-      "phrase": "wee baby"
+      "song": "K.K. Ragtime"
     },
     "ac": {
       "personality": "snooty",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "snooty",
       "clothes": "U-R-Here Tee",
-      "song": "K.K. Ragtime",
-      "phrase": "wee baby"
+      "song": "K.K. Ragtime"
     },
     "ww": {
       "personality": "snooty",
       "clothes": "U-R-Here Tee",
       "song": "K.K. Ragtime",
-      "phrase": "wee baby"
+      "phrase": "wee baby",
+      "quote": "Blood is thicker than water!"
     },
     "cf": {
       "personality": "snooty",
@@ -51,7 +44,17 @@
       "phrase": "wee baby",
       "skill": "Pretending to sleep",
       "goal": "Writer",
-      "style": "Rock 'n' roll"
+      "fear": "Skeleton Hood",
+      "quote": "Nail polish is thicker than water.",
+      "siblings": "Youngest of 3 sisters",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Mathilda",

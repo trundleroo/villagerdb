@@ -2,26 +2,30 @@
   "gender": "male",
   "species": "tiger",
   "birthday": "5-15",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "A little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "jock",
       "clothes": "Three-Ball Tee",
-      "song": "K.K. Safari",
-      "phrase": "flexin"
+      "song": "K.K. Safari"
     },
     "nl": {
       "personality": "jock",
       "clothes": "Three-Ball Tee",
       "song": "K.K. Safari",
       "phrase": "flexin",
-      "skill": "Playing Catch",
+      "skill": "Playing catch",
       "goal": "Soccer player",
-      "style": "Sporty"
+      "fear": "Werewolf Hood",
+      "quote": "That's the way the energy bar crumbles.",
+      "siblings": "Fourth of 6 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Official",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Leonardo",

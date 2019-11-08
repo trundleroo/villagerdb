@@ -6,14 +6,12 @@
     "af": {
       "personality": "lazy",
       "clothes": "Desert Camo",
-      "song": "K.K. Western",
-      "phrase": "buh-uh-ud"
+      "song": "K.K. Western"
     },
     "af+": {
       "personality": "lazy",
       "clothes": "Desert Camo",
-      "song": "K.K. Western",
-      "phrase": "buh-uh-ud"
+      "song": "K.K. Western"
     },
     "ac": {
       "personality": "lazy",
@@ -24,8 +22,7 @@
     "afe+": {
       "personality": "lazy",
       "clothes": "Desert Camo",
-      "song": "K.K. Western",
-      "phrase": "buh-uh-ud"
+      "song": "K.K. Western"
     }
   },
   "name": "Sven",

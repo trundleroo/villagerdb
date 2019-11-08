@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "lion",
   "birthday": "8-7",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "jock",
@@ -15,7 +10,17 @@
       "phrase": "capital",
       "skill": "Tiptoeing",
       "goal": "Firefighter",
-      "style": "Iconic"
+      "fear": "Ghost Mask",
+      "quote": "Set 'em up and knock 'em down.",
+      "siblings": "Middle triplet",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Rory",

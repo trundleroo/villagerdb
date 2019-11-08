@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "pig",
   "birthday": "10-7",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "A little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
       "clothes": "Racer Tee",
-      "song": "Pondering",
-      "phrase": "hot dog"
+      "song": "Pondering"
     },
     "af+": {
       "personality": "jock",
       "clothes": "Racer Tee",
-      "song": "Pondering",
-      "phrase": "hot dog"
+      "song": "Pondering"
     },
     "ac": {
       "personality": "jock",
@@ -29,8 +22,7 @@
     "afe+": {
       "personality": "jock",
       "clothes": "Racer Tee",
-      "song": "Pondering",
-      "phrase": "hot dog"
+      "song": "Pondering"
     },
     "nl": {
       "personality": "jock",
@@ -39,7 +31,17 @@
       "phrase": "hot dog",
       "skill": "Debating",
       "goal": "Teacher",
-      "style": "Official"
+      "fear": "Mummy Mask",
+      "quote": "Might makes right.",
+      "siblings": "Second of 6 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Cobb",

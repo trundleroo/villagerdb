@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "ostrich",
   "birthday": "1-15",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "normal",
@@ -17,7 +12,8 @@
       "personality": "normal",
       "clothes": "Misty Tee",
       "song": "K.K. Folk",
-      "phrase": "stretch"
+      "phrase": "stretch",
+      "quote": "Smiles are free, you know."
     },
     "cf": {
       "personality": "normal",
@@ -29,7 +25,20 @@
       "personality": "normal",
       "clothes": "Misty Tee",
       "song": "K.K. Folk",
-      "phrase": "stretch"
+      "phrase": "stretch",
+      "fear": "Bug Mask",
+      "quote": "Smiles are free.",
+      "skill": "Calligraphy",
+      "goal": "Architect",
+      "siblings": "Eldest of 3 sisters",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Gladys",

@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "duck",
   "birthday": "2-11",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
       "clothes": "No. 4 Shirt",
-      "song": "K.K. Jazz",
-      "phrase": "rah rah"
+      "song": "K.K. Jazz"
     },
     "af+": {
       "personality": "peppy",
       "clothes": "No. 4 Shirt",
-      "song": "K.K. Jazz",
-      "phrase": "rah rah"
+      "song": "K.K. Jazz"
     },
     "ac": {
       "personality": "peppy",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "peppy",
       "clothes": "No. 4 Shirt",
-      "song": "K.K. Jazz",
-      "phrase": "rah rah"
+      "song": "K.K. Jazz"
     },
     "ww": {
       "personality": "peppy",
       "clothes": "No. 4 Shirt",
       "song": "K.K. Jazz",
-      "phrase": "rah rah"
+      "phrase": "rah rah",
+      "quote": "This one goes out to all my fans!"
     },
     "cf": {
       "personality": "peppy",
@@ -51,7 +44,17 @@
       "phrase": "rah rah",
       "skill": "Trivia",
       "goal": "CEO",
-      "style": "Cute"
+      "fear": "Werewolf Hood",
+      "quote": "Happiness is a rainy day.",
+      "siblings": "Third of 6 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Pompom",

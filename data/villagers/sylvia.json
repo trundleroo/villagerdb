@@ -2,26 +2,30 @@
   "gender": "female",
   "species": "kangaroo",
   "birthday": "5-3",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "afe+": {
       "personality": "snooty",
       "clothes": "Yellow Aloha Tee",
-      "song": "Rockin' K.K.",
-      "phrase": "ne"
+      "song": "Rockin' K.K."
     },
     "nl": {
       "personality": "uchi",
       "clothes": "Yellow Aloha Tee",
       "song": "Rockin' K.K.",
       "phrase": "ne",
-      "skill": "Playing Jacks",
-      "goal": "Tour Guide",
-      "style": "Ornate"
+      "skill": "Playing jacks",
+      "goal": "Tour guide",
+      "fear": "Mummy Mask",
+      "quote": "Hop first; ask questions later.",
+      "siblings": "Youngest of 5 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Sylvia",

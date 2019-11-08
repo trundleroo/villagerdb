@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "squirrel",
   "birthday": "9-10",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af": {
       "personality": "snooty",
       "clothes": "Red-Check Tee",
-      "song": "Cafe K.K.",
-      "phrase": "chipmunk"
+      "song": "Cafe K.K."
     },
     "af+": {
       "personality": "snooty",
       "clothes": "Red-Check Tee",
-      "song": "Cafe K.K.",
-      "phrase": "chipmunk"
+      "song": "Cafe K.K."
     },
     "ac": {
       "personality": "snooty",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "snooty",
       "clothes": "Red-Check Tee",
-      "song": "Cafe K.K.",
-      "phrase": "chipmunk"
+      "song": "Cafe K.K."
     },
     "ww": {
       "personality": "snooty",
       "clothes": "Red-Check Tee",
       "song": "Cafe K.K.",
-      "phrase": "chipmunk"
+      "phrase": "chipmunk",
+      "quote": "A picture of me is worth a thousand pictures of someone else!"
     },
     "cf": {
       "personality": "snooty",
@@ -49,9 +42,19 @@
       "clothes": "Red-Check Tee",
       "song": "Cafe K.K.",
       "phrase": "chipmunk",
-      "skill": "Forgetting",
+      "skill": "Forgetting stuff",
       "goal": "Translator",
-      "style": "Official"
+      "fear": "Werewolf Hood",
+      "quote": "Promises are like pie crusts - they're made to be broken.",
+      "siblings": "Older twin",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Pecan",

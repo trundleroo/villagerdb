@@ -2,22 +2,15 @@
   "gender": "male",
   "species": "frog",
   "birthday": "8-21",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
       "clothes": "Static Shirt",
-      "song": "To the Edge",
-      "phrase": "grr-ribbit"
+      "song": "To the Edge"
     },
     "af+": {
       "personality": "cranky",
-      "song": "To the Edge",
-      "phrase": "grr-ribbit"
+      "song": "To the Edge"
     },
     "ac": {
       "personality": "cranky",
@@ -27,14 +20,14 @@
     },
     "afe+": {
       "personality": "cranky",
-      "song": "To the Edge",
-      "phrase": "grr-ribbit"
+      "song": "To the Edge"
     },
     "ww": {
       "personality": "cranky",
       "clothes": "Sharp Outfit",
       "song": "To the Edge",
-      "phrase": "grr-ribbit"
+      "phrase": "grr-ribbit",
+      "quote": "I've got my eye on you."
     },
     "cf": {
       "personality": "cranky",
@@ -47,9 +40,19 @@
       "clothes": "Sharp Outfit",
       "song": "To the Edge",
       "phrase": "grr-ribbit",
-      "skill": "Writing Backward",
+      "skill": "Writing Backwards",
       "goal": "Detective",
-      "style": "Historical"
+      "fear": "Mummy Mask",
+      "quote": "Age before beauty.",
+      "siblings": "Second of quadruplets",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Wart Jr.",

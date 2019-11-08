@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "chicken",
   "birthday": "10-10",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "lazy",
@@ -17,7 +12,8 @@
       "personality": "lazy",
       "clothes": "Two-Ball Tee",
       "song": "I Love You",
-      "phrase": "uh-hoo"
+      "phrase": "uh-hoo",
+      "quote": "Bok bok bok?! Just kidding. A huh huh huh!"
     },
     "cf": {
       "personality": "lazy",
@@ -29,7 +25,20 @@
       "personality": "lazy",
       "clothes": "Two-Ball Tee",
       "song": "I Love You",
-      "phrase": "uh-hoo"
+      "phrase": "uh-hoo",
+      "fear": "Skeleton Hood",
+      "quote": "Don't put all your eggs in one basket.",
+      "skill": "Remembering stuff",
+      "goal": "Poet",
+      "siblings": "Youngest quadruplet",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Benedict",

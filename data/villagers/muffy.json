@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "sheep",
   "birthday": "2-14",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "nl": {
       "personality": "uchi",
@@ -15,7 +10,17 @@
       "phrase": "nightshade",
       "skill": "Writing about pickles",
       "goal": "Dermatologist",
-      "style": "Ornate"
+      "fear": "Werewolf Hood",
+      "quote": "There's a black sheep in every family.",
+      "siblings": "Only child",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Muffy",

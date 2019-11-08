@@ -6,14 +6,12 @@
     "af": {
       "personality": "snooty",
       "clothes": "Ribbon Shirt",
-      "song": "K.K. Technopop",
-      "phrase": "bumpkin"
+      "song": "K.K. Technopop"
     },
     "af+": {
       "personality": "snooty",
       "clothes": "Ribbon Shirt",
-      "song": "K.K. Technopop",
-      "phrase": "bumpkin"
+      "song": "K.K. Technopop"
     },
     "ac": {
       "personality": "snooty",
@@ -24,8 +22,7 @@
     "afe+": {
       "personality": "snooty",
       "clothes": "Ribbon Shirt",
-      "song": "K.K. Technopop",
-      "phrase": "bumpkin"
+      "song": "K.K. Technopop"
     }
   },
   "name": "Carmen",

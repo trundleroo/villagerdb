@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "sheep",
   "birthday": "3-28",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af": {
       "personality": "snooty",
       "clothes": "Purple Tie-Dye Tee",
-      "song": "K.K. Swing",
-      "phrase": "daahling"
+      "song": "K.K. Swing"
     },
     "af+": {
       "personality": "snooty",
       "clothes": "Purple Tie-Dye Tee",
-      "song": "K.K. Swing",
-      "phrase": "daahling"
+      "song": "K.K. Swing"
     },
     "ac": {
       "personality": "snooty",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "snooty",
       "clothes": "Purple Tie-Dye Tee",
-      "song": "K.K. Swing",
-      "phrase": "daahling"
+      "song": "K.K. Swing"
     },
     "ww": {
       "personality": "snooty",
       "clothes": "Purple Tie-Dye Tee",
       "song": "K.K. Swing",
-      "phrase": "daahling"
+      "phrase": "daahling",
+      "quote": "I'm so soft that I don't even need a pillow!"
     },
     "cf": {
       "personality": "snooty",
@@ -50,8 +43,18 @@
       "song": "K.K. Swing",
       "phrase": "daahling",
       "skill": "Drawing circles",
-      "goal": "Esthetician",
-      "style": "Ornate"
+      "goal": "Aesthetician",
+      "fear": "Werewolf Hood",
+      "quote": "Don't just follow the flock.",
+      "siblings": "Third of 6 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Baabara",

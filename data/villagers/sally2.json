@@ -2,21 +2,14 @@
   "gender": "female",
   "species": "squirrel",
   "birthday": "6-19",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "A little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "normal",
-      "song": "K.K. Fusion",
-      "phrase": "nutmeg"
+      "song": "K.K. Fusion"
     },
     "af+": {
       "personality": "normal",
-      "song": "K.K. Fusion",
-      "phrase": "nutmeg"
+      "song": "K.K. Fusion"
     },
     "ac": {
       "personality": "normal",
@@ -26,14 +19,14 @@
     },
     "afe+": {
       "personality": "normal",
-      "song": "K.K. Fusion",
-      "phrase": "nutmeg"
+      "song": "K.K. Fusion"
     },
     "ww": {
       "personality": "normal",
       "clothes": "Icy Shirt",
       "song": "K.K. Fusion",
-      "phrase": "nutmeg"
+      "phrase": "nutmeg",
+      "quote": "Just something to remember me by."
     },
     "cf": {
       "personality": "normal",
@@ -48,7 +41,17 @@
       "phrase": "nutmeg",
       "skill": "Blowing bubbles",
       "goal": "Chef",
-      "style": "Official"
+      "fear": "Skeleton Hood",
+      "quote": "Even the smallest acorn may grow into the tallest tree.",
+      "siblings": "Youngest of 6 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Sally",

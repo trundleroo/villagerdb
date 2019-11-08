@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "cat",
   "birthday": "8-13",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
       "clothes": "Fish-Bone Shirt",
-      "song": "To the Edge",
-      "phrase": "me-WOW"
+      "song": "To the Edge"
     },
     "af+": {
       "personality": "peppy",
       "clothes": "Fish-Bone Shirt",
-      "song": "To the Edge",
-      "phrase": "me-WOW"
+      "song": "To the Edge"
     },
     "ac": {
       "personality": "peppy",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "peppy",
       "clothes": "Fish-Bone Shirt",
-      "song": "To the Edge",
-      "phrase": "me-WOW"
+      "song": "To the Edge"
     },
     "ww": {
       "personality": "peppy",
       "clothes": "Bone Shirt",
       "song": "To the Edge",
-      "phrase": "me-WOW"
+      "phrase": "me-WOW",
+      "quote": "This is my new headshot!"
     },
     "cf": {
       "personality": "peppy",
@@ -49,9 +42,19 @@
       "clothes": "Bone Shirt",
       "song": "To the Edge",
       "phrase": "me-WOW",
-      "skill": "Telling Jokes",
-      "goal": "Tennis Player",
-      "style": "Sporty"
+      "skill": "Telling jokes",
+      "goal": "Tennis player",
+      "fear": "Werewolf Hood",
+      "quote": "You can never have too much of a good thing!",
+      "siblings": "Eldest of 9 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Tabby",

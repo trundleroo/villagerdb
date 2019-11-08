@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "rabbit",
   "birthday": "11-3",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
       "clothes": "Zipper Shirt",
-      "song": "K.K. Lullaby",
-      "phrase": "bunyip"
+      "song": "K.K. Lullaby"
     },
     "af+": {
       "personality": "jock",
       "clothes": "Zipper Shirt",
-      "song": "K.K. Lullaby",
-      "phrase": "bunyip"
+      "song": "K.K. Lullaby"
     },
     "ac": {
       "personality": "jock",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "jock",
       "clothes": "Zipper Shirt",
-      "song": "K.K. Lullaby",
-      "phrase": "bunyip"
+      "song": "K.K. Lullaby"
     },
     "ww": {
       "personality": "jock",
       "clothes": "Zipper Shirt",
       "song": "K.K. Lullaby",
-      "phrase": "bunyip"
+      "phrase": "bunyip",
+      "quote": "Snake's number one!"
     },
     "cf": {
       "personality": "jock",
@@ -51,7 +44,17 @@
       "phrase": "bunyip",
       "skill": "Playing jacks",
       "goal": "Soccer player",
-      "style": "Sporty"
+      "fear": "Bug Mask",
+      "quote": "A good ninja is neither seen, nor heard.",
+      "siblings": "Third quadruplet",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Snake",

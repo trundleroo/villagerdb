@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "squirrel",
   "birthday": "7-3",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "No milk",
-    "sugar": "No sugar."
-  },
   "games": {
     "af": {
       "personality": "snooty",
       "clothes": "Peachy Tee",
-      "song": "K.K. Island",
-      "phrase": "nutlet"
+      "song": "K.K. Island"
     },
     "af+": {
       "personality": "snooty",
       "clothes": "Peachy Tee",
-      "song": "K.K. Island",
-      "phrase": "nutlet"
+      "song": "K.K. Island"
     },
     "ac": {
       "personality": "snooty",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "snooty",
       "clothes": "Peachy Tee",
-      "song": "K.K. Island",
-      "phrase": "nutlet"
+      "song": "K.K. Island"
     },
     "ww": {
       "personality": "snooty",
       "clothes": "Peachy Tee",
       "song": "K.K. Island",
-      "phrase": "nutlet"
+      "phrase": "nutlet",
+      "quote": "My tail looks extra fluffy in this picture."
     },
     "cf": {
       "personality": "snooty",
@@ -51,7 +44,17 @@
       "phrase": "nutlet",
       "skill": "Calligraphy",
       "goal": "Doctor",
-      "style": "Official"
+      "fear": "Werewolf Hood",
+      "quote": "Practice makes perfect.",
+      "siblings": "Fourth of 5 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "No milk",
+        "sugar": "No sugar."
+      }
     }
   },
   "name": "Blaire",

@@ -2,20 +2,25 @@
   "gender": "female",
   "species": "kangaroo",
   "birthday": "5-31",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "nl": {
       "personality": "normal",
       "clothes": "Pink Tartan Tee",
       "song": "K.K. Aria",
       "phrase": "pouches",
-      "skill": "Memorizing",
+      "skill": "Memorizing stuff",
       "goal": "Teacher",
-      "style": "Cute"
+      "fear": "Werewolf Hood",
+      "quote": "The road to a friend's house is never long.",
+      "siblings": "Eldest of 4 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Marcie",

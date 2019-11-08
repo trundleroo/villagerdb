@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "mouse",
   "birthday": "12-28",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
       "clothes": "Skull Tee",
-      "song": "K.K. Metal",
-      "phrase": "eeks"
+      "song": "K.K. Metal"
     },
     "af+": {
       "personality": "peppy",
       "clothes": "Skull Tee",
-      "song": "K.K. Metal",
-      "phrase": "eeks"
+      "song": "K.K. Metal"
     },
     "ac": {
       "personality": "peppy",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "peppy",
       "clothes": "Skull Tee",
-      "song": "K.K. Metal",
-      "phrase": "eeks"
+      "song": "K.K. Metal"
     },
     "ww": {
       "personality": "peppy",
       "clothes": "Skull Tee",
       "song": "K.K. Metal",
-      "phrase": "eeks"
+      "phrase": "eeks",
+      "quote": "Would you like my autograph?"
     },
     "cf": {
       "personality": "peppy",
@@ -51,7 +44,17 @@
       "phrase": "eeks",
       "skill": "Staying up late",
       "goal": "Singer",
-      "style": "Rock 'n' roll"
+      "fear": "Monster Mask",
+      "quote": "A head shot is worth a thousand words.",
+      "siblings": "Youngest of 4 sisters",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Bella",

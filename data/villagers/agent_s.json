@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "squirrel",
   "birthday": "7-2",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
       "clothes": "No. 2 Shirt",
-      "song": "DJ K.K.",
-      "phrase": "sidekick"
+      "song": "DJ K.K."
     },
     "af+": {
       "personality": "peppy",
       "clothes": "No. 2 Shirt",
-      "song": "DJ K.K.",
-      "phrase": "sidekick"
+      "song": "DJ K.K."
     },
     "ac": {
       "personality": "peppy",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "peppy",
       "clothes": "No. 2 Shirt",
-      "song": "DJ K.K.",
-      "phrase": "sidekick"
+      "song": "DJ K.K."
     },
     "ww": {
       "personality": "peppy",
       "clothes": "No. 2 Shirt",
       "song": "DJ K.K.",
-      "phrase": "sidekick"
+      "phrase": "sidekick",
+      "quote": "I'm gonna, like, save the world!"
     },
     "cf": {
       "personality": "peppy",
@@ -51,7 +44,17 @@
       "phrase": "sidekick",
       "skill": "Limboing",
       "goal": "Dancer",
-      "style": "Sporty"
+      "fear": "Bug Mask",
+      "quote": "You gotta put the pedal to the metal!",
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Agent S",

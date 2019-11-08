@@ -2,21 +2,14 @@
   "gender": "female",
   "species": "mouse",
   "birthday": "4-13",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Lots of milk",
-    "sugar": "3 spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
-      "song": "K.K. Ragtime",
-      "phrase": "sweetie"
+      "song": "K.K. Ragtime"
     },
     "af+": {
       "personality": "peppy",
-      "song": "K.K. Ragtime",
-      "phrase": "sweetie"
+      "song": "K.K. Ragtime"
     },
     "ac": {
       "personality": "peppy",
@@ -26,8 +19,7 @@
     "afe+": {
       "personality": "peppy",
       "clothes": "Ancient Knit",
-      "song": "K.K. Ragtime",
-      "phrase": "sweetie"
+      "song": "K.K. Ragtime"
     },
     "nl": {
       "personality": "peppy",
@@ -36,7 +28,17 @@
       "phrase": "sweetie",
       "skill": "Home repair",
       "goal": "Judge",
-      "style": "Historical"
+      "fear": "Monster Mask",
+      "quote": "The players may change, but the music stays the same.",
+      "siblings": "Eldest of 7 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "Yellow",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "3 spoonfuls of sugar"
+      }
     }
   },
   "name": "Candi",

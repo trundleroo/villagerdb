@@ -2,17 +2,13 @@
   "gender": "male",
   "species": "monkey",
   "birthday": "12-7",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "ww": {
       "personality": "cranky",
       "clothes": "Blue-Bar Tee",
       "song": "Pondering",
-      "phrase": "g'tang"
+      "phrase": "g'tang",
+      "quote": "What are YOU looking at?!"
     },
     "cf": {
       "personality": "cranky",
@@ -27,7 +23,17 @@
       "phrase": "g'tang",
       "skill": "Yo-yoing",
       "goal": "Detective",
-      "style": "Iconic"
+      "fear": "Skeleton Hood",
+      "quote": "No news is good news.",
+      "siblings": "Second of 5 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Official",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Monty",

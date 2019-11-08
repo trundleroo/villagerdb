@@ -2,21 +2,14 @@
   "gender": "male",
   "species": "pig",
   "birthday": "11-6",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Lots of milk",
-    "sugar": "3 spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
-      "song": "K.K. House",
-      "phrase": "schnort"
+      "song": "K.K. House"
     },
     "af+": {
       "personality": "cranky",
-      "song": "K.K. House",
-      "phrase": "schnort"
+      "song": "K.K. House"
     },
     "ac": {
       "personality": "cranky",
@@ -26,16 +19,26 @@
     "afe+": {
       "personality": "cranky",
       "clothes": "Kafei's Shirt",
-      "song": "K.K. House",
-      "phrase": "schnort"
+      "song": "K.K. House"
     },
     "nl": {
       "personality": "cranky",
       "clothes": "Splendid Shirt",
       "song": "K.K. House",
       "phrase": "schnort",
-      "skill": "Tongue twisters",
-      "goal": "Singer"
+      "skill": "Tonque twisters",
+      "goal": "Singer",
+      "fear": "Ghost Mask",
+      "quote": "Life's short. Eat chocolate.",
+      "siblings": "Second quadruplet",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "Black",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "3 spoonfuls of sugar"
+      }
     }
   },
   "name": "Boris",

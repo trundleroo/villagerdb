@@ -2,16 +2,10 @@
   "gender": "female",
   "species": "cub",
   "birthday": "3-17",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af+": {
       "personality": "peppy",
-      "song": "K.K. Synth",
-      "phrase": "tralala"
+      "song": "K.K. Synth"
     },
     "ac": {
       "personality": "peppy",
@@ -21,8 +15,7 @@
     },
     "afe+": {
       "personality": "peppy",
-      "song": "K.K. Synth",
-      "phrase": "tralala"
+      "song": "K.K. Synth"
     },
     "nl": {
       "personality": "peppy",
@@ -31,7 +24,17 @@
       "phrase": "tralala",
       "skill": "Staying positive",
       "goal": "Marathon runner",
-      "style": "Sporty"
+      "fear": "Mummy Mask",
+      "quote": "Good things come in small packages.",
+      "siblings": "Youngest of 3 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Cheri",

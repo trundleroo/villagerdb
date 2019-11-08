@@ -5,13 +5,11 @@
   "games": {
     "af": {
       "personality": "snooty",
-      "clothes": "Alpine Shirt",
-      "phrase": "lovey"
+      "clothes": "Alpine Shirt"
     },
     "af+": {
       "personality": "snooty",
-      "clothes": "Alpine Shirt",
-      "phrase": "lovey"
+      "clothes": "Alpine Shirt"
     },
     "ac": {
       "personality": "snooty",
@@ -20,8 +18,7 @@
     },
     "afe+": {
       "personality": "snooty",
-      "clothes": "Alpine Shirt",
-      "phrase": "lovey"
+      "clothes": "Alpine Shirt"
     }
   },
   "name": "Tiara",

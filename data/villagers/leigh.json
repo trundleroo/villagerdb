@@ -5,13 +5,11 @@
   "games": {
     "af": {
       "personality": "peppy",
-      "clothes": "Puzzling Shirt",
-      "phrase": "cutie"
+      "clothes": "Puzzling Shirt"
     },
     "af+": {
       "personality": "peppy",
-      "clothes": "Puzzling Shirt",
-      "phrase": "cutie"
+      "clothes": "Puzzling Shirt"
     },
     "ac": {
       "personality": "peppy",
@@ -20,8 +18,7 @@
     },
     "afe+": {
       "personality": "peppy",
-      "clothes": "Puzzling Shirt",
-      "phrase": "cutie"
+      "clothes": "Puzzling Shirt"
     }
   },
   "name": "Leigh",

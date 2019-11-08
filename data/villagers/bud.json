@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "lion",
   "birthday": "8-8",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af+": {
       "personality": "jock",
@@ -20,14 +15,14 @@
     },
     "afe+": {
       "personality": "jock",
-      "song": "K.K. Ska",
-      "phrase": "dood"
+      "song": "K.K. Ska"
     },
     "ww": {
       "personality": "jock",
       "clothes": "Flowery Shirt",
       "song": "K.K. Ska",
-      "phrase": "maaan"
+      "phrase": "maaan",
+      "quote": "You're not living unless you're sweating!"
     },
     "cf": {
       "personality": "jock",
@@ -39,7 +34,20 @@
       "personality": "jock",
       "clothes": "Flowery Shirt",
       "song": "K.K. Ska",
-      "phrase": "maaan"
+      "phrase": "maaan",
+      "fear": "Ghost Mask",
+      "quote": "You're not living unless you're sweating!",
+      "skill": "Rapping",
+      "goal": "Singer",
+      "siblings": "Fourth quintuplet",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Bud",

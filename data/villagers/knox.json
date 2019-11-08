@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "chicken",
   "birthday": "11-23",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "cf": {
       "personality": "cranky",
@@ -21,7 +16,17 @@
       "phrase": "cluckling",
       "skill": "Calculating tips",
       "goal": "Firefighter",
-      "style": "Iconic"
+      "fear": "Mummy Mask",
+      "quote": "A man's coop is his castle.",
+      "siblings": "Eldest triplet",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Knox",

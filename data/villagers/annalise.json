@@ -2,17 +2,11 @@
   "gender": "female",
   "species": "horse",
   "birthday": "12-2",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af+": {
       "personality": "snooty",
       "clothes": "Red Aloha Shirt",
-      "song": "K.K. Sonata",
-      "phrase": "nipper"
+      "song": "K.K. Sonata"
     },
     "ac": {
       "personality": "snooty",
@@ -23,8 +17,7 @@
     "afe+": {
       "personality": "snooty",
       "clothes": "Red Aloha Shirt",
-      "song": "K.K. Sonata",
-      "phrase": "nipper"
+      "song": "K.K. Sonata"
     },
     "nl": {
       "personality": "snooty",
@@ -33,7 +26,17 @@
       "phrase": "nipper",
       "skill": "Brainteasers",
       "goal": "Chef",
-      "style": "Official"
+      "fear": "Mummy Mask",
+      "quote": "Let gossip in one ear and out the other.",
+      "siblings": "Youngest of 3 sisters",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Annalise",

@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "dog",
   "birthday": "8-4",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "lazy",
       "clothes": "Caveman Tank",
-      "song": "Forest Life",
-      "phrase": "yip yip"
+      "song": "Forest Life"
     },
     "af+": {
       "personality": "lazy",
       "clothes": "Caveman Tank",
-      "song": "Forest Life",
-      "phrase": "yip yip"
+      "song": "Forest Life"
     },
     "ac": {
       "personality": "lazy",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "lazy",
       "clothes": "Caveman Tank",
-      "song": "Forest Life",
-      "phrase": "yip yip"
+      "song": "Forest Life"
     },
     "ww": {
       "personality": "lazy",
       "clothes": "Caveman Tank",
       "song": "Forest Life",
-      "phrase": "yip yip"
+      "phrase": "yip yip",
+      "quote": "Thanks for the snacks. Hint hint."
     },
     "cf": {
       "personality": "lazy",
@@ -51,7 +44,17 @@
       "phrase": "yip yip",
       "skill": "Telling jokes",
       "goal": "Explorer",
-      "style": "Historical"
+      "fear": "Mummy Mask",
+      "quote": "A snack a day keeps the vacuum away.",
+      "siblings": "Eldest of 7 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Bones",

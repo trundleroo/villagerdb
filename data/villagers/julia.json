@@ -2,17 +2,11 @@
   "gender": "female",
   "species": "ostrich",
   "birthday": "7-31",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Lots of milk",
-    "sugar": "3 spoonfuls of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "snooty",
       "clothes": "Red Aloha Shirt",
-      "song": "K.K. Sonata",
-      "phrase": "dahling"
+      "song": "K.K. Sonata"
     },
     "nl": {
       "personality": "snooty",
@@ -20,7 +14,18 @@
       "song": "K.K. Sonata",
       "phrase": "dahling",
       "skill": "Computing",
-      "goal": "CEO"
+      "goal": "CEO",
+      "fear": "Mummy Mask",
+      "quote": "Cut once, measure twice... Wait- reverse that.",
+      "siblings": "Youngest triplet",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "Red",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "3 spoonfuls of sugar"
+      }
     }
   },
   "name": "Julia",

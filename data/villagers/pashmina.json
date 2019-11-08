@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "goat",
   "birthday": "12-26",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "uchi",
@@ -15,7 +10,17 @@
       "phrase": "kidders",
       "skill": "Eating frequently",
       "goal": "Pro golfer",
-      "style": "Modern"
+      "fear": "Mummy Mask",
+      "quote": "Before you judge someone, walk a mile in her hooves.",
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Pashmina",

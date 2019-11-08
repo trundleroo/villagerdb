@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "squirrel",
   "birthday": "7-19",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
       "clothes": "Watermelon Tee",
-      "song": "K.K. Technopop",
-      "phrase": "niblet"
+      "song": "K.K. Technopop"
     },
     "af+": {
       "personality": "peppy",
       "clothes": "Watermelon Tee",
-      "song": "K.K. Technopop",
-      "phrase": "niblet"
+      "song": "K.K. Technopop"
     },
     "ac": {
       "personality": "peppy",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "peppy",
       "clothes": "Watermelon Tee",
-      "song": "K.K. Technopop",
-      "phrase": "niblet"
+      "song": "K.K. Technopop"
     },
     "ww": {
       "personality": "peppy",
       "clothes": "Watermelon Tee",
       "song": "K.K. Technopop",
-      "phrase": "niblet"
+      "phrase": "niblet",
+      "quote": "Coming soon to a billboard near you!"
     },
     "cf": {
       "personality": "peppy",
@@ -51,7 +44,17 @@
       "phrase": "niblet",
       "skill": "Juggling",
       "goal": "Journalist",
-      "style": "Cute"
+      "fear": "Bug Mask",
+      "quote": "Appearances are, like, totally deceiving.",
+      "siblings": "Eldest of 9 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Nibbles",

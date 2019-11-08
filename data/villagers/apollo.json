@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "eagle",
   "birthday": "7-4",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
       "clothes": "Zipper Shirt",
-      "song": "K.K. Rock",
-      "phrase": "pah"
+      "song": "K.K. Rock"
     },
     "af+": {
       "personality": "cranky",
       "clothes": "Zipper Shirt",
-      "song": "K.K. Rock",
-      "phrase": "pah"
+      "song": "K.K. Rock"
     },
     "ac": {
       "personality": "cranky",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "cranky",
       "clothes": "Zipper Shirt",
-      "song": "K.K. Rock",
-      "phrase": "pah"
+      "song": "K.K. Rock"
     },
     "ww": {
       "personality": "cranky",
       "clothes": "Zipper Shirt",
       "song": "K.K. Rock",
-      "phrase": "pah"
+      "phrase": "pah",
+      "quote": "I'm not bald! I've just got fine feathers, that's all!"
     },
     "cf": {
       "personality": "cranky",
@@ -51,7 +44,17 @@
       "phrase": "pah",
       "skill": "Staying up late",
       "goal": "Pilot",
-      "style": "Rock 'n' roll"
+      "fear": "Ghost Mask",
+      "quote": "What goes up must come down.",
+      "siblings": "Eldest quintuplet",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Apollo",

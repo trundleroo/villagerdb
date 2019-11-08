@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "bull",
   "birthday": "4-30",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
       "clothes": "Flame Tee",
-      "song": "Senor K.K.",
-      "phrase": "macmoo"
+      "song": "Senor K.K."
     },
     "af+": {
       "personality": "cranky",
       "clothes": "Flame Tee",
-      "song": "Senor K.K.",
-      "phrase": "macmoo"
+      "song": "Senor K.K."
     },
     "ac": {
       "personality": "cranky",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "cranky",
       "clothes": "Flame Tee",
-      "song": "Senor K.K.",
-      "phrase": "macmoo"
+      "song": "Senor K.K."
     },
     "ww": {
       "personality": "cranky",
       "clothes": "Flame Tee",
       "song": "Senor K.K.",
-      "phrase": "macmoo"
+      "phrase": "macmoo",
+      "quote": "Even strong men cry."
     },
     "cf": {
       "personality": "cranky",
@@ -50,8 +43,18 @@
       "song": "Senor K.K.",
       "phrase": "macmoo",
       "skill": "Doing handstands",
-      "goal": "Forest Ranger",
-      "style": "Rock 'n' roll"
+      "goal": "Forest ranger",
+      "fear": "Mummy Mask",
+      "quote": "Even strong men cry.",
+      "siblings": "Second of 5 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Angus",

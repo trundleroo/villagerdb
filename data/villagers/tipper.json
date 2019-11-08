@@ -2,17 +2,13 @@
   "gender": "female",
   "species": "cow",
   "birthday": "8-25",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "ww": {
       "personality": "snooty",
       "clothes": "Rainbow Tee",
       "song": "Soulful K.K.",
-      "phrase": "pushy"
+      "phrase": "pushy",
+      "quote": "I know you'll treasure this forever."
     },
     "cf": {
       "personality": "snooty",
@@ -27,7 +23,17 @@
       "phrase": "pushy",
       "skill": "Staying up late",
       "goal": "Violinist",
-      "style": "Flashy"
+      "fear": "Ghost Mask",
+      "quote": "It takes two to tango.",
+      "siblings": "Third of 6 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Tipper",

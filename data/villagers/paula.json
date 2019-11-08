@@ -2,17 +2,11 @@
   "gender": "female",
   "species": "bear",
   "birthday": "3-22",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "peppy",
       "clothes": "Denim Shirt",
-      "song": "K.K. Dixie",
-      "phrase": "yodelay"
+      "song": "K.K. Dixie"
     },
     "nl": {
       "personality": "uchi",
@@ -21,7 +15,17 @@
       "phrase": "yodelay",
       "skill": "Baton twirling",
       "goal": "Volleyball player",
-      "style": "Flashy"
+      "fear": "Monster Mask",
+      "quote": "Trends always make a comeback.",
+      "siblings": "Eldest of 4 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Paula",

@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "tiger",
   "birthday": "12-13",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "nl": {
       "personality": "peppy",
@@ -14,8 +9,18 @@
       "song": "K.K. House",
       "phrase": "glimmer",
       "skill": "Vaulting",
-      "goal": "Figure Skater",
-      "style": "Modern"
+      "goal": "Figure skater",
+      "fear": "Ghost Mask",
+      "quote": "There is such a thing as love at first sight.",
+      "siblings": "Fifth of 6 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Bianca",

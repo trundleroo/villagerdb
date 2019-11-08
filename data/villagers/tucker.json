@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "elephant",
   "birthday": "9-7",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "lazy",
@@ -14,8 +9,18 @@
       "song": "K.K. Safari",
       "phrase": "fuzzers",
       "skill": "Oversleeping",
-      "goal": "Archeologist",
-      "style": "Iconic"
+      "goal": "Archaeologist",
+      "fear": "Bug Mask",
+      "quote": "Time makes fossils of us all.",
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Tucker",

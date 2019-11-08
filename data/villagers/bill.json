@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "duck",
   "birthday": "2-1",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
       "clothes": "No. 2 Shirt",
-      "song": "King K.K.",
-      "phrase": "quacko"
+      "song": "King K.K."
     },
     "af+": {
       "personality": "jock",
       "clothes": "No. 2 Shirt",
-      "song": "King K.K.",
-      "phrase": "quacko"
+      "song": "King K.K."
     },
     "ac": {
       "personality": "jock",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "jock",
       "clothes": "No. 2 Shirt",
-      "song": "King K.K.",
-      "phrase": "quacko"
+      "song": "King K.K."
     },
     "ww": {
       "personality": "jock",
       "clothes": "No. 2 Shirt",
       "song": "King K.K.",
-      "phrase": "quacko"
+      "phrase": "quacko",
+      "quote": "Even though there's no \"I\" in team, there's no \"everybody\" either!"
     },
     "cf": {
       "personality": "jock",
@@ -51,7 +44,17 @@
       "phrase": "quacko",
       "skill": "Bunting",
       "goal": "Race car driver",
-      "style": "Sporty"
+      "fear": "Werewolf Hood",
+      "quote": "Even though there's no 'I' in team, there is a 'me'!",
+      "siblings": "Second quadruplet",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Bill",

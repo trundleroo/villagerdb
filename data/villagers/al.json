@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "gorilla",
   "birthday": "10-18",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "cf": {
       "personality": "lazy",
@@ -21,7 +16,17 @@
       "phrase": "Ayyeeee",
       "skill": "Jumping rope",
       "goal": "Journalist",
-      "style": "Basic"
+      "fear": "Mummy Mask",
+      "quote": "Life is a buffet - always go back for seconds.",
+      "siblings": "Eldest of 7 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Official",
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Al",

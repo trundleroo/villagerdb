@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "bear",
   "birthday": "7-22",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
       "clothes": "Star Tee",
-      "song": "K.K. Steppe",
-      "phrase": "aiya"
+      "song": "K.K. Steppe"
     },
     "af+": {
       "personality": "cranky",
       "clothes": "Star Tee",
-      "song": "K.K. Steppe",
-      "phrase": "aiya"
+      "song": "K.K. Steppe"
     },
     "ac": {
       "personality": "cranky",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "cranky",
       "clothes": "Star Tee",
-      "song": "K.K. Steppe",
-      "phrase": "aiya"
+      "song": "K.K. Steppe"
     },
     "ww": {
       "personality": "cranky",
       "clothes": "Star Tee",
       "song": "K.K. Steppe",
-      "phrase": "aiya"
+      "phrase": "aiya",
+      "quote": "Remember...I'm always watching you."
     },
     "cf": {
       "personality": "cranky",
@@ -51,7 +44,17 @@
       "phrase": "aiya",
       "skill": "Trivia",
       "goal": "Chef",
-      "style": "Flashy"
+      "fear": "Bug Mask",
+      "quote": "All good things must come to an end.",
+      "siblings": "Fourth quintuplet",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Chow",

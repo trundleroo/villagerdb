@@ -2,21 +2,14 @@
   "gender": "male",
   "species": "cub",
   "birthday": "12-29",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "A little bit of milk",
-    "sugar": "1 spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
-      "song": "K.K. D & B",
-      "phrase": "laddie"
+      "song": "K.K. D & B"
     },
     "af+": {
       "personality": "cranky",
-      "song": "K.K. D & B",
-      "phrase": "laddie"
+      "song": "K.K. D & B"
     },
     "ac": {
       "personality": "cranky",
@@ -26,8 +19,7 @@
     },
     "afe+": {
       "personality": "cranky",
-      "song": "K.K. D & B",
-      "phrase": "laddie"
+      "song": "K.K. D & B"
     },
     "nl": {
       "personality": "cranky",
@@ -35,7 +27,18 @@
       "song": "Pondering",
       "phrase": "laddie",
       "skill": "Brainteasers",
-      "goal": "Teacher"
+      "goal": "Teacher",
+      "fear": "Skeleton Hood",
+      "quote": "More money, more problems.",
+      "siblings": "Second of 5 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "White",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "A little bit of milk",
+        "sugar": "1 spoonful of sugar"
+      }
     }
   },
   "name": "Murphy",

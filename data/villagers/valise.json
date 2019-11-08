@@ -5,13 +5,11 @@
   "games": {
     "af": {
       "personality": "snooty",
-      "clothes": "Rose shirt",
-      "phrase": "tadder"
+      "clothes": "Rose shirt"
     },
     "af+": {
       "personality": "snooty",
-      "clothes": "Rose shirt",
-      "phrase": "tadder"
+      "clothes": "Rose shirt"
     },
     "ac": {
       "personality": "snooty",
@@ -20,8 +18,7 @@
     },
     "afe+": {
       "personality": "snooty",
-      "clothes": "Rose shirt",
-      "phrase": "tadder"
+      "clothes": "Rose shirt"
     }
   },
   "name": "Valise",

@@ -2,11 +2,6 @@
   "gender": "female",
   "species": "elephant",
   "birthday": "11-18",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "nl": {
       "personality": "normal",
@@ -15,7 +10,17 @@
       "phrase": "teacup",
       "skill": "Writing letters",
       "goal": "Dentist",
-      "style": "Cute"
+      "fear": "Skeleton Hood",
+      "quote": "Tea is a cup of life.",
+      "siblings": "Fourth of 6 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Tia",

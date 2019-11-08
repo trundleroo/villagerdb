@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "alligator",
   "birthday": "11-8",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "snooty",
       "clothes": "Leopard Tee",
-      "song": "K.K. Chorale",
-      "phrase": "graaagh"
+      "song": "K.K. Chorale"
     },
     "af+": {
       "personality": "snooty",
       "clothes": "Leopard Tee",
-      "song": "K.K. Chorale",
-      "phrase": "graaagh"
+      "song": "K.K. Chorale"
     },
     "ac": {
       "personality": "snooty",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "snooty",
       "clothes": "Leopard Tee",
-      "song": "K.K. Chorale",
-      "phrase": "graaagh"
+      "song": "K.K. Chorale"
     },
     "ww": {
       "personality": "snooty",
       "clothes": "Leopard Tee",
       "song": "K.K. Chorale",
-      "phrase": "graaagh"
+      "phrase": "graaagh",
+      "quote": "The most important parts of any ensemble are the purse and shoes."
     },
     "cf": {
       "personality": "snooty",
@@ -49,9 +42,19 @@
       "clothes": "Leopard Tee",
       "song": "K.K. Chorale",
       "phrase": "graaagh",
-      "skill": "Yo-Yoing",
+      "skill": "Yo-yoing",
       "goal": "Stylist",
-      "style": "Ornate"
+      "fear": "Ghost Mask",
+      "quote": "Think before you act.",
+      "siblings": "Eldest triplet",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Alli",

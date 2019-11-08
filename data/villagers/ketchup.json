@@ -2,17 +2,11 @@
   "gender": "female",
   "species": "duck",
   "birthday": "7-27",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "a little bit of milk",
-    "sugar": "1 spoonful of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "peppy",
       "clothes": "Flicker Shirt",
-      "song": "Neapolitan",
-      "phrase": "petite"
+      "song": "Neapolitan"
     },
     "nl": {
       "personality": "peppy",
@@ -20,7 +14,18 @@
       "song": "Neapolitan",
       "phrase": "bitty",
       "skill": "Chopping vegetables",
-      "goal": "Singer"
+      "goal": "Singer",
+      "fear": "Werewolf Hood",
+      "quote": "When in doubt, eat a tomato!",
+      "siblings": "Eldest triplet",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "a little bit of milk",
+        "sugar": "1 spoonful of sugar"
+      }
     }
   },
   "name": "Ketchup",

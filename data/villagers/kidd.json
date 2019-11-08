@@ -2,17 +2,11 @@
   "gender": "male",
   "species": "goat",
   "birthday": "6-28",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "The regular amount of milk",
-    "sugar": "Two spoonfuls of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "lazy",
       "clothes": "Blue Aloha Shirt",
-      "song": "Comrade K.K.",
-      "phrase": "wut"
+      "song": "Comrade K.K."
     },
     "nl": {
       "personality": "smug",
@@ -21,7 +15,17 @@
       "phrase": "wut",
       "skill": "Blowing bubbles",
       "goal": "Hair stylist",
-      "style": "Official"
+      "fear": "Monster Mask",
+      "quote": "Be yourself - everyone else is already taken.",
+      "siblings": "Youngest of 3 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
     }
   },
   "name": "Kidd",

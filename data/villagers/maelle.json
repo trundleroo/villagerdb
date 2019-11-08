@@ -2,17 +2,11 @@
   "gender": "female",
   "species": "duck",
   "birthday": "4-8",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "af+": {
       "personality": "snooty",
       "clothes": "Red Aloha Shirt",
-      "song": "Cafe K.K.",
-      "phrase": "duckling"
+      "song": "Cafe K.K."
     },
     "ac": {
       "personality": "snooty",
@@ -23,14 +17,14 @@
     "afe+": {
       "personality": "snooty",
       "clothes": "Red Aloha Shirt",
-      "song": "Cafe K.K.",
-      "phrase": "duckling"
+      "song": "Cafe K.K."
     },
     "ww": {
       "personality": "snooty",
       "clothes": "Heart Tee",
       "song": "Cafe K.K.",
-      "phrase": "duckling"
+      "phrase": "duckling",
+      "quote": "I like long walks on the beach. Alone."
     },
     "cf": {
       "personality": "snooty",
@@ -42,7 +36,20 @@
       "personality": "snooty",
       "clothes": "Heart Tee",
       "song": "Cafe K.K.",
-      "phrase": "duckling"
+      "phrase": "duckling",
+      "fear": "Mummy Mask",
+      "quote": "A wise duck takes care of her bill.",
+      "skill": "Stomping around",
+      "goal": "Makeup artist",
+      "siblings": "Second of 4 sisters",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Maelle",

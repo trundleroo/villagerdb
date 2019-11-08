@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "mouse",
   "birthday": "10-17",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "No milk",
-    "sugar": "No sugar"
-  },
   "games": {
     "af": {
       "personality": "cranky",
       "clothes": "Subdued-Print Tee",
-      "song": "K.K. Folk",
-      "phrase": "squinky"
+      "song": "K.K. Folk"
     },
     "af+": {
       "personality": "cranky",
       "clothes": "Subdued-Print Tee",
-      "song": "K.K. Folk",
-      "phrase": "squinky"
+      "song": "K.K. Folk"
     },
     "ac": {
       "personality": "cranky",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "cranky",
       "clothes": "Subdued-Print Tee",
-      "song": "K.K. Folk",
-      "phrase": "squinky"
+      "song": "K.K. Folk"
     },
     "ww": {
       "personality": "cranky",
       "clothes": "Subdued-Print Tee",
       "song": "K.K. Folk",
-      "phrase": "squinky"
+      "phrase": "squinky",
+      "quote": "Something stinks!"
     },
     "cf": {
       "personality": "cranky",
@@ -51,7 +44,17 @@
       "phrase": "squinky",
       "skill": "Making faces",
       "goal": "Mayor",
-      "style": "Historical"
+      "fear": "Mummy Mask",
+      "quote": "Don’t build a better mousetrap.",
+      "siblings": "Eldest of 7 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Official",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
     }
   },
   "name": "Limberg",

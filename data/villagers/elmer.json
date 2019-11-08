@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "horse",
   "birthday": "10-5",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "lazy",
       "clothes": "Gaudy Sweater",
-      "song": "K.K. Waltz",
-      "phrase": "tenderfoot"
+      "song": "K.K. Waltz"
     },
     "af+": {
       "personality": "lazy",
       "clothes": "Gaudy Sweater",
-      "song": "K.K. Waltz",
-      "phrase": "tenderfoot"
+      "song": "K.K. Waltz"
     },
     "ac": {
       "personality": "lazy",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "lazy",
       "clothes": "Gaudy Sweater",
-      "song": "K.K. Waltz",
-      "phrase": "tenderfoot"
+      "song": "K.K. Waltz"
     },
     "ww": {
       "personality": "lazy",
       "clothes": "Gaudy Sweater",
       "song": "K.K. Waltz",
-      "phrase": "tenderfoot"
+      "phrase": "tenderfoot",
+      "quote": "Got any snacks on you?"
     },
     "cf": {
       "personality": "lazy",
@@ -49,9 +42,19 @@
       "clothes": "Periwinkle Tee",
       "song": "K.K. Waltz",
       "phrase": "tenderfoot",
-      "skill": "Playing old maid",
+      "skill": "Playing Old Maid",
       "goal": "Police officer",
-      "style": "Basic"
+      "fear": "Skeleton Hood",
+      "quote": "The horse doesn't pull the cart, the oats do.",
+      "siblings": "Youngest of 5 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Elmer",

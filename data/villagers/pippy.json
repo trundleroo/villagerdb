@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "rabbit",
   "birthday": "6-14",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "Lots of milk",
-    "sugar": "Three spoonfuls of sugar"
-  },
   "games": {
     "af": {
       "personality": "peppy",
       "clothes": "Ugly shirt",
-      "song": "K.K. Mambo",
-      "phrase": "li'l hare"
+      "song": "K.K. Mambo"
     },
     "af+": {
       "personality": "peppy",
       "clothes": "Ugly shirt",
-      "song": "K.K. Mambo",
-      "phrase": "li'l hare"
+      "song": "K.K. Mambo"
     },
     "ac": {
       "personality": "peppy",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "peppy",
       "clothes": "Ugly shirt",
-      "song": "K.K. Mambo",
-      "phrase": "li'l hare"
+      "song": "K.K. Mambo"
     },
     "ww": {
       "personality": "peppy",
       "clothes": "Mint Gingham Tee",
       "song": "K.K. Mambo",
-      "phrase": "li'l hare"
+      "phrase": "li'l hare",
+      "quote": "HOPPING HOTCAKES!"
     },
     "cf": {
       "personality": "peppy",
@@ -51,7 +44,17 @@
       "phrase": "li'l hare",
       "skill": "Debating",
       "goal": "Superhero",
-      "style": "Basic"
+      "fear": "Monster Mask",
+      "quote": "Fake it till you make it!",
+      "siblings": "Eldest of 9 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
     }
   },
   "name": "Pippy",

@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "frog",
   "birthday": "7-21",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "af": {
       "personality": "lazy",
       "clothes": "Yellow-Bar Tee",
-      "song": "To the Edge",
-      "phrase": "burrup"
+      "song": "To the Edge"
     },
     "af+": {
       "personality": "lazy",
       "clothes": "Yellow-Bar Tee",
-      "song": "To the Edge",
-      "phrase": "burrup"
+      "song": "To the Edge"
     },
     "ac": {
       "personality": "lazy",
@@ -29,8 +22,7 @@
     "afe+": {
       "personality": "lazy",
       "clothes": "Yellow-Bar Tee",
-      "song": "To the Edge",
-      "phrase": "burrup"
+      "song": "To the Edge"
     },
     "cf": {
       "personality": "lazy",
@@ -43,9 +35,19 @@
       "clothes": "Yellow-Bar Tee",
       "song": "To the Edge",
       "phrase": "burrup",
-      "skill": "Playing old maid",
+      "skill": "Playing Old Maid",
       "goal": "Carpenter",
-      "style": "Historical"
+      "fear": "Monster Mask",
+      "quote": "Catch more flies with honey than vinegar.",
+      "siblings": "Eldest of 10 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Official",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Prince",

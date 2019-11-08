@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "dog",
   "birthday": "11-11",
-  "coffee": {
-    "beans": "Blend",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "cf": {
       "personality": "jock",
@@ -21,7 +16,17 @@
       "phrase": "woo woof",
       "skill": "Doing chin-ups",
       "goal": "Boxer",
-      "style": "Sporty"
+      "fear": "Skeleton Hood",
+      "quote": "Sometimes life is rough.",
+      "siblings": "Eldest quadruplet",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Mac",

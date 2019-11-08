@@ -2,17 +2,11 @@
   "gender": "male",
   "species": "eagle",
   "birthday": "7-30",
-  "coffee": {
-    "beans": "Kilimanjaro",
-    "milk": "Just a little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "afe+": {
       "personality": "cranky",
       "clothes": "Blue Aloha Shirt",
-      "song": "K.K. Casbah",
-      "phrase": "crushy"
+      "song": "K.K. Casbah"
     },
     "nl": {
       "personality": "cranky",
@@ -21,7 +15,17 @@
       "phrase": "crushy",
       "skill": "Pretending to sleep",
       "goal": "Teacher",
-      "style": "Rock 'n' roll"
+      "fear": "Ghost Mask",
+      "quote": "Today is the last day of the rest of your life.",
+      "siblings": "Third of 4 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Official",
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Frank",

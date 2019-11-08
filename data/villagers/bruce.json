@@ -2,20 +2,25 @@
   "gender": "male",
   "species": "deer",
   "birthday": "5-26",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "nl": {
       "personality": "cranky",
       "clothes": "After-School Jacket",
       "song": "K.K. Blues",
       "phrase": "gruff",
-      "skill": "Memorizing",
+      "skill": "Memorizing stuff",
       "goal": "Pro golfer",
-      "style": "Rock 'n' roll"
+      "fear": "Bug Mask",
+      "quote": "Nobody's perfect.",
+      "siblings": "Eldest of 3 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Bruce",

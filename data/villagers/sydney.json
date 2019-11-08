@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "koala",
   "birthday": "6-21",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "af": {
       "personality": "normal",
       "clothes": "Big-Dot Tee",
-      "song": "K.K. Country",
-      "phrase": "sunshine"
+      "song": "K.K. Country"
     },
     "af+": {
       "personality": "normal",
       "clothes": "Big-Dot Tee",
-      "song": "K.K. Country",
-      "phrase": "sunshine"
+      "song": "K.K. Country"
     },
     "ac": {
       "personality": "normal",
@@ -29,8 +22,7 @@
     "afe+": {
       "personality": "normal",
       "clothes": "Big-Dot Tee",
-      "song": "K.K. Country",
-      "phrase": "sunshine"
+      "song": "K.K. Country"
     },
     "cf": {
       "personality": "normal",
@@ -45,7 +37,17 @@
       "phrase": "sunshine",
       "skill": "Chopping vegetables",
       "goal": "Translator",
-      "style": "Iconic"
+      "fear": "Mummy Mask",
+      "quote": "Sail wherever the wind takes you.",
+      "siblings": "Youngest of 3 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Sydney",

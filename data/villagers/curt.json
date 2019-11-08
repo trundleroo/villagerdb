@@ -2,11 +2,6 @@
   "gender": "male",
   "species": "bear",
   "birthday": "7-1",
-  "coffee": {
-    "beans": "Mocha",
-    "milk": "None at all",
-    "sugar": "None at all"
-  },
   "games": {
     "afe+": {
       "personality": "cranky",
@@ -17,7 +12,8 @@
       "personality": "cranky",
       "clothes": "MVP Tee",
       "song": "K.K. Jazz",
-      "phrase": "fuzzball"
+      "phrase": "fuzzball",
+      "quote": "I'm watching you!"
     },
     "cf": {
       "personality": "cranky",
@@ -29,7 +25,20 @@
       "personality": "cranky",
       "clothes": "MVP Tee",
       "song": "K.K. Lament",
-      "phrase": "fuzzball"
+      "phrase": "fuzzball",
+      "fear": "Bug Mask",
+      "quote": "A bell saved is a bell earned.",
+      "skill": "Whistling",
+      "goal": "Carpenter",
+      "siblings": "Eldest of 6 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
     }
   },
   "name": "Curt",

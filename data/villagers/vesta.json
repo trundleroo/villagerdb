@@ -2,23 +2,16 @@
   "gender": "female",
   "species": "sheep",
   "birthday": "4-16",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "A little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "normal",
       "clothes": "Fall Plaid Tee",
-      "song": "K.K. Steppe",
-      "phrase": "baaaffo"
+      "song": "K.K. Steppe"
     },
     "af+": {
       "personality": "normal",
       "clothes": "Fall Plaid Tee",
-      "song": "K.K. Steppe",
-      "phrase": "baaaffo"
+      "song": "K.K. Steppe"
     },
     "ac": {
       "personality": "normal",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "normal",
       "clothes": "Fall Plaid Tee",
-      "song": "K.K. Steppe",
-      "phrase": "baaaffo"
+      "song": "K.K. Steppe"
     },
     "ww": {
       "personality": "normal",
       "clothes": "Fall Plaid Tee",
       "song": "K.K. Steppe",
-      "phrase": "baaaffo"
+      "phrase": "baaaffo",
+      "quote": "I'm so lucky to have this wool coat!"
     },
     "cf": {
       "personality": "normal",
@@ -51,7 +44,17 @@
       "phrase": "baaaffo",
       "skill": "Computing",
       "goal": "Archaeologist",
-      "style": "Historical"
+      "fear": "Werewolf Hood",
+      "quote": "No sweater off my back.",
+      "siblings": "Eldest of 7 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Vesta",

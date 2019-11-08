@@ -2,23 +2,16 @@
   "gender": "male",
   "species": "pig",
   "birthday": "7-26",
-  "coffee": {
-    "beans": "Blue Mountain",
-    "milk": "A little bit of milk",
-    "sugar": "One spoonful of sugar"
-  },
   "games": {
     "af": {
       "personality": "jock",
       "clothes": "Green-Bar Tee",
-      "song": "K.K. Reggae",
-      "phrase": "nyoink"
+      "song": "K.K. Reggae"
     },
     "af+": {
       "personality": "jock",
       "clothes": "Green-Bar Tee",
-      "song": "K.K. Reggae",
-      "phrase": "nyoink"
+      "song": "K.K. Reggae"
     },
     "ac": {
       "personality": "jock",
@@ -29,14 +22,14 @@
     "afe+": {
       "personality": "jock",
       "clothes": "Green-Bar Tee",
-      "song": "K.K. Reggae",
-      "phrase": "nyoink"
+      "song": "K.K. Reggae"
     },
     "ww": {
       "personality": "jock",
       "clothes": "Green-Bar Tee",
       "song": "K.K. Reggae",
-      "phrase": "nyoink"
+      "phrase": "nyoink",
+      "quote": "Get fired up!"
     },
     "cf": {
       "personality": "jock",
@@ -51,7 +44,17 @@
       "phrase": "nyoink",
       "skill": "Clearing my plate",
       "goal": "Explorer",
-      "style": "Basic"
+      "fear": "Mummy Mask",
+      "quote": "Get fired up!",
+      "siblings": "Middle triplet",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
     }
   },
   "name": "Curly",
