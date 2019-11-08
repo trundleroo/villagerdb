@@ -58,12 +58,17 @@ async function buildSearchIndex() {
         const data = fs.readFileSync(path.join('data', 'villagers', file), 'utf8');
         const parsed = JSON.parse(data);
 
-        // Get unique phrases.
+        // Get unique phrases and personalities.
         const phrases = [];
+        const personalities = [];
         for (let game in parsed.games) {
             const phrase = parsed.games[game].phrase;
+            const personality = parsed.games[game].personality;
             if (phrase && !phrases.includes(phrase)) {
                 phrases.push(phrase);
+            }
+            if (personality && !personalities.includes(personality)) {
+                personalities.push(personality);
             }
         }
 
@@ -75,7 +80,7 @@ async function buildSearchIndex() {
                 keyword: parsed.name,
                 gender: parsed.gender,
                 species: parsed.species,
-                personality: parsed.personality,
+                personality: personalities,
                 name: parsed.name,
                 phrases: phrases
             }
