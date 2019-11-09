@@ -31,7 +31,8 @@ class Birthdays {
             collection[i] = keyData;
             let villagerData = JSON.parse(collection[i]);
             let birthday = villagerData['birthday'];
-            if(this.compareBirthdays(birthday)) {
+
+            if (typeof birthday === 'string' && this.compareBirthdays(birthday)) {
                 let JsonBirthday = {}
                 JsonBirthday.id = villagerData['id'];
                 JsonBirthday.name = villagerData['name'];
@@ -50,13 +51,17 @@ class Birthdays {
      * @returns {boolean}
      */
     compareBirthdays(birthday) {
+        // Turn the birthday into two ints.
+        const split = birthday.split('-');
+        const birthMonth = parseInt(split[0]);
+        const birthDay = parseInt(split[1]);
+
         // Get today's date in stored format.
         let today = new Date();
-        let mm = String(today.getMonth() + 1);
-        let dd = String(today.getDate());
-        today = mm + '-' + dd;
+        let mm = today.getMonth() + 1;
+        let dd = today.getDate();
 
-        return today == birthday;
+        return birthMonth === mm && birthDay === dd;
     }
 
     /**

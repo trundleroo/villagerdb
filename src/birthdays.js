@@ -2,7 +2,7 @@ const $ = require('jquery');
 import 'slick-carousel';
 
 $(document).ready(function(){
-    $('.birthday-slider').slick({
+    $('#birthday-slider').slick({
         infinite: true,
         arrows: true,
         slidesToShow: 1,
