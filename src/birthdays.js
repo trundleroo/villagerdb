@@ -4,9 +4,11 @@ import 'slick-carousel';
 $(document).ready(function(){
     $('.birthday-slider').slick({
         infinite: true,
-        slidesToShow: 2,
+        arrows: true,
+        slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2
+        autoplaySpeed: 7000,
+        fade: true
     });
 });
