@@ -6,13 +6,29 @@ const lessMiddleware = require('less-middleware');
 const favicon = require('serve-favicon');
 const logger = require('morgan');
 const hbs = require('express-handlebars');
-const staticify = require('staticify')(path.join(process.cwd(), 'public'));
+const staticify = require('staticify');
 
 const indexRouter = require('./routes/index');
 const villagersRouter = require('./routes/villagers');
 const villagerRouter = require('./routes/villager');
 
 const app = express();
+
+// We only use staticify in production. In development, don't use it, and don't
+// render versioned paths, either.
+let getVersionedPath;
+if (app.get('env') === 'production') {
+    getVersionedPath = (path) => {
+        return staticifyConfigured.getVersionedPath(path);
+    }
+
+    const staticifyConfigured = staticify(path.join(process.cwd(), 'public'));
+    app.use(staticifyConfigured.middleware);
+} else {
+    getVersionedPath = (path) => {
+        return path;
+    }
+}
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -22,16 +38,11 @@ const handlebars = hbs.create({
     layoutsDir: __dirname + '/views/layouts/',
     partialsDir: __dirname + '/views/partials/',
     helpers: {
-        getVersionedPath: (path) => {
-            return staticify.getVersionedPath(path);
-        }
+        getVersionedPath: getVersionedPath
     }
 });
 app.engine('hbs', handlebars.engine);
 app.set('view engine', 'hbs');
-
-// Remove versioning from request paths.
-app.use(staticify.middleware);
 
 app.use(logger('dev'));
 app.use(express.json());
