@@ -19,13 +19,8 @@ export default class Loader extends React.Component {
     render() {
         return (
             <div className="loader-overlay">
-                <div className="sk-chase">
-                    <div className="sk-chase-dot"></div>
-                    <div className="sk-chase-dot"></div>
-                    <div className="sk-chase-dot"></div>
-                    <div className="sk-chase-dot"></div>
-                    <div className="sk-chase-dot"></div>
-                    <div className="sk-chase-dot"></div>
+                <div className="loader">
+                    <div className="fas fa-spin fa-spinner"></div>
                 </div>
             </div>
         );
