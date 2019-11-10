@@ -19,17 +19,17 @@ const pageSize = 25;
  * @returns {Promise<void>}
  */
 async function find(collection, es, pageNumber, searchQuery) {
-    const resultSet = {};
+    const result = {};
 
-    // Is it a search? Initialize resultSet and ES body appropriately
+    // Is it a search? Initialize result and ES body appropriately
     let body;
     let query;
     if (searchQuery) {
         // Set up result set for search display
-        resultSet.pageUrlPrefix = '/villagers/search/page/';
-        resultSet.isSearch = true;
-        resultSet.searchQuery = searchQuery;
-        resultSet.searchQueryString = encodeURI(searchQuery);
+        result.pageUrlPrefix = '/villagers/search/page/';
+        result.isSearch = true;
+        result.searchQuery = searchQuery;
+        result.searchQueryString = encodeURI(searchQuery);
 
         // Elastic Search query and body.
         query = {
@@ -86,7 +86,7 @@ async function find(collection, es, pageNumber, searchQuery) {
             },
         };
     } else {
-        resultSet.pageUrlPrefix = '/villagers/page/';
+        result.pageUrlPrefix = '/villagers/page/';
 
         // Elastic Search query and body.
         query = {
@@ -112,29 +112,30 @@ async function find(collection, es, pageNumber, searchQuery) {
     });
 
     // Update page information.
-    computePageProperties(pageNumber, pageSize, totalCount.count, resultSet);
+    computePageProperties(pageNumber, pageSize, totalCount.count, result);
 
-    resultSet.pageTotal = totalCount.count;
-    resultSet.hasResults = (resultSet.pageTotal > 0);
-
-    if (resultSet.hasResults) {
+    if (totalCount.count) {
         // Load all on this page.
         const results = await es.search({
             index: 'villager',
-            from: pageSize * (resultSet.currentPage - 1),
+            from: pageSize * (result.currentPage - 1),
             size: pageSize,
             body: body
         });
 
         // Load the results.
         const keys = results.hits.hits.map(hit => hit._id);
-        resultSet.results = await collection.getByIds(keys);
-        for (let i = 0; i < resultSet.results.length; i++) {
-            resultSet.results[i] = formatUtil.formatVillager(resultSet.results[i]);
+        const rawResults = await collection.getByIds(keys);
+        result.results = [];
+        for (let r of rawResults) {
+            result.results.push({
+                id: r.id,
+                name: r.name
+            });
         }
     }
 
-    return resultSet;
+    return result;
 }
 
 
@@ -172,29 +173,25 @@ function parseQuery(value) {
  * @param pageNumber
  * @param pageSize
  * @param totalCount
- * @param resultSet
+ * @param result
  */
-function computePageProperties(pageNumber, pageSize, totalCount, resultSet) {
+function computePageProperties(pageNumber, pageSize, totalCount, result) {
     // Totals
-    resultSet.totalCount = totalCount;
-    resultSet.totalPages = Math.ceil(totalCount / pageSize);
+    result.totalCount = totalCount;
+    result.totalPages = Math.ceil(totalCount / pageSize);
 
     // Clean up page number.
     if (pageNumber < 1) {
         pageNumber = 1;
-    } else if (pageNumber > resultSet.totalPages) {
-        pageNumber = resultSet.totalPages;
+    } else if (pageNumber > result.totalPages) {
+        pageNumber = result.totalPages;
     }
 
     // Pagination specifics
-    resultSet.currentPage = pageNumber;
-    resultSet.previousPage = (pageNumber <= 1) ? 1 : pageNumber - 1;
-    resultSet.startIndex = (pageSize * (pageNumber - 1) + 1);
-    resultSet.endIndex = (pageSize * pageNumber) > totalCount ? totalCount :
+    result.currentPage = pageNumber;
+    result.startIndex = (pageSize * (pageNumber - 1) + 1);
+    result.endIndex = (pageSize * pageNumber) > totalCount ? totalCount :
         (pageSize * pageNumber);
-    resultSet.nextPage = pageNumber >= resultSet.totalPages ? resultSet.totalPages : pageNumber + 1;
-    resultSet.isFirstPage = (pageNumber == 1);
-    resultSet.isLastPage = (pageNumber === resultSet.totalPages);
 }
 /**
  * Villager list and search entry point.
@@ -204,38 +201,43 @@ function computePageProperties(pageNumber, pageSize, totalCount, resultSet) {
  * @param pageNumber
  * @param searchQuery
  */
-function listVillagers(res, next, pageNumber, searchQuery) {
+function listVillagers(res, next, pageNumber, isAjax, searchQuery) {
     const data = {};
     if (searchQuery) {
         data.pageTitle = 'Search results for ' + searchQuery; // template engine handles HTML escape
     } else {
         data.pageTitle = 'All Villagers - Page ' + pageNumber;
     }
+
     find(res.app.locals.db.villagers, res.app.locals.es, pageNumber, searchQuery)
-        .then((resultSet) => {
-            data.resultSet = resultSet;
-            res.render('villagers', data);
+        .then((result) => {
+            if (isAjax) {
+                res.send(result);
+            } else {
+                data.initialState = JSON.stringify(result);
+                res.render('villagers', data);
+            }
         }).catch(next);
 }
 
 /* GET villagers listing. */
 router.get('/', function (req, res, next) {
-    listVillagers(res, next, 1);
+    listVillagers(res, next, 1, req.query.isAjax === 'true');
 });
 
 /* GET villagers page number */
 router.get('/page/:pageNumber', function (req, res, next) {
-    listVillagers(res, next, parsePositiveInteger(req.params.pageNumber));
+    listVillagers(res, next, parsePositiveInteger(req.params.pageNumber), req.query.isAjax === 'true');
 });
 
 /* GET villagers search */
 router.get('/search', function (req, res, next) {
-    listVillagers(res, next, 1, parseQuery(req.query.q));
+    listVillagers(res, next, 1, req.query.isAjax === 'true', parseQuery(req.query.q));
 });
 
 /* GET villagers search page number */
 router.get('/search/page/:pageNumber', function (req, res, next) {
-    listVillagers(res, next, parsePositiveInteger(req.params.pageNumber), parseQuery(req.query.q));
+    listVillagers(res, next, parsePositiveInteger(req.params.pageNumber), req.query.isAjax === 'true', parseQuery(req.query.q));
 });
 
 module.exports = router;

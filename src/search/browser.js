@@ -16,14 +16,8 @@ class Browser extends React.Component {
     constructor(props) {
         super(props);
 
-        this.state = {
-            currentPage: 1,
-            startIndex: 1,
-            endIndex: 25,
-            totalCount: 475,
-            totalPages: 19,
-            results: []
-        };
+        // Initialize state.
+        this.state = this.props.initialState;
 
         // Bindings
         this.setPage = this.setPage.bind(this);
@@ -42,7 +36,7 @@ class Browser extends React.Component {
                            endIndex={this.state.endIndex}
                            totalCount={this.state.totalCount}
                            totalPages={this.state.totalPages}/>
-                <SearchResults results={this.state.searchResults}/>
+                <SearchResults results={this.state.results}/>
                 <Paginator onPageChange={this.setPage}
                            currentPage={this.state.currentPage}
                            startIndex={this.state.startIndex}
@@ -54,7 +48,6 @@ class Browser extends React.Component {
     }
 
     setPage(pageNumber) {
-        console.log(pageNumber);
         this.setState({
             currentPage: pageNumber
         })
@@ -65,8 +58,7 @@ class Browser extends React.Component {
  * When DOM ready, initialize the browser.
  */
 $(document).ready(function() {
-    const targetElement = document.getElementById('villager-browser');
-    if (targetElement) {
-        ReactDOM.render(<Browser id="browser" />, targetElement);
-    }
+    const targetElement = $('#villager-browser');
+    const initialState = targetElement.data('initial-state');
+    ReactDOM.render(<Browser id="browser" initialState={initialState}/>, targetElement[0]);
 })

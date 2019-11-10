@@ -8,36 +8,4 @@
 
 {{> searchBar resultSet=resultSet placeholder="Find a villager by name or catchphrase" }}
 
-{{#if resultSet.hasResults}}
-    <div class="row">
-        <div class="col-md-3">
-            <form id="filter-form">
-                
-            </form>
-        </div>
-        <div class="col-md-9">
-            {{> pagination resultSet=resultSet }}
-            <ul class="list-unstyled row">
-                {{#each resultSet.results}}
-                    <li class="col-6 col-sm-4 col-md-3">
-                        <div style="padding: 10px 0 10px 0; border: 1px solid #eee; margin: 10px;">
-                            <div class="text-center" style="width: 100px; height: 100px; line-height: 100px; margin: 0 auto;">
-                                <a href="/villager/{{id}}">
-                                    <img src="/images/villagers/medium/{{id}}.png" alt="Picture of {{name}}"
-                                         class="img-responsive align-middle" style="max-width: 100px; max-height: 100px;"/>
-                                </a>
-                            </div>
-                            <div style="width: 100px; margin: 20px auto 0 auto;" class="text-center">
-                                <a href="/villager/{{id}}">{{name}}</a>
-                            </div>
-                        </div>
-                    </li>
-                {{/each}}
-            </ul>
-            {{> pagination resultSet=resultSet }}
-        </div>
-    </div>
-{{else}}
-    <p>There were no results for your search.</p>
-{{/if}}
-
+<div id="villager-browser" data-initial-state="{{initialState}}"></div>
