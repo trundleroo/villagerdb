@@ -28,6 +28,13 @@ class Browser extends React.Component {
      * @returns {*}
      */
     render() {
+        // No results case.
+        if (this.state.results.length === 0) {
+            return (
+                <p>There were no results for your search.</p>
+            );
+        }
+
         return (
             <div id={this.props.id}>
                 <Paginator onPageChange={this.setPage}
@@ -48,9 +55,31 @@ class Browser extends React.Component {
     }
 
     setPage(pageNumber) {
+        // On update, just consume the state.
+        const updateState = (response) => {
+            this.setState(response);
+        };
+
+        // Make AJAX request to get the page.
+        let url = this.state.pageUrlPrefix + pageNumber + '?isAjax=true';
+        if (this.state.isSearch) {
+            url += '&q=' + this.state.searchQueryString
+        }
+        $.ajax({
+            url: url,
+            type: 'GET',
+            dataType: 'json',
+            success: updateState,
+            error: this.onError()
+        });
+
         this.setState({
             currentPage: pageNumber
         })
+    }
+
+    onError() {
+        // TODO
     }
 }
 

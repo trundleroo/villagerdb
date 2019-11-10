@@ -29,7 +29,7 @@ async function find(collection, es, pageNumber, searchQuery) {
         result.pageUrlPrefix = '/villagers/search/page/';
         result.isSearch = true;
         result.searchQuery = searchQuery;
-        result.searchQueryString = encodeURI(searchQuery);
+        result.searchQueryString = encodeURIComponent(searchQuery);
 
         // Elastic Search query and body.
         query = {
@@ -114,7 +114,8 @@ async function find(collection, es, pageNumber, searchQuery) {
     // Update page information.
     computePageProperties(pageNumber, pageSize, totalCount.count, result);
 
-    if (totalCount.count) {
+    result.results = [];
+    if (totalCount.count > 0) {
         // Load all on this page.
         const results = await es.search({
             index: 'villager',
@@ -126,7 +127,6 @@ async function find(collection, es, pageNumber, searchQuery) {
         // Load the results.
         const keys = results.hits.hits.map(hit => hit._id);
         const rawResults = await collection.getByIds(keys);
-        result.results = [];
         for (let r of rawResults) {
             result.results.push({
                 id: r.id,

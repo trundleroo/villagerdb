@@ -16,16 +16,14 @@ export default class SearchResults extends React.Component {
         const list = [];
         for (let result of this.props.results) {
             list.push(
-                <li className="col-6 col-sm-4 col-md-3">
+                <li key={result.id} className="col-6 col-sm-4 col-md-3">
                     <div className="villager-result-container">
                         <div className="villager-result-image">
                             <a href={'/villager/' + result.id}>
                                 <img src={'/images/villagers/medium/' + result.id + '.png'}
                                      alt={'Picture of ' + result.name} className="img-responsive align-middle" />
+                                <p>{result.name}</p>
                             </a>
-                        </div>
-                        <div className="villager-result-link">
-                            <a href={'/villager/' + result.id}>{result.name}</a>
                         </div>
                     </div>
                 </li>
@@ -34,18 +32,12 @@ export default class SearchResults extends React.Component {
 
         return list;
     }
+
     /**
      *
      * @returns {*}
      */
     render() {
-        // No results case.
-        if (this.props.results.length === 0) {
-            return (
-                <p>There were no results for your search.</p>
-            );
-        }
-
         // Build result list.
         return (
             <ul className="list-unstyled row">

@@ -70,13 +70,15 @@ export default class Paginator extends React.Component {
         );
     }
 
-    previousPage() {
+    previousPage(e) {
+        e.preventDefault();
         if (this.props.currentPage > 1) {
             this.props.onPageChange(this.props.currentPage - 1);
         }
     }
 
-    nextPage() {
+    nextPage(e) {
+        e.preventDefault();
         if (this.props.currentPage < this.props.totalPages) {
             this.props.onPageChange(this.props.currentPage + 1);
         }
