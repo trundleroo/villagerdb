@@ -23,6 +23,15 @@ class Browser extends React.Component {
         this.setPage = this.setPage.bind(this);
     }
 
+    componentDidMount() {
+        window.addEventListener('popstate', (event) => {
+            if (event.state) {
+                this.setState(event.state);
+            } else {
+                this.setState(this.props.initialState);
+            }
+        });
+    }
     /**
      *
      * @returns {*}
@@ -57,6 +66,7 @@ class Browser extends React.Component {
     setPage(pageNumber) {
         // On update, just consume the state.
         const updateState = (response) => {
+            history.pushState(response, null, this.buildUrlFromState(response));
             this.setState(response);
         };
 
@@ -80,6 +90,15 @@ class Browser extends React.Component {
 
     onError() {
         // TODO
+    }
+
+    buildUrlFromState(state) {
+        let url = state.pageUrlPrefix + state.currentPage;
+        if (state.isSearch) {
+            url += '?q=' + this.state.searchQueryString
+        }
+
+        return url;
     }
 }
 

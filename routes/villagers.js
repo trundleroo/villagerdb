@@ -1,6 +1,5 @@
 const express = require('express');
 const router = express.Router();
-const formatUtil = require('../db/util/format.js');
 
 /**
  * Number of entities per page on any result page.
