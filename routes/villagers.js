@@ -214,6 +214,7 @@ function listVillagers(res, next, pageNumber, isAjax, searchQuery) {
                 res.send(result);
             } else {
                 data.initialState = JSON.stringify(result);
+                data.result = result;
                 res.render('villagers', data);
             }
         }).catch(next);
