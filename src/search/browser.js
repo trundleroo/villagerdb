@@ -88,7 +88,7 @@ class Browser extends React.Component {
             type: 'GET',
             dataType: 'json',
             success: updateState,
-            error: this.onError()
+            error: this.onError.bind(this)
         });
 
         this.setState({
