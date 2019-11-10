@@ -2,6 +2,8 @@
 
 const fs = require('fs');
 const path = require('path');
+const formatUtil = require('../db/util/format');
+const moment = require('moment');
 const elasticsearch = require('elasticsearch');
 
 function usage() {
@@ -51,6 +53,9 @@ async function buildSearchIndex() {
                 },
                 phrase: {
                     type: 'text'
+                },
+                zodiac: {
+                    type: 'text'
                 }
             }
         }
@@ -61,36 +66,41 @@ async function buildSearchIndex() {
         const data = fs.readFileSync(path.join('data', 'villagers', file), 'utf8');
         const parsed = JSON.parse(data);
 
+        // Build document.
+        const document = {
+            keyword: parsed.name,
+            gender: parsed.gender,
+            species: parsed.species,
+            name: parsed.name,
+        };
+
         // Get unique phrases and personalities.
-        const games = [];
-        const phrases = [];
-        const personalities = [];
+        document.games = [];
+        document.phrase = [];
+        document.personality = [];
         for (let game in parsed.games) {
-            games.push(game);
+            document.games.push(game);
 
             const phrase = parsed.games[game].phrase;
             const personality = parsed.games[game].personality;
-            if (phrase && !phrases.includes(phrase)) {
-                phrases.push(phrase);
+            if (phrase && !document.phrase.includes(phrase)) {
+                document.phrase.push(phrase);
             }
-            if (personality && !personalities.includes(personality)) {
-                personalities.push(personality);
+            if (personality && !document.personality.includes(personality)) {
+                document.personality.push(personality);
             }
+        }
+
+        // Zodiac?
+        if (parsed.birthday) {
+            document.zodiac = formatUtil.getZodiac(moment(parsed.birthday + '-2000', 'MM-DD-YYYY'));
         }
 
         // Create the villager document.
         await es.index({
             index: 'villager',
             id: parsed.id,
-            body: {
-                keyword: parsed.name,
-                gender: parsed.gender,
-                species: parsed.species,
-                personality: personalities,
-                game: games,
-                name: parsed.name,
-                phrase: phrases
-            }
+            body: document
         });
         console.log('Indexed ' + parsed.id);
     }

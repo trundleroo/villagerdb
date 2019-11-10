@@ -58,7 +58,7 @@ module.exports.capFirstLetter = capFirstLetter;
  *
  * @param villager
  */
-module.exports.formatVillager = function(villager) {
+function formatVillager(villager) {
     const result = {};
 
     // Name, gender, species and birthday
@@ -109,6 +109,7 @@ module.exports.formatVillager = function(villager) {
 
     return result;
 }
+module.exports.formatVillager = formatVillager;
 
 /**
  * Get zodiac sign from moment date.
@@ -124,3 +125,4 @@ function getZodiac(date) {
         }
     }
 }
+module.exports.getZodiac = getZodiac;
