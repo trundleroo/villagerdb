@@ -4,6 +4,7 @@ import $ from 'jquery'
 
 import Paginator from './paginator.js';
 import SearchResults from './search-results.js';
+import Loader from './loader.js';
 
 /**
  *
@@ -52,8 +53,17 @@ class Browser extends React.Component {
             );
         }
 
+        // Show loader?
+        let loader = null;
+        if (this.state.isLoading) {
+            loader = (
+                <Loader/>
+            );
+        }
+
         return (
-            <div id={this.props.id}>
+            <div id={this.props.id} className="browser-results-container">
+                {loader}
                 <Paginator onPageChange={this.setPage}
                            currentPage={this.state.currentPage}
                            startIndex={this.state.startIndex}
@@ -73,10 +83,10 @@ class Browser extends React.Component {
 
     setPage(pageNumber) {
         // On update, just consume the state.
-        const updateState = (response) => {
-            $('#loader-overlay').addClass('d-none');
-            history.pushState(response, null, this.buildUrlFromState(response));
-            this.setState(response);
+        const updateState = (state) => {
+            state.isLoading = false;
+            history.pushState(state, null, this.buildUrlFromState(state));
+            this.setState(state);
         };
 
         // Make AJAX request to get the page.
@@ -84,7 +94,10 @@ class Browser extends React.Component {
         if (this.state.isSearch) {
             url += '&q=' + this.state.searchQueryString
         }
-        $('#loader-overlay').removeClass('d-none');
+
+        this.setState({
+            isLoading: true
+        });
         $.ajax({
             url: url,
             type: 'GET',
@@ -92,15 +105,11 @@ class Browser extends React.Component {
             success: updateState,
             error: this.onError.bind(this)
         });
-
-        this.setState({
-            currentPage: pageNumber
-        })
     }
 
     onError() {
-        $('#loader-overlay').addClass('d-none');
         this.setState({
+            isLoading: false,
             error: true
         });
     }
