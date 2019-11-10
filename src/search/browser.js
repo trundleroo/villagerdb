@@ -74,6 +74,7 @@ class Browser extends React.Component {
     setPage(pageNumber) {
         // On update, just consume the state.
         const updateState = (response) => {
+            $('#loader-overlay').addClass('d-none');
             history.pushState(response, null, this.buildUrlFromState(response));
             this.setState(response);
         };
@@ -83,6 +84,7 @@ class Browser extends React.Component {
         if (this.state.isSearch) {
             url += '&q=' + this.state.searchQueryString
         }
+        $('#loader-overlay').removeClass('d-none');
         $.ajax({
             url: url,
             type: 'GET',
@@ -97,6 +99,7 @@ class Browser extends React.Component {
     }
 
     onError() {
+        $('#loader-overlay').addClass('d-none');
         this.setState({
             error: true
         });
