@@ -37,6 +37,14 @@ class Browser extends React.Component {
      * @returns {*}
      */
     render() {
+        // Error case.
+        if (this.state.error) {
+            return (
+                <p className="p-3 mb-2 bg-danger text-white">
+                    We're having some trouble. Try refreshing the page.
+                </p>
+            );
+        }
         // No results case.
         if (this.state.results.length === 0) {
             return (
@@ -89,7 +97,9 @@ class Browser extends React.Component {
     }
 
     onError() {
-        // TODO
+        this.setState({
+            error: true
+        });
     }
 
     buildUrlFromState(state) {
