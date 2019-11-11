@@ -47,6 +47,40 @@ async function find(collection, es, pageNumber, searchQuery) {
     result.appliedFilters = appliedFilters; // TODO compute - remove later
     result.availableFilters = availableFilters;
 
+    // We need aggregations for each query.
+    const aggregations = {
+        gender: {
+            terms: {
+                field: 'gender',
+                size: 2
+            }
+        },
+        personality: {
+            terms: {
+                field: 'personality',
+                size: 50
+            }
+        },
+        species: {
+            terms: {
+                field: 'species',
+                size: 50
+            }
+        },
+        game: {
+            terms: {
+                field: 'games',
+                size: 50
+            }
+        },
+        zodiac: {
+            terms: {
+                field: 'zodiac',
+                size: 50
+            }
+        }
+    };
+
     // Is it a search? Initialize result and ES body appropriately
     let body;
     let query;
@@ -88,28 +122,7 @@ async function find(collection, es, pageNumber, searchQuery) {
                 }
             ],
             query: query,
-            aggregations: {
-                genders: {
-                    terms: {
-                        field: 'gender'
-                    }
-                },
-                personalities: {
-                    terms: {
-                        field: 'personality'
-                    }
-                },
-                species: {
-                    terms: {
-                        field: 'species'
-                    }
-                },
-                games: {
-                    terms: {
-                        field: 'game'
-                    }
-                }
-            },
+            aggregations: aggregations
         };
     } else {
         result.pageUrlPrefix = '/villagers/page/';
@@ -125,7 +138,8 @@ async function find(collection, es, pageNumber, searchQuery) {
                     keyword: "asc"
                 }
             ],
-            query: query
+            query: query,
+            aggregations: aggregations
         }
     }
 

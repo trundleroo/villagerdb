@@ -45,16 +45,16 @@ async function buildSearchIndex() {
                 personality: {
                     type: 'keyword'
                 },
-                game: {
+                games: {
+                    type: 'keyword'
+                },
+                zodiac: {
                     type: 'keyword'
                 },
                 name: {
                     type: 'text'
                 },
                 phrase: {
-                    type: 'text'
-                },
-                zodiac: {
                     type: 'text'
                 }
             }
