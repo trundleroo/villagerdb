@@ -6,7 +6,7 @@ const lessMiddleware = require('less-middleware');
 const favicon = require('serve-favicon');
 const logger = require('morgan');
 const hbs = require('express-handlebars');
-const staticify = require('staticify')(path.join(process.cwd(), 'public'));
+const staticify = require('staticify');
 
 const indexRouter = require('./routes/index');
 const villagersRouter = require('./routes/villagers');
