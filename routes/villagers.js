@@ -24,6 +24,12 @@ async function find(collection, es, pageNumber, searchQuery) {
     let body;
     let query;
     if (searchQuery) {
+        // Disallow queries of length greater than 64
+        if (searchQuery.length > 64) {
+            let e = new Error('Request query too long');
+            e.status = 400;
+            throw e;
+        }
         // Set up result set for search display
         result.pageUrlPrefix = '/villagers/search/page/';
         result.isSearch = true;
