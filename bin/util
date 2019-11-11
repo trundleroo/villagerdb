@@ -1,0 +1,135 @@
+#!/usr/bin/env node
+
+const fs = require('fs');
+const path = require('path');
+const formatUtil = require('../db/util/format');
+const moment = require('moment');
+const elasticsearch = require('elasticsearch');
+
+function usage() {
+    console.error('Usage: bin/util <command>');
+    process.exit(1);
+}
+
+async function deleteSearchIndex() {
+    const es = new elasticsearch.Client();
+
+    // Delete the elasticsearch index
+    return es.indices.delete({
+        index: 'villager'
+    })
+}
+
+async function buildSearchIndex() {
+    const es = new elasticsearch.Client();
+
+    // Create the index.
+    await es.indices.create({
+        index: 'villager'
+    });
+
+    // Define the index mappings properly.
+    await es.indices.putMapping({
+        index: 'villager',
+        body: {
+            properties: {
+                keyword: {
+                    type: 'keyword'
+                },
+                gender: {
+                    type: 'keyword'
+                },
+                species: {
+                    type: 'keyword'
+                },
+                personality: {
+                    type: 'keyword'
+                },
+                game: {
+                    type: 'keyword'
+                },
+                name: {
+                    type: 'text'
+                },
+                phrase: {
+                    type: 'text'
+                },
+                zodiac: {
+                    type: 'text'
+                }
+            }
+        }
+    });
+
+    const files = fs.readdirSync(path.join('data', 'villagers'));
+    for (let file of files) {
+        const data = fs.readFileSync(path.join('data', 'villagers', file), 'utf8');
+        const parsed = JSON.parse(data);
+
+        // Build document.
+        const document = {
+            keyword: parsed.name,
+            gender: parsed.gender,
+            species: parsed.species,
+            name: parsed.name,
+        };
+
+        // Get unique phrases and personalities.
+        document.games = [];
+        document.phrase = [];
+        document.personality = [];
+        for (let game in parsed.games) {
+            document.games.push(game);
+
+            const phrase = parsed.games[game].phrase;
+            const personality = parsed.games[game].personality;
+            if (phrase && !document.phrase.includes(phrase)) {
+                document.phrase.push(phrase);
+            }
+            if (personality && !document.personality.includes(personality)) {
+                document.personality.push(personality);
+            }
+        }
+
+        // Zodiac?
+        if (parsed.birthday) {
+            document.zodiac = formatUtil.getZodiac(moment(parsed.birthday + '-2000', 'MM-DD-YYYY'));
+        }
+
+        // Create the villager document.
+        await es.index({
+            index: 'villager',
+            id: parsed.id,
+            body: document
+        });
+        console.log('Indexed ' + parsed.id);
+    }
+}
+
+if (process.argv.length !== 3) {
+    usage();
+}
+
+const command = process.argv[2];
+if (!command) {
+    usage();
+} else if (command === 'delete-search-index') {
+    deleteSearchIndex()
+        .catch((e) => {
+        }) // doesn't matter that it failed to delete
+        .then(() => {
+            console.log('Deleted villager index.');
+        });
+} else if (command === 'build-search-index') {
+    buildSearchIndex()
+        .then(() => {
+            console.log('Built search index successfully.');
+        })
+        .catch((e) => {
+            console.log('Failed to build search index.');
+            console.error(e);
+        });
+} else {
+    console.error('Valid commands: delete-search-index, build-search-index');
+    process.exit(1);
+}

@@ -48,10 +48,19 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(favicon(path.join(__dirname, 'public', 'images', 'favicon.ico')));
+
+// Do not panic if favicon.ico can't be found.
+try {
+    app.use(favicon(path.join(__dirname, 'public', 'images', 'favicon.ico')));
+} catch (e) {
+    console.log('Warning: favicon middleware reported an error. Skipping.');
+}
+
 app.use(lessMiddleware(path.join(__dirname, 'public'),
     {once: app.get('env') === 'production'}));
 app.use(express.static(path.join(__dirname, 'public')));
+app.use('/webfonts',
+    express.static(path.join(__dirname, 'node_modules', '@fortawesome', 'fontawesome-free', 'webfonts')));
 
 // Do not send X-Powered-By header.
 app.disable('x-powered-by');

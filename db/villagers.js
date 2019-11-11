@@ -20,10 +20,6 @@ class Villagers {
         this._populateRedis(path.join('data', 'villagers'))
             .then(() => {
                 console.log('Villager databases populated.');
-                let birthdays = new Birthdays(this.redisClient);
-                birthdays.storeBirthdays().then(() => {
-                    console.log('Birthdays database populated.');
-                });
             });
     }
 

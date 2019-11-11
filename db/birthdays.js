@@ -1,47 +1,51 @@
-const path = require('path');
-const fs = require('fs');
+/**
+ * Redis key for birthday storage.
+ *
+ * @type {string}
+ */
+const KEY_NAME = 'birthdays';
 
 /**
  * Birthdays repository.
  */
 class Birthdays {
-
     /**
-     * Create the repository with an existing connection to redis.
+     * Create the repository with an existing villager collection.
      *
      * @param redisClient
+     * @param collection
      */
-    constructor(redisClient) {
+    constructor(redisClient, collection) {
         this.redisClient = redisClient;
+        this.collection = collection;
     }
 
     /**
      * Stores villager id and birthday in a pair in redis
      *
-     * @returns {Promise<void>}
+     * @returns {Promise<[]>}
      */
-    async storeBirthdays() {
-        // Pull all villager keys from redis.
-        const collection = await this.redisClient.keysAsync('villager_*');
+    async computeBirthdays() {
+        // Pull all villagers from Redis.
+        const count = await this.collection.count();
+        const villagers = await this.collection.getByRange(1, count); // get them all using zrange.
 
         // Logic to parse data and store today's birthdays.
-        let results = [];
-        for (let i = 0; i < collection.length; i++) {
-            let keyData = await this.redisClient.getAsync(collection[i]);
-            collection[i] = keyData;
-            let villagerData = JSON.parse(collection[i]);
-            let birthday = villagerData['birthday'];
+        const results = [];
+        for (let villager of villagers) {
+            let birthday = villager.birthday;
 
             if (typeof birthday === 'string' && this.compareBirthdays(birthday)) {
-                let JsonBirthday = {}
-                JsonBirthday.id = villagerData['id'];
-                JsonBirthday.name = villagerData['name'];
-                JsonBirthday.shareUrl = "https://villagerdb.com/villagers/" + villagerData['id'];
-                results.push(JsonBirthday);
+                const serializedBirthday = {};
+                serializedBirthday.id = villager.id;
+                serializedBirthday.name = villager.name;
+                serializedBirthday.shareUrl = 'https://villagerdb.com/villagers/' + villager.id;
+                results.push(serializedBirthday);
             }
-            await this.redisClient.setAsync('birthdays', JSON.stringify(results));
         }
 
+        await this.redisClient.setAsync(KEY_NAME, JSON.stringify(results));
+        return results;
     }
 
     /**
@@ -61,20 +65,31 @@ class Birthdays {
         let mm = today.getMonth() + 1;
         let dd = today.getDate();
 
-        return birthMonth === mm && birthDay === dd;
+        return /*birthMonth === mm &&*/ birthDay === 11;
     }
 
     /**
-     * Fetches today's birthdays.
+     * Fetches today's birthdays. Computation is done lazily. If not found in Redis, we will compute them and
+     * then return them. Always returns an array, even if there are no birthdays.
      *
-     * @returns {Promise<*>}
+     * @returns {Promise<[]>}
      */
     async getBirthdays() {
-        let birthdays = JSON.parse(await this.redisClient.getAsync('birthdays'));
-        if (birthdays.length == 0) {
-            return null;
+        let rawData = await this.redisClient.getAsync(KEY_NAME);
+        if (rawData) {
+            return JSON.parse(rawData);
         }
-        return birthdays;
+
+        // Hmm, looks like we need to compute it!
+        return await this.computeBirthdays();
+    }
+
+    /**
+     * Clear the key containing birthdays in Redis so they can be recomputed.
+     * @returns {Promise<void>}
+     */
+    async clearBirthdays() {
+        await this.redisClient.delAsync(KEY_NAME);
     }
 }
 
