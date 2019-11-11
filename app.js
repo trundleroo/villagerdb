@@ -14,6 +14,22 @@ const villagerRouter = require('./routes/villager');
 
 const app = express();
 
+// We only use staticify in production. In development, don't use it, and don't
+// render versioned paths, either.
+let getVersionedPath;
+if (app.get('env') === 'production') {
+    getVersionedPath = (path) => {
+        return staticifyConfigured.getVersionedPath(path);
+    }
+
+    const staticifyConfigured = staticify(path.join(process.cwd(), 'public'));
+    app.use(staticifyConfigured.middleware);
+} else {
+    getVersionedPath = (path) => {
+        return path;
+    }
+}
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 const handlebars = hbs.create({
@@ -22,16 +38,11 @@ const handlebars = hbs.create({
     layoutsDir: __dirname + '/views/layouts/',
     partialsDir: __dirname + '/views/partials/',
     helpers: {
-        getVersionedPath: (path) => {
-            return staticify.getVersionedPath(path);
-        }
+        getVersionedPath: getVersionedPath
     }
 });
 app.engine('hbs', handlebars.engine);
 app.set('view engine', 'hbs');
-
-// Remove versioning from request paths.
-app.use(staticify.middleware);
 
 app.use(logger('dev'));
 app.use(express.json());
@@ -48,6 +59,8 @@ try {
 app.use(lessMiddleware(path.join(__dirname, 'public'),
     {once: app.get('env') === 'production'}));
 app.use(express.static(path.join(__dirname, 'public')));
+app.use('/webfonts',
+    express.static(path.join(__dirname, 'node_modules', '@fortawesome', 'fontawesome-free', 'webfonts')));
 
 // Do not send X-Powered-By header.
 app.disable('x-powered-by');

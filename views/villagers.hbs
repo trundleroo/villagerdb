@@ -1,54 +1,11 @@
 <h1>
-    {{#if resultSet.isSearch}}
-        Search results for '{{resultSet.searchQuery}}'
+    {{#if result.isSearch}}
+        Search results for '{{result.searchQuery}}'
     {{else}}
         All villagers
     {{/if}}
 </h1>
 
-{{> searchBar resultSet=resultSet placeholder="Enter a villager name" }}
+{{> searchBar result=result }}
 
-{{#if resultSet.hasResults}}
-    {{> pagination resultSet=resultSet }}
-    <div class="table-responsive">
-        <table class="table table-striped table-bordered result-set">
-            <thead>
-            <th>Picture</th>
-            <th>Name</th>
-            <th>Gender</th>
-            <th>Species</th>
-            <th>Birthday</th>
-            </thead>
-            <tbody>
-            {{#each resultSet.results}}
-                <tr>
-                    <td class="result-image">
-                        <a href="/villager/{{id}}">
-                            <img src="/images/villagers/thumb/{{id}}.png" alt="Picture of {{name}}"
-                                 class="img-responsive"/>
-                        </a>
-                    </td>
-                    <td>
-                        <a href="/villager/{{id}}">
-                            {{name}}
-                        </a>
-                    </td>
-                    <td>
-                        {{gender}}
-                    </td>
-                    <td>
-                        {{species}}
-                    </td>
-                    <td>
-                        {{birthday}} ({{zodiac}})
-                    </td>
-                </tr>
-            {{/each}}
-            </tbody>
-        </table>
-    </div>
-    {{> pagination resultSet=resultSet }}
-{{else}}
-    <p>There were no results for your search.</p>
-{{/if}}
-
+<div id="villager-browser" data-initial-state="{{initialState}}"></div>

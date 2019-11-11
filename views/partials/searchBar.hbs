@@ -1,10 +1,11 @@
 <form class="form mt-5 mb-5" method="get" action="/villagers/search">
     <div class="input-group">
         <label class="sr-only" for="q">Search for a villager</label>
-        <input type="text" class="form-control" id="q" name="q" placeholder="{{placeholder}}"
-               {{#if resultSet.isSearch}}value="{{resultSet.searchQuery}}"{{/if}}/>
+        <input type="text" class="form-control" maxlength="64" id="q" name="q"
+               placeholder="Name or catchphrase"
+               {{#if result.isSearch}}value="{{result.searchQuery}}"{{/if}}/>
         <span class="input-group-btn">
-            <button class="btn btn-primary" type="submit">Search</button>
+            <button class="btn btn-primary" type="submit" style="border-radius: 0;"><span class="fas fa-search"></span></button>
         </span>
     </div>
 </form>
