@@ -5,6 +5,7 @@ import $ from 'jquery'
 import Paginator from './paginator.js';
 import SearchResults from './search-results.js';
 import Loader from './loader.js';
+import FilterList from './filter-list.js';
 
 /**
  *
@@ -22,6 +23,7 @@ class Browser extends React.Component {
 
         // Bindings
         this.setPage = this.setPage.bind(this);
+        this.setAppliedFilters = this.setAppliedFilters.bind(this);
     }
 
     componentDidMount() {
@@ -64,19 +66,28 @@ class Browser extends React.Component {
         return (
             <div id={this.props.id} className="browser-results-container">
                 {loader}
-                <Paginator onPageChange={this.setPage}
-                           currentPage={this.state.currentPage}
-                           startIndex={this.state.startIndex}
-                           endIndex={this.state.endIndex}
-                           totalCount={this.state.totalCount}
-                           totalPages={this.state.totalPages}/>
-                <SearchResults results={this.state.results}/>
-                <Paginator onPageChange={this.setPage}
-                           currentPage={this.state.currentPage}
-                           startIndex={this.state.startIndex}
-                           endIndex={this.state.endIndex}
-                           totalCount={this.state.totalCount}
-                           totalPages={this.state.totalPages}/>
+                <div className="row">
+                    <div className="col-12 col-md-2">
+                        <FilterList onFilterChange={this.setAppliedFilters}
+                            availableFilters={this.state.availableFilters}
+                            appliedFilters={this.state.appliedFilters} />
+                    </div>
+                    <div className="col-12 col-md-10">
+                        <Paginator onPageChange={this.setPage}
+                                   currentPage={this.state.currentPage}
+                                   startIndex={this.state.startIndex}
+                                   endIndex={this.state.endIndex}
+                                   totalCount={this.state.totalCount}
+                                   totalPages={this.state.totalPages}/>
+                        <SearchResults results={this.state.results}/>
+                        <Paginator onPageChange={this.setPage}
+                                   currentPage={this.state.currentPage}
+                                   startIndex={this.state.startIndex}
+                                   endIndex={this.state.endIndex}
+                                   totalCount={this.state.totalCount}
+                                   totalPages={this.state.totalPages}/>
+                    </div>
+                </div>
             </div>
         );
     }
@@ -105,6 +116,10 @@ class Browser extends React.Component {
             success: updateState,
             error: this.onError.bind(this)
         });
+    }
+
+    setAppliedFilters(filters) {
+        console.log(filters);
     }
 
     onError() {

@@ -8,6 +8,30 @@ const router = express.Router();
  */
 const pageSize = 25;
 
+const appliedFilters = {
+    gender: ['male'],
+    game: ['nl', 'afe+']
+};
+
+const availableFilters = {
+    gender: {
+        name: 'Gender',
+        values: {male: 'Male', female: 'Female'}
+    },
+    game: {
+        name: 'Games',
+        values: {
+            'nl': 'New Leaf',
+            'cf': 'City Folk',
+            'ww': 'Wild World',
+            'afe+': 'Animal Forest e+',
+            'ac': 'Animal Crossing',
+            'af+': 'Animal Forest+',
+            'af': 'Animal Forest'
+        }
+    }
+};
+
 /**
  * Load villagers on a particular page number with a particular search query.
  *
@@ -19,6 +43,9 @@ const pageSize = 25;
  */
 async function find(collection, es, pageNumber, searchQuery) {
     const result = {};
+
+    result.appliedFilters = appliedFilters; // TODO compute - remove later
+    result.availableFilters = availableFilters;
 
     // Is it a search? Initialize result and ES body appropriately
     let body;
