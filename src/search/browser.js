@@ -64,8 +64,7 @@ class Browser extends React.Component {
         }
 
         return (
-            <div id={this.props.id} className="browser-results-container">
-                {loader}
+            <div id={this.props.id}>
                 <div className="row">
                     <div className="col-12 col-md-2">
                         <FilterList onFilterChange={this.setAppliedFilters}
@@ -73,19 +72,22 @@ class Browser extends React.Component {
                             appliedFilters={this.state.appliedFilters} />
                     </div>
                     <div className="col-12 col-md-10">
-                        <Paginator onPageChange={this.setPage}
-                                   currentPage={this.state.currentPage}
-                                   startIndex={this.state.startIndex}
-                                   endIndex={this.state.endIndex}
-                                   totalCount={this.state.totalCount}
-                                   totalPages={this.state.totalPages}/>
-                        <SearchResults results={this.state.results}/>
-                        <Paginator onPageChange={this.setPage}
-                                   currentPage={this.state.currentPage}
-                                   startIndex={this.state.startIndex}
-                                   endIndex={this.state.endIndex}
-                                   totalCount={this.state.totalCount}
-                                   totalPages={this.state.totalPages}/>
+                        <div className="browser-results-container">
+                            {loader}
+                            <Paginator onPageChange={this.setPage}
+                                       currentPage={this.state.currentPage}
+                                       startIndex={this.state.startIndex}
+                                       endIndex={this.state.endIndex}
+                                       totalCount={this.state.totalCount}
+                                       totalPages={this.state.totalPages}/>
+                            <SearchResults results={this.state.results}/>
+                            <Paginator onPageChange={this.setPage}
+                                       currentPage={this.state.currentPage}
+                                       startIndex={this.state.startIndex}
+                                       endIndex={this.state.endIndex}
+                                       totalCount={this.state.totalCount}
+                                       totalPages={this.state.totalPages}/>
+                        </div>
                     </div>
                 </div>
             </div>
