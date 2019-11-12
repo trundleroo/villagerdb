@@ -1,5 +1,6 @@
 const path = require('path');
 const fs = require('fs');
+const Birthdays = require('./birthdays');
 
 /**
  * Villager repository.

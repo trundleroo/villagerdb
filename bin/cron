@@ -1,0 +1,47 @@
+#!/usr/bin/env node
+
+// Requirements.
+const bluebird = require('bluebird');
+const redis = require('redis');
+const cron = require('node-cron');
+
+// Now, start the scheduler.
+scheduleCrons();
+
+/**
+ * Sets up all scheduled crons.
+ */
+function scheduleCrons() {
+    // Clear birthdays every day at midnight.
+    cron.schedule('0 * * * *', () => {
+        clearBirthdays();
+    });
+}
+
+/**
+ * Clears the birthday key in Redis so they get re-computed on next page load.
+ */
+function clearBirthdays() {
+    // Set up redis.
+    const redisClient = bluebird.Promise.promisifyAll(redis.createClient());
+    redisClient.on('connect', () => {
+        console.log('Established redis connection.');
+
+        // Set up some things we know we need.
+        const Birthdays = require('../db/birthdays');
+        const birthdayDb = new Birthdays(redisClient, null); // not computing, just clearing - so don't need collection.
+
+        console.log('Clearing birthdays...');
+        birthdayDb.clearBirthdays()
+            .then(() => {
+                console.log('Cleared birthdays successfully.');
+            })
+            .catch((e) => {
+                console.log('Unexpected exception while clearing birthdays.');
+                console.error(e);
+            });
+
+        // We're done here.
+        redisClient.quit();
+    });
+}
