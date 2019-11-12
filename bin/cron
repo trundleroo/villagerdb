@@ -13,7 +13,7 @@ scheduleCrons();
  */
 function scheduleCrons() {
     // Clear birthdays every day at midnight.
-    cron.schedule('0 0 * * *', () => {
+    cron.schedule('0 * * * *', () => {
         clearBirthdays();
     });
 }
