@@ -65,7 +65,7 @@ class Birthdays {
         let mm = today.getMonth() + 1;
         let dd = today.getDate();
 
-        return /*birthMonth === mm &&*/ birthDay === 11;
+        return birthMonth === mm && birthDay === dd;
     }
 
     /**
