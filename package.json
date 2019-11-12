@@ -34,6 +34,7 @@
     "serve-favicon": "^2.5.0",
     "slick-carousel": "^1.8.1",
     "staticify": "^3.3.4",
+    "underscore": "^1.9.1",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   }
