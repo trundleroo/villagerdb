@@ -3,12 +3,17 @@
 
 // Font Awesome
 @import '../../node_modules/@fortawesome/fontawesome-free/less/fontawesome.less';
-@fa-font-path: '/webfonts';
+@fa-font-path: '/webfonts/fa';
 @import '../../node_modules/@fortawesome/fontawesome-free/less/solid.less';
 
 // Slick Carousel
 @import '../../node_modules/slick-carousel/slick/slick.less';
 @import '../../node_modules/slick-carousel/slick/slick-theme.less';
+@slick-font-path: '/webfonts/slick/';
+.slick-loading .slick-list
+{
+  background: #fff;
+}
 
 // Entity browser
 @import 'browser.less';
@@ -35,7 +40,6 @@ h3, h4, h5, h6 {
 #content {
   margin-top: 2rem;
   padding: 1rem;
-  border: 1px solid #eee;
 }
 
 table.result-set {
@@ -93,8 +97,6 @@ ul.share-buttons img {
       }
     }
   }
-
-  /* Slick styling */
 
   .slick-prev:before, .slick-next:before {
     color: black;
