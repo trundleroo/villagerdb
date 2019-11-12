@@ -277,7 +277,6 @@ router.get('/autocomplete', function (req, res, next) {
                     }
                 }
             }
-            console.log(suggestions);
             res.send(suggestions);
         })
         .catch(next);
