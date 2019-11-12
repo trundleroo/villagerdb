@@ -28,7 +28,7 @@ class Birthdays {
     async computeBirthdays() {
         // Pull all villagers from Redis.
         const count = await this.collection.count();
-        const villagers = await this.collection.getByRange(1, count); // get them all using zrange.
+        const villagers = await this.collection.getByRange(0, count); // get them all using zrange.
 
         // Logic to parse data and store today's birthdays.
         const results = [];
