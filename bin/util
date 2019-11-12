@@ -33,6 +33,9 @@ async function buildSearchIndex() {
         index: 'villager',
         body: {
             properties: {
+                suggest: {
+                    type: 'completion'
+                },
                 keyword: {
                     type: 'keyword'
                 },
@@ -68,6 +71,9 @@ async function buildSearchIndex() {
 
         // Build document.
         const document = {
+            suggest: {
+                input: parsed.name
+            },
             keyword: parsed.name,
             gender: parsed.gender,
             species: parsed.species,
