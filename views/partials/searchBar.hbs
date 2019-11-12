@@ -2,10 +2,12 @@
     <div class="input-group">
         <label class="sr-only" for="q">Search for a villager</label>
         <input type="text" class="form-control" maxlength="64" id="q" name="q"
-               placeholder="Name or catchphrase"
+               placeholder="Name or catchphrase" autoComplete="off" list="qautocomplete"
                {{#if result.isSearch}}value="{{result.searchQuery}}"{{/if}}/>
         <span class="input-group-btn">
             <button class="btn btn-primary" type="submit" style="border-radius: 0;"><span class="fas fa-search"></span></button>
         </span>
+        <datalist id="qautocomplete">
+        </datalist>
     </div>
 </form>

@@ -246,4 +246,42 @@ router.get('/search/page/:pageNumber', function (req, res, next) {
     listVillagers(res, next, parsePositiveInteger(req.params.pageNumber), req.query.isAjax === 'true', parseQuery(req.query.q));
 });
 
+router.get('/autocomplete', function (req, res, next) {
+    // Validate query
+    if (typeof req.query.q !== 'string' || req.query.q.length > 64) {
+        const e = new Error('Invalid request.');
+        e.status = 400; // Bad Request
+        throw e;
+    }
+
+    res.app.locals.es.search({
+        index: 'villager',
+        body: {
+            suggest: {
+                villager: {
+                    prefix: req.query.q,
+                    completion: {
+                        field: 'suggest',
+                        size: 5
+                    }
+                }
+            }
+        }
+    })
+        .then((results) => {
+            const suggestions = [];
+            if (results.suggest && results.suggest.villager) {
+                for (let x of results.suggest.villager) {
+                    for (let y of x.options) {
+                        suggestions.push(y.text);
+                    }
+                }
+            }
+            console.log(suggestions);
+            res.send(suggestions);
+        })
+        .catch(next);
+
+});
+
 module.exports = router;
