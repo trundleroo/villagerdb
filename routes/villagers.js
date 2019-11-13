@@ -190,7 +190,7 @@ function buildAvailableFilters(appliedFilters, aggregations) {
         } else {
             // Only show what the aggregation allows.
             const buckets = aggregations[key].buckets;
-            if (buckets.length > 0) {
+            if (buckets.length > 1) { // no sense in showing 0 or 1 options, right?
                 const bucketKeyValue = {};
                 for (let b of buckets) {
                     bucketKeyValue[b.key] = allFilters[key].values[b.key];
@@ -203,6 +203,7 @@ function buildAvailableFilters(appliedFilters, aggregations) {
             }
         }
     }
+    
     return availableFilters;
 }
 
