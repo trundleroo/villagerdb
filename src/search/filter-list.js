@@ -11,6 +11,7 @@ export default class FilterList extends React.Component {
     constructor(props) {
         super(props);
 
+        // Initial state.
         this.state = {};
         this.state.availableFilters = this.props.availableFilters;
         this.state.appliedFilters = this.props.appliedFilters;
@@ -22,11 +23,44 @@ export default class FilterList extends React.Component {
      */
     render() {
         const filters = [];
+
+        // Show already-applied filters, if any.
+        const alreadyApplied = [];
+        for (let filterId in this.state.appliedFilters) {
+            const values = this.state.appliedFilters[filterId].map((v) => {
+                return this.state.availableFilters[filterId].values[v];
+            });
+            const valuesString = values.sort().join(', ');
+
+            alreadyApplied.push(
+                <li key={filterId}>
+                    <span className="font-weight-bold">
+                        {this.state.availableFilters[filterId].name}
+                    </span>: {valuesString}
+                    <a href="#" className="ml-2" onClick={this.removeFilterClicked.bind(this, filterId)}>
+                        <span className="fas fa-times sr-hidden" style={{color: 'red'}}></span>
+                        <span className="sr-only">Delete filter</span>
+                    </a>
+                </li>
+            )
+        }
+        if (alreadyApplied.length > 0) {
+            filters.push(
+                <div className="mb-3" key="already-applied">
+                    <div className="mb-1 font-weight-bold">Applied Filters</div>
+                    <ul className="list-unstyled">
+                        {alreadyApplied}
+                    </ul>
+                </div>
+            );
+        }
+
+        // Build out the available filters list, and add state information to it.
         let counter = 0; // for unique ID for each form element.
-        for (let filterId of Object.keys(this.state.availableFilters)) {
+        for (let filterId in this.state.availableFilters) {
             let filter = this.state.availableFilters[filterId];
             const valueOptions = [];
-            for (let valueId of Object.keys(filter.values)) {
+            for (let valueId in filter.values) {
                 let label = filter.values[valueId];
                 const isApplied = this.isFilterApplied(filterId, valueId);
                 valueOptions.push((
@@ -81,6 +115,9 @@ export default class FilterList extends React.Component {
         if (appliedFilters[filterId] && appliedFilters[filterId].includes(valueId)) {
             // If already applied, remove it.
             appliedFilters[filterId] = appliedFilters[filterId].filter((v) => { return v !== valueId; });
+            if (appliedFilters[filterId].length === 0) {
+                delete appliedFilters[filterId]; // clean it up!
+            }
         } else {
             // If not applied, add it.
             if (!appliedFilters[filterId]) {
@@ -95,5 +132,19 @@ export default class FilterList extends React.Component {
         });
 
         this.props.onFilterChange(appliedFilters);
+    };
+
+    removeFilter(filterId) {
+        const appliedFilters = this.state.appliedFilters;
+        delete appliedFilters[filterId];
+
+        this.setState({
+            appliedFilters: appliedFilters
+        })
+    };
+
+    removeFilterClicked(filterId, e) {
+        e.preventDefault();
+        this.removeFilter(filterId);
     }
 }
