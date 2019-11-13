@@ -255,18 +255,6 @@ function parsePositiveInteger(value) {
 }
 
 /**
- * Return a search query, trimmed, or undefined if there really isn't a usable one.
- *
- * @param value
- * @returns {string}
- */
-function parseQuery(value) {
-    if (typeof value === 'string' && value.trim().length > 0) {
-        return value.trim();
-    }
-}
-
-/**
  * Do pagination math.
  *
  * @param pageNumber
@@ -294,44 +282,20 @@ function computePageProperties(pageNumber, pageSize, totalCount, result) {
 }
 
 /**
- * Villager list and search entry point.
- *
- * @param res
- * @param next
- * @param pageNumber
-<<<<<<< HEAD
- */
-function listVillagers(res, next, pageNumber) {
-    const data = {};
-    data.pageTitle = 'All Villagers - Page ' + pageNumber;
-    loadVillagers(res.app.locals.db.villagers, pageNumber)
-        .then((resultSet) => {
-            data.resultSet = resultSet;
-            res.app.locals.db.birthdays.getBirthdays()
-                .then((birthdays) => {
-                    data.birthdays = birthdays;
-                    data.shouldDisplayBirthdays = !(birthdays == null);
-                    res.render('villagers', data);
-                }).catch((next));
-        }).catch(next);
-}
-
-/**
  * Search pages entry point.
  *
-=======
->>>>>>> 15b16087810c0a18991c7402381202bed288c766
  * @param searchQuery
  */
-function listVillagers(res, next, pageNumber, isAjax, searchQuery) {
+function listVillagers(res, next, pageNumber, isAjax, params) {
     const data = {};
+    const searchQuery = typeof params.q === 'string' ? params.q.trim() : undefined;
     if (searchQuery) {
         data.pageTitle = 'Search results for ' + searchQuery; // template engine handles HTML escape
     } else {
         data.pageTitle = 'All Villagers - Page ' + pageNumber;
     }
 
-    find(res.app.locals.db.villagers, res.app.locals.es, pageNumber, searchQuery)
+    find(res.app.locals.db.villagers, res.app.locals.es, pageNumber, searchQuery, params)
         .then((result) => {
             if (isAjax) {
                 res.send(result);
@@ -352,23 +316,24 @@ function listVillagers(res, next, pageNumber, isAjax, searchQuery) {
 
 /* GET villagers listing. */
 router.get('/', function (req, res, next) {
-    listVillagers(res, next, 1, req.query.isAjax === 'true');
+    listVillagers(res, next, 1, req.query.isAjax === 'true', req.query);
 });
 
 /* GET villagers page number */
 router.get('/page/:pageNumber', function (req, res, next) {
-    listVillagers(res, next, parsePositiveInteger(req.params.pageNumber), req.query.isAjax === 'true');
+    listVillagers(res, next, parsePositiveInteger(req.params.pageNumber), req.query.isAjax === 'true',
+        req.query);
 });
 
 /* GET villagers search */
-router.get('/search', function (req, res, next) {
+/*router.get('/search', function (req, res, next) {
     listVillagers(res, next, 1, req.query.isAjax === 'true', parseQuery(req.query.q));
-});
+});*'
 
 /* GET villagers search page number */
-router.get('/search/page/:pageNumber', function (req, res, next) {
+/*router.get('/search/page/:pageNumber', function (req, res, next) {
     listVillagers(res, next, parsePositiveInteger(req.params.pageNumber), req.query.isAjax === 'true', parseQuery(req.query.q));
-});
+});*/
 
 router.get('/autocomplete', function (req, res, next) {
     // Validate query
