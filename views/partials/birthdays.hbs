@@ -1,0 +1,25 @@
+{{#if shouldDisplayBirthdays}}
+    <div id="birthday-slider" class="mt-5 mb-5">
+        {{#each birthdays}}
+            <div>
+                <div class="birthday-slide-table">
+                    <div class="birthday-slide-row">
+                        <div class="text-center birthday-slide-col birthday-left">
+                            <p>Happy Birthday, {{name}}!</p>
+                            <div>
+                                <a href="/villager/{{id}}">
+                                    <img src="/images/villagers/medium/{{id}}.png" alt="Picture of {{name}}"
+                                         class="img-responsive" style="max-height: 100px; margin: 0 auto"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="text-center birthday-slide-col birthday-right">
+                            <p>Celebrate with {{name}}! &#x1F389;</p>
+                            {{> socialMedia shareUrl=shareUrl }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+{{/if}}

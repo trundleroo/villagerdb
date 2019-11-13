@@ -56,11 +56,14 @@ try {
     console.log('Warning: favicon middleware reported an error. Skipping.');
 }
 
+// Everything styling related...
 app.use(lessMiddleware(path.join(__dirname, 'public'),
     {once: app.get('env') === 'production'}));
 app.use(express.static(path.join(__dirname, 'public')));
-app.use('/webfonts',
+app.use('/webfonts/fa',
     express.static(path.join(__dirname, 'node_modules', '@fortawesome', 'fontawesome-free', 'webfonts')));
+app.use('/webfonts/slick',
+    express.static(path.join(__dirname, 'node_modules', 'slick-carousel', 'slick', 'fonts')));
 
 // Do not send X-Powered-By header.
 app.disable('x-powered-by');

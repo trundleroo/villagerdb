@@ -292,12 +292,35 @@ function computePageProperties(pageNumber, pageSize, totalCount, result) {
     result.endIndex = (pageSize * pageNumber) > totalCount ? totalCount :
         (pageSize * pageNumber);
 }
+
 /**
  * Villager list and search entry point.
  *
  * @param res
  * @param next
  * @param pageNumber
+<<<<<<< HEAD
+ */
+function listVillagers(res, next, pageNumber) {
+    const data = {};
+    data.pageTitle = 'All Villagers - Page ' + pageNumber;
+    loadVillagers(res.app.locals.db.villagers, pageNumber)
+        .then((resultSet) => {
+            data.resultSet = resultSet;
+            res.app.locals.db.birthdays.getBirthdays()
+                .then((birthdays) => {
+                    data.birthdays = birthdays;
+                    data.shouldDisplayBirthdays = !(birthdays == null);
+                    res.render('villagers', data);
+                }).catch((next));
+        }).catch(next);
+}
+
+/**
+ * Search pages entry point.
+ *
+=======
+>>>>>>> 15b16087810c0a18991c7402381202bed288c766
  * @param searchQuery
  */
 function listVillagers(res, next, pageNumber, isAjax, searchQuery) {
@@ -313,11 +336,18 @@ function listVillagers(res, next, pageNumber, isAjax, searchQuery) {
             if (isAjax) {
                 res.send(result);
             } else {
-                data.initialState = JSON.stringify(result);
-                data.result = result;
-                res.render('villagers', data);
+                res.app.locals.db.birthdays.getBirthdays()
+                    .then((birthdays) => {
+                        data.birthdays = birthdays;
+                        data.shouldDisplayBirthdays = birthdays.length > 0;
+                        data.initialState = JSON.stringify(result);
+                        data.result = result;
+                        res.render('villagers', data);
+                    })
+                    .catch(next);
             }
-        }).catch(next);
+        })
+        .catch(next);
 }
 
 /* GET villagers listing. */
