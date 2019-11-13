@@ -94,19 +94,24 @@ class Browser extends React.Component {
         );
     }
 
-    setPage(pageNumber) {
+    getResults(pageNumber, pageUrlPrefix, appliedFilters, isSearch, searchQueryString) {
         // On update, just consume the state.
         const updateState = (state) => {
             state.isLoading = false;
-            history.pushState(state, null, this.buildUrlFromState(state));
+            let url = this.buildUrlFromState(state.pageUrlPrefix, state.currentPage, state.isSearch,
+                state.searchQueryString, state.appliedFilters);
+            history.pushState(state, null, url);
             this.setState(state);
         };
 
         // Make AJAX request to get the page.
-        let url = this.state.pageUrlPrefix + pageNumber + '?isAjax=true';
-        if (this.state.isSearch) {
-            url += '&q=' + this.state.searchQueryString
+        let url = this.buildUrlFromState(pageUrlPrefix, pageNumber, isSearch, searchQueryString, appliedFilters);
+        if (url.includes('?')) {
+            url += '&isAjax=true';
+        } else {
+            url += '?isAjax=true'
         }
+        console.log('url = ' + url);
 
         this.setState({
             isLoading: true
@@ -120,8 +125,15 @@ class Browser extends React.Component {
         });
     }
 
+    setPage(pageNumber) {
+        this.getResults(pageNumber, this.state.pageUrlPrefix, this.state.appliedFilters, this.state.isSearch,
+            this.state.searchQueryString);
+    }
+
     setAppliedFilters(filters) {
-        console.log(filters);
+        // Changing the filters will always put us back on page 1.
+        this.getResults(1, this.state.pageUrlPrefix, filters, this.state.isSearch,
+            this.state.searchQueryString);
     }
 
     onError() {
@@ -131,10 +143,27 @@ class Browser extends React.Component {
         });
     }
 
-    buildUrlFromState(state) {
-        let url = state.pageUrlPrefix + state.currentPage;
-        if (state.isSearch) {
-            url += '?q=' + this.state.searchQueryString
+    buildUrlFromState(pageUrlPrefix, pageNumber, isSearch, searchQueryString, appliedFilters) {
+        // Build out from applied filters
+        const applied = [];
+        for (let filterId in appliedFilters) {
+            const values = [];
+            for (let value of appliedFilters[filterId]) {
+                values.push(encodeURIComponent(value));
+            }
+            applied.push(filterId + '=' + values.join(','));
+        }
+        const filterQuery = applied.join('&');
+        let url = pageUrlPrefix + pageNumber;
+        if (isSearch) {
+            url += '?q=' + searchQueryString;
+            if (applied.length > 0) {
+                url += '&' + filterQuery;
+            }
+        } else {
+            if (applied.length > 0) {
+                url += '?' + filterQuery;
+            }
         }
 
         return url;
