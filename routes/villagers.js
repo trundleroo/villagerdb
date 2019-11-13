@@ -8,6 +8,11 @@ const router = express.Router();
  */
 const pageSize = 25;
 
+/**
+ * All possible filters
+ *
+ * @type {{}}
+ */
 const allFilters = {
     gender: {
         name: 'Gender',
@@ -23,6 +28,19 @@ const allFilters = {
             'ac': 'Animal Crossing',
             'af+': 'Animal Forest+',
             'af': 'Animal Forest'
+        }
+    },
+    personality: {
+        name: 'Personality',
+        values: {
+            cranky: 'Cranky',
+            jock: 'Jock',
+            lazy: 'Lazy',
+            normal: 'Normal',
+            peppy: 'Peppy',
+            smug: 'Smug',
+            snooty: 'Snooty',
+            uchi: 'Uchi'
         }
     },
     species: {
@@ -64,22 +82,53 @@ const allFilters = {
             tiger: 'Tiger',
             wolf: 'Wolf',
         }
-    },
-    personality: {
-        name: 'Personality',
-        values: {
-            cranky: 'Cranky',
-            jock: 'Jock',
-            lazy: 'Lazy',
-            normal: 'Normal',
-            peppy: 'Peppy',
-            smug: 'Smug',
-            snooty: 'Snooty',
-            uchi: 'Uchi'
-        }
     }
 };
 
+/**
+ * The aggregations we want.
+ *
+ * @type {{}}
+ */
+const aggregations = {
+    gender: {
+        terms: {
+            field: 'gender',
+            size: 2
+        }
+    },
+    personality: {
+        terms: {
+            field: 'personality',
+            size: 50
+        }
+    },
+    species: {
+        terms: {
+            field: 'species',
+            size: 50
+        }
+    },
+    game: {
+        terms: {
+            field: 'game',
+            size: 50
+        }
+    }/*,
+    zodiac: {
+        terms: {
+            field: 'zodiac',
+            size: 50
+        }
+    }*/
+};
+
+/**
+ * Transform URL parameters into applied filters that can be used by the frontend and by the getFacetQuery function
+ * here.
+ *
+ * @param params
+ */
 function getAppliedFilters(params) {
     const appliedFilters = {};
     for (let key in params) {
@@ -96,6 +145,67 @@ function getAppliedFilters(params) {
 
     return appliedFilters;
 }
+
+/**
+ * Get match queries for the applied filters. Returns an empty array if there is nothing to send.
+ *
+ * @param appliedFilters
+ * @returns {[]}
+ */
+function getFacetQuery(appliedFilters) {
+    const outerQueries = [];
+    for (let key in appliedFilters) {
+        const innerQueries = [];
+        for (let value of appliedFilters[key]) {
+            const query = {};
+            query.match = {};
+            query.match[key] = {
+                query: value
+            };
+            innerQueries.push(query);
+        }
+        outerQueries.push({
+            bool: {
+                should: innerQueries
+            }
+        });
+    }
+
+    return outerQueries;
+}
+
+/**
+ * Restricts the available filters to things that won't result in a "no results" response from ElasticSearch.
+ *
+ * @param appliedFilters
+ * @param aggregations
+ */
+function buildAvailableFilters(appliedFilters, aggregations) {
+    const availableFilters = {};
+
+    for (let key in aggregations) {
+        // If this filter is applied, we show all available options.
+        if (appliedFilters[key]) {
+            availableFilters[key] = allFilters[key];
+        } else {
+            // Only show what the aggregation allows.
+            const buckets = aggregations[key].buckets;
+            if (buckets.length > 0) {
+                const bucketKeyValue = {};
+                for (let b of buckets) {
+                    bucketKeyValue[b.key] = allFilters[key].values[b.key];
+                }
+
+                availableFilters[key] = {
+                    name: allFilters[key].name,
+                    values: bucketKeyValue
+                };
+            }
+        }
+    }
+    return availableFilters;
+}
+
 /**
  * Load villagers on a particular page number with a particular search query.
  *
@@ -109,41 +219,9 @@ async function find(collection, es, pageNumber, searchQuery, params) {
     const result = {};
 
     result.appliedFilters = getAppliedFilters(params);
-    result.availableFilters = allFilters;
 
-    // We need aggregations for each query.
-    const aggregations = {
-        gender: {
-            terms: {
-                field: 'gender',
-                size: 2
-            }
-        },
-        personality: {
-            terms: {
-                field: 'personality',
-                size: 50
-            }
-        },
-        species: {
-            terms: {
-                field: 'species',
-                size: 50
-            }
-        },
-        game: {
-            terms: {
-                field: 'games',
-                size: 50
-            }
-        },
-        zodiac: {
-            terms: {
-                field: 'zodiac',
-                size: 50
-            }
-        }
-    };
+    // Build ES query for applied filters, if any.
+    const facetQuery = getFacetQuery(result.appliedFilters);
 
     // Is it a search? Initialize result and ES body appropriately
     let body;
@@ -163,27 +241,48 @@ async function find(collection, es, pageNumber, searchQuery, params) {
         result.searchQueryString = encodeURIComponent(searchQuery);
 
         // Elastic Search query and body.
-        query = {
-            bool: {
-                should: [
-                    {
-                        match: {
-                            name: {
-                                query: searchQuery
-                            }
-                        }
-                    },
-                    {
-                        match: {
-                            phrase: {
-                                query: searchQuery,
-                                fuzziness: 'auto'
-                            }
-                        }
+        const searchStringQuery = [
+            {
+                match: {
+                    name: {
+                        query: searchQuery
                     }
-                ]
+                }
+            },
+            {
+                match: {
+                    phrase: {
+                        query: searchQuery,
+                        fuzziness: 'auto'
+                    }
+                }
             }
-        };
+        ];
+
+        if (facetQuery.length > 0) {
+            query = {
+                bool: {
+                    must: [
+                        {
+                            bool: {
+                                should: searchStringQuery
+                            }
+                        },
+                        {
+                            bool: {
+                                must: facetQuery
+                            }
+                        }
+                    ]
+                }
+            };
+        } else {
+            query = {
+                bool: {
+                    should: searchStringQuery
+                }
+            };
+        }
 
         body =  {
             sort: [
@@ -199,9 +298,17 @@ async function find(collection, es, pageNumber, searchQuery, params) {
         result.pageUrlPrefix = '/villagers/page/';
 
         // Elastic Search query and body.
-        query = {
-            match_all: {}
-        };
+        if (facetQuery.length > 0) {
+            query = {
+                bool: {
+                    must: facetQuery
+                }
+            };
+        } else {
+            query = {
+                match_all: {}
+            };
+        }
 
         body = {
             sort: [
@@ -236,6 +343,8 @@ async function find(collection, es, pageNumber, searchQuery, params) {
         });
 
         // Load the results.
+        result.availableFilters =  buildAvailableFilters(result.appliedFilters, results.aggregations);
+
         const keys = results.hits.hits.map(hit => hit._id);
         const rawResults = await collection.getByIds(keys);
         for (let r of rawResults) {

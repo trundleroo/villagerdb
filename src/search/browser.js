@@ -49,12 +49,6 @@ class Browser extends React.Component {
                 </p>
             );
         }
-        // No results case.
-        if (this.state.results.length === 0) {
-            return (
-                <p>There were no results for your search.</p>
-            );
-        }
 
         // Show loader?
         let loader = null;

@@ -48,7 +48,7 @@ async function buildSearchIndex() {
                 personality: {
                     type: 'keyword'
                 },
-                games: {
+                game: {
                     type: 'keyword'
                 },
                 zodiac: {
@@ -81,11 +81,11 @@ async function buildSearchIndex() {
         };
 
         // Get unique phrases and personalities.
-        document.games = [];
+        document.game = [];
         document.phrase = [];
         document.personality = [];
         for (let game in parsed.games) {
-            document.games.push(game);
+            document.game.push(game);
 
             const phrase = parsed.games[game].phrase;
             const personality = parsed.games[game].personality;
