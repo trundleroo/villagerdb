@@ -8,12 +8,7 @@ const router = express.Router();
  */
 const pageSize = 25;
 
-const appliedFilters = {
-    gender: ['male'],
-    game: ['nl', 'afe+']
-};
-
-const availableFilters = {
+const allFilters = {
     gender: {
         name: 'Gender',
         values: {male: 'Male', female: 'Female'}
@@ -85,6 +80,22 @@ const availableFilters = {
     }
 };
 
+function getAppliedFilters(params) {
+    const appliedFilters = {};
+    for (let key in params) {
+        // Is it a valid filter?
+        if (allFilters[key]) {
+            // Does it have values?
+            const values = params[key].split(',');
+            if (values.length > 0) {
+                // Set them.
+                appliedFilters[key] = values;
+            }
+        }
+    }
+
+    return appliedFilters;
+}
 /**
  * Load villagers on a particular page number with a particular search query.
  *
@@ -94,11 +105,11 @@ const availableFilters = {
  * @param searchQuery
  * @returns {Promise<void>}
  */
-async function find(collection, es, pageNumber, searchQuery) {
+async function find(collection, es, pageNumber, searchQuery, params) {
     const result = {};
 
-    result.appliedFilters = appliedFilters; // TODO compute - remove later
-    result.availableFilters = availableFilters;
+    result.appliedFilters = getAppliedFilters(params);
+    result.availableFilters = allFilters;
 
     // We need aggregations for each query.
     const aggregations = {
@@ -144,6 +155,7 @@ async function find(collection, es, pageNumber, searchQuery) {
             e.status = 400;
             throw e;
         }
+
         // Set up result set for search display
         result.pageUrlPrefix = '/villagers/search/page/';
         result.isSearch = true;

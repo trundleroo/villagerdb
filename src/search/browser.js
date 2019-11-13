@@ -19,7 +19,7 @@ class Browser extends React.Component {
         super(props);
 
         // Initialize state.
-        this.state = this.props.initialState;
+        this.state = JSON.parse(this.props.initialState);
 
         // Bindings
         this.setPage = this.setPage.bind(this);
@@ -29,9 +29,10 @@ class Browser extends React.Component {
     componentDidMount() {
         window.addEventListener('popstate', (event) => {
             if (event.state) {
+                console.log(event.state);
                 this.setState(event.state);
             } else {
-                this.setState(this.props.initialState);
+                this.setState(JSON.parse(this.props.initialState));
             }
         });
     }
@@ -111,7 +112,6 @@ class Browser extends React.Component {
         } else {
             url += '?isAjax=true'
         }
-        console.log('url = ' + url);
 
         this.setState({
             isLoading: true
@@ -175,6 +175,6 @@ class Browser extends React.Component {
  */
 $(document).ready(function() {
     const targetElement = $('#villager-browser');
-    const initialState = targetElement.data('initial-state');
+    const initialState = targetElement.attr('data-initial-state');
     ReactDOM.render(<Browser id="browser" initialState={initialState}/>, targetElement[0]);
 })

@@ -10,11 +10,6 @@ export default class FilterList extends React.Component {
      */
     constructor(props) {
         super(props);
-
-        // Initial state.
-        this.state = {};
-        this.state.availableFilters = this.props.availableFilters;
-        this.state.appliedFilters = this.props.appliedFilters;
     }
 
     /**
@@ -26,16 +21,16 @@ export default class FilterList extends React.Component {
 
         // Show already-applied filters, if any.
         const alreadyApplied = [];
-        for (let filterId in this.state.appliedFilters) {
-            const values = this.state.appliedFilters[filterId].map((v) => {
-                return this.state.availableFilters[filterId].values[v];
+        for (let filterId in this.props.appliedFilters) {
+            const values = this.props.appliedFilters[filterId].map((v) => {
+                return this.props.availableFilters[filterId].values[v];
             });
             const valuesString = values.sort().join(', ');
 
             alreadyApplied.push(
                 <li key={filterId}>
                     <span className="font-weight-bold">
-                        {this.state.availableFilters[filterId].name}
+                        {this.props.availableFilters[filterId].name}
                     </span>: {valuesString}
                     <a href="#" className="ml-2" onClick={this.removeFilterClicked.bind(this, filterId)}>
                         <span className="fas fa-times sr-hidden" style={{color: 'red'}}></span>
@@ -57,8 +52,8 @@ export default class FilterList extends React.Component {
 
         // Build out the available filters list, and add state information to it.
         let counter = 0; // for unique ID for each form element.
-        for (let filterId in this.state.availableFilters) {
-            let filter = this.state.availableFilters[filterId];
+        for (let filterId in this.props.availableFilters) {
+            let filter = this.props.availableFilters[filterId];
             const valueOptions = [];
             for (let valueId in filter.values) {
                 let label = filter.values[valueId];
@@ -93,9 +88,9 @@ export default class FilterList extends React.Component {
      * @returns {*|boolean|boolean}
      */
     isFilterApplied(filterId, valueId) {
-        if (this.state.appliedFilters) {
-            if (this.state.appliedFilters[filterId]) {
-                return this.state.appliedFilters[filterId].includes(valueId);
+        if (this.props.appliedFilters) {
+            if (this.props.appliedFilters[filterId]) {
+                return this.props.appliedFilters[filterId].includes(valueId);
             }
         }
 
@@ -110,7 +105,7 @@ export default class FilterList extends React.Component {
      * @param e
      */
     toggleFilterValue(filterId, valueId, e) {
-        const appliedFilters = this.state.appliedFilters;
+        const appliedFilters = this.props.appliedFilters;
 
         if (appliedFilters[filterId] && appliedFilters[filterId].includes(valueId)) {
             // If already applied, remove it.
@@ -127,20 +122,14 @@ export default class FilterList extends React.Component {
             appliedFilters[filterId].push(valueId);
         }
 
-        this.setState({
-            appliedFilters: appliedFilters
-        });
-
         this.props.onFilterChange(appliedFilters);
     };
 
     removeFilter(filterId) {
-        const appliedFilters = this.state.appliedFilters;
+        const appliedFilters = this.props.appliedFilters;
         delete appliedFilters[filterId];
 
-        this.setState({
-            appliedFilters: appliedFilters
-        })
+        this.props.onFilterChange(appliedFilters);
     };
 
     removeFilterClicked(filterId, e) {
