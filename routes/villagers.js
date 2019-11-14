@@ -150,13 +150,57 @@ function getAppliedFilters(params) {
     return appliedFilters;
 }
 
+function getAggregations(appliedFilters) {
+    const aggs = {};
+    const addedAggs = {};
+
+    // First, add in ones that recursively go deeper.
+    let lastAgg = undefined;
+    for (let key in appliedFilters) {
+        addedAggs[key] = true;
+        if (!lastAgg) {
+            aggs[key] = {
+                terms: {
+                    field: aggregations[key].terms.field,
+                    size: aggregations[key].terms.size
+                }
+            };
+            lastAgg = aggs[key];
+        } else {
+            lastAgg.aggregations = {};
+            lastAgg.aggregations[key] = {
+                terms: {
+                    field: aggregations[key].terms.field,
+                    size: aggregations[key].terms.size
+                }
+            };
+            lastAgg = lastAgg.aggregations[key];
+        }
+    }
+
+    // Any that are in the global 'aggregations' object need to be put in.
+    if (!lastAgg) {
+        lastAgg = aggs;
+    }
+    for (let key in aggregations) {
+        if (!addedAggs[key]) {
+            if (!lastAgg.aggregations) {
+                lastAgg.aggregations = {};
+            }
+            lastAgg.aggregations[key] = aggregations[key];
+        }
+    }
+
+    return aggregations;
+}
+
 /**
  * Get match queries for the applied filters. Returns an empty array if there is nothing to send.
  *
  * @param appliedFilters
  * @returns {[]}
  */
-function getFacetQuery(appliedFilters) {
+function getFacetQueries(appliedFilters) {
     const outerQueries = [];
     for (let key in appliedFilters) {
         const innerQueries = [];
@@ -189,6 +233,11 @@ function buildAvailableFilters(appliedFilters, aggregations, globalFilters) {
 
     // Sort aggregations so that they maintain their order.
     const sortedAggregations = Object.keys(aggregations)
+        .map((a) => {
+            // We need the child here, not the parent.
+            const split = a.split('_');
+            return split[0];
+        })
         .filter((a) => {
             return typeof globalFilters[a] !== 'undefined';
         })
@@ -198,31 +247,27 @@ function buildAvailableFilters(appliedFilters, aggregations, globalFilters) {
 
     // Find out what filters we can show as available.
     for (let key of sortedAggregations) {
+        const agg = aggregations[key + '_filter'][key];
         // Skip entirely empty buckets.
-        if (aggregations[key].buckets.length > 0) {
-            // If this filter is applied, we show all available options.
-            if (appliedFilters[key]) {
-                availableFilters[key] = globalFilters[key];
-            } else {
-                // Only show what the aggregation allows.
-                const buckets = aggregations[key].buckets
-                    .map((b) => {
-                        return b.key;
-                    });
+        if (agg.buckets.length > 0) {
+            // Only show what the aggregation allows.
+            const buckets = agg.buckets
+                .map((b) => {
+                    return b.key;
+                });
 
-                const bucketKeyValue = {};
-                for (let b of Object.keys(globalFilters[key].values)) {
-                    if (buckets.includes(b)) {
-                        bucketKeyValue[b] = globalFilters[key].values[b];
-                    }
+            const bucketKeyValue = {};
+            for (let b of Object.keys(globalFilters[key].values)) {
+                if (buckets.includes(b)) {
+                    bucketKeyValue[b] = globalFilters[key].values[b];
                 }
-
-                // Add it as an available filter, finally.
-                availableFilters[key] = {
-                    name: globalFilters[key].name,
-                    values: bucketKeyValue
-                };
             }
+
+            // Add it as an available filter, finally.
+            availableFilters[key] = {
+                name: globalFilters[key].name,
+                values: bucketKeyValue
+            };
         }
     }
 
@@ -245,13 +290,72 @@ async function find(collection, es, pageNumber, searchQuery, params) {
     result.appliedFilters = getAppliedFilters(params);
 
     // Build ES query for applied filters, if any.
-    const facetQuery = getFacetQuery(result.appliedFilters);
+    const facetQuery = getFacetQueries(result.appliedFilters);
 
     // Is it a search? Initialize result and ES body appropriately
-    let bodyWithoutFacets;
-    let bodyWithFacets;
-    let queryWithoutFacets;
-    let queryWithFacets;
+    const aggs = {
+            all_villagers: {
+                global: {},
+                aggregations: {
+                    gender_filter: {
+                        filter: {
+                            match_all: {}
+                        },
+                        aggregations: {
+                            gender: {
+                                terms: {
+                                    field: 'gender',
+                                    size: 2
+                                }
+                            }
+                        }
+                    },
+                    game_filter: {
+                        filter: {
+                            match_all: {}
+                        },
+                        aggregations: {
+                            game: {
+                                terms: {
+                                    field: 'game',
+                                    size: 50
+                                }
+                            }
+                        }
+                    },
+                    personality_filter: {
+                        filter: {
+                            match_all: {}
+                        },
+                        aggregations: {
+                            personality: {
+                                terms: {
+                                    field: 'personality',
+                                    size: 50
+                                }
+                            }
+                        }
+                    },
+                    species_filter: {
+                        filter: {
+                            match_all: {}
+                        },
+                        aggregations: {
+                            species: {
+                                terms: {
+                                    field: 'species',
+                                    size: 50
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+    };
+
+    //getAggregations(result.appliedFilters);
+    let body;
+    let query;
     if (searchQuery) {
         // Disallow queries of length greater than 64
         if (searchQuery.length > 64) {
@@ -284,13 +388,8 @@ async function find(collection, es, pageNumber, searchQuery, params) {
             }
         ];
 
-        queryWithoutFacets = {
-            bool: {
-                should: searchStringQuery
-            }
-        };
         if (facetQuery.length > 0) {
-            queryWithFacets = {
+            query = {
                 bool: {
                     must: [
                         {
@@ -307,61 +406,45 @@ async function find(collection, es, pageNumber, searchQuery, params) {
                 }
             };
         } else {
-            queryWithFacets = queryWithoutFacets;
+            query = {
+                bool: {
+                    should: searchStringQuery
+                }
+            };
         }
 
-        bodyWithFacets =  {
+        body =  {
             sort: [
                 "_score",
                 {
                     keyword: "asc"
                 }
             ],
-            query: queryWithFacets,
-            aggregations: aggregations
-        };
-        bodyWithoutFacets =  {
-            sort: [
-                "_score",
-                {
-                    keyword: "asc"
-                }
-            ],
-            query: queryWithoutFacets,
-            aggregations: aggregations
+            query: query,
+            aggregations: aggs
         };
     } else {
         // Elastic Search query and body.
-        queryWithoutFacets = {
-            match_all: {}
-        };
         if (facetQuery.length > 0) {
-            queryWithFacets = {
+            query = {
                 bool: {
                     must: facetQuery
                 }
             };
         } else {
-            queryWithFacets = queryWithoutFacets;
+            query = {
+                match_all: {}
+            };
         }
 
-        bodyWithFacets = {
+        body = {
             sort: [
                 {
                     keyword: "asc"
                 }
             ],
-            query: queryWithFacets,
-            aggregations: aggregations
-        };
-        bodyWithoutFacets = {
-            sort: [
-                {
-                    keyword: "asc"
-                }
-            ],
-            query: queryWithoutFacets,
-            aggregations: aggregations
+            query: query,
+            aggregations: aggs
         };
     }
 
@@ -369,7 +452,7 @@ async function find(collection, es, pageNumber, searchQuery, params) {
     const totalCount = await es.count({
         index: 'villager',
         body: {
-            query: queryWithFacets
+            query: query
         }
     });
 
@@ -383,45 +466,11 @@ async function find(collection, es, pageNumber, searchQuery, params) {
             index: 'villager',
             from: pageSize * (result.currentPage - 1),
             size: pageSize,
-            body: bodyWithFacets
+            body: body
         });
 
-        // Prepare the filters. If we are performing a search query (text), then we need to get aggregations of the
-        // total set with that query string for all available filters. Otherwise, we can just use the known allFilters.
-        let globalFilters = allFilters;
-        if (searchQuery) {
-            const globalResults = await es.search({
-                index: 'villager',
-                from: pageSize * (result.currentPage - 1),
-                size: pageSize,
-                body: bodyWithoutFacets
-            });
-
-            globalFilters = {};
-            for (let key in allFilters) {
-                if (globalResults.aggregations[key].buckets.length > 0) {
-                    let filter = allFilters[key];
-                    globalFilters[key] = {
-                        name: filter.name,
-                        values: {},
-                        sort: filter.sort
-                    };
-
-                    const buckets = globalResults.aggregations[key].buckets
-                        .map((b) => {
-                            return b.key;
-                        });
-                    for (let value in filter.values) {
-                        if (buckets.includes(value)) {
-                            globalFilters[key].values[value] = allFilters[key].values[value];
-                        }
-                    }
-                }
-            }
-        }
-
-        result.availableFilters =  buildAvailableFilters(result.appliedFilters, results.aggregations,
-            globalFilters);
+        result.availableFilters =  buildAvailableFilters(result.appliedFilters, results.aggregations.all_villagers,
+            allFilters);
 
         // Load the results.
         const keys = results.hits.hits.map(hit => hit._id);
