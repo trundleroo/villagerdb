@@ -90,11 +90,11 @@ const allFilters = {
 };
 
 /**
- * The aggregations we want.
+ * The definitions of our aggregations.
  *
  * @type {{}}
  */
-const aggregations = {
+const aggDefinitions = {
     gender: {
         terms: {
             field: 'gender',
@@ -150,50 +150,6 @@ function getAppliedFilters(params) {
     return appliedFilters;
 }
 
-function getAggregations(appliedFilters) {
-    const aggs = {};
-    const addedAggs = {};
-
-    // First, add in ones that recursively go deeper.
-    let lastAgg = undefined;
-    for (let key in appliedFilters) {
-        addedAggs[key] = true;
-        if (!lastAgg) {
-            aggs[key] = {
-                terms: {
-                    field: aggregations[key].terms.field,
-                    size: aggregations[key].terms.size
-                }
-            };
-            lastAgg = aggs[key];
-        } else {
-            lastAgg.aggregations = {};
-            lastAgg.aggregations[key] = {
-                terms: {
-                    field: aggregations[key].terms.field,
-                    size: aggregations[key].terms.size
-                }
-            };
-            lastAgg = lastAgg.aggregations[key];
-        }
-    }
-
-    // Any that are in the global 'aggregations' object need to be put in.
-    if (!lastAgg) {
-        lastAgg = aggs;
-    }
-    for (let key in aggregations) {
-        if (!addedAggs[key]) {
-            if (!lastAgg.aggregations) {
-                lastAgg.aggregations = {};
-            }
-            lastAgg.aggregations[key] = aggregations[key];
-        }
-    }
-
-    return aggregations;
-}
-
 /**
  * Get match queries for the applied filters. Returns an empty array if there is nothing to send.
  *
@@ -201,8 +157,9 @@ function getAggregations(appliedFilters) {
  * @returns {[]}
  */
 function getFacetQueries(appliedFilters) {
-    const outerQueries = [];
+    const outerQueries = {};
     for (let key in appliedFilters) {
+        outerQueries[key] = [];
         const innerQueries = [];
         for (let value of appliedFilters[key]) {
             const query = {};
@@ -212,7 +169,7 @@ function getFacetQueries(appliedFilters) {
             };
             innerQueries.push(query);
         }
-        outerQueries.push({
+        outerQueries[key].push({
             bool: {
                 should: innerQueries
             }
@@ -220,6 +177,101 @@ function getFacetQueries(appliedFilters) {
     }
 
     return outerQueries;
+}
+
+/**
+ * Turn key => [queries] pairs into [[query1], [query2], ...].
+ *
+ * @param facetQueries
+ * @returns {[]}
+ */
+function flattenFacetQueries(facetQueries) {
+    const flat = [];
+    for (let key in facetQueries) {
+        flat.push(facetQueries[key]);
+    }
+
+    return flat;
+}
+
+function getAggregations(appliedFilters, facetQueries, searchQuery) {
+    const result = {
+        all_villagers: {
+            global: {},
+            aggregations: {}
+        }
+    };
+
+    const innerAggs = result.all_villagers.aggregations;
+    for (let key in allFilters) {
+        innerAggs[key + '_filter'] = {};
+        innerAggs[key + '_filter'].filter = getAggregationFilter(facetQueries, key, searchQuery);
+        innerAggs[key + '_filter'].aggregations = {};
+        innerAggs[key + '_filter'].aggregations[key] = aggDefinitions[key];
+    }
+
+    return result;
+}
+
+function getAggregationFilter(facetQueries, key, searchQuery) {
+    const result = {};
+    let searchStringQuery = undefined;
+    if (searchQuery) {
+        searchStringQuery = [
+            {
+                match: {
+                    name: {
+                        query: searchQuery
+                    }
+                }
+            },
+            {
+                match: {
+                    phrase: {
+                        query: searchQuery,
+                        fuzziness: 'auto'
+                    }
+                }
+            }
+        ];
+    }
+
+    const appliedQueries = [];
+    for (let fKey in facetQueries) {
+        if (key !== fKey) {
+            appliedQueries.push(facetQueries[fKey]);
+        }
+    }
+
+    let finalQuery = {
+        bool: {
+            must: []
+        }
+    };
+
+    if (searchStringQuery) {
+        finalQuery.bool.must.push({
+            bool: {
+                should: searchStringQuery
+            }
+        });
+    }
+
+    if (appliedQueries.length > 0) {
+        finalQuery.bool.must.push({
+            bool: {
+                must: appliedQueries
+            }
+        });
+    }
+
+    if (finalQuery.bool.must.length === 0) {
+        finalQuery.bool.must.push({
+            match_all: {}
+        })
+    }
+
+    return finalQuery;
 }
 
 /**
@@ -290,70 +342,12 @@ async function find(collection, es, pageNumber, searchQuery, params) {
     result.appliedFilters = getAppliedFilters(params);
 
     // Build ES query for applied filters, if any.
-    const facetQuery = getFacetQueries(result.appliedFilters);
+    const facetQueries = getFacetQueries(result.appliedFilters);
+    const facetQuery = flattenFacetQueries(facetQueries);
 
     // Is it a search? Initialize result and ES body appropriately
-    const aggs = {
-            all_villagers: {
-                global: {},
-                aggregations: {
-                    gender_filter: {
-                        filter: {
-                            match_all: {}
-                        },
-                        aggregations: {
-                            gender: {
-                                terms: {
-                                    field: 'gender',
-                                    size: 2
-                                }
-                            }
-                        }
-                    },
-                    game_filter: {
-                        filter: {
-                            match_all: {}
-                        },
-                        aggregations: {
-                            game: {
-                                terms: {
-                                    field: 'game',
-                                    size: 50
-                                }
-                            }
-                        }
-                    },
-                    personality_filter: {
-                        filter: {
-                            match_all: {}
-                        },
-                        aggregations: {
-                            personality: {
-                                terms: {
-                                    field: 'personality',
-                                    size: 50
-                                }
-                            }
-                        }
-                    },
-                    species_filter: {
-                        filter: {
-                            match_all: {}
-                        },
-                        aggregations: {
-                            species: {
-                                terms: {
-                                    field: 'species',
-                                    size: 50
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-    };
+    const aggs = getAggregations(result.appliedFilters, facetQueries, searchQuery)
 
-    //getAggregations(result.appliedFilters);
     let body;
     let query;
     if (searchQuery) {
