@@ -23,14 +23,14 @@ export default class FilterList extends React.Component {
         const alreadyApplied = [];
         for (let filterId in this.props.appliedFilters) {
             const values = this.props.appliedFilters[filterId].map((v) => {
-                return this.props.availableFilters[filterId].values[v];
+                return this.props.allFilters[filterId].values[v];
             });
             const valuesString = values.sort().join(', ');
 
             alreadyApplied.push(
                 <li key={filterId}>
                     <span className="font-weight-bold">
-                        {this.props.availableFilters[filterId].name}
+                        {this.props.allFilters[filterId].name}
                     </span>: {valuesString}
                     <a href="#" className="ml-2" onClick={this.removeFilterClicked.bind(this, filterId)}>
                         <span className="fas fa-times sr-hidden" style={{color: 'red'}}></span>
@@ -71,12 +71,16 @@ export default class FilterList extends React.Component {
                 ));
                 counter++;
             }
-            filters.push((
-                <div className="mb-3" key={filterId}>
-                    <div className="mb-1 font-weight-bold">{filter.name}</div>
-                    {valueOptions}
-                </div>
-            ));
+
+            // No sense in showing less than two options, right?
+            if (valueOptions.length >= 2) {
+                filters.push((
+                    <div className="mb-3" key={filterId}>
+                        <div className="mb-1 font-weight-bold">{filter.name}</div>
+                        {valueOptions}
+                    </div>
+                ));
+            }
         }
         return filters;
     }

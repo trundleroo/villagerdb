@@ -16,7 +16,8 @@ const pageSize = 25;
 const allFilters = {
     gender: {
         name: 'Gender',
-        values: {male: 'Male', female: 'Female'}
+        values: {male: 'Male', female: 'Female'},
+        sort: 1
     },
     game: {
         name: 'Games',
@@ -28,7 +29,8 @@ const allFilters = {
             'ac': 'Animal Crossing',
             'af+': 'Animal Forest+',
             'af': 'Animal Forest'
-        }
+        },
+        sort: 2
     },
     personality: {
         name: 'Personality',
@@ -41,7 +43,8 @@ const allFilters = {
             smug: 'Smug',
             snooty: 'Snooty',
             uchi: 'Uchi'
-        }
+        },
+        sort: 3
     },
     species: {
         name: 'Species',
@@ -81,7 +84,8 @@ const allFilters = {
             squirrel: 'Squirrel',
             tiger: 'Tiger',
             wolf: 'Wolf',
-        }
+        },
+        sort: 4
     }
 };
 
@@ -183,19 +187,37 @@ function getFacetQuery(appliedFilters) {
 function buildAvailableFilters(appliedFilters, aggregations) {
     const availableFilters = {};
 
-    for (let key in aggregations) {
-        // If this filter is applied, we show all available options.
-        if (appliedFilters[key]) {
-            availableFilters[key] = allFilters[key];
-        } else {
-            // Only show what the aggregation allows.
-            const buckets = aggregations[key].buckets;
-            if (buckets.length > 1) { // no sense in showing 0 or 1 options, right?
+    // Sort aggregations so that they maintain their order.
+    const sortedAggregations = Object.keys(aggregations)
+        .filter((a) => {
+            return typeof allFilters[a] !== 'undefined';
+        })
+        .sort((a, b) => {
+            return allFilters[a].sort - allFilters[b].sort;
+        });
+
+    // Find out what filters we can show as available.
+    for (let key of sortedAggregations) {
+        // Skip entirely empty buckets.
+        if (aggregations[key].buckets.length > 0) {
+            // If this filter is applied, we show all available options.
+            if (appliedFilters[key]) {
+                availableFilters[key] = allFilters[key];
+            } else {
+                // Only show what the aggregation allows.
+                const buckets = aggregations[key].buckets
+                    .map((b) => {
+                        return b.key;
+                    });
+
                 const bucketKeyValue = {};
-                for (let b of buckets) {
-                    bucketKeyValue[b.key] = allFilters[key].values[b.key];
+                for (let b of Object.keys(allFilters[key].values)) {
+                    if (buckets.includes(b)) {
+                        bucketKeyValue[b] = allFilters[key].values[b];
+                    }
                 }
 
+                // Add it as an available filter, finally.
                 availableFilters[key] = {
                     name: allFilters[key].name,
                     values: bucketKeyValue
@@ -203,7 +225,7 @@ function buildAvailableFilters(appliedFilters, aggregations) {
             }
         }
     }
-    
+
     return availableFilters;
 }
 
@@ -427,6 +449,7 @@ function listVillagers(res, next, pageNumber, isAjax, params) {
                         data.birthdays = birthdays;
                         data.shouldDisplayBirthdays = birthdays.length > 0;
                         data.initialState = JSON.stringify(result);
+                        data.allFilters = JSON.stringify(allFilters);
                         data.result = result;
                         res.render('villagers', data);
                     })

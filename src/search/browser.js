@@ -64,7 +64,8 @@ class Browser extends React.Component {
                     <div className="col-12 col-md-2">
                         <FilterList onFilterChange={this.setAppliedFilters}
                             availableFilters={this.state.availableFilters}
-                            appliedFilters={this.state.appliedFilters} />
+                            appliedFilters={this.state.appliedFilters}
+                            allFilters={this.props.allFilters} />
                     </div>
                     <div className="col-12 col-md-10">
                         <div className="browser-results-container">
@@ -170,5 +171,7 @@ class Browser extends React.Component {
 $(document).ready(function() {
     const targetElement = $('#villager-browser');
     const initialState = targetElement.attr('data-initial-state');
-    ReactDOM.render(<Browser id="browser" initialState={initialState}/>, targetElement[0]);
+    const allFilters = targetElement.data('all-filters');
+    ReactDOM.render(<Browser id="browser" initialState={initialState}
+        allFilters={allFilters} />, targetElement[0]);
 })
