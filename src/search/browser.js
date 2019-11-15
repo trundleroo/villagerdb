@@ -58,14 +58,23 @@ class Browser extends React.Component {
             );
         }
 
+        // Only show filter component if there is more than one result.
+        let filterComponent = null;
+        if (this.state.totalCount > 1) {
+            filterComponent = (
+                <FilterList onFilterChange={this.setAppliedFilters}
+                            availableFilters={this.state.availableFilters}
+                            appliedFilters={this.state.appliedFilters}
+                            allFilters={this.props.allFilters} />
+            );
+        }
+
+        // Now, render!
         return (
             <div id={this.props.id}>
                 <div className="row">
                     <div className="col-12 col-md-3">
-                        <FilterList onFilterChange={this.setAppliedFilters}
-                            availableFilters={this.state.availableFilters}
-                            appliedFilters={this.state.appliedFilters}
-                            allFilters={this.props.allFilters} />
+                        {filterComponent}
                     </div>
                     <div className="col-12 col-md-9">
                         <div className="browser-results-container">
