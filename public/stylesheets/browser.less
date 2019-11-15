@@ -21,8 +21,20 @@
   }
 }
 
-.filter-root {
-  display: block;
-  background: #eee;
-  padding: 10px;
+.filter-container {
+  .filter-root {
+    display: block;
+    background: #eee;
+    padding: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .not-expanded-sm {
+      display: none;
+    }
+
+    .expanded-sm {
+      margin-top: 1rem;
+    }
+  }
 }

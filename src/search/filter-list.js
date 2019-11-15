@@ -12,11 +12,13 @@ export default class FilterList extends React.Component {
         super(props);
 
         this.state = {
-            expandedFilters: []
+            expandedFilters: [],
+            mobileExpanded: Object.keys(this.props.appliedFilters).length > 0
         }
 
         // Bindings
         this.clearAllFilters = this.clearAllFilters.bind(this);
+        this.toggleMobileExpand = this.toggleMobileExpand.bind(this);
     }
 
     /**
@@ -103,7 +105,19 @@ export default class FilterList extends React.Component {
                 ));
             }
         }
-        return filters;
+
+        const mobileFilterText = this.state.mobileExpanded ? 'Hide Filters' : 'Show Filters';
+        const mobileFilterClass = this.state.mobileExpanded ? 'expanded-sm' : 'not-expanded-sm'
+        return (
+            <div className="filter-container">
+                <button className="btn btn-secondary d-block d-md-none" onClick={this.toggleMobileExpand}>
+                    {mobileFilterText}
+                </button>
+                <div className={'filter-options ' + mobileFilterClass}>
+                    {filters}
+                </div>
+            </div>
+        );
     }
 
     /**
@@ -191,5 +205,11 @@ export default class FilterList extends React.Component {
                 expandedFilters: expandedFilters
             }
         });
+    }
+
+    toggleMobileExpand() {
+        this.setState({
+            mobileExpanded: !this.state.mobileExpanded
+        })
     }
 }
