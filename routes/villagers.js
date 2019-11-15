@@ -1,131 +1,9 @@
 const express = require('express');
 const router = express.Router();
+const config = require('../app/etc/config.js');
 
-/**
- * Number of entities per page on any result page.
- *
- * @type {number}
- */
-const pageSize = 25;
-
-/**
- * All possible filters
- *
- * @type {{}}
- */
-const allFilters = {
-    gender: {
-        name: 'Gender',
-        values: {male: 'Male', female: 'Female'},
-        sort: 1
-    },
-    game: {
-        name: 'Games',
-        values: {
-            'nl': 'New Leaf',
-            'cf': 'City Folk',
-            'ww': 'Wild World',
-            'afe+': 'Animal Forest e+',
-            'ac': 'Animal Crossing',
-            'af+': 'Animal Forest+',
-            'af': 'Animal Forest'
-        },
-        sort: 2
-    },
-    personality: {
-        name: 'Personality',
-        values: {
-            cranky: 'Cranky',
-            jock: 'Jock',
-            lazy: 'Lazy',
-            normal: 'Normal',
-            peppy: 'Peppy',
-            smug: 'Smug',
-            snooty: 'Snooty',
-            uchi: 'Uchi'
-        },
-        sort: 3
-    },
-    species: {
-        name: 'Species',
-        values: {
-            alligator: 'Alligator',
-            anteater: 'Anteater',
-            bear: 'Bear',
-            bird: 'Bird',
-            bull: 'Bull',
-            cat: 'Cat',
-            chicken: 'Chicken',
-            cow: 'Cow',
-            cub: 'Cub',
-            deer: 'Deer',
-            dog: 'Dog',
-            duck: 'Duck',
-            eagle: 'Eagle',
-            elephant: 'Elephant',
-            frog: 'Frog',
-            goat: 'Goat',
-            gorilla: 'Gorilla',
-            hamster: 'Hamster',
-            hippo: 'Hippo',
-            horse: 'Horse',
-            kangaroo: 'Kangaroo',
-            koala: 'Koala',
-            lion: 'Lion',
-            monkey: 'Monkey',
-            mouse: 'Mouse',
-            octopus: 'Octopus',
-            ostrich: 'Ostrich',
-            penguin: 'Penguin',
-            pig: 'Pig',
-            rabbit: 'Rabbit',
-            rhino: 'Rhino',
-            sheep: 'Sheep',
-            squirrel: 'Squirrel',
-            tiger: 'Tiger',
-            wolf: 'Wolf',
-        },
-        sort: 4
-    }
-};
-
-/**
- * The definitions of our aggregations.
- *
- * @type {{}}
- */
-const aggDefinitions = {
-    gender: {
-        terms: {
-            field: 'gender',
-            size: 2
-        }
-    },
-    personality: {
-        terms: {
-            field: 'personality',
-            size: 50
-        }
-    },
-    species: {
-        terms: {
-            field: 'species',
-            size: 50
-        }
-    },
-    game: {
-        terms: {
-            field: 'game',
-            size: 50
-        }
-    }/*,
-    zodiac: {
-        terms: {
-            field: 'zodiac',
-            size: 50
-        }
-    }*/
-};
+const pageSize = config.searchResultsPageSize;
+const allFilters = config.villagerFilters;
 
 /**
  * Builds the search query for textual searches in ElasticSearch.
@@ -295,7 +173,12 @@ function getAggregations(appliedFilters, facetQueries, searchQuery) {
         innerAggs[key + '_filter'] = {};
         innerAggs[key + '_filter'].filter = getAggregationFilter(facetQueries, key, searchQuery);
         innerAggs[key + '_filter'].aggregations = {};
-        innerAggs[key + '_filter'].aggregations[key] = aggDefinitions[key];
+        innerAggs[key + '_filter'].aggregations[key] = {
+            terms: {
+                field: key,
+                size: 50
+            }
+        }
     }
 
     return result;
