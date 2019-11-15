@@ -10,6 +10,13 @@ export default class FilterList extends React.Component {
      */
     constructor(props) {
         super(props);
+
+        this.state = {
+            expandedFilters: []
+        }
+
+        // Bindings
+        this.clearAllFilters = this.clearAllFilters.bind(this);
     }
 
     /**
@@ -42,10 +49,13 @@ export default class FilterList extends React.Component {
         if (alreadyApplied.length > 0) {
             filters.push(
                 <div className="mb-3" key="already-applied">
-                    <div className="mb-1 font-weight-bold">Applied Filters</div>
+                    <div className="mb-1">
+                        <a className="filter-root">Applied Filters</a>
+                    </div>
                     <ul className="list-unstyled">
                         {alreadyApplied}
                     </ul>
+                    <a href="#" onClick={this.clearAllFilters}>Clear all</a>
                 </div>
             );
         }
@@ -54,14 +64,14 @@ export default class FilterList extends React.Component {
         let counter = 0; // for unique ID for each form element.
         for (let filterId in this.props.availableFilters) {
             let filter = this.props.availableFilters[filterId];
-            const valueOptions = [];
+            let valueOptions = [];
             for (let valueId in filter.values) {
                 let label = filter.values[valueId];
                 const isApplied = this.isFilterApplied(filterId, valueId);
                 valueOptions.push((
                     <div className="form-check" key={filterId + '-' + counter}>
                         <input className="form-check-input" type="checkbox"
-                               data-filter-id={filterId} value={valueId} id={filterId + '-' + counter}
+                               value={valueId} id={filterId + '-' + counter}
                                onChange={this.toggleFilterValue.bind(this, filterId, valueId)}
                                checked={isApplied} />
                         <label className="form-check-label" htmlFor={filterId + '-' + counter}>
@@ -74,9 +84,20 @@ export default class FilterList extends React.Component {
 
             // No sense in showing less than two options, right?
             if (valueOptions.length >= 2) {
+                let caretClassName = 'fa-chevron-down';
+                // Only show value options if expanded.
+                if (!this.state.expandedFilters.includes(filterId)) {
+                    valueOptions = [];
+                    caretClassName = 'fa-chevron-up';
+                }
                 filters.push((
                     <div className="mb-3" key={filterId}>
-                        <div className="mb-1 font-weight-bold">{filter.name}</div>
+                        <div className="mb-1">
+                            <a href="#" className="filter-root" onClick={this.expandCollapse.bind(this, filterId)}>
+                                <span className="font-weight-bold">{filter.name}</span>
+                                <span aria-hidden="true" className={'fas ' + caretClassName} style={{float: 'right'}}></span>
+                            </a>
+                        </div>
                         {valueOptions}
                     </div>
                 ));
@@ -129,6 +150,11 @@ export default class FilterList extends React.Component {
         this.props.onFilterChange(appliedFilters);
     };
 
+    removeFilterClicked(filterId, e) {
+        e.preventDefault();
+        this.removeFilter(filterId);
+    }
+
     removeFilter(filterId) {
         const appliedFilters = this.props.appliedFilters;
         delete appliedFilters[filterId];
@@ -136,8 +162,34 @@ export default class FilterList extends React.Component {
         this.props.onFilterChange(appliedFilters);
     };
 
-    removeFilterClicked(filterId, e) {
+    clearAllFilters() {
+        this.props.onFilterChange({});
+    }
+
+    /**
+     * Expand or collapse a filter. By default, filters are collapsed.
+     *
+     * @param filterId
+     * @param e
+     */
+    expandCollapse(filterId, e) {
         e.preventDefault();
-        this.removeFilter(filterId);
+
+        const expandedFilters = [];
+        const collapse = this.state.expandedFilters.includes(filterId);
+        this.setState((state) => {
+            let expandedFilters = [];
+            if (collapse) {
+                expandedFilters = state.expandedFilters.filter((i) => {
+                    return i !== filterId;
+                })
+            } else {
+                expandedFilters = this.state.expandedFilters.concat(filterId);
+            }
+
+            return {
+                expandedFilters: expandedFilters
+            }
+        });
     }
 }
