@@ -20,6 +20,11 @@ export default class Paginator extends React.Component {
      * @returns {*}
      */
     render() {
+        // No results case.
+        if (this.props.totalCount < 1) {
+            return null;
+        }
+
         // Compute previous and next page links.
         let previousPageLink;
         if (this.props.currentPage === 1) {

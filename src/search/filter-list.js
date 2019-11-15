@@ -94,7 +94,7 @@ export default class FilterList extends React.Component {
                 }
                 filters.push((
                     <div className="mb-3" key={filterId}>
-                        <div className="mb-1">
+                        <div className="mb-2">
                             <a href="#" className="filter-root" onClick={this.expandCollapse.bind(this, filterId)}>
                                 <span className="font-weight-bold">{filter.name}</span>
                                 <span aria-hidden="true" className={'fas ' + caretClassName} style={{float: 'right'}}></span>
@@ -144,7 +144,7 @@ export default class FilterList extends React.Component {
      * @param e
      */
     toggleFilterValue(filterId, valueId, e) {
-        const appliedFilters = this.props.appliedFilters;
+        const appliedFilters = JSON.parse(JSON.stringify(this.props.appliedFilters));
 
         if (appliedFilters[filterId] && appliedFilters[filterId].includes(valueId)) {
             // If already applied, remove it.
