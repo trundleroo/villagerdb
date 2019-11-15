@@ -110,7 +110,7 @@ export default class FilterList extends React.Component {
         const mobileFilterClass = this.state.mobileExpanded ? 'expanded-sm' : 'not-expanded-sm'
         return (
             <div className="filter-container">
-                <button className="btn btn-secondary d-block d-md-none" onClick={this.toggleMobileExpand}>
+                <button className="btn btn-secondary d-block d-md-none mb-3" onClick={this.toggleMobileExpand}>
                     {mobileFilterText}
                 </button>
                 <div className={'filter-options ' + mobileFilterClass}>
