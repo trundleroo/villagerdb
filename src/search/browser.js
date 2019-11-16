@@ -29,7 +29,6 @@ class Browser extends React.Component {
     componentDidMount() {
         window.addEventListener('popstate', (event) => {
             if (event.state) {
-                console.log(event.state);
                 this.setState(event.state);
             } else {
                 this.setState(JSON.parse(this.props.initialState));
