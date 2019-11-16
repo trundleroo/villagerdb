@@ -11,9 +11,16 @@ export default class FilterList extends React.Component {
     constructor(props) {
         super(props);
 
+        // Only expand mobile by default if aggregable filters are applied.
+        const aggregableFilterCount = Object.keys(this.props.appliedFilters)
+            .filter((f) => {
+                return this.props.allFilters[f].canAggregate;
+            }).length;
+
+        // Initial state.
         this.state = {
             expandedFilters: [],
-            mobileExpanded: Object.keys(this.props.appliedFilters).length > 0
+            mobileExpanded: aggregableFilterCount > 0
         }
 
         // Bindings
