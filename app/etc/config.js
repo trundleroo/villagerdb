@@ -84,6 +84,25 @@ const config = {
                     },
                     canAggregate: true,
                     sort: 4
+                },
+                zodiac: {
+                    name: 'Star Sign',
+                    values: {
+                        aquarius: 'Aquarius',
+                        aries: 'Aries',
+                        cancer: 'Cancer',
+                        capricorn: 'Capricorn',
+                        gemini: 'Gemini',
+                        leo: 'Leo',
+                        libra: 'Libra',
+                        pisces: 'Pisces',
+                        sagittarius: 'Sagittarius',
+                        scorpio: 'Scorpio',
+                        taurus: 'Taurus',
+                        virgo: 'Virgo'
+                    },
+                    canAggregate: true,
+                    sort: 5
                 }
             }
         }

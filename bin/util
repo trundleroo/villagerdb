@@ -99,7 +99,7 @@ async function buildSearchIndex() {
 
         // Zodiac?
         if (parsed.birthday) {
-            document.zodiac = formatUtil.getZodiac(moment(parsed.birthday + '-2000', 'MM-DD-YYYY'));
+            document.zodiac = formatUtil.getZodiac(moment(parsed.birthday + '-2000', 'MM-DD-YYYY')).toLowerCase();
         }
 
         // Create the villager document.
