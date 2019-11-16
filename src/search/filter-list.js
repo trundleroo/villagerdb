@@ -31,11 +31,14 @@ export default class FilterList extends React.Component {
         // Show already-applied filters, if any.
         const alreadyApplied = [];
         for (let filterId in this.props.appliedFilters) {
+            if (!this.props.allFilters[filterId].canAggregate) {
+                continue; // skip textual search filters.
+            }
+
             const values = this.props.appliedFilters[filterId].map((v) => {
                 return this.props.allFilters[filterId].values[v];
             });
             const valuesString = values.sort().join(', ');
-
             alreadyApplied.push(
                 <li key={filterId}>
                     <span className="font-weight-bold">
@@ -48,6 +51,7 @@ export default class FilterList extends React.Component {
                 </li>
             )
         }
+
         if (alreadyApplied.length > 0) {
             filters.push(
                 <div className="mb-3" key="already-applied">
@@ -176,7 +180,8 @@ export default class FilterList extends React.Component {
         this.props.onFilterChange(appliedFilters);
     };
 
-    clearAllFilters() {
+    clearAllFilters(e) {
+        e.preventDefault();
         this.props.onFilterChange({});
     }
 

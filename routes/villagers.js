@@ -1,75 +1,61 @@
 const express = require('express');
 const router = express.Router();
-const config = require('../app/etc/config.js');
+const config = require('../app/etc/config.js').search;
 
 const pageSize = config.searchResultsPageSize;
-const allFilters = config.villagerFilters;
+const allFilters = config.filters.villager;
 
 /**
- * Builds the search query for textual searches in ElasticSearch.
+ * Build a query for the (already-validated) key/value pair.
  *
- * @param searchString
- * @returns {*[]}
+ * @param key
+ * @param value
  */
-function buildSearchQuery(searchString) {
-    if (typeof searchString !== 'string') {
-        return undefined;
-    }
-
-    const trimmedString = searchString.trim();
-    if (trimmedString.length === 0) {
-        return undefined;
-    }
-
-    return [
-        {
-            match: {
-                name: {
-                    query: trimmedString
+function buildQuery(key, value) {
+    const query = {};
+    if (key !== 'q') { // faceted search
+        query.match = {};
+        query.match[key] = {
+            query: value
+        };
+        return [query];
+    } else { // textual search
+        return [
+            {
+                match: {
+                    name: {
+                        query: value
+                    }
+                }
+            },
+            {
+                match: {
+                    phrase: {
+                        query: value,
+                        fuzziness: 'auto'
+                    }
                 }
             }
-        },
-        {
-            match: {
-                phrase: {
-                    query: trimmedString,
-                    fuzziness: 'auto'
-                }
-            }
-        }
-    ];
+        ]
+    }
 }
 
 /**
- * Builds an ElasticSearch query applying the given queries and search string.
+ * Builds an ElasticSearch query applying the given queries.
  *
  * @param appliedQueries
- * @param searchQuery
  * @returns {{bool: {must: []}}}
  */
-function buildRootElasticSearchQuery(appliedQueries, searchQuery) {
+function buildRootElasticSearchQuery(appliedQueries) {
     const finalQuery = {
         bool: {
             must: []
         }
     };
 
-    // Add in the text search query, if applicable.
-    if (searchQuery) {
-        finalQuery.bool.must.push({
-            bool: {
-                should: searchQuery
-            }
-        });
-    }
-
-    // OK, now add the rest of the applied queries, if any.
-    if (appliedQueries.length > 0) {
-        finalQuery.bool.must.push({
-            bool: {
-                must: appliedQueries
-            }
-        });
+    // Add all applied queries.
+    for (let key in appliedQueries) {
+        finalQuery.bool.must.push(appliedQueries[key]);
     }
 
     // If it's still empty, then just match everything.
@@ -92,12 +78,21 @@ function getAppliedFilters(params) {
     const appliedFilters = {};
     for (let key in params) {
         // Is it a valid filter?
-        if (allFilters[key]) {
-            // Does it have values?
+        if (allFilters[key] && typeof params[key] === 'string' && params[key].length > 0) {
+            // Does it have values? Make sure no value exceeds the max query length allowance, and trim them.
             const values = params[key].split(',');
+            const setValues = [];
+            for (let value of values) {
+                if (value.length > config.maxQueryLength) {
+                    let e = new Error('Invalid request.');
+                    e.status = 400;
+                    throw e;
+                }
+                setValues.push(value.trim());
+            }
             if (values.length > 0) {
                 // Set them.
-                appliedFilters[key] = values;
+                appliedFilters[key] = setValues;
             }
         }
     }
@@ -118,12 +113,10 @@ function getFacetQueries(appliedFilters) {
         outerQueries[key] = [];
         const innerQueries = [];
         for (let value of appliedFilters[key]) {
-            const query = {};
-            query.match = {};
-            query.match[key] = {
-                query: value
-            };
-            innerQueries.push(query);
+            const builtQueries = buildQuery(key, value);
+            for (let q of builtQueries) {
+                innerQueries.push(q);
+            }
         }
         outerQueries[key].push({
             bool: {
@@ -136,22 +129,6 @@ function getFacetQueries(appliedFilters) {
 }
 
 /**
- * Turn key => [queries] pairs into [[query1], [query2], ...]. This function pretty much only works with the output
- * of getFacetQueries above.
- *
- * @param facetQueries
- * @returns {[]}
- */
-function flattenFacetQueries(facetQueries) {
-    const flat = [];
-    for (let key in facetQueries) {
-        flat.push(facetQueries[key]);
-    }
-
-    return flat;
-}
-
-/**
  * Build aggregations for the given search criteria.
  * 
  * @param appliedFilters
@@ -159,7 +136,7 @@ function flattenFacetQueries(facetQueries) {
  * @param searchQuery
  * @returns {{all_entries: {global: {}, aggregations: {}}}}
  */
-function getAggregations(appliedFilters, facetQueries, searchQuery) {
+function getAggregations(appliedFilters, facetQueries) {
     const result = {
         all_entries: {
             global: {},
@@ -170,13 +147,15 @@ function getAggregations(appliedFilters, facetQueries, searchQuery) {
     // ElasticSearch requires us to nest these aggregations a level deeper than I would like, but it does work.
     const innerAggs = result.all_entries.aggregations;
     for (let key in allFilters) {
-        innerAggs[key + '_filter'] = {};
-        innerAggs[key + '_filter'].filter = getAggregationFilter(facetQueries, key, searchQuery);
-        innerAggs[key + '_filter'].aggregations = {};
-        innerAggs[key + '_filter'].aggregations[key] = {
-            terms: {
-                field: key,
-                size: 50
+        if (allFilters[key].canAggregate) {
+            innerAggs[key + '_filter'] = {};
+            innerAggs[key + '_filter'].filter = getAggregationFilter(facetQueries, key);
+            innerAggs[key + '_filter'].aggregations = {};
+            innerAggs[key + '_filter'].aggregations[key] = {
+                terms: {
+                    field: key,
+                    size: 50
+                }
             }
         }
     }
@@ -193,7 +172,7 @@ function getAggregations(appliedFilters, facetQueries, searchQuery) {
  * @param searchQuery
  * @returns {{bool: {must: *[]}}}
  */
-function getAggregationFilter(facetQueries, key, searchQuery) {
+function getAggregationFilter(facetQueries, key) {
     // Get all queries that do *not* match this key.
     const appliedQueries = [];
     for (let fKey in facetQueries) {
@@ -202,11 +181,12 @@ function getAggregationFilter(facetQueries, key, searchQuery) {
         }
     }
 
-    return buildRootElasticSearchQuery(appliedQueries, searchQuery);
+    return buildRootElasticSearchQuery(appliedQueries);
 }
 
 /**
- * Restricts the available filters to entities that won't result in a "no results" response from ElasticSearch.
+ * Restricts the available filters to entities that won't result in a "no results" response from ElasticSearch, and
+ * ones that are actually aggregable.
  *
  * @param appliedFilters
  * @param aggregations
@@ -222,7 +202,7 @@ function buildAvailableFilters(appliedFilters, aggregations) {
             return split[0];
         })
         .filter((a) => {
-            return typeof allFilters[a] !== 'undefined';
+            return typeof allFilters[a] !== 'undefined' && allFilters[a].canAggregate;
         })
         .sort((a, b) => {
             return allFilters[a].sort - allFilters[b].sort;
@@ -267,13 +247,6 @@ function buildAvailableFilters(appliedFilters, aggregations) {
  * @returns {Promise<void>}
  */
 async function find(collection, es, pageNumber, searchString, params) {
-    // Sanity check
-    if (typeof searchString === 'string' && searchString.length > 64) {
-        let e = new Error('Invalid request.');
-        e.status = 400;
-        throw e;
-    }
-
     // The long process of building the result.
     const result = {};
 
@@ -282,15 +255,14 @@ async function find(collection, es, pageNumber, searchString, params) {
 
     // Build ES query for applied filters, if any.
     const facetQueries = getFacetQueries(result.appliedFilters);
-    const facetQueriesFlat = flattenFacetQueries(facetQueries);
 
     // Is it a search? Initialize result and ES body appropriately
-    const searchQuery = buildSearchQuery(searchString);
-    const aggs = getAggregations(result.appliedFilters, facetQueries, searchQuery);
+    const aggs = getAggregations(result.appliedFilters, facetQueries);
 
     let body;
-    const query = buildRootElasticSearchQuery(facetQueriesFlat, searchQuery);
-    if (searchQuery) {
+    const query = buildRootElasticSearchQuery(facetQueries);
+
+    if (typeof searchString === 'string') {
         // Set up result set for search display
         result.isSearch = true;
         result.searchQuery = searchString;
@@ -397,7 +369,7 @@ function computePageProperties(pageNumber, pageSize, totalCount, result) {
  */
 function listVillagers(res, next, pageNumber, isAjax, params) {
     const data = {};
-    const searchQuery = typeof params.q === 'string' ? params.q.trim() : undefined;
+    const searchQuery = typeof params.q === 'string' && params.q.trim().length > 0 ? params.q.trim() : undefined;
     if (searchQuery) {
         data.pageTitle = 'Search results for ' + searchQuery; // template engine handles HTML escape
     } else {
@@ -435,19 +407,9 @@ router.get('/page/:pageNumber', function (req, res, next) {
         req.query);
 });
 
-/* GET villagers search */
-/*router.get('/search', function (req, res, next) {
-    listVillagers(res, next, 1, req.query.isAjax === 'true', parseQuery(req.query.q));
-});*'
-
-/* GET villagers search page number */
-/*router.get('/search/page/:pageNumber', function (req, res, next) {
-    listVillagers(res, next, parsePositiveInteger(req.params.pageNumber), req.query.isAjax === 'true', parseQuery(req.query.q));
-});*/
-
 router.get('/autocomplete', function (req, res, next) {
     // Validate query
-    if (typeof req.query.q !== 'string' || req.query.q.length > 64) {
+    if (typeof req.query.q !== 'string' || req.query.q.length > config.maxQueryLength) {
         const e = new Error('Invalid request.');
         e.status = 400; // Bad Request
         throw e;
@@ -480,6 +442,16 @@ router.get('/autocomplete', function (req, res, next) {
         })
         .catch(next);
 
+});
+
+/* GET villagers search - defunct */
+router.get('/search', function (req, res, next) {
+    res.redirect(302, '/villagers');
+});
+
+/* GET villagers search page number - defunct */
+router.get('/search/page/:pageNumber', function (req, res, next) {
+    res.redirect(302, '/villagers');
 });
 
 module.exports = router;

@@ -57,9 +57,9 @@ class Browser extends React.Component {
             );
         }
 
-        // Only show filter component if there is more than one result.
+        // Only show filter component if there are results.
         let filterComponent = null;
-        if (this.state.totalCount > 1) {
+        if (this.state.totalCount > 0) {
             filterComponent = (
                 <FilterList onFilterChange={this.setAppliedFilters}
                             availableFilters={this.state.availableFilters}
@@ -71,13 +71,13 @@ class Browser extends React.Component {
         // Now, render!
         return (
             <div id={this.props.id}>
+                {loader}
                 <div className="row">
                     <div className="col-12 col-md-3">
                         {filterComponent}
                     </div>
                     <div className="col-12 col-md-9">
                         <div className="browser-results-container">
-                            {loader}
                             <Paginator onPageChange={this.setPage}
                                        currentPage={this.state.currentPage}
                                        startIndex={this.state.startIndex}
@@ -98,18 +98,17 @@ class Browser extends React.Component {
         );
     }
 
-    getResults(pageNumber, pageUrlPrefix, appliedFilters, isSearch, searchQueryString) {
+    getResults(pageNumber, pageUrlPrefix, appliedFilters) {
         // On update, just consume the state.
         const updateState = (state) => {
             state.isLoading = false;
-            let url = this.buildUrlFromState(state.pageUrlPrefix, state.currentPage, state.isSearch,
-                state.searchQueryString, state.appliedFilters);
+            let url = this.buildUrlFromState(state.pageUrlPrefix, state.currentPage, state.appliedFilters);
             history.pushState(state, null, url);
             this.setState(state);
         };
 
         // Make AJAX request to get the page.
-        let url = this.buildUrlFromState(pageUrlPrefix, pageNumber, isSearch, searchQueryString, appliedFilters);
+        let url = this.buildUrlFromState(pageUrlPrefix, pageNumber, appliedFilters);
         if (url.includes('?')) {
             url += '&isAjax=true';
         } else {
@@ -117,6 +116,8 @@ class Browser extends React.Component {
         }
 
         this.setState({
+            appliedFilters: appliedFilters,
+            currentPage: pageNumber,
             isLoading: true
         });
         $.ajax({
@@ -146,7 +147,7 @@ class Browser extends React.Component {
         });
     }
 
-    buildUrlFromState(pageUrlPrefix, pageNumber, isSearch, searchQueryString, appliedFilters) {
+    buildUrlFromState(pageUrlPrefix, pageNumber, appliedFilters) {
         // Build out from applied filters
         const applied = [];
         for (let filterId in appliedFilters) {
@@ -156,19 +157,8 @@ class Browser extends React.Component {
             }
             applied.push(filterId + '=' + values.join(','));
         }
-        const filterQuery = applied.join('&');
-        let url = pageUrlPrefix + pageNumber;
-        if (isSearch) {
-            url += '?q=' + searchQueryString;
-            if (applied.length > 0) {
-                url += '&' + filterQuery;
-            }
-        } else {
-            if (applied.length > 0) {
-                url += '?' + filterQuery;
-            }
-        }
-
+        const filterQuery = applied.length > 0 ? ('?' + applied.join('&')) : '';
+        let url = pageUrlPrefix + pageNumber + filterQuery;
         return url;
     }
 }
