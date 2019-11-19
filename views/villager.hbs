@@ -61,6 +61,14 @@
                 <td class="bg-dark text-light font-weight-bold">New Leaf (Night Owl)</td>
                 <td><div class="sleepStatusNightOwl"></div></td>
             </tr>
+            <tr>
+                <td class="bg-dark text-light font-weight-bold">Wild World/City Folk</td>
+                <td><div class="sleepStatusWWCF"></div></td>
+            </tr>
+            <tr>
+                <td class="bg-dark text-light font-weight-bold">Animal Crossing</td>
+                <td><div class="sleepStatusACAF"></div></td>
+            </tr>
             </tbody>
         </table>
 
@@ -115,4 +123,6 @@
     </div>
 </div>
 
-<div id="personality" data-personality="Uchi"></div>
+{{#each personalities}}
+    <div id="personality" data-personality="{{ value }}"></div>
+{{/each}}

@@ -1,18 +1,19 @@
 const $ = require('jquery');
 
 $(document).ready(function () {
-    const time = new Date();
-    const userTime = (time.getHours() * 60) + time.getMinutes();
 
-    // Sample input data
-    let personality = $(".personality").attr('data-personality');
-    console.log(personality);
+    // Get personalities
+    const personalityMap = $("#personality").attr("data-personality");
 
     const sleepStatus = getSleepStatus(personality);
 
     $(".sleepStatusNL").text(sleepStatus['NL']);
     $(".sleepStatusEarlyBird").text(sleepStatus['earlyBirdNL']);
     $(".sleepStatusNightOwl").text(sleepStatus['nightOwlNL']);
+    if (personality !== "Uchi" && personality !== "Snooty") {
+        $(".sleepStatusWWCF").text(sleepStatus['WWCF']);
+        $(".sleepStatusACAF").text(sleepStatus['ACAF']);
+    }
 
 });
 
@@ -55,13 +56,29 @@ function getSleepStatus(personality) {
     wakeTime = newLeafSleepTimes[personality]['nightOwl']['wake']
     const sleepStatusNightOwl = determineSleepStatus(sleepTime, wakeTime, userTime);
 
+    if (personality === "Uchi" || personality === "Snooty") {
+        sleepStatus['NL'] = sleepStatusNL;
+        sleepStatus['earlyBirdNL'] = sleepStatusEarlyBird;
+        sleepStatus['nightOwlNL'] = sleepStatusNightOwl;
+
+        return sleepStatus;
+    }
+
     // City Folk and Wild World Sleep Times
+    sleepTime = wildWorldCityFolkSleepTimes[personality]['sleep'];
+    wakeTime = wildWorldCityFolkSleepTimes[personality]['wake']
+    const sleepStatusWWCF = determineSleepStatus(sleepTime, wakeTime, userTime);
 
     // AC GameCube and Animal Forest Sleep Times
+    sleepTime = animalForestSleepTimes[personality]['sleep'];
+    wakeTime = animalForestSleepTimes[personality]['wake']
+    const sleepStatusACAF = determineSleepStatus(sleepTime, wakeTime, userTime);
 
     sleepStatus['NL'] = sleepStatusNL;
     sleepStatus['earlyBirdNL'] = sleepStatusEarlyBird;
     sleepStatus['nightOwlNL'] = sleepStatusNightOwl;
+    sleepStatus['WWCF'] = sleepStatusWWCF;
+    sleepStatus['ACAF'] = sleepStatusACAF;
 
     return sleepStatus;
 }
@@ -178,5 +195,59 @@ const newLeafSleepTimes = {
             "wake" : 660,
             "sleep" : 330
         }
+    }
+}
+
+const wildWorldCityFolkSleepTimes = {
+    "Cranky" : {
+        "wake" : 600,
+        "sleep" : 270
+    },
+    "Jock" : {
+        "wake" : 390,
+        "sleep" : 120
+    },
+    "Lazy" : {
+        "wake" : 480,
+        "sleep" : 90
+    },
+    "Normal" : {
+        "wake" : 300,
+        "sleep" : 60
+    },
+    "Peppy" : {
+        "wake" : 420,
+        "sleep" : 150
+    },
+    "Snooty" : {
+        "wake" : 540,
+        "sleep" : 210
+    }
+}
+
+const animalForestSleepTimes = {
+    "Cranky" : {
+        "wake" : 600,
+        "sleep" : 300
+    },
+    "Jock" : {
+        "wake" : 330,
+        "sleep" : 60
+    },
+    "Lazy" : {
+        "wake" : 480,
+        "sleep" : 1320
+    },
+    "Normal" : {
+        "wake" : 300,
+        "sleep" : 1260
+    },
+    "Peppy" : {
+        "wake" : 420,
+        "sleep" : 1410
+    },
+    "Snooty" : {
+        "wake" : 540,
+        "sleep" : 180
     }
 }
