@@ -42,35 +42,7 @@
             </tbody>
         </table>
 
-        <table class="table table-borderless mt-3">
-            <thead class="bg-dark text-light">
-            <th>Sleep Status</th>
-            <th class="sr-only">Property</th>
-            <th class="sr-only">Value</th>
-            </thead>
-            <tbody>
-            <tr>
-                <td class="bg-dark text-light font-weight-bold">New Leaf</td>
-                <td><div class="sleepStatusNL"></div></td>
-            </tr>
-            <tr>
-                <td class="bg-dark text-light font-weight-bold">New Leaf (Early Bird)</td>
-                <td><div class="sleepStatusEarlyBird"></div></td>
-            </tr>
-            <tr>
-                <td class="bg-dark text-light font-weight-bold">New Leaf (Night Owl)</td>
-                <td><div class="sleepStatusNightOwl"></div></td>
-            </tr>
-            <tr>
-                <td class="bg-dark text-light font-weight-bold">Wild World/City Folk</td>
-                <td><div class="sleepStatusWWCF"></div></td>
-            </tr>
-            <tr>
-                <td class="bg-dark text-light font-weight-bold">Animal Crossing</td>
-                <td><div class="sleepStatusACAF"></div></td>
-            </tr>
-            </tbody>
-        </table>
+        <div class="sleepTable"></div>
 
         <table class="table table-borderless">
             <thead class="bg-dark text-light">
@@ -123,6 +95,4 @@
     </div>
 </div>
 
-{{#each personalities}}
-    <div id="personality" data-personality="{{ value }}"></div>
-{{/each}}
+<div id="personality" data-personality="{{ personalityMap }}"></div>
