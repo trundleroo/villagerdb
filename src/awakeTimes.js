@@ -1,125 +1,5 @@
 const $ = require('jquery');
 
-$(document).ready(function () {
-
-    // Get personalities.
-    let personalityMap = $("#personality").attr("data-personality");
-    personalityMap = JSON.parse(personalityMap);
-
-    // Compute villager's sleep status and generate HTML.
-    const sleepStatus = getSleepStatus(personalityMap);
-    const sleepTable = generateSleepTable(sleepStatus);
-    $(".sleepTable").html(sleepTable);
-
-});
-
-function generateSleepTable(sleepStatus) {
-    let sleepTable = "<table class=\"table table-borderless mt-3\">" +
-        "<thead class=\"bg-dark text-light\">" +
-        " <th>Sleep Status</th>" +
-        " <th class=\"sr-only\">Property</th>" +
-        "<th class=\"sr-only\">Value</th>" +
-        "</thead>" +
-        "<tbody>";
-
-    if (sleepStatus['NL']) {
-        sleepTable += "<tr>" +
-            "<td class=\"bg-dark text-light font-weight-bold\">New Leaf</td>" +
-            "<td>" + sleepStatus['NL'] + "</td>" +
-            "</tr>";
-        sleepTable += "<tr>" +
-            "<td class=\"bg-dark text-light font-weight-bold\">New Leaf (Early Bird)</td>" +
-            "<td>" + sleepStatus['earlyBirdNL'] + "</td>" +
-            "</tr>";
-        sleepTable += "<tr>" +
-            "<td class=\"bg-dark text-light font-weight-bold\">New Leaf (Night Owl)</td>" +
-            "<td>" + sleepStatus['nightOwlNL'] + "</td>" +
-            "</tr>";
-    }
-
-    if (sleepStatus['WWCF']) {
-        sleepTable += "<tr>" +
-            "<td class=\"bg-dark text-light font-weight-bold\">Wild World/City Folk</td>" +
-            "<td>" + sleepStatus['WWCF'] + "</td>" +
-            "</tr>";
-    }
-
-    if (sleepStatus['ACAF']) {
-        sleepTable += "<tr>" +
-            "<td class=\"bg-dark text-light font-weight-bold\">Animal Crossing</td>" +
-            "<td>" + sleepStatus['ACAF'] + "</td>" +
-            "</tr>";
-    }
-
-    return sleepTable;
-}
-
-function determineSleepStatus(sleepTime, wakeTime, userTime) {
-    let result;
-    if (sleepTime > wakeTime) {
-            result = "asleep";
-        if (wakeTime < userTime && userTime < sleepTime) {
-            result = "awake";
-        }
-    } else {
-        result = "awake";
-        if (sleepTime < userTime && userTime < wakeTime) {
-            result = "asleep";
-        }
-    }
-    return result;
-}
-
-function getSleepStatus(personalityMap) {
-    const time = new Date();
-    const userTime = (time.getHours() * 60) + time.getMinutes();
-
-    let sleepStatus = {};
-
-    personalityMap.forEach(function(entry) {
-        let shortTitle = entry['shortTitle'];
-        let personality = entry['value'];
-
-        let sleepTime;
-        let wakeTime;
-
-        if (shortTitle === "NL") {
-
-            // New Leaf Normal Sleep Times
-            sleepTime = newLeafSleepTimes[personality]['normal']['sleep'];
-            wakeTime = newLeafSleepTimes[personality]['normal']['wake'];
-            sleepStatus['NL'] = determineSleepStatus(sleepTime, wakeTime, userTime);
-
-            // New Leaf Early Bird Sleep Times
-            sleepTime = newLeafSleepTimes[personality]['earlyBird']['sleep'];
-            wakeTime = newLeafSleepTimes[personality]['earlyBird']['wake']
-            sleepStatus['earlyBirdNL'] = determineSleepStatus(sleepTime, wakeTime, userTime);
-
-            // New Leaf Night Owl Sleep Times
-            sleepTime = newLeafSleepTimes[personality]['nightOwl']['sleep'];
-            wakeTime = newLeafSleepTimes[personality]['nightOwl']['wake']
-            sleepStatus['nightOwlNL'] = determineSleepStatus(sleepTime, wakeTime, userTime);
-
-        } else if (shortTitle === "CF") {
-
-            // City Folk and Wild World Sleep Times
-            sleepTime = wildWorldCityFolkSleepTimes[personality]['sleep'];
-            wakeTime = wildWorldCityFolkSleepTimes[personality]['wake']
-            sleepStatus['WWCF'] = determineSleepStatus(sleepTime, wakeTime, userTime);
-
-        } else if (shortTitle === "AFe+") {
-
-            // AC GameCube and Animal Forest Sleep Times
-            sleepTime = animalForestSleepTimes[personality]['sleep'];
-            wakeTime = animalForestSleepTimes[personality]['wake']
-            sleepStatus['ACAF'] = determineSleepStatus(sleepTime, wakeTime, userTime);
-
-        }
-    });
-
-    return sleepStatus;
-}
-
 const newLeafSleepTimes = {
     "Cranky" : {
         "normal" : {
@@ -288,3 +168,127 @@ const animalForestSleepTimes = {
         "sleep" : 180
     }
 }
+
+const time = new Date();
+const userTime = (time.getHours() * 60) + time.getMinutes();
+
+$(document).ready(function () {
+
+    // Get personalities.
+    let personalityMap = $("#personality").attr("data-personality");
+    personalityMap = JSON.parse(personalityMap);
+
+    // Compute villager's sleep status and generate HTML.
+    const sleepStatus = getSleepStatus(personalityMap);
+    const sleepTable = generateSleepTable(sleepStatus);
+    $(".sleep-table").html(sleepTable);
+
+});
+
+function generateSleepTable(sleepStatus) {
+    let sleepTable = "<table class=\"table table-borderless mt-3\">" +
+        "<thead class=\"bg-dark text-light\">" +
+        " <th>Sleep Status</th>" +
+        " <th class=\"sr-only\">Property</th>" +
+        "<th class=\"sr-only\">Value</th>" +
+        "</thead>" +
+        "<tbody>";
+
+    let tdClass = "bg-light text-dark font-weight-bold";
+
+    if (sleepStatus['NL']) {
+        sleepTable += "<tr>" +
+            "<td class=\"" + tdClass + "\">New Leaf</td>" +
+            "<td>" + sleepStatus['NL'] + "</td>" +
+            "</tr>";
+        sleepTable += "<tr>" +
+            "<td class=\"" + tdClass + "\">New Leaf (Early Bird)</td>" +
+            "<td>" + sleepStatus['earlyBirdNL'] + "</td>" +
+            "</tr>";
+        sleepTable += "<tr>" +
+            "<td class=\"" + tdClass + "\">New Leaf (Night Owl)</td>" +
+            "<td>" + sleepStatus['nightOwlNL'] + "</td>" +
+            "</tr>";
+    }
+
+    if (sleepStatus['WWCF']) {
+        sleepTable += "<tr>" +
+            "<td class=\"" + tdClass + "\">Wild World/City Folk</td>" +
+            "<td>" + sleepStatus['WWCF'] + "</td>" +
+            "</tr>";
+    }
+
+    if (sleepStatus['ACAF']) {
+        sleepTable += "<tr>" +
+            "<td class=\"" + tdClass + "\">Animal Crossing</td>" +
+            "<td>" + sleepStatus['ACAF'] + "</td>" +
+            "</tr>";
+    }
+
+    return sleepTable;
+}
+
+function determineSleepStatus(sleepTime, wakeTime, userTime) {
+    let result;
+    if (sleepTime > wakeTime) {
+            result = "asleep";
+        if (wakeTime < userTime && userTime < sleepTime) {
+            result = "awake";
+        }
+    } else {
+        result = "awake";
+        if (sleepTime < userTime && userTime < wakeTime) {
+            result = "asleep";
+        }
+    }
+    return result;
+}
+
+function getSleepStatus(personalityMap) {
+
+    let sleepStatus = {};
+
+    personalityMap.forEach(function(entry) {
+        let shortTitle = entry['shortTitle'];
+        let personality = entry['value'];
+
+        let sleepTime;
+        let wakeTime;
+
+        if (shortTitle === "NL") {
+
+            // New Leaf Normal Sleep Times
+            sleepTime = newLeafSleepTimes[personality]['normal']['sleep'];
+            wakeTime = newLeafSleepTimes[personality]['normal']['wake'];
+            sleepStatus['NL'] = determineSleepStatus(sleepTime, wakeTime, userTime);
+
+            // New Leaf Early Bird Sleep Times
+            sleepTime = newLeafSleepTimes[personality]['earlyBird']['sleep'];
+            wakeTime = newLeafSleepTimes[personality]['earlyBird']['wake']
+            sleepStatus['earlyBirdNL'] = determineSleepStatus(sleepTime, wakeTime, userTime);
+
+            // New Leaf Night Owl Sleep Times
+            sleepTime = newLeafSleepTimes[personality]['nightOwl']['sleep'];
+            wakeTime = newLeafSleepTimes[personality]['nightOwl']['wake']
+            sleepStatus['nightOwlNL'] = determineSleepStatus(sleepTime, wakeTime, userTime);
+
+        } else if (shortTitle === "CF") {
+
+            // City Folk and Wild World Sleep Times
+            sleepTime = wildWorldCityFolkSleepTimes[personality]['sleep'];
+            wakeTime = wildWorldCityFolkSleepTimes[personality]['wake']
+            sleepStatus['WWCF'] = determineSleepStatus(sleepTime, wakeTime, userTime);
+
+        } else if (shortTitle === "AFe+") {
+
+            // AC GameCube and Animal Forest Sleep Times
+            sleepTime = animalForestSleepTimes[personality]['sleep'];
+            wakeTime = animalForestSleepTimes[personality]['wake']
+            sleepStatus['ACAF'] = determineSleepStatus(sleepTime, wakeTime, userTime);
+
+        }
+    });
+
+    return sleepStatus;
+}
+
