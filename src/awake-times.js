@@ -228,12 +228,12 @@ function generateSleepTable(personalityMap) {
     // Now we can build the table from it.
     const sleepTable = $('<table/>')
         .attr('class', 'table table-borderless mt-3');
-    const thead = $('<thead/>')
-        .attr('class', 'bg-dark text-light');
-    thead.append($('<th/>').text('Schedule'));
-    thead.append($('<th/>').attr('class', 'sr-only').text('Property'));
-    thead.append($('<th/>').attr('class', 'sr-only').text('Value'));
-    sleepTable.append(thead);
+    sleepTable.append($('<thead/>')
+        .attr('class', 'bg-dark text-light')
+        .append($('<tr/>')
+            .append($('<th/>')
+                .attr('colspan', 2)
+                .text('Schedule'))));
     const tbody = $('<tbody/>');
 
     const tdClass = "bg-light text-dark font-weight-bold";
