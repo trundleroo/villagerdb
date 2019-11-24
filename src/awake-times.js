@@ -173,58 +173,69 @@ const time = new Date();
 const userTime = (time.getHours() * 60) + time.getMinutes();
 
 $(document).ready(function () {
-
     // Get personalities.
-    let personalityMap = $("#personality").attr("data-personality");
-    personalityMap = JSON.parse(personalityMap);
-
-    // Compute villager's sleep status and generate HTML.
-    const sleepStatus = getSleepStatus(personalityMap);
-    const sleepTable = generateSleepTable(sleepStatus);
-    $(".sleep-table").html(sleepTable);
-
+    const personalityMap = $("#personality").data("personality");
+    if (typeof personalityMap !== 'undefined') {
+        // Compute villager's sleep status and generate HTML.
+        const sleepStatus = getSleepStatus(personalityMap);
+        const sleepTable = generateSleepTable(sleepStatus);
+        $(".sleep-table").html(sleepTable);
+    }
 });
 
 function generateSleepTable(sleepStatus) {
-    let sleepTable = "<table class=\"table table-borderless mt-3\">" +
-        "<thead class=\"bg-dark text-light\">" +
-        " <th>Sleep Status</th>" +
-        " <th class=\"sr-only\">Property</th>" +
-        "<th class=\"sr-only\">Value</th>" +
-        "</thead>" +
-        "<tbody>";
+    const sleepTable = $('<table/>')
+        .attr('class', 'table table-borderless mt-3');
+    const thead = $('<thead/>')
+        .attr('class', 'bg-dark text-light');
+    thead.append($('<th/>').text('Sleep Status'));
+    thead.append($('<th/>').attr('class', 'sr-only').text('Property'));
+    thead.append($('<th/>').attr('class', 'sr-only').text('Value'));
+    sleepTable.append(thead);
+    const tbody = $('<tbody/>');
 
-    let tdClass = "bg-light text-dark font-weight-bold";
+    const tdClass = "bg-light text-dark font-weight-bold";
 
     if (sleepStatus['NL']) {
-        sleepTable += "<tr>" +
-            "<td class=\"" + tdClass + "\">New Leaf</td>" +
-            "<td>" + sleepStatus['NL'] + "</td>" +
-            "</tr>";
-        sleepTable += "<tr>" +
-            "<td class=\"" + tdClass + "\">New Leaf (Early Bird)</td>" +
-            "<td>" + sleepStatus['earlyBirdNL'] + "</td>" +
-            "</tr>";
-        sleepTable += "<tr>" +
-            "<td class=\"" + tdClass + "\">New Leaf (Night Owl)</td>" +
-            "<td>" + sleepStatus['nightOwlNL'] + "</td>" +
-            "</tr>";
+        tbody.append($('<tr/>')
+            .append($('<td/>')
+                .attr('class', tdClass)
+                .text('New Leaf'))
+            .append($('<td/>')
+                .text(sleepStatus['NL'])));
+        tbody.append($('<tr/>')
+            .append($('<td/>')
+                .attr('class', tdClass)
+                .text('New Leaf (Early Bird)'))
+            .append($('<td/>')
+                .text(sleepStatus['earlyBirdNL'])));
+        tbody.append($('<tr/>')
+            .append($('<td/>')
+                .attr('class', tdClass)
+                .text('New Leaf (Night Owl)'))
+            .append($('<td/>')
+                .text(sleepStatus['nightOwlNL'])));
     }
 
     if (sleepStatus['WWCF']) {
-        sleepTable += "<tr>" +
-            "<td class=\"" + tdClass + "\">Wild World/City Folk</td>" +
-            "<td>" + sleepStatus['WWCF'] + "</td>" +
-            "</tr>";
+        tbody.append($('<tr/>')
+            .append($('<td/>')
+                .attr('class', tdClass)
+                .text('Wild World/City Folk'))
+            .append($('<td/>')
+                .text(sleepStatus['WWCF'])));
     }
 
     if (sleepStatus['ACAF']) {
-        sleepTable += "<tr>" +
-            "<td class=\"" + tdClass + "\">Animal Crossing</td>" +
-            "<td>" + sleepStatus['ACAF'] + "</td>" +
-            "</tr>";
+        tbody.append($('<tr/>')
+            .append($('<td/>')
+                .attr('class', tdClass)
+                .text('Animal Crossing'))
+            .append($('<td/>')
+                .text(sleepStatus['ACAF'])));
     }
 
+    sleepTable.append(tbody);
     return sleepTable;
 }
 
