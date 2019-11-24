@@ -51,13 +51,13 @@ async function buildSearchIndex() {
                 game: {
                     type: 'keyword'
                 },
+                zodiac: {
+                    type: 'keyword'
+                },
                 name: {
                     type: 'text'
                 },
                 phrase: {
-                    type: 'text'
-                },
-                zodiac: {
                     type: 'text'
                 }
             }
@@ -81,11 +81,11 @@ async function buildSearchIndex() {
         };
 
         // Get unique phrases and personalities.
-        document.games = [];
+        document.game = [];
         document.phrase = [];
         document.personality = [];
         for (let game in parsed.games) {
-            document.games.push(game);
+            document.game.push(game);
 
             const phrase = parsed.games[game].phrase;
             const personality = parsed.games[game].personality;
@@ -99,7 +99,7 @@ async function buildSearchIndex() {
 
         // Zodiac?
         if (parsed.birthday) {
-            document.zodiac = formatUtil.getZodiac(moment(parsed.birthday + '-2000', 'MM-DD-YYYY'));
+            document.zodiac = formatUtil.getZodiac(moment(parsed.birthday + '-2000', 'MM-DD-YYYY')).toLowerCase();
         }
 
         // Create the villager document.

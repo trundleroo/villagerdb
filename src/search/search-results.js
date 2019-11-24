@@ -13,6 +13,13 @@ export default class SearchResults extends React.Component {
     }
 
     buildResults() {
+        // No results case.
+        if (this.props.results.length === 0) {
+            return (
+                <p>There were no results for your search.</p>
+            );
+        }
+
         const list = [];
         for (let result of this.props.results) {
             list.push(
