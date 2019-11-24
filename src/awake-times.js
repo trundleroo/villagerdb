@@ -1,5 +1,21 @@
 const $ = require('jquery');
 
+/**
+ * Displayed text when villager is awake.
+ * @type {string}
+ */
+const AWAKE_TEXT = "Awake";
+
+/**
+ * Displayed text when villager is asleep.
+ * @type {string}
+ */
+const ASLEEP_TEXT = "Asleep";
+
+/**
+ * Relation of personality and city ordinance with awake/sleeping times in New Leaf.
+ * @type {{}}
+ */
 const newLeafSleepTimes = {
     "Cranky" : {
         "normal" : {
@@ -115,6 +131,10 @@ const newLeafSleepTimes = {
     }
 }
 
+/**
+ * Relation of personality to waking/sleeping time in Wild World and City Folk.
+ * @type {{}}
+ */
 const wildWorldCityFolkSleepTimes = {
     "Cranky" : {
         "wake" : 600,
@@ -142,6 +162,10 @@ const wildWorldCityFolkSleepTimes = {
     }
 }
 
+/**
+ * Relation of personality to waking/sleeping time in all games before Wild World.
+ * @type {{}}
+ */
 const animalForestSleepTimes = {
     "Cranky" : {
         "wake" : 600,
@@ -169,26 +193,44 @@ const animalForestSleepTimes = {
     }
 }
 
+/**
+ * Current user's time.
+ * @type {Date}
+ */
 const time = new Date();
+
+/**
+ * Current user's time, in minutes since midnight.
+ * @type {number}
+ */
 const userTime = (time.getHours() * 60) + time.getMinutes();
 
 $(document).ready(function () {
-    // Get personalities.
-    const personalityMap = $("#personality").data("personality");
+    // Get personalities and compute data if existing.
+    const personalityMap = $("#personality-data").data("personality");
     if (typeof personalityMap !== 'undefined') {
-        // Compute villager's sleep status and generate HTML.
-        const sleepStatus = getSleepStatus(personalityMap);
-        const sleepTable = generateSleepTable(sleepStatus);
-        $(".sleep-table").html(sleepTable);
+        // Compute villager's sleep status and generate jQuery object to be appended.
+        const sleepTable = generateSleepTable(personalityMap);
+        $(".sleep-table").append(sleepTable);
     }
 });
 
-function generateSleepTable(sleepStatus) {
+/**
+ * Builds the schedule table and returns it as a jQuery object.
+ *
+ * @param personalityMap the mapping of personality to game for this villager.
+ * @returns {*|jQuery|undefined}
+ */
+function generateSleepTable(personalityMap) {
+    // Get the sleep status first.
+    const sleepStatus = getSleepStatus(personalityMap);
+
+    // Now we can build the table from it.
     const sleepTable = $('<table/>')
         .attr('class', 'table table-borderless mt-3');
     const thead = $('<thead/>')
         .attr('class', 'bg-dark text-light');
-    thead.append($('<th/>').text('Sleep Status'));
+    thead.append($('<th/>').text('Schedule'));
     thead.append($('<th/>').attr('class', 'sr-only').text('Property'));
     thead.append($('<th/>').attr('class', 'sr-only').text('Value'));
     sleepTable.append(thead);
@@ -200,7 +242,7 @@ function generateSleepTable(sleepStatus) {
         tbody.append($('<tr/>')
             .append($('<td/>')
                 .attr('class', tdClass)
-                .text('New Leaf'))
+                .text('New Leaf (Regular)'))
             .append($('<td/>')
                 .text(sleepStatus['NL'])));
         tbody.append($('<tr/>')
@@ -239,24 +281,37 @@ function generateSleepTable(sleepStatus) {
     return sleepTable;
 }
 
+/**
+ * Returns AWAKE_STATUS or SLEEP_STATUS text depending on input.
+ *
+ * @param sleepTime the time the villager goes to sleep, in minutes since midnight
+ * @param wakeTime the time the villager wakes up, in minutes since midnight
+ * @param userTime the current user's time, in minutes since midnight
+ * @returns {string}
+ */
 function determineSleepStatus(sleepTime, wakeTime, userTime) {
     let result;
     if (sleepTime > wakeTime) {
-            result = "asleep";
+            result = ASLEEP_TEXT;
         if (wakeTime < userTime && userTime < sleepTime) {
-            result = "awake";
+            result = AWAKE_TEXT;
         }
     } else {
-        result = "awake";
+        result = AWAKE_TEXT;
         if (sleepTime < userTime && userTime < wakeTime) {
-            result = "asleep";
+            result = ASLEEP_TEXT;
         }
     }
     return result;
 }
 
+/**
+ * Returns sleep status object for the given personality to game map for this villager.
+ *
+ * @param personalityMap
+ * @returns {{}}
+ */
 function getSleepStatus(personalityMap) {
-
     let sleepStatus = {};
 
     personalityMap.forEach(function(entry) {
@@ -267,7 +322,6 @@ function getSleepStatus(personalityMap) {
         let wakeTime;
 
         if (shortTitle === "NL") {
-
             // New Leaf Normal Sleep Times
             sleepTime = newLeafSleepTimes[personality]['normal']['sleep'];
             wakeTime = newLeafSleepTimes[personality]['normal']['wake'];
@@ -282,24 +336,18 @@ function getSleepStatus(personalityMap) {
             sleepTime = newLeafSleepTimes[personality]['nightOwl']['sleep'];
             wakeTime = newLeafSleepTimes[personality]['nightOwl']['wake']
             sleepStatus['nightOwlNL'] = determineSleepStatus(sleepTime, wakeTime, userTime);
-
         } else if (shortTitle === "CF") {
-
             // City Folk and Wild World Sleep Times
             sleepTime = wildWorldCityFolkSleepTimes[personality]['sleep'];
             wakeTime = wildWorldCityFolkSleepTimes[personality]['wake']
             sleepStatus['WWCF'] = determineSleepStatus(sleepTime, wakeTime, userTime);
-
         } else if (shortTitle === "AFe+") {
-
             // AC GameCube and Animal Forest Sleep Times
             sleepTime = animalForestSleepTimes[personality]['sleep'];
             wakeTime = animalForestSleepTimes[personality]['wake']
             sleepStatus['ACAF'] = determineSleepStatus(sleepTime, wakeTime, userTime);
-
         }
     });
 
     return sleepStatus;
 }
-
