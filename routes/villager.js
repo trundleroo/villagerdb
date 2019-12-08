@@ -1,24 +1,62 @@
 const express = require('express');
-const router = express.Router();
-const formatUtil = require('../db/util/format.js');
+const moment = require('moment');
+const format = require('../helpers/format.js');
+const villagers = require('../db/entity/villagers');
 
 /**
- * Return a <word> or an <word> depending on first character.
+ * Format a villager for user display.
  *
- * @param word
- * @returns {string}
+ * @param villager
  */
-function aOrAn(word) {
-    if (word.length === 0) {
-        return '';
+function formatVillager(villager) {
+    const result = {};
+
+    // Name, gender, species and birthday
+    result.id = villager.id;
+    result.gender = format.capFirstLetter(villager.gender);
+    result.species = format.capFirstLetter(villager.species);
+
+    if (villager.birthday) {
+        let momentBirthdate = moment(villager.birthday + '-2000', 'MM-DD-YYYY'); // we only store month/year, so add 2000.
+        result.birthday = momentBirthdate.format('MMMM Do');
+        result.zodiac = format.getZodiac(momentBirthdate);
+    } else {
+        result.birthday = 'Unknown'; // TODO
+        result.zodiac = 'Unknown'; // TODO
     }
 
-    const firstChar = word[0].toLowerCase();
-    if (firstChar === 'a' || firstChar === 'e' || firstChar === 'i' || firstChar === 'o' || firstChar === 'u') {
-        return 'an ' + word;
+    // All the game-specific data, sort games in reverse chronological order.
+    result.games = {};
+    result.gameTitles = [];
+    const gamesSorted = Object.entries(format.games)
+        .sort((a, b) => {
+            return (a[1].order >= b[1].order) ? -1 : 1;
+        })
+        .map((a) => {
+            return a[0];
+        });
+    for (let game of gamesSorted) {
+        let data = villager.games[game];
+        if (data) {
+            result.gameTitles.push(format.games[game].title);
+            result.games[game] = {
+                personality: format.capFirstLetter(data.personality),
+                clothes: data.clothes,
+                song: data.song,
+                phrase: data.phrase
+            };
+        }
     }
 
-    return 'a ' + word;
+    // Coffee data, if we have any (new leaf only)
+    result.coffee = [];
+    if (villager.games['nl'] && villager.games['nl'].coffee) {
+        result.coffee.push(villager.games['nl'].coffee.beans + ',');
+        result.coffee.push(villager.games['nl'].coffee.milk + ',');
+        result.coffee.push(villager.games['nl'].coffee.sugar);
+    }
+
+    return result;
 }
 
 /**
@@ -31,9 +69,9 @@ function findLatestGame(villager) {
     let gameIndex = -1;
     let latestGame = undefined;
     for (let game in villager.games) {
-        if (gameIndex < formatUtil.games[game].order) {
+        if (gameIndex < format.games[game].order) {
             latestGame = game;
-            gameIndex = formatUtil.games[game].order;
+            gameIndex = format.games[game].order;
         }
     }
 
@@ -55,33 +93,33 @@ function generateParagraph(villager, formattedVillager) {
     let gameData = villager.games[latestGameId];
 
     // Properties
-    let name = formattedVillager.name;
+    let name = villager.name;
     let pronoun = (villager.gender === 'male' ? 'he' : 'she');
     let posessivePronoun = (villager.gender == 'male' ? 'his' : 'her');
-    let posessive = formattedVillager.name + '\'s';
+    let posessive = villager.name + '\'s';
     let species = formattedVillager.species.toLowerCase();
     let personality = gameData.personality;
     let birthday = formattedVillager.birthday;
     let zodiac = formattedVillager.zodiac;
 
     // Build paragraph
-    let paragraph = name + ' is ' + aOrAn(personality.toLowerCase()) + ' ' + species + ' villager. ' +
-        formatUtil.capFirstLetter(pronoun) + ' was born on ' + birthday + ' and ' + posessivePronoun +
+    let paragraph = name + ' is ' + format.aOrAn(personality.toLowerCase()) + ' ' + species + ' villager. ' +
+        format.capFirstLetter(pronoun) + ' was born on ' + birthday + ' and ' + posessivePronoun +
         ' star sign  is ' + zodiac + '. ';
     if (gameData.clothes) {
         paragraph += name + ' wears the ' + gameData.clothes + '. ';
     }
     if (gameData.song) {
-        paragraph += formatUtil.capFirstLetter(posessivePronoun) + ' favorite song is ' + gameData.song + '. ';
+        paragraph += format.capFirstLetter(posessivePronoun) + ' favorite song is ' + gameData.song + '. ';
     }
     if (gameData.goal) {
-        paragraph += posessive + ' goal is to be ' + aOrAn(gameData.goal.toLowerCase()) + '. ';
+        paragraph += posessive + ' goal is to be ' + format.aOrAn(gameData.goal.toLowerCase()) + '. ';
     }
     if (gameData.skill) {
-        paragraph += formatUtil.capFirstLetter(pronoun) + ' is talented at ' + gameData.skill.toLowerCase() + '. ';
+        paragraph += format.capFirstLetter(pronoun) + ' is talented at ' + gameData.skill.toLowerCase() + '. ';
     }
     if (gameData.favoriteStyle && gameData.dislikedStyle) {
-        paragraph += formatUtil.capFirstLetter(posessivePronoun) + ' favorite style is ' +
+        paragraph += format.capFirstLetter(posessivePronoun) + ' favorite style is ' +
             gameData.favoriteStyle.toLowerCase() + ', but ' + pronoun + ' dislikes the ' +
             gameData.dislikedStyle.toLowerCase() + ' style. ';
     }
@@ -113,9 +151,9 @@ function compressGameData(games, property) {
         if (newValue) {
             newValue = newValue.trim().toLowerCase().replace(/\s+/g, ' ');
             result.push({
-                shortTitle: formatUtil.games[game].shortTitle,
-                title: formatUtil.games[game].title,
-                year: formatUtil.games[game].year,
+                shortTitle: format.games[game].shortTitle,
+                title: format.games[game].title,
+                year: format.games[game].year,
                 value: games[game][property],
                 isNew: (lastValue !== newValue)
             });
@@ -139,7 +177,7 @@ function getQuotes(villager, formattedVillager) {
     for (let game in formattedVillager.games) {
         if (villager.games[game].quote) {
             quotes.push({
-                title: formatUtil.games[game].title,
+                title: format.games[game].title,
                 quote: villager.games[game].quote
             });
         }
@@ -151,13 +189,12 @@ function getQuotes(villager, formattedVillager) {
 /**
  * Load the specified villager.
  *
- * @param collection
  * @param id
  * @returns {Promise<{}>}
  */
-async function loadVillager(collection, id) {
+async function loadVillager(id) {
     // Load villager
-    const villager = await collection.getById(id);
+    const villager = await villagers.getById(id);
     if (!villager) {
         let e = new Error('Villager not found');
         e.status = 404;
@@ -165,7 +202,7 @@ async function loadVillager(collection, id) {
     }
 
     // Format villager
-    const result = formatUtil.formatVillager(villager);
+    const result = formatVillager(villager);
 
     // Some extra metadata the template needs.
     result.id = villager.id;
@@ -195,14 +232,16 @@ async function loadVillager(collection, id) {
     // For frontend awake/asleep calculation.
     result.personalityMap = JSON.stringify(compressGameData(result.games, 'personality'));
 
+    // Images.
+    result.image = villager.image;
+
     return result;
 }
 
-/* GET villager page. */
+const router = express.Router();
 router.get('/:id', function (req, res, next) {
-    loadVillager(res.app.locals.db.villagers, req.params.id)
+    loadVillager(req.params.id)
         .then((data) => {
-            data.pageTitle = data.name;
             res.render('villager', data);
         }).catch(next);
 });

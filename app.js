@@ -6,31 +6,19 @@ const lessMiddleware = require('less-middleware');
 const favicon = require('serve-favicon');
 const logger = require('morgan');
 const hbs = require('express-handlebars');
-const staticify = require('staticify');
+const staticify = require('./config/staticify');
 
 const indexRouter = require('./routes/index');
-const villagersRouter = require('./routes/villagers');
+const autocompleteRouter = require('./routes/autocomplete');
+const searchRouter = require('./routes/search');
 const villagerRouter = require('./routes/villager');
+const villagersRouter = require('./routes/villagers');
+const itemRouter = require('./routes/item');
+const itemsRouter = require('./routes/items');
 
 const app = express();
 
-// We only use staticify in production. In development, don't use it, and don't
-// render versioned paths, either.
-let getVersionedPath;
-if (app.get('env') === 'production') {
-    getVersionedPath = (path) => {
-        return staticifyConfigured.getVersionedPath(path);
-    }
-
-    const staticifyConfigured = staticify(path.join(process.cwd(), 'public'));
-    app.use(staticifyConfigured.middleware);
-} else {
-    getVersionedPath = (path) => {
-        return path;
-    }
-}
-
-// view engine setup
+// Handlebars setup
 app.set('views', path.join(__dirname, 'views'));
 const handlebars = hbs.create({
     extname: 'hbs',
@@ -38,7 +26,7 @@ const handlebars = hbs.create({
     layoutsDir: __dirname + '/views/layouts/',
     partialsDir: __dirname + '/views/partials/',
     helpers: {
-        getVersionedPath: getVersionedPath
+        getVersionedPath: staticify.getVersionedPath
     }
 });
 app.engine('hbs', handlebars.engine);
@@ -49,11 +37,12 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-// Do not panic if favicon.ico can't be found.
+// Setup favicon, but do not panic if favicon.ico can't be found.
 try {
     app.use(favicon(path.join(__dirname, 'public', 'images', 'favicon.ico')));
 } catch (e) {
     console.log('Warning: favicon middleware reported an error. Skipping.');
+    console.error(e);
 }
 
 // Everything styling related...
@@ -65,20 +54,27 @@ app.use('/webfonts/fa',
 app.use('/webfonts/slick',
     express.static(path.join(__dirname, 'node_modules', 'slick-carousel', 'slick', 'fonts')));
 
+// Staticify
+app.use(staticify.middleware);
+
 // Do not send X-Powered-By header.
 app.disable('x-powered-by');
 
 // Router setup.
 app.use('/', indexRouter);
-app.use('/villagers', villagersRouter);
+app.use('/autocomplete', autocompleteRouter);
+app.use('/search', searchRouter);
 app.use('/villager', villagerRouter);
+app.use('/villagers', villagersRouter);
+app.use('/item', itemRouter);
+app.use('/items', itemsRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
 });
 
-// error handler
+// Error handler
 app.use(function(err, req, res, next) {
   // set locals, only providing error in development
   res.locals.message = err.message;
