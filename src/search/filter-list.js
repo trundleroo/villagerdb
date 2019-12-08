@@ -43,7 +43,11 @@ export default class FilterList extends React.Component {
             }
 
             const values = this.props.appliedFilters[filterId].map((v) => {
-                return this.props.allFilters[filterId].values[v];
+                if (this.props.allFilters[filterId].values) {
+                    return this.props.allFilters[filterId].values[v];
+                } else {
+                    return v;
+                }
             });
             const valuesString = values.sort().join(', ');
             alreadyApplied.push(
@@ -181,7 +185,7 @@ export default class FilterList extends React.Component {
     }
 
     removeFilter(filterId) {
-        const appliedFilters = this.props.appliedFilters;
+        const appliedFilters = JSON.parse(JSON.stringify(this.props.appliedFilters));
         delete appliedFilters[filterId];
 
         this.props.onFilterChange(appliedFilters);
@@ -189,7 +193,16 @@ export default class FilterList extends React.Component {
 
     clearAllFilters(e) {
         e.preventDefault();
-        this.props.onFilterChange({});
+
+        // Remove all aggregable filters.
+        const appliedFilters = JSON.parse(JSON.stringify(this.props.appliedFilters));
+        for (let filterId in appliedFilters) {
+            if (this.props.allFilters[filterId].canAggregate) {
+                delete appliedFilters[filterId];
+            }
+        }
+
+        this.props.onFilterChange(appliedFilters);
     }
 
     /**

@@ -2,9 +2,13 @@
 
 const fs = require('fs');
 const path = require('path');
-const formatUtil = require('../db/util/format');
 const moment = require('moment');
 const elasticsearch = require('elasticsearch');
+
+const staticify = require('../config/staticify');
+const searchConfig = require('../config/search.js');
+const formatHelper = require('../helpers/format');
+const urlHelper = require('../helpers/url');
 
 function usage() {
     console.error('Usage: bin/util <command>');
@@ -16,7 +20,7 @@ async function deleteSearchIndex() {
 
     // Delete the elasticsearch index
     return es.indices.delete({
-        index: 'villager'
+        index: searchConfig.elasticSearchIndexName
     })
 }
 
@@ -25,16 +29,19 @@ async function buildSearchIndex() {
 
     // Create the index.
     await es.indices.create({
-        index: 'villager'
+        index: searchConfig.elasticSearchIndexName
     });
 
     // Define the index mappings properly.
     await es.indices.putMapping({
-        index: 'villager',
+        index: searchConfig.elasticSearchIndexName,
         body: {
             properties: {
                 suggest: {
                     type: 'completion'
+                },
+                type: {
+                    type: 'keyword'
                 },
                 keyword: {
                     type: 'keyword'
@@ -54,6 +61,21 @@ async function buildSearchIndex() {
                 zodiac: {
                     type: 'keyword'
                 },
+                category: {
+                    type: 'keyword'
+                },
+                interiorTheme: {
+                    type: 'keyword',
+                },
+                fashionTheme: {
+                    type: 'keyword'
+                },
+                orderable: {
+                    type: 'boolean'
+                },
+                set: {
+                    type: 'keyword'
+                },
                 name: {
                     type: 'text'
                 },
@@ -64,6 +86,17 @@ async function buildSearchIndex() {
         }
     });
 
+    await indexVillagers(es);
+    await indexItems(es);
+}
+
+/**
+ * Add villagers to the entity index.
+ *
+ * @param es
+ * @returns {Promise<void>}
+ */
+async function indexVillagers(es) {
     const files = fs.readdirSync(path.join('data', 'villagers'));
     for (let file of files) {
         const data = fs.readFileSync(path.join('data', 'villagers', file), 'utf8');
@@ -71,13 +104,17 @@ async function buildSearchIndex() {
 
         // Build document.
         const document = {
+            type: searchConfig.villagerEntityType,
             suggest: {
                 input: parsed.name
             },
-            keyword: parsed.name,
+            keyword: parsed.name.toLowerCase(),
             gender: parsed.gender,
             species: parsed.species,
             name: parsed.name,
+            url: urlHelper.getEntityUrl(searchConfig.villagerEntityType, parsed.id),
+            imageUrl: staticify.getVersionedPath(urlHelper.getImageUrl(searchConfig.villagerEntityType,
+                urlHelper.THUMB, parsed.id))
         };
 
         // Get unique phrases and personalities.
@@ -99,17 +136,75 @@ async function buildSearchIndex() {
 
         // Zodiac?
         if (parsed.birthday) {
-            document.zodiac = formatUtil.getZodiac(moment(parsed.birthday + '-2000', 'MM-DD-YYYY')).toLowerCase();
+            document.zodiac = formatHelper.getZodiac(moment(parsed.birthday + '-2000', 'MM-DD-YYYY')).toLowerCase();
         }
 
         // Create the villager document.
         await es.index({
-            index: 'villager',
-            id: parsed.id,
+            index: searchConfig.elasticSearchIndexName,
+            id: searchConfig.villagerEntityType + '-' + parsed.id,
             body: document
         });
         console.log('Indexed ' + parsed.id);
     }
+}
+
+/**
+ * Add items to the entity index.
+ *
+ * @param es
+ * @returns {Promise<void>}
+ */
+async function indexItems(es) {
+    const files = fs.readdirSync(path.join('data', 'items'));
+    for (let file of files) {
+        const data = fs.readFileSync(path.join('data', 'items', file), 'utf8');
+        const parsed = JSON.parse(data);
+
+        // Build document.
+        const document = {
+            type: searchConfig.itemEntityType,
+            suggest: {
+                input: parsed.name
+            },
+            keyword: parsed.name.toLowerCase(),
+            name: parsed.name,
+            category: parsed.category,
+            game: [],
+            url: urlHelper.getEntityUrl(searchConfig.itemEntityType, parsed.id),
+            imageUrl: urlHelper.getImageUrl(searchConfig.itemEntityType, urlHelper.THUMB, parsed.id)
+        };
+
+        for (let game in parsed.games) {
+            document.game.push(game);
+            document.orderable = parsed.games[game].orderable ? true : false;
+            document.interiorTheme = parsed.games[game].interiorThemes;
+            document.fashionTheme = parsed.games[game].fashionThemes;
+            document.set = parsed.games[game].set;
+        }
+
+        // Create the item document.
+        await es.index({
+            index: searchConfig.elasticSearchIndexName,
+            id: searchConfig.itemEntityType + '-' + parsed.id,
+            body: document
+        });
+        console.log('Indexed ' + parsed.id);
+    }
+}
+
+/**
+ * Build the villager and item databases. This will clear them before building them.
+ *
+ */
+async function buildRedisDb() {
+    const villagers = require('../db/entity/villagers');
+    const items = require('../db/entity/items');
+
+    await villagers.populateRedis()
+    console.log('Villager database populated.');
+    await items.populateRedis();
+    console.log('Items database populated.');
 }
 
 if (process.argv.length !== 3) {
@@ -124,18 +219,29 @@ if (!command) {
         .catch((e) => {
         }) // doesn't matter that it failed to delete
         .then(() => {
-            console.log('Deleted villager index.');
+            console.log('Deleted ' + searchConfig.elasticSearchIndexName + ' index.');
         });
 } else if (command === 'build-search-index') {
     buildSearchIndex()
         .then(() => {
-            console.log('Built search index successfully.');
+            console.log('Built ' + searchConfig.elasticSearchIndexName + ' index successfully.');
         })
         .catch((e) => {
             console.log('Failed to build search index.');
             console.error(e);
         });
+} else if (command === 'build-redis-db') {
+    const redisConnection = require('../db/redis');
+    buildRedisDb()
+        .then(() => {
+            // So the process will actually terminate.
+            redisConnection.quit();
+        })
+        .catch((e) => {
+            console.log('Error building redis db.');
+            console.error(e);
+        })
 } else {
-    console.error('Valid commands: delete-search-index, build-search-index');
+    console.error('Valid commands: delete-search-index, build-search-index, build-redis-db.');
     process.exit(1);
 }

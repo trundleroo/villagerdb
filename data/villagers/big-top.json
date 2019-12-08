@@ -1,0 +1,62 @@
+{
+  "gender": "male",
+  "species": "elephant",
+  "birthday": "10-3",
+  "games": {
+    "af": {
+      "personality": "lazy",
+      "clothes": "No. 3 Shirt",
+      "song": "K.K. Metal"
+    },
+    "af+": {
+      "personality": "lazy",
+      "clothes": "No. 3 Shirt",
+      "song": "K.K. Metal"
+    },
+    "ac": {
+      "personality": "lazy",
+      "clothes": "No. 3 Shirt",
+      "song": "K.K. Metal",
+      "phrase": "villain"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "No. 3 Shirt",
+      "song": "K.K. Metal"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "No. 3 Shirt",
+      "song": "K.K. Metal",
+      "phrase": "villain",
+      "quote": "World domination!"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "No. 3 Shirt",
+      "song": "K.K. Metal",
+      "phrase": "villain"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "No. 3 Shirt",
+      "song": "K.K. Metal",
+      "phrase": "villain",
+      "skill": "Tiptoeing",
+      "goal": "Superhero",
+      "fear": "Bug Mask",
+      "quote": "A big nose never spoiled a handsome face.",
+      "siblings": "Third of 5 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    }
+  },
+  "name": "Big Top",
+  "id": "big-top"
+}

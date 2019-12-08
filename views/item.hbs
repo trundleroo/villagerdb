@@ -1,0 +1,146 @@
+<h1>{{pageTitle}}</h1>
+<div class="row">
+    <div class="col-sm-12 col-md-4 order-md-12 order-sm-1">
+        <div class="text-center">
+            <div>
+                <a target="_blank" href="{{image.full}}">
+                    <img src="{{image.medium}}" alt="In-game image of {{pageTitle}}"
+                         style="max-width: 200px; max-height: 200px;"/>
+                </a>
+            </div>
+        </div>
+
+        <div class="mt-3 mb-3 text-right">
+            {{> social-media shareUrl=shareUrl}}
+        </div>
+
+        <table class="table table-borderless">
+            <thead class="bg-dark text-light">
+            <tr>
+                <th>Appears In</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <ul class="list-unstyled">
+                        {{#each games}}
+                            <li>{{gameTitle}}</li>
+                        {{/each}}
+                    </ul>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="col-sm-12 col-md-8 order-md-1 order-sm-12">
+        <h2 class="sr-only">Summary</h2>
+        <p>{{paragraph}}</p>
+
+        {{#each games}}
+            <h3>In {{gameTitle}}</h3>
+            <table class="table item-game-data">
+                <thead class="sr-only">
+                <tr>
+                    <th>Key</th>
+                    <th>Value</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="bg-light text-dark font-weight-bold align-middle">Orderable?</td>
+                    <td class="align-middle">
+                        {{#if orderable}}
+                            Yes
+                        {{else}}
+                            No
+                        {{/if}}
+                    </td>
+                </tr>
+
+                {{#if hasSource }}
+                    <tr>
+                        <td class="bg-light text-dark font-weight-bold align-middle">Where to get</td>
+                        <td class="align-middle">
+                            <ul class="list-unstyled">
+                                {{#each source}}
+                                    <li>{{this}}</li>
+                                {{/each}}
+                            </ul>
+                        </td>
+                    </tr>
+                {{/if}}
+
+                <tr>
+                    <td class="bg-light text-dark font-weight-bold align-middle">Cost</td>
+                    <td class="align-middle">
+                        {{#if buyable }}
+                            <ul class="list-unstyled">
+                                {{#each bellCost }}
+                                    <li> <span class="fas fa-bell"></span> {{this}} bells</li>
+                                {{/each}}
+                                {{#each meowCost }}
+                                    <li><span class="fas fa-money-bill-wave"></span> {{this}} MEOW coupons</li>
+                                {{/each}}
+                            </ul>
+                        {{else}}
+                            Not purchasable
+                        {{/if}}
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="bg-light text-dark font-weight-bold align-middle">Sells for</td>
+                    <td class="align-middle">
+                        {{#if sellable }}
+                            <ul class="list-unstyled">
+                                {{#each bellPrice }}
+                                    <li><span class="fas fa-bell"></span> {{this}} bells</li>
+                                {{/each}}
+                            </ul>
+                        {{else}}
+                            Not sellable
+                        {{/if}}
+                    </td>
+                </tr>
+
+                {{#if hasFashionTheme }}
+                    <tr>
+                        <td class="bg-light text-dark font-weight-bold align-middle">Fashion Themes</td>
+                        <td class="align-middle">
+                            <ul class="list-unstyled">
+                                {{#each fashionTheme}}
+                                    <li>{{this}}</li>
+                                {{/each}}
+                            </ul>
+                        </td>
+                    </tr>
+                {{/if}}
+
+                {{#if hasInteriorTheme }}
+                    <tr>
+                        <td class="bg-light text-dark font-weight-bold align-middle">Interior Themes</td>
+                        <td class="align-middle">
+                            <ul class="list-unstyled">
+                                {{#each interiorTheme}}
+                                    <li>{{this}}</li>
+                                {{/each}}
+                            </ul>
+                        </td>
+                    </tr>
+                {{/if}}
+
+                {{#if hasSet }}
+                    <tr>
+                        <td class="bg-light text-dark font-weight-bold align-middle">Set</td>
+                        <td class="align-middle">
+                            {{set}}
+                        </td>
+                    </tr>
+                {{/if}}
+                </tbody>
+            </table>
+        {{/each}}
+    </div>
+</div>

@@ -1,38 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>{{pageTitle}} | VillagerDb</title>
+    <title>{{pageTitle}} | Animal Crossing Villager and Item Database</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel='stylesheet' href="{{getVersionedPath '/stylesheets/style.css'}}">
 </head>
 <body>
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <a class="navbar-brand" href="/">
-        <span class="sr-only">VillagerDb</span>
-        <img class="sr-hidden" src="/images/logo-navbar.png" alt="VillagerDB logo" />
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarsExample04">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="/">Villagers</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-
+{{> nav }}
+{{> search-bar searchQuery=searchQuery }}
 <main role="main" class="container-fluid">
     <div id="content">
         {{{body}}}
     </div>
 </main>
-<footer id="footer" class="page-footer mt-4 mb-4">
+<footer id="footer" class="page-footer mt-4">
     <div class="container">
         <p class="text-center">
-            Animal Crossing is a registered trademark of Nintendo. VillagerDb in no way claims ownership of any
+            <a target="_blank" href="https://animal-crossing.com/">Animal Crossing</a> is a registered trademark of
+            <a target="_blank" href="https://www.nintendo.com/">Nintendo</a>.
+            VillagerDB in no way claims ownership of any
             intellectual property associated with Animal Crossing.
         </p>
         <p class="text-center">
