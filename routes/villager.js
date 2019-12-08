@@ -12,7 +12,6 @@ function formatVillager(villager) {
     const result = {};
 
     // Name, gender, species and birthday
-    result.id = villager.id;
     result.gender = format.capFirstLetter(villager.gender);
     result.species = format.capFirstLetter(villager.species);
 
@@ -26,25 +25,23 @@ function formatVillager(villager) {
     }
 
     // All the game-specific data, sort games in reverse chronological order.
-    result.games = {};
+    result.games = [];
     result.gameTitles = [];
-    const gamesSorted = Object.entries(format.games)
-        .sort((a, b) => {
-            return (a[1].order >= b[1].order) ? -1 : 1;
-        })
-        .map((a) => {
-            return a[0];
-        });
-    for (let game of gamesSorted) {
-        let data = villager.games[game];
-        if (data) {
-            result.gameTitles.push(format.games[game].title);
-            result.games[game] = {
-                personality: format.capFirstLetter(data.personality),
-                clothes: data.clothes,
-                song: data.song,
-                phrase: data.phrase
-            };
+    for (let gameId in format.games) {
+        let game = villager.games[gameId];
+        if (game) {
+            result.gameTitles.push(format.games[gameId].title);
+            result.games.push({
+                gameTitle: format.games[gameId].title,
+                hasClothes: typeof game.clothes !== 'undefined',
+                clothes: game.clothes,
+                hasPersonality: typeof game.clothes !== 'undefined',
+                personality: format.capFirstLetter(game.personality),
+                hasPhrase: typeof game.phrase !== 'undefined',
+                phrase: game.phrase,
+                hasSong: typeof game.song !== 'undefined',
+                song: game.song,
+            });
         }
     }
 
@@ -60,25 +57,6 @@ function formatVillager(villager) {
 }
 
 /**
- * Find the latest game a villager was featured in.
- *
- * @param villager
- * @returns the game ID or undefined if none found.
- */
-function findLatestGame(villager) {
-    let gameIndex = -1;
-    let latestGame = undefined;
-    for (let game in villager.games) {
-        if (gameIndex < format.games[game].order) {
-            latestGame = game;
-            gameIndex = format.games[game].order;
-        }
-    }
-
-    return latestGame;
-}
-
-/**
  * Generate a sentence for the given villager.
  *
  * @param villager
@@ -86,21 +64,26 @@ function findLatestGame(villager) {
  */
 function generateParagraph(villager, formattedVillager) {
     // Find the latest game they are in.
-    let latestGameId = findLatestGame(villager);
-    if (!latestGameId) {
+    let gameData = undefined;
+    for (let gameId in format.games) {
+        if (villager.games[gameId]) {
+            gameData = villager.games[gameId];
+            break;
+        }
+    }
+    if (!gameData) {
         return '';
     }
-    let gameData = villager.games[latestGameId];
 
     // Properties
-    let name = villager.name;
-    let pronoun = (villager.gender === 'male' ? 'he' : 'she');
-    let posessivePronoun = (villager.gender == 'male' ? 'his' : 'her');
-    let posessive = villager.name + '\'s';
-    let species = formattedVillager.species.toLowerCase();
-    let personality = gameData.personality;
-    let birthday = formattedVillager.birthday;
-    let zodiac = formattedVillager.zodiac;
+    const name = villager.name;
+    const pronoun = (villager.gender === 'male' ? 'he' : 'she');
+    const posessivePronoun = (villager.gender == 'male' ? 'his' : 'her');
+    const posessive = villager.name + '\'s';
+    const species = formattedVillager.species.toLowerCase();
+    const personality = gameData.personality;
+    const birthday = formattedVillager.birthday;
+    const zodiac = formattedVillager.zodiac;
 
     // Build paragraph
     let paragraph = name + ' is ' + format.aOrAn(personality.toLowerCase()) + ' ' + species + ' villager. ' +
@@ -174,7 +157,7 @@ function compressGameData(games, property) {
  */
 function getQuotes(villager, formattedVillager) {
     const quotes = [];
-    for (let game in formattedVillager.games) {
+    for (let game in villager.games) {
         if (villager.games[game].quote) {
             quotes.push({
                 title: format.games[game].title,
@@ -196,32 +179,22 @@ async function loadVillager(id) {
     // Load villager
     const villager = await villagers.getById(id);
     if (!villager) {
-        let e = new Error('Villager not found');
+        const e = new Error('Villager not found');
         e.status = 404;
         throw e;
     }
 
     // Format villager
-    const result = formatVillager(villager);
+    const result = {};
+    Object.assign(result, formatVillager(villager));
 
     // Some extra metadata the template needs.
     result.id = villager.id;
     result.pageTitle = villager.name;
 
-    // Game-specific attributes.
+    // Quotes
     result.quotes = getQuotes(villager, result);
-    result.personalities = compressGameData(result.games, 'personality');
-    result.clothing = compressGameData(result.games, 'clothes');
-    result.phrases = compressGameData(result.games, 'phrase');
-    result.songs = compressGameData(result.games, 'song');
-
-    // Booleans for the template.
-    result.hasPersonalities = result.personalities.length > 0;
-    result.hasClothing = result.clothing.length > 0;
-    result.hasPhrases = result.phrases.length > 0;
-    result.hasSongs = result.songs.length > 0;
     result.hasQuotes = result.quotes.length > 0;
-    result.hasCoffee = result.coffee.length > 0;
 
     // Generate the paragraph.
     result.paragraph = generateParagraph(villager, result);
@@ -230,7 +203,7 @@ async function loadVillager(id) {
     result.shareUrl = encodeURIComponent('https://villagerdb.com/villager/' + result.id);
 
     // For frontend awake/asleep calculation.
-    result.personalityMap = JSON.stringify(compressGameData(result.games, 'personality'));
+    result.personalityMap = JSON.stringify(compressGameData(villager.games, 'personality'));
 
     // Images.
     result.image = villager.image;
