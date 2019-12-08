@@ -3,6 +3,7 @@
 // Requirements.
 const cron = require('node-cron');
 const birthdays = require('../db/birthdays');
+const siteMap = require('../helpers/sitemap');
 
 // Now, start the scheduler.
 scheduleCrons();
@@ -15,6 +16,10 @@ function scheduleCrons() {
     // where the server wasn't running at midnight, we'd like it to update anyway.
     cron.schedule('0 * * * *', () => {
         clearBirthdays();
+    });
+
+    cron.schedule('0 0 * * * *', () => {
+        siteMap.generateMap();
     });
 }
 
