@@ -71,7 +71,7 @@ const router = express.Router();
 // Build the URLs based on the slugs above.
 for (let slug in categories) {
     router.get('/' + slug, (req, res, next) => {
-        res.redirect('/' + slug + '/page/1', 302);
+        res.redirect('/items/' + slug + '/page/1', 302);
     });
 
     router.get('/' + slug + '/page/:pageNumber', (req, res, next) => {
