@@ -16,23 +16,33 @@ const browse = require('./abstract-browser');
 const sanitize = require('../helpers/sanitize');
 
 /**
+ * Invokes the browser.
+ * @param req
+ * @param res
+ * @param next
+ */
+function callBrowser(req, res, next) {
+    const data = {};
+    const pageNumber = req.params ? req.params.pageNumber : undefined;
+    browse(res, next, sanitize.parsePositiveInteger(pageNumber),
+        '/villagers/page/',
+        'Villagers',
+        req.query,
+        {type: ['villager']},
+        data);
+}
+/**
  *
  * @type {Router}
  */
 const router = express.Router();
 
 router.get('/', function (req, res, next) {
-    res.redirect('/villagers/page/1', 302);
+    callBrowser(req, res, next);
 });
 
 router.get('/page/:pageNumber', function (req, res, next) {
-    const data = {};
-    browse(res, next, sanitize.parsePositiveInteger(req.params.pageNumber),
-        '/villagers/page/',
-        'Villagers',
-        req.query,
-        {type: ['villager']},
-        data);
+    callBrowser(req, res, next);
 });
 
 module.exports = router;

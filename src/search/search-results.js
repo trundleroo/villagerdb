@@ -16,7 +16,10 @@ export default class SearchResults extends React.Component {
         // No results case.
         if (this.props.results.length === 0) {
             return (
-                <p>There were no results for your search.</p>
+                <p>
+                    There were no results for your search. Please try different terms or remove some filters and
+                    try again.
+                </p>
             );
         }
 
