@@ -63,6 +63,24 @@ const categories = {
 };
 
 /**
+ * Invokes the browser.
+ * @param req
+ * @param res
+ * @param next
+ * @param slug
+ */
+function callBrowser(req, res, next, slug) {
+    const data = {};
+    const pageNumber = req.params ? req.params.pageNumber : undefined;
+    browse(res, next, sanitize.parsePositiveInteger(pageNumber),
+        '/items/' + slug + '/page/',
+        categories[slug].title ? categories[slug].title : format.capFirstLetter(slug),
+        req.query,
+        categories[slug].filter,
+        data);
+}
+
+/**
  *
  * @type {Router}
  */
@@ -71,17 +89,11 @@ const router = express.Router();
 // Build the URLs based on the slugs above.
 for (let slug in categories) {
     router.get('/' + slug, (req, res, next) => {
-        res.redirect('/items/' + slug + '/page/1', 302);
+        callBrowser(req, res, next, slug);
     });
 
     router.get('/' + slug + '/page/:pageNumber', (req, res, next) => {
-        const data = {};
-        browse(res, next, sanitize.parsePositiveInteger(req.params.pageNumber),
-            '/items/' + slug + '/page/',
-            categories[slug].title ? categories[slug].title : format.capFirstLetter(slug),
-            req.query,
-            categories[slug].filter,
-            data);
+        callBrowser(req, res, next, slug);
     });
 }
 
