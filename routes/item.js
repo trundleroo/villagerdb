@@ -163,10 +163,10 @@ async function loadItem(id) {
 
     // Social media information
     result.setSharingData = true;
-    result.pageUrl = 'https://villagerdb.com/item/' + result.id;
+    result.pageUrl = 'https://villagerdb.com/item/' + item.id;
     result.pageDescription = result.paragraph;
     result.pageImage = 'https://villagerdb.com' + result.image.full;
-    result.shareUrl = encodeURIComponent('https://villagerdb.com/item/' + result.id);
+    result.shareUrl = encodeURIComponent('https://villagerdb.com/item/' + item.id);
 
     return result;
 }
