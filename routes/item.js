@@ -41,7 +41,8 @@ function generateParagraph(item, formatData) {
         return '';
     }
 
-    let paragraph = 'This is an item in ' + format.games[latestGameId].title + '. ';
+    let paragraph = 'In-game item name: "' + item.name + '". ';
+    paragraph += 'This is an item in ' + format.games[latestGameId].title + '. ';
     paragraph += 'You ' + (latestFormatData.orderable ? 'can' : 'cannot') + ' order it from the catalog. ';
 
     // Fashion and interior themes.
