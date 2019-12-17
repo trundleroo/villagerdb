@@ -24,7 +24,17 @@ const sanitize = require('../helpers/sanitize');
 function callBrowser(req, res, next) {
     const data = {};
     const pageNumber = req.params ? req.params.pageNumber : undefined;
-    browse(res, next, sanitize.parsePositiveInteger(pageNumber),
+    const pageNumberInt = sanitize.parsePositiveInteger(pageNumber);
+
+    // Social media information
+    data.setSharingData = true;
+    data.pageUrl = 'https://villagerdb.com/villagers' +
+        (typeof pageNumber !== 'undefined' ? '/page/' + pageNumberInt : '');
+    data.pageDescription = 'Browse our villager database to learn more about your favorite ' +
+        'characters from all of the Animal Crossing games.';
+    data.shareUrl = encodeURIComponent(data.pageUrl);
+
+    browse(res, next, pageNumberInt,
         '/villagers/page/',
         'Villagers',
         req.query,
