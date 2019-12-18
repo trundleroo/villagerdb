@@ -41,9 +41,16 @@ function generateParagraph(item, formatData) {
         return '';
     }
 
+    const gameList = Object.values(formatData.gamesData)
+        .map((d) => {
+            return d.gameTitle
+        });
+
     let paragraph = 'In-game item name: "' + item.name + '". ';
-    paragraph += 'This is an item in ' + format.games[latestGameId].title + '. ';
-    paragraph += 'You ' + (latestFormatData.orderable ? 'can' : 'cannot') + ' order it from the catalog. ';
+    paragraph += 'This is an item in ' + format.andList(gameList) + '. ';
+    if (typeof latestFormatData.orderable !== 'undefined') {
+        paragraph += 'You ' + (latestFormatData.orderable ? 'can' : 'cannot') + ' order it from the catalog. ';
+    }
 
     // Fashion and interior themes.
     if (latestFormatData.hasFashionTheme) {
@@ -115,6 +122,8 @@ function formatItem(item) {
         formatted.gamesData[gameId] = {
             gameTitle: format.games[gameId].title,
             orderable: game.orderable,
+            orderableText: typeof game.orderable !== 'undefined' ? (game.orderable ? 'Yes' : 'No') : undefined,
+            sizeText: game.xSize > 0 && game.ySize > 0 ? (game.xSize + ' x ' + game.ySize) : undefined,
             hasSource: source.length > 0,
             source: source,
             buyable: bellCost.length > 0 || meowCost.length > 0,
@@ -127,6 +136,9 @@ function formatItem(item) {
             hasInteriorTheme: interiorTheme.length > 0,
             interiorTheme: interiorTheme,
             hasSet: typeof game.set !== 'undefined',
+            hasRecipe: typeof game.recipe !== 'undefined',
+            normalRecipe: game.normalRecipe,
+            fullRecipe: game.fullRecipe,
             set: game.set
         };
     }
