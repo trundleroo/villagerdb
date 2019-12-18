@@ -4,7 +4,7 @@
   "category": "Furniture",
   "games": {
     "nh": {
-      "xSize": 1.0,
+      "xSize": 2.0,
       "ySize": 1.0,
       "recipe": {
         "softwood": 6
