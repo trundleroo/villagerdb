@@ -27,13 +27,13 @@ export default class SearchResults extends React.Component {
         for (let result of this.props.results) {
             list.push(
                 <li key={result.id} className="col-6 col-sm-4 col-md-3">
-                    <div className="search-result-container">
-                        <a href={result.url}>
+                    <a href={result.url}>
+                        <div className="search-result-container">
                             <img src={result.imageUrl}
                                  alt={'Picture of ' + result.name} className="img-responsive" />
                             <p>{result.name}</p>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </li>
             );
         }
