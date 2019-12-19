@@ -177,7 +177,8 @@ async function indexItems(es) {
             category: parsed.category,
             game: [],
             url: urlHelper.getEntityUrl(searchConfig.itemEntityType, parsed.id),
-            imageUrl: urlHelper.getImageUrl(searchConfig.itemEntityType, urlHelper.THUMB, parsed.id)
+            imageUrl: staticify.getVersionedPath(urlHelper.getImageUrl(searchConfig.itemEntityType, urlHelper.THUMB,
+                parsed.id))
         };
 
         for (let game in parsed.games) {
