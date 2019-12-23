@@ -4,7 +4,9 @@
   "category": "Usables",
   "games": {
     "nh": {
-      "sources": ["Not yet known"]
+      "sources": [
+        "Not yet known"
+      ]
     }
   }
 }

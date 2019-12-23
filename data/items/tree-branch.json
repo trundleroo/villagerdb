@@ -4,7 +4,9 @@
   "category": "Usables",
   "games": {
     "nh": {
-      "sources": ["Shaking trees"]
+      "sources": [
+        "Shaking trees"
+      ]
     }
   }
 }

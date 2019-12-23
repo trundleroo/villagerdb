@@ -4,8 +4,8 @@
   "category": "Furniture",
   "games": {
     "nh": {
-      "xSize": 2.0,
-      "ySize": 2.0,
+      "xSize": 2,
+      "ySize": 2,
       "recipe": {
         "campfire": 1,
         "wood": 1

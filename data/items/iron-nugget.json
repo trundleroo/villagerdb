@@ -4,7 +4,9 @@
   "category": "Usables",
   "games": {
     "nh": {
-      "sources": ["Hitting rocks with a flimsy axe"]
+      "sources": [
+        "Hitting rocks with a flimsy axe"
+      ]
     }
   }
 }
