@@ -46,8 +46,7 @@ function generateParagraph(item, formatData) {
             return d.gameTitle
         });
 
-    let paragraph = 'In-game item name: "' + item.name + '". ';
-    paragraph += 'This is an item in ' + format.andList(gameList) + '. ';
+    let paragraph = 'This is an item in ' + format.andList(gameList) + '. ';
     if (typeof latestFormatData.orderable !== 'undefined') {
         paragraph += 'You ' + (latestFormatData.orderable ? 'can' : 'cannot') + ' order it from the catalog. ';
     }
