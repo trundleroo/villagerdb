@@ -36,6 +36,11 @@ services:
     image: redis:latest
     ports:
       - 6379:6379
+  mongo:
+    container_name: villagerdb_mongo
+    image: mongo:4.2.3
+    ports:
+      -  27017:27017
 volumes:
   villagerdb_es:
     driver: local
