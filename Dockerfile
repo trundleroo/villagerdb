@@ -15,5 +15,8 @@ RUN npm install
 # Bundle app source
 COPY . .
 
-# Run app TODO make it nodemon
-CMD ["bin/www"]
+# Don't run as root
+USER node
+
+# Run app in nodemon
+CMD ["npx", "nodemon", "--inspect=0.0.0.0", "bin/www"]
