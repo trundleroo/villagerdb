@@ -20,7 +20,6 @@ services:
     environment:
       - node.name=villagerdb_es
       - cluster.name=villagerdb-es-cluster
-      - discovery.seed_hosts=es02,es03
       - cluster.initial_master_nodes=villagerdb_es
       - bootstrap.memory_lock=true
       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
