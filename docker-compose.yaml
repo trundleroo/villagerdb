@@ -1,0 +1,38 @@
+version: '3'
+services:
+  villagerdb:
+    build:
+      context: .
+    container_name: villagerdb_app
+    restart: always
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.6.0
+    container_name: villagerdb_es
+    environment:
+      - node.name=villagerdb_es
+      - cluster.name=villagerdb-es-cluster
+      - discovery.seed_hosts=es02,es03
+      - cluster.initial_master_nodes=villagerdb_es
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - villagerdb_es:/usr/share/elasticsearch/data
+    ports:
+      - 9200:9200
+  redis:
+    container_name: villagerdb_redis
+    image: redis:latest
+    ports:
+      - "6379:6379"
+volumes:
+  villagerdb_es:
+    driver: local
