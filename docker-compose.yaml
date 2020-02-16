@@ -3,6 +3,7 @@ services:
   villagerdb_webserver:
     image: nginx:1.17
     container_name: villagerdb_webserver
+    restart: always
     ports:
       - 80:80
     volumes:
@@ -13,11 +14,11 @@ services:
     build:
       context: .
     container_name: villagerdb_app
+    restart: always
     environment:
       - ELASTICSEARCH_CONNECT_STRING=http://villagerdb_es:9200
       - REDIS_CONNECT_STRING=redis://villagerdb_redis:6379/0
       - TZ=America/New_York
-    restart: always
     ports:
       - 3000:3000
       - 9229:9229
@@ -31,6 +32,7 @@ services:
   villagerdb_es:
     image: docker.elastic.co/elasticsearch/elasticsearch:7.6.0
     container_name: villagerdb_es
+    restart: always
     environment:
       - node.name=villagerdb_es
       - cluster.name=villagerdb-es-cluster
@@ -47,6 +49,7 @@ services:
       - 9200:9200
   villagerdb_redis:
     container_name: villagerdb_redis
+    restart: always
     image: redis:5.0.7
     volumes:
       - villagerdb_redis:/data
@@ -54,6 +57,7 @@ services:
       - 6379:6379
   villagerdb_mongo:
     container_name: villagerdb_mongo
+    restart: always
     image: mongo:4.2.3
     volumes:
       - villagerdb_mongo:/data/db
