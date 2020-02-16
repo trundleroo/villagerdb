@@ -47,7 +47,9 @@ services:
       - 9200:9200
   villagerdb_redis:
     container_name: villagerdb_redis
-    image: redis:latest
+    image: redis:5.0.7
+    volumes:
+      - villagerdb_redis:/data
     ports:
       - 6379:6379
   villagerdb_mongo:
@@ -61,4 +63,6 @@ volumes:
   villagerdb_es:
     driver: local
   villagerdb_mongo:
+    driver: local
+  villagerdb_redis:
     driver: local
