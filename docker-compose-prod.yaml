@@ -15,6 +15,7 @@ services:
   villagerdb_app:
     build:
       context: .
+      dockerfile: ./Dockerfile-prod
     container_name: villagerdb_app
     restart: always
     environment:
