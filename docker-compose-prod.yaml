@@ -18,8 +18,6 @@ services:
     container_name: villagerdb_app
     restart: always
     environment:
-      - ELASTICSEARCH_CONNECT_STRING=http://villagerdb_es:9200
-      - REDIS_CONNECT_STRING=redis://villagerdb_redis:6379/0
       - TZ=America/New_York
       - NODE_ENV=production
     ports:
