@@ -110,7 +110,7 @@ router.post('/register',
         body('username',
             'Usernames can only have lowercase letters and numbers.'
         )
-            .matches('/^[a-z0-9]+$/'),
+            .matches(/^[a-z0-9]+$/),
         body(
             'tos-check',
             'To sign up you must agree to our Privacy Policy and Terms of Service')
