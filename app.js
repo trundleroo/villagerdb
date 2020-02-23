@@ -68,6 +68,7 @@ app.use(staticify.middleware);
 app.disable('x-powered-by');
 
 // Initialize passport and session
+app.set('trust proxy', 1) // trust first proxy since we run behind nginx
 app.use(session);
 app.use(passport.initialize());
 app.use(passport.session());
