@@ -141,7 +141,7 @@ router.post('/register',
             'birth-year',
             'Please enter a valid birth year.'
         )
-            .matches('[1-2][0-9][0-9][0-9]')
+            .matches(/^[1-2][0-9][0-9][0-9]$/)
     ],
     (req, res, next) => {
     const username = req.body.username;
