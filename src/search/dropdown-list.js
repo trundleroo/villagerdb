@@ -1,5 +1,6 @@
 import React from "react";
 import $ from "jquery";
+import ReactDOM from "react-dom";
 
 export default class DropdownList extends React.Component {
     constructor(props) {
@@ -16,15 +17,19 @@ export default class DropdownList extends React.Component {
 
     render() {
         let labelClass = 'fa-plus';
+        let label = 'Add To List';
         let showClass = '';
         let listData = null;
 
         if (this.state.isError) { // On error, do nothing.
             labelClass = 'fa-exclamation text-danger';
+            label = 'Sorry';
         } else if (this.state.isLoading) { // On loading, do nothing.
             labelClass = 'fa-spin fa-spinner';
+            label = 'Hold on...';
         } else if (this.state.isSuccess) {
             labelClass = 'fa-check text-success';
+            label = 'Done!';
         } else if (this.state.isExpanded) {
             showClass = 'show';
 
@@ -35,7 +40,7 @@ export default class DropdownList extends React.Component {
                     if (list.isAddLink) {
                         listItems.push((
                             <a key="add-link" className="dropdown-item" href="/list/create">
-                                Create a new list
+                                New list...
                             </a>
                         ));
                     } else {
@@ -56,10 +61,16 @@ export default class DropdownList extends React.Component {
             }
         }
 
+        let labelSpan = null;
+        if (this.props.showLabel) {
+            labelSpan = (
+                <span>&nbsp;{label}</span>
+            );
+        }
         return (
             <div className={'dropdown ' + showClass}>
                 <button type="button" className="btn btn-outline-secondary" onClick={this.buttonClicked.bind(this)}>
-                    <span className={'fa ' + labelClass}></span>
+                    <span className={'fa ' + labelClass}></span>{labelSpan}
                 </button>
                 {listData}
             </div>
@@ -156,3 +167,17 @@ export default class DropdownList extends React.Component {
         });
     }
 }
+
+/**
+ * When DOM ready, initialize any entity add buttons that are requested.
+ */
+$(document).ready(function() {
+    $('div.entity-dropdown-init').each(function (i, elem) {
+        const target = $(elem);
+        const entityType = target.data('entity-type');
+        const entityId = target.data('entity-id');
+        const showLabel = target.data('show-label');
+        ReactDOM.render(<DropdownList entityType={entityType} entityId={entityId} showLabel={showLabel} />,
+            elem);
+    });
+})
