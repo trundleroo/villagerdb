@@ -3,36 +3,26 @@
   "species": "wolf",
   "birthday": "12-14",
   "games": {
-    "af": {
-      "personality": "snooty",
-      "clothes": "Deer Shirt",
-      "song": "Rockin' K.K."
-    },
-    "af+": {
-      "personality": "snooty",
-      "clothes": "Deer Shirt",
-      "song": "Rockin' K.K."
-    },
     "ac": {
       "personality": "snooty",
-      "clothes": "Deer Shirt",
+      "clothes": "deer-shirt",
       "song": "Rockin' K.K.",
       "phrase": "uff da"
     },
     "afe+": {
       "personality": "snooty",
-      "clothes": "Deer Shirt",
+      "clothes": "deer-shirt",
       "song": "Rockin' K.K."
     },
     "cf": {
       "personality": "snooty",
-      "clothes": "Deer Shirt",
+      "clothes": "deer-shirt",
       "song": "Rockin' K.K.",
       "phrase": "uff da"
     },
     "nl": {
       "personality": "snooty",
-      "clothes": "Deer Shirt",
+      "clothes": "deer-shirt",
       "song": "Rockin' K.K.",
       "phrase": "uff da",
       "skill": "Peeling apples",

@@ -3,36 +3,26 @@
   "species": "penguin",
   "birthday": "2-21",
   "games": {
-    "af": {
-      "personality": "lazy",
-      "clothes": "BB Tee",
-      "song": "K.K. Casbah"
-    },
-    "af+": {
-      "personality": "lazy",
-      "clothes": "BB Tee",
-      "song": "K.K. Casbah"
-    },
     "ac": {
       "personality": "lazy",
-      "clothes": "BB Tee",
+      "clothes": "bb-shirt",
       "song": "K.K. Casbah",
       "phrase": "brrrrrrrrr"
     },
     "afe+": {
       "personality": "lazy",
-      "clothes": "BB Tee",
+      "clothes": "bb-shirt",
       "song": "K.K. Casbah"
     },
     "cf": {
       "personality": "lazy",
-      "clothes": "BB Tee",
+      "clothes": "bb-tee",
       "song": "K.K. Casbah",
       "phrase": "brrrrrrrrr"
     },
     "nl": {
       "personality": "lazy",
-      "clothes": "BB Tee",
+      "clothes": "bb-tee",
       "song": "K.K. Casbah",
       "phrase": "brrrrrrrrr",
       "skill": "Doing handstands",

@@ -3,43 +3,33 @@
   "species": "bull",
   "birthday": "4-30",
   "games": {
-    "af": {
-      "personality": "cranky",
-      "clothes": "Flame Tee",
-      "song": "Senor K.K."
-    },
-    "af+": {
-      "personality": "cranky",
-      "clothes": "Flame Tee",
-      "song": "Senor K.K."
-    },
     "ac": {
       "personality": "cranky",
-      "clothes": "Flame Tee",
+      "clothes": "flame-shirt",
       "song": "Senor K.K.",
       "phrase": "macmoo"
     },
     "afe+": {
       "personality": "cranky",
-      "clothes": "Flame Tee",
+      "clothes": "flame-shirt",
       "song": "Senor K.K."
     },
     "ww": {
       "personality": "cranky",
-      "clothes": "Flame Tee",
+      "clothes": "flame-tee",
       "song": "Senor K.K.",
       "phrase": "macmoo",
       "quote": "Even strong men cry."
     },
     "cf": {
       "personality": "cranky",
-      "clothes": "Flame Tee",
+      "clothes": "flame-tee",
       "song": "Senor K.K.",
       "phrase": "macmoo"
     },
     "nl": {
       "personality": "cranky",
-      "clothes": "Flame Tee",
+      "clothes": "flame-tee",
       "song": "Senor K.K.",
       "phrase": "macmoo",
       "skill": "Doing handstands",

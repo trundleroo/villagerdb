@@ -3,22 +3,14 @@
   "species": "pig",
   "birthday": "10-20",
   "games": {
-    "af": {
-      "personality": "snooty",
-      "clothes": "Snappy Print"
-    },
-    "af+": {
-      "personality": "snooty",
-      "clothes": "Snappy Print"
-    },
     "ac": {
       "personality": "snooty",
-      "clothes": "Snappy Print",
+      "clothes": "snappy-print",
       "phrase": "snort"
     },
     "afe+": {
       "personality": "snooty",
-      "clothes": "Snappy Print"
+      "clothes": "snappy-print"
     }
   },
   "name": "Sue E.",

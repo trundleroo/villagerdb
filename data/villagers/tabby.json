@@ -3,43 +3,33 @@
   "species": "cat",
   "birthday": "8-13",
   "games": {
-    "af": {
-      "personality": "peppy",
-      "clothes": "Fish-Bone Shirt",
-      "song": "To the Edge"
-    },
-    "af+": {
-      "personality": "peppy",
-      "clothes": "Fish-Bone Shirt",
-      "song": "To the Edge"
-    },
     "ac": {
       "personality": "peppy",
-      "clothes": "Fish-Bone Shirt",
+      "clothes": "fish-bone-shirt",
       "song": "To the Edge",
       "phrase": "me-WOW"
     },
     "afe+": {
       "personality": "peppy",
-      "clothes": "Fish-Bone Shirt",
+      "clothes": "fish-bone-shirt",
       "song": "To the Edge"
     },
     "ww": {
       "personality": "peppy",
-      "clothes": "Bone Shirt",
+      "clothes": "bone-shirt",
       "song": "To the Edge",
       "phrase": "me-WOW",
       "quote": "This is my new headshot!"
     },
     "cf": {
       "personality": "peppy",
-      "clothes": "Bone Shirt",
+      "clothes": "bone-shirt",
       "song": "To the Edge",
       "phrase": "me-WOW"
     },
     "nl": {
       "personality": "peppy",
-      "clothes": "Bone Shirt",
+      "clothes": "bone-shirt",
       "song": "To the Edge",
       "phrase": "me-WOW",
       "skill": "Telling jokes",

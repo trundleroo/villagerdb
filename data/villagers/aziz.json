@@ -3,22 +3,14 @@
   "species": "lion",
   "birthday": "2-26",
   "games": {
-    "af": {
-      "personality": "jock",
-      "clothes": "Anju's Shirt"
-    },
-    "af+": {
-      "personality": "jock",
-      "clothes": "Anju's Shirt"
-    },
     "ac": {
       "personality": "jock",
-      "clothes": "Anju's Shirt",
+      "clothes": "anjus-shirt",
       "phrase": "RAWR"
     },
     "afe+": {
       "personality": "jock",
-      "clothes": "Anju's Shirt"
+      "clothes": "anjus-shirt"
     }
   },
   "name": "Aziz",

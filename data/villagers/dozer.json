@@ -3,22 +3,14 @@
   "species": "bear",
   "birthday": "3-10",
   "games": {
-    "af": {
-      "personality": "lazy",
-      "clothes": "Bear Shirt"
-    },
-    "af+": {
-      "personality": "lazy",
-      "clothes": "Bear Shirt"
-    },
     "ac": {
       "personality": "lazy",
-      "clothes": "Bear Shirt",
+      "clothes": "bear-shirt",
       "phrase": "zzzzzz"
     },
     "afe+": {
       "personality": "lazy",
-      "clothes": "Bear Shirt"
+      "clothes": "bear-shirt"
     }
   },
   "name": "Dozer",

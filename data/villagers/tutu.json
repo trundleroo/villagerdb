@@ -3,36 +3,26 @@
   "species": "bear",
   "birthday": "9-15",
   "games": {
-    "af": {
-      "personality": "peppy",
-      "clothes": "Heart Tee",
-      "song": "K.K. Steppe"
-    },
-    "af+": {
-      "personality": "peppy",
-      "clothes": "Heart Tee",
-      "song": "K.K. Steppe"
-    },
     "ac": {
       "personality": "peppy",
-      "clothes": "Heart Tee",
+      "clothes": "heart-shirt",
       "song": "K.K. Steppe",
       "phrase": "twinkles"
     },
     "afe+": {
       "personality": "peppy",
-      "clothes": "Heart Tee",
+      "clothes": "heart-shirt",
       "song": "K.K. Steppe"
     },
     "cf": {
       "personality": "peppy",
-      "clothes": "Heart Tee",
+      "clothes": "heart-tee",
       "song": "K.K. Steppe",
       "phrase": "twinkles"
     },
     "nl": {
       "personality": "peppy",
-      "clothes": "Heart Tee",
+      "clothes": "heart-tee",
       "song": "K.K. Steppe",
       "phrase": "twinkles",
       "skill": "Typing",

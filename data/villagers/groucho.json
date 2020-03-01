@@ -3,17 +3,9 @@
   "species": "bear",
   "birthday": "10-23",
   "games": {
-    "af": {
-      "personality": "cranky",
-      "song": "K.K. Metal"
-    },
-    "af+": {
-      "personality": "cranky",
-      "song": "K.K. Metal"
-    },
     "ac": {
       "personality": "cranky",
-      "clothes": "Windsock Shirt",
+      "clothes": "windsock-shirt",
       "song": "K.K. Metal",
       "phrase": "grumble"
     },
@@ -23,13 +15,13 @@
     },
     "cf": {
       "personality": "cranky",
-      "clothes": "Lite Polka Tee",
+      "clothes": "lite-polka-tee",
       "song": "K.K. Metal",
       "phrase": "grumble"
     },
     "nl": {
       "personality": "cranky",
-      "clothes": "Lite Polka Tee",
+      "clothes": "lite-polka-tee",
       "song": "K.K. Metal",
       "phrase": "grumble",
       "skill": "Competitive eating",

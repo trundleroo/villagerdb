@@ -3,17 +3,9 @@
   "species": "penguin",
   "birthday": "1-23",
   "games": {
-    "af": {
-      "personality": "snooty",
-      "song": "Cafe K.K."
-    },
-    "af+": {
-      "personality": "snooty",
-      "song": "Cafe K.K."
-    },
     "ac": {
       "personality": "snooty",
-      "clothes": "Yellow Bolero",
+      "clothes": "yellow-bolero",
       "song": "Cafe K.K.",
       "phrase": "h-h-hon"
     },
@@ -23,20 +15,20 @@
     },
     "ww": {
       "personality": "snooty",
-      "clothes": "Yellow Bolero",
+      "clothes": "yellow-bolero",
       "song": "Cafe K.K.",
       "phrase": "h-h-hon",
       "quote": "I'm just that cool."
     },
     "cf": {
       "personality": "snooty",
-      "clothes": "Yellow Bolero",
+      "clothes": "yellow-bolero",
       "song": "Cafe K.K.",
       "phrase": "h-h-hon"
     },
     "nl": {
       "personality": "snooty",
-      "clothes": "Melon Gingham Tee",
+      "clothes": "melon-gingham-tee",
       "song": "Cafe K.K.",
       "phrase": "h-h-hon",
       "skill": "Skimming books",

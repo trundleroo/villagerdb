@@ -3,17 +3,9 @@
   "species": "cat",
   "birthday": "11-29",
   "games": {
-    "af": {
-      "personality": "cranky",
-      "song": "K.K. Folk"
-    },
-    "af+": {
-      "personality": "cranky",
-      "song": "K.K. Folk"
-    },
     "ac": {
       "personality": "cranky",
-      "clothes": "Lavender Robe",
+      "clothes": "lavender-robe",
       "song": "K.K. Folk",
       "phrase": "meooo-OH"
     },
@@ -23,20 +15,20 @@
     },
     "ww": {
       "personality": "cranky",
-      "clothes": "Misty Tee",
+      "clothes": "misty-tee",
       "song": "K.K. Folk",
       "phrase": "meooo-OH",
       "quote": "Hoo-ha konichiwa!"
     },
     "cf": {
       "personality": "cranky",
-      "clothes": "Misty Tee",
+      "clothes": "misty-tee",
       "song": "K.K. Folk",
       "phrase": "meooo-OH"
     },
     "nl": {
       "personality": "cranky",
-      "clothes": "Misty Tee",
+      "clothes": "misty-tee",
       "song": "K.K. Folk",
       "phrase": "meooo-OH",
       "skill": "Drawing circles",

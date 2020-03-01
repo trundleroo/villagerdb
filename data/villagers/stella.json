@@ -3,30 +3,20 @@
   "species": "sheep",
   "birthday": "4-9",
   "games": {
-    "af": {
-      "personality": "normal",
-      "clothes": "Aurora Knit",
-      "song": "Only Me"
-    },
-    "af+": {
-      "personality": "normal",
-      "clothes": "Aurora Knit",
-      "song": "Only Me"
-    },
     "ac": {
       "personality": "normal",
-      "clothes": "Aurora Knit",
+      "clothes": "aurora-knit",
       "song": "Only Me",
       "phrase": "baa-dabing"
     },
     "afe+": {
       "personality": "normal",
-      "clothes": "Aurora Knit",
+      "clothes": "aurora-knit",
       "song": "Only Me"
     },
     "nl": {
       "personality": "normal",
-      "clothes": "Aurora Knit",
+      "clothes": "aurora-knit-shirt",
       "song": "Only Me",
       "phrase": "baa-dabing",
       "skill": "Magic tricks",

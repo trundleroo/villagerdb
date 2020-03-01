@@ -3,18 +3,14 @@
   "species": "mouse",
   "birthday": "3-30",
   "games": {
-    "af+": {
-      "personality": "peppy",
-      "clothes": "Red Aloha Shirt"
-    },
     "ac": {
       "personality": "peppy",
-      "clothes": "Red Aloha Shirt",
+      "clothes": "red-aloha-shirt",
       "phrase": "squeaker"
     },
     "afe+": {
       "personality": "peppy",
-      "clothes": "Red Aloha Shirt"
+      "clothes": "red-aloha-shirt"
     }
   },
   "name": "Flossie",

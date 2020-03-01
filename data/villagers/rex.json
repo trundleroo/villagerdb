@@ -3,30 +3,20 @@
   "species": "lion",
   "birthday": "7-24",
   "games": {
-    "af": {
-      "personality": "lazy",
-      "clothes": "Blue-Bar Tee",
-      "song": "Wandering"
-    },
-    "af+": {
-      "personality": "lazy",
-      "clothes": "Blue-Bar Tee",
-      "song": "Wandering"
-    },
     "ac": {
       "personality": "lazy",
-      "clothes": "Blue-Bar Tee",
+      "clothes": "blue-pinstripe",
       "song": "Wandering",
       "phrase": "cool cat"
     },
     "afe+": {
       "personality": "lazy",
-      "clothes": "Blue-Bar Tee",
+      "clothes": "blue-pinstripe",
       "song": "Wandering"
     },
     "nl": {
       "personality": "lazy",
-      "clothes": "Blue-Bar Tee",
+      "clothes": "blue-bar-tee",
       "song": "Wandering",
       "phrase": "cool cat",
       "skill": "Chugging milk",

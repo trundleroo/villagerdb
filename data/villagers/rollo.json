@@ -3,22 +3,14 @@
   "species": "hippo",
   "birthday": "7-22",
   "games": {
-    "af": {
-      "personality": "lazy",
-      "clothes": "Whirly Shirt"
-    },
-    "af+": {
-      "personality": "lazy",
-      "clothes": "Whirly Shirt"
-    },
     "ac": {
       "personality": "lazy",
-      "clothes": "Whirly Shirt",
+      "clothes": "whirly-shirt",
       "phrase": "beaulch"
     },
     "afe+": {
       "personality": "lazy",
-      "clothes": "Whirly Shirt"
+      "clothes": "whirly-shirt"
     }
   },
   "name": "Rollo",

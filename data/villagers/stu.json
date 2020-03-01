@@ -3,30 +3,20 @@
   "species": "bull",
   "birthday": "4-20",
   "games": {
-    "af": {
-      "personality": "lazy",
-      "clothes": "seven-ball Shirt",
-      "song": "K.K. Rockabilly"
-    },
-    "af+": {
-      "personality": "lazy",
-      "clothes": "seven-ball Shirt",
-      "song": "K.K. Rockabilly"
-    },
     "ac": {
       "personality": "lazy",
-      "clothes": "seven-ball Shirt",
+      "clothes": "seven-ball-shirt",
       "song": "K.K. Rockabilly",
       "phrase": "moo-dude"
     },
     "afe+": {
       "personality": "lazy",
-      "clothes": "seven-ball Shirt",
+      "clothes": "seven-ball-shirt",
       "song": "K.K. Rockabilly"
     },
     "nl": {
       "personality": "lazy",
-      "clothes": "seven-ball Shirt",
+      "clothes": "seven-ball-tee",
       "song": "K.K. Rockabilly",
       "phrase": "moo-dude",
       "skill": "Hitting snooze",

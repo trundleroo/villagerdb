@@ -3,25 +3,15 @@
   "species": "hippo",
   "birthday": "12-19",
   "games": {
-    "af": {
-      "personality": "peppy",
-      "clothes": "Flowery Shirt",
-      "song": "K.K. Bossa"
-    },
-    "af+": {
-      "personality": "peppy",
-      "clothes": "Flowery Shirt",
-      "song": "K.K. Bossa"
-    },
     "ac": {
       "personality": "peppy",
-      "clothes": "Flowery Shirt",
+      "clothes": "flowery-shirt",
       "song": "K.K. Bossa",
       "phrase": "yaaaawl"
     },
     "afe+": {
       "personality": "peppy",
-      "clothes": "Flowery Shirt",
+      "clothes": "flowery-shirt",
       "song": "K.K. Bossa"
     }
   },

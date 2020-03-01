@@ -3,30 +3,20 @@
   "species": "goat",
   "birthday": "3-25",
   "games": {
-    "af": {
-      "personality": "jock",
-      "clothes": "Sharp Outfit",
-      "song": "K.K. Sonata"
-    },
-    "af+": {
-      "personality": "jock",
-      "clothes": "Sharp Outfit",
-      "song": "K.K. Sonata"
-    },
     "ac": {
       "personality": "jock",
-      "clothes": "Sharp Outfit",
+      "clothes": "sharp-outfit",
       "song": "K.K. Sonata",
       "phrase": "dagnaabit"
     },
     "afe+": {
       "personality": "jock",
-      "clothes": "Sharp Outfit",
+      "clothes": "sharp-outfit",
       "song": "K.K. Sonata"
     },
     "nl": {
       "personality": "jock",
-      "clothes": "Sharp Outfit",
+      "clothes": "sharp-outfit",
       "song": "K.K. Sonata",
       "phrase": "dagnaabit",
       "skill": "Subsistence living",

@@ -3,43 +3,33 @@
   "species": "hippo",
   "birthday": "8-18",
   "games": {
-    "af": {
-      "personality": "cranky",
-      "clothes": "Danger Tee",
-      "song": "K.K. Lament"
-    },
-    "af+": {
-      "personality": "cranky",
-      "clothes": "Danger Tee",
-      "song": "K.K. Lament"
-    },
     "ac": {
       "personality": "cranky",
-      "clothes": "Danger Tee",
+      "clothes": "danger-shirt",
       "song": "K.K. Lament",
       "phrase": "hippie"
     },
     "afe+": {
       "personality": "cranky",
-      "clothes": "Danger Tee",
+      "clothes": "danger-shirt",
       "song": "K.K. Lament"
     },
     "ww": {
       "personality": "cranky",
-      "clothes": "Danger Tee",
+      "clothes": "danger-tee",
       "song": "K.K. Lament",
       "phrase": "hippie",
       "quote": "You smell like patchouli!"
     },
     "cf": {
       "personality": "cranky",
-      "clothes": "Danger Tee",
+      "clothes": "danger-tee",
       "song": "K.K. Lament",
       "phrase": "hippie"
     },
     "nl": {
       "personality": "cranky",
-      "clothes": "Danger Tee",
+      "clothes": "danger-tee",
       "song": "K.K. Lament",
       "phrase": "hippie",
       "skill": "Making puns",

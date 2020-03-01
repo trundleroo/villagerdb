@@ -3,25 +3,20 @@
   "species": "horse",
   "birthday": "12-2",
   "games": {
-    "af+": {
-      "personality": "snooty",
-      "clothes": "Red Aloha Shirt",
-      "song": "K.K. Sonata"
-    },
     "ac": {
       "personality": "snooty",
-      "clothes": "Red Aloha Shirt",
+      "clothes": "red-aloha-shirt",
       "song": "K.K. Sonata",
       "phrase": "nipper"
     },
     "afe+": {
       "personality": "snooty",
-      "clothes": "Red Aloha Shirt",
+      "clothes": "red-aloha-shirt",
       "song": "K.K. Sonata"
     },
     "nl": {
       "personality": "snooty",
-      "clothes": "Tropical Tee",
+      "clothes": "tropical-tee",
       "song": "K.K. Sonata",
       "phrase": "nipper",
       "skill": "Brainteasers",

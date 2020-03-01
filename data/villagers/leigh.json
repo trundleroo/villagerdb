@@ -3,22 +3,14 @@
   "species": "chicken",
   "birthday": "12-5",
   "games": {
-    "af": {
-      "personality": "peppy",
-      "clothes": "Puzzling Shirt"
-    },
-    "af+": {
-      "personality": "peppy",
-      "clothes": "Puzzling Shirt"
-    },
     "ac": {
       "personality": "peppy",
-      "clothes": "Puzzling Shirt",
+      "clothes": "puzzling-shirt",
       "phrase": "cutie"
     },
     "afe+": {
       "personality": "peppy",
-      "clothes": "Puzzling Shirt"
+      "clothes": "puzzling-shirt"
     }
   },
   "name": "Leigh",

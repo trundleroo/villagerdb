@@ -3,22 +3,14 @@
   "species": "anteater",
   "birthday": "2-23",
   "games": {
-    "af": {
-      "personality": "normal",
-      "clothes": "Loud Bloom Shirt"
-    },
-    "af+": {
-      "personality": "normal",
-      "clothes": "Loud Bloom Shirt"
-    },
     "ac": {
       "personality": "normal",
-      "clothes": "Loud Bloom Shirt",
+      "clothes": "loud-bloom-shirt",
       "phrase": "hoooonnk"
     },
     "afe+": {
       "personality": "normal",
-      "clothes": "Loud Bloom Shirt"
+      "clothes": "loud-bloom-shirt"
     }
   },
   "name": "Nosegay",

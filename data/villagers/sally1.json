@@ -3,22 +3,14 @@
   "species": "squirrel",
   "birthday": "9-4",
   "games": {
-    "af": {
-      "personality": "normal",
-      "clothes": "Ladybug Shirt"
-    },
-    "af+": {
-      "personality": "normal",
-      "clothes": "Ladybug Shirt"
-    },
     "ac": {
       "personality": "normal",
-      "clothes": "Ladybug Shirt",
+      "clothes": "ladybug-shirt",
       "phrase": "WHEE"
     },
     "afe+": {
       "personality": "normal",
-      "clothes": "Ladybug Shirt"
+      "clothes": "ladybug-shirt"
     }
   },
   "name": "Sally",

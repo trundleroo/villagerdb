@@ -3,22 +3,14 @@
   "species": "rhino",
   "birthday": "1-17",
   "games": {
-    "af": {
-      "personality": "snooty",
-      "clothes": "Alpine Shirt"
-    },
-    "af+": {
-      "personality": "snooty",
-      "clothes": "Alpine Shirt"
-    },
     "ac": {
       "personality": "snooty",
-      "clothes": "Alpine Shirt",
+      "clothes": "yodel-shirt",
       "phrase": "lovey"
     },
     "afe+": {
       "personality": "snooty",
-      "clothes": "Alpine Shirt"
+      "clothes": "yodel-shirt"
     }
   },
   "name": "Tiara",

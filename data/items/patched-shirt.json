@@ -17,6 +17,18 @@
           "value": 3
         }
       ]
+    },
+    "ac": {
+      "orderable": false,
+      "sources": [
+        "Jack"
+      ]
+    },
+    "afe+": {
+      "orderable": false,
+      "sources": [
+        "Jack"
+      ]
     }
   }
 }

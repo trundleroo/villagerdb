@@ -3,10 +3,6 @@
   "species": "chicken",
   "birthday": "10-12",
   "games": {
-    "af+": {
-      "personality": "peppy",
-      "song": "K.K. Island"
-    },
     "ac": {
       "personality": "peppy",
       "song": "K.K. Island",
@@ -14,12 +10,12 @@
     },
     "afe+": {
       "personality": "peppy",
-      "clothes": "Red Aloha Shirt",
+      "clothes": "red-aloha-shirt",
       "song": "K.K. Island"
     },
     "nl": {
       "personality": "uchi",
-      "clothes": "Cool Tank",
+      "clothes": "cool-tank",
       "song": "K.K. Island",
       "phrase": "chicky poo",
       "skill": "Hula dancing",

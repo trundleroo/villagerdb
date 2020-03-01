@@ -2,18 +2,14 @@
   "gender": "female",
   "species": "squirrel",
   "games": {
-    "af+": {
-      "personality": "normal",
-      "clothes": "Red Aloha Shirt"
-    },
     "ac": {
       "personality": "normal",
-      "clothes": "Red Aloha Shirt",
+      "clothes": "red-aloha-shirt",
       "phrase": "hulaaaa"
     },
     "afe+": {
       "personality": "normal",
-      "clothes": "Red Aloha Shirt"
+      "clothes": "red-aloha-shirt"
     }
   },
   "name": "Bliss",

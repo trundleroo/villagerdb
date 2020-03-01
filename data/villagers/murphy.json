@@ -3,17 +3,9 @@
   "species": "cub",
   "birthday": "12-29",
   "games": {
-    "af": {
-      "personality": "cranky",
-      "song": "K.K. D & B"
-    },
-    "af+": {
-      "personality": "cranky",
-      "song": "K.K. D & B"
-    },
     "ac": {
       "personality": "cranky",
-      "clothes": "Static Shirt",
+      "clothes": "static-shirt",
       "song": "K.K. D & B",
       "phrase": "laddie"
     },
@@ -23,7 +15,7 @@
     },
     "nl": {
       "personality": "cranky",
-      "clothes": "Purple Tie Dye",
+      "clothes": "purple-tie-dye-tee",
       "song": "Pondering",
       "phrase": "laddie",
       "skill": "Brainteasers",

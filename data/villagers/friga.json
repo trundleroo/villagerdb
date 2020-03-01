@@ -3,17 +3,9 @@
   "species": "penguin",
   "birthday": "10-16",
   "games": {
-    "af": {
-      "personality": "snooty",
-      "song": "K.K. Tango"
-    },
-    "af+": {
-      "personality": "snooty",
-      "song": "K.K. Tango"
-    },
     "ac": {
       "personality": "snooty",
-      "clothes": "Cozy Sweater",
+      "clothes": "cozy-sweater",
       "song": "K.K. Tango",
       "phrase": "brrmph"
     },
@@ -23,20 +15,20 @@
     },
     "ww": {
       "personality": "snooty",
-      "clothes": "Picnic Tee",
+      "clothes": "picnic-tee",
       "song": "K.K. Tango",
       "phrase": "brrmph",
       "quote": "This isn't a fortune cookie! It's an important life lesson!"
     },
     "cf": {
       "personality": "snooty",
-      "clothes": "Picnic Tee",
+      "clothes": "picnic-tee",
       "song": "K.K. Tango",
       "phrase": "brrmph"
     },
     "nl": {
       "personality": "snooty",
-      "clothes": "Picnic Tee",
+      "clothes": "picnic-tee",
       "song": "K.K. Tango",
       "phrase": "brrmph",
       "skill": "Board games",

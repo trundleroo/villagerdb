@@ -3,13 +3,9 @@
   "species": "cub",
   "birthday": "3-17",
   "games": {
-    "af+": {
-      "personality": "peppy",
-      "song": "K.K. Synth"
-    },
     "ac": {
       "personality": "peppy",
-      "clothes": "Yellow Bar Shirt",
+      "clothes": "yellow-bar-shirt",
       "song": "K.K. Synth",
       "phrase": "tralala"
     },
@@ -19,7 +15,7 @@
     },
     "nl": {
       "personality": "peppy",
-      "clothes": "Sunflower Tee",
+      "clothes": "sunflower-tee",
       "song": "K.K. Synth",
       "phrase": "tralala",
       "skill": "Staying positive",

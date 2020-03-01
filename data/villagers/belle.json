@@ -3,25 +3,15 @@
   "species": "cow",
   "birthday": "6-27",
   "games": {
-    "af": {
-      "personality": "peppy",
-      "clothes": "Denim Shirt",
-      "song": "K.K. Country"
-    },
-    "af+": {
-      "personality": "peppy",
-      "clothes": "Denim Shirt",
-      "song": "K.K. Country"
-    },
     "ac": {
       "personality": "peppy",
-      "clothes": "Denim Shirt",
+      "clothes": "denim-shirt",
       "song": "K.K. Country",
       "phrase": "cuddles"
     },
     "afe+": {
       "personality": "peppy",
-      "clothes": "Denim Shirt",
+      "clothes": "denim-shirt",
       "song": "K.K. Country"
     }
   },

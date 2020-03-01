@@ -3,27 +3,20 @@
   "species": "hippo",
   "birthday": "4-25",
   "games": {
-    "af": {
-      "personality": "normal",
-      "song": "Space K.K."
-    },
-    "af+": {
-      "personality": "normal",
-      "song": "Space K.K."
-    },
     "ac": {
       "personality": "normal",
       "song": "Space K.K.",
-      "phrase": "bloop"
+      "phrase": "bloop",
+      "clothes": "pink-tartan"
     },
     "afe+": {
       "personality": "normal",
-      "clothes": "Pink Tartan Shirt",
+      "clothes": "pink-tartan",
       "song": "Space K.K."
     },
     "nl": {
       "personality": "normal",
-      "clothes": "Funky-Dot Tee",
+      "clothes": "funky-dot-tee",
       "song": "Space K.K.",
       "phrase": "bloop",
       "skill": "Drawing circles",

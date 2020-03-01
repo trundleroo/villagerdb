@@ -3,18 +3,14 @@
   "species": "koala",
   "birthday": "4-12",
   "games": {
-    "af+": {
-      "personality": "normal",
-      "clothes": "Red Aloha Shirt"
-    },
     "ac": {
       "personality": "normal",
-      "clothes": "Red Aloha Shirt",
+      "clothes": "red-aloha-shirt",
       "phrase": "aloha"
     },
     "afe+": {
       "personality": "normal",
-      "clothes": "Red Aloha Shirt"
+      "clothes": "red-aloha-shirt"
     }
   },
   "name": "Faith",
