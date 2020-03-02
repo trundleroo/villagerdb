@@ -109,4 +109,6 @@ typings/
 public/images
 public/javascripts
 public/stylesheets/*.css
+public/favicon.ico
 public/sitemaps
+public/webfonts
