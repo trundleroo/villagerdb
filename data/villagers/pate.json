@@ -3,43 +3,33 @@
   "species": "duck",
   "birthday": "2-23",
   "games": {
-    "af": {
-      "personality": "peppy",
-      "clothes": "Winter Sweater",
-      "song": "K.K. Steppe"
-    },
-    "af+": {
-      "personality": "peppy",
-      "clothes": "Winter Sweater",
-      "song": "K.K. Steppe"
-    },
     "ac": {
       "personality": "peppy",
-      "clothes": "Winter Sweater",
+      "clothes": "winter-sweater",
       "song": "K.K. Steppe",
       "phrase": "quackle"
     },
     "afe+": {
       "personality": "peppy",
-      "clothes": "Winter Sweater",
+      "clothes": "winter-sweater",
       "song": "K.K. Steppe"
     },
     "ww": {
       "personality": "peppy",
-      "clothes": "Winter Sweater",
+      "clothes": "winter-sweater",
       "song": "K.K. Steppe",
       "phrase": "quackle",
       "quote": "SHRIEKING SUGARCUBES!"
     },
     "cf": {
       "personality": "peppy",
-      "clothes": "Winter Sweater",
+      "clothes": "winter-sweater",
       "song": "K.K. Steppe",
       "phrase": "quackle"
     },
     "nl": {
       "personality": "peppy",
-      "clothes": "Winter Sweater",
+      "clothes": "winter-sweater",
       "song": "K.K. Steppe",
       "phrase": "quackle",
       "skill": "Pretending to sleep",

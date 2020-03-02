@@ -3,30 +3,20 @@
   "species": "kangaroo",
   "birthday": "12-5",
   "games": {
-    "af": {
-      "personality": "normal",
-      "clothes": "Toad Tee",
-      "song": "K.K. Lullaby"
-    },
-    "af+": {
-      "personality": "normal",
-      "clothes": "Toad Tee",
-      "song": "K.K. Lullaby"
-    },
     "ac": {
       "personality": "normal",
-      "clothes": "Toad Tee",
+      "clothes": "toad-shirt",
       "song": "K.K. Lullaby",
       "phrase": "little one"
     },
     "afe+": {
       "personality": "normal",
-      "clothes": "Toad Tee",
+      "clothes": "toad-shirt",
       "song": "K.K. Lullaby"
     },
     "nl": {
       "personality": "normal",
-      "clothes": "Toad Tee",
+      "clothes": "toad-tee",
       "song": "K.K. Lullaby",
       "phrase": "little one",
       "skill": "Making budgets",

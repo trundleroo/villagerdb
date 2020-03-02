@@ -3,25 +3,15 @@
   "species": "kangaroo",
   "birthday": "5-31",
   "games": {
-    "af": {
-      "personality": "peppy",
-      "clothes": "Slushie Shirt",
-      "song": "Aloha K.K."
-    },
-    "af+": {
-      "personality": "peppy",
-      "clothes": "Slushie Shirt",
-      "song": "Aloha K.K."
-    },
     "ac": {
       "personality": "peppy",
-      "clothes": "Slushie Shirt",
+      "clothes": "snowcone-shirt",
       "song": "Aloha K.K.",
       "phrase": "young 'un"
     },
     "afe+": {
       "personality": "peppy",
-      "clothes": "Slushie Shirt",
+      "clothes": "snowcone-shirt",
       "song": "Aloha K.K."
     }
   },

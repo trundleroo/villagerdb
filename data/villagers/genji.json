@@ -3,43 +3,33 @@
   "species": "rabbit",
   "birthday": "1-21",
   "games": {
-    "af": {
-      "personality": "jock",
-      "clothes": "Misty Tee",
-      "song": "King K.K."
-    },
-    "af+": {
-      "personality": "jock",
-      "clothes": "Misty Tee",
-      "song": "King K.K."
-    },
     "ac": {
       "personality": "jock",
-      "clothes": "Misty Tee",
+      "clothes": "misty-shirt",
       "song": "King K.K.",
       "phrase": "otaku"
     },
     "afe+": {
       "personality": "jock",
-      "clothes": "Misty Tee",
+      "clothes": "misty-shirt",
       "song": "King K.K."
     },
     "ww": {
       "personality": "jock",
-      "clothes": "Misty Tee",
+      "clothes": "misty-tee",
       "song": "King K.K.",
       "phrase": "otaku",
       "quote": "Hai-ya!"
     },
     "cf": {
       "personality": "jock",
-      "clothes": "Misty Tee",
+      "clothes": "misty-tee",
       "song": "King K.K.",
       "phrase": "otaku"
     },
     "nl": {
       "personality": "jock",
-      "clothes": "Misty Tee",
+      "clothes": "misty-tee",
       "song": "King K.K.",
       "phrase": "otaku",
       "skill": "Subsistence living",

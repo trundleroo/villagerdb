@@ -3,10 +3,6 @@
   "species": "cub",
   "birthday": "5-21",
   "games": {
-    "af+": {
-      "personality": "normal",
-      "song": "K.K. Aria"
-    },
     "ac": {
       "personality": "normal",
       "song": "K.K. Aria",
@@ -14,12 +10,12 @@
     },
     "afe+": {
       "personality": "normal",
-      "clothes": "Red Aloha Shirt",
+      "clothes": "red-aloha-shirt",
       "song": "K.K. Aria"
     },
     "nl": {
       "personality": "normal",
-      "clothes": "Garden Tank",
+      "clothes": "garden-tank",
       "song": "K.K. Aria",
       "phrase": "rainbow",
       "skill": "Photography",

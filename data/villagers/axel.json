@@ -3,36 +3,26 @@
   "species": "elephant",
   "birthday": "3-23",
   "games": {
-    "af": {
-      "personality": "jock",
-      "clothes": "Fresh Tee",
-      "song": "K.K. Dixie"
-    },
-    "af+": {
-      "personality": "jock",
-      "clothes": "Fresh Tee",
-      "song": "K.K. Dixie"
-    },
     "ac": {
       "personality": "jock",
-      "clothes": "Fresh Tee",
+      "clothes": "fresh-shirt",
       "song": "K.K. Dixie",
       "phrase": "WHONK"
     },
     "afe+": {
       "personality": "jock",
-      "clothes": "Fresh Tee",
+      "clothes": "fresh-shirt",
       "song": "K.K. Dixie"
     },
     "cf": {
       "personality": "jock",
-      "clothes": "Fresh Tee",
+      "clothes": "fresh-tee",
       "song": "K.K. Dixie",
       "phrase": "WHONK"
     },
     "nl": {
       "personality": "jock",
-      "clothes": "Fresh Tee",
+      "clothes": "fresh-tee",
       "song": "K.K. Dixie",
       "phrase": "WHONK",
       "skill": "Competitive eating",

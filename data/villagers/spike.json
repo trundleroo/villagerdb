@@ -3,26 +3,18 @@
   "species": "rhino",
   "birthday": "6-17",
   "games": {
-    "af": {
-      "personality": "cranky",
-      "clothes": "Skull Tee"
-    },
-    "af+": {
-      "personality": "cranky",
-      "clothes": "Skull Tee"
-    },
     "ac": {
       "personality": "cranky",
-      "clothes": "Skull Tee",
+      "clothes": "skull-shirt",
       "phrase": "punk"
     },
     "afe+": {
       "personality": "cranky",
-      "clothes": "Skull Tee"
+      "clothes": "skull-shirt"
     },
     "nl": {
       "personality": "cranky",
-      "clothes": "Skull Tee",
+      "clothes": "skull-tee",
       "phrase": "punk",
       "skill": "Climbing trees",
       "goal": "Actor",

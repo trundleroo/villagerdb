@@ -3,43 +3,33 @@
   "species": "mouse",
   "birthday": "2-18",
   "games": {
-    "af": {
-      "personality": "normal",
-      "clothes": "Sharp Outfit",
-      "song": "Only Me"
-    },
-    "af+": {
-      "personality": "normal",
-      "clothes": "Sharp Outfit",
-      "song": "Only Me"
-    },
     "ac": {
       "personality": "normal",
-      "clothes": "Sharp Outfit",
+      "clothes": "sharp-outfit",
       "song": "Only Me",
       "phrase": "squeaky"
     },
     "afe+": {
       "personality": "normal",
-      "clothes": "Sharp Outfit",
+      "clothes": "sharp-outfit",
       "song": "Only Me"
     },
     "ww": {
       "personality": "normal",
-      "clothes": "Sharp Outfit",
+      "clothes": "sharp-outfit",
       "song": "Only Me",
       "phrase": "squeaky",
       "quote": "Got any cheese for me?"
     },
     "cf": {
       "personality": "normal",
-      "clothes": "Sharp Outfit",
+      "clothes": "sharp-outfit",
       "song": "Only Me",
       "phrase": "squeaky"
     },
     "nl": {
       "personality": "normal",
-      "clothes": "Sharp Outfit",
+      "clothes": "sharp-outfit",
       "song": "Only Me",
       "phrase": "squeaky",
       "skill": "Dusting",

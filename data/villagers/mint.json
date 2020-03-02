@@ -3,43 +3,33 @@
   "species": "squirrel",
   "birthday": "5-2",
   "games": {
-    "af": {
-      "personality": "snooty",
-      "clothes": "Gumdrop Tee",
-      "song": "K.K. Soul"
-    },
-    "af+": {
-      "personality": "snooty",
-      "clothes": "Gumdrop Tee",
-      "song": "K.K. Soul"
-    },
     "ac": {
       "personality": "snooty",
-      "clothes": "Gumdrop Tee",
+      "clothes": "gumdrop-shirt",
       "song": "K.K. Soul",
       "phrase": "ahhhhhh"
     },
     "afe+": {
       "personality": "snooty",
-      "clothes": "Gumdrop Tee",
+      "clothes": "gumdrop-shirt",
       "song": "K.K. Soul"
     },
     "ww": {
       "personality": "snooty",
-      "clothes": "Gumdrop Tee",
+      "clothes": "gumdrop-tee",
       "song": "K.K. Soul",
       "phrase": "ahhhhhh",
       "quote": "I'm totally fresh and you know it!"
     },
     "cf": {
       "personality": "snooty",
-      "clothes": "Gumdrop Tee",
+      "clothes": "gumdrop-tee",
       "song": "K.K. Soul",
       "phrase": "ahhhhhh"
     },
     "nl": {
       "personality": "snooty",
-      "clothes": "Gumdrop Tee",
+      "clothes": "gumdrop-tee",
       "song": "K.K. Soul",
       "phrase": "ahhhhhh",
       "skill": "Cramming for tests",

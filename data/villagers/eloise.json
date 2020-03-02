@@ -3,15 +3,6 @@
   "species": "elephant",
   "birthday": "12-8",
   "games": {
-    "af": {
-      "personality": "snooty",
-      "clothes": "Green Bar Shirt",
-      "song": "K.K. Jazz"
-    },
-    "af+": {
-      "personality": "snooty",
-      "song": "K.K. Jazz"
-    },
     "ac": {
       "personality": "snooty",
       "song": "K.K. Jazz",
@@ -23,20 +14,20 @@
     },
     "ww": {
       "personality": "snooty",
-      "clothes": "Yellow-Bar Tee",
+      "clothes": "yellow-bar-tee",
       "song": "K.K. Jazz",
       "phrase": "tooooot",
       "quote": "You'll want to display this prominently!"
     },
     "cf": {
       "personality": "snooty",
-      "clothes": "Yellow-Bar Tee",
+      "clothes": "yellow-bar-tee",
       "song": "K.K. Jazz",
       "phrase": "tooooot"
     },
     "nl": {
       "personality": "snooty",
-      "clothes": "Yellow-Bar Tee",
+      "clothes": "yellow-bar-tee",
       "song": "K.K. Jazz",
       "phrase": "tooooot",
       "skill": "Memorizing stuff",

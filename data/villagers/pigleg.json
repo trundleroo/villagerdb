@@ -3,18 +3,14 @@
   "species": "pig",
   "birthday": "9-6",
   "games": {
-    "af+": {
-      "personality": "jock",
-      "clothes": "Blue Aloha Shirt"
-    },
     "ac": {
       "personality": "jock",
-      "clothes": "Blue Aloha Shirt",
+      "clothes": "blue-aloha-shirt",
       "phrase": "arrrn"
     },
     "afe+": {
       "personality": "jock",
-      "clothes": "Blue Aloha Shirt"
+      "clothes": "blue-aloha-shirt"
     }
   },
   "name": "Pigleg",

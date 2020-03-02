@@ -3,27 +3,20 @@
   "species": "pig",
   "birthday": "11-6",
   "games": {
-    "af": {
-      "personality": "cranky",
-      "song": "K.K. House"
-    },
-    "af+": {
-      "personality": "cranky",
-      "song": "K.K. House"
-    },
     "ac": {
       "personality": "cranky",
       "song": "K.K. House",
-      "phrase": "schnort"
+      "phrase": "schnort",
+      "clothes": "kaffes-shirt"
     },
     "afe+": {
       "personality": "cranky",
-      "clothes": "Kafei's Shirt",
+      "clothes": "kaffes-shirt",
       "song": "K.K. House"
     },
     "nl": {
       "personality": "cranky",
-      "clothes": "Splendid Shirt",
+      "clothes": "splendid-tee",
       "song": "K.K. House",
       "phrase": "schnort",
       "skill": "Tonque twisters",

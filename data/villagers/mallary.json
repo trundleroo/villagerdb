@@ -3,43 +3,33 @@
   "species": "duck",
   "birthday": "11-17",
   "games": {
-    "af": {
-      "personality": "snooty",
-      "clothes": "Blue-Stripe Tee",
-      "song": "K.K. Bossa"
-    },
-    "af+": {
-      "personality": "snooty",
-      "clothes": "Blue-Stripe Tee",
-      "song": "K.K. Bossa"
-    },
     "ac": {
       "personality": "snooty",
-      "clothes": "Blue-Stripe Tee",
+      "clothes": "blue-stripe-knit",
       "song": "K.K. Bossa",
       "phrase": "quackpth"
     },
     "afe+": {
       "personality": "snooty",
-      "clothes": "Blue-Stripe Tee",
+      "clothes": "blue-stripe-knit",
       "song": "K.K. Bossa"
     },
     "ww": {
       "personality": "snooty",
-      "clothes": "Blue-Stripe Tee",
+      "clothes": "blue-stripe-tee",
       "song": "K.K. Bossa",
       "phrase": "quackpth",
       "quote": "Purple is the color of royalty, you know!"
     },
     "cf": {
       "personality": "snooty",
-      "clothes": "Blue-Stripe Tee",
+      "clothes": "blue-stripe-tee",
       "song": "K.K. Bossa",
       "phrase": "quackpth"
     },
     "nl": {
       "personality": "snooty",
-      "clothes": "Blue-Stripe Tee",
+      "clothes": "blue-stripe-tee",
       "song": "K.K. Bossa",
       "phrase": "quackpth",
       "skill": "Debating",

@@ -3,38 +3,33 @@
   "species": "duck",
   "birthday": "4-8",
   "games": {
-    "af+": {
-      "personality": "snooty",
-      "clothes": "Red Aloha Shirt",
-      "song": "Cafe K.K."
-    },
     "ac": {
       "personality": "snooty",
-      "clothes": "Red Aloha Shirt",
+      "clothes": "red-aloha-shirt",
       "song": "Cafe K.K.",
       "phrase": "duckling"
     },
     "afe+": {
       "personality": "snooty",
-      "clothes": "Red Aloha Shirt",
+      "clothes": "red-aloha-shirt",
       "song": "Cafe K.K."
     },
     "ww": {
       "personality": "snooty",
-      "clothes": "Heart Tee",
+      "clothes": "heart-tee",
       "song": "Cafe K.K.",
       "phrase": "duckling",
       "quote": "I like long walks on the beach. Alone."
     },
     "cf": {
       "personality": "snooty",
-      "clothes": "Heart Tee",
+      "clothes": "heart-tee",
       "song": "Cafe K.K.",
       "phrase": "duckling"
     },
     "nl": {
       "personality": "snooty",
-      "clothes": "Heart Tee",
+      "clothes": "heart-tee",
       "song": "Cafe K.K.",
       "phrase": "duckling",
       "fear": "Mummy Mask",

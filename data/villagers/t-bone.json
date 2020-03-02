@@ -3,17 +3,9 @@
   "species": "bull",
   "birthday": "5-20",
   "games": {
-    "af": {
-      "personality": "lazy",
-      "song": "K.K. Steppe"
-    },
-    "af+": {
-      "personality": "lazy",
-      "song": "K.K. Steppe"
-    },
     "ac": {
       "personality": "lazy",
-      "clothes": "Yellow Pinstripe",
+      "clothes": "yellow-pinstripe",
       "song": "K.K. Steppe",
       "phrase": "moocher"
     },
@@ -23,7 +15,7 @@
     },
     "nl": {
       "personality": "cranky",
-      "clothes": "Hanten Shirt",
+      "clothes": "hanten-shirt",
       "song": "K.K. Steppe",
       "phrase": "moocher",
       "skill": "Pretending to sleep",

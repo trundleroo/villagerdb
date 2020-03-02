@@ -3,36 +3,26 @@
   "species": "bear",
   "birthday": "7-31",
   "games": {
-    "af": {
-      "personality": "cranky",
-      "clothes": "Houndstooth Tee",
-      "song": "K.K. Dirge"
-    },
-    "af+": {
-      "personality": "cranky",
-      "clothes": "Houndstooth Tee",
-      "song": "K.K. Dirge"
-    },
     "ac": {
       "personality": "cranky",
-      "clothes": "Houndstooth Tee",
+      "clothes": "houndstooth-knit",
       "song": "K.K. Dirge",
       "phrase": "grrr"
     },
     "afe+": {
       "personality": "cranky",
-      "clothes": "Houndstooth Tee",
+      "clothes": "houndstooth-knit",
       "song": "K.K. Dirge"
     },
     "cf": {
       "personality": "cranky",
-      "clothes": "Three-Ball Tee",
+      "clothes": "three-ball-tee",
       "song": "K.K. Dirge",
       "phrase": "grrr"
     },
     "nl": {
       "personality": "cranky",
-      "clothes": "Houndstooth Tee",
+      "clothes": "three-ball-tee",
       "song": "K.K. Dirge",
       "phrase": "grrr",
       "skill": "Brainteasers",

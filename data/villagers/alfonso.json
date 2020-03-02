@@ -3,43 +3,33 @@
   "species": "alligator",
   "birthday": "6-9",
   "games": {
-    "af": {
-      "personality": "lazy",
-      "clothes": "Big Bro's Tee",
-      "song": "Forest Life"
-    },
-    "af+": {
-      "personality": "lazy",
-      "clothes": "Big Bro's Tee",
-      "song": "Forest Life"
-    },
     "ac": {
       "personality": "lazy",
-      "clothes": "Big Bro's Tee",
+      "clothes": "big-bros-shirt",
       "song": "Forest Life",
       "phrase": "it'sa me"
     },
     "afe+": {
       "personality": "lazy",
-      "clothes": "Big Bro's Tee",
+      "clothes": "big-bros-shirt",
       "song": "Forest Life"
     },
     "ww": {
       "personality": "lazy",
-      "clothes": "Big Bro's Tee",
+      "clothes": "big-bros-tee",
       "song": "Forest Life",
       "phrase": "it'sa me",
       "quote": "We're friends, so I won't gnaw on your legs, even though I'm starving."
     },
     "cf": {
       "personality": "lazy",
-      "clothes": "Big Bro's Tee",
+      "clothes": "big-bros-tee",
       "song": "Forest Life",
       "phrase": "it'sa me"
     },
     "nl": {
       "personality": "lazy",
-      "clothes": "Big Bro's Tee",
+      "clothes": "big-bros-tee",
       "song": "Forest Life",
       "phrase": "it'sa me",
       "skill": "Fishing",

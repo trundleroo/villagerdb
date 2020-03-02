@@ -3,13 +3,9 @@
   "species": "lion",
   "birthday": "8-8",
   "games": {
-    "af+": {
-      "personality": "jock",
-      "song": "K.K. Ska"
-    },
     "ac": {
       "personality": "jock",
-      "clothes": "Blue Aloha Shirt",
+      "clothes": "blue-aloha-shirt",
       "song": "K.K. Ska",
       "phrase": "dood"
     },
@@ -19,20 +15,20 @@
     },
     "ww": {
       "personality": "jock",
-      "clothes": "Flowery Shirt",
+      "clothes": "flowery-shirt",
       "song": "K.K. Ska",
       "phrase": "maaan",
       "quote": "You're not living unless you're sweating!"
     },
     "cf": {
       "personality": "jock",
-      "clothes": "Flowery Shirt",
+      "clothes": "flowery-shirt",
       "song": "K.K. Ska",
       "phrase": "maaan"
     },
     "nl": {
       "personality": "jock",
-      "clothes": "Flowery Shirt",
+      "clothes": "flowery-tee",
       "song": "K.K. Ska",
       "phrase": "maaan",
       "fear": "Ghost Mask",

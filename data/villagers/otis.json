@@ -3,22 +3,14 @@
   "species": "bird",
   "birthday": "1-13",
   "games": {
-    "af": {
-      "personality": "lazy",
-      "clothes": "Moldy Shirt"
-    },
-    "af+": {
-      "personality": "lazy",
-      "clothes": "Moldy Shirt"
-    },
     "ac": {
       "personality": "lazy",
-      "clothes": "Moldy Shirt",
+      "clothes": "moldy-shirt",
       "phrase": "I s'pose"
     },
     "afe+": {
       "personality": "lazy",
-      "clothes": "Moldy Shirt"
+      "clothes": "moldy-shirt"
     }
   },
   "name": "Otis",

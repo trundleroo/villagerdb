@@ -3,30 +3,20 @@
   "species": "goat",
   "birthday": "8-29",
   "games": {
-    "af": {
-      "personality": "cranky",
-      "clothes": "Big-Star Tee",
-      "song": "K.K. Rockabilly"
-    },
-    "af+": {
-      "personality": "cranky",
-      "clothes": "Big-Star Tee",
-      "song": "K.K. Rockabilly"
-    },
     "ac": {
       "personality": "cranky",
-      "clothes": "Big-Star Tee",
+      "clothes": "big-star-shirt",
       "song": "K.K. Rockabilly",
       "phrase": "bleh eh eh"
     },
     "afe+": {
       "personality": "cranky",
-      "clothes": "Big-Star Tee",
+      "clothes": "big-star-shirt",
       "song": "K.K. Rockabilly"
     },
     "nl": {
       "personality": "cranky",
-      "clothes": "Big-Star Tee",
+      "clothes": "big-star-tee",
       "song": "K.K. Rockabilly",
       "phrase": "bleh eh eh",
       "skill": "Staying up late",

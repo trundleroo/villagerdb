@@ -3,17 +3,9 @@
   "species": "pig",
   "birthday": "4-7",
   "games": {
-    "af": {
-      "personality": "cranky",
-      "song": "K.K. Faire"
-    },
-    "af+": {
-      "personality": "cranky",
-      "song": "K.K. Faire"
-    },
     "ac": {
       "personality": "cranky",
-      "clothes": "Fortune Shirt",
+      "clothes": "fortune-shirt",
       "song": "K.K. Faire",
       "phrase": "swine"
     },
@@ -23,20 +15,20 @@
     },
     "ww": {
       "personality": "cranky",
-      "clothes": "Rugby Tee",
+      "clothes": "rugby-tee",
       "song": "K.K. Faire",
       "phrase": "swine",
       "quote": "Stop looking at me with those hungry eyes! I'm not a pork chop!"
     },
     "cf": {
       "personality": "cranky",
-      "clothes": "Rugby Tee",
+      "clothes": "rugby-tee",
       "song": "K.K. Faire",
       "phrase": "swine"
     },
     "nl": {
       "personality": "cranky",
-      "clothes": "Rugby Tee",
+      "clothes": "rugby-tee",
       "song": "K.K. Faire",
       "phrase": "swine",
       "skill": "Staying up late",

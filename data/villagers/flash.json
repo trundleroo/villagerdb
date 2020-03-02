@@ -3,18 +3,14 @@
   "species": "bird",
   "birthday": "9-22",
   "games": {
-    "af+": {
-      "personality": "cranky",
-      "clothes": "Blue Aloha Shirt"
-    },
     "ac": {
       "personality": "cranky",
-      "clothes": "Blue Aloha Shirt",
+      "clothes": "blue-aloha-shirt",
       "phrase": "babe"
     },
     "afe+": {
       "personality": "cranky",
-      "clothes": "Blue Aloha Shirt"
+      "clothes": "blue-aloha-shirt"
     }
   },
   "name": "Flash",

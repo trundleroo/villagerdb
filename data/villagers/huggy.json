@@ -3,22 +3,14 @@
   "species": "koala",
   "birthday": "2-17",
   "games": {
-    "af": {
-      "personality": "peppy",
-      "clothes": "Jade Check Print"
-    },
-    "af+": {
-      "personality": "peppy",
-      "clothes": "Jade Check Print"
-    },
     "ac": {
       "personality": "peppy",
-      "clothes": "Jade Check Print",
+      "clothes": "jade-check-print",
       "phrase": "bear"
     },
     "afe+": {
       "personality": "peppy",
-      "clothes": "Jade Check Print"
+      "clothes": "jade-check-print"
     }
   },
   "name": "Huggy",

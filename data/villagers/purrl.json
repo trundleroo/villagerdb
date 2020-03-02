@@ -3,17 +3,9 @@
   "species": "cat",
   "birthday": "5-29",
   "games": {
-    "af": {
-      "personality": "snooty",
-      "song": "K.K. Swing"
-    },
-    "af+": {
-      "personality": "snooty",
-      "song": "K.K. Swing"
-    },
     "ac": {
       "personality": "snooty",
-      "clothes": "Deep Blue Shirt",
+      "clothes": "moody-blue-shirt",
       "song": "K.K. Swing",
       "phrase": "kitten"
     },
@@ -23,20 +15,20 @@
     },
     "ww": {
       "personality": "snooty",
-      "clothes": "Asian Shirt",
+      "clothes": "periwinkle-tee",
       "song": "K.K. Swing",
       "phrase": "kitten",
       "quote": "You don't mind if I use your bed to sharpen my claws, do you?"
     },
     "cf": {
       "personality": "snooty",
-      "clothes": "Asian Shirt",
+      "clothes": "periwinkle-tee",
       "song": "K.K. Swing",
       "phrase": "kitten"
     },
     "nl": {
       "personality": "snooty",
-      "clothes": "Periwinkle Tee",
+      "clothes": "periwinkle-tee",
       "song": "K.K. Swing",
       "phrase": "kitten",
       "skill": "Writing backward",

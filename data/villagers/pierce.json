@@ -3,43 +3,33 @@
   "species": "eagle",
   "birthday": "1-8",
   "games": {
-    "af": {
-      "personality": "jock",
-      "song": "K.K. Etude",
-      "clothes": "Circus Shirt"
-    },
-    "af+": {
-      "personality": "jock",
-      "song": "K.K. Etude",
-      "clothes": "Circus Shirt"
-    },
     "ac": {
       "personality": "jock",
       "song": "K.K. Etude",
       "phrase": "winger",
-      "clothes": "Circus Shirt"
+      "clothes": "circus-shirt"
     },
     "afe+": {
       "personality": "jock",
       "song": "K.K. Etude",
-      "clothes": "Circus Shirt"
+      "clothes": "circus-shirt"
     },
     "ww": {
       "personality": "jock",
       "song": "K.K. Etude",
       "phrase": "hawkeye",
-      "clothes": "Circus Shirt",
+      "clothes": "circus-shirt",
       "quote": "Nobody likes flabby wings."
     },
     "cf": {
       "personality": "jock",
       "song": "K.K. Etude",
       "phrase": "hawkeye",
-      "clothes": "Circus Shirt"
+      "clothes": "circus-shirt"
     },
     "nl": {
       "personality": "jock",
-      "clothes": "Camel Shirt",
+      "clothes": "camel-shirt",
       "song": "K.K. Etude",
       "phrase": "hawkeye",
       "skill": "Playing catch",

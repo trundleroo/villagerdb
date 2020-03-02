@@ -3,30 +3,20 @@
   "species": "rabbit",
   "birthday": "3-16",
   "games": {
-    "af": {
-      "personality": "lazy",
-      "clothes": "Vertigo Tee",
-      "song": "Pondering"
-    },
-    "af+": {
-      "personality": "lazy",
-      "clothes": "Vertigo Tee",
-      "song": "Pondering"
-    },
     "ac": {
       "personality": "lazy",
-      "clothes": "Vertigo Tee",
+      "clothes": "vertigo-shirt",
       "song": "Pondering",
       "phrase": "ol' bunny"
     },
     "afe+": {
       "personality": "lazy",
-      "clothes": "Vertigo Tee",
+      "clothes": "vertigo-shirt",
       "song": "Pondering"
     },
     "nl": {
       "personality": "lazy",
-      "clothes": "Vertigo Tee",
+      "clothes": "vertigo-tee",
       "song": "Pondering",
       "phrase": "ol' bunny",
       "skill": "Typing",

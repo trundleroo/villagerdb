@@ -3,36 +3,26 @@
   "species": "sheep",
   "birthday": "4-3",
   "games": {
-    "af": {
-      "personality": "normal",
-      "clothes": "Red-Grid Tee",
-      "song": "K.K. Waltz"
-    },
-    "af+": {
-      "personality": "normal",
-      "clothes": "Red-Grid Tee",
-      "song": "K.K. Waltz"
-    },
     "ac": {
       "personality": "normal",
-      "clothes": "Red-Grid Tee",
+      "clothes": "red-grid-shirt",
       "song": "K.K. Waltz",
       "phrase": "lambchop"
     },
     "afe+": {
       "personality": "normal",
-      "clothes": "Red-Grid Tee",
+      "clothes": "red-grid-shirt",
       "song": "K.K. Waltz"
     },
     "cf": {
       "personality": "normal",
-      "clothes": "Red-Grid Tee",
+      "clothes": "red-grid-tee",
       "song": "K.K. Waltz",
       "phrase": "lambchop"
     },
     "nl": {
       "personality": "normal",
-      "clothes": "Red-Grid Tee",
+      "clothes": "red-grid-tee",
       "song": "K.K. Waltz",
       "phrase": "lambchop",
       "skill": "Dusting",

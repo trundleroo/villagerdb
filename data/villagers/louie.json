@@ -3,24 +3,17 @@
   "species": "gorilla",
   "birthday": "3-26",
   "games": {
-    "af": {
-      "personality": "jock",
-      "clothes": "Lil Bro's shirt"
-    },
-    "af+": {
-      "personality": "jock"
-    },
     "ac": {
       "personality": "jock",
       "phrase": "toots"
     },
     "afe+": {
       "personality": "jock",
-      "clothes": "Lil Bro's shirt"
+      "clothes": "lil-bros-shirt"
     },
     "nl": {
       "personality": "jock",
-      "clothes": "Big Bro's Tee",
+      "clothes": "big-bros-tee",
       "phrase": "toots",
       "skill": "Handstands",
       "goal": "Rugby player",

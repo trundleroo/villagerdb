@@ -5,25 +5,25 @@
   "games": {
     "afe+": {
       "personality": "lazy",
-      "clothes": "Fish Bone Shirt",
+      "clothes": "fish-bone-shirt",
       "song": "K.K. Ragtime"
     },
     "ww": {
       "personality": "lazy",
-      "clothes": "BB Tee",
+      "clothes": "bb-tee",
       "song": "K.K. Ragtime",
       "phrase": "myawn",
       "quote": "Whoa..."
     },
     "cf": {
       "personality": "lazy",
-      "clothes": "BB Tee",
+      "clothes": "bb-tee",
       "song": "K.K. Ragtime",
       "phrase": "myawn"
     },
     "nl": {
       "personality": "lazy",
-      "clothes": "BB Tee",
+      "clothes": "bb-tee",
       "song": "K.K. Ragtime",
       "phrase": "myawn",
       "fear": "Monster Mask",

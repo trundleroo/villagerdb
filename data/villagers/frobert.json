@@ -3,43 +3,33 @@
   "species": "frog",
   "birthday": "2-8",
   "games": {
-    "af": {
-      "personality": "jock",
-      "clothes": "Gracie Tank",
-      "song": "My Place"
-    },
-    "af+": {
-      "personality": "jock",
-      "clothes": "Gracie Tank",
-      "song": "My Place"
-    },
     "ac": {
       "personality": "jock",
-      "clothes": "Gracie Tank",
+      "clothes": "gracies-top",
       "song": "My Place",
       "phrase": "fribbit"
     },
     "afe+": {
       "personality": "jock",
-      "clothes": "Gracie Tank",
+      "clothes": "gracies-top",
       "song": "My Place"
     },
     "ww": {
       "personality": "jock",
-      "clothes": "Gracie Tank",
+      "clothes": "gracie-tank",
       "song": "My Place",
       "phrase": "fribbit",
       "quote": "I don't wanna see any lily-livered jumping! Always aim high!"
     },
     "cf": {
       "personality": "jock",
-      "clothes": "Gracie Tank",
+      "clothes": "gracie-tank",
       "song": "My Place",
       "phrase": "fribbit"
     },
     "nl": {
       "personality": "jock",
-      "clothes": "Gracie Tank",
+      "clothes": "gracie-tank",
       "song": "My Place",
       "phrase": "fribbit",
       "skill": "Eating quickly",

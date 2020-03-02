@@ -3,30 +3,20 @@
   "species": "rhino",
   "birthday": "3-20",
   "games": {
-    "af": {
-      "personality": "lazy",
-      "clothes": "Chevron Shirt",
-      "song": "Aloha K.K."
-    },
-    "af+": {
-      "personality": "lazy",
-      "clothes": "Chevron Shirt",
-      "song": "Aloha K.K."
-    },
     "ac": {
       "personality": "lazy",
-      "clothes": "Chevron Shirt",
+      "clothes": "chevron-shirt",
       "song": "Aloha K.K.",
       "phrase": "schnozzle"
     },
     "afe+": {
       "personality": "lazy",
-      "clothes": "Chevron Shirt",
+      "clothes": "chevron-shirt",
       "song": "Aloha K.K"
     },
     "nl": {
       "personality": "lazy",
-      "clothes": "Chevron Shirt",
+      "clothes": "chevron-shirt",
       "song": "K.K. Lament",
       "phrase": "schnozzle",
       "skill": "Bunting",

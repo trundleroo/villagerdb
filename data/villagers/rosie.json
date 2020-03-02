@@ -3,17 +3,9 @@
   "species": "cat",
   "birthday": "2-27",
   "games": {
-    "af": {
-      "personality": "peppy",
-      "song": "Bubblegum K.K."
-    },
-    "af+": {
-      "personality": "peppy",
-      "song": "Bubblegum K.K."
-    },
     "ac": {
       "personality": "peppy",
-      "clothes": "Short Cake Shirt",
+      "clothes": "shortcake-shirt",
       "song": "Bubblegum K.K.",
       "phrase": "silly"
     },
@@ -23,20 +15,20 @@
     },
     "ww": {
       "personality": "peppy",
-      "clothes": "Dazed Tee",
+      "clothes": "dazed-tee",
       "song": "Bubblegum K.K.",
       "phrase": "silly",
       "quote": "To the president of the Rosie Fan Club!"
     },
     "cf": {
       "personality": "peppy",
-      "clothes": "Dazed Tee",
+      "clothes": "dazed-tee",
       "song": "Bubblegum K.K.",
       "phrase": "silly"
     },
     "nl": {
       "personality": "peppy",
-      "clothes": "Dazed Tee",
+      "clothes": "dazed-tee",
       "song": "Bubblegum K.K.",
       "phrase": "silly",
       "skill": "Karaoke",

@@ -3,17 +3,9 @@
   "species": "cub",
   "birthday": "8-2",
   "games": {
-    "af": {
-      "personality": "cranky",
-      "song": "Agent K.K."
-    },
-    "af+": {
-      "personality": "cranky",
-      "song": "Agent K.K."
-    },
     "ac": {
       "personality": "cranky",
-      "clothes": "Tiger Print",
+      "clothes": "tiger-shirt",
       "song": "Agent K.K.",
       "phrase": "nyet"
     },
@@ -23,7 +15,7 @@
     },
     "cf": {
       "personality": "cranky",
-      "clothes": "Lite Polka Tee",
+      "clothes": "lite-polka-tee",
       "song": "Agent K.K.",
       "phrase": "nyet"
     },

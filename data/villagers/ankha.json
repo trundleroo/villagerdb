@@ -3,19 +3,15 @@
   "species": "cat",
   "birthday": "9-22",
   "games": {
-    "af+": {
-      "personality": "snooty",
-      "song": "Marine Song 2001"
-    },
     "ac": {
       "personality": "snooty",
-      "clothes": "Red Aloha Shirt",
+      "clothes": "red-aloha-shirt",
       "song": "Marine Song 2001",
       "phrase": "me meow"
     },
     "afe+": {
       "personality": "snooty",
-      "clothes": "Red Aloha Shirt",
+      "clothes": "red-aloha-shirt",
       "song": "Marine Song 2001"
     },
     "cf": {
@@ -26,7 +22,7 @@
     },
     "nl": {
       "personality": "snooty",
-      "clothes": "Mummy Shirt",
+      "clothes": "mummy-shirt",
       "song": "Marine Song 2001",
       "phrase": "me meow",
       "skill": "Writing about pickles",

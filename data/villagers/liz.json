@@ -3,22 +3,14 @@
   "species": "alligator",
   "birthday": "9-7",
   "games": {
-    "af": {
-      "personality": "normal",
-      "clothes": "Diamond Shirt"
-    },
-    "af+": {
-      "personality": "normal",
-      "clothes": "Diamond Shirt"
-    },
     "ac": {
       "personality": "normal",
-      "clothes": "Diamond Shirt",
+      "clothes": "diamond-shirt",
       "phrase": "groonch"
     },
     "afe+": {
       "personality": "normal",
-      "clothes": "Diamond Shirt"
+      "clothes": "diamond-shirt"
     }
   },
   "name": "Liz",

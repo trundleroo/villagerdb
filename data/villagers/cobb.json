@@ -3,30 +3,20 @@
   "species": "pig",
   "birthday": "10-7",
   "games": {
-    "af": {
-      "personality": "jock",
-      "clothes": "Racer Tee",
-      "song": "Pondering"
-    },
-    "af+": {
-      "personality": "jock",
-      "clothes": "Racer Tee",
-      "song": "Pondering"
-    },
     "ac": {
       "personality": "jock",
-      "clothes": "Racer Tee",
+      "clothes": "racer-shirt",
       "song": "Pondering",
       "phrase": "hot dog"
     },
     "afe+": {
       "personality": "jock",
-      "clothes": "Racer Tee",
+      "clothes": "racer-shirt",
       "song": "Pondering"
     },
     "nl": {
       "personality": "jock",
-      "clothes": "Racer Tee",
+      "clothes": "racer-tee",
       "song": "Pondering",
       "phrase": "hot dog",
       "skill": "Debating",

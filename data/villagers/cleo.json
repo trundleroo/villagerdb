@@ -3,30 +3,20 @@
   "species": "horse",
   "birthday": "2-9",
   "games": {
-    "af": {
-      "personality": "snooty",
-      "clothes": "Silk Bloom shirt",
-      "song": "K.K. Bossa"
-    },
-    "af+": {
-      "personality": "snooty",
-      "clothes": "Silk Bloom shirt",
-      "song": "K.K. Bossa"
-    },
     "ac": {
       "personality": "snooty",
-      "clothes": "Silk Bloom shirt",
+      "clothes": "silk-bloom-shirt",
       "song": "K.K. Bossa",
       "phrase": "sugar"
     },
     "afe+": {
       "personality": "snooty",
-      "clothes": "Silk Bloom shirt",
+      "clothes": "silk-bloom-shirt",
       "song": "K.K. Bossa"
     },
     "nl": {
       "personality": "snooty",
-      "clothes": "Silk Bloom shirt",
+      "clothes": "silk-bloom-tee",
       "song": "K.K. Synth",
       "phrase": "sugar",
       "skill": "Juggling",

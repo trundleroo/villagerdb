@@ -3,22 +3,14 @@
   "species": "eagle",
   "birthday": "9-2",
   "games": {
-    "af": {
-      "personality": "jock",
-      "clothes": "Rally Shirt"
-    },
-    "af+": {
-      "personality": "jock",
-      "clothes": "Rally Shirt"
-    },
     "ac": {
       "personality": "jock",
-      "clothes": "Rally Shirt",
+      "clothes": "rally-shirt",
       "phrase": "SKREEE"
     },
     "afe+": {
       "personality": "jock",
-      "clothes": "Rally Shirt"
+      "clothes": "rally-shirt"
     }
   },
   "name": "Quetzal",

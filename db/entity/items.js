@@ -1,6 +1,9 @@
 const path = require('path');
+const fs = require('fs');
 const RedisStore = require('./redis-store');
 const redisConnection = require('../redis');
+const urlHelper = require('../../helpers/url');
+const villagers = require('./villagers');
 
 class Items extends RedisStore {
     constructor() {
@@ -8,18 +11,69 @@ class Items extends RedisStore {
     }
 
     async _afterPopulation() {
-        // Format recipes.
+        // We need all the villager IDs.
+        const villagersCount = await villagers.count();
+        const villagersList = await villagers.getByRange(0, villagersCount);
+
         const count = await this.count();
         const items = await this.getByRange(0, count);
 
+        // Process items.
         for (let item of items) {
-            if (item.games.nh && item.games.nh.recipe) {
-                item.games.nh.normalRecipe = await this.buildRecipeArrayFromMap(item.games.nh.recipe);
-                item.games.nh.fullRecipe = await this.buildRecipeArrayFromMap(
-                    await this.buildFullRecipe(item.games.nh.recipe)
-                );
-                await this.updateEntity(item.id, item);
+            await this.buildOwnersArray(item, villagersList);
+            await this.formatRecipe(item);
+            await this.updateEntity(item.id, item);
+        }
+    }
+
+    /**
+     * Loop through villagers and find villagers who own this item.
+     *
+     * @param item
+     * @param villagersList
+     * @returns {Promise<void>}
+     */
+    async buildOwnersArray(item, villagersList) {
+        item.owners = [];
+
+        // Loop through each villager and the games they're in and see if we are their clothing item.
+        for (let villager of villagersList) {
+            const ownerTracker = [];
+            for (let gameId in villager.games) {
+                if (villager.games[gameId].clothes === item.id && !ownerTracker.includes(villager.id)) {
+                    ownerTracker.push(villager.id);
+                    item.owners.push({
+                        name: villager.name,
+                        url: urlHelper.getEntityUrl(urlHelper.VILLAGER, villager.id)
+                    });
+                }
             }
+        }
+
+        // Sort array by name
+        item.owners.sort((a, b) => {
+            if (a.name > b.name) {
+                return 1;
+            } else if (a.name < b.name) {
+                return -1;
+            }
+
+            return 0;
+        });
+    }
+
+    /**
+     * Recipe formatting entry point - New Horizons only
+     *
+     * @param item
+     * @returns {Promise<void>}
+     */
+    async formatRecipe(item) {
+        if (item.games.nh && item.games.nh.recipe) {
+            item.games.nh.normalRecipe = await this.buildRecipeArrayFromMap(item.games.nh.recipe);
+            item.games.nh.fullRecipe = await this.buildRecipeArrayFromMap(
+                await this.buildFullRecipe(item.games.nh.recipe)
+            );
         }
     }
 
@@ -28,7 +82,7 @@ class Items extends RedisStore {
      * data here instead of in, say, a router, because it's expensive to do.
      *
      * @param map
-     * @returns {Promise<void>}
+     * @returns {Promise<[]>}
      */
     async buildRecipeArrayFromMap(map) {
         const recipeArray = [];
@@ -41,7 +95,7 @@ class Items extends RedisStore {
             const ingredientItem = await this.getById(ingredient);
             if (ingredientItem) {
                 name = ingredientItem.name;
-                url = '/item/' + ingredientItem.id;
+                url = urlHelper.getEntityUrl(urlHelper.ITEM, ingredientItem.id);
             }
             recipeArray.push({
                 name: name,

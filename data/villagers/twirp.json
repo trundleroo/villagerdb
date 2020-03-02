@@ -3,22 +3,14 @@
   "species": "bird",
   "birthday": "8-7",
   "games": {
-    "af": {
-      "personality": "cranky",
-      "clothes": "Arctic Camo"
-    },
-    "af+": {
-      "personality": "cranky",
-      "clothes": "Arctic Camo"
-    },
     "ac": {
       "personality": "cranky",
-      "clothes": "Arctic Camo",
+      "clothes": "arctic-camo",
       "phrase": "CHIRP"
     },
     "afe+": {
       "personality": "cranky",
-      "clothes": "Arctic Camo"
+      "clothes": "arctic-camo"
     }
   },
   "name": "Twirp",
