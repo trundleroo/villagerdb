@@ -90,8 +90,8 @@ function generateParagraph(villager, formattedVillager) {
     let paragraph = name + ' is ' + format.aOrAn(personality.toLowerCase()) + ' ' + species + ' villager. ' +
         format.capFirstLetter(pronoun) + ' was born on ' + birthday + ' and ' + posessivePronoun +
         ' star sign  is ' + zodiac + '. ';
-    if (gameData.clothes) {
-        paragraph += name + ' wears the ' + gameData.clothes + '. ';
+    if (gameData.clothesName) {
+        paragraph += name + ' wears the ' + gameData.clothesName + '. ';
     }
     if (gameData.song) {
         paragraph += format.capFirstLetter(posessivePronoun) + ' favorite song is ' + gameData.song + '. ';
