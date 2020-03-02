@@ -26,6 +26,7 @@ services:
       - 3000:3000
       - 9229:9229
     volumes:
+      - ./error:/var/www/error
       - ./public:/usr/src/app/public
     depends_on:
       - villagerdb_es

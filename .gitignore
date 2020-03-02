@@ -106,6 +106,7 @@ typings/
 .DS_Store
 
 # App-specific
+public/.maintenance
 public/images
 public/javascripts
 public/stylesheets/*.css
