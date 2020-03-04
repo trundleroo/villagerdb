@@ -9,6 +9,7 @@ services:
       - 443:443
     volumes:
       - ./nginx-config/webserver-prod.conf:/etc/nginx/conf.d/default.conf
+      - ./public:/var/www/webroot
       - /etc/ssl/villagerdb:/etc/ssl/villagerdb
     depends_on:
       - villagerdb_app
@@ -25,8 +26,7 @@ services:
       - 3000:3000
       - 9229:9229
     volumes:
-      - ./public/images:/usr/src/app/public/images
-      - ./public/sitemaps:/usr/src/app/public/sitemaps
+      - ./public:/usr/src/app/public
     depends_on:
       - villagerdb_es
       - villagerdb_redis
