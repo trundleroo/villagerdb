@@ -11,8 +11,6 @@ services:
       - ./nginx-config/webserver-prod.conf:/etc/nginx/conf.d/default.conf
       - ./public:/var/www/webroot
       - /etc/ssl/villagerdb:/etc/ssl/villagerdb
-    depends_on:
-      - villagerdb_app
   villagerdb_app:
     build:
       context: .
@@ -26,6 +24,7 @@ services:
       - 3000:3000
       - 9229:9229
     volumes:
+      - ./error:/var/www/error
       - ./public:/usr/src/app/public
     depends_on:
       - villagerdb_es
