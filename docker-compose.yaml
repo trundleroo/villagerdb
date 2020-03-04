@@ -8,8 +8,8 @@ services:
       - 80:80
     volumes:
       - ./nginx-config/webserver.conf:/etc/nginx/conf.d/default.conf
-    depends_on:
-      - villagerdb_app
+      - ./error:/var/www/error
+      - ./public:/var/www/webroot
   villagerdb_app:
     build:
       context: .

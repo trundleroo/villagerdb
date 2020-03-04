@@ -106,7 +106,10 @@ typings/
 .DS_Store
 
 # App-specific
+public/.maintenance
 public/images
 public/javascripts
 public/stylesheets/*.css
+public/favicon.ico
 public/sitemaps
+public/webfonts

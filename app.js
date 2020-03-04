@@ -1,8 +1,6 @@
 const createError = require('http-errors');
 const express = require('express');
-const lessMiddleware = require('less-middleware');
 const path = require('path');
-const favicon = require('serve-favicon');
 const logger = require('morgan');
 const hbs = require('express-handlebars');
 const staticify = require('./config/staticify');
@@ -43,26 +41,6 @@ app.set('view engine', 'hbs');
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-
-// Setup favicon, but do not panic if favicon.ico can't be found.
-try {
-    app.use(favicon(path.join(__dirname, 'public', 'images', 'favicon.ico')));
-} catch (e) {
-    console.log('Warning: favicon middleware reported an error. Skipping.');
-    console.error(e);
-}
-
-// Everything styling related...
-app.use(lessMiddleware(path.join(__dirname, 'public'),
-    {once: app.get('env') === 'production'}));
-app.use(express.static(path.join(__dirname, 'public')));
-app.use('/webfonts/fa',
-    express.static(path.join(__dirname, 'node_modules', '@fortawesome', 'fontawesome-free', 'webfonts')));
-app.use('/webfonts/slick',
-    express.static(path.join(__dirname, 'node_modules', 'slick-carousel', 'slick', 'fonts')));
-
-// Staticify
-app.use(staticify.middleware);
 
 // Do not send X-Powered-By header.
 app.disable('x-powered-by');
