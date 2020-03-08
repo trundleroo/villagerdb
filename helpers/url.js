@@ -1,12 +1,20 @@
 /**
  * Filesystem manager.
+ * @type {module:fs}
  */
 const fs = require('fs');
 
 /**
- * Staticify.
+ * Path manager.
+ * @type {module:path}
  */
-const staticify = require('../config/staticify');
+const path = require('path');
+
+/**
+ * For MD5.
+ * @type {module:crypto}
+ */
+const crypto = require('crypto');
 
 /**
  * Thumbnail
@@ -39,6 +47,19 @@ const ITEM = 'item';
 const VILLAGER = 'villager';
 
 /**
+ * Length of hash key in filenames.
+ * @type {number}
+ */
+const HASH_LENGTH = 7;
+
+/**
+ * A very small collection of cached URLs. Really only intended to hold CSS and JS links to be cached busted before
+ * reaching the CDN.
+ * @type {{}}
+ */
+const staticCache = {};
+
+/**
  * The path for an image that can't be found.
  *
  * @param type THUMB, MEDIUM or FULL.
@@ -47,6 +68,23 @@ const VILLAGER = 'villager';
 function getImageNotFoundFilename(type) {
     return '/images/image-not-available-' + type + '.svg';
 }
+
+/**
+ * Insert hash string into the last segment of URL before file extension.
+ * @param inputUrl
+ * @param hash
+ * @returns {string}
+ */
+function addHashToUrl(inputUrl, hash) {
+    const fileParts = inputUrl.split('.');
+    const newFileParts = [];
+    for (let i = 0; i < fileParts.length - 1; i++) {
+        newFileParts.push(fileParts[i]);
+    }
+    newFileParts.push(hash);
+    newFileParts.push(fileParts[fileParts.length - 1]);
+    return newFileParts.join('.');
+};
 
 /**
  * Thumbnail image type.
@@ -88,7 +126,7 @@ module.exports.VILLAGER = VILLAGER;
  * @param id
  * @returns {string}
  */
-function getImageUrl(entityType, imageType, id) {
+const getImageUrl = (entityType, imageType, id) => {
     if (imageType == THUMB || imageType == MEDIUM || imageType == FULL) {
         const pathPrefix = './public/images/' + entityType + 's/' + imageType + '/' + id;
         if (fs.existsSync(pathPrefix + '.jpg')) {
@@ -114,9 +152,9 @@ module.exports.getImageUrl = getImageUrl;
  */
 module.exports.getEntityImageData = (entityType, id) => {
     return {
-        thumb: staticify.getVersionedPath(getImageUrl(entityType, THUMB, id)),
-        medium: staticify.getVersionedPath(getImageUrl(entityType, MEDIUM, id)),
-        full: staticify.getVersionedPath(getImageUrl(entityType, FULL, id))
+        thumb: computeStaticAssetUrl(getImageUrl(entityType, THUMB, id)),
+        medium: computeStaticAssetUrl(getImageUrl(entityType, MEDIUM, id)),
+        full: computeStaticAssetUrl(getImageUrl(entityType, FULL, id))
     };
 };
 
@@ -129,4 +167,41 @@ module.exports.getEntityImageData = (entityType, id) => {
  */
 module.exports.getEntityUrl = (entityType, id) => {
     return '/' + entityType + '/' + id;
+};
+
+/**
+ * Compute a static asset URL suitable for CDN use. Computations are not cached.
+ * @param inputUrl
+ * @returns {string}
+ */
+const computeStaticAssetUrl = (inputUrl) => {
+    const filePath = path.join(process.cwd(), 'public', inputUrl);
+    if (fs.existsSync(filePath)) {
+        const fileStr = fs.readFileSync(filePath, 'utf8');
+        const hash = crypto.createHash('md5')
+            .update(fileStr, 'utf8')
+            .digest('hex')
+            .substr(0, HASH_LENGTH);
+        return addHashToUrl(inputUrl, hash);
+    } else {
+        // No such file. Just return as is.
+        return inputUrl;
+    }
+};
+module.exports.computeStaticAssetUrl = computeStaticAssetUrl;
+
+/**
+ * Get a static asset URL that is hashed for use by the CDN. Results are cached in-memory, so this should really only
+ * be used for CSS and JS. Images should be pre-computed and put into their respective Redis or ElasticSearch indexes.
+ *
+ * @param inputUrl
+ * @returns {string}
+ */
+module.exports.getCacheBustedUrl = (inputUrl) => {
+    if (staticCache[inputUrl]) {
+        return staticCache[inputUrl];
+    }
+
+    staticCache[inputUrl] = computeStaticAssetUrl(inputUrl);
+    return staticCache[inputUrl];
 };

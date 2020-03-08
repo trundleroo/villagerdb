@@ -7,7 +7,6 @@ const path = require('path');
 const moment = require('moment');
 const es = require('../db/elasticsearch');
 
-const staticify = require('../config/staticify');
 const searchConfig = require('../config/search.js');
 const formatHelper = require('../helpers/format');
 const urlHelper = require('../helpers/url');
@@ -37,9 +36,20 @@ async function buildSearchIndex() {
             settings: {
                 analysis: {
                     analyzer: {
-                        vdb_asciifolding: {
+                        vdb_ascii_fold: {
                             tokenizer: 'standard',
                             filter: ['with_orig_asciifolding', 'lowercase']
+                        },
+                        vdb_ascii_fold_partial_match: {
+                            tokenizer: 'vdb_tokenizer',
+                            filter: ['with_orig_asciifolding', 'lowercase']
+                        }
+                    },
+                    tokenizer: {
+                        vdb_tokenizer: {
+                            type: "edge_ngram",
+                            min_gram: 2,
+                            max_gram: 10
                         }
                     },
                     filter: {
@@ -60,7 +70,7 @@ async function buildSearchIndex() {
             properties: {
                 suggest: {
                     type: 'completion',
-                    analyzer: 'vdb_asciifolding'
+                    analyzer: 'vdb_ascii_fold'
                 },
                 type: {
                     type: 'keyword'
@@ -103,7 +113,7 @@ async function buildSearchIndex() {
                 },
                 name: {
                     type: 'text',
-                    analyzer: 'vdb_asciifolding'
+                    analyzer: 'vdb_ascii_fold_partial_match'
                 }
             }
         }
@@ -136,7 +146,7 @@ async function indexVillagers(es) {
             species: parsed.species,
             name: parsed.name,
             url: urlHelper.getEntityUrl(searchConfig.villagerEntityType, parsed.id),
-            imageUrl: staticify.getVersionedPath(urlHelper.getImageUrl(searchConfig.villagerEntityType,
+            imageUrl: urlHelper.computeStaticAssetUrl(urlHelper.getImageUrl(searchConfig.villagerEntityType,
                 urlHelper.THUMB, parsed.id)),
             game: [],
             personality: [],
@@ -191,7 +201,7 @@ async function indexItems(es) {
             category: parsed.category,
             game: [],
             url: urlHelper.getEntityUrl(searchConfig.itemEntityType, parsed.id),
-            imageUrl: staticify.getVersionedPath(urlHelper.getImageUrl(searchConfig.itemEntityType, urlHelper.THUMB,
+            imageUrl: urlHelper.computeStaticAssetUrl(urlHelper.getImageUrl(searchConfig.itemEntityType, urlHelper.THUMB,
                 parsed.id))
         };
 
@@ -238,10 +248,12 @@ if (!command) {
     generateSitemap()
         .then(() => {
             console.log('Generated new sitemap.');
+            process.exit(0);
         })
         .catch((e) => {
             console.log('Failed to generate new sitemap.');
             console.error(e);
+            process.exit(1);
         });
 } else if (command === 'delete-search-index') {
     deleteSearchIndex()
@@ -249,28 +261,30 @@ if (!command) {
         }) // doesn't matter that it failed to delete
         .then(() => {
             console.log('Deleted ' + searchConfig.elasticSearchIndexName + ' index.');
+            process.exit(0);
         });
 } else if (command === 'build-search-index') {
     buildSearchIndex()
         .then(() => {
             console.log('Built ' + searchConfig.elasticSearchIndexName + ' index successfully.');
+            process.exit(0);
         })
         .catch((e) => {
             console.log('Failed to build search index.');
             console.error(e);
+            process.exit(1);
         });
 } else if (command === 'build-redis-db') {
-    const redisConnection = require('../db/redis');
     buildRedisDb()
         .then(() => {
-            // So the process will actually terminate.
-            redisConnection.quit();
+            process.exit(0);
         })
         .catch((e) => {
             console.log('Error building redis db.');
             console.error(e);
+            process.exit(1);
         })
 } else {
-    console.error('Valid commands: generate-sitemap, delete-search-index, build-search-index, build-redis-db.');
+    console.error('Invalid command: ' + command);
     process.exit(1);
 }
