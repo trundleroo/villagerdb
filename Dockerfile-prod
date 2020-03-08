@@ -4,14 +4,15 @@ FROM node:10
 WORKDIR /usr/src/app
 RUN chown node:node /usr/src/app
 
-# Bundle app source, owned by node:node
-COPY --chown=node:node . .
-
 # Don't run as root anymore
 USER node
 
-# Install app dependencies
+# Copy in package*.json first, then npm install if not cached.
+COPY --chown=node:node package*.json ./
 RUN npm ci --only=production
+
+# Bundle app source, owned by node:node
+COPY --chown=node:node . .
 
 # Run app
 ENTRYPOINT ["/bin/sh"]
