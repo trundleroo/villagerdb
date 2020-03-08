@@ -1,3 +1,4 @@
+const urlHelper = require('../../helpers/url')
 
 /**
  * Basic middleware that populates some user state data so that every template can access it, if needed.
@@ -21,5 +22,8 @@ module.exports = (req, res, next) => {
         res.locals.userState.username = req.user.username;
     }
 
+    // Stylesheet and JavaScript URL.
+    res.locals.stylesheetUrl = urlHelper.getCacheBustedUrl('/stylesheets/style.css');
+    res.locals.javascriptUrl = urlHelper.getCacheBustedUrl('/javascripts/bundle.js');
     next();
 };
