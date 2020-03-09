@@ -179,7 +179,6 @@ async function loadItem(id) {
     result.owners = item.owners;
     
     // Social media information
-    result.setSharingData = true;
     result.pageUrl = 'https://villagerdb.com/item/' + item.id;
     result.pageDescription = result.paragraph;
     result.pageImage = 'https://villagerdb.com' + result.image.full;

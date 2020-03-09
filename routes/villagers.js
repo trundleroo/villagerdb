@@ -27,7 +27,6 @@ function callBrowser(req, res, next) {
     const pageNumberInt = sanitize.parsePositiveInteger(pageNumber);
 
     // Social media information
-    data.setSharingData = true;
     data.pageUrl = 'https://villagerdb.com/villagers' +
         (typeof pageNumber !== 'undefined' ? '/page/' + pageNumberInt : '');
     data.pageDescription = 'Browse our villager database to learn more about your favorite ' +

@@ -4,24 +4,24 @@
     {{> ga gaId=gaId}}
     <title>{{pageTitle}} | Animal Crossing Item and Villager Database - VillagerDB</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel='stylesheet' href="{{stylesheetUrl}}">
     {{#if pageDescription}}
         <meta name="description" content="{{pageDescription}}">
-    {{/if}}
-    {{#if setSharingData}}
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@villagerdb" />
-        <meta name="twitter:title" content="{{pageTitle}} | VillagerDB - Animal Crossing Villager and Item Database" />
         <meta name="twitter:description" content="{{pageDescription}}" />
-        <meta name="twitter:image" content="{{pageImage}}" />
-        <meta property="og:url" content="{{pageUrl}}" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="{{pageTitle}} | VillagerDB - Animal Crossing Villager and Item Database" />
         <meta property="og:description" content="{{pageDescription}}" />
-        {{#if pageImage }}
-            <meta property="og:image" content="{{pageImage}}" />
-        {{/if}}
     {{/if}}
+    {{#if pageImage}}
+        <meta name="twitter:image" content="{{pageImage}}" />
+        <meta property="og:image" content="{{pageImage}}" />
+    {{/if}}
+    {{#if pageUrl}}
+        <meta property="og:url" content="{{pageUrl}}" />
+    {{/if}}
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@villagerdb" />
+    <meta name="twitter:title" content="{{pageTitle}} | Animal Crossing Villager and Item Database - VillagerDB" />
+    <meta property="og:title" content="{{pageTitle}} | Animal Crossing Villager and Item Database - VillagerDB" />
+    <meta property="og:type" content="website" />
+    <link rel='stylesheet' href="{{stylesheetUrl}}">
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">

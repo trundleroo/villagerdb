@@ -13,10 +13,20 @@ const items = require('../db/entity/items');
  */
 async function loadUser(username) {
     const user = await users.findUserByName(username);
-    if (!user) {
+    if (!user || typeof user.lists !== 'object') {
         return null;
     }
 
+    // Sort lists alphabetically
+    user.lists.sort((a, b) => {
+        if (a.name < b.name) {
+            return -1;
+        } else {
+            return 1;
+        }
+    });
+
+    // Build result out.
     const result = {};
     result.user = user;
     result.pageTitle = user.username + "'s Profile";
