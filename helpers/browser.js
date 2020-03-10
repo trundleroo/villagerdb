@@ -57,6 +57,14 @@ function buildQuery(key, value) {
                         analyzer: 'vdb_ascii_fold'
                     }
                 }
+            },
+            {
+                match: {
+                    ngram: {
+                        query: value,
+                        analyzer: 'vdb_ascii_fold'
+                    }
+                }
             }
         ]
     } else if (allFilters[key]) { // faceted search (exact match - term)

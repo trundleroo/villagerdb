@@ -102,9 +102,13 @@ async function buildSearchIndex() {
                 collab: {
                     type: 'keyword'
                 },
-                name: {
+                ngram: {
                     type: 'text',
                     analyzer: 'vdb_ascii_fold_partial_match'
+                },
+                name: {
+                    type: 'text',
+                    analyzer: 'vdb_ascii_fold'
                 }
             }
         }
@@ -150,6 +154,7 @@ async function indexVillagers(es, newIndexName) {
             gender: parsed.gender,
             species: parsed.species,
             name: parsed.name,
+            ngram: parsed.name,
             url: urlHelper.getEntityUrl(searchConfig.villagerEntityType, parsed.id),
             imageUrl: urlHelper.computeStaticAssetUrl(urlHelper.getImageUrl(searchConfig.villagerEntityType,
                 urlHelper.THUMB, parsed.id)),
@@ -204,6 +209,7 @@ async function indexItems(es, newIndexName) {
             },
             keyword: parsed.name.toLowerCase(),
             name: parsed.name,
+            ngram: parsed.name,
             category: parsed.category,
             game: [],
             url: urlHelper.getEntityUrl(searchConfig.itemEntityType, parsed.id),
