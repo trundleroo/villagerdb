@@ -1,0 +1,12 @@
+{
+  "gender": "female",
+  "species": "horse",
+  "games": {
+    "nh": {
+      "personality": "uchi",
+      "phrase": "ayup yup"
+    }
+  },
+  "name": "Reneigh",
+  "id": "reneigh"
+}

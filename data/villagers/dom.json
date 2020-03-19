@@ -1,0 +1,12 @@
+{
+  "gender": "male",
+  "species": "sheep",
+  "games": {
+    "nh": {
+      "personality": "jock",
+      "phrase": "indeedaroo"
+    }
+  },
+  "name": "Dom",
+  "id": "dom"
+}

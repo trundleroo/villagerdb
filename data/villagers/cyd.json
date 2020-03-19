@@ -1,0 +1,11 @@
+{
+  "gender": "male",
+  "species": "elephant",
+  "games": {
+    "nh": {
+      "personality": "smug"
+    }
+  },
+  "name": "Cyd",
+  "id": "cyd"
+}

@@ -1,0 +1,12 @@
+{
+  "gender": "male",
+  "species": "goat",
+  "games": {
+    "nh": {
+      "personality": "lazy",
+      "phrase": "bawwww"
+    }
+  },
+  "name": "Sherb",
+  "id": "sherb"
+}

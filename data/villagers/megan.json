@@ -1,0 +1,12 @@
+{
+  "gender": "female",
+  "species": "bear",
+  "games": {
+    "nh": {
+      "personality": "normal",
+      "phrase": "sundae"
+    }
+  },
+  "name": "Megan",
+  "id": "megan"
+}

@@ -1,0 +1,11 @@
+{
+  "gender": "female",
+  "species": "wolf",
+  "games": {
+    "nh": {
+      "personality": "peppy"
+    }
+  },
+  "name": "Audie",
+  "id": "audie"
+}
