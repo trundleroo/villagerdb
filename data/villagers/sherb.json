@@ -1,10 +1,12 @@
 {
   "gender": "male",
   "species": "goat",
+  "birthday": "1-18",
   "games": {
     "nh": {
       "personality": "lazy",
-      "phrase": "bawwww"
+      "phrase": "bawwww",
+      "quote": "Forty winks is never enough."
     }
   },
   "name": "Sherb",

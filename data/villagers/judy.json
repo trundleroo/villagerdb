@@ -1,9 +1,12 @@
 {
   "gender": "female",
   "species": "cub",
+  "birthday": "3-10",
   "games": {
     "nh": {
-      "phrase": "myohmy"
+      "personality": "snooty",
+      "phrase": "myohmy",
+      "quote": "I'm dancing my dreams away."
     }
   },
   "name": "Judy",

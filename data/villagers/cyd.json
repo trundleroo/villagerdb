@@ -1,9 +1,11 @@
 {
   "gender": "male",
   "species": "elephant",
+  "birthday": "6-9",
   "games": {
     "nh": {
-      "personality": "smug"
+      "personality": "cranky",
+      "quote": "Do what you want, but do it loud!"
     }
   },
   "name": "Cyd",

@@ -1,10 +1,12 @@
 {
   "gender": "male",
   "species": "sheep",
+  "birthday": "3-18",
   "games": {
     "nh": {
       "personality": "jock",
-      "phrase": "indeedaroo"
+      "phrase": "indeedaroo",
+      "quote": "Be true to your most shiny self."
     }
   },
   "name": "Dom",

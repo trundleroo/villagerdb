@@ -1,10 +1,12 @@
 {
   "gender": "female",
   "species": "bear",
+  "birthday": "3-13",
   "games": {
     "nh": {
       "personality": "normal",
-      "phrase": "sundae"
+      "phrase": "sundae",
+      "quote": "Take a page out of someone else's book, if it's a good book."
     }
   },
   "name": "Megan",
