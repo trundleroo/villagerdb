@@ -4,8 +4,11 @@
   "category": "Tools",
   "games": {
     "nh": {
-      "xSize": 1,
-      "ySize": 1,
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": true,
       "recipe": {
         "clay": 4
       }

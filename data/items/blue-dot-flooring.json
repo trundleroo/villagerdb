@@ -1,0 +1,12 @@
+{
+  "id": "blue-dot-flooring",
+  "name": "Blue dot flooring",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ]
+    }
+  }
+}

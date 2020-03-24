@@ -1,0 +1,16 @@
+{
+  "id": "pot",
+  "name": "Pot",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": true,
+      "recipe": {
+        "clay": 5
+      }
+    }
+  }
+}

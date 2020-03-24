@@ -1,0 +1,16 @@
+{
+  "id": "lattice-fence",
+  "name": "Lattice fence",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": false,
+      "recipe": {
+        "softwood": 8
+      }
+    }
+  }
+}

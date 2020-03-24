@@ -1,0 +1,9 @@
+{
+  "id": "slip-on-loafers",
+  "name": "Slip-on loafers",
+  "games": {
+    "nh": {
+      "orderable": true
+    }
+  }
+}

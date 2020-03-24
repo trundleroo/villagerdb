@@ -21,6 +21,17 @@
           "value": 1400
         }
       ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": true,
+      "recipe": {
+        "wood": 3,
+        "softwood": 5
+      }
     }
   }
 }

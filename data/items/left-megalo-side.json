@@ -1,0 +1,12 @@
+{
+  "id": "left-megalo-side",
+  "name": "Left megalo side",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Underground (dig spot)"
+      ]
+    }
+  }
+}

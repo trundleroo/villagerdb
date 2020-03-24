@@ -1,0 +1,12 @@
+{
+  "id": "nook-inc-flooring",
+  "name": "Nook Inc. flooring",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Miles System"
+      ]
+    }
+  }
+}

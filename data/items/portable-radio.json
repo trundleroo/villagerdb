@@ -1,0 +1,12 @@
+{
+  "id": "portable-radio",
+  "name": "Portable radio",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook on your first day"
+      ]
+    }
+  }
+}

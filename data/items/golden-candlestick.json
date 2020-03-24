@@ -1,0 +1,16 @@
+{
+  "id": "golden-candlestick",
+  "name": "Golden candlestick",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": false,
+      "recipe": {
+        "gold-nugget": 2
+      }
+    }
+  }
+}

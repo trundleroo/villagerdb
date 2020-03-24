@@ -1,0 +1,16 @@
+{
+  "id": "tire-toy",
+  "name": "Tire toy",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": true,
+      "recipe": {
+        "old-tire": 1
+      }
+    }
+  }
+}

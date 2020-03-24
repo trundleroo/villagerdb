@@ -1,0 +1,12 @@
+{
+  "id": "oval-glasses",
+  "name": "Oval glasses",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Shopping"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "fish-bait",
+  "name": "Fish bait",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": false,
+      "recipe": {
+        "manila-clam": 1
+      }
+    }
+  }
+}

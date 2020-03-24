@@ -1,0 +1,17 @@
+{
+  "id": "stone-axe",
+  "name": "Stone axe",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": false,
+      "recipe": {
+        "flimsy-axe": 1,
+        "wood": 3
+      }
+    }
+  }
+}

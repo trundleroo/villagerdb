@@ -4,6 +4,11 @@
   "category": "Furniture",
   "games": {
     "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": true,
       "recipe": {
         "iron-nugget": 2
       }

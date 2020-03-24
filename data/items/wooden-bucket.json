@@ -26,6 +26,17 @@
           "value": 5
         }
       ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": false,
+      "recipe": {
+        "wood": 3,
+        "iron-nugget": 1
+      }
     }
   }
 }

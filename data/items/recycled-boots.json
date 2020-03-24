@@ -1,0 +1,16 @@
+{
+  "id": "recycled-boots",
+  "name": "Recycled boots",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": false,
+      "recipe": {
+        "boot": 2
+      }
+    }
+  }
+}

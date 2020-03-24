@@ -4,8 +4,11 @@
   "category": "Furniture",
   "games": {
     "nh": {
-      "xSize": 2,
-      "ySize": 1,
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": true,
       "recipe": {
         "hardwood": 5
       }

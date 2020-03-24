@@ -1,0 +1,12 @@
+{
+  "id": "denim-cutoffs",
+  "name": "Denim cutoffs",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Shopping"
+      ]
+    }
+  }
+}

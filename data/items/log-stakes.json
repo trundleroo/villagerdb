@@ -1,0 +1,16 @@
+{
+  "id": "log-stakes",
+  "name": "Log stakes",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": true,
+      "recipe": {
+        "wood": 3
+      }
+    }
+  }
+}

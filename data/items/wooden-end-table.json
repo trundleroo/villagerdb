@@ -1,0 +1,16 @@
+{
+  "id": "wooden-end-table",
+  "name": "Wooden end table",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": true,
+      "recipe": {
+        "wood": 8
+      }
+    }
+  }
+}

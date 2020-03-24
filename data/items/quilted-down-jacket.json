@@ -1,0 +1,12 @@
+{
+  "id": "quilted-down-jacket",
+  "name": "Quilted down jacket",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ]
+    }
+  }
+}

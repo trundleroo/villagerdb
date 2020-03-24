@@ -1,0 +1,16 @@
+{
+  "id": "dark-wooden-mosaic-wall",
+  "name": "Dark wooden-mosaic wall",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": false,
+      "recipe": {
+        "wood": 15
+      }
+    }
+  }
+}

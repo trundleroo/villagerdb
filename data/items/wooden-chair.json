@@ -1,0 +1,16 @@
+{
+  "id": "wooden-chair",
+  "name": "Wooden chair",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": true,
+      "recipe": {
+        "wood": 6
+      }
+    }
+  }
+}

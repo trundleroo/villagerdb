@@ -21,6 +21,16 @@
           "value": 320
         }
       ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": false,
+      "recipe": {
+        "clump-of-weeds": 15
+      }
     }
   }
 }

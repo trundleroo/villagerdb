@@ -1,0 +1,16 @@
+{
+  "id": "vertical-board-fence",
+  "name": "Vertical-board fence",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": false,
+      "recipe": {
+        "wood": 8
+      }
+    }
+  }
+}

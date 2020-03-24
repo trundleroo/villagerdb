@@ -1,0 +1,12 @@
+{
+  "id": "nook-inc-blouson",
+  "name": "Nook Inc. blouson",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Miles System"
+      ]
+    }
+  }
+}

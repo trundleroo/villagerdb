@@ -1,0 +1,18 @@
+{
+  "id": "ladder",
+  "name": "Ladder",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": false,
+      "recipe": {
+        "wood": 4,
+        "hardwood": 4,
+        "softwood": 4
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "manila-clam",
+  "name": "Manila clam",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Dig up on beach"
+      ]
+    }
+  }
+}

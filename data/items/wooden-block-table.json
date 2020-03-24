@@ -1,0 +1,17 @@
+{
+  "id": "wooden-block-table",
+  "name": "Wooden-block table",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": true,
+      "recipe": {
+        "wooden-block-toy": 1,
+        "softwood": 1
+      }
+    }
+  }
+}

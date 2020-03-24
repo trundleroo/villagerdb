@@ -1,0 +1,17 @@
+{
+  "id": "rose-crown",
+  "name": "Rose crown",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "recipe": {
+        "red-rose": 2,
+        "yellow-rose": 2,
+        "white-rose": 2
+      }
+    }
+  }
+}

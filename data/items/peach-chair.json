@@ -1,0 +1,17 @@
+{
+  "id": "peach-chair",
+  "name": "Peach chair",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": true,
+      "recipe": {
+        "peach": 10,
+        "wood": 5
+      }
+    }
+  }
+}

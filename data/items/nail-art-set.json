@@ -1,0 +1,12 @@
+{
+  "id": "nail-art-set",
+  "name": "Nail-art set",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ]
+    }
+  }
+}

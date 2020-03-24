@@ -1,0 +1,17 @@
+{
+  "id": "straw-fence",
+  "name": "Straw fence",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": false,
+      "recipe": {
+        "clump-of-weeds": 10,
+        "wood": 3
+      }
+    }
+  }
+}

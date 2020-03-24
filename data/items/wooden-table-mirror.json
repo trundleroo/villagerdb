@@ -1,0 +1,17 @@
+{
+  "id": "wooden-table-mirror",
+  "name": "Wooden table mirror",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": true,
+      "recipe": {
+        "wood": 3,
+        "iron-nugget": 1
+      }
+    }
+  }
+}

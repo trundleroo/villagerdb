@@ -1,0 +1,12 @@
+{
+  "id": "yacht-shorts",
+  "name": "Yacht shorts",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Shopping"
+      ]
+    }
+  }
+}

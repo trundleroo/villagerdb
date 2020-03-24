@@ -1,0 +1,12 @@
+{
+  "id": "pull-up-bar-stand",
+  "name": "Pull-up-bar stand",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Shopping"
+      ]
+    }
+  }
+}

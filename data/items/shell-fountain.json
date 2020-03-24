@@ -1,0 +1,16 @@
+{
+  "id": "shell-fountain",
+  "name": "Shell fountain",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "DIY Recipe"
+      ],
+      "recipe": {
+        "giant-clam": 5,
+        "stone": 3
+      }
+    }
+  }
+}

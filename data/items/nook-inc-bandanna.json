@@ -1,0 +1,12 @@
+{
+  "id": "nook-inc-bandanna",
+  "name": "Nook Inc. bandanna",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Miles System"
+      ]
+    }
+  }
+}

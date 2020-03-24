@@ -1,0 +1,17 @@
+{
+  "id": "simple-diy-workbench",
+  "name": "Simple DIY workbench",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": false,
+      "recipe": {
+        "hardwood": 5,
+        "iron-nugget": 1
+      }
+    }
+  }
+}

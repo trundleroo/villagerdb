@@ -1,0 +1,16 @@
+{
+  "id": "bamboo-doll",
+  "name": "Bamboo doll",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": false,
+      "recipe": {
+        "young-spring-bamboo": 6
+      }
+    }
+  }
+}

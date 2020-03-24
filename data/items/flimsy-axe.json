@@ -4,8 +4,12 @@
   "category": "Tools",
   "games": {
     "nh": {
-      "xSize": 1,
-      "ySize": 1,
+      "orderable": false,
+      "sources": [
+        "Crafting",
+        "Nook's Cranny"
+      ],
+      "customizable": false,
       "recipe": {
         "tree-branch": 5,
         "stone": 1

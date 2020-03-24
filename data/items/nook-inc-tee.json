@@ -1,0 +1,12 @@
+{
+  "id": "nook-inc-tee",
+  "name": "Nook Inc. tee",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Miles System"
+      ]
+    }
+  }
+}

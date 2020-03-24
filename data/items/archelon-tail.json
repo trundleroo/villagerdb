@@ -1,0 +1,12 @@
+{
+  "id": "archelon-tail",
+  "name": "Archelon tail",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Underground (dig spot)"
+      ]
+    }
+  }
+}

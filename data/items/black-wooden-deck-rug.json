@@ -1,0 +1,12 @@
+{
+  "id": "black-wooden-deck-rug",
+  "name": "Black wooden-deck rug",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ]
+    }
+  }
+}

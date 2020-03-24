@@ -1,0 +1,9 @@
+{
+  "id": "gingham-picnic-shirt",
+  "name": "Gingham picnic shirt",
+  "games": {
+    "nh": {
+      "orderable": true
+    }
+  }
+}

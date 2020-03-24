@@ -1,0 +1,12 @@
+{
+  "id": "throwback-hat-table",
+  "name": "Throwback hat table",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "log-dining-table",
+  "name": "Log dining table",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": true,
+      "recipe": {
+        "hardwood": 15
+      }
+    }
+  }
+}

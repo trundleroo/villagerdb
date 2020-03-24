@@ -1,0 +1,18 @@
+{
+  "id": "rose-wreath",
+  "name": "Rose wreath",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": false,
+      "recipe": {
+        "red-rose": 3,
+        "white-rose": 3,
+        "yellow-rose": 3
+      }
+    }
+  }
+}

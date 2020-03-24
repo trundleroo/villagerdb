@@ -1,0 +1,12 @@
+{
+  "id": "cute-wall-mounted-clock",
+  "name": "Cute wall-mounted clock",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Shopping"
+      ]
+    }
+  }
+}

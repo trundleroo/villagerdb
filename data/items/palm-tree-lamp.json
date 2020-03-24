@@ -28,6 +28,18 @@
           "value": 3
         }
       ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": true,
+      "recipe": {
+        "coconut": 4,
+        "wood": 4,
+        "clay": 4
+      }
     }
   }
 }

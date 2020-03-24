@@ -1,0 +1,12 @@
+{
+  "id": "nook-inc-botanical-rug",
+  "name": "Nook Inc. botanical rug",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Miles System"
+      ]
+    }
+  }
+}

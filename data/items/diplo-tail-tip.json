@@ -1,0 +1,12 @@
+{
+  "id": "diplo-tail-tip",
+  "name": "Diplo tail tip",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Underground (dig spot)"
+      ]
+    }
+  }
+}

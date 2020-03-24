@@ -26,6 +26,17 @@
           "value": 5
         }
       ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": true,
+      "recipe": {
+        "wood": 2,
+        "softwood": 2
+      }
     }
   }
 }

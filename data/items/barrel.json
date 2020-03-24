@@ -16,6 +16,17 @@
       "sources": [
         "Pascal"
       ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": false,
+      "recipe": {
+        "wood": 5,
+        "iron-nugget": 2
+      }
     }
   }
 }

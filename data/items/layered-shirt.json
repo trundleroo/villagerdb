@@ -1,0 +1,12 @@
+{
+  "id": "layered-shirt",
+  "name": "Layered shirt",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ]
+    }
+  }
+}

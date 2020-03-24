@@ -1,0 +1,12 @@
+{
+  "id": "ptera-body",
+  "name": "Ptera body",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Underground (dig spot)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "right-quetzal-wing",
+  "name": "Right quetzal wing",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Underground (dig spot)"
+      ]
+    }
+  }
+}

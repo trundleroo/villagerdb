@@ -1,0 +1,12 @@
+{
+  "id": "skelton",
+  "name": "Skelton",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "wooden-simple-bed",
+  "name": "Wooden simple bed",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": true,
+      "recipe": {
+        "wood": 18
+      }
+    }
+  }
+}

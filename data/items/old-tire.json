@@ -1,0 +1,12 @@
+{
+  "id": "old-tire",
+  "name": "Old tire",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Fishing"
+      ]
+    }
+  }
+}

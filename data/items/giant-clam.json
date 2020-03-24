@@ -1,0 +1,12 @@
+{
+  "id": "giant-clam",
+  "name": "Giant clam",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Beach"
+      ]
+    }
+  }
+}

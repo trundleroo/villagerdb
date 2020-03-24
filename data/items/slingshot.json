@@ -12,6 +12,16 @@
       "sources": [
         "T&T Mart"
       ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": true,
+      "recipe": {
+        "hardwood": 5
+      }
     }
   }
 }
