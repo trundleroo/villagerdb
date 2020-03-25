@@ -1,11 +1,11 @@
 {
   "id": "classic-pitcher",
   "name": "Classic Pitcher",
-  "category": "Tools",
+  "category": "Furniture",
   "games": {
     "nh": {
-      "xSize": 1,
-      "ySize": 1,
+      "orderable": false,
+      "customizable": true,
       "recipe": {
         "clay": 4
       }

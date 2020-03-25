@@ -1,0 +1,13 @@
+{
+  "id": "diplo-tail-tip",
+  "name": "Diplo Tail Tip",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Underground (dig spot)"
+      ]
+    }
+  },
+  "category": "Fossils"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "nook-inc-wall",
+  "name": "Nook Inc. Wall",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Miles System"
+      ],
+      "buyPrices": [
+        {
+          "currency": "miles",
+          "value": 1200
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

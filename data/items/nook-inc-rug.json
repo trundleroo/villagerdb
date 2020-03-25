@@ -1,0 +1,19 @@
+{
+  "id": "nook-inc-rug",
+  "name": "Nook Inc. Rug",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Miles System"
+      ],
+      "buyPrices": [
+        {
+          "currency": "miles",
+          "value": 1000
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "striped-socks",
+  "name": "Striped Socks",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 600
+        }
+      ]
+    }
+  },
+  "category": "Socks"
+}

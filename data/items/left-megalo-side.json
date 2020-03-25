@@ -1,0 +1,13 @@
+{
+  "id": "left-megalo-side",
+  "name": "Left Megalo Side",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Underground (dig spot)"
+      ]
+    }
+  },
+  "category": "Fossils"
+}

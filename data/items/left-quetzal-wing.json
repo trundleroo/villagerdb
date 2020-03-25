@@ -1,0 +1,13 @@
+{
+  "id": "left-quetzal-wing",
+  "name": "Left Quetzal Wing",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Underground (dig spot)"
+      ]
+    }
+  },
+  "category": "Fossils"
+}

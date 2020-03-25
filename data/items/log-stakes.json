@@ -1,0 +1,14 @@
+{
+  "id": "log-stakes",
+  "name": "Log Stakes",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "recipe": {
+        "wood": 3
+      }
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "vertical-board-fence",
+  "name": "Vertical-board Fence",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "recipe": {
+        "wood": 8
+      }
+    }
+  },
+  "category": "Furniture"
+}

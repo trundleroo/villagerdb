@@ -21,6 +21,15 @@
           "value": 600
         }
       ]
+    },
+    "nh": {
+      "orderable": true,
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 980
+        }
+      ]
     }
   }
 }

@@ -4,8 +4,14 @@
   "category": "Tools",
   "games": {
     "nh": {
-      "xSize": 1,
-      "ySize": 1,
+      "orderable": false,
+      "customizable": false,
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 800
+        }
+      ],
       "recipe": {
         "softwood": 5
       }

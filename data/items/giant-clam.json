@@ -1,0 +1,13 @@
+{
+  "id": "giant-clam",
+  "name": "Giant Clam",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Beach"
+      ]
+    }
+  },
+  "category": "Seashells"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "sweatpants",
+  "name": "Sweatpants",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Shopping"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 800
+        }
+      ]
+    }
+  },
+  "category": "Bottoms"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "ocarina",
+  "name": "Ocarina",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "recipe": {
+        "clay": 5
+      }
+    }
+  },
+  "category": "Usables"
+}

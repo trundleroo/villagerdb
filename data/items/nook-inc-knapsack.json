@@ -1,0 +1,19 @@
+{
+  "id": "nook-inc-knapsack",
+  "name": "Nook Inc. Knapsack",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Miles System"
+      ],
+      "buyPrices": [
+        {
+          "currency": "miles",
+          "value": 800
+        }
+      ]
+    }
+  },
+  "category": "Accessories"
+}

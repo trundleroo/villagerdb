@@ -1,0 +1,19 @@
+{
+  "id": "pull-up-bar-stand",
+  "name": "Pull-up-bar Stand",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Shopping"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 4800
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "wide-chino-pants",
+  "name": "Wide Chino Pants",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Shopping"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1100
+        }
+      ]
+    }
+  },
+  "category": "Bottoms"
+}

@@ -12,6 +12,19 @@
       "sources": [
         "T&T Mart"
       ]
+    },
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 900
+        }
+      ],
+      "recipe": {
+        "hardwood": 5
+      }
     }
   }
 }
