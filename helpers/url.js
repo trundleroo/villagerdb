@@ -129,12 +129,12 @@ module.exports.VILLAGER = VILLAGER;
 const getImageUrl = (entityType, imageType, id) => {
     if (imageType == THUMB || imageType == MEDIUM || imageType == FULL) {
         const pathPrefix = './public/images/' + entityType + 's/' + imageType + '/' + id;
-        if (fs.existsSync(pathPrefix + '.jpg')) {
+        if (fs.existsSync(pathPrefix + '.png')) {
+            return '/images/' + entityType + 's/' + imageType + '/' + id + '.png';
+        } else if (fs.existsSync(pathPrefix + '.jpg')) {
             return '/images/' + entityType + 's/' + imageType + '/' + id + '.jpg';
         } else if (fs.existsSync(pathPrefix + '.jpeg')) {
             return '/images/' + entityType + 's/' + imageType + '/' + id + '.jpeg';
-        } else if (fs.existsSync(pathPrefix + '.png')) {
-            return '/images/' + entityType + 's/' + imageType + '/' + id + '.png';
         }
     }
 
