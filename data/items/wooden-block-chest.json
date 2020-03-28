@@ -1,0 +1,18 @@
+{
+  "id": "wooden-block-chest",
+  "name": "Wooden-block Chest",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": true,
+      "recipe": {
+        "wooden-block-toy": 1,
+        "softwood": 12
+      }
+    }
+  },
+  "category": "Furniture"
+}

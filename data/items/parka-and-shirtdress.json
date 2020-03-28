@@ -1,0 +1,19 @@
+{
+  "id": "parka-and-shirtdress",
+  "name": "Parka And Shirtdress",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1600
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

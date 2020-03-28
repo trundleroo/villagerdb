@@ -14,18 +14,21 @@
       ]
     },
     "nh": {
-      "orderable": true,
+      "orderable": false,
+      "sources": [
+        "Shaking fruit tree",
+        "Nook's Cranny"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 100
       },
-      "sources": [
-        "Cherry tree", "Nook's Cranny"
-        ]
-        "buyPrices": [
+      "buyPrices": [
         {
           "currency": "bells",
           "value": 400
+        }
       ]
+    }
   }
 }

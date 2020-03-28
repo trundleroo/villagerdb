@@ -1,0 +1,17 @@
+{
+  "id": "wooden-fish",
+  "name": "Wooden Fish",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": true,
+      "recipe": {
+        "wood": 3
+      }
+    }
+  },
+  "category": "Furniture"
+}

@@ -24,6 +24,9 @@
     },
     "nh": {
       "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "buyPrices": [
         {
           "currency": "bells",

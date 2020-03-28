@@ -9,6 +9,10 @@
         "Nook's Cranny"
       ],
       "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      },
       "buyPrices": [
         {
           "currency": "bells",

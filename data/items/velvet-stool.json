@@ -1,0 +1,19 @@
+{
+  "id": "velvet-stool",
+  "name": "Velvet Stool",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

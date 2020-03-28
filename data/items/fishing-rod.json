@@ -15,6 +15,10 @@
     },
     "nh": {
       "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 600
+      },
       "recipe": {
         "flimsy-fishing-rod": 1,
         "iron-nugget": 1

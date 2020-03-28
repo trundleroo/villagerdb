@@ -8,7 +8,11 @@
       "sources": [
         "Shaking trees",
         "Pick up from ground"
-      ]
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 5
+      }
     }
   }
 }

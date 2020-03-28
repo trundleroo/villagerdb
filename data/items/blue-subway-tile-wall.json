@@ -1,0 +1,19 @@
+{
+  "id": "blue-subway-tile-wall",
+  "name": "Blue Subway-tile Wall",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1340
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

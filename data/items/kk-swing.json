@@ -27,11 +27,11 @@
     "nh": {
       "orderable": true,
       "sources": [
-        "Nook Miles System"
+        "Nook Shopping"
       ],
       "buyPrices": [
         {
-          "currency": "miles",
+          "currency": "bells",
           "value": 3200
         }
       ]

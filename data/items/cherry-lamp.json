@@ -4,6 +4,9 @@
   "games": {
     "nh": {
       "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
       "customizable": true,
       "recipe": {
         "cherry": 10,
