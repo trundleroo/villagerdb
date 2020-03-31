@@ -1,0 +1,13 @@
+{
+  "id": "brachio-pelvis",
+  "name": "Brachio Pelvis",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Underground (dig spot)"
+      ]
+    }
+  },
+  "category": "Fossils"
+}

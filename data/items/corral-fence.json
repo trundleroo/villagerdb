@@ -1,0 +1,17 @@
+{
+  "id": "corral-fence",
+  "name": "Corral Fence",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": false,
+      "recipe": {
+        "wood": 6
+      }
+    }
+  },
+  "category": "Furniture"
+}

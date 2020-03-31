@@ -21,6 +21,16 @@
           "value": 2000
         }
       ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": false,
+      "recipe": {
+        "clay": 6
+      }
     }
   }
 }

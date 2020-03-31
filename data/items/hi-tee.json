@@ -1,0 +1,19 @@
+{
+  "id": "hi-tee",
+  "name": "Hi Tee",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Shopping"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 640
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

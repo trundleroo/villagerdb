@@ -1,0 +1,18 @@
+{
+  "id": "cherry-lamp",
+  "name": "Cherry Lamp",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": true,
+      "recipe": {
+        "cherry": 10,
+        "clay": 2
+      }
+    }
+  },
+  "category": "Furniture"
+}

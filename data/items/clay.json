@@ -4,9 +4,14 @@
   "category": "Usables",
   "games": {
     "nh": {
+      "orderable": false,
       "sources": [
-        "Not yet known"
-      ]
+        "Hitting rocks with a shovel or axe"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 100
+      }
     }
   }
 }

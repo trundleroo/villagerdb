@@ -1,0 +1,14 @@
+{
+  "id": "recycled-boots",
+  "name": "Recycled Boots",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "recipe": {
+        "boot": 2
+      }
+    }
+  },
+  "category": "Shoes"
+}

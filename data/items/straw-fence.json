@@ -1,0 +1,15 @@
+{
+  "id": "straw-fence",
+  "name": "Straw Fence",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "recipe": {
+        "clump-of-weeds": 10,
+        "wood": 3
+      }
+    }
+  },
+  "category": "Furniture"
+}

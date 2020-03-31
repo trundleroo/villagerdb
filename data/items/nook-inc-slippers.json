@@ -1,0 +1,19 @@
+{
+  "id": "nook-inc-slippers",
+  "name": "Nook Inc. Slippers",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Miles System"
+      ],
+      "buyPrices": [
+        {
+          "currency": "miles",
+          "value": 400
+        }
+      ]
+    }
+  },
+  "category": "Shoes"
+}

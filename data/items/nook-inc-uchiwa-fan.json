@@ -1,0 +1,19 @@
+{
+  "id": "nook-inc-uchiwa-fan",
+  "name": "Nook Inc. Uchiwa Fan",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Miles System"
+      ],
+      "buyPrices": [
+        {
+          "currency": "miles",
+          "value": 400
+        }
+      ]
+    }
+  },
+  "category": "Tools"
+}

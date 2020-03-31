@@ -1,0 +1,13 @@
+{
+  "id": "sabertooth-tail",
+  "name": "Sabertooth Tail",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Underground (dig spot)"
+      ]
+    }
+  },
+  "category": "Fossils"
+}

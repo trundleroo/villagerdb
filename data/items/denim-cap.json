@@ -1,0 +1,19 @@
+{
+  "id": "denim-cap",
+  "name": "Denim Cap",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Shopping"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 770
+        }
+      ]
+    }
+  },
+  "category": "Hats"
+}

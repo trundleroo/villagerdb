@@ -1,0 +1,19 @@
+{
+  "id": "lab-experiments-set",
+  "name": "Lab-experiments Set",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 6000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "tire-toy",
+  "name": "Tire Toy",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "recipe": {
+        "old-tire": 1
+      }
+    }
+  },
+  "category": "Furniture"
+}

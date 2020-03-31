@@ -1,0 +1,19 @@
+{
+  "id": "zigzag-shirt",
+  "name": "Zigzag Shirt",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Shopping"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 960
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "plain-sink",
+  "name": "Plain Sink",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Crafting"
+      ],
+      "customizable": true,
+      "recipe": {
+        "wood": 6,
+        "clay": 4,
+        "iron-nugget": 1
+      }
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "pot",
+  "name": "Pot",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "recipe": {
+        "clay": 5
+      }
+    }
+  },
+  "category": "Furniture"
+}

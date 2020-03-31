@@ -1,0 +1,13 @@
+{
+  "id": "old-tire",
+  "name": "Old Tire",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Fishing"
+      ]
+    }
+  },
+  "category": "Usables"
+}

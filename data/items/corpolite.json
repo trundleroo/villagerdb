@@ -1,0 +1,13 @@
+{
+  "id": "corpolite",
+  "name": "Corpolite",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Underground (dig spot)"
+      ]
+    }
+  },
+  "category": "Fossils"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "nook-inc-bandanna",
+  "name": "Nook Inc. Bandanna",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Miles System"
+      ],
+      "buyPrices": [
+        {
+          "currency": "miles",
+          "value": 500
+        }
+      ]
+    }
+  },
+  "category": "Hats"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "myllokunmingia",
+  "name": "Myllokunmingia",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Underground (dig spot)"
+      ]
+    }
+  },
+  "category": "Fossils"
+}
