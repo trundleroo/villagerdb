@@ -13,6 +13,9 @@ module.exports = (req, res, next) => {
         res.locals.gaId = process.env.GOOGLE_ANALYTICS_ID;
         res.locals.gaUrl = 'https://www.googletagmanager.com/gtag/js?id=' + res.locals.gaId;
     }
+    if (process.env.RAT_ID) {
+        res.locals.ratId = process.env.RAT_ID;
+    }
 
     // User state storage.
     res.locals.userState = {};
