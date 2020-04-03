@@ -73,6 +73,16 @@ async function loadList(username, listId) {
 
         }
     }
+
+    // Sort list alphabetically
+    entities.sort((a, b) => {
+        if (a.name < b.name) {
+            return -1;
+        } else {
+            return 1;
+        }
+    });
+    
     result.isEmpty = entities.length === 0;
     result.entities = entities;
     result.shareUrl = 'https://villagerdb.com/user/' + username + '/list/' + list.id;
