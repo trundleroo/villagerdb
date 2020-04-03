@@ -12,6 +12,14 @@
       "sources": [
         "Gardening Store"
       ]
+    },
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 600
+      }
     }
   }
 }

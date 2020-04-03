@@ -21,6 +21,17 @@
           "value": 2000
         }
       ]
+    },
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1200
+      },
+      "recipe": {
+        "clay": 6
+      }
     }
   }
 }

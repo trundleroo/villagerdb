@@ -12,6 +12,23 @@
       "sources": [
         "Orange tree"
       ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Shaking fruit tree",
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 100
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 400
+        }
+      ]
     }
   }
 }

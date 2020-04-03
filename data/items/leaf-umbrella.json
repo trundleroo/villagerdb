@@ -21,6 +21,17 @@
           "value": 320
         }
       ]
+    },
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      },
+      "recipe": {
+        "clump-of-weeds": 15
+      }
     }
   }
 }

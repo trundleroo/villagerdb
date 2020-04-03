@@ -4,8 +4,12 @@
   "category": "Furniture",
   "games": {
     "nh": {
-      "xSize": 2,
-      "ySize": 1,
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 600
+      },
       "recipe": {
         "hardwood": 5
       }

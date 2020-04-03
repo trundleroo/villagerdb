@@ -57,6 +57,14 @@ function buildQuery(key, value) {
                         analyzer: 'vdb_ascii_fold'
                     }
                 }
+            },
+            {
+                match: {
+                    ngram: {
+                        query: value,
+                        analyzer: 'vdb_ascii_fold'
+                    }
+                }
             }
         ]
     } else if (allFilters[key]) { // faceted search (exact match - term)
@@ -325,9 +333,12 @@ async function browse(pageNumber, userQueries, fixedQueries) {
         sort: sort
     };
 
+    // Get index name
+    const indexName = await config.getElasticSearchIndexName();
+
     // Count.
     const totalCount = await es.count({
-        index: config.elasticSearchIndexName,
+        index: indexName,
         body: {
             query: query
         }
@@ -340,7 +351,7 @@ async function browse(pageNumber, userQueries, fixedQueries) {
     if (totalCount.count > 0) {
         // Load all on this page.
         const results = await es.search({
-            index: config.elasticSearchIndexName,
+            index: indexName,
             from: pageSize * (result.currentPage - 1),
             size: pageSize,
             body: body

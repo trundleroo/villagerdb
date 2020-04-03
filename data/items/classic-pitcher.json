@@ -1,11 +1,15 @@
 {
   "id": "classic-pitcher",
   "name": "Classic Pitcher",
-  "category": "Tools",
+  "category": "Furniture",
   "games": {
     "nh": {
-      "xSize": 1,
-      "ySize": 1,
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 800
+      },
       "recipe": {
         "clay": 4
       }

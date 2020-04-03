@@ -12,6 +12,16 @@
       "sources": [
         "Beach"
       ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Beach"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 120
+      }
     }
   }
 }

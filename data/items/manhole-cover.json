@@ -26,6 +26,13 @@
           "value": 3
         }
       ]
+    },
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2250
+      }
     }
   }
 }

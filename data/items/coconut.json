@@ -12,6 +12,17 @@
       "sources": [
         "Island tree"
       ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Shaking fruit tree",
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 250
+      }
     }
   }
 }

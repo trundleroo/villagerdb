@@ -28,6 +28,19 @@
           "value": 3
         }
       ]
+    },
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3280
+      },
+      "recipe": {
+        "coconut": 4,
+        "wood": 4,
+        "clay": 4
+      }
     }
   }
 }

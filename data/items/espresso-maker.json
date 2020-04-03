@@ -15,6 +15,22 @@
       "sources": [
         "Brewster (work at The Roost)"
       ]
+    },
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1400
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 5600
+        }
+      ]
     }
   }
 }

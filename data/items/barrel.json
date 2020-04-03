@@ -16,6 +16,18 @@
       "sources": [
         "Pascal"
       ]
+    },
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2100
+      },
+      "recipe": {
+        "wood": 5,
+        "iron-nugget": 2
+      }
     }
   }
 }

@@ -4,9 +4,15 @@
   "category": "Usables",
   "games": {
     "nh": {
+      "orderable": false,
       "sources": [
-        "Shaking trees"
-      ]
+        "Shaking trees",
+        "Pick up from ground"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 5
+      }
     }
   }
 }
