@@ -259,7 +259,6 @@ function callBrowser(req, res, next, slug) {
     const pageNumberInt = sanitize.parsePositiveInteger(pageNumber);
 
     // Social media information
-    data.setSharingData = true;
     data.pageUrl = 'https://villagerdb.com/items/' + slug +
         (typeof pageNumber !== 'undefined' ? '/page/' + pageNumberInt : '');
     data.pageDescription = categories[slug].pageDescription;

@@ -208,7 +208,6 @@ async function loadVillager(id) {
     result.image = villager.image;
 
     // Social media information
-    result.setSharingData = true;
     result.pageUrl = 'https://villagerdb.com/villager/' + result.id;
     result.pageDescription = result.paragraph;
     result.pageImage = 'https://villagerdb.com' + result.image.full;
