@@ -56,27 +56,37 @@ async function loadList(username, listId) {
     result.listName = list.name;
     result.author = username;
 
+    // Gather up IDs to grab from redis.
+    const villagerIds = [];
+    const itemIds = [];
+    for (const entity of list.entities) {
+        if (entity.type === 'villager') {
+            villagerIds.push(entity.id);
+        } else if (entity.type === 'item') {
+            itemIds.push(entity.id);
+        }
+    }
+
+    const redisVillagers = await villagers.getByIds(villagerIds);
+    const redisItems = await items.getByIds(itemIds);
+
+    // Now build out the entity merged list.
     const entities = [];
     for (const entity of list.entities) {
         if (entity.type === 'villager') {
-            // TODO make a singular call to redis
-            const villager = await villagers.getById(entity.id);
-            if (villager) {
-                entities.push(organizeData(villager, 'villager'));
+            if (redisVillagers[entity.id]) {
+                entities.push(organizeData(list.id, redisVillagers[entity.id], 'villager'));
             }
         } else {
-            // TODO make a singular call to redis
-            const item = await items.getById(entity.id);
-            if (item) {
-                entities.push(organizeData(item, 'item'));
+            if (redisItems[entity.id]) {
+                entities.push(organizeData(list.id, redisItems[entity.id], 'item', entity.variationId));
             }
-
         }
     }
 
     // Sort list alphabetically
     entities.sort((a, b) => {
-        if (a.name < b.name) {
+        if (a._sortKey < b._sortKey) {
             return -1;
         } else {
             return 1;
@@ -89,12 +99,38 @@ async function loadList(username, listId) {
     return result;
 }
 
-function organizeData(entity, type) {
+/**
+ * Clean up data for use by the frontend.
+ *
+ * @param listId
+ * @param entity
+ * @param type
+ * @param variationId
+ * @returns {{}}
+ */
+function organizeData(listId, entity, type, variationId) {
     let entityData = {};
     entityData.name = entity.name;
     entityData.id = entity.id;
     entityData.type = type;
     entityData.image = entity.image.thumb;
+    entityData.deleteUrl = '/list/delete-entity/' + listId + '/' + type + '/' + entity.id;
+    entityData._sortKey = entityData.name;
+
+    // Variation?
+    if (variationId) {
+        // Fallback, worst case scenario: display the raw variationId slug
+        let variationDisplay = variationId;
+        // ... but let's see if we can do better?
+        if (typeof entity.variations !== 'undefined' &&
+            typeof entity.variations[variationId] !== 'undefined') {
+            variationDisplay = entity.variations[variationId];
+        }
+        entityData.variation = '(' + variationDisplay + ')';
+        entityData.deleteUrl += '/' + variationId;
+        entityData._sortKey += ' ' + entityData.variation;
+    }
+
     return entityData;
 }
 

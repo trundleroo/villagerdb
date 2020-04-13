@@ -54,11 +54,11 @@ class Lists {
      * @param type
      * @returns {Promise<Promise|OrderedBulkOperation|UnorderedBulkOperation>}
      */
-    async addEntityToList(id, listId, entityId, type) {
+    async addEntityToList(id, listId, entityId, type, variationId) {
         const villagerDb = await this.db.get();
-
         const store = {
             id: entityId,
+            variationId: variationId,
             type: type
         };
 
@@ -83,7 +83,7 @@ class Lists {
      * @param type
      * @returns {Promise<Promise|OrderedBulkOperation|UnorderedBulkOperation>}
      */
-    async removeEntityFromList(id, listId, entityId, type) {
+    async removeEntityFromList(id, listId, entityId, type, variationId) {
         const villagerDb = await this.db.get();
 
         return villagerDb.collection('users')
@@ -93,7 +93,11 @@ class Lists {
                 },
                 {
                     $pull: {
-                        "lists.$.entities": { "id": entityId }
+                        "lists.$.entities": {
+                            id: entityId,
+                            type: type,
+                            variationId: variationId
+                        }
                     }
                 });
     }

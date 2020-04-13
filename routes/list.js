@@ -10,7 +10,7 @@ const format = require('../helpers/format');
  * @param listId
  * @returns {Promise<[]>}
  */
-async function getUserListsForEntity(listId, entityType, entityId) {
+async function getUserListsForEntity(listId, entityType, entityId, variationId) {
     const userLists = await lists.getListsByUser(listId)
 
     if (userLists) {
@@ -18,7 +18,8 @@ async function getUserListsForEntity(listId, entityType, entityId) {
         userLists.forEach(function (list) {
             let hasEntity = false;
             for (let item of list.entities) {
-                if (item.id === entityId && item.type === entityType) {
+                // We want to catch null versus undefined on variationId... so loosely equal on variationId...
+                if (item.id === entityId && item.type === entityType && item.variationId == variationId) {
                     hasEntity = true;
                 }
             }
@@ -33,6 +34,44 @@ async function getUserListsForEntity(listId, entityType, entityId) {
         return result;
     } else {
         return [];
+    }
+}
+
+/**
+ * Generic handler for /user/:entityType/:entityId[/:variationId]
+ *
+ * @param req
+ * @param res
+ * @param next
+ */
+function handleUserListsForEntity(req, res, next) {
+    if (res.locals.userState.isRegistered && typeof req.params.entityId === 'string') {
+        getUserListsForEntity(req.user.id, req.params.entityType, req.params.entityId, req.params.variationId)
+            .then((data) => {
+                res.send(data);
+            }).catch(next);
+    } else {
+        res.send([]); // send empty list since there are no lists for non-logged-in users.
+    }
+}
+
+/**
+ * Generic handler for /delete-entity/:listId/:type/:id[/:variationId]
+ *
+ * @param req
+ * @param res
+ * @param next
+ */
+function handleDeleteEntity(req, res, next) {
+    if (res.locals.userState.isRegistered) {
+        lists.removeEntityFromList(req.user.id,  req.params.listId, req.params.id, req.params.type,
+            req.params.variationId)
+            .then((dbResponse) => {
+                res.redirect('/user/' + req.user.username + '/list/' + req.params.listId);
+            })
+            .catch(next)
+    } else {
+        res.redirect('/');
     }
 }
 
@@ -101,18 +140,10 @@ router.post('/create', [
  * Route for deleting an entity from a list.
  */
 router.get('/delete-entity/:listId/:type/:id', (req, res, next) => {
-    const listId = req.params.listId;
-    const type = req.params.type;
-    const entityId = req.params.id;
-    if (res.locals.userState.isRegistered) {
-        lists.removeEntityFromList(req.user.id, listId, entityId, type)
-            .then((dbResponse) => {
-                res.redirect('/user/' + req.user.username + '/list/' + listId);
-            })
-            .catch(next)
-    } else {
-        res.redirect('/');
-    }
+    handleDeleteEntity(req, res, next);
+});
+router.get('/delete-entity/:listId/:type/:id/:variationId', (req, res, next) => {
+    handleDeleteEntity(req, res, next);
 });
 
 /**
@@ -133,14 +164,10 @@ router.get('/delete/:listId', (req, res) => {
  * Route for getting user list for a particular entity type and ID.
  */
 router.get('/user/:entityType/:entityId', function (req, res, next) {
-    if (res.locals.userState.isRegistered) {
-        getUserListsForEntity(req.user.id, req.params.entityType, req.params.entityId)
-            .then((data) => {
-                res.send(data);
-            }).catch(next);
-    } else {
-        res.send([]); // send empty list since there are no lists for non-logged-in users.
-    }
+    handleUserListsForEntity(req, res, next);
+});
+router.get('/user/:entityType/:entityId/:variationId', function (req, res, next) {
+    handleUserListsForEntity(req, res, next);
 });
 
 /**
@@ -149,18 +176,19 @@ router.get('/user/:entityType/:entityId', function (req, res, next) {
 router.post('/entity-to-list', function (req, res, next) {
     const listId = req.body.listId;
     const entityId = req.body.entityId;
+    const variationId = req.body.variationId;
     const type = req.body.type;
     const add = req.body.add;
 
     if (res.locals.userState.isRegistered) {
         if (add === 'true') { // i hate form data
-            lists.addEntityToList(req.user.id, listId, entityId, type)
+            lists.addEntityToList(req.user.id, listId, entityId, type, variationId)
                 .then((dbResponse) => {
                     res.status(200).send({success: true});
                 })
                 .catch(next);
         } else {
-            lists.removeEntityFromList(req.user.id, listId, entityId, type)
+            lists.removeEntityFromList(req.user.id, listId, entityId, type, variationId)
                 .then((dbResponse) => {
                     res.status(200).send({success: true});
                 })
