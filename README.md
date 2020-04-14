@@ -22,16 +22,6 @@ the future, this is likely to be a Redis and ElasticSearch
 dependent app, with a further dependence on MySQL for
 features such as tracking wishlists of items.
 
-## Short-term goals
-Short term, this project will be broken up into two GitHub
-repositories: `villagerdb` and `villagerdb-data`. This
-repository, `villagerdb`, contains the app which is live at
-http://villagerdb.com/ on the `master` branch. On the other
-hand, `villagerdb-data` will only contain the metadata
-that populates the site. Any non-villager data, such as the
-database schema for the MySQL portion of the site, will be
-in this repository, `villagerdb`.
-
 ## Long-term goals
 Quite simply we aim for this database to be as complete as
 possible, spanning villagers and items from every main
@@ -39,6 +29,10 @@ series game in the franchise. This is a daunting task
 that will take quite some time and dedication to complete. 
 All contributions are welcome and are very helpful in 
 making this dream a reality.
+
+## License
+All code as part of this application is licensed under GPLv3.
+However, all JSON under the `data` folder is public domain.
 
 ## Contributing
 Find bugs or want a feature? Submit a ticket and we will
