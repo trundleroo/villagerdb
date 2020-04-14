@@ -146,7 +146,10 @@ function formatItem(item) {
         }
     }
 
+    // Paragraph and variations
     formatted.paragraph = generateParagraph(item, formatted);
+    formatted.variations = JSON.stringify(typeof item.variations === 'object' ? item.variations : {});
+
     return formatted;
 }
 
