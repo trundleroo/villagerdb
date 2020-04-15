@@ -4,6 +4,10 @@
     <h1>{{username}}'s Profile</h1>
 {{/if}}
 
+<div class="text-right mb-3">
+    {{> social-media shareUrl=shareUrl showCopyButton=true }}
+</div>
+
 {{#if isOwnUser}}
     <div class="text-right mb-3">
         <a href="/list/create">
@@ -12,10 +16,6 @@
         </a>
     </div>
 {{/if}}
-
-<div class="text-right mb-3">
-    {{> social-media shareUrl=shareUrl showCopyButton=true }}
-</div>
 
 {{#if hasLists}}
     <ul class="list-group">
@@ -43,4 +43,8 @@
     {{else}}
         <p>This user has not created any lists yet.</p>
     {{/if}}
+{{/if}}
+
+{{#if isOwnUser}}
+    <p class="mt-4">You can manage your account by clicking <a href="/auth/manage">here</a>.</p>
 {{/if}}
