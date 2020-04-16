@@ -30,13 +30,13 @@ export default class Paginator extends React.Component {
         if (this.props.currentPage === 1) {
             previousPageLink = (
                 <li className="page-item disabled">
-                    <a className="page-link" href="#" tabIndex="-1">Previous page</a>
+                    <a className="page-link" href="#browser" tabIndex="-1">Previous page</a>
                 </li>
             );
         } else {
             previousPageLink = (
                 <li className="page-item">
-                    <a className="page-link" href="#"
+                    <a className="page-link" href="#browser"
                        onClick={this.previousPage}
                        tabIndex="-1">
                         Previous page
@@ -49,7 +49,7 @@ export default class Paginator extends React.Component {
         if (this.props.currentPage === this.props.totalPages) {
             nextPageLink = (
                 <li className="page-item disabled">
-                    <a className="page-link" href="#">
+                    <a className="page-link" href="#browser">
                         Next page
                     </a>
                 </li>
@@ -57,7 +57,7 @@ export default class Paginator extends React.Component {
         } else {
             nextPageLink = (
                 <li className="page-item">
-                    <a className="page-link" href="#"
+                    <a className="page-link" href="#browser"
                         onClick={this.nextPage}>Next page</a>
                 </li>
             );
@@ -76,14 +76,12 @@ export default class Paginator extends React.Component {
     }
 
     previousPage(e) {
-        e.preventDefault();
         if (this.props.currentPage > 1) {
             this.props.onPageChange(this.props.currentPage - 1);
         }
     }
 
     nextPage(e) {
-        e.preventDefault();
         if (this.props.currentPage < this.props.totalPages) {
             this.props.onPageChange(this.props.currentPage + 1);
         }
