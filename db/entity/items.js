@@ -157,6 +157,12 @@ class Items extends RedisStore {
             }
         }
 
+        // Only allow variations selection if more than one variant exists.
+        if (Object.keys(variations).length < 2) {
+            item.variations = {};
+            return;
+        }
+
         // Sort before assignment.
         const variationsSorted = {};
         const keys = Object.keys(variations).sort((a, b) => {
