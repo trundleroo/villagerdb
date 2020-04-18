@@ -149,6 +149,7 @@ export default class DropdownList extends React.Component {
 
         // We need the image information for the final display.
         const image = this.getImage();
+        const thumbImage = this.props.imageSize === 'thumb' ? image.thumb : image.medium;
 
         // Finally render!
         const buttonContainerClass = this.variations.length > 0 ? 'd-flex align-items-center mt-2' :
@@ -157,10 +158,12 @@ export default class DropdownList extends React.Component {
             <div className="entity-slider-container">
                 <div className="d-flex justify-content-between align-items-center">
                     {previousLink}
-                    <div>
-                        <a target="_blank" href={image.full}>
-                            <img className="entity-slider-image d-block" src={image.medium} />
+                    <div className="flex-fill">
+                        <a className="d-block" target="_blank" href={image.full}>
+                            <img className={'entity-slider-image entity-slider-image-' + this.props.imageSize}
+                                 src={thumbImage} />
                         </a>
+                        {this.props.name}
                     </div>
                     {nextLink}
                 </div>
@@ -401,7 +404,8 @@ $(document).ready(function() {
         const variations = target.data('variations');
         const variationImages = target.data('variation-images');
         ReactDOM.render(<DropdownList entityType={entityType} entityId={entityId}
-                                      image={image} variations={variations} variationImages={variationImages} />,
+                                      image={image} variations={variations} variationImages={variationImages}
+                                      imageSize="medium" />,
             elem);
     });
 })
