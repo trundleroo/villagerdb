@@ -109,6 +109,22 @@ async function buildSearchIndex() {
                 name: {
                     type: 'text',
                     analyzer: 'vdb_ascii_fold'
+                },
+                url: {
+                    type: 'text',
+                    index: false
+                },
+                imageUrl: {
+                    type: 'text',
+                    index: false
+                },
+                variations: {
+                    type: 'object',
+                    enabled: false
+                },
+                variationImages: {
+                    type: 'object',
+                    enabled: false
                 }
             }
         }
@@ -196,10 +212,17 @@ async function indexVillagers(es, newIndexName) {
  * @returns {Promise<void>}
  */
 async function indexItems(es, newIndexName) {
+    // We need Redis access to save time on re-computing hashes.
+    const items = require('../db/entity/items');
+
     const files = fs.readdirSync(path.join('data', 'items'));
     for (let file of files) {
         const data = fs.readFileSync(path.join('data', 'items', file), 'utf8');
         const parsed = JSON.parse(data);
+        const redisItem = await items.getById(parsed.id);
+        if (!redisItem) {
+            throw new Error('Item not found in redis, giving up: ' + parsed.id);
+        }
 
         // Build document.
         const document = {
@@ -213,8 +236,9 @@ async function indexItems(es, newIndexName) {
             category: parsed.category,
             game: [],
             url: urlHelper.getEntityUrl(searchConfig.itemEntityType, parsed.id),
-            imageUrl: urlHelper.computeStaticAssetUrl(urlHelper.getImageUrl(searchConfig.itemEntityType, urlHelper.THUMB,
-                parsed.id))
+            imageUrl: redisItem.image.thumb,
+            variations: redisItem.variations,
+            variationImages: redisItem.variationImages
         };
 
         for (let game in parsed.games) {
