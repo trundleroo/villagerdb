@@ -53,6 +53,47 @@ export default class DropdownList extends React.Component {
         let previousLink = null;
         let nextLink = null;
 
+        // Main state management.
+        if (this.state.isError) { // On error, do nothing.
+            labelClass = 'fa-exclamation text-danger';
+            label = 'Sorry';
+        } else if (this.state.isLoading) { // On loading, do nothing.
+            labelClass = 'fa-spin fa-spinner';
+            label = '...';
+        } else if (this.state.isSuccess) {
+            labelClass = 'fa-check text-success';
+            label = 'Done';
+        } else if (this.state.isExpanded) {
+            showClass = 'show';
+
+            // Load the list up.
+            if (typeof this.state.lists !== 'undefined') {
+                const listItems = [];
+                for (let list of this.state.lists) {
+                    if (list.isAddLink) {
+                        listItems.push((
+                            <a key="add-link" className="dropdown-item" href="/list/create">
+                                New list...
+                            </a>
+                        ));
+                    } else {
+                        let addOrRemove = list.hasEntity ? 'Remove from' : 'Add to';
+                        listItems.push((
+                            <a key={list.id} className="dropdown-item" href="#"
+                               onMouseDown={this.toggleList.bind(this, list.id, list.hasEntity)}>
+                                {addOrRemove} <strong>{list.name}</strong>
+                            </a>
+                        ));
+                    }
+                }
+                listData = (
+                    <div className={'dropdown-menu ' + showClass}>
+                        {listItems}
+                    </div>
+                );
+            }
+        }
+
         // We always draw the variations dropdown if variations exist.
         if (this.variations.length > 0) {
             // Make the dropdown
@@ -106,51 +147,12 @@ export default class DropdownList extends React.Component {
             );
         }
 
-        if (this.state.isError) { // On error, do nothing.
-            labelClass = 'fa-exclamation text-danger';
-            label = 'Sorry';
-        } else if (this.state.isLoading) { // On loading, do nothing.
-            labelClass = 'fa-spin fa-spinner';
-            label = '...';
-        } else if (this.state.isSuccess) {
-            labelClass = 'fa-check text-success';
-            label = 'Done';
-        } else if (this.state.isExpanded) {
-            showClass = 'show';
-
-            // Load the list up.
-            if (typeof this.state.lists !== 'undefined') {
-                const listItems = [];
-                for (let list of this.state.lists) {
-                    if (list.isAddLink) {
-                        listItems.push((
-                            <a key="add-link" className="dropdown-item" href="/list/create">
-                                New list...
-                            </a>
-                        ));
-                    } else {
-                        let addOrRemove = list.hasEntity ? 'Remove from' : 'Add to';
-                        listItems.push((
-                            <a key={list.id} className="dropdown-item" href="#"
-                               onMouseDown={this.toggleList.bind(this, list.id, list.hasEntity)}>
-                                {addOrRemove} <strong>{list.name}</strong>
-                            </a>
-                        ));
-                    }
-                }
-                listData = (
-                    <div className={'dropdown-menu ' + showClass}>
-                        {listItems}
-                    </div>
-                );
-            }
-        }
-
         // We need the image information for the final display.
         const image = this.getImage();
 
         // Finally render!
-        const buttonContainerClass = this.variations.length > 0 ? 'd-flex align-items-center mt-2' : 'd-inline-block';
+        const buttonContainerClass = this.variations.length > 0 ? 'd-flex align-items-center mt-2' :
+            'd-inline-block mt-2';
         return (
             <div className="entity-slider-container">
                 <div className="d-flex justify-content-between align-items-center">
