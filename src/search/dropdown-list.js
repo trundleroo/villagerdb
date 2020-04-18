@@ -70,9 +70,10 @@ export default class DropdownList extends React.Component {
                 ));
             }
 
+            const optionState = typeof this.state.selectedVariation === 'undefined' ? '' : this.state.selectedVariation;
             variationsDropdown = (
                 <div className="flex-fill">
-                    <select className="form-control" onChange={this.variationDropdownSelectionChange.bind(this)}>
+                    <select className="form-control" value={optionState} onChange={this.variationDropdownSelectionChange.bind(this)}>
                         {variationsList}
                     </select>
                 </div>
@@ -119,12 +120,19 @@ export default class DropdownList extends React.Component {
             }
         }
 
+        // We need the image information for the final display.
         const image = this.getImage();
+
+        // Previous/next button class info
+        const previousLinkClass = this.state.variationIndex <= -1 ? 'disabled': '';
+        const nextLinkClass = this.state.variationIndex >= this.variations.length - 1 ? 'disabled' : '';
+
+        // Finally render!
         return (
             <div className="entity-slider-container">
                 <div className="d-flex justify-content-between align-items-center">
                     <div>
-                        <a href="#" onClick={this.previousVariation.bind(this)}>
+                        <a href="#" className={previousLinkClass} onClick={this.previousVariation.bind(this)}>
                             <span className="fa fa-arrow-left"></span>
                         </a>
                     </div>
@@ -134,7 +142,7 @@ export default class DropdownList extends React.Component {
                         </a>
                     </div>
                     <div>
-                        <a href="#" onClick={this.nextVariation.bind(this)}>
+                        <a href="#" className={nextLinkClass} onClick={this.nextVariation.bind(this)}>
                             <span className="fa fa-arrow-right"></span>
                         </a>
                     </div>
@@ -314,7 +322,11 @@ export default class DropdownList extends React.Component {
      */
     previousVariation(e) {
         e.preventDefault();
-        console.log('prev');
+        if (this.state.variationIndex <= 0) {
+            this.setSelectedVariation(undefined);
+        } else {
+            this.setSelectedVariation(this.variations[this.state.variationIndex - 1].key);
+        }
     }
 
     /**
@@ -323,7 +335,11 @@ export default class DropdownList extends React.Component {
      */
     nextVariation(e) {
         e.preventDefault();
-        console.log('next');
+        if (this.state.variationIndex >= this.variations.length - 1) {
+            this.setSelectedVariation(this.variations[this.variations.length - 1].key);
+        } else {
+            this.setSelectedVariation(this.variations[this.state.variationIndex + 1].key);
+        }
     }
 
     /**
@@ -339,8 +355,6 @@ export default class DropdownList extends React.Component {
             return this.props.image;
         }
     }
-
-
 
     /**
      * Hide list if a click event occurs outside of us.
