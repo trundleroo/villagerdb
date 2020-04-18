@@ -150,7 +150,7 @@ async function indexVillagers(es, newIndexName) {
             suggest: {
                 input: parsed.name
             },
-            keyword: parsed.name.toLowerCase(),
+            keyword: parsed.id,
             gender: parsed.gender,
             species: parsed.species,
             name: parsed.name,
@@ -207,7 +207,7 @@ async function indexItems(es, newIndexName) {
             suggest: {
                 input: parsed.name
             },
-            keyword: parsed.name.toLowerCase(),
+            keyword: parsed.id,
             name: parsed.name,
             ngram: parsed.name,
             category: parsed.category,
