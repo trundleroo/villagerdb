@@ -9,6 +9,18 @@ export default class DropdownList extends React.Component {
     constructor(props) {
         super(props);
 
+        // Initialize variation data if present.
+        this.variations = [];
+        if (typeof this.props.variations === 'object') {
+            for (let v of Object.keys(this.props.variations)) {
+                this.variations.push({
+                    key: v,
+                    value: this.props.variations[v]
+                });
+            }
+        }
+
+        // Initialize state.
         this.state = {
             isLoading: false,
             isExpanded: false,
@@ -39,36 +51,32 @@ export default class DropdownList extends React.Component {
         let variationsDropdown = null;
 
         // We always draw the variations dropdown if variations exist.
-        if (typeof this.props.variations === 'object') {
-            const keys = Object.keys(this.props.variations);
-            if (keys.length > 0) {
-                const variationsList = [];
+        if (this.variations.length > 0) {
+            const variationsList = [];
 
-                // Default is none/any
+            // Default is none/any
+            variationsList.push((
+                <option key="no-selection" value="">
+                    Any
+                </option>
+            ));
+
+            // Now show the variations.
+            for (let v of this.variations) {
                 variationsList.push((
-                    <option key="no-selection" value="">
-                        Any
+                    <option key={v.key} value={v.key}>
+                        {v.value}
                     </option>
                 ));
-
-                // Now show the variations.
-                for (let key of keys) {
-                    const displayValue = this.props.variations[key];
-                    variationsList.push((
-                        <option key={key} value={key}>
-                            {displayValue}
-                        </option>
-                    ));
-                }
-
-                variationsDropdown = (
-                    <div className="flex-fill">
-                        <select className="form-control" onChange={this.variationDropdownSelectionChange.bind(this)}>
-                            {variationsList}
-                        </select>
-                    </div>
-                );
             }
+
+            variationsDropdown = (
+                <div className="flex-fill">
+                    <select className="form-control" onChange={this.variationDropdownSelectionChange.bind(this)}>
+                        {variationsList}
+                    </select>
+                </div>
+            );
         }
 
         if (this.state.isError) { // On error, do nothing.
@@ -116,7 +124,9 @@ export default class DropdownList extends React.Component {
             <div className="entity-slider-container">
                 <div className="d-flex justify-content-between align-items-center">
                     <div>
-                        <span className="fa fa-arrow-left"></span>
+                        <a href="#" onClick={this.previousVariation.bind(this)}>
+                            <span className="fa fa-arrow-left"></span>
+                        </a>
                     </div>
                     <div>
                         <a target="_blank" href={image.full}>
@@ -124,7 +134,9 @@ export default class DropdownList extends React.Component {
                         </a>
                     </div>
                     <div>
-                        <span className="fa fa-arrow-right"></span>
+                        <a href="#" onClick={this.nextVariation.bind(this)}>
+                            <span className="fa fa-arrow-right"></span>
+                        </a>
                     </div>
                 </div>
                 <div className="d-flex align-items-center mt-2">
@@ -275,12 +287,12 @@ export default class DropdownList extends React.Component {
         let validatedSelection = undefined;
         let variationIndex = -1;
 
-        if (typeof selectedVariation !== 'undefined' && typeof this.props.variations === 'object') {
+        if (typeof selectedVariation !== 'undefined') {
             // Try to find this variation in the list and note its position.
             let counter = 0;
-            for (let v of Object.keys(this.props.variations)) {
-                if (selectedVariation === v) {
-                    validatedSelection = v;
+            for (let v of this.variations) {
+                if (selectedVariation === v.key) {
+                    validatedSelection = v.key;
                     variationIndex = counter;
                     break;
                 }
@@ -296,6 +308,25 @@ export default class DropdownList extends React.Component {
     }
 
     /**
+     * Back step variation by 1.
+     *
+     * @param e
+     */
+    previousVariation(e) {
+        e.preventDefault();
+        console.log('prev');
+    }
+
+    /**
+     * Move variation forward by 1.
+     * @param e
+     */
+    nextVariation(e) {
+        e.preventDefault();
+        console.log('next');
+    }
+
+    /**
      * Get the metadata for the image that should presently display, be it the base image or a variation image.
      * @returns {*}
      */
@@ -308,6 +339,8 @@ export default class DropdownList extends React.Component {
             return this.props.image;
         }
     }
+
+
 
     /**
      * Hide list if a click event occurs outside of us.
