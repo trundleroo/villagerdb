@@ -49,9 +49,13 @@ export default class DropdownList extends React.Component {
         let showClass = '';
         let listData = null;
         let variationsDropdown = null;
+        let labelSpan = null;
+        let previousLink = null;
+        let nextLink = null;
 
         // We always draw the variations dropdown if variations exist.
         if (this.variations.length > 0) {
+            // Make the dropdown
             const variationsList = [];
 
             // Default is none/any
@@ -72,11 +76,33 @@ export default class DropdownList extends React.Component {
 
             const optionState = typeof this.state.selectedVariation === 'undefined' ? '' : this.state.selectedVariation;
             variationsDropdown = (
-                <div className="flex-fill">
+                <div className="flex-fill mr-2">
                     <select className="form-control" value={optionState} onChange={this.variationDropdownSelectionChange.bind(this)}>
                         {variationsList}
                     </select>
                 </div>
+            );
+
+            // Make the links.
+            const previousLinkClass = this.state.variationIndex <= -1 ? 'disabled': '';
+            const nextLinkClass = this.state.variationIndex >= this.variations.length - 1 ? 'disabled' : '';
+            previousLink = (
+                <div>
+                    <a href="#" className={previousLinkClass} onClick={this.previousVariation.bind(this)}>
+                        <span className="fa fa-arrow-left"></span>
+                    </a>
+                </div>
+            );
+            nextLink = (
+                <div>
+                    <a href="#" className={nextLinkClass} onClick={this.nextVariation.bind(this)}>
+                        <span className="fa fa-arrow-right"></span>
+                    </a>
+                </div>
+            );
+        } else {
+            labelSpan = (
+                <span>&nbsp;{label}</span>
             );
         }
 
@@ -123,36 +149,25 @@ export default class DropdownList extends React.Component {
         // We need the image information for the final display.
         const image = this.getImage();
 
-        // Previous/next button class info
-        const previousLinkClass = this.state.variationIndex <= -1 ? 'disabled': '';
-        const nextLinkClass = this.state.variationIndex >= this.variations.length - 1 ? 'disabled' : '';
-
         // Finally render!
+        const buttonContainerClass = this.variations.length > 0 ? 'd-flex align-items-center mt-2' : 'd-inline-block';
         return (
             <div className="entity-slider-container">
                 <div className="d-flex justify-content-between align-items-center">
-                    <div>
-                        <a href="#" className={previousLinkClass} onClick={this.previousVariation.bind(this)}>
-                            <span className="fa fa-arrow-left"></span>
-                        </a>
-                    </div>
+                    {previousLink}
                     <div>
                         <a target="_blank" href={image.full}>
                             <img className="entity-slider-image d-block" src={image.medium} />
                         </a>
                     </div>
-                    <div>
-                        <a href="#" className={nextLinkClass} onClick={this.nextVariation.bind(this)}>
-                            <span className="fa fa-arrow-right"></span>
-                        </a>
-                    </div>
+                    {nextLink}
                 </div>
-                <div className="d-flex align-items-center mt-2">
+                <div className={buttonContainerClass}>
                     {variationsDropdown}
-                    <div className="ml-2">
+                    <div>
                         <div className={'dropdown-list-container dropdown ' + showClass}>
                             <button type="button" className="btn btn-outline-secondary" onClick={this.buttonClicked.bind(this)}>
-                                <span className={'fa ' + labelClass}></span>
+                                <span className={'fa ' + labelClass}></span>{labelSpan}
                             </button>
                             {listData}
                         </div>
