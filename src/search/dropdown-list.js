@@ -96,52 +96,57 @@ export default class DropdownList extends React.Component {
 
         // We always draw the variations dropdown if variations exist.
         if (this.variations.length > 0) {
-            // Make the dropdown
-            const variationsList = [];
+            // Make the variations dropdown if enabled.
+            if (this.props.displayDropdown) {
+                const variationsList = [];
 
-            // Default is none/any
-            variationsList.push((
-                <option key="no-selection" value="">
-                    Any
-                </option>
-            ));
-
-            // Now show the variations.
-            for (let v of this.variations) {
+                // Default is none/any
                 variationsList.push((
-                    <option key={v.key} value={v.key}>
-                        {v.value}
+                    <option key="no-selection" value="">
+                        Any
                     </option>
                 ));
-            }
 
-            const optionState = typeof this.state.selectedVariation === 'undefined' ? '' : this.state.selectedVariation;
-            variationsDropdown = (
-                <div className="flex-fill mr-2">
-                    <select className="form-control" value={optionState} onChange={this.variationDropdownSelectionChange.bind(this)}>
-                        {variationsList}
-                    </select>
-                </div>
-            );
+                // Now show the variations.
+                for (let v of this.variations) {
+                    variationsList.push((
+                        <option key={v.key} value={v.key}>
+                            {v.value}
+                        </option>
+                    ));
+                }
+
+                const optionState = typeof this.state.selectedVariation === 'undefined' ? '' : this.state.selectedVariation;
+                variationsDropdown = (
+                    <div className="flex-fill ml-2">
+                        <select className="form-control" value={optionState} onChange={this.variationDropdownSelectionChange.bind(this)}>
+                            {variationsList}
+                        </select>
+                    </div>
+                );
+            }
 
             // Make the links.
             const previousLinkClass = this.state.variationIndex <= -1 ? 'disabled': '';
             const nextLinkClass = this.state.variationIndex >= this.variations.length - 1 ? 'disabled' : '';
             previousLink = (
-                <div>
+                <div className="slider-nav-link">
                     <a href="#" className={previousLinkClass} onClick={this.previousVariation.bind(this)}>
                         <span className="fa fa-arrow-left"></span>
                     </a>
                 </div>
             );
             nextLink = (
-                <div>
+                <div className="slider-nav-link">
                     <a href="#" className={nextLinkClass} onClick={this.nextVariation.bind(this)}>
                         <span className="fa fa-arrow-right"></span>
                     </a>
                 </div>
             );
-        } else {
+        }
+
+        // Show label if dropdown not present and/or no variants.
+        if (!this.props.displayDropdown || this.variations.length === 0) {
             labelSpan = (
                 <span>&nbsp;{label}</span>
             );
@@ -152,7 +157,7 @@ export default class DropdownList extends React.Component {
         const thumbImage = this.props.imageSize === 'thumb' ? image.thumb : image.medium;
 
         // Finally render!
-        const buttonContainerClass = this.variations.length > 0 ? 'd-flex align-items-center mt-2' :
+        const buttonContainerClass = this.props.displayDropdown ? 'd-flex align-items-center mt-2' :
             'd-inline-block mt-2';
         return (
             <div className="entity-slider-container">
@@ -168,7 +173,6 @@ export default class DropdownList extends React.Component {
                     {nextLink}
                 </div>
                 <div className={buttonContainerClass}>
-                    {variationsDropdown}
                     <div>
                         <div className={'dropdown-list-container dropdown ' + showClass}>
                             <button type="button" className="btn btn-outline-secondary" onClick={this.buttonClicked.bind(this)}>
@@ -177,6 +181,7 @@ export default class DropdownList extends React.Component {
                             {listData}
                         </div>
                     </div>
+                    {variationsDropdown}
                 </div>
             </div>
         );
@@ -405,7 +410,7 @@ $(document).ready(function() {
         const variationImages = target.data('variation-images');
         ReactDOM.render(<DropdownList entityType={entityType} entityId={entityId}
                                       image={image} variations={variations} variationImages={variationImages}
-                                      imageSize="medium" />,
+                                      imageSize="medium" displayDropdown={true} />,
             elem);
     });
 })
