@@ -161,16 +161,18 @@ export default class DropdownList extends React.Component {
             'd-inline-block mt-2';
         return (
             <div className="entity-slider-container">
-                <div className="d-flex justify-content-between align-items-center">
+                <div className="d-flex justify-content-between align-items-center entity-slider">
                     {previousLink}
                     <div className="flex-fill">
                         <a className="d-block" target="_blank" href={image.full}>
                             <img className={'entity-slider-image entity-slider-image-' + this.props.imageSize}
                                  src={thumbImage} />
                         </a>
-                        {this.props.name}
                     </div>
                     {nextLink}
+                </div>
+                <div>
+                    {this.props.name}
                 </div>
                 <div className={buttonContainerClass}>
                     <div>
