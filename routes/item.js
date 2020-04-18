@@ -181,6 +181,7 @@ async function loadItem(id) {
 
     // Images.
     result.image = item.image;
+    result.serializedImages = JSON.stringify(item.image);
 
     // Ownership data
     result.hasOwnership = typeof item.owners !== 'undefined' && item.owners.length > 0;

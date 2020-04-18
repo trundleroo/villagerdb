@@ -15,6 +15,7 @@ export default class DropdownList extends React.Component {
             isSuccess: false,
             isError: false,
             lists: [],
+            variationIndex: -1, // -1 means "Any"!
             selectedVariation: undefined
         };
     }
@@ -61,8 +62,8 @@ export default class DropdownList extends React.Component {
                 }
 
                 variationsDropdown = (
-                    <div className="mr-2">
-                        <select className="form-control" onChange={this.setVariation.bind(this)}>
+                    <div className="flex-fill">
+                        <select className="form-control" onChange={this.variationDropdownSelectionChange.bind(this)}>
                             {variationsList}
                         </select>
                     </div>
@@ -110,21 +111,31 @@ export default class DropdownList extends React.Component {
             }
         }
 
-        let labelSpan = null;
-        if (this.props.showLabel) {
-            labelSpan = (
-                <span>&nbsp;{label}</span>
-            );
-        }
+        const image = this.getImage();
         return (
-            <div className="d-flex justify-content-between align-items-center">
-                {variationsDropdown}
-                <div>
-                    <div className={'dropdown-list-container dropdown ' + showClass}>
-                        <button type="button" className="btn btn-outline-secondary" onClick={this.buttonClicked.bind(this)}>
-                            <span className={'fa ' + labelClass}></span>{labelSpan}
-                        </button>
-                        {listData}
+            <div className="entity-slider-container">
+                <div className="d-flex justify-content-between align-items-center">
+                    <div>
+                        <span className="fa fa-arrow-left"></span>
+                    </div>
+                    <div>
+                        <a target="_blank" href={image.full}>
+                            <img className="entity-slider-image d-block" src={image.medium} />
+                        </a>
+                    </div>
+                    <div>
+                        <span className="fa fa-arrow-right"></span>
+                    </div>
+                </div>
+                <div className="d-flex align-items-center mt-2">
+                    {variationsDropdown}
+                    <div className="ml-2">
+                        <div className={'dropdown-list-container dropdown ' + showClass}>
+                            <button type="button" className="btn btn-outline-secondary" onClick={this.buttonClicked.bind(this)}>
+                                <span className={'fa ' + labelClass}></span>
+                            </button>
+                            {listData}
+                        </div>
                     </div>
                 </div>
             </div>
@@ -246,29 +257,56 @@ export default class DropdownList extends React.Component {
      *
      * @param e
      */
-    setVariation(e) {
+    variationDropdownSelectionChange(e) {
         let selectedVariation = undefined;
         if (e && e.target && typeof e.target.value === 'string') {
             selectedVariation = e.target.value.length > 0 ?
                 e.target.value : undefined;
+            this.setSelectedVariation(selectedVariation);
+        }
+    }
+
+    /**
+     * Set the selected variation by validating it. Also, updates the index.
+     *
+     * @param selectedVariation
+     */
+    setSelectedVariation(selectedVariation) {
+        let validatedSelection = undefined;
+        let variationIndex = -1;
+
+        if (typeof selectedVariation !== 'undefined' && typeof this.props.variations === 'object') {
+            // Try to find this variation in the list and note its position.
+            let counter = 0;
+            for (let v of Object.keys(this.props.variations)) {
+                if (selectedVariation === v) {
+                    validatedSelection = v;
+                    variationIndex = counter;
+                    break;
+                }
+                counter++;
+            }
         }
 
+        // Update state.
         this.setState({
-            selectedVariation: selectedVariation
+            variationIndex: variationIndex,
+            selectedVariation: validatedSelection
         });
+    }
 
-        // TODO: In the long run, this really needs to be part of the component and not modifying external DOM elems.
+    /**
+     * Get the metadata for the image that should presently display, be it the base image or a variation image.
+     * @returns {*}
+     */
+    getImage() {
+        const selectedVariation = this.state.selectedVariation;
         if (selectedVariation && typeof this.props.variationImages !== 'undefined' &&
-            typeof this.props.variationImages[selectedVariation] !== 'undefined' &&
-            typeof this.props.variationImages[selectedVariation].medium !== 'undefined' &&
-            typeof this.props.variationImages[selectedVariation].full !== 'undefined') {
-            $(this.props.imageLinkSelector).attr('href', this.props.variationImages[selectedVariation].full);
-            $(this.props.imageElementSelector).attr('src', this.props.variationImages[selectedVariation].medium);
+            typeof this.props.variationImages[selectedVariation] !== 'undefined') {
+            return this.props.variationImages[selectedVariation];
         } else {
-            $(this.props.imageLinkSelector).attr('href', this.props.fullBaseImage);
-            $(this.props.imageElementSelector).attr('src' ,this.props.mediumBaseImage);
+            return this.props.image;
         }
-
     }
 
     /**
@@ -295,14 +333,11 @@ $(document).ready(function() {
         const target = $(elem);
         const entityType = target.data('entity-type');
         const entityId = target.data('entity-id');
-        const showLabel = target.data('show-label');
+        const image = target.data('image');
         const variations = target.data('variations');
         const variationImages = target.data('variation-images');
-        const fullBaseImage = target.data('full-base-image');
-        const mediumBaseImage = target.data('medium-base-image');
-        ReactDOM.render(<DropdownList entityType={entityType} entityId={entityId} showLabel={showLabel}
-            variations={variations} variationImages={variationImages}
-            fullBaseImage={fullBaseImage} mediumBaseImage={mediumBaseImage}
-            imageLinkSelector="#item-image-link" imageElementSelector="#item-image" />, elem);
+        ReactDOM.render(<DropdownList entityType={entityType} entityId={entityId}
+                                      image={image} variations={variations} variationImages={variationImages} />,
+            elem);
     });
 })
