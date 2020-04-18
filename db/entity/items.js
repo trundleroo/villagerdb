@@ -10,6 +10,18 @@ class Items extends RedisStore {
         super(redisConnection, 'items', 'item', path.join('data', 'items'));
     }
 
+    /**
+     * Custom post-processing logic for each item.
+     *
+     * @param item
+     * @returns {{}}
+     * @private
+     */
+    _handleEntity(item) {
+        this.collapseVariations(item);
+        return item;
+    }
+
     async _afterPopulation() {
         // We need all the villager IDs.
         const villagersCount = await villagers.count();
@@ -22,7 +34,6 @@ class Items extends RedisStore {
         for (let item of items) {
             await this.buildOwnersArray(item, villagersList);
             await this.formatRecipe(item);
-            this.collapseVariations(item);
             await this.updateEntity(item.id, item);
         }
     }
@@ -159,7 +170,6 @@ class Items extends RedisStore {
 
         // Only allow variations selection if more than one variant exists.
         if (Object.keys(variations).length < 2) {
-            item.variations = {};
             return;
         }
 
@@ -178,8 +188,25 @@ class Items extends RedisStore {
             variationsSorted[k] = variations[k];
         }
 
-        // Finally done.
+        // Assign variations.
         item.variations = variationsSorted;
+
+        // Now let's take a look at variation images.
+        item.variationImages = {};
+        for (let k of keys) {
+            let imageData = urlHelper.getEntityImageData(this.entityType, item.id, k, false);
+            // use base images if no variation image available.
+            if (!imageData.thumb) {
+                imageData.thumb = item.image.thumb;
+            }
+            if (!imageData.medium) {
+                imageData.medium = item.image.medium;
+            }
+            if (!imageData.full) {
+                imageData.full = item.image.full;
+            }
+            item.variationImages[k] = imageData;
+        }
     }
 }
 
