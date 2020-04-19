@@ -35,7 +35,8 @@ export default class SearchResults extends React.Component {
                             <DropdownList name={result.name} entityId={split[2]} entityType={split[1]}
                                           image={result.image} imageSize="thumb"
                                           variations={result.variations}
-                                          variationImages={result.variationImages} />
+                                          variationImages={result.variationImages}
+                                          displayDropdown={true} />
                         </div>
                     </div>
                 </li>

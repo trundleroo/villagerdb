@@ -157,8 +157,8 @@ export default class DropdownList extends React.Component {
         const thumbImage = this.props.imageSize === 'thumb' ? image.thumb : image.medium;
 
         // Finally render!
-        const buttonContainerClass = this.props.displayDropdown ? 'd-flex align-items-center mt-2' :
-            'd-inline-block mt-2';
+        const buttonContainerClass = this.props.displayDropdown && this.variations.length > 0 ?
+            'd-flex align-items-center mt-2' : 'd-inline-block mt-2';
         return (
             <div className="entity-slider-container">
                 <div className="d-flex justify-content-between align-items-center entity-slider">
