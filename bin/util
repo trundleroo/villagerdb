@@ -111,8 +111,8 @@ async function buildSearchIndex() {
                     analyzer: 'vdb_ascii_fold'
                 },
                 url: {
-                    type: 'text',
-                    index: false
+                    type: 'object',
+                    enabled: false
                 },
                 image: {
                     type: 'object',
