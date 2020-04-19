@@ -29,7 +29,7 @@ export default class SearchResults extends React.Component {
             // Result item.
             const split = result.id.match('(item|villager)-(.*)');
             list.push(
-                <li key={result.id} className="col-12 col-sm-6 col-md-4">
+                <li key={result.id} className="col-12 col-sm-6 col-lg-4">
                     <div className="search-result-container text-center">
                         <div className="d-inline-block">
                             <DropdownList name={result.name} entityId={split[2]} entityType={split[1]}
