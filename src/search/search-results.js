@@ -36,7 +36,8 @@ export default class SearchResults extends React.Component {
                                           image={result.image} imageSize="thumb"
                                           variations={result.variations}
                                           variationImages={result.variationImages}
-                                          displayDropdown={true} />
+                                          displayDropdown={true}
+                                          url={result.url} />
                         </div>
                     </div>
                 </li>

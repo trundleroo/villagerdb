@@ -159,21 +159,31 @@ export default class DropdownList extends React.Component {
         // Finally render!
         const buttonContainerClass = this.props.displayDropdown && this.variations.length > 0 ?
             'd-flex align-items-center mt-2' : 'd-inline-block mt-2';
+        const targetUrl = this.props.url ? this.props.url : image.full;
+        const linkTarget = this.props.url ? '_self' : '_blank';
+        let nameDiv = undefined;
+        if (this.props.url) {
+            nameDiv = (
+                <div>
+                    <a href={targetUrl}>
+                        {this.props.name}
+                    </a>
+                </div>
+            );
+        }
+
         return (
             <div className="entity-slider-container">
                 <div className="d-flex justify-content-between align-items-center entity-slider">
                     {previousLink}
                     <div className="flex-fill">
-                        <a className="d-block" target="_blank" href={image.full}>
-                            <img className={'entity-slider-image entity-slider-image-' + this.props.imageSize}
-                                 src={thumbImage} />
+                        <a className="d-block" target={linkTarget} href={targetUrl}>
+                            <img className="entity-slider-image" src={thumbImage} />
                         </a>
                     </div>
                     {nextLink}
                 </div>
-                <div>
-                    {this.props.name}
-                </div>
+                {nameDiv}
                 <div className={buttonContainerClass}>
                     <div>
                         <div className={'dropdown-list-container dropdown ' + showClass}>
