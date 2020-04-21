@@ -23,4 +23,9 @@ $(document).ready(() => {
             $(e.currentTarget).tooltip('show');
         }
     });
+
+    // Delete list buttons
+    $('a.delete-list-button').on('click', (e) => {
+        return confirm('You are about to delete this list. This cannot be undone!');
+    });
 });
