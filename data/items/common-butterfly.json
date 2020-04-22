@@ -16,7 +16,8 @@
     "nh": {
       "orderable": false,
       "sources": [
-        "Around flowers (Jan-Jun, Sept-Dec)"
+        "North: Flying around, Sep-Jun (4am-7pm)",
+        "South: Flying around, Mar-Dec (4am-7pm)"
       ],
       "sellPrice": {
         "currency": "bells",

@@ -4,6 +4,10 @@
   "games": {
     "nh": {
       "orderable": false,
+      "sources": [
+        "North: On stumps, May-Sep (All day)",
+        "South: On stumps, Nov-Mar (All day)"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 3000

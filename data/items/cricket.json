@@ -16,7 +16,8 @@
     "nh": {
       "orderable": false,
       "sources": [
-        "Hopping on the ground at night (Sept-Nov, 5PM-8AM)"
+        "North: On the ground, Sep-Nov (5pm-8am)",
+        "South: On the ground, Mar-May (5pm-8am)"
       ],
       "sellPrice": {
         "currency": "bells",

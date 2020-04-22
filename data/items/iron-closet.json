@@ -3,16 +3,15 @@
   "name": "Iron Closet",
   "games": {
     "nh": {
+      "orderable": false,
+      "customizable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 9000
       },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 36000
-        }
-      ],
+      "recipe": {
+        "iron-nugget": 12
+      },
       "variations": {
         "black": "Black",
         "white": "White"

@@ -15,6 +15,10 @@
     },
     "nh": {
       "orderable": false,
+      "sources": [
+        "North: Disguised as furniture leaf near trees, Jul-Sep (All day)",
+        "South: Disguised as furniture leaf near trees, Jan-Mar (All day)"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 600

@@ -16,8 +16,8 @@
     "nh": {
       "orderable": false,
       "sources": [
-        "North: Flying around (May-Oct, 8AM-5PM)",
-        "South: Flying around (May-Oct, 8AM-5PM)"
+        "North: Flying around, May-Oct (8am-5pm)",
+        "South: Flying around, Nov-Apr (8am-5pm)"
       ],
       "sellPrice": {
         "currency": "bells",

@@ -16,7 +16,8 @@
     "nh": {
       "orderable": false,
       "sources": [
-        "Flying around trash (year round)"
+        "North: Flying around trash or rotten food, All year (All day)",
+        "South: Flying around trash or rotten food, All year (All day)"
       ],
       "sellPrice": {
         "currency": "bells",
