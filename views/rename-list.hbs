@@ -6,8 +6,8 @@
 {{/each}}
 <form method="post" action="/list/rename/{{listId}}">
     <div class="form-group">
-        <input type="text" name="new-list-name" class="form-control" id="new-list-name"
-               aria-describedby="new-list-name-help" placeholder="Enter new list name" maxlength="25">
+        <input type="text" name="list-name" class="form-control" id="list-name"
+               aria-describedby="list-name-help" placeholder="Enter new list name" maxlength={{listNameLength}}>
     </div>
     <button type="submit" name="submit" class="btn btn-primary">Submit</button>
 </form>
