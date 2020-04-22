@@ -146,11 +146,11 @@ export default class DropdownList extends React.Component {
         }
 
         // Show label if dropdown not present and/or no variants.
-        if (!this.props.displayDropdown || this.variations.length === 0) {
-            labelSpan = (
-                <span>&nbsp;{label}</span>
-            );
-        }
+        // if (!this.props.displayDropdown || this.variations.length === 0) {
+        //     labelSpan = (
+        //         <span>&nbsp;{label}</span>
+        //     );
+        // }
 
         // We need the image information for the final display.
         const image = this.getImage();
@@ -186,10 +186,18 @@ export default class DropdownList extends React.Component {
                 {nameDiv}
                 <div className={buttonContainerClass}>
                     <div>
-                        <div className={'dropdown-list-container dropdown ' + showClass}>
-                            <button type="button" className="btn btn-outline-secondary" onClick={this.buttonClicked.bind(this)}>
-                                <span className={'fa ' + labelClass}></span>{labelSpan}
+                        <div className={'btn-group dropdown-list-container dropdown ' + showClass}>
+                            <button type="button" className={'btn btn-outline-secondary'}
+                            onClick={this.addToListClicked.bind(this)}>
+                                <span className={'fa ' + labelClass}></span>
                             </button>
+                            <button type="button"
+                                    className="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                    onClick={this.dropdownButtonClicked.bind(this)}>
+                                {/*<span className={'fa ' + labelClass}></span>{labelSpan}*/}
+                            </button>
+
                             {listData}
                         </div>
                     </div>
@@ -199,12 +207,24 @@ export default class DropdownList extends React.Component {
         );
     }
 
+    addToListClicked(e) {
+        e.preventDefault();
+
+        // Reset error and success state.
+        this.setState({
+            isError: false,
+            isSuccess: false
+        });
+
+        // ???
+    }
+
     /**
      * Open or close the list.
      *
      * @param e
      */
-    buttonClicked(e) {
+    dropdownButtonClicked(e) {
         e.preventDefault();
 
         // Reset error and success state.
