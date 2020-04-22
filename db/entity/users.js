@@ -56,6 +56,22 @@ class Users {
     }
 
     /**
+     * Set a given list as the user's default list.
+     */
+    async setDefaultList(id, listId) {
+        const villagerDb = await this.db.get();
+        return villagerDb.collection('users')
+            .updateOne({
+                    _id: id
+                },
+                {
+                    $set: {
+                        defaultListId: listId
+                    }
+                });
+    }
+
+    /**
      * Find a user by their google id.
      *
      * @param googleId

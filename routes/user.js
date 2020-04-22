@@ -17,6 +17,10 @@ async function loadUser(username) {
         return null;
     }
 
+    for (const list of user.lists) {
+        list.isDefault = (list.id == user.defaultListId)
+    }
+
     // Sort lists alphabetically
     user.lists.sort((a, b) => {
         if (a.name < b.name) {
@@ -182,5 +186,12 @@ router.get('/:username/list/:listId', (req, res, next) => {
             }
         }).catch(next);
 });
+
+/**
+ * Route for setting user's default list.
+ */
+router.post('/:username/set-default-list/:id'), (req, res, next) => {
+
+}
 
 module.exports = router;

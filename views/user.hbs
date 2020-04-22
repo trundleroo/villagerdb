@@ -24,12 +24,24 @@
                 <div>
                     <a href="/user/{{../username}}/list/{{id}}">{{name}}</a>
                 </div>
-                {{#if ../isOwnUser}}
-                    <a href="/list/delete/{{id}}" class="btn btn-danger delete-list-button" role="button">
-                        <span class="fa fa-trash"></span>
-                        <span class="sr-only">Delete</span>
-                    </a>
-                {{/if}}
+                    {{#if ../isOwnUser}}
+                        <div class="btn-group dropleft">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="fa fa-cog"></span>
+                            </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    {{#unless isDefault}}
+                                        <a class="dropdown-item" href="/list/set-default/{{id}}">
+                                            Set as Default
+                                        </a>
+                                    {{/unless}}
+                                    <a class="dropdown-item text-danger" href="/list/delete/{{id}}">
+                                        Delete
+                                    </a>
+                                </div>
+                        </div>
+                    {{/if}}
             </li>
         {{/each}}
     </ul>

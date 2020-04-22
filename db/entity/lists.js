@@ -48,6 +48,24 @@ class Lists {
     async renameList(id, listId, newListId, newListName) {
         const villagerDb = await this.db.get()
 
+        const results = await villagerDb.collection('users')
+            .findOne({
+                _id: id
+            })
+
+        const defaultListId = results['defaultListId'];
+        if (listId == defaultListId) {
+            await villagerDb.collection('users')
+                .updateOne({
+                    _id: id,
+                },
+                {
+                    $set: {
+                        defaultListId: newListId
+                    }
+                });
+        }
+
         await villagerDb.collection('users')
             .updateOne({
                 _id: id,

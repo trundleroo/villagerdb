@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const lists = require('../db/entity/lists');
+const users = require('../db/entity/users');
 const {validationResult, body} = require('express-validator');
 const format = require('../helpers/format');
 
@@ -248,6 +249,19 @@ router.post('/entity-to-list', function (req, res, next) {
     } else {
         res.status(403).send();
     }
+});
+
+router.get('/set-default/:listId', (req, res, next) => {
+    if (!res.locals.userState.isRegistered) {
+        res.redirect('/');
+        return;
+    }
+
+    users.setDefaultList(req.user.id, req.params.listId)
+        .then(() => {
+            res.redirect('/user/' + req.user.username);
+        })
+        .catch(next);
 });
 
 module.exports = router;
