@@ -8,13 +8,15 @@ const urlHelper = require('../../helpers/url')
  * @param next
  */
 module.exports = (req, res, next) => {
-    // Google Analytics ID
     if (process.env.GOOGLE_ANALYTICS_ID) {
         res.locals.gaId = process.env.GOOGLE_ANALYTICS_ID;
         res.locals.gaUrl = 'https://www.googletagmanager.com/gtag/js?id=' + res.locals.gaId;
     }
-    if (process.env.RAT_ID) {
-        res.locals.ratId = process.env.RAT_ID;
+    if (process.env.REV_URL) {
+        res.locals.enableRev = true;
+        res.locals.revUrl = process.env.REV_URL;
+        res.locals.revTag1 = process.env.REV_TAG_1;
+        res.locals.revTag2 = process.env.REV_TAG_2;
     }
 
     // User state storage.

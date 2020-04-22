@@ -1,3 +1,4 @@
+{{> rev-unit1 }}
 <h1>
     {{listName}}
     <small class="text-muted">by <a href="/user/{{author}}">{{author}}</a></small>
@@ -28,6 +29,7 @@
         {{/if}}
     </p>
 {{else}}
+    <p class="text-right">{{countText}}</p>
     <ul class="list-group">
         {{#each entities}}
             <li class="list-group-item d-flex justify-content-between align-items-center">
@@ -50,4 +52,8 @@
             </li>
         {{/each}}
     </ul>
+
+    {{#if displayUnit2 }}
+        {{> rev-unit2 }}
+    {{/if}}
 {{/if}}
