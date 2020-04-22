@@ -16,7 +16,8 @@
     "nh": {
       "orderable": false,
       "sources": [
-        "On the side of trees (Jul-Aug)"
+        "North: On the side of trees, Jul-Aug (11pm-8am)",
+        "South: On the side of trees, Jan-Feb (11pm-8am)"
       ],
       "sellPrice": {
         "currency": "bells",

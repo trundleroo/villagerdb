@@ -16,7 +16,8 @@
     "nh": {
       "orderable": false,
       "sources": [
-        "Rolling balls of dung on group (Dec-Feb)"
+        "North: Rolling snowballs on ground, Dec-Feb (All day)",
+        "South: Rolling snowballs on ground, Jun-Aug (All day)"
       ],
       "sellPrice": {
         "currency": "bells",

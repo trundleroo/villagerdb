@@ -19,8 +19,8 @@
     "nh": {
       "orderable": false,
       "sources": [
-        "North: Near rotten food on the ground (year round)",
-        "South: Near rotten food on the ground (year round)"
+        "North: Near rotten food on the ground, All year (All day)",
+        "South: Near rotten food on the ground, All year (All day)"
       ],
       "sellPrice": {
         "currency": "bells",

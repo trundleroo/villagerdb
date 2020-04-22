@@ -16,7 +16,8 @@
     "nh": {
       "orderable": false,
       "sources": [
-        "At night (Dec-Mar, Jun-Sept)"
+        "North: Flying around, Dec-Mar and Jun-Sep (5pm-8am)",
+        "South: Flying around, Dec-Mar and Jun-Sep (5pm-8am)"
       ],
       "sellPrice": {
         "currency": "bells",

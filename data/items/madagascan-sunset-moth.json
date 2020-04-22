@@ -4,6 +4,10 @@
   "games": {
     "nh": {
       "orderable": false,
+      "sources": [
+        "North: Flying around, Apr-Sep (8am-4pm)",
+        "South: Flying around, Oct-Mar (8am-4pm)"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 2500

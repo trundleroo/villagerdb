@@ -34,7 +34,11 @@
       ],
       "variations": {
         "blue": "Blue",
-        "red": "Red"
+        "red-white-blue": "Red white & blue",
+        "pink": "Pink",
+        "yellow": "Yellow",
+        "green": "Green",
+        "black": "Black"
       }
     }
   }

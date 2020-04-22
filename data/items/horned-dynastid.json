@@ -15,6 +15,10 @@
     },
     "nh": {
       "orderable": false,
+      "sources": [
+        "North: On the side of trees, Jul-Aug (5pm-8am)",
+        "South: On the side of trees, Jan-Feb (5pm-8am)"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 1350
