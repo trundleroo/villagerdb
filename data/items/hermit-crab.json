@@ -16,7 +16,8 @@
     "nh": {
       "orderable": false,
       "sources": [
-        "Beach"
+        "North: On the beach, All year (7pm-8am)",
+        "South: On the beach, All year (7pm-8am)"
       ],
       "sellPrice": {
         "currency": "bells",

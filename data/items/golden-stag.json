@@ -16,7 +16,8 @@
     "nh": {
       "orderable": false,
       "sources": [
-        "On the side of coconut trees (Jul-Aug)"
+        "North: On the side of coconut trees, Jul-Aug (5pm-8am)",
+        "South: On the side of coconut trees, Jan-Feb (5pm-8am)"
       ],
       "sellPrice": {
         "currency": "bells",

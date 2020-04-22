@@ -45,6 +45,22 @@ class Lists {
             });
     }
 
+    async renameList(id, listId, newListId, newListName) {
+        const villagerDb = await this.db.get()
+
+        await villagerDb.collection('users')
+            .updateOne({
+                _id: id,
+                "lists.id": listId
+            },
+            {
+                $set: {
+                    "lists.$.id": newListId,
+                    "lists.$.name": newListName
+                }
+            });
+    }
+
     /**
      * Add an entity to an existing list.
      *

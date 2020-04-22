@@ -15,6 +15,10 @@
     },
     "nh": {
       "orderable": false,
+      "sources": [
+        "North: On the ground, Jul-Sep (8am-5pm)",
+        "South: On the ground, Jan-Mar (8am-5pm)"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 160

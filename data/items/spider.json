@@ -15,6 +15,10 @@
     },
     "nh": {
       "orderable": false,
+      "sources": [
+        "North: Shake trees, All year (7pm-8am)",
+        "South: Shake trees, All year (7pm-8am)"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 600

@@ -3,16 +3,12 @@
   "name": "Log Sofa",
   "games": {
     "nh": {
+      "orderable": false,
+      "customizable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 960
       },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 3840
-        }
-      ],
       "recipe": {
         "hardwood": 8
       },
