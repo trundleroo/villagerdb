@@ -45,6 +45,15 @@ class Lists {
             });
     }
 
+    /**
+     * Rename the list of user (id) from its old id (listId) to its new id (newListId) and new name (newListName).
+     *
+     * @param id
+     * @param listId
+     * @param newListId
+     * @param newListName
+     * @returns {Promise<void>}
+     */
     async renameList(id, listId, newListId, newListName) {
         const villagerDb = await this.db.get()
 
