@@ -4,13 +4,37 @@ const lists = require('../db/entity/lists');
 const {validationResult, body} = require('express-validator');
 const format = require('../helpers/format');
 
-const maxListNameLength = "25";
+/**
+ * Minimum name length for a list.
+ *
+ * @type {number}
+ */
+const minListNameLength = 3;
+
+/**
+ * Maximum name length for a list.
+ *
+ * @type {number}
+ */
+const maxListNameLength = 25;
+
+/**
+ * Validation expression for a list name.
+ *
+ * @type {RegExp}
+ */
 const listRegex = /^[A-Za-z0-9][A-Za-z0-9 ]+$/i;
+
+/**
+ * List validation rules on name submission.
+ *
+ * @type {ValidationChain[]}
+ */
 const listValidation = [
     body(
         'list-name',
-        'List names must be between 3 and 25 characters long.')
-        .isLength({min: 3, max: 25}),
+        'List names must be between ' + minListNameLength + ' and ' + maxListNameLength + ' characters long.')
+        .isLength({min: minListNameLength, max: maxListNameLength}),
     body(
         'list-name',
         'List names can only have letters, numbers, and spaces, and must start with a letter or number.')
