@@ -1,7 +1,6 @@
 {{> rev-unit1 }}
 <h1>
     {{listName}}
-    <small class="text-muted">by <a href="/user/{{author}}">{{author}}</a></small>
     {{#if isOwnUser}}
         <a href="/list/rename/{{listId}}"
            class="btn btn-secondary btn-sm" role="button">
@@ -10,6 +9,7 @@
         </a>
     {{/if}}
 </h1>
+<p><small class="text-muted">by <a href="/user/{{author}}">{{author}}</a></small></p>
 <div class="text-right">
     {{> social-media shareUrl=shareUrl showCopyButton=true }}
 </div>

@@ -146,14 +146,24 @@ router.post('/create', listValidation, (req, res) => {
  */
 router.get('/rename/:listId', (req, res, next) => {
     const data = {}
-    data.pageTitle = 'Edit List';
+    data.pageTitle = 'Rename List';
     data.listId = req.params.listId;
     data.errors = req.session.errors;
     data.listNameLength = maxListNameLength;
     delete req.session.errors;
 
     if (res.locals.userState.isRegistered) {
-        res.render('rename-list', data);
+        // Make sure the list exists.
+        lists.getListById(req.user.username, req.params.listId)
+            .then((list) => {
+                if (list) {
+                    data.listName = list.name;
+                    res.render('rename-list', data);
+                } else {
+                    // No such list...
+                    res.redirect('/user/' + req.user.username);
+                }
+            }).catch(next);
     } else {
         res.redirect('/login'); // create an account to continue
     }
@@ -162,10 +172,10 @@ router.get('/rename/:listId', (req, res, next) => {
 /**
  * Route for POSTing new name of a list.
  */
-router.post('/rename/:listId', listValidation, (req, res) => {
+router.post('/rename/:listId', listValidation, (req, res, next) => {
     // Only registered users here.
     if (!res.locals.userState.isRegistered) {
-        res.redirect('/');
+        res.status(403).send();
         return;
     }
 
@@ -181,9 +191,7 @@ router.post('/rename/:listId', listValidation, (req, res) => {
             .then(() => {
                 res.redirect('/user/' + req.user.username + '/list/' + format.getSlug(newListName));
             })
-            .catch((err) => {
-                console.log(err);
-            });
+            .catch(next);
     }
 });
 
