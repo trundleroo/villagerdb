@@ -1,0 +1,19 @@
+{
+  "id": "wedding-wand",
+  "name": "Wedding Wand",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3500
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 14000
+        }
+      ]
+    }
+  },
+  "category": "Tools"
+}
