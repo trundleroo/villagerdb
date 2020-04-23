@@ -36,9 +36,10 @@ const listValidation = [
  * @returns {Promise<[]>}
  */
 async function getUserListsForEntity(listId, entityType, entityId, variationId) {
-    const userLists = await lists.getListsByUser(listId)
+    const userLists = await lists.getListsByUser(listId);
 
     if (userLists) {
+        userLists.sort(format.listSortComparator); // put in alphabetical order
         let result = [];
         userLists.forEach(function (list) {
             let hasEntity = false;

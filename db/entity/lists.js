@@ -153,7 +153,7 @@ class Lists {
      * Get all lists by a specific user using their id.
      *
      * @param id
-     * @returns {Promise<*>}
+     * @returns {Promise<[]>}
      */
     async getListsByUser(id) {
         const villagerDb = await this.db.get();
