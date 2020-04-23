@@ -15,18 +15,6 @@
       "sources": [
         "GracieGrace (during sales)"
       ]
-    },
-    "nh": {
-      "sellPrice": {
-        "currency": "bells",
-        "value": 1000
-      },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 4000
-        }
-      ]
     }
   }
 }
