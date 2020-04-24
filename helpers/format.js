@@ -236,7 +236,7 @@ module.exports.andList = andList;
  * @returns {number}
  */
 function listSortComparator(a, b) {
-    if (a.name < b.name) {
+    if (a.id < b.id) {
         return -1;
     } else {
         return 1;
