@@ -25,17 +25,7 @@ function reportOnImage(entityId, variationId) {
         output.push('Missing thumb image');
     }
 
-    if (output.length > 0) {
-        if (!variationId) {
-            console.log(entityId + ':');
-        } else {
-            console.log(entityId + ' (' + variationId + '):');
-        }
-
-        for (let o of output) {
-            console.log('\t' + o);
-        }
-    }
+    return output;
 }
 
 /**
@@ -46,14 +36,32 @@ function itemHealthReport() {
     for (let file of files) {
         const data = fs.readFileSync(path.join('data', 'items', file), 'utf8');
         const parsed = JSON.parse(data);
+        const games = Object.keys(parsed.games).join('; ');
 
         // Check base image.
-        reportOnImage(parsed.id);
-
+        const baseOutput = reportOnImage(parsed.id);
+        let basePrinted = false;
+        if (baseOutput.length > 0) {
+            console.log(parsed.id + ' (games: ' + games + '):');
+            basePrinted = true;
+            for (let o of baseOutput) {
+                console.log('\t' + o);
+            }
+        }
         // Check variants - NH only
         if (parsed.games.nh && parsed.games.nh.variations) {
             for (let variationId of Object.keys(parsed.games.nh.variations)) {
-                reportOnImage(parsed.id, variationId);
+                const variationOutput = reportOnImage(parsed.id, variationId);
+                if (variationOutput.length > 0) {
+                    if (!basePrinted) {
+                        console.log(parsed.id + ' (games: ' + games + '):');
+                        basePrinted = true;
+                    }
+                    console.log('\t' + variationId + ':');
+                    for (let o of variationOutput) {
+                        console.log('\t\t' + o);
+                    }
+                }
             }
         }
 
