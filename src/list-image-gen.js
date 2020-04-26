@@ -37,7 +37,7 @@ const IMAGE_POSITIONS = [
     {x: 375, y: 20}, // Row 1, col 5
     {x: 75, y: 230}, // Row 2, col 1
     {x: 75, y: 20}, // Row 1, col 1
-    {x: 375, y: 230}, // Row 2, col 5
+    {x: 375, y: 230} // Row 2, col 5
 ];
 
 /**
