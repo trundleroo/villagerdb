@@ -115,7 +115,7 @@ function organizeData(listId, entity, type, variationId) {
     entityData.type = type;
     entityData.image = entity.image.thumb;
     entityData.deleteUrl = '/list/delete-entity/' + listId + '/' + type + '/' + entity.id;
-    entityData._sortKey = entityData.name;
+    entityData._sortKey = entity.id;
 
     // Variation?
     if (variationId) {
@@ -128,7 +128,7 @@ function organizeData(listId, entity, type, variationId) {
         }
         entityData.variation = '(' + variationDisplay + ')';
         entityData.deleteUrl += '/' + variationId;
-        entityData._sortKey += ' ' + entityData.variation;
+        entityData._sortKey += '-vv-' + variationId;
 
         // Use variation image if available.
         if (typeof entity.variationImages !== 'undefined' &&
