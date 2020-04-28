@@ -80,7 +80,20 @@ const STROKE_COLOR = '#817157';
  */
 const $ = require('jquery');
 
+/**
+ * Array of list images on the page. Computed on DOM ready so that search does not disrupt the generator.
+ * @type {*[]}
+ */
+let images = [];
+
 $(document).ready(() => {
+    // Collect all the images and filter out the ones that are placeholders.
+    images = $('img.user-list-image').toArray()
+        .filter((i) => {
+            return typeof i !== 'undefined' && typeof i.src === 'string' &&
+                i.src.indexOf('image-not-available') === -1;
+        });
+
     // Generate image button click
     $('#generate-image-button').on('click', (e) => {
         const listName = $(e.target).data('list-name');
@@ -108,12 +121,7 @@ $(document).ready(() => {
         ctx.textAlign = 'center';
         ctx.fillText(userUrl, canvas.width / 2, USERNAME_POS_Y);
 
-        // Collect all the images, filter out the ones that are placeholders, and randomize them.
-        const images = $('img.user-list-image').toArray()
-            .filter((i) => {
-                return typeof i !== 'undefined' && typeof i.src === 'string' &&
-                    i.src.indexOf('image-not-available') === -1;
-            });
+        // Shuffle the images.
         shuffle(images);
 
         // Draw until we reach the end of the positions set.
