@@ -141,6 +141,7 @@ function organizeData(listId, entity, type, variationId) {
             typeof entity.variations[variationId] !== 'undefined') {
             variationDisplay = entity.variations[variationId];
         }
+        entityData.variationId = variationId;
         entityData.variation = '(' + variationDisplay + ')';
         entityData.deleteUrl += '/' + variationId;
         entityData._sortKey += '-vv-' + variationId;
