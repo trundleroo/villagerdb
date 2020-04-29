@@ -60,8 +60,12 @@ $(document).ready(() => {
                     newSelected = $('#autocomplete-items li').first();
                 }
             }
-            newSelected.addClass('selected');
-            $('#q').val(newSelected.text());
+
+            // If we have a new selection...
+            if (newSelected && newSelected.length > 0) {
+                newSelected.addClass('selected');
+                $('#q').val(newSelected.text());
+            }
         } else if (e.keyCode === ESC_KEYCODE) {
             // Just make the list go away.
             e.preventDefault();
