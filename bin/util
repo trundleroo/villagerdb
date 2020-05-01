@@ -151,7 +151,7 @@ async function buildSearchIndex() {
 
     // Delete the old index if existing.
     if (oldIndexName) {
-        es.indices.delete({
+        await es.indices.delete({
             index: oldIndexName
         });
         console.log('Deleted old index ' + oldIndexName);
