@@ -1,7 +1,7 @@
 {
   "id": "cedar-sapling",
   "name": "Cedar Sapling",
-  "category": "Bushes and Trees",
+  "category": "Usables",
   "games": {
     "nl": {
       "orderable": false,
