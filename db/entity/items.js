@@ -81,12 +81,20 @@ class Items extends RedisStore {
      * @returns {Promise<void>}
      */
     async formatRecipe(item) {
-        console.log('Formatting recipe for ' + item.id);
         if (item.games.nh && item.games.nh.recipe) {
-            item.games.nh.normalRecipe = await this.buildRecipeArrayFromMap(item.games.nh.recipe);
-            item.games.nh.fullRecipe = await this.buildRecipeArrayFromMap(
-                await this.buildFullRecipe(item.games.nh.recipe)
-            );
+            console.log('Formatting recipe for ' + item.id);
+
+            try {
+                item.games.nh.normalRecipe = await this.buildRecipeArrayFromMap(item.games.nh.recipe);
+                item.games.nh.fullRecipe = await this.buildRecipeArrayFromMap(
+                    await this.buildFullRecipe(item.games.nh.recipe)
+                );
+            } catch (e) {
+                console.error('Problem while recipe formatting for item: ' + item.id);
+                console.error(e);
+                throw e; // re-throw
+            }
+
         }
     }
 
@@ -109,7 +117,11 @@ class Items extends RedisStore {
             if (ingredientItem) {
                 name = ingredientItem.name;
                 url = urlHelper.getEntityUrl(urlHelper.ITEM, ingredientItem.id);
+            } else {
+                // This is a serious failure. Cancel indexing.
+                throw new Error('Invalid ingredient id: ' + ingredient);
             }
+
             recipeArray.push({
                 name: name,
                 url: url,
