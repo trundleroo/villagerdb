@@ -30,13 +30,23 @@ export default class DropdownList extends React.Component {
             variationIndex: -1, // -1 means "Any"!
             selectedVariation: undefined
         };
+
+        // Body click handler to unbind on unmount
+        this.checkBodyHandler = this.checkBodyClick.bind(this);
     }
 
     /**
-     *
+     * Look for clicks on body to determine if we need to close our dropdown menu.
      */
     componentDidMount() {
-        $('body').on('click', this.checkBodyClick.bind(this));
+        $('body').on('click', this.checkBodyHandler);
+    }
+
+    /**
+     * Remove click checker when we unmount to prevent memory leak in user's browser.
+     */
+    componentWillUnmount() {
+        $('body').off('click', this.checkBodyHandler);
     }
 
     /**
