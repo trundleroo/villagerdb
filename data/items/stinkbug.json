@@ -5,7 +5,8 @@
     "nh": {
       "orderable": false,
       "sources": [
-        "On flowers (Mar-Oct)"
+        "North: On flowers, Mar-Oct (All day)",
+        "South: On flowers, Sep-Apr (All day)"
       ],
       "sellPrice": {
         "currency": "bells",

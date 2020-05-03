@@ -3,6 +3,10 @@
   "name": "Viking Top",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 625
@@ -12,7 +16,12 @@
           "currency": "bells",
           "value": 2500
         }
-      ]
+      ],
+      "variations": {
+        "brown": "Brown",
+        "gray": "Gray",
+        "blue": "Blue"
+      }
     }
   },
   "category": "Tops"

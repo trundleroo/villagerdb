@@ -365,7 +365,9 @@ async function browse(pageNumber, userQueries, fixedQueries) {
                 id: h._id,
                 name: h._source.name,
                 url: h._source.url,
-                imageUrl: h._source.imageUrl
+                image: h._source.image,
+                variations: h._source.variations,
+                variationImages: h._source.variationImages
             });
         }
     }

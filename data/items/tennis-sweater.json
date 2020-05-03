@@ -3,6 +3,10 @@
   "name": "Tennis Sweater",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 360
@@ -12,7 +16,13 @@
           "currency": "bells",
           "value": 1440
         }
-      ]
+      ],
+      "variations": {
+        "ivory": "Ivory",
+        "green": "Green",
+        "brown": "Brown",
+        "red": "Red"
+      }
     }
   },
   "category": "Tops"

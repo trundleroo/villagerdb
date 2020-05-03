@@ -3,6 +3,10 @@
   "name": "Town Backpack",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Kicks"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 260
@@ -12,7 +16,13 @@
           "currency": "bells",
           "value": 1040
         }
-      ]
+      ],
+      "variations": {
+        "green": "Green",
+        "orange": "Orange",
+        "blue": "Blue",
+        "red": "Red"
+      }
     }
   },
   "category": "Accessories"

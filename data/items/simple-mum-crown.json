@@ -12,7 +12,13 @@
           "currency": "bells",
           "value": 11520
         }
-      ]
+      ],
+      "recipe": {
+        "green-mums": 6
+      },
+      "variations": {
+        "green": "Green"
+      }
     }
   },
   "category": "Hats"

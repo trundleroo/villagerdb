@@ -3,6 +3,8 @@
   "name": "Sci-fi Flooring",
   "games": {
     "nh": {
+      "orderable": false,
+      "customizable": false,
       "sellPrice": {
         "currency": "bells",
         "value": 7500
@@ -12,7 +14,11 @@
           "currency": "bells",
           "value": 30000
         }
-      ]
+      ],
+      "recipe": {
+        "star-fragment": 5,
+        "large-star-fragment": 1
+      }
     }
   },
   "category": "Flooring"

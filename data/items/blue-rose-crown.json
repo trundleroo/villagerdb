@@ -12,7 +12,13 @@
           "currency": "bells",
           "value": 48000
         }
-      ]
+      ],
+      "recipe": {
+        "blue-roses": 6
+      },
+      "variations": {
+        "blue": "Blue"
+      }
     }
   },
   "category": "Hats"

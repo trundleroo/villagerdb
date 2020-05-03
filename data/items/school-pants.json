@@ -3,6 +3,10 @@
   "name": "School Pants",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 220
@@ -12,7 +16,16 @@
           "currency": "bells",
           "value": 880
         }
-      ]
+      ],
+      "variations": {
+        "black": "Black",
+        "berry-red": "Berry red",
+        "green": "Green",
+        "white": "White",
+        "purple": "Purple",
+        "gray": "Gray",
+        "blue": "Blue"
+      }
     }
   },
   "category": "Bottoms"

@@ -3,6 +3,10 @@
   "name": "Upcycled Skirt",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 330
@@ -12,7 +16,12 @@
           "currency": "bells",
           "value": 1320
         }
-      ]
+      ],
+      "variations": {
+        "beige": "Beige",
+        "pink": "Pink",
+        "mint": "Mint"
+      }
     }
   },
   "category": "Bottoms"

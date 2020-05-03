@@ -3,6 +3,10 @@
   "name": "Running Tights",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 137
@@ -12,7 +16,13 @@
           "currency": "bells",
           "value": 550
         }
-      ]
+      ],
+      "variations": {
+        "pink": "Pink",
+        "yellow": "Yellow",
+        "blue": "Blue",
+        "green": "Green"
+      }
     }
   },
   "category": "Socks"

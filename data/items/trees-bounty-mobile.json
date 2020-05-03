@@ -12,7 +12,16 @@
           "currency": "bells",
           "value": 8120
         }
-      ]
+      ],
+      "recipe": {
+        "pine-cone": 2,
+        "acorn": 3,
+        "tree-branch": 3
+      },
+      "variations": {
+        "brown": "Brown",
+        "white": "White"
+      }
     }
   },
   "category": "Furniture"

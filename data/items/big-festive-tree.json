@@ -24,16 +24,26 @@
       ]
     },
     "nh": {
+      "orderable": false,
       "sellPrice": {
         "currency": "bells",
         "value": 3200
       },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 12800
-        }
-      ]
+      "recipe": {
+        "red-ornament": 6,
+        "blue-ornament": 6,
+        "gold-ornament": 4,
+        "wood": 5,
+        "clay": 5
+      },
+      "variations": {
+        "colorful": "Colorful",
+        "blue": "Blue",
+        "red": "Red",
+        "pink": "Pink",
+        "gold": "Gold",
+        "white": "White"
+      }
     }
   }
 }

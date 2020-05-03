@@ -3,16 +3,23 @@
   "name": "Nova Light",
   "games": {
     "nh": {
+      "orderable": false,
       "sellPrice": {
         "currency": "bells",
         "value": 2500
       },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 10000
-        }
-      ]
+      "recipe": {
+        "star-fragment": 5
+      },
+      "variations": {
+        "yellow": "Yellow",
+        "green": "Green",
+        "blue": "Blue",
+        "purple": "Purple",
+        "pink": "Pink",
+        "orange": "Orange",
+        "white": "White"
+      }
     }
   },
   "category": "Furniture"

@@ -3,6 +3,10 @@
   "name": "Long Denim Cardigan",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 500
@@ -12,7 +16,12 @@
           "currency": "bells",
           "value": 2000
         }
-      ]
+      ],
+      "variations": {
+        "gray": "Gray",
+        "pink": "Pink",
+        "yellow": "Yellow"
+      }
     }
   },
   "category": "Dresses"

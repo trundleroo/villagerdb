@@ -3,16 +3,28 @@
   "name": "Silo",
   "games": {
     "nh": {
+      "orderable": false,
+      "sources": [
+        "Nook Miles System"
+      ],
+      "customizable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 13920
       },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 55680
-        }
-      ]
+      "recipe": {
+        "iron-nugget": 12,
+        "hardwood": 6,
+        "clay": 12,
+        "stone": 12
+      },
+      "variations": {
+        "red-roof": "Red roof",
+        "green-roof": "Green roof",
+        "blue-roof": "Blue roof",
+        "black-roof": "Black roof",
+        "aqua-roof": "Aqua roof"
+      }
     }
   },
   "category": "Furniture"

@@ -3,6 +3,10 @@
   "name": "Sports Cap",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 140
@@ -12,7 +16,13 @@
           "currency": "bells",
           "value": 560
         }
-      ]
+      ],
+      "variations": {
+        "red": "Red",
+        "white-red": "White & red",
+        "blue": "Blue",
+        "white-blue": "White & blue"
+      }
     }
   },
   "category": "Hats"

@@ -3,6 +3,11 @@
   "name": "Babouches",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters",
+        "Kicks"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 140
@@ -12,7 +17,17 @@
           "currency": "bells",
           "value": 560
         }
-      ]
+      ],
+      "variations": {
+        "blue": "Blue",
+        "orange": "Orange",
+        "pink": "Pink",
+        "yellow": "Yellow",
+        "gray": "Gray",
+        "purple": "Purple",
+        "mint": "Mint",
+        "red": "Red"
+      }
     }
   },
   "category": "Shoes"

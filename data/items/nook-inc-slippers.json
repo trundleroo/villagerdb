@@ -3,7 +3,7 @@
   "name": "Nook Inc. Slippers",
   "games": {
     "nh": {
-      "orderable": true,
+      "orderable": false,
       "sources": [
         "Nook Miles System"
       ],
@@ -16,7 +16,10 @@
           "currency": "miles",
           "value": 400
         }
-      ]
+      ],
+      "variations": {
+        "white": "White"
+      }
     }
   },
   "category": "Shoes"

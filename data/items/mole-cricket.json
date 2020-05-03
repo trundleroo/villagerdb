@@ -16,7 +16,8 @@
     "nh": {
       "orderable": false,
       "sources": [
-        "Underground (dig near chirping) (Nov-May)"
+        "North: Underground (dig near chirping), Nov-May (All day)",
+        "South: Underground (dig near chirping), May-Nov (All day)"
       ],
       "sellPrice": {
         "currency": "bells",

@@ -3,6 +3,11 @@
   "name": "Labelle Tights",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Label",
+        "Able Sisters after unlocking from Label"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 310
@@ -12,7 +17,15 @@
           "currency": "bells",
           "value": 1240
         }
-      ]
+      ],
+      "variations": {
+        "twilight": "Twilight",
+        "midnight": "Midnight",
+        "passion": "Passion",
+        "ocean": "Ocean",
+        "sunset": "Sunset",
+        "love": "Love"
+      }
     }
   },
   "category": "Socks"

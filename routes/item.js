@@ -149,7 +149,8 @@ function formatItem(item) {
     // Paragraph and variations
     formatted.paragraph = generateParagraph(item, formatted);
     formatted.variations = JSON.stringify(typeof item.variations === 'object' ? item.variations : {});
-
+    formatted.variationImages = JSON.stringify(typeof item.variationImages === 'object' ? item.variationImages
+        : {});
     return formatted;
 }
 
@@ -180,6 +181,7 @@ async function loadItem(id) {
 
     // Images.
     result.image = item.image;
+    result.serializedImages = JSON.stringify(item.image);
 
     // Ownership data
     result.hasOwnership = typeof item.owners !== 'undefined' && item.owners.length > 0;

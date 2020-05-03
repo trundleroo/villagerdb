@@ -5,7 +5,8 @@
     "nh": {
       "orderable": true,
       "sources": [
-        "Nook Shopping"
+        "Nook Shopping",
+        "Able Sisters"
       ],
       "sellPrice": {
         "currency": "bells",
@@ -16,7 +17,17 @@
           "currency": "bells",
           "value": 700
         }
-      ]
+      ],
+      "variations": {
+        "yellow": "Yellow",
+        "black": "Black",
+        "purple": "Purple",
+        "red": "Red",
+        "blue": "Blue",
+        "green": "Green",
+        "brown": "Brown",
+        "yellow-green": "Yellow-green"
+      }
     }
   },
   "category": "Bottoms"

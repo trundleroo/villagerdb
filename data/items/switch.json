@@ -1,6 +1,6 @@
 {
   "id": "switch",
-  "name": "Switch",
+  "name": "Light Switch",
   "games": {
     "nh": {
       "sellPrice": {
@@ -12,7 +12,13 @@
           "currency": "bells",
           "value": 340
         }
-      ]
+      ],
+      "variations": {
+        "gray": "Gray",
+        "brown": "Brown",
+        "white": "White",
+        "wood-grain": "Wood grain"
+      }
     }
   },
   "category": "Furniture"

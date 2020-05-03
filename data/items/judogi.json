@@ -3,6 +3,10 @@
   "name": "Judogi",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 440
@@ -12,7 +16,11 @@
           "currency": "bells",
           "value": 1760
         }
-      ]
+      ],
+      "variations": {
+        "white": "White",
+        "blue": "Blue"
+      }
     }
   },
   "category": "Dresses"

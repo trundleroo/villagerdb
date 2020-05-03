@@ -3,6 +3,7 @@
   "name": "Wall-mounted Candle",
   "games": {
     "nh": {
+      "orderable": true,
       "customizable": false,
       "sellPrice": {
         "currency": "bells",
@@ -13,7 +14,14 @@
           "currency": "bells",
           "value": 800
         }
-      ]
+      ],
+      "variations": {
+        "gold": "Gold",
+        "silver": "Silver",
+        "copper": "Copper",
+        "black": "Black",
+        "white": "White"
+      }
     }
   },
   "category": "Furniture"

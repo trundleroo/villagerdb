@@ -3,6 +3,10 @@
   "name": "Stellar Jumpsuit",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 400
@@ -12,7 +16,14 @@
           "currency": "bells",
           "value": 1600
         }
-      ]
+      ],
+      "variations": {
+        "green": "Green",
+        "blue": "Blue",
+        "dark-red": "Dark red",
+        "purple": "Purple",
+        "red": "Red"
+      }
     }
   },
   "category": "Dresses"

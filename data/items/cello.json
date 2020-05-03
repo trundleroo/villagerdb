@@ -21,6 +21,7 @@
       ]
     },
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 32500
@@ -30,7 +31,12 @@
           "currency": "bells",
           "value": 130000
         }
-      ]
+      ],
+      "variations": {
+        "natural": "Natural",
+        "white": "White",
+        "black": "Black"
+      }
     }
   }
 }

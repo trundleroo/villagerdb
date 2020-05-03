@@ -28,6 +28,7 @@
       ]
     },
     "nh": {
+      "orderable": false,
       "sellPrice": {
         "currency": "bells",
         "value": 3000
@@ -37,7 +38,13 @@
           "currency": "bells",
           "value": 12000
         }
-      ]
+      ],
+      "recipe": {
+        "iron-nugget": 6
+      },
+      "variations": {
+        "gray": "Gray"
+      }
     }
   }
 }

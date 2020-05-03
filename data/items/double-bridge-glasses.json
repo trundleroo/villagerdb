@@ -3,6 +3,10 @@
   "name": "Double-bridge Glasses",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 275
@@ -12,7 +16,13 @@
           "currency": "bells",
           "value": 1100
         }
-      ]
+      ],
+      "variations": {
+        "gold": "Gold",
+        "purple": "Purple",
+        "silver": "Silver",
+        "blue": "Blue"
+      }
     }
   },
   "category": "Accessories"

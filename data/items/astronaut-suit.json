@@ -3,16 +3,15 @@
   "name": "Astronaut Suit",
   "games": {
     "nh": {
+      "orderable": false,
       "sellPrice": {
         "currency": "bells",
         "value": 6250
       },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 25000
-        }
-      ]
+      "recipe": {
+        "star-fragment": 5,
+        "iron-nugget": 5
+      }
     }
   },
   "category": "Furniture"

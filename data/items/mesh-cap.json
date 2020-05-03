@@ -5,7 +5,8 @@
     "nh": {
       "orderable": true,
       "sources": [
-        "Nook shopping"
+        "Nook Shopping",
+        "Able Sisters"
       ],
       "sellPrice": {
         "currency": "bells",
@@ -16,7 +17,16 @@
           "currency": "bells",
           "value": 560
         }
-      ]
+      ],
+      "variations": {
+        "purple": "Purple",
+        "red": "Red",
+        "pink": "Pink",
+        "green": "Green",
+        "orange": "Orange",
+        "yellow": "Yellow",
+        "black": "Black"
+      }
     }
   },
   "category": "Hats"

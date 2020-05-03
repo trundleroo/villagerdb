@@ -1,3 +1,4 @@
+{{> rev-unit1 }}
 {{> random }}
 <h1>{{pageTitle}}</h1>
 <div class="text-right mb-3">
@@ -5,16 +6,10 @@
 </div>
 <div class="row">
     <div class="col-sm-12 col-md-4 order-md-12 order-sm-1">
-        <div class="text-center">
-            <div>
-                <a target="_blank" href="{{image.full}}">
-                    <img src="{{image.medium}}" alt="In-game image of {{pageTitle}}"
-                         style="max-width: 200px; max-height: 200px;"/>
-                </a>
-            </div>
-        </div>
         <div class="mt-3 mb-3 text-center">
-            {{> add-button entityType='item' entityId=id entityVariations=variations }}
+            {{> add-button entityType='item' entityId=id entityVariations=variations
+                    entityImages=serializedImages entityVariationImages=variationImages
+                    fullBaseImage=image.full mediumBaseImage=image.medium }}
         </div>
         <table class="table table-borderless">
             <tbody>
@@ -201,3 +196,5 @@
         {{/if}}
     </div>
 </div>
+
+{{> rev-unit2 }}

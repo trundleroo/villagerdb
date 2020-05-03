@@ -3,6 +3,7 @@
   "name": "Wall Clock",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 172
@@ -12,7 +13,14 @@
           "currency": "bells",
           "value": 690
         }
-      ]
+      ],
+      "variations": {
+        "silver": "Silver",
+        "white": "White",
+        "black": "Black",
+        "red": "Red",
+        "blue": "Blue"
+      }
     }
   },
   "category": "Furniture"

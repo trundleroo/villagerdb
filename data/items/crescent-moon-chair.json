@@ -12,7 +12,20 @@
           "currency": "bells",
           "value": 34000
         }
-      ]
+      ],
+      "recipe": {
+        "star-fragment": 7,
+        "large-star-fragment": 1
+      },
+      "variations": {
+        "yellow": "Yellow",
+        "green": "Green",
+        "blue": "Blue",
+        "purple": "Purple",
+        "pink": "Pink",
+        "orange": "Orange",
+        "white": "White"
+      }
     }
   },
   "category": "Furniture"

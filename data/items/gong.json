@@ -4,9 +4,6 @@
   "games": {
     "nh": {
       "orderable": false,
-      "sources": [
-        "Gulliver"
-      ],
       "customizable": true,
       "sellPrice": {
         "currency": "bells",
@@ -15,6 +12,10 @@
       "recipe": {
         "iron-nugget": 6,
         "wood": 5
+      },
+      "variations": {
+        "brown": "Brown",
+        "red": "Red"
       }
     }
   },

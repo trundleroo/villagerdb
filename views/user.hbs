@@ -18,14 +18,14 @@
 {{/if}}
 
 {{#if hasLists}}
-    <ul class="list-group">
+    <ul class="list-group user-list-view">
         {{#each lists}}
             <li class="list-group-item d-flex justify-content-between align-items-center">
                 <div>
                     <a href="/user/{{../username}}/list/{{id}}">{{name}}</a>
                 </div>
                 {{#if ../isOwnUser}}
-                    <a href="/list/delete/{{id}}" class="btn btn-danger" role="button">
+                    <a href="/list/delete/{{id}}" class="btn btn-danger delete-list-button" role="button">
                         <span class="fa fa-trash"></span>
                         <span class="sr-only">Delete</span>
                     </a>

@@ -3,6 +3,7 @@
   "name": "Young-royal Shirt",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 360
@@ -12,7 +13,14 @@
           "currency": "bells",
           "value": 1440
         }
-      ]
+      ],
+      "variations": {
+        "white": "White",
+        "black": "Black",
+        "pink": "Pink",
+        "blue": "Blue",
+        "cream": "Cream"
+      }
     }
   },
   "category": "Tops"

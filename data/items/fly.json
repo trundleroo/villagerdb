@@ -15,16 +15,14 @@
     },
     "nh": {
       "orderable": false,
+      "sources": [
+        "North: Flying around trash or rotten food, All year (All day)",
+        "South: Flying around trash or rotten food, All year (All day)"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 60
-      },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 240
-        }
-      ]
+      }
     }
   }
 }

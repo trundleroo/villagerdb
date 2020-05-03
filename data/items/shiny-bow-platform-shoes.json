@@ -3,6 +3,11 @@
   "name": "Shiny Bow Platform Shoes",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters",
+        "Kicks"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 600
@@ -12,7 +17,16 @@
           "currency": "bells",
           "value": 2400
         }
-      ]
+      ],
+      "variations": {
+        "pink": "Pink",
+        "black": "Black",
+        "red": "Red",
+        "purple": "Purple",
+        "light-blue": "Light blue",
+        "white": "White",
+        "light-purple": "Light purple"
+      }
     }
   },
   "category": "Shoes"

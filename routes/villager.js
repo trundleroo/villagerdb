@@ -206,6 +206,7 @@ async function loadVillager(id) {
 
     // Images.
     result.image = villager.image;
+    result.serializedImages = JSON.stringify(villager.image);
 
     // Social media information
     result.pageUrl = 'https://villagerdb.com/villager/' + result.id;

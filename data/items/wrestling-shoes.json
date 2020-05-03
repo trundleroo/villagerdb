@@ -3,6 +3,10 @@
   "name": "Wrestling Shoes",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 270
@@ -12,7 +16,15 @@
           "currency": "bells",
           "value": 1080
         }
-      ]
+      ],
+      "variations": {
+        "red": "Red",
+        "blue": "Blue",
+        "green": "Green",
+        "pink": "Pink",
+        "black": "Black",
+        "yellow": "Yellow"
+      }
     }
   },
   "category": "Shoes"

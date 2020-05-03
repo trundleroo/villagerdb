@@ -3,6 +3,7 @@
   "name": "Arcade Seat",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 325
@@ -12,7 +13,12 @@
           "currency": "bells",
           "value": 1300
         }
-      ]
+      ],
+      "variations": {
+        "red": "Red",
+        "gray": "Gray",
+        "blue": "Blue"
+      }
     }
   },
   "category": "Furniture"

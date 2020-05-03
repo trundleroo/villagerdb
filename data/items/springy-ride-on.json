@@ -4,9 +4,27 @@
   "games": {
     "nh": {
       "orderable": false,
+      "sources": [
+        "Nook Miles System"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 10000
+      },
+      "buyPrices": [
+        {
+          "currency": "miles",
+          "value": 2000
+        }
+      ],
+      "variations": {
+        "white": "White",
+        "brown": "Brown",
+        "dark-brown": "Dark brown",
+        "red": "Red",
+        "yellow": "Yellow",
+        "pink": "Pink",
+        "zebra": "Zebra"
       }
     }
   },

@@ -28,6 +28,10 @@
       ]
     },
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 540
@@ -37,7 +41,11 @@
           "currency": "bells",
           "value": 2160
         }
-      ]
+      ],
+      "variations": {
+        "red-necktie": "Red necktie",
+        "black-necktie": "Black necktie"
+      }
     }
   }
 }

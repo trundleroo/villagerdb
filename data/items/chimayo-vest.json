@@ -5,7 +5,6 @@
     "nh": {
       "orderable": true,
       "sources": [
-        "Balloon",
         "Able Sisters"
       ],
       "sellPrice": {
@@ -17,7 +16,13 @@
           "currency": "bells",
           "value": 1120
         }
-      ]
+      ],
+      "variations": {
+        "navy-blue": "Navy blue",
+        "red": "Red",
+        "white": "White",
+        "light-blue": "Light blue"
+      }
     }
   },
   "category": "Tops"

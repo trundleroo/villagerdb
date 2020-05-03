@@ -3,6 +3,10 @@
   "name": "Pleather Mask",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 192
@@ -12,7 +16,10 @@
           "currency": "bells",
           "value": 770
         }
-      ]
+      ],
+      "variations": {
+        "black": "Black"
+      }
     }
   },
   "category": "Accessories"

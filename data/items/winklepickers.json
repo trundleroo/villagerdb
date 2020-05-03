@@ -4,6 +4,9 @@
   "games": {
     "nh": {
       "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 227
@@ -13,7 +16,13 @@
           "currency": "bells",
           "value": 910
         }
-      ]
+      ],
+      "variations": {
+        "red": "Red",
+        "white": "White",
+        "black": "Black",
+        "blue": "Blue"
+      }
     }
   },
   "category": "Shoes"

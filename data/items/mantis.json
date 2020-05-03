@@ -16,7 +16,8 @@
     "nh": {
       "orderable": false,
       "sources": [
-        "On flowers (Mar-Nov)"
+        "North: On flowers, Mar-Nov (8am-5pm)",
+        "South: On flowers, Sep-May (8am-5pm)"
       ],
       "sellPrice": {
         "currency": "bells",

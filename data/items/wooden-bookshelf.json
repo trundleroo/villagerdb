@@ -3,6 +3,7 @@
   "name": "Wooden Bookshelf",
   "games": {
     "nh": {
+      "orderable": false,
       "sellPrice": {
         "currency": "bells",
         "value": 1925
@@ -12,7 +13,17 @@
           "currency": "bells",
           "value": 7700
         }
-      ]
+      ],
+      "recipe": {
+        "book": 5,
+        "wood": 10
+      },
+      "variations": {
+        "light-brown": "Light brown",
+        "brown": "Brown",
+        "dark-brown": "Dark brown",
+        "white": "White"
+      }
     }
   },
   "category": "Furniture"

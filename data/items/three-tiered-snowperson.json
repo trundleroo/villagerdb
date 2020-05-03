@@ -12,7 +12,18 @@
           "currency": "bells",
           "value": 29680
         }
-      ]
+      ],
+      "recipe": {
+        "large-snowflake": 1,
+        "snowflake": 6,
+        "tree-branch": 2
+      },
+      "variations": {
+        "blue": "Blue",
+        "pink": "Pink",
+        "light-blue": "Light blue",
+        "yellow": "Yellow"
+      }
     }
   },
   "category": "Furniture"

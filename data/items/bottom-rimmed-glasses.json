@@ -3,6 +3,10 @@
   "name": "Bottom-rimmed Glasses",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 275
@@ -12,7 +16,16 @@
           "currency": "bells",
           "value": 1100
         }
-      ]
+      ],
+      "variations": {
+        "red": "Red",
+        "purple": "Purple",
+        "green": "Green",
+        "blue": "Blue",
+        "yellow": "Yellow",
+        "pink": "Pink",
+        "black": "Black"
+      }
     }
   },
   "category": "Accessories"

@@ -4,6 +4,9 @@
   "games": {
     "nh": {
       "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 140
@@ -13,7 +16,15 @@
           "currency": "bells",
           "value": 560
         }
-      ]
+      ],
+      "variations": {
+        "red": "Red",
+        "yellow-green": "Yellow-green",
+        "golden-yellow": "Golden yellow",
+        "purple": "Purple",
+        "aqua": "Aqua",
+        "blue": "Blue"
+      }
     }
   },
   "category": "Bottoms"

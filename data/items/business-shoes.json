@@ -3,6 +3,10 @@
   "name": "Business Shoes",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 325
@@ -12,7 +16,11 @@
           "currency": "bells",
           "value": 1300
         }
-      ]
+      ],
+      "variations": {
+        "black": "Black",
+        "brown": "Brown"
+      }
     }
   },
   "category": "Shoes"

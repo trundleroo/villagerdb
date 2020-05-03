@@ -4,6 +4,9 @@
   "games": {
     "nh": {
       "orderable": false,
+      "sources": [
+        "Lost and Found"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 10
@@ -13,7 +16,12 @@
           "currency": "bells",
           "value": 40
         }
-      ]
+      ],
+      "variations": {
+        "gray": "Gray",
+        "black": "Black",
+        "brown": "Brown"
+      }
     }
   },
   "category": "Tops"

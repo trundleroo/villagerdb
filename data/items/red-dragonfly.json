@@ -15,16 +15,14 @@
     },
     "nh": {
       "orderable": false,
+      "sources": [
+        "North: Flying around, Sep-Oct (8am-7pm)",
+        "South: Flying around, Mar-Apr (8am-7pm)"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 180
-      },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 720
-        }
-      ]
+      }
     }
   }
 }

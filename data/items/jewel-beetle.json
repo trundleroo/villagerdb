@@ -15,16 +15,14 @@
     },
     "nh": {
       "orderable": false,
+      "sources": [
+        "North: On stumps, Apr-Aug (All day)",
+        "North: On stumps, Oct-Feb (All day)"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 2400
-      },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 9600
-        }
-      ]
+      }
     }
   }
 }

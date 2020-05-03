@@ -3,6 +3,10 @@
   "name": "Crossbody Boston Bag",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Kicks"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 420
@@ -12,7 +16,11 @@
           "currency": "bells",
           "value": 1680
         }
-      ]
+      ],
+      "variations": {
+        "red": "Red",
+        "blue": "Blue"
+      }
     }
   },
   "category": "Accessories"

@@ -3,6 +3,10 @@
   "name": "Space Parka",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 420
@@ -12,7 +16,11 @@
           "currency": "bells",
           "value": 1680
         }
-      ]
+      ],
+      "variations": {
+        "blue": "Blue",
+        "purple": "Purple"
+      }
     }
   },
   "category": "Tops"

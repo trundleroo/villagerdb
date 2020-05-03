@@ -4,16 +4,14 @@
   "games": {
     "nh": {
       "orderable": false,
+      "sources": [
+        "North: On the ground, Jul-Aug (All day)",
+        "South: On the ground, Jan-Mar (All day)"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 300
-      },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 1200
-        }
-      ]
+      }
     }
   },
   "category": "Bugs"

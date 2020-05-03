@@ -20,6 +20,7 @@
       ]
     },
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 25000
@@ -29,7 +30,11 @@
           "currency": "bells",
           "value": 100000
         }
-      ]
+      ],
+      "variations": {
+        "stacks-of-cash": "Stacks of cash",
+        "gold-bars": "Gold bars"
+      }
     }
   }
 }

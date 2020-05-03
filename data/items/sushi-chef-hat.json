@@ -3,6 +3,10 @@
   "name": "Sushi Chef Hat",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 220
@@ -12,7 +16,11 @@
           "currency": "bells",
           "value": 880
         }
-      ]
+      ],
+      "variations": {
+        "white": "White",
+        "dark-blue": "Dark blue"
+      }
     }
   },
   "category": "Hats"

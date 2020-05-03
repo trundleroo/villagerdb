@@ -15,16 +15,14 @@
     },
     "nh": {
       "orderable": false,
+      "sources": [
+        "North: On stumps, May-Jun and Sep-Nov (All day)",
+        "South: On stumps, Mar-May and Nov-Dec (All day)"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 450
-      },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 1800
-        }
-      ]
+      }
     }
   }
 }

@@ -3,6 +3,10 @@
   "name": "Skateboarding Helmet",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 220
@@ -12,7 +16,14 @@
           "currency": "bells",
           "value": 880
         }
-      ]
+      ],
+      "variations": {
+        "orange": "Orange",
+        "olive": "Olive",
+        "gray": "Gray",
+        "white": "White",
+        "light-blue": "Light blue"
+      }
     }
   },
   "category": "Hats"

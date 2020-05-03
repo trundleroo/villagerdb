@@ -3,6 +3,8 @@
   "name": "Money Flooring",
   "games": {
     "nh": {
+      "orderable": false,
+      "customizable": false,
       "sellPrice": {
         "currency": "bells",
         "value": 25000
@@ -12,7 +14,10 @@
           "currency": "bells",
           "value": 100000
         }
-      ]
+      ],
+      "recipe": {
+        "bells": 50000
+      }
     }
   },
   "category": "Flooring"

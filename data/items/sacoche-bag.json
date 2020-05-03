@@ -3,6 +3,10 @@
   "name": "Sacoche Bag",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Kicks"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 245
@@ -12,7 +16,12 @@
           "currency": "bells",
           "value": 980
         }
-      ]
+      ],
+      "variations": {
+        "blue": "Blue",
+        "red": "Red",
+        "black": "Black"
+      }
     }
   },
   "category": "Accessories"

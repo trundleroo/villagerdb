@@ -3,6 +3,10 @@
   "name": "Pleather Patch Skirt",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 420
@@ -12,7 +16,13 @@
           "currency": "bells",
           "value": 1680
         }
-      ]
+      ],
+      "variations": {
+        "red": "Red",
+        "green": "Green",
+        "purple": "Purple",
+        "orange": "Orange"
+      }
     }
   },
   "category": "Bottoms"

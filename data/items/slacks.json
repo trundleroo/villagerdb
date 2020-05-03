@@ -3,6 +3,10 @@
   "name": "Slacks",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 325
@@ -12,7 +16,16 @@
           "currency": "bells",
           "value": 1300
         }
-      ]
+      ],
+      "variations": {
+        "black": "Black",
+        "gray": "Gray",
+        "blue": "Blue",
+        "red": "Red",
+        "navy-blue": "Navy blue",
+        "beige": "Beige",
+        "white": "White"
+      }
     }
   },
   "category": "Bottoms"

@@ -15,16 +15,14 @@
     },
     "nh": {
       "orderable": false,
+      "sources": [
+        "North: Rolling snowballs on ground, Dec-Feb (All day)",
+        "South: Rolling snowballs on ground, Jun-Aug (All day)"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 3000
-      },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 12000
-        }
-      ]
+      }
     }
   }
 }

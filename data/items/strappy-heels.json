@@ -3,6 +3,10 @@
   "name": "Strappy Heels",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 390
@@ -12,7 +16,17 @@
           "currency": "bells",
           "value": 1560
         }
-      ]
+      ],
+      "variations": {
+        "red": "Red",
+        "blue": "Blue",
+        "gold": "Gold",
+        "silver": "Silver",
+        "black": "Black",
+        "pink": "Pink",
+        "green": "Green",
+        "purple": "Purple"
+      }
     }
   },
   "category": "Shoes"

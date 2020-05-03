@@ -12,7 +12,16 @@
           "currency": "bells",
           "value": 3040
         }
-      ]
+      ],
+      "recipe": {
+        "red-tulips": 5,
+        "softwood": 3
+      },
+      "variations": {
+        "red": "Red",
+        "white": "White",
+        "yellow": "Yellow"
+      }
     }
   },
   "category": "Furniture"

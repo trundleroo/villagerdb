@@ -3,6 +3,7 @@
   "name": "Victorian Dress",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 630
@@ -12,7 +13,15 @@
           "currency": "bells",
           "value": 2520
         }
-      ]
+      ],
+      "variations": {
+        "navy-blue": "Navy blue",
+        "green": "Green",
+        "beige": "Beige",
+        "red": "Red",
+        "blue": "Blue",
+        "orange": "Orange"
+      }
     }
   },
   "category": "Dresses"

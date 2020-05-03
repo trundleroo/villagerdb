@@ -3,6 +3,10 @@
   "name": "Figure-skating Dress",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 720
@@ -12,7 +16,16 @@
           "currency": "bells",
           "value": 2880
         }
-      ]
+      ],
+      "variations": {
+        "blue": "Blue",
+        "red": "Red",
+        "green": "Green",
+        "purple": "Purple",
+        "pink": "Pink",
+        "yellow": "Yellow",
+        "black": "Black"
+      }
     }
   },
   "category": "Dresses"

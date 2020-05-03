@@ -10,6 +10,18 @@ class Items extends RedisStore {
         super(redisConnection, 'items', 'item', path.join('data', 'items'));
     }
 
+    /**
+     * Custom post-processing logic for each item.
+     *
+     * @param item
+     * @returns {{}}
+     * @private
+     */
+    _handleEntity(item) {
+        this.collapseVariations(item);
+        return item;
+    }
+
     async _afterPopulation() {
         // We need all the villager IDs.
         const villagersCount = await villagers.count();
@@ -22,7 +34,6 @@ class Items extends RedisStore {
         for (let item of items) {
             await this.buildOwnersArray(item, villagersList);
             await this.formatRecipe(item);
-            this.collapseVariations(item);
             await this.updateEntity(item.id, item);
         }
     }
@@ -71,10 +82,19 @@ class Items extends RedisStore {
      */
     async formatRecipe(item) {
         if (item.games.nh && item.games.nh.recipe) {
-            item.games.nh.normalRecipe = await this.buildRecipeArrayFromMap(item.games.nh.recipe);
-            item.games.nh.fullRecipe = await this.buildRecipeArrayFromMap(
-                await this.buildFullRecipe(item.games.nh.recipe)
-            );
+            console.log('Formatting recipe for ' + item.id);
+
+            try {
+                item.games.nh.normalRecipe = await this.buildRecipeArrayFromMap(item.games.nh.recipe);
+                item.games.nh.fullRecipe = await this.buildRecipeArrayFromMap(
+                    await this.buildFullRecipe(item.games.nh.recipe)
+                );
+            } catch (e) {
+                console.error('Problem while recipe formatting for item: ' + item.id);
+                console.error(e);
+                throw e; // re-throw
+            }
+
         }
     }
 
@@ -97,7 +117,17 @@ class Items extends RedisStore {
             if (ingredientItem) {
                 name = ingredientItem.name;
                 url = urlHelper.getEntityUrl(urlHelper.ITEM, ingredientItem.id);
+            } else {
+                // This is a serious failure. Cancel indexing.
+                throw new Error('Invalid ingredient id: ' + ingredient);
             }
+
+            // Make sure the map contains a number.
+            if (typeof map[ingredient] !== 'number' || isNaN(map[ingredient])) {
+                // Another serious failure. Stop indexing.
+                throw new Error('Ingredient item ' + ingredient + ' is not a number: ' + map[ingredient]);
+            }
+            
             recipeArray.push({
                 name: name,
                 url: url,
@@ -112,24 +142,28 @@ class Items extends RedisStore {
      * Builds a full recipe list from a map by recursively following the map down until only base items are in the
      * list of items.
      *
-     * @param map
-     * @param outputMap
+     * @param map the original input recipe
+     * @param outputMap the final result computed along the way
+     * @param seenIds ids we've already dived into to prevent re-looping
+     * @param itemMultiplier for non-base-case items, how many are required
      * @returns {Promise<*>}
      */
-    async buildFullRecipe(map, outputMap = {}) {
+    async buildFullRecipe(map, outputMap = {}, seenIds = {}, itemMultiplier = 1) {
         // For every non-base item, call ourselves. For every base item, add it to the output map.
         for (let ingredient of Object.keys(map)) {
             // Is it an ingredient item that has a recipe?
             const ingredientItem = await this.getById(ingredient);
-            if (ingredientItem && ingredientItem.games.nh && ingredientItem.games.nh.recipe) {
-                // Yes. Call ourselves.
-                await this.buildFullRecipe(ingredientItem.games.nh.recipe, outputMap);
+            if (ingredientItem && ingredientItem.games.nh && ingredientItem.games.nh.recipe
+                && !seenIds[ingredient]) {
+                // Yes. Call ourselves after making sure we prevent an infinite loop.
+                seenIds[ingredient] = true; // mark it as seen
+                await this.buildFullRecipe(ingredientItem.games.nh.recipe, outputMap, seenIds, map[ingredient]);
             } else {
                 // No. Base case. Add the numbers up.
                 if (typeof outputMap[ingredient] !== 'undefined') {
-                    outputMap[ingredient] += map[ingredient];
+                    outputMap[ingredient] += map[ingredient] * itemMultiplier;
                 } else {
-                    outputMap[ingredient] = map[ingredient];
+                    outputMap[ingredient] = map[ingredient] * itemMultiplier;
                 }
             }
         }
@@ -144,6 +178,7 @@ class Items extends RedisStore {
      * @param item
      */
     collapseVariations(item) {
+        console.log('Collapsing variations for ' + item.id);
         const variations = {};
         for (let gameId in item.games) {
             const game = item.games[gameId];
@@ -151,7 +186,46 @@ class Items extends RedisStore {
                 Object.assign(variations, game.variations);
             }
         }
-        item.variations = variations;
+
+        // Only allow variations selection if more than one variant exists.
+        if (Object.keys(variations).length < 2) {
+            return;
+        }
+
+        // Sort before assignment.
+        const variationsSorted = {};
+        const keys = Object.keys(variations).sort((a, b) => {
+            if (variations[a] > variations[b]) {
+                return 1;
+            } else if (variations[a] < variations[b]) {
+                return -1;
+            }
+
+            return 0;
+        });
+        for (let k of keys) {
+            variationsSorted[k] = variations[k];
+        }
+
+        // Assign variations.
+        item.variations = variationsSorted;
+
+        // Now let's take a look at variation images.
+        item.variationImages = {};
+        for (let k of keys) {
+            let imageData = urlHelper.getEntityImageData(this.entityType, item.id, k, false);
+            // use base images if no variation image available.
+            if (!imageData.thumb) {
+                imageData.thumb = item.image.thumb;
+            }
+            if (!imageData.medium) {
+                imageData.medium = item.image.medium;
+            }
+            if (!imageData.full) {
+                imageData.full = item.image.full;
+            }
+            item.variationImages[k] = imageData;
+        }
     }
 }
 

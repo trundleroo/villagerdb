@@ -18,7 +18,8 @@
     "nh": {
       "orderable": false,
       "sources": [
-        "Near hybrid flowers (Mar-Jun)"
+        "North: Flying around hybrid flowers, Mar-Jun (4am-7pm)",
+        "South: Flying around hybrid flowers, Sep-Dec (4am-7pm)"
       ],
       "sellPrice": {
         "currency": "bells",

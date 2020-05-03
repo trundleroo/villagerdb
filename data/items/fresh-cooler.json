@@ -3,6 +3,10 @@
   "name": "Fresh Cooler",
   "games": {
     "nh": {
+      "orderable": false,
+      "sources": [
+        "Fishing tournament prize pool (January, April, July, October)"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 450

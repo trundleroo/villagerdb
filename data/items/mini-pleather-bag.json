@@ -3,6 +3,10 @@
   "name": "Mini Pleather Bag",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Kicks"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 400
@@ -12,7 +16,11 @@
           "currency": "bells",
           "value": 1600
         }
-      ]
+      ],
+      "variations": {
+        "white": "White",
+        "black": "Black"
+      }
     }
   },
   "category": "Accessories"

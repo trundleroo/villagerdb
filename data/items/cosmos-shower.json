@@ -12,7 +12,16 @@
           "currency": "bells",
           "value": 12200
         }
-      ]
+      ],
+      "recipe": {
+        "pink-cosmos": 5,
+        "iron-nugget": 3
+      },
+      "variations": {
+        "pink": "Pink",
+        "red": "Red",
+        "white": "White"
+      }
     }
   },
   "category": "Furniture"

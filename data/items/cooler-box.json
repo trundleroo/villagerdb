@@ -7,6 +7,7 @@
       "sources": [
         "Nook's Cranny"
       ],
+      "customizable": false,
       "sellPrice": {
         "currency": "bells",
         "value": 425
@@ -16,7 +17,13 @@
           "currency": "bells",
           "value": 1700
         }
-      ]
+      ],
+      "variations": {
+        "blue": "Blue",
+        "red": "Red",
+        "yellow": "Yellow",
+        "green": "Green"
+      }
     }
   },
   "category": "Furniture"

@@ -12,7 +12,13 @@
           "currency": "bells",
           "value": 10000
         }
-      ]
+      ],
+      "recipe": {
+        "star-fragment": 5
+      },
+      "variations": {
+        "yellow": "Yellow"
+      }
     }
   },
   "category": "Hats"

@@ -17,16 +17,14 @@
     },
     "nh": {
       "orderable": false,
+      "sources": [
+        "North: Flying around lights and lamps outside, All year (7pm-4am)",
+        "South: Flying around lights and lamps outside, All year (7pm-4am)"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 130
-      },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 520
-        }
-      ]
+      }
     }
   }
 }

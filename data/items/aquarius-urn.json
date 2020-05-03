@@ -27,16 +27,20 @@
       ]
     },
     "nh": {
+      "orderable": false,
+      "sources": [
+        "Celeste DIY"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 22125
       },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 88500
-        }
-      ]
+      "recipe": {
+        "star-fragment": 3,
+        "aquarius-fragment": 2,
+        "gold-nugget": 2,
+        "stone": 5
+      }
     }
   }
 }

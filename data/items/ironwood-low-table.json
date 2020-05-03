@@ -3,16 +3,23 @@
   "name": "Ironwood Low Table",
   "games": {
     "nh": {
+      "orderable": false,
+      "customizable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 3720
       },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 14880
-        }
-      ]
+      "recipe": {
+        "wood": 6,
+        "iron-nugget": 4
+      },
+      "variations": {
+        "birch": "Birch",
+        "teak": "Teak",
+        "walnut": "Walnut",
+        "old": "Old",
+        "oak": "Oak"
+      }
     }
   },
   "category": "Furniture"

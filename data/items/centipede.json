@@ -16,7 +16,8 @@
     "nh": {
       "orderable": false,
       "sources": [
-        "Hit rock with shovel or axe (Sept-Jun)"
+        "North: Hit rock with shovel or axe, Sep-Jun (4pm-11pm)",
+        "South: Hit rock with shovel or axe, Mar-Dec (4pm-11pm)"
       ],
       "sellPrice": {
         "currency": "bells",

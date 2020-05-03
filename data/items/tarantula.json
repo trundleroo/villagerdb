@@ -16,7 +16,8 @@
     "nh": {
       "orderable": false,
       "sources": [
-        "Ground at night (Nov-Apr)"
+        "North: On the ground, Nov-Apr (7pm-4am)",
+        "South: On the ground, May-Oct (7pm-4am)"
       ],
       "sellPrice": {
         "currency": "bells",

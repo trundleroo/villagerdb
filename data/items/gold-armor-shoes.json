@@ -37,7 +37,13 @@
           "currency": "bells",
           "value": 160000
         }
-      ]
+      ],
+      "recipe": {
+        "gold-nugget": 4
+      },
+      "variations": {
+        "gold": "Gold"
+      }
     }
   }
 }

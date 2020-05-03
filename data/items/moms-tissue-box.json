@@ -3,6 +3,8 @@
   "name": "Mom's Tissue Box",
   "games": {
     "nh": {
+      "orderable": false,
+      "customizable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 88
@@ -12,7 +14,15 @@
           "currency": "bells",
           "value": 352
         }
-      ]
+      ],
+      "variations": {
+        "quilted-pattern": "Quilted pattern",
+        "flowers": "Flowers",
+        "quilted-animals": "Quilted animals",
+        "fanciful-quilted-pattern": "Fanciful quilted pattern",
+        "fruits": "Fruits",
+        "denim-with-stripes": "Denim with stripes"
+      }
     }
   },
   "category": "Furniture"

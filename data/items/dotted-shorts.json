@@ -3,6 +3,10 @@
   "name": "Dotted Shorts",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 245
@@ -12,7 +16,11 @@
           "currency": "bells",
           "value": 980
         }
-      ]
+      ],
+      "variations": {
+        "black": "Black",
+        "gray": "Gray"
+      }
     }
   },
   "category": "Bottoms"

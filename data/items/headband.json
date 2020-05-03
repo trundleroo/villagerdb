@@ -24,6 +24,10 @@
       ]
     },
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 350
@@ -33,7 +37,13 @@
           "currency": "bells",
           "value": 1400
         }
-      ]
+      ],
+      "variations": {
+        "pink": "Pink",
+        "blue": "Blue",
+        "purple": "Purple",
+        "green": "Green"
+      }
     }
   }
 }

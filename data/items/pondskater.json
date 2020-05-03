@@ -15,16 +15,14 @@
     },
     "nh": {
       "orderable": false,
+      "sources": [
+        "North: Walking on top of rivers and ponds, May-Sep (8am-5pm)",
+        "South: Walking on top of rivers and ponds, Nov-Mar (8am-5pm)"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 130
-      },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 520
-        }
-      ]
+      }
     }
   }
 }

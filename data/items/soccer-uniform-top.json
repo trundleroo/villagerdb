@@ -3,6 +3,10 @@
   "name": "Soccer-uniform Top",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 332
@@ -12,7 +16,17 @@
           "currency": "bells",
           "value": 1330
         }
-      ]
+      ],
+      "variations": {
+        "yellow": "Yellow",
+        "black": "Black",
+        "red": "Red",
+        "blue": "Blue",
+        "light-blue": "Light blue",
+        "green": "Green",
+        "orange": "Orange",
+        "white": "White"
+      }
     }
   },
   "category": "Tops"

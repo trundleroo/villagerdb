@@ -3,6 +3,10 @@
   "name": "Tweed Vest",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 350
@@ -12,7 +16,12 @@
           "currency": "bells",
           "value": 1400
         }
-      ]
+      ],
+      "variations": {
+        "green": "Green",
+        "red": "Red",
+        "navy-blue": "Navy blue"
+      }
     }
   },
   "category": "Tops"

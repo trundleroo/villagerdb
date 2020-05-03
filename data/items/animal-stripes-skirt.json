@@ -4,6 +4,9 @@
   "games": {
     "nh": {
       "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 275
@@ -13,7 +16,11 @@
           "currency": "bells",
           "value": 1100
         }
-      ]
+      ],
+      "variations": {
+        "tiger": "Tiger",
+        "zebra": "Zebra"
+      }
     }
   },
   "category": "Bottoms"

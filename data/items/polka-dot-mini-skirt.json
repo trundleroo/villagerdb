@@ -3,6 +3,10 @@
   "name": "Polka-dot Mini Skirt",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 275
@@ -12,7 +16,13 @@
           "currency": "bells",
           "value": 1100
         }
-      ]
+      ],
+      "variations": {
+        "beige": "Beige",
+        "pink": "Pink",
+        "blue": "Blue",
+        "gray": "Gray"
+      }
     }
   },
   "category": "Bottoms"

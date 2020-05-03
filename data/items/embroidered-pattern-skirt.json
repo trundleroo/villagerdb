@@ -3,6 +3,10 @@
   "name": "Embroidered-pattern Skirt",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 275
@@ -12,7 +16,12 @@
           "currency": "bells",
           "value": 1100
         }
-      ]
+      ],
+      "variations": {
+        "blue": "Blue",
+        "green": "Green",
+        "red": "Red"
+      }
     }
   },
   "category": "Bottoms"

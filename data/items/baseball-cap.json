@@ -3,6 +3,10 @@
   "name": "Baseball Cap",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 210
@@ -12,7 +16,14 @@
           "currency": "bells",
           "value": 840
         }
-      ]
+      ],
+      "variations": {
+        "red": "Red",
+        "navy-blue": "Navy blue",
+        "green": "Green",
+        "orange": "Orange",
+        "yellow": "Yellow"
+      }
     }
   },
   "category": "Hats"

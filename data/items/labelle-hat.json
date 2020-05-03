@@ -3,6 +3,11 @@
   "name": "Labelle Hat",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Label",
+        "Able Sisters after unlocking from Label"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 625
@@ -12,7 +17,15 @@
           "currency": "bells",
           "value": 2500
         }
-      ]
+      ],
+      "variations": {
+        "twilight": "Twilight",
+        "midnight": "Midnight",
+        "passion": "Passion",
+        "ocean": "Ocean",
+        "sunset": "Sunset",
+        "love": "Love"
+      }
     }
   },
   "category": "Hats"

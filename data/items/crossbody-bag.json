@@ -3,6 +3,10 @@
   "name": "Crossbody Bag",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Kicks"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 175
@@ -12,7 +16,13 @@
           "currency": "bells",
           "value": 700
         }
-      ]
+      ],
+      "variations": {
+        "pink": "Pink",
+        "green": "Green",
+        "yellow": "Yellow",
+        "white": "White"
+      }
     }
   },
   "category": "Accessories"

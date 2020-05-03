@@ -4,6 +4,9 @@
   "games": {
     "nh": {
       "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 520
@@ -13,7 +16,13 @@
           "currency": "bells",
           "value": 2080
         }
-      ]
+      ],
+      "variations": {
+        "pink": "Pink",
+        "yellow": "Yellow",
+        "blue": "Blue",
+        "green": "Green"
+      }
     }
   },
   "category": "Dresses"

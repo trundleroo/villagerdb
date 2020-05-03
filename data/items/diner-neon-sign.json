@@ -3,6 +3,7 @@
   "name": "Diner Neon Sign",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 975
@@ -12,7 +13,14 @@
           "currency": "bells",
           "value": 3900
         }
-      ]
+      ],
+      "variations": {
+        "red": "Red",
+        "orange": "Orange",
+        "green": "Green",
+        "purple": "Purple",
+        "blue": "Blue"
+      }
     }
   },
   "category": "Furniture"

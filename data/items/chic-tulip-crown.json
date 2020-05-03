@@ -12,7 +12,15 @@
           "currency": "bells",
           "value": 5760
         }
-      ]
+      ],
+      "recipe": {
+        "purple-tulips": 2,
+        "pink-tulips": 2,
+        "orange-tulips": 1
+      },
+      "variations": {
+        "colorful": "Colorful"
+      }
     }
   },
   "category": "Hats"

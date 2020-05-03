@@ -3,6 +3,10 @@
   "name": "Messenger Bag",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Kicks"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 210
@@ -12,7 +16,12 @@
           "currency": "bells",
           "value": 840
         }
-      ]
+      ],
+      "variations": {
+        "green": "Green",
+        "orange": "Orange",
+        "black": "Black"
+      }
     }
   },
   "category": "Accessories"

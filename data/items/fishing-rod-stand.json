@@ -3,6 +3,11 @@
   "name": "Fishing-rod Stand",
   "games": {
     "nh": {
+      "orderable": false,
+      "sources": [
+        "Fishing tournament prize pool (January, April, July, October)"
+      ],
+      "customizable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 300
@@ -12,7 +17,12 @@
           "currency": "bells",
           "value": 1200
         }
-      ]
+      ],
+      "variations": {
+        "natural": "Natural",
+        "white": "White",
+        "black": "Black"
+      }
     }
   },
   "category": "Furniture"

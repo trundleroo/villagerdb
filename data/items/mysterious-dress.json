@@ -3,6 +3,10 @@
   "name": "Mysterious Dress",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 780
@@ -12,7 +16,12 @@
           "currency": "bells",
           "value": 3120
         }
-      ]
+      ],
+      "variations": {
+        "purple": "Purple",
+        "black": "Black",
+        "red": "Red"
+      }
     }
   },
   "category": "Dresses"

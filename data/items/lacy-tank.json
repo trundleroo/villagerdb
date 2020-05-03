@@ -3,6 +3,10 @@
   "name": "Lacy Tank",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters (Summer)"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 212
@@ -12,7 +16,14 @@
           "currency": "bells",
           "value": 850
         }
-      ]
+      ],
+      "variations": {
+        "white": "White",
+        "pink": "Pink",
+        "yellow": "Yellow",
+        "green": "Green",
+        "purple": "Purple"
+      }
     }
   },
   "category": "Tops"
