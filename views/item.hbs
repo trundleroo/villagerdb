@@ -64,6 +64,13 @@
                     </tr>
                 {{/if}}
 
+                {{#if customizableText}}
+                    <tr>
+                        <td class="bg-light text-dark font-weight-bold align-middle">Customizable?</td>
+                        <td class="align-middle">{{customizableText}}</td>
+                    </tr>
+                {{/if}}
+
                 {{#if hasRecipe }}
                     <tr>
                         <td class="bg-light text-dark font-weight-bold align-middle">Recipe</td>
