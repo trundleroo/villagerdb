@@ -186,7 +186,13 @@ async function loadItem(id) {
     // Ownership data
     result.hasOwnership = typeof item.owners !== 'undefined' && item.owners.length > 0;
     result.owners = item.owners;
-    
+
+    // Dependents data.
+    result.dependents = item.recipeDependents;
+    result.dependentsCount = typeof item.recipeDependents === 'object' ? result.dependents.length : 0;
+    result.hasDependents = result.dependentsCount > 0;
+    result.recipesText = 'recipe' + (result.dependentsCount > 1 ? 's' : '');
+
     // Social media information
     result.pageUrl = 'https://villagerdb.com/item/' + item.id;
     result.pageDescription = result.paragraph;
