@@ -310,7 +310,7 @@ class Items extends RedisStore {
     diyChecks(variations, item) {
         if (item.games.nh.recipe) {
             if (Object.keys(item.games.nh.recipe).length > 0) {
-                variations[consts.isDIY] = 'DIY';
+                variations[consts.isDIY] = 'Recipe'; // text can be anything, impacts frontend display
             }
         }
     }

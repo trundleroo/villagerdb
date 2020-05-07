@@ -135,7 +135,7 @@ export default class DropdownList extends React.Component {
                 // Now show the variations.
                 if (this.state.diySelected) {
                     variationsList.push((
-                        <option key={diyVariationId} value={diyVariationId}>DIY</option>
+                        <option key={diyVariationId} value={diyVariationId}>Recipe</option>
                     ));
                 } else {
                     // Default is none/any
@@ -216,15 +216,16 @@ export default class DropdownList extends React.Component {
         // DIY selector
         let diySelector = null;
         if (this.hasDIY) {
+            const checkboxAlignment = variationsDropdown ? 'text-right' : 'text-center';
             diySelector = (
-                <div className="text-right mt-2 mb-2">
+                <div className={checkboxAlignment + ' mt-2 mb-2'}>
                     <input className="form-check-input" type="checkbox"
                            id={this.props.entityType + '-' + this.props.entityId + '-diy'}
                            onChange={this.toggleDIY}
                            checked={this.state.diySelected} />
                     <label className="form-check-label"
                            htmlFor={this.props.entityType + '-' + this.props.entityId + '-diy'}>
-                        DIY
+                        Recipe
                     </label>
                 </div>
             );
