@@ -3,6 +3,7 @@ const fs = require('fs');
 const RedisStore = require('./redis-store');
 const redisConnection = require('../redis');
 const urlHelper = require('../../helpers/url');
+const consts = require('../../helpers/consts');
 const villagers = require('./villagers');
 
 class Items extends RedisStore {
@@ -309,7 +310,7 @@ class Items extends RedisStore {
     diyChecks(variations, item) {
         if (item.games.nh.recipe) {
             if (Object.keys(item.games.nh.recipe).length > 0) {
-                variations['_isDIY'] = 'DIY';
+                variations[consts.isDIY] = 'DIY';
             }
         }
     }
