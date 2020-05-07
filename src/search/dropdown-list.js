@@ -219,14 +219,16 @@ export default class DropdownList extends React.Component {
             const checkboxAlignment = variationsDropdown ? 'text-right' : 'text-center';
             diySelector = (
                 <div className={checkboxAlignment + ' mt-2 mb-2'}>
-                    <input className="form-check-input" type="checkbox"
-                           id={this.props.entityType + '-' + this.props.entityId + '-diy'}
-                           onChange={this.toggleDIY}
-                           checked={this.state.diySelected} />
-                    <label className="form-check-label"
-                           htmlFor={this.props.entityType + '-' + this.props.entityId + '-diy'}>
-                        Recipe
-                    </label>
+                    <div className="form-check">
+                        <input type="checkbox" className="form-check-input"
+                               id={this.props.entityType + '-' + this.props.entityId + '-diy'}
+                               onChange={this.toggleDIY}
+                               checked={this.state.diySelected} />
+                        <label className="form-check-label"
+                               htmlFor={this.props.entityType + '-' + this.props.entityId + '-diy'}>
+                            Recipe
+                        </label>
+                    </div>
                 </div>
             );
         }
