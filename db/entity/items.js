@@ -255,12 +255,16 @@ class Items extends RedisStore {
         for (let gameId in item.games) {
             const game = item.games[gameId];
             if (typeof game.variations !== 'undefined') {
-                Object.assign(variations, game.variations);
+                if (Object.keys(game.variations).length > 1) {
+                    Object.assign(variations, game.variations);
+                }
             }
         }
 
-        // Only allow variations selection if more than one variant exists.
-        if (Object.keys(variations).length < 2) {
+        // Add DIY variation for items that have a recipe.
+        if (item.games.nh) {
+            this.diyChecks(variations, item)
+        } else {
             return;
         }
 
@@ -297,6 +301,20 @@ class Items extends RedisStore {
                 imageData.full = item.image.full;
             }
             item.variationImages[k] = imageData;
+        }
+    }
+
+    /**
+     * Some checks to ensure we are only adding the _isDIY entry to items with recipes.
+     *
+     * @param variations
+     * @param item
+     */
+    diyChecks(variations, item) {
+        if (item.games.nh.recipe) {
+            if (Object.keys(item.games.nh.recipe).length > 0) {
+                variations['_isDIY'] = 'DIY';
+            }
         }
     }
 }

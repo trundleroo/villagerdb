@@ -5,6 +5,7 @@ const lists = require('../db/entity/lists');
 const villagers = require('../db/entity/villagers');
 const items = require('../db/entity/items');
 const format = require('../helpers/format');
+const consts = require('../helpers/consts');
 
 /**
  * Load user profile.
@@ -152,6 +153,7 @@ function organizeData(listId, entity, type, variationId) {
         entityData.variation = '(' + variationDisplay + ')';
         entityData.deleteUrl += '/' + variationId;
         entityData._sortKey += '-vv-' + variationId;
+        entityData.isDIY = entityData.variationId === consts.isDIY;
 
         // Use variation image if available.
         if (typeof entity.variationImages !== 'undefined' &&
