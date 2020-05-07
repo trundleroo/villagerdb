@@ -255,17 +255,13 @@ class Items extends RedisStore {
         for (let gameId in item.games) {
             const game = item.games[gameId];
             if (typeof game.variations !== 'undefined') {
-                if (Object.keys(game.variations).length > 1) {
-                    Object.assign(variations, game.variations);
-                }
+                Object.assign(variations, game.variations);
             }
         }
 
         // Add DIY variation for items that have a recipe.
         if (item.games.nh) {
             this.diyChecks(variations, item)
-        } else {
-            return;
         }
 
         // Sort before assignment.
