@@ -39,8 +39,6 @@ function deleteHandler(e) {
     let confirmed = true;
     const url = $(e.currentTarget).data('posturl');
     const shouldConfirm = $(e.currentTarget).data('shouldconfirm');
-    console.log(e.currentTarget);
-    console.log(url + ' ; ' + shouldConfirm);
 
     if (shouldConfirm) {
         confirmed = confirm('You are about to delete this list. This cannot be undone!');
