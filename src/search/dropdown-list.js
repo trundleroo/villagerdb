@@ -217,7 +217,7 @@ export default class DropdownList extends React.Component {
         let diySelector = null;
         if (this.hasDIY) {
             diySelector = (
-                <div className="text-right">
+                <div className="text-right mt-2 mb-2">
                     <input className="form-check-input" type="checkbox"
                            id={this.props.entityType + '-' + this.props.entityId + '-diy'}
                            onChange={this.toggleDIY}
