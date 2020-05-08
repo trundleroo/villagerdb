@@ -3,6 +3,7 @@ const fs = require('fs');
 const RedisStore = require('./redis-store');
 const redisConnection = require('../redis');
 const urlHelper = require('../../helpers/url');
+const consts = require('../../helpers/consts');
 const villagers = require('./villagers');
 
 class Items extends RedisStore {
@@ -259,9 +260,9 @@ class Items extends RedisStore {
             }
         }
 
-        // Only allow variations selection if more than one variant exists.
-        if (Object.keys(variations).length < 2) {
-            return;
+        // Add DIY variation for items that have a recipe.
+        if (item.games.nh) {
+            this.diyChecks(variations, item)
         }
 
         // Sort before assignment.
@@ -297,6 +298,20 @@ class Items extends RedisStore {
                 imageData.full = item.image.full;
             }
             item.variationImages[k] = imageData;
+        }
+    }
+
+    /**
+     * Some checks to ensure we are only adding the _isDIY entry to items with recipes.
+     *
+     * @param variations
+     * @param item
+     */
+    diyChecks(variations, item) {
+        if (item.games.nh.recipe) {
+            if (Object.keys(item.games.nh.recipe).length > 0) {
+                variations[consts.isDIY] = 'Recipe'; // text can be anything, impacts frontend display
+            }
         }
     }
 }
