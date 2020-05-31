@@ -26,7 +26,12 @@
           "currency": "bells",
           "value": 4000
         }
-      ]
+      ],
+      "variations": {
+        "cute": "Cute",
+        "chic": "Chic",
+        "garden": "Garden"
+      }
     }
   }
 }
