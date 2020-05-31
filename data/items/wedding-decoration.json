@@ -12,7 +12,12 @@
           "currency": "bells",
           "value": 1000
         }
-      ]
+      ],
+      "variations": {
+        "cute": "Cute",
+        "chic": "Chic",
+        "garden": "Garden"
+      }
     }
   },
   "category": "Furniture"

@@ -1,19 +1,19 @@
 {
-  "id": "white-wedding-pumps",
-  "name": "White Wedding Pumps",
+  "id": "wedding-tuxedo",
+  "name": "Wedding Tuxedo",
   "games": {
     "nh": {
       "sellPrice": {
         "currency": "bells",
-        "value": 750
+        "value": 3000
       },
       "buyPrices": [
         {
           "currency": "bells",
-          "value": 3000
+          "value": 12000
         }
       ]
     }
   },
-  "category": "Shoes"
+  "category": "Dresses"
 }
