@@ -100,7 +100,7 @@ class Lists {
     }
 
     /**
-     * Add an entire
+     * Add an entire set of entities to a list.
      *
      * @param id
      * @param listId
@@ -112,12 +112,11 @@ class Lists {
         let itemArray = [];
 
         for (let entity in items) {
-            const item = {
+            itemArray.push({
                 id: entity,
                 variationId: null,
                 type: "item"
-            }
-            itemArray.push(item);
+            });
         }
 
         return villagerDb.collection('users')
