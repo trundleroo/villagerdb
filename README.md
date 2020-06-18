@@ -35,7 +35,9 @@ All code as part of this application is licensed under GPLv3.
 However, all JSON under the `data` folder is public domain.
 
 ## Contributing
-Find bugs or want a feature? Submit a ticket and we will
-investigate as time permits. Alternatively, send us a pull
-request and we will discuss it with you. We look forward to
-your help with this large project!
+Find bugs or want a feature? Submit a ticket, and we will
+investigate as time permits. If you are interested in developing
+please check out our 
+[Contributing Wiki](https://github.com/jefflomacy/villagerdb/wiki/Contributing).
+You can also join our [Discord Server](https://discordapp.com/invite/n4527pm) for help
+and support getting your development environment set up.

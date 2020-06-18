@@ -100,6 +100,38 @@ class Lists {
     }
 
     /**
+     * Add an entire set of entities to a list.
+     *
+     * @param id
+     * @param listId
+     * @param items
+     * @returns {Promise<Promise|OrderedBulkOperation|UnorderedBulkOperation>}
+     */
+    async importItemsToList(id, listId, items) {
+        const villagerDb = await this.db.get();
+        let itemArray = [];
+
+        for (let entity in items) {
+            itemArray.push({
+                id: entity,
+                variationId: null,
+                type: "item"
+            });
+        }
+
+        return villagerDb.collection('users')
+            .updateOne({
+                    _id: id,
+                    "lists.id": listId
+                },
+                {
+                    $set: {
+                        "lists.$.entities": itemArray
+                    }
+                });
+    }
+
+    /**
      * Remove an entity from an existing list.
      *
      * @param id

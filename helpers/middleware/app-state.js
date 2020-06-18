@@ -17,6 +17,7 @@ module.exports = (req, res, next) => {
         res.locals.revUrl = process.env.REV_URL;
         res.locals.revTag1 = process.env.REV_TAG_1;
         res.locals.revTag2 = process.env.REV_TAG_2;
+        res.locals.revTag3 = process.env.REV_TAG_3;
     }
 
     // User state storage.
