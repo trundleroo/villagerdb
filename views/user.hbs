@@ -10,14 +10,20 @@
 
 {{#if isOwnUser}}
     <div class="text-right mb-3">
-        <a href="/list/create">
-            <span class="fas fa-plus"></span>
-            Create a new list
-        </a>
-        <a style="padding-left: 3px" href="/list/import">
-            <span class="fas fa-upload"></span>
-            Import a list
-        </a>
+        <ul class="list-unstyled">
+            <li>
+                <a href="/list/create">
+                    <span class="fas fa-plus"></span>
+                    Create a new list
+                </a>
+            </li>
+            <li>
+                <a style="padding-left: 3px" href="/list/import">
+                    <span class="fas fa-upload"></span>
+                    Import with CatalogScanner
+                </a>
+            </li>
+        </ul>
     </div>
 {{/if}}
 
