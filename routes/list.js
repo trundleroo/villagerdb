@@ -213,6 +213,12 @@ router.get('/import', (req, res, next) => {
     data.listNameLength = maxListNameLength;
     delete req.session.errors;
 
+    // Render pre-defined url if it behaves known alphabet
+    const predefinedUrl = req.query.cs;
+    if (predefinedUrl && /^[A-Za-z0-9]+$/.test(predefinedUrl)) {
+        data.predefinedUrl = predefinedUrl;
+    }
+
     if (res.locals.userState.isRegistered) {
         res.render('import-list', data);
     } else {
@@ -238,11 +244,18 @@ router.post('/import',
         return;
     }
 
+    // Build failure redirect URL - may be different if we need append ?cs=
+    let failureRedirect = '/list/import';
+    const predefinedUrl = req.query.cs;
+    if (predefinedUrl && /^[A-Za-z0-9]+$/.test(predefinedUrl)) {
+        failureRedirect += '?cs=' + predefinedUrl;
+    }
+
     // Check for errors.
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
         req.session.errors = errors.array();
-        res.redirect('/list/import');
+        res.redirect(failureRedirect);
     } else {
         const listName = req.body['list-name'];
         const url = req.body['list-url']
@@ -259,7 +272,7 @@ router.post('/import',
         } else {
             // Bad things... doesn't match up for some reason.
             req.session.errors = ['URL was incorrect. Please paste the URL given by the CatalogScanner bot.']
-            res.redirect('/list/import');
+            res.redirect('/list/import'); // not going to use failureUrl because this just shouldn't happen...
         }
     }
 });
