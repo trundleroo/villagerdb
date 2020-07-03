@@ -1,0 +1,16 @@
+{
+  "id": "pirate-wall",
+  "name": "Pirate Wall",
+  "games": {
+    "nh": {
+      "sources": [
+        "Pirate Gulliver"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 750
+      }
+    }
+  },
+  "category": "Wallpaper"
+}

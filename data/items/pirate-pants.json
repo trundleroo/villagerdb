@@ -1,0 +1,16 @@
+{
+  "id": "pirate-pants",
+  "name": "Pirate Pants",
+  "games": {
+    "nh": {
+      "sources": [
+        "Pirate Gulliver"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 800
+      }
+    }
+  },
+  "category": "Bottoms"
+}

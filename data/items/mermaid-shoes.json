@@ -6,6 +6,10 @@
       "sellPrice": {
         "currency": "bells",
         "value": 450
+      },
+      "variations": {
+        "pink": "Pink",
+        "light-blue": "Light Blue"
       }
     }
   },
