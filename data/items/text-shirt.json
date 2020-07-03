@@ -3,6 +3,7 @@
   "name": "Text Shirt",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 200

@@ -1,0 +1,16 @@
+{
+  "id": "pirate-flooring",
+  "name": "Pirate Flooring",
+  "games": {
+    "nh": {
+      "sources": [
+        "Pirate Gulliver"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 750
+      }
+    }
+  },
+  "category": "Flooring"
+}

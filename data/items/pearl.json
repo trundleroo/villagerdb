@@ -1,0 +1,16 @@
+{
+  "id": "pearl",
+  "name": "Pearl",
+  "games": {
+    "nh": {
+      "sources": [
+        "Diving"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10000
+      }
+    }
+  },
+  "category": "Usables"
+}

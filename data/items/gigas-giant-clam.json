@@ -1,0 +1,17 @@
+{
+  "id": "gigas-giant-clam",
+  "name": "Gigas Giant Clam",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Diving"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 15000
+      }
+    }
+  },
+  "category": "Sea Creatures"
+}

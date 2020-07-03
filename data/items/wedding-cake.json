@@ -17,16 +17,15 @@
       ]
     },
     "nh": {
+      "orderable": false,
+      "sources": [
+        "Cyrus after 4th photo shoot during Wedding Season event (June)"
+      ],
+      "customizable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 1000
       },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 4000
-        }
-      ],
       "variations": {
         "cute": "Cute",
         "chic": "Chic",

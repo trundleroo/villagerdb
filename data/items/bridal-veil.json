@@ -27,16 +27,14 @@
       ]
     },
     "nh": {
+      "orderable": false,
+      "sources": [
+        "Cyrus after 7th photo shoot during Wedding Season event (June)"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 1150
-      },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 4600
-        }
-      ]
+      }
     }
   }
 }

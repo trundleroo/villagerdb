@@ -3,6 +3,7 @@
   "name": "Compression Tights",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 150

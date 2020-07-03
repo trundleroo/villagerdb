@@ -3,16 +3,15 @@
   "name": "Toy Cockroach",
   "games": {
     "nh": {
+      "orderable": false,
+      "sources": [
+        "Bug-Off"
+      ],
+      "customizable": false,
       "sellPrice": {
         "currency": "bells",
         "value": 70
-      },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 280
-        }
-      ]
+      }
     }
   },
   "category": "Furniture"

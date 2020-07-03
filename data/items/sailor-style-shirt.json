@@ -3,6 +3,7 @@
   "name": "Sailor-style Shirt",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 262

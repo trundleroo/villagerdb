@@ -3,6 +3,10 @@
   "name": "Thank-you Mom Mug",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Shopping (seasonally available during May)"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 150

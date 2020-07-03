@@ -1,0 +1,17 @@
+{
+  "id": "whelk",
+  "name": "Whelk",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Diving"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1000
+      }
+    }
+  },
+  "category": "Sea Creatures"
+}

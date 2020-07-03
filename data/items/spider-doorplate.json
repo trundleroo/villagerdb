@@ -3,16 +3,15 @@
   "name": "Spider Doorplate",
   "games": {
     "nh": {
+      "orderable": false,
+      "sources": [
+        "Bug-Off"
+      ],
+      "customizable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 90
       },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 360
-        }
-      ],
       "variations": {
         "black": "Black",
         "yellow": "Yellow",

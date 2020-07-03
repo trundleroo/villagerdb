@@ -3,6 +3,7 @@
   "name": "Rover's Briefcase",
   "games": {
     "nh": {
+      "orderable": false,
       "sources": [
         "Complete May Day tour maze"
       ],

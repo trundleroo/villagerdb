@@ -1,0 +1,17 @@
+{
+  "id": "slate-pencil-urchin",
+  "name": "Slate Pencil Urchin",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Diving"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2000
+      }
+    }
+  },
+  "category": "Sea Creatures"
+}

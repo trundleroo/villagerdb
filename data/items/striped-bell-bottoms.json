@@ -3,6 +3,7 @@
   "name": "Striped Bell-bottoms",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 330

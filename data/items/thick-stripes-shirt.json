@@ -3,6 +3,7 @@
   "name": "Thick-stripes Shirt",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 280

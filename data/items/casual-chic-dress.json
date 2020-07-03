@@ -3,6 +3,10 @@
   "name": "Casual Chic Dress",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 600

@@ -22,6 +22,7 @@
       "sources": [
         "Nook Miles System"
       ],
+      "customizable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 10000

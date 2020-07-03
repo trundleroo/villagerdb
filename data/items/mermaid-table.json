@@ -22,6 +22,16 @@
           "value": 40
         }
       ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10480
+      },
+      "recipe": {
+        "pearl": 1,
+        "sand-dollar": 4
+      }
     }
   }
 }

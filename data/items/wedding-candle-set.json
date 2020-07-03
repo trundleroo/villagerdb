@@ -3,16 +3,15 @@
   "name": "Wedding Candle Set",
   "games": {
     "nh": {
+      "orderable": false,
+      "sources": [
+        "Cyrus after 3rd photo shoot during Wedding Season event (June)"
+      ],
+      "customizable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 300
       },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 1200
-        }
-      ],
       "variations": {
         "cute": "Cute",
         "chic": "Chic",

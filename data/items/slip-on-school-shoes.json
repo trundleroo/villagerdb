@@ -3,6 +3,10 @@
   "name": "Slip-on School Shoes",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Kicks"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 87

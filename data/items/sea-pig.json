@@ -1,0 +1,17 @@
+{
+  "id": "sea-pig",
+  "name": "Sea Pig",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Diving"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10000
+      }
+    }
+  },
+  "category": "Sea Creatures"
+}

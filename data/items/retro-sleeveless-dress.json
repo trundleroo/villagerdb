@@ -3,6 +3,7 @@
   "name": "Retro Sleeveless Dress",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 400

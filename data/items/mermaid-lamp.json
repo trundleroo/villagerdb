@@ -22,6 +22,18 @@
           "value": 40
         }
       ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 13850
+      },
+      "recipe": {
+        "pearl": 1,
+        "conch": 3,
+        "coral": 2,
+        "iron-nugget": 2
+      }
     }
   }
 }

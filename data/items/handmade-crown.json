@@ -3,6 +3,10 @@
   "name": "Handmade Crown",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Shopping (seasonally available during June)"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 75

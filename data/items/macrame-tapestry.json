@@ -3,6 +3,7 @@
   "name": "Macrame Tapestry",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 210

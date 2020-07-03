@@ -1,0 +1,17 @@
+{
+  "id": "moon-jellyfish",
+  "name": "Moon Jellyfish",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Diving"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 600
+      }
+    }
+  },
+  "category": "Sea Creatures"
+}

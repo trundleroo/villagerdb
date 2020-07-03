@@ -3,6 +3,7 @@
   "name": "Old Commoner's Kimono",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 480

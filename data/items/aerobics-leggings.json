@@ -3,6 +3,10 @@
   "name": "Aerobics Leggings",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Kicks"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 175

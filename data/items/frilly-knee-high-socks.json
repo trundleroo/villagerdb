@@ -3,6 +3,7 @@
   "name": "Frilly Knee-high Socks",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 210

@@ -3,6 +3,10 @@
   "name": "Sequin Leggings",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Kicks"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 235

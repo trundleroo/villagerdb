@@ -3,16 +3,14 @@
   "name": "Wedding Fence",
   "games": {
     "nh": {
+      "orderable": false,
+      "sources": [
+        "Recipe obtained from Harvey before 7th photo shoot during Wedding Season event (June)"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 411
       },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 1644
-        }
-      ],
       "recipe": {
         "iron-nugget": 5,
         "softwood": 3

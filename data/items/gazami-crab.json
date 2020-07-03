@@ -1,0 +1,17 @@
+{
+  "id": "gazami-crab",
+  "name": "Gazami Crab",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Diving"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2200
+      }
+    }
+  },
+  "category": "Sea Creatures"
+}

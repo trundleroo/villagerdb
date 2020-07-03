@@ -3,6 +3,10 @@
   "name": "Caterpillar Costume",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 425

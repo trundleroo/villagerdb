@@ -3,6 +3,7 @@
   "name": "Black Botanical-tile Wall",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 310

@@ -3,6 +3,7 @@
   "name": "Yellow Blocks Rug",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 375

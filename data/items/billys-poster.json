@@ -3,6 +3,7 @@
   "name": "Billy's Poster",
   "games": {
     "nh": {
+      "orderable": true,
       "sources": [
         "Nook Shopping after using Amiibo on Harvey's Island"
       ],

@@ -3,16 +3,15 @@
   "name": "Spider Web",
   "games": {
     "nh": {
+      "orderable": false,
+      "sources": [
+        "Bug-Off"
+      ],
+      "customizable": false,
       "sellPrice": {
         "currency": "bells",
         "value": 25
-      },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 100
-        }
-      ]
+      }
     }
   },
   "category": "Furniture"

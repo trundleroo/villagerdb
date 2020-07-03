@@ -1,0 +1,17 @@
+{
+  "id": "mermaid-shoes",
+  "name": "Mermaid Shoes",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 450
+      },
+      "variations": {
+        "pink": "Pink",
+        "light-blue": "Light Blue"
+      }
+    }
+  },
+  "category": "Shoes"
+}

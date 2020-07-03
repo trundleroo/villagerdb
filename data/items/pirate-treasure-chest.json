@@ -1,0 +1,16 @@
+{
+  "id": "pirate-treasure-chest",
+  "name": "Pirate-treasure Chest",
+  "games": {
+    "nh": {
+      "sources": [
+        "Pirate Gulliver"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 20000
+      }
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "horizontal-striped-wet-suit-",
+  "name": "Horizontal-striped Wet Suit ",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 750
+      },
+      "variations": {
+        "red": "Red",
+        "blue": "Blue",
+        "yellow": "Yellow",
+        "black": "Black"
+      }
+    }
+  },
+  "category": "Dresses"
+}

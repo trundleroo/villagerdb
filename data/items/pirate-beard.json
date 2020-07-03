@@ -1,0 +1,16 @@
+{
+  "id": "pirate-beard",
+  "name": "Pirate Beard",
+  "games": {
+    "nh": {
+      "sources": [
+        "Pirate Gulliver"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 245
+      }
+    }
+  },
+  "category": "Accessories"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "nook-inc-snorkel",
+  "name": "Nook Inc. Snorkel",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2500
+      }
+    }
+  },
+  "category": "Accessories"
+}

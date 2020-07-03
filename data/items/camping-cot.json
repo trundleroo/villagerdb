@@ -8,6 +8,7 @@
         "Nook's Cranny",
         "Tom Nook on your first day"
       ],
+      "customizable": false,
       "sellPrice": {
         "currency": "bells",
         "value": 450

@@ -3,20 +3,22 @@
   "name": "Wedding Welcome Board",
   "games": {
     "nh": {
+      "orderable": false,
+      "sources": [
+        "Cyrus after 5th photo shoot during Wedding Season event (June)"
+      ],
+      "customizable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 375
       },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 1500
-        }
-      ],
       "variations": {
-        "cute": "Cute",
-        "chic": "Chic",
-        "garden": "Garden"
+        "cute-message": "Cute / Message",
+        "cute-reese-cyrus": "Cute / Reese & Cyrus",
+        "chic-message": "Chic / Message",
+        "chic-reese-cyrus": "Chic / Reese & Cyrus",
+        "garden-message": "Garden / Message",
+        "garden-reese-cyrus": "Garden / Reese & Cyrus"
       }
     }
   },

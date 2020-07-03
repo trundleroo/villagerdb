@@ -3,6 +3,7 @@
   "name": "Flashy Cardigan",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 300

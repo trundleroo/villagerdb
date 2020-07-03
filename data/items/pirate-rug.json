@@ -1,0 +1,16 @@
+{
+  "id": "pirate-rug",
+  "name": "Pirate Rug",
+  "games": {
+    "nh": {
+      "sources": [
+        "Pirate Gulliver"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 375
+      }
+    }
+  },
+  "category": "Flooring"
+}

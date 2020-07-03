@@ -3,16 +3,14 @@
   "name": "Wedding-party Wall",
   "games": {
     "nh": {
+      "orderable": false,
+      "sources": [
+        "Cyrus after 2nd photo shoot during Wedding Season event (June)"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 437
-      },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 1750
-        }
-      ]
+      }
     }
   },
   "category": "Wallpaper"

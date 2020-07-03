@@ -3,16 +3,15 @@
   "name": "Reese & Cyrus Photo Plate",
   "games": {
     "nh": {
+      "orderable": false,
+      "sources": [
+        "Obtained from Reese after 6th photo shoot during Wedding Season event (June)"
+      ],
+      "customizable": false,
       "sellPrice": {
         "currency": "bells",
         "value": 100
-      },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 400
-        }
-      ]
+      }
     }
   },
   "category": "Furniture"

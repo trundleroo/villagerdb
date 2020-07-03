@@ -3,16 +3,15 @@
   "name": "Artisanal Bug Cage",
   "games": {
     "nh": {
+      "orderable": false,
+      "sources": [
+        "Bug-Off"
+      ],
+      "customizable": false,
       "sellPrice": {
         "currency": "bells",
         "value": 450
-      },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 1800
-        }
-      ]
+      }
     }
   },
   "category": "Furniture"

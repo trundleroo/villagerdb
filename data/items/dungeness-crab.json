@@ -1,0 +1,17 @@
+{
+  "id": "dungeness-crab",
+  "name": "Dungeness Crab",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Diving"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1900
+      }
+    }
+  },
+  "category": "Sea Creatures"
+}

@@ -3,6 +3,10 @@
   "name": "Beige Winter-solstice Sweater",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Shopping (seasonally available from June 7th to July 6th)"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 300

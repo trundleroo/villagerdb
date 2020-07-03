@@ -1,0 +1,17 @@
+{
+  "id": "umbrella-octopus",
+  "name": "Umbrella Octopus",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Diving"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 6000
+      }
+    }
+  },
+  "category": "Sea Creatures"
+}

@@ -3,16 +3,14 @@
   "name": "Wedding Wand",
   "games": {
     "nh": {
+      "orderable": false,
+      "sources": [
+        "Recipe obtained from Cyrus after 7th photo shoot during Wedding Season event (June)"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 3500
       },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 14000
-        }
-      ],
       "recipe": {
         "wedding-flower-stand": 1,
         "star-fragment": 3

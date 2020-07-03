@@ -3,16 +3,14 @@
   "name": "Blue Wedding Rug",
   "games": {
     "nh": {
+      "orderable": false,
+      "sources": [
+        "Cyrus after 1st photo shoot during Wedding Season event (June)"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 375
-      },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 1500
-        }
-      ]
+      }
     }
   },
   "category": "Flooring"

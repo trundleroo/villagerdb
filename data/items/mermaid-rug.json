@@ -1,0 +1,17 @@
+{
+  "id": "mermaid-rug",
+  "name": "Mermaid Rug",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10360
+      },
+      "recipe": {
+        "pearl": 1,
+        "sand-dollar": 3
+      }
+    }
+  },
+  "category": "Flooring"
+}

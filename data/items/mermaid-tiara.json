@@ -1,0 +1,13 @@
+{
+  "id": "mermaid-tiara",
+  "name": "Mermaid Tiara",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1250
+      }
+    }
+  },
+  "category": "Hats"
+}

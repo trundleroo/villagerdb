@@ -1,0 +1,16 @@
+{
+  "id": "pirate-ship-cannon",
+  "name": "Pirate-ship Cannon",
+  "games": {
+    "nh": {
+      "sources": [
+        "Pirate Gulliver"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 455
+      }
+    }
+  },
+  "category": "Furniture"
+}

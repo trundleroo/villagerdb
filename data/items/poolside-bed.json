@@ -4,6 +4,10 @@
   "games": {
     "nh": {
       "orderable": true,
+      "sources": [
+        "Redd"
+      ],
+      "customizable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 850

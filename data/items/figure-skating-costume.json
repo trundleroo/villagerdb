@@ -3,6 +3,7 @@
   "name": "Figure-skating Costume",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 720

@@ -1,0 +1,16 @@
+{
+  "id": "pirate-treasure-robe",
+  "name": "Pirate-treasure Robe",
+  "games": {
+    "nh": {
+      "sources": [
+        "Pirate Gulliver"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3000
+      }
+    }
+  },
+  "category": "Dresses"
+}

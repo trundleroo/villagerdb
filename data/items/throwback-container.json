@@ -3,6 +3,7 @@
   "name": "Throwback Container",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 500

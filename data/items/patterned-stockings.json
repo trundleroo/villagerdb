@@ -3,6 +3,7 @@
   "name": "Patterned Stockings",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 235

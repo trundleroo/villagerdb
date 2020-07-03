@@ -3,16 +3,15 @@
   "name": "Ladybug Umbrella",
   "games": {
     "nh": {
+      "orderable": false,
+      "sources": [
+        "Bug-Off"
+      ],
+      "customizable": false,
       "sellPrice": {
         "currency": "bells",
         "value": 80
-      },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 320
-        }
-      ]
+      }
     }
   },
   "category": "Umbrellas"
