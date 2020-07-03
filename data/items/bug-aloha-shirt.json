@@ -3,6 +3,10 @@
   "name": "Bug Aloha Shirt",
   "games": {
     "nh": {
+      "orderable": false,
+      "sources": [
+        "Bug-Off"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 240

@@ -3,6 +3,10 @@
   "name": "Traditional Flower Shoes",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Kicks"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 450

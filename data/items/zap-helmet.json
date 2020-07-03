@@ -3,6 +3,7 @@
   "name": "Zap Helmet",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 400

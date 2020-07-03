@@ -1,0 +1,18 @@
+{
+  "id": "mermaid-flooring",
+  "name": "Mermaid Flooring",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 20975
+      },
+      "recipe": {
+        "pearl": 2,
+        "sand-dollar": 5,
+        "stone": 5
+      }
+    }
+  },
+  "category": "Flooring"
+}

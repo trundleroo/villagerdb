@@ -1,0 +1,21 @@
+{
+  "id": "pirate-dress",
+  "name": "Pirate Dress",
+  "games": {
+    "nh": {
+      "sources": [
+        "Pirate Gulliver"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 750
+      },
+      "variations": {
+        "red": "Red",
+        "blue": "Blue",
+        "black": "Black"
+      }
+    }
+  },
+  "category": "Dresses"
+}

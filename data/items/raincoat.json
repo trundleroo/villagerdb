@@ -3,6 +3,7 @@
   "name": "Raincoat",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 320

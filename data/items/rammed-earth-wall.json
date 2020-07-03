@@ -3,6 +3,10 @@
   "name": "Rammed-earth Wall",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 450

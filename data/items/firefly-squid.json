@@ -1,0 +1,17 @@
+{
+  "id": "firefly-squid",
+  "name": "Firefly Squid",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Diving"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1400
+      }
+    }
+  },
+  "category": "Sea Creatures"
+}

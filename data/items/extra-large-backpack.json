@@ -3,6 +3,10 @@
   "name": "Extra-large Backpack",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Kicks"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 525

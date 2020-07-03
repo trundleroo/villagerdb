@@ -3,16 +3,15 @@
   "name": "Toy Centipede",
   "games": {
     "nh": {
+      "orderable": false,
+      "sources": [
+        "Bug-Off"
+      ],
+      "customizable": false,
       "sellPrice": {
         "currency": "bells",
         "value": 50
-      },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 200
-        }
-      ]
+      }
     }
   },
   "category": "Furniture"

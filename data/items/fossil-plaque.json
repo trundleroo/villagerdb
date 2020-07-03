@@ -3,16 +3,15 @@
   "name": "Fossil Plaque",
   "games": {
     "nh": {
+      "orderable": false,
+      "sources": [
+        "Obtained from Blathers after completing Fossil Stamp Rally during International Museum Day event (May)"
+      ],
+      "customizable": false,
       "sellPrice": {
         "currency": "bells",
         "value": 300
-      },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 1200
-        }
-      ]
+      }
     }
   },
   "category": "Furniture"

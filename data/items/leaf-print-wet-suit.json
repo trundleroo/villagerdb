@@ -1,0 +1,18 @@
+{
+  "id": "leaf-print-wet-suit",
+  "name": "Leaf-print Wet Suit",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 750
+      },
+      "variations": {
+        "light-blue": "Light Blue",
+        "purple": "Purple",
+        "yellow": "Yellow"
+      }
+    }
+  },
+  "category": "Dresses"
+}

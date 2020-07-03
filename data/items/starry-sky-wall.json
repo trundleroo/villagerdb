@@ -3,6 +3,9 @@
   "name": "Starry-sky Wall",
   "games": {
     "nh": {
+      "sources": [
+        "Celeste"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 7500

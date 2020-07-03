@@ -3,6 +3,7 @@
   "name": "Throwback Race-car Bed",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 950

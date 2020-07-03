@@ -3,6 +3,7 @@
   "name": "Parka Undercoat",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 580

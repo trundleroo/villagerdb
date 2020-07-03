@@ -1,0 +1,21 @@
+{
+  "id": "pirate-bandanna-",
+  "name": "Pirate Bandanna ",
+  "games": {
+    "nh": {
+      "sources": [
+        "Pirate Gulliver"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      },
+      "variations": {
+        "red": "Red",
+        "blue": "Blue",
+        "black": "Black"
+      }
+    }
+  },
+  "category": "Hats"
+}

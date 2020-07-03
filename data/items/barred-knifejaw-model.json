@@ -7,6 +7,7 @@
       "sources": [
         "CJ"
       ],
+      "customizable": false,
       "sellPrice": {
         "currency": "bells",
         "value": 15000

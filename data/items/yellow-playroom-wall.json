@@ -3,6 +3,7 @@
   "name": "Yellow Playroom Wall",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 635

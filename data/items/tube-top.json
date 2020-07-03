@@ -3,6 +3,7 @@
   "name": "Tube Top",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 160

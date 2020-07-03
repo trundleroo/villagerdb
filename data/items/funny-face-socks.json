@@ -3,6 +3,10 @@
   "name": "Funny-face Socks",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Kicks"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 150

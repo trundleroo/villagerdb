@@ -27,6 +27,15 @@
           "value": 15
         }
       ]
+    },
+    "nh": {
+      "sources": [
+        "Pirate Gulliver"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 860
+      }
     }
   }
 }

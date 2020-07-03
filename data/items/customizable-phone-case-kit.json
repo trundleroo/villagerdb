@@ -3,14 +3,17 @@
   "name": "Customizable Phone Case Kit",
   "games": {
     "nh": {
+      "sources": [
+        "Nook Miles System"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 9000
       },
       "buyPrices": [
         {
-          "currency": "bells",
-          "value": 36000
+          "currency": "miles",
+          "value": 1800
         }
       ]
     }

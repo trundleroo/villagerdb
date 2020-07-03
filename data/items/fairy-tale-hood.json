@@ -3,6 +3,7 @@
   "name": "Fairy-tale Hood",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 390

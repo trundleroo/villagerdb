@@ -3,6 +3,10 @@
   "name": "Down Ski Jacket",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters (Winter)"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 420

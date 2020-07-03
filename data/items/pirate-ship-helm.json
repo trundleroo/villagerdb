@@ -1,0 +1,16 @@
+{
+  "id": "pirate-ship-helm",
+  "name": "Pirate-ship Helm",
+  "games": {
+    "nh": {
+      "sources": [
+        "Pirate Gulliver"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 280
+      }
+    }
+  },
+  "category": "Furniture"
+}

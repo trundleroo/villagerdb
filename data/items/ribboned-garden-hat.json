@@ -3,6 +3,7 @@
   "name": "Ribboned Garden Hat",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 175

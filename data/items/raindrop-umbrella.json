@@ -3,6 +3,7 @@
   "name": "Raindrop Umbrella",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 187

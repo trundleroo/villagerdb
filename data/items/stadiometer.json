@@ -25,6 +25,10 @@
     },
     "nh": {
       "orderable": true,
+      "sources": [
+        "Redd"
+      ],
+      "customizable": false,
       "sellPrice": {
         "currency": "bells",
         "value": 525

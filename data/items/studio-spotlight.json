@@ -5,8 +5,10 @@
     "nh": {
       "orderable": true,
       "sources": [
-        "Nook shopping"
+        "Nook shopping",
+        "Nook's Cranny"
       ],
+      "customizable": false,
       "sellPrice": {
         "currency": "bells",
         "value": 525

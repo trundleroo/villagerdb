@@ -1,0 +1,17 @@
+{
+  "id": "mussel",
+  "name": "Mussel",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Diving"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1500
+      }
+    }
+  },
+  "category": "Sea Creatures"
+}

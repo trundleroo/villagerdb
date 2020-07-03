@@ -1,7 +1,7 @@
 {
   "id": "spiny-lobster",
   "name": "Spiny Lobster",
-  "category": "Fish",
+  "category": "Sea Creatures",
   "games": {
     "nl": {
       "orderable": false,
@@ -12,6 +12,16 @@
       "sources": [
         "In the deep sea."
       ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Diving"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 5000
+      }
     }
   }
 }

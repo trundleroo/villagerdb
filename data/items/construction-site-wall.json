@@ -3,6 +3,11 @@
   "name": "Construction-site Wall",
   "games": {
     "nh": {
+      "orderable": false,
+      "sources": [
+        "Saharah"
+      ],
+      "customizable": false,
       "sellPrice": {
         "currency": "bells",
         "value": 750

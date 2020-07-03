@@ -3,6 +3,7 @@
   "name": "Bamboo-screen Wall",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 442

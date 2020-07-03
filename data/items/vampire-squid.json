@@ -1,0 +1,17 @@
+{
+  "id": "vampire-squid",
+  "name": "Vampire Squid",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Diving"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10000
+      }
+    }
+  },
+  "category": "Sea Creatures"
+}

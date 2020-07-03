@@ -3,6 +3,7 @@
   "name": "Frilly Dress",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 500

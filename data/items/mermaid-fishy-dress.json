@@ -1,0 +1,17 @@
+{
+  "id": "mermaid-fishy-dress",
+  "name": "Mermaid Fishy Dress",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1000
+      },
+      "variations": {
+        "pink": "Pink",
+        "light-blue": "Light Blue"
+      }
+    }
+  },
+  "category": "Dresses"
+}

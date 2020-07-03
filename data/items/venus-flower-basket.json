@@ -1,0 +1,17 @@
+{
+  "id": "venus-flower-basket",
+  "name": "Venus' Flower Basket",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Diving"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 5000
+      }
+    }
+  },
+  "category": "Sea Creatures"
+}

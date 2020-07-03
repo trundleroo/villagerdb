@@ -3,16 +3,15 @@
   "name": "Butterfly Backpack",
   "games": {
     "nh": {
+      "orderable": false,
+      "sources": [
+        "Bug-Off"
+      ],
+      "customizable": false,
       "sellPrice": {
         "currency": "bells",
         "value": 210
       },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 840
-        }
-      ],
       "variations": {
         "pink": "Pink"
       }

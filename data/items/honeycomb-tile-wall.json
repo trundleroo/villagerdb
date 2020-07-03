@@ -3,6 +3,10 @@
   "name": "Honeycomb-tile Wall",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Wisp"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 420

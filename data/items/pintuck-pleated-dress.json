@@ -3,6 +3,7 @@
   "name": "Pintuck-pleated Dress",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 400

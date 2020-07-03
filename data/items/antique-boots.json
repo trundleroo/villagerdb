@@ -3,6 +3,7 @@
   "name": "Antique Boots",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 660

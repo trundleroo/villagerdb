@@ -3,6 +3,7 @@
   "name": "Blue Rose Crown",
   "games": {
     "nh": {
+      "orderable": false,
       "sellPrice": {
         "currency": "bells",
         "value": 12000

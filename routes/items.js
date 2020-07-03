@@ -163,6 +163,13 @@ const categories = {
         pageTitle: 'Photos and posters',
         pageDescription: 'Photos and posters of your favorite villagers.'
     },
+    sea: {
+        filter: {
+            category: ['Sea Creatures']
+        },
+        pageTitle: 'Deep Sea creatures',
+        pageDescription: 'Deep sea creatures you can only obtain by diving.'
+    },
     shoes: {
         filter: {
             category: ['Shoes']

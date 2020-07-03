@@ -3,6 +3,7 @@
   "name": "Wooden-frame Glasses",
   "games": {
     "nh": {
+      "orderable": true,
       "sources": [
         "Able Sisters"
       ],

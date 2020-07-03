@@ -1,0 +1,19 @@
+{
+  "id": "mermaid-wall-clock",
+  "name": "Mermaid Wall Clock",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 12290
+      },
+      "recipe": {
+        "pearl": 1,
+        "sea-snail": 3,
+        "coral": 2,
+        "sand-dollar": 5
+      }
+    }
+  },
+  "category": "Furniture"
+}

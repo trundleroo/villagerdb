@@ -1,0 +1,13 @@
+{
+  "id": "nook-inc-wet-suit",
+  "name": "Nook Inc Wet Suit",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4000
+      }
+    }
+  },
+  "category": "Dresses"
+}

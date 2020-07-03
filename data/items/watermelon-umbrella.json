@@ -3,6 +3,7 @@
   "name": "Watermelon Umbrella",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 387

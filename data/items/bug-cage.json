@@ -3,16 +3,15 @@
   "name": "Bug Cage",
   "games": {
     "nh": {
+      "orderable": false,
+      "sources": [
+        "Bug-Off"
+      ],
+      "customizable": false,
       "sellPrice": {
         "currency": "bells",
         "value": 122
       },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 490
-        }
-      ],
       "variations": {
         "green": "Green"
       }

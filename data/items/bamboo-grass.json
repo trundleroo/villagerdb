@@ -15,6 +15,22 @@
       "sources": [
         "Starcrossed Day (Isabelle -- JP only)"
       ]
+    },
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Shopping (seasonally available until July 31st)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 770
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3080
+        }
+      ]
     }
   }
 }

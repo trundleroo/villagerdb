@@ -3,16 +3,15 @@
   "name": "Wedding Head Table",
   "games": {
     "nh": {
+      "orderable": false,
+      "sources": [
+        "Obtained from Reese after 4th photo shoot during Wedding Season event (June)"
+      ],
+      "customizable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 750
       },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 3000
-        }
-      ],
       "variations": {
         "cute": "Cute",
         "chic": "Chic",

@@ -3,6 +3,7 @@
   "name": "Loft Bed With Desk",
   "games": {
     "nh": {
+      "orderable": true,
       "customizable": true,
       "sellPrice": {
         "currency": "bells",

@@ -1,0 +1,16 @@
+{
+  "id": "pirate-eye-patch",
+  "name": "Pirate Eye Patch",
+  "games": {
+    "nh": {
+      "sources": [
+        "Pirate Gulliver"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 70
+      }
+    }
+  },
+  "category": "Accessories"
+}

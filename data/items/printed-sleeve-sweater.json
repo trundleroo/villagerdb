@@ -3,6 +3,7 @@
   "name": "Printed-sleeve Sweater",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 140

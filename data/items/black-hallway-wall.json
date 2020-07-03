@@ -3,6 +3,7 @@
   "name": "Black Hallway Wall",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 500

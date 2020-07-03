@@ -3,6 +3,7 @@
   "name": "Flower Sandals",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 300

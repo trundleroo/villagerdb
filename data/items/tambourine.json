@@ -4,10 +4,19 @@
   "games": {
     "nh": {
       "orderable": false,
+      "sources": [
+        "Nook's Cranny"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 375
-      }
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1500
+        }
+      ]
     }
   },
   "category": "Tools"

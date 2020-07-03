@@ -3,6 +3,7 @@
   "name": "Stylish Jumpsuit",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 525

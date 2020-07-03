@@ -3,6 +3,7 @@
   "name": "Baseball Uniform",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 440

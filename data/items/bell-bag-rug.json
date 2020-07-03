@@ -4,10 +4,19 @@
   "games": {
     "nh": {
       "orderable": false,
+      "sources": [
+        "Nook Miles System"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 6000
-      }
+      },
+      "buyPrices": [
+        {
+          "currency": "miles",
+          "value": 1200
+        }
+      ]
     }
   },
   "category": "Flooring"

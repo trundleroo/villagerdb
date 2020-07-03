@@ -1,0 +1,16 @@
+{
+  "id": "pirate-treasure-crown",
+  "name": "Pirate-treasure Crown",
+  "games": {
+    "nh": {
+      "sources": [
+        "Pirate Gulliver"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2500
+      }
+    }
+  },
+  "category": "Hats"
+}

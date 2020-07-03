@@ -3,6 +3,7 @@
   "name": "Helmet With Goggles",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 275

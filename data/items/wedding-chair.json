@@ -3,16 +3,15 @@
   "name": "Wedding Chair",
   "games": {
     "nh": {
+      "orderable": false,
+      "sources": [
+        "Cyrus after 2nd photo shoot during Wedding Season event (June)"
+      ],
+      "customizable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 500
       },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 2000
-        }
-      ],
       "variations": {
         "cute": "Cute",
         "chic": "Chic",

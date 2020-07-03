@@ -1,7 +1,7 @@
 {
   "id": "sea-captains-coat",
   "name": "Sea Captain's Coat",
-  "category": "Dresses",
+  "category": "Tops",
   "games": {
     "nl": {
       "orderable": true,
@@ -27,6 +27,20 @@
           "value": 720
         }
       ]
+    },
+    "nh": {
+      "sources": [
+        "Pirate Gulliver"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1200
+      },
+      "variations": {
+        "red": "Red",
+        "blue": "Blue",
+        "black": "Black"
+      }
     }
   }
 }

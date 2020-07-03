@@ -3,6 +3,7 @@
   "name": "Full-body Tights",
   "games": {
     "nh": {
+      "orderable": true,
       "sellPrice": {
         "currency": "bells",
         "value": 280

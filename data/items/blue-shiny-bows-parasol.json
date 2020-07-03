@@ -3,6 +3,10 @@
   "name": "Blue Shiny-bows Parasol",
   "games": {
     "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 405
