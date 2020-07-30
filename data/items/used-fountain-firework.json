@@ -1,0 +1,16 @@
+{
+  "id": "used-fountain-firework",
+  "name": "Used Fountain Firework",
+  "games": {
+    "nh": {
+      "sources": [
+        "Use a fountain firework"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10
+      }
+    }
+  },
+  "category": "Usables"
+}

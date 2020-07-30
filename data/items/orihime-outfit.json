@@ -1,0 +1,13 @@
+{
+  "id": "orihime-outfit",
+  "name": "Orihime Outfit",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 625
+      }
+    }
+  },
+  "category": "Dresses"
+}
