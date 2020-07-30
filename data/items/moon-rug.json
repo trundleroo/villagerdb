@@ -1,0 +1,13 @@
+{
+  "id": "moon-rug",
+  "name": "Moon Rug",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 500
+      }
+    }
+  },
+  "category": "Flooring"
+}

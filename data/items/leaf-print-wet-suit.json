@@ -3,6 +3,7 @@
   "name": "Leaf-print Wet Suit",
   "games": {
     "nh": {
+      "orderable": true,
       "sources": [
         "Nook Shopping"
       ],

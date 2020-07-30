@@ -1,0 +1,18 @@
+{
+  "id": "lunas-bed",
+  "name": "Luna's Bed",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Receive in mail after downloading v1.4.0 update"
+      ],
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 900
+      }
+    }
+  },
+  "category": "Furniture"
+}

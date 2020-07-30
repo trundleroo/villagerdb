@@ -1,0 +1,16 @@
+{
+  "id": "uchiwa-fan",
+  "name": "Uchiwa Fan",
+  "games": {
+    "nh": {
+      "sources": [
+        "Redd's Raffle"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      }
+    }
+  },
+  "category": "Tools"
+}

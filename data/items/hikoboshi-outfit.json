@@ -1,0 +1,13 @@
+{
+  "id": "hikoboshi-outfit",
+  "name": "Hikoboshi Outfit",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 625
+      }
+    }
+  },
+  "category": "Dresses"
+}

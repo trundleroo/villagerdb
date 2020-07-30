@@ -1,0 +1,16 @@
+{
+  "id": "bubble-blower",
+  "name": "Bubble Blower",
+  "games": {
+    "nh": {
+      "sources": [
+        "Redd's Raffle"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 37
+      }
+    }
+  },
+  "category": "Tools"
+}
