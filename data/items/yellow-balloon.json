@@ -1,7 +1,7 @@
 {
   "id": "yellow-balloon",
   "name": "Yellow Balloon",
-  "category": "Balloon",
+  "category": "Balloons",
   "games": {
     "nl": {
       "orderable": false,

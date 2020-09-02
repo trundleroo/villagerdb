@@ -1,24 +1,23 @@
 {
-  "id": "open-frame-kitchen",
-  "name": "Open-frame Kitchen",
+  "id": "grape-harvest-basket",
+  "name": "Grape-harvest Basket",
   "games": {
     "nh": {
       "orderable": true,
       "sources": [
-        "Nook's Cranny"
+        "Nook Shopping (seasonally available in September)"
       ],
-      "customizable": false,
       "sellPrice": {
         "currency": "bells",
-        "value": 35000
+        "value": 200
       },
       "buyPrices": [
         {
           "currency": "bells",
-          "value": 140000
+          "value": 800
         }
       ]
     }
   },
-  "category": "Furniture"
+  "category": "Accessories"
 }

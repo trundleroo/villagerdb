@@ -1,0 +1,17 @@
+{
+  "id": "dream-bell-exchange-ticket",
+  "name": "Dream Bell Exchange Ticket",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Receive in mail after uploading or updating Dream Island"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 5000
+      }
+    }
+  },
+  "category": "Usables"
+}

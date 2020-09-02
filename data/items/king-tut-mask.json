@@ -28,6 +28,7 @@
       ]
     },
     "nh": {
+      "orderable": false,
       "sources": [
         "Pick up a new golden nugget off the ground"
       ],

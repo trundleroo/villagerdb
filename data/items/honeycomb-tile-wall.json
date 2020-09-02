@@ -5,7 +5,8 @@
     "nh": {
       "orderable": true,
       "sources": [
-        "Wisp"
+        "Wisp",
+        "Nook's Cranny"
       ],
       "sellPrice": {
         "currency": "bells",
