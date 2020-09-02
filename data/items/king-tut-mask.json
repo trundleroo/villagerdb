@@ -26,6 +26,19 @@
           "value": 12000
         }
       ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Pick up a new golden nugget off the ground"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 50000
+      },
+      "recipe": {
+        "gold-nugget": 5
+      }
     }
   }
 }

@@ -3,6 +3,7 @@
   "name": "Coral Nook Inc. Aloha Shirt",
   "games": {
     "nh": {
+      "orderable": false,
       "sources": [
         "Nook Miles Rewards"
       ],

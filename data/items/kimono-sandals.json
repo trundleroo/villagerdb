@@ -29,7 +29,8 @@
     "nh": {
       "orderable": true,
       "sources": [
-        "Kicks"
+        "Kicks",
+        "Able Sisters"
       ],
       "sellPrice": {
         "currency": "bells",

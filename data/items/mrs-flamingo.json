@@ -22,6 +22,10 @@
     },
     "nh": {
       "orderable": true,
+      "sources": [
+        "Nook Shopping",
+        "Nook's Cranny"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 750

@@ -1,0 +1,16 @@
+{
+  "id": "red-sparkler",
+  "name": "Red Sparkler",
+  "games": {
+    "nh": {
+      "sources": [
+        "Redd's Raffle"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 150
+      }
+    }
+  },
+  "category": "Usables"
+}

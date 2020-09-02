@@ -24,6 +24,10 @@
     },
     "nh": {
       "orderable": true,
+      "sources": [
+        "Nook Shopping",
+        "Able Sisters"
+      ],
       "sellPrice": {
         "currency": "bells",
         "value": 122
