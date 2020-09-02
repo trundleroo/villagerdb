@@ -33,6 +33,7 @@
       "sources": [
         "Able Sisters"
       ],
+      "customizable": false,
       "sellPrice": {
         "currency": "bells",
         "value": 525

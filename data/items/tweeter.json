@@ -13,6 +13,15 @@
         "Happy Home Showcase (10 StreetPass)",
         "Countdown (Isabelle -- EU English and Italian)"
       ]
+    },
+    "nh": {
+      "sources": [
+        "Redd's Raffle"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      }
     }
   }
 }

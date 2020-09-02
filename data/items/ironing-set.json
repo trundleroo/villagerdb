@@ -21,6 +21,9 @@
     },
     "nh": {
       "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
       "customizable": true,
       "sellPrice": {
         "currency": "bells",

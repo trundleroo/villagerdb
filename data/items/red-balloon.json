@@ -15,6 +15,15 @@
       "sources": [
         "Happy Home Showcase (2 to 3 StreetPass)"
       ]
+    },
+    "nh": {
+      "sources": [
+        "Redd's Raffle"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 150
+      }
     }
   }
 }

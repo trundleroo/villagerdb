@@ -1,0 +1,23 @@
+{
+  "id": "grape-harvest-basket",
+  "name": "Grape-harvest Basket",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Shopping (seasonally available in September)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 800
+        }
+      ]
+    }
+  },
+  "category": "Accessories"
+}

@@ -18,6 +18,15 @@
       "sources": [
         "Fireworks Show (Isabelle)"
       ]
+    },
+    "nh": {
+      "sources": [
+        "Isabelle during Fireworks Show"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 245
+      }
     }
   }
 }

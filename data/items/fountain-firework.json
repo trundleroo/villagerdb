@@ -9,6 +9,15 @@
         "Isabelle (Fireworks Show)",
         "Nookling stores (August)"
       ]
+    },
+    "nh": {
+      "sources": [
+        "Redd's Raffle"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 150
+      }
     }
   }
 }

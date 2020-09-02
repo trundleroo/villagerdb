@@ -5,7 +5,8 @@
     "nh": {
       "orderable": true,
       "sources": [
-        "Receive in mail on your second day"
+        "Receive in mail on your second day",
+        "Nook Shopping"
       ],
       "customizable": true,
       "sellPrice": {

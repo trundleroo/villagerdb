@@ -1,0 +1,19 @@
+{
+  "id": "nook-inc-handheld-pennant",
+  "name": "Nook Inc. Handheld Pennant",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2500
+      },
+      "buyPrices": [
+        {
+          "currency": "miles",
+          "value": 500
+        }
+      ]
+    }
+  },
+  "category": "Tools"
+}
