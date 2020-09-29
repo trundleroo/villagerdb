@@ -29,10 +29,22 @@ class Cache {
      *
      * @param key
      * @param value
-     * @returns {Promise<*>}
+     * @param ttl (optional) how long the key should live before expiring (seconds)
      */
-    async set(key, value) {
-        return this.redisClient.setAsync(this.keyPrefix + key, value);
+    async set(key, value, ttl) {
+        await this.redisClient.setAsync(this.keyPrefix + key, value);
+        if (typeof ttl === 'number') {
+            await this.redisClient.expireAsync(this.keyPrefix + key, ttl);
+        }
+    }
+
+    /**
+     * Delete a cache entry.
+     * @param key
+     * @returns {Promise<void>}
+     */
+    async delete(key) {
+        await this.redisClient.delAsync(this.keyPrefix + key);
     }
 }
 
