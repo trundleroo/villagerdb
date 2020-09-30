@@ -12,6 +12,12 @@
         "orange-pumpkin": 3,
         "hardwood": 5,
         "clay": 1
+      },
+      "variations": {
+        "orange": "Orange",
+        "yellow": "Yellow",
+        "green": "Green",
+        "white": "White"
       }
     }
   },

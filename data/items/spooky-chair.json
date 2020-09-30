@@ -32,6 +32,12 @@
       "recipe": {
         "orange-pumpkin": 3,
         "softwood": 3
+      },
+      "variations": {
+        "orange": "Orange",
+        "yellow": "Yellow",
+        "green": "Green",
+        "white": "White"
       }
     }
   }

@@ -8,12 +8,6 @@
         "currency": "bells",
         "value": 585
       },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 2340
-        }
-      ],
       "recipe": {
         "orange-pumpkin": 3,
         "iron-nugget": 5

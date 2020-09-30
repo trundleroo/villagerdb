@@ -8,12 +8,6 @@
         "currency": "bells",
         "value": 4300
       },
-      "buyPrices": [
-        {
-          "currency": "bells",
-          "value": 17200
-        }
-      ],
       "recipe": {
         "spooky-lantern": 1,
         "star-fragment": 3

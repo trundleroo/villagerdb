@@ -12,6 +12,12 @@
         "orange-pumpkin": 1,
         "iron-nugget": 1,
         "clay": 1
+      },
+      "variations": {
+        "orange": "Orange",
+        "yellow": "Yellow",
+        "green": "Green",
+        "white": "White"
       }
     }
   },

@@ -14,6 +14,12 @@
         "wood": 20,
         "softwood": 20,
         "iron-nugget": 10
+      },
+      "variations": {
+        "orange": "Orange",
+        "yellow": "Yellow",
+        "green": "Green",
+        "white": "White"
       }
     }
   },

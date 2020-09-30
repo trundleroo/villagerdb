@@ -10,6 +10,12 @@
       },
       "recipe": {
         "orange-pumpkin": 7
+      },
+      "variations": {
+        "orange": "Orange",
+        "yellow": "Yellow",
+        "green": "Green",
+        "white": "White"
       }
     }
   },
