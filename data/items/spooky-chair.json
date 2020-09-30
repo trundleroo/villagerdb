@@ -22,6 +22,17 @@
           "value": 4124
         }
       ]
+    },
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1250
+      },
+      "recipe": {
+        "orange-pumpkin": 3,
+        "softwood": 3
+      }
     }
   }
 }

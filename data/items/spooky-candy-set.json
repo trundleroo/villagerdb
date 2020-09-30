@@ -1,0 +1,18 @@
+{
+  "id": "spooky-candy-set",
+  "name": "Spooky Candy Set",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 875
+      },
+      "recipe": {
+        "orange-pumpkin": 1,
+        "candy": 3
+      }
+    }
+  },
+  "category": "Furniture"
+}
