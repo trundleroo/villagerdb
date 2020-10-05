@@ -227,9 +227,13 @@ async function indexVillagers(es, newIndexName) {
             game: [],
             personality: [],
             hobby: [],
-            subtype: [],
-            collab: parsed.collab ? parsed.collab : 'Standard'
+            subtype: []
         };
+
+        // Collaboration
+        if (parsed.collab) {
+            document.collab = parsed.collab;
+        }
 
         // Get unique personalities, hobbies and subtypes.
         for (let game in parsed.games) {
