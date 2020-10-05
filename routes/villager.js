@@ -87,9 +87,14 @@ function generateParagraph(villager, formattedVillager) {
     const posessivePronoun = (villager.gender == 'male' ? 'his' : 'her');
     const posessive = villager.name + '\'s';
     const species = formattedVillager.species.toLowerCase();
-    const personality = gameData.personality;
     const birthday = formattedVillager.birthday;
     const zodiac = formattedVillager.zodiac;
+
+    // Personality
+    let personality = gameData.personality.toLowerCase();
+    if (personality === 'uchi') {
+        personality += ' (sisterly)';
+    }
 
     // Build paragraph
     const paragraph = [];
@@ -105,7 +110,7 @@ function generateParagraph(villager, formattedVillager) {
         paragraph.push(format.capFirstLetter(posessivePronoun) + ' favorite song is ' + gameData.song + '.');
     }
     if (gameData.hobby) {
-        paragraph.push(name + '\'s favorite hobby is ' + gameData.hobby.toLowerCase());
+        paragraph.push(name + '\'s favorite hobby is ' + gameData.hobby.toLowerCase() + '.');
     }
     if (gameData.goal) {
         paragraph.push(posessive + ' goal is to be ' + format.aOrAn(gameData.goal.toLowerCase()) + '. ');
