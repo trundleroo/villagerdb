@@ -88,7 +88,6 @@ async function loadList(username, listId, loggedInUser) {
     if (entities.length === 0 || entities.length > 1) {
         result.countText += 's';
     }
-    result.displayUnit2 = entities.length >= 10;
     result.entities = entities;
     result.shareUrl = 'https://villagerdb.com/user/' + username + '/list/' + list.id;
 
