@@ -2,10 +2,10 @@
 <h1>
     {{listName}}
     {{#if isOwnUser}}
-        <a href="/list/rename/{{listId}}"
+        <a href="/list/edit/{{listId}}"
            class="btn btn-secondary btn-sm" role="button">
             <span class="fa fa-edit"></span>
-            Rename
+            Edit List
         </a>
     {{/if}}
 </h1>
@@ -31,10 +31,9 @@
 </div>
 {{#if isOwnUser}}
     {{#unless isEmpty}}
-        <div class="alert alert-primary mb-4">
-            <span style="font-weight: bold; color: red">New!</span> Share a picture of your wishlist by
-            <a href="#image-maker">clicking here</a>!
-        </div>
+        <p class="text-right">
+            <a href="#image-maker"><span class="fas fa-camera"></span> Share list image</a>
+        </p>
     {{/unless}}
 {{/if}}
 {{#if isEmpty}}
