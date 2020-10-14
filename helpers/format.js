@@ -271,3 +271,18 @@ function listItemSortComparator(a, b) {
     }
 }
 module.exports.listItemSortComparator = listItemSortComparator;
+
+/**
+ * Comparator function for sorting list categories.
+ * @param a
+ * @param b
+ * @returns {number}
+ */
+function categorySortComparator(a, b) {
+    if (a.toLowerCase() < b.toLowerCase()) {
+        return -1;
+    } else {
+        return 1;
+    }
+}
+module.exports.categorySortComparator = categorySortComparator;

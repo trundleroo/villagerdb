@@ -18,13 +18,15 @@ class Lists {
      *
      * @param id
      * @param listName
+     * @param listCategory
      * @returns {Promise<*>}
      */
-    async createList(id, listId, listName) {
+    async createList(id, listId, listName, listCategory) {
         const villagerDb = await this.db.get();
 
         const newList = {
             name: listName,
+            category: listCategory,
             id: listId,
             entities: []
         };
@@ -52,9 +54,10 @@ class Lists {
      * @param listId
      * @param newListId
      * @param newListName
+     * @param newListCategory
      * @returns {Promise<void>}
      */
-    async renameList(id, listId, newListId, newListName) {
+    async updateList(id, listId, newListId, newListName, newListCategory) {
         const villagerDb = await this.db.get()
 
         await villagerDb.collection('users')
@@ -65,7 +68,8 @@ class Lists {
             {
                 $set: {
                     "lists.$.id": newListId,
-                    "lists.$.name": newListName
+                    "lists.$.name": newListName,
+                    "lists.$.category": newListCategory
                 }
             });
     }
@@ -156,6 +160,42 @@ class Lists {
                             variationId: variationId
                         }
                     }
+                });
+    }
+
+    /**
+     * Set the text for an entity
+     *
+     * @param id
+     * @param listId
+     * @param entityId
+     * @param type
+     * @param variationId
+     * @param text
+     * @returns {Promise<Promise|OrderedBulkOperation|UnorderedBulkOperation>}
+     */
+    async setEntityText(id, listId, entityId, type, variationId, text) {
+        const villagerDb = await this.db.get();
+        return villagerDb.collection('users')
+            .updateOne({
+                    _id: id,
+                },
+                {
+                    $set: {
+                        "lists.$[list].entities.$[entity].text": text
+                    },
+                },
+                {
+                    arrayFilters: [
+                        {
+                            "list.id": listId
+                        },
+                        {
+                            'entity.id': entityId,
+                            'entity.type': type,
+                            'entity.variationId': variationId
+                        }
+                    ]
                 });
     }
 

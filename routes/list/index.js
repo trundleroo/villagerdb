@@ -1,10 +1,11 @@
 const express = require('express');
 const router = express.Router();
 const axios = require('axios');
-const lists = require('../db/entity/lists');
-const items = require('../db/entity/items');
 const {validationResult, body} = require('express-validator');
-const format = require('../helpers/format');
+
+const lists = require('../../db/entity/lists');
+const items = require('../../db/entity/items');
+const format = require('../../helpers/format');
 
 /**
  * Minimum name length for a list.
@@ -21,6 +22,20 @@ const minListNameLength = 3;
 const maxListNameLength = 25;
 
 /**
+ * Maximum length of a list category.
+ *
+ * @type {number}
+ */
+const maxCategoryNameLength = 25;
+
+/**
+ * Maximum length of a text string in a list.
+ *
+ * @type {number}
+ */
+const listTextMaxLength = 256;
+
+/**
  * Validation expression for a list name.
  *
  * @type {RegExp}
@@ -28,7 +43,14 @@ const maxListNameLength = 25;
 const listRegex = /^[A-Za-z0-9][A-Za-z0-9 ]+$/i;
 
 /**
- * List validation rules on name submission.
+ * Validation expression for a category name.
+ *
+ * @type {RegExp}
+ */
+const categoryRegex = /^([A-Za-z0-9][A-Za-z0-9 ])*$/i;
+
+/**
+ * List validation rules on existing list submission.
  *
  * @type {ValidationChain[]}
  */
@@ -36,21 +58,40 @@ const listValidation = [
     body(
         'list-name',
         'List names must be between ' + minListNameLength + ' and ' + maxListNameLength + ' characters long.')
+        .trim()
         .isLength({min: minListNameLength, max: maxListNameLength}),
     body(
         'list-name',
         'List names can only have letters, numbers, and spaces, and must start with a letter or number.')
+        .trim()
         .matches(listRegex),
+    body(
+        'list-category',
+        'Category names can only have letters, numbers, and spaces, and must start with a letter or number.')
+        .trim()
+        .matches(categoryRegex),
     body(
         'list-name',
         'You already have a list by that name. Please choose another name.')
         .trim()
         .custom((value, {req}) => {
-            return lists.getListById(req.user.username, format.getSlug(value))
+            const newListId = format.getSlug(value);
+            return lists.getListById(req.user.username, newListId)
                 .then((listExists) => {
-                    if (listExists) {
+                    // If it's a new list, we must check this.
+                    if (!req.params.listId && listExists) {
                         return Promise.reject();
+                    } else if (req.params.listId) {
+                        // Slightly more complicated. List is being renamed, but it's only O.K. if the list exists
+                        // if the entered list ID matches the requested list ID.
+                        if (req.params.listId !== newListId && listExists) {
+                            return Promise.reject();
+                        }
                     }
+                })
+                .catch((e) => {
+                    // TODO log
+                    return Promise.reject();
                 });
         })
 ];
@@ -139,7 +180,8 @@ function handleUserListsForEntity(req, res, next) {
         getUserListsForEntity(req.user.id, req.params.entityType, req.params.entityId, req.params.variationId)
             .then((data) => {
                 res.send(data);
-            }).catch(next);
+            })
+            .catch(next);
     } else {
         res.send([]); // send empty list since there are no lists for non-logged-in users.
     }
@@ -166,43 +208,157 @@ function handleDeleteEntity(req, res, next) {
 }
 
 /**
- * Route for getting the create-list page.
+ * Generic handler for /update-entity/:listId/:type/:id[/:variationId]
+ *
+ * @param req
+ * @param res
+ * @param next
  */
-router.get('/create', (req, res, next) => {
+function handleUpdateText(req, res, next) {
+    if (res.locals.userState.isRegistered) {
+        if (typeof req.body['text'] !== 'string' || req.body['text'].length > listTextMaxLength) {
+            res.status(400).send(); // impossible request if user is following the law
+            return;
+        }
+
+        const text = req.body['text'].trim();
+        lists.setEntityText(req.user.id,  req.params.listId, req.params.id, req.params.type,
+            req.params.variationId, text)
+            .then((dbResponse) => {
+                res.status(204).send(); // success reply but empty
+            })
+            .catch(next);
+    } else {
+        res.status(403).send();
+    }
+}
+
+/**
+ * Form for adding/editing a list.
+ *
+ * @param req
+ * @param res
+ * @param next
+ */
+function showListEditForm(req, res, next) {
+    if (!res.locals.userState.isRegistered) {
+        res.redirect('/login'); // create an account to continue
+        return;
+    }
+
     const data = {};
-    data.pageTitle = 'Create New List';
+    data.pageTitle = req.params.listId ? 'Edit List' : 'Create New List';
+    data.username = req.user.username;
+    data.listId = req.params.listId;
     data.errors = req.session.errors;
     data.listNameLength = maxListNameLength;
-    delete req.session.errors;
+    data.categoryNameLength = maxCategoryNameLength;
 
-    if (res.locals.userState.isRegistered) {
-        res.render('create-list', data);
-    } else {
-        res.redirect('/login'); // create an account to continue
+    // Previous submission data?
+    let hadSubmitData = false;
+    if (req.session.listSubmitData) {
+        data.listName = req.session.listSubmitData.listName;
+        data.categoryName = req.session.listSubmitData.categoryName;
+        hadSubmitData = true;
     }
+
+    // If any prior errors or submissions, clean them up.
+    delete req.session.errors;
+    delete req.session.listSubmitData;
+
+    if (!req.params.listId) {
+        res.render('list/edit', data); // new list
+    } else {
+        // Make sure the list exists.
+        lists.getListById(req.user.username, req.params.listId)
+            .then((list) => {
+                if (list) {
+                    if (!hadSubmitData) {
+                        data.listName = list.name;
+                        data.categoryName = list.category;
+                    }
+                    res.render('list/edit', data);
+                } else {
+                    // No such list...
+                    res.redirect('/user/' + req.user.username);
+                }
+            }).catch(next);
+    }
+}
+
+/**
+ * Route for getting the create list page.
+ */
+router.get('/create', (req, res, next) => {
+    showListEditForm(req, res, next);
 });
 
 /**
  * Route for POSTing new list to the database.
  */
-router.post('/create', listValidation, (req, res) => {
+router.post('/create', listValidation, (req, res, next) => {
     // Only registered users here.
     if (!res.locals.userState.isRegistered) {
         res.redirect('/');
         return;
     }
 
-    const listName = req.body['list-name'];
+    const listName = req.body['list-name'].trim();
+    const categoryName = req.body['category-name'].trim();
     const errors = validationResult(req);
 
     if (!errors.isEmpty()) {
         req.session.errors = errors.array();
+        req.session.listSubmitData = {
+            listName: listName,
+            categoryName: categoryName
+        };
         res.redirect('/list/create');
     } else {
-        lists.createList(req.user.id, format.getSlug(listName), listName)
+        lists.createList(req.user.id, format.getSlug(listName), listName, categoryName)
             .then(() => {
                 res.redirect('/user/' + req.user.username);
             })
+            .catch(next);
+    }
+});
+
+/**
+ * Route for getting the edit list page.
+ */
+router.get('/edit/:listId', (req, res, next) => {
+    showListEditForm(req, res, next);
+})
+
+/**
+ * Route for POSTing edit of a list.
+ */
+router.post('/edit/:listId', listValidation, (req, res, next) => {
+    // Only registered users here.
+    if (!res.locals.userState.isRegistered) {
+        res.status(403).send();
+        return;
+    }
+
+    const listId = req.params.listId;
+    const newListName = req.body['list-name'].trim();
+    const newListId = format.getSlug(newListName);
+    const newCategoryName = req.body['category-name'].trim();
+    const errors = validationResult(req);
+
+    if (!errors.isEmpty()) {
+        req.session.errors = errors.array();
+        req.session.listSubmitData = {
+            listName: newListName,
+            categoryName: newCategoryName
+        };
+        res.redirect('/list/edit/' + listId);
+    } else {
+        lists.updateList(req.user.id, listId, newListId, newListName, newCategoryName)
+            .then(() => {
+                res.redirect('/user/' + req.user.username + '/list/' + format.getSlug(newListName));
+            })
+            .catch(next);
     }
 });
 
@@ -223,7 +379,7 @@ router.get('/import', (req, res, next) => {
     }
 
     if (res.locals.userState.isRegistered) {
-        res.render('import-list', data);
+        res.render('list/import', data);
     } else {
         res.redirect('/login'); // create an account to continue
     }
@@ -281,60 +437,6 @@ router.post('/import',
 });
 
 /**
- * Route for getting the rename-list page.
- */
-router.get('/rename/:listId', (req, res, next) => {
-    const data = {}
-    data.pageTitle = 'Rename List';
-    data.listId = req.params.listId;
-    data.errors = req.session.errors;
-    data.listNameLength = maxListNameLength;
-    delete req.session.errors;
-
-    if (res.locals.userState.isRegistered) {
-        // Make sure the list exists.
-        lists.getListById(req.user.username, req.params.listId)
-            .then((list) => {
-                if (list) {
-                    data.listName = list.name;
-                    res.render('rename-list', data);
-                } else {
-                    // No such list...
-                    res.redirect('/user/' + req.user.username);
-                }
-            }).catch(next);
-    } else {
-        res.redirect('/login'); // create an account to continue
-    }
-})
-
-/**
- * Route for POSTing new name of a list.
- */
-router.post('/rename/:listId', listValidation, (req, res, next) => {
-    // Only registered users here.
-    if (!res.locals.userState.isRegistered) {
-        res.status(403).send();
-        return;
-    }
-
-    const listId = req.params.listId
-    const newListName = req.body['list-name'];
-    const errors = validationResult(req);
-
-    if (!errors.isEmpty()) {
-        req.session.errors = errors.array();
-        res.redirect('/list/rename/' + listId);
-    } else {
-        lists.renameList(req.user.id, listId, format.getSlug(newListName), newListName)
-            .then(() => {
-                res.redirect('/user/' + req.user.username + '/list/' + format.getSlug(newListName));
-            })
-            .catch(next);
-    }
-});
-
-/**
  * Route for deleting an entity from a list.
  */
 router.post('/delete-entity/:listId/:type/:id', (req, res, next) => {
@@ -345,14 +447,25 @@ router.post('/delete-entity/:listId/:type/:id/:variationId', (req, res, next) =>
 });
 
 /**
+ * Route for updating an entity in a list.
+ */
+router.post('/update-entity/:listId/:type/:id', (req, res, next) => {
+    handleUpdateText(req, res, next);
+});
+router.post('/update-entity/:listId/:type/:id/:variationId', (req, res, next) => {
+    handleUpdateText(req, res, next);
+});
+
+/**
  * Route for deleting a list.
  */
-router.post('/delete/:listId', (req, res) => {
+router.post('/delete/:listId', (req, res, next) => {
     if (res.locals.userState.isRegistered) {
         lists.deleteList(req.user.id, req.params.listId)
             .then(() => {
                 res.status(204).send();
-            });
+            })
+            .catch(next);
     } else {
         res.status(403).send();
     }

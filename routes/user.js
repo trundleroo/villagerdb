@@ -8,6 +8,12 @@ const format = require('../helpers/format');
 const consts = require('../helpers/consts');
 
 /**
+ * Reserved name for uncategorized lists.
+ *
+ * @type {string}
+ */
+const UNCATEGORIZED_TEXT = 'Uncategorized';
+/**
  * Load user profile.
  *
  * @param username
@@ -19,15 +25,34 @@ async function loadUser(username) {
         return null;
     }
 
-    // Sort lists alphabetically
-    user.lists.sort(format.listSortComparator);
+    // Build categories
+    const result = {};
+    const categories = {};
+    for (let l of user.lists) {
+        const catName = l.category ? l.category : UNCATEGORIZED_TEXT;
+
+        if (!categories[catName]) {
+            categories[catName] = [];
+        }
+        categories[catName].push(l);
+    }
+    result.categories = {};
+    const sortedCategories = Object.keys(categories).sort(format.categorySortComparator);
+    for (let k of sortedCategories) {
+        if (k !== UNCATEGORIZED_TEXT) {
+            result.categories[k] = categories[k];
+            result.categories[k].sort(format.listSortComparator);
+        }
+    }
+    if (categories[UNCATEGORIZED_TEXT]) {
+        result.categories[UNCATEGORIZED_TEXT] = categories[UNCATEGORIZED_TEXT];
+        result.categories[UNCATEGORIZED_TEXT].sort(format.listSortComparator);
+    }
 
     // Build result out.
-    const result = {};
     result.user = user;
     result.pageTitle = user.username + "'s Profile";
     result.username = user.username;
-    result.lists = user.lists;
     result.hasLists = user.lists.length > 0;
     result.shareUrl = 'https://villagerdb.com/user/' + user.username;
     return result;
@@ -71,11 +96,11 @@ async function loadList(username, listId, loggedInUser) {
     for (const entity of list.entities) {
         if (entity.type === 'villager') {
             if (redisVillagers[entity.id]) {
-                entities.push(organizeData(list.id, redisVillagers[entity.id], 'villager'));
+                entities.push(organizeData(list.id, redisVillagers[entity.id], 'villager', undefined, entity.text));
             }
         } else {
             if (redisItems[entity.id]) {
-                entities.push(organizeData(list.id, redisItems[entity.id], 'item', entity.variationId));
+                entities.push(organizeData(list.id, redisItems[entity.id], 'item', entity.variationId, entity.text));
             }
         }
     }
@@ -128,16 +153,19 @@ async function loadList(username, listId, loggedInUser) {
  * @param entity
  * @param type
  * @param variationId
+ * @param text
  * @returns {{}}
  */
-function organizeData(listId, entity, type, variationId) {
+function organizeData(listId, entity, type, variationId, text) {
     let entityData = {};
     entityData.name = entity.name;
     entityData.nameSlug = format.getSlug(entity.name);
     entityData.id = entity.id;
     entityData.type = type;
     entityData.image = entity.image.thumb;
+    entityData.text = text;
     entityData.deleteUrl = '/list/delete-entity/' + listId + '/' + type + '/' + entity.id;
+    entityData.updateUrl = '/list/update-entity/' + listId + '/' + type + '/' + entity.id;
     entityData._sortKey = entity.id;
 
     // Variation?
@@ -153,6 +181,7 @@ function organizeData(listId, entity, type, variationId) {
         entityData.variationSlug = format.getSlug(variationDisplay);
         entityData.variation = '(' + variationDisplay + ')';
         entityData.deleteUrl += '/' + variationId;
+        entityData.updateUrl += '/' + variationId;
         entityData._sortKey += '-vv-' + variationId;
         entityData.isDIY = entityData.variationId === consts.isDIY;
 
@@ -180,7 +209,7 @@ router.get('/:username', function (req, res, next) {
             } else {
                 data.isOwnUser = res.locals.userState.isRegistered &&
                     req.user.username === req.params.username;
-                res.render('user', data);
+                res.render('user/view', data);
             }
 
         }).catch(next);
@@ -199,7 +228,7 @@ router.get('/:username/list/:listId', (req, res, next) => {
             } else {
                 data.isOwnUser = res.locals.userState.isRegistered &&
                     req.user.username === req.params.username;
-                res.render('list', data);
+                res.render('list/view', data);
             }
         }).catch(next);
 });
@@ -273,7 +302,7 @@ router.get('/:username/list/:listId/compare/:compareUsername/:compareListId', (r
                     response.shareUrl = 'https://villagerdb.com/user/' + req.params.username + '/list/'
                         + req.params.listId + '/compare/'
                         + req.params.compareUsername + '/' + req.params.compareListId;
-                    res.render('list-compare', response);
+                    res.render('list/compare', response);
                 }
             }).catch(next);
 });
