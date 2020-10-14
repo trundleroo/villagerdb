@@ -31,7 +31,7 @@ $(document).ready(() => {
 
     // Update list item text
     $('form.list-item-updater').on('submit', listeItemUpdateHandler);
-    $('input.list-item-updater-text').on('input', _.debounce(submitListItemForm, 100));
+    $('input.list-item-updater-text').on('input', _.debounce(submitListItemForm, 1000));
 });
 
 /**
