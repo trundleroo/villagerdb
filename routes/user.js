@@ -37,7 +37,8 @@ async function loadUser(username) {
         categories[catName].push(l);
     }
     result.categories = {};
-    for (let k of Object.keys(categories).sort()) {
+    const sortedCategories = Object.keys(categories).sort(format.categorySortComparator);
+    for (let k of sortedCategories) {
         if (k !== UNCATEGORIZED_TEXT) {
             result.categories[k] = categories[k];
             result.categories[k].sort(format.listSortComparator);
