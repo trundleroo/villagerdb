@@ -73,12 +73,12 @@
                 </div>
                 {{#if ../isOwnUser}}
                     <form class="list-item-updater mt-2" data-update-url="{{updateUrl}}">
-                        <div class="form-group">
+                        <div class="form-group mb-0">
                             <input type="text" class="form-control list-item-updater-text" placeholder="Enter something (LF, FT, need 100, etc.)"
                                    {{#if text}}value="{{text}}"{{/if}} maxlength="255">
                         </div>
-                        <button type="submit" class="btn btn-primary">Update</button>
-                        <span class="ml-2 list-item-updater-status"></span>
+                        <button type="submit" class="btn btn-primary" style="display: none;">Update</button>
+                        <div class="mt-2 list-item-updater-status"></div>
                     </form>
                 {{else}}
                     {{#if text}}<p class="mt-2 mb-2">{{text}}</p>{{/if}}

@@ -29,8 +29,9 @@ $(document).ready(() => {
     // Delete object buttons - and try to prevent double clicks.
     $('a.delete-object-button').on('click', _.debounce(deleteHandler, 100, true));
 
-    // Update list text item button
+    // Update list item text
     $('form.list-item-updater').on('submit', listeItemUpdateHandler);
+    $('input.list-item-updater-text').on('input', _.debounce(submitListItemForm, 100));
 });
 
 /**
@@ -84,8 +85,32 @@ function listeItemUpdateHandler(e) {
 
     const url = $(e.currentTarget).data('update-url');
     const text = $(e.currentTarget).find('input.list-item-updater-text').val();
-    const statusDiv = $(e.currentTarget).find('span.list-item-updater-status');
+    const statusDiv = $(e.currentTarget).find('div.list-item-updater-status');
 
+    updateListItemText(url, text, statusDiv);
+}
+
+/**
+ * Trigger submit of the list item form
+ *
+ * @param e
+ */
+function submitListItemForm(e) {
+    if (!e.currentTarget) {
+        return;
+    }
+
+    $(e.currentTarget).closest('form.list-item-updater').submit();
+}
+
+/**
+ * Update list item text
+ *
+ * @param url
+ * @param text
+ * @param statusDiv
+ */
+function updateListItemText(url, text, statusDiv) {
     // Start the loader
     statusDiv.html('<span class="fa fa-spin fa-spinner"></span> Loading');
 
