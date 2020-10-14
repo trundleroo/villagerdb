@@ -95,7 +95,7 @@ async function loadList(username, listId, loggedInUser) {
     for (const entity of list.entities) {
         if (entity.type === 'villager') {
             if (redisVillagers[entity.id]) {
-                entities.push(organizeData(list.id, redisVillagers[entity.id], 'villager'));
+                entities.push(organizeData(list.id, redisVillagers[entity.id], 'villager', undefined, entity.text));
             }
         } else {
             if (redisItems[entity.id]) {
