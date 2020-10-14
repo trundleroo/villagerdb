@@ -82,8 +82,7 @@
                             <input type="text" class="form-control list-item-updater-text" placeholder="Enter something (LF, FT, need 100, etc.)"
                                    {{#if text}}value="{{text}}"{{/if}} maxlength="255">
                         </div>
-                        <button type="submit" class="btn btn-primary" style="display: none;">Update</button>
-                        <div class="mt-2 list-item-updater-status" style="display: none;"></div>
+                        <button type="submit" class="btn btn-primary sr-only">Update</button>
                     </form>
                 {{else}}
                     {{#if text}}<p class="mt-2 mb-2">{{text}}</p>{{/if}}

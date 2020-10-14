@@ -101,10 +101,9 @@ function listeItemUpdateHandler(e) {
     }
 
     const url = $(e.currentTarget).data('update-url');
-    const text = $(e.currentTarget).find('input.list-item-updater-text').val();
-    const statusDiv = $(e.currentTarget).find('div.list-item-updater-status');
-
-    updateListItemText(url, text, statusDiv);
+    const textField = $(e.currentTarget).find('input.list-item-updater-text');
+    const text = textField.val();
+    updateListItemText(url, text, textField);
 }
 
 /**
@@ -125,13 +124,10 @@ function submitListItemForm(e) {
  *
  * @param url
  * @param text
- * @param statusDiv
+ * @param textField
  */
-function updateListItemText(url, text, statusDiv) {
-    // Start the loader
-    statusDiv.show();
-    statusDiv.html('<span class="fa fa-spin fa-spinner"></span> Loading');
-
+function updateListItemText(url, text, textField) {
+    textField.prop('style', 'color: black;')
     $.ajax({
         url: url,
         type: 'POST',
@@ -141,11 +137,10 @@ function updateListItemText(url, text, statusDiv) {
         },
         success: () => {
             // Display success to user
-            statusDiv.html('<span style="color: green;"><span class="fa fa-check"></span> Saved!</span>')
+            textField.prop('style', 'color: green;')
         },
         error: () => {
-            // Display error to user
-            statusDiv.html('<span style="color: red;"><span class="fa fa-times"></span> Something went wrong. Please try again.</span>');
+            textField.prop('style', 'color: red;');
         }
     });
 }
