@@ -30,6 +30,7 @@ $(document).ready(() => {
     $('a.delete-object-button').on('click', _.debounce(deleteHandler, 100, true));
 
     // Update list item text
+    $('button.add-list-text-button').on('click', showHideListTextBoxes);
     $('form.list-item-updater').on('submit', listeItemUpdateHandler);
     $('input.list-item-updater-text').on('input', _.debounce(submitListItemForm, 1000));
 });
@@ -72,6 +73,22 @@ function deleteHandler(e) {
     }
 }
 
+function showHideListTextBoxes(e) {
+    if (!e.currentTarget) {
+        return;
+    }
+
+    const showing = $(e.currentTarget).data('showing');
+    if (!showing) {
+        $('form.list-item-updater').show();
+        $(e.currentTarget).data('showing', true);
+        $(e.currentTarget).html('<span class="fa fa-minus"></span> Hide Text');
+    } else {
+        $('form.list-item-updater').hide();
+        $(e.currentTarget).data('showing', false);
+        $(e.currentTarget).html('<span class="fa fa-plus"></span> Add Text');
+    }
+}
 /**
  * Handle update to list item text
  *

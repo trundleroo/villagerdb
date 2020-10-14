@@ -47,6 +47,11 @@
 {{else}}
     {{> user/list-search }}
     <p id="user-list-size" class="text-right" data-orig-text="{{countText}}">{{countText}}</p>
+    {{#if isOwnUser}}
+        <div class="text-right mb-4">
+            <button type="button" class="btn btn-secondary add-list-text-button"><span class="fa fa-plus"></span> Add Text</button>
+        </div>
+    {{/if}}
     <ul class="list-group user-list-view">
         {{#each entities}}
             <li class="list-group-item deletable-item" data-name="{{name}} {{variation}}">
@@ -72,7 +77,7 @@
                     {{/if}}
                 </div>
                 {{#if ../isOwnUser}}
-                    <form class="list-item-updater mt-2" data-update-url="{{updateUrl}}">
+                    <form class="list-item-updater mt-2" data-update-url="{{updateUrl}}" style="display: none;">
                         <div class="form-group mb-0">
                             <input type="text" class="form-control list-item-updater-text" placeholder="Enter something (LF, FT, need 100, etc.)"
                                    {{#if text}}value="{{text}}"{{/if}} maxlength="255">
