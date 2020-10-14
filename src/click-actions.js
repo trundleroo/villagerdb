@@ -31,8 +31,8 @@ $(document).ready(() => {
 
     // Update list item text
     $('button.add-list-text-button').on('click', showHideListTextBoxes);
-    $('form.list-item-updater').on('submit', listeItemUpdateHandler);
-    $('input.list-item-updater-text').on('input', _.debounce(submitListItemForm, 1000));
+    $('.user-list-view').on('submit', 'form.list-item-updater', listeItemUpdateHandler);
+    $('.user-list-view').on('input', 'input.list-item-updater-text', _.debounce(submitListItemForm, 1000));
 });
 
 /**
@@ -78,14 +78,12 @@ function showHideListTextBoxes(e) {
         return;
     }
 
-    const showing = $(e.currentTarget).data('showing');
-    if (!showing) {
-        $('form.list-item-updater').show();
-        $(e.currentTarget).data('showing', true);
+    const hidden = $('.user-list-view').hasClass('hide-text-inputs');
+    if (hidden) {
+        $('.user-list-view').removeClass('hide-text-inputs');
         $(e.currentTarget).html('<span class="fa fa-minus"></span> Hide Text');
     } else {
-        $('form.list-item-updater').hide();
-        $(e.currentTarget).data('showing', false);
+        $('.user-list-view').addClass('hide-text-inputs');
         $(e.currentTarget).html('<span class="fa fa-plus"></span> Add Text');
     }
 }
@@ -127,7 +125,7 @@ function submitListItemForm(e) {
  * @param textField
  */
 function updateListItemText(url, text, textField) {
-    textField.prop('style', 'color: black;')
+    textField.prop('style', 'border: 1px solid black; color: black;')
     $.ajax({
         url: url,
         type: 'POST',
@@ -137,10 +135,10 @@ function updateListItemText(url, text, textField) {
         },
         success: () => {
             // Display success to user
-            textField.prop('style', 'color: green;')
+            textField.prop('style', 'border: 1px solid green; color: green;')
         },
         error: () => {
-            textField.prop('style', 'color: red;');
+            textField.prop('style', 'border: 1px solid red; color: red;');
         }
     });
 }
