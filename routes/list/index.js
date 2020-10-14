@@ -88,6 +88,10 @@ const listValidation = [
                             return Promise.reject();
                         }
                     }
+                })
+                .catch((e) => {
+                    // TODO log
+                    return Promise.reject();
                 });
         })
 ];
@@ -176,7 +180,8 @@ function handleUserListsForEntity(req, res, next) {
         getUserListsForEntity(req.user.id, req.params.entityType, req.params.entityId, req.params.variationId)
             .then((data) => {
                 res.send(data);
-            }).catch(next);
+            })
+            .catch(next);
     } else {
         res.send([]); // send empty list since there are no lists for non-logged-in users.
     }
@@ -291,7 +296,7 @@ router.get('/create', (req, res, next) => {
 /**
  * Route for POSTing new list to the database.
  */
-router.post('/create', listValidation, (req, res) => {
+router.post('/create', listValidation, (req, res, next) => {
     // Only registered users here.
     if (!res.locals.userState.isRegistered) {
         res.redirect('/');
@@ -314,6 +319,7 @@ router.post('/create', listValidation, (req, res) => {
             .then(() => {
                 res.redirect('/user/' + req.user.username);
             })
+            .catch(next);
     }
 });
 
@@ -453,12 +459,13 @@ router.post('/update-entity/:listId/:type/:id/:variationId', (req, res, next) =>
 /**
  * Route for deleting a list.
  */
-router.post('/delete/:listId', (req, res) => {
+router.post('/delete/:listId', (req, res, next) => {
     if (res.locals.userState.isRegistered) {
         lists.deleteList(req.user.id, req.params.listId)
             .then(() => {
                 res.status(204).send();
-            });
+            })
+            .catch(next);
     } else {
         res.status(403).send();
     }
