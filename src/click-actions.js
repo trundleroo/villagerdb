@@ -29,8 +29,10 @@ $(document).ready(() => {
     // Delete object buttons - and try to prevent double clicks.
     $('a.delete-object-button').on('click', _.debounce(deleteHandler, 100, true));
 
-    // Update list text item button
-    $('form.list-item-updater').on('submit', listeItemUpdateHandler);
+    // Update list item text
+    $('button.add-list-text-button').on('click', showHideListTextBoxes);
+    $('.user-list-view').on('submit', 'form.list-item-updater', listeItemUpdateHandler);
+    $('.user-list-view').on('input', 'input.list-item-updater-text', _.debounce(submitListItemForm, 1000));
 });
 
 /**
@@ -71,6 +73,20 @@ function deleteHandler(e) {
     }
 }
 
+function showHideListTextBoxes(e) {
+    if (!e.currentTarget) {
+        return;
+    }
+
+    const hidden = $('.user-list-view').hasClass('hide-text-inputs');
+    if (hidden) {
+        $('.user-list-view').removeClass('hide-text-inputs');
+        $(e.currentTarget).html('<span class="fa fa-minus"></span> Hide Text');
+    } else {
+        $('.user-list-view').addClass('hide-text-inputs');
+        $(e.currentTarget).html('<span class="fa fa-plus"></span> Show Text');
+    }
+}
 /**
  * Handle update to list item text
  *
@@ -83,12 +99,33 @@ function listeItemUpdateHandler(e) {
     }
 
     const url = $(e.currentTarget).data('update-url');
-    const text = $(e.currentTarget).find('input.list-item-updater-text').val();
-    const statusDiv = $(e.currentTarget).find('span.list-item-updater-status');
+    const textField = $(e.currentTarget).find('input.list-item-updater-text');
+    const text = textField.val();
+    updateListItemText(url, text, textField);
+}
 
-    // Start the loader
-    statusDiv.html('<span class="fa fa-spin fa-spinner"></span> Loading');
+/**
+ * Trigger submit of the list item form
+ *
+ * @param e
+ */
+function submitListItemForm(e) {
+    if (!e.currentTarget) {
+        return;
+    }
 
+    $(e.currentTarget).closest('form.list-item-updater').submit();
+}
+
+/**
+ * Update list item text
+ *
+ * @param url
+ * @param text
+ * @param textField
+ */
+function updateListItemText(url, text, textField) {
+    textField.prop('style', 'border: 1px solid black; color: black;')
     $.ajax({
         url: url,
         type: 'POST',
@@ -98,11 +135,10 @@ function listeItemUpdateHandler(e) {
         },
         success: () => {
             // Display success to user
-            statusDiv.html('<span style="color: green;"><span class="fa fa-check"></span> Saved!</span>')
+            textField.prop('style', 'border: 1px solid green; color: green;')
         },
         error: () => {
-            // Display error to user
-            statusDiv.html('<span style="color: red;"><span class="fa fa-times"></span> Something went wrong. Please try again.</span>');
+            textField.prop('style', 'border: 1px solid red; color: red;');
         }
     });
 }
