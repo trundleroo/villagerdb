@@ -84,7 +84,7 @@ function showHideListTextBoxes(e) {
         $(e.currentTarget).html('<span class="fa fa-minus"></span> Hide Text');
     } else {
         $('.user-list-view').addClass('hide-text-inputs');
-        $(e.currentTarget).html('<span class="fa fa-plus"></span> Add Text');
+        $(e.currentTarget).html('<span class="fa fa-plus"></span> Show Text');
     }
 }
 /**
