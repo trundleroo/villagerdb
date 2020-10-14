@@ -112,6 +112,7 @@ function submitListItemForm(e) {
  */
 function updateListItemText(url, text, statusDiv) {
     // Start the loader
+    statusDiv.show();
     statusDiv.html('<span class="fa fa-spin fa-spinner"></span> Loading');
 
     $.ajax({
