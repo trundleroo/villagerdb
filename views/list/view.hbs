@@ -77,7 +77,7 @@
                     {{/if}}
                 </div>
                 {{#if ../isOwnUser}}
-                    <form class="list-item-updater mt-2" data-update-url="{{updateUrl}}">
+                    <form class="list-item-updater mt-2" data-update-url="{{updateUrl}}" autocomplete="off">
                         <div class="form-group mb-0">
                             <input type="text" class="form-control list-item-updater-text" placeholder="Enter something (LF, FT, need 100, etc.)"
                                    {{#if text}}value="{{text}}"{{/if}} maxlength="255">
