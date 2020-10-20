@@ -31,7 +31,7 @@ class Lists {
             entities: []
         };
 
-        await villagerDb.collection('users')
+        return villagerDb.collection('users')
             .updateOne({
                     _id: id
                 },
@@ -40,11 +40,6 @@ class Lists {
                         lists: newList
                     }
                 });
-
-        return villagerDb.collection('users')
-            .findOne({
-                name: listName
-            });
     }
 
     /**
