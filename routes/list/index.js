@@ -102,8 +102,8 @@ const listValidation = [
  * @param listId
  * @returns {Promise<[]>}
  */
-async function getUserListsForEntity(listId, entityType, entityId, variationId) {
-    const userLists = await lists.getListsByUser(listId);
+async function getUserListsForEntity(username, entityType, entityId, variationId) {
+    const userLists = await lists.getListsByUser(username);
 
     if (userLists) {
         userLists.sort(format.listSortComparator); // put in alphabetical order
@@ -114,6 +114,7 @@ async function getUserListsForEntity(listId, entityType, entityId, variationId) 
                 // We want to catch null versus undefined on variationId... so loosely equal on variationId...
                 if (item.id === entityId && item.type === entityType && item.variationId == variationId) {
                     hasEntity = true;
+                    break; // no need to keep computing
                 }
             }
 
@@ -148,7 +149,7 @@ async function listImport(req, listName, listId) {
     const requestUrl = 'https://nook.lol/' + listId + '/raw?locale=en-us';
     const urlResponse = await https.get(requestUrl);
 
-    // Split up the reply and
+    // Split up the reply
     const rawEntityList = urlResponse.data.trim().split('\n');
     const importEntityList = [];
     rawEntityList.forEach((entity, index) => {
@@ -159,10 +160,10 @@ async function listImport(req, listName, listId) {
     const redisItems = await items.getByIds(importEntityList);
 
     // Create the new list now with the name the user requested (already validated)
-    await lists.createList(req.user.id, format.getSlug(listName), listName);
+    await lists.createList(req.user.username, format.getSlug(listName), listName);
 
     // Import the items into the list.
-    await lists.importItemsToList(req.user.id, format.getSlug(listName), redisItems);
+    await lists.importItemsToList(req.user.username, format.getSlug(listName), redisItems);
 
     // Redirect to the newly created list.
     return '/user/' + req.user.username + '/list/' + format.getSlug(listName);
@@ -177,7 +178,7 @@ async function listImport(req, listName, listId) {
  */
 function handleUserListsForEntity(req, res, next) {
     if (res.locals.userState.isRegistered && typeof req.params.entityId === 'string') {
-        getUserListsForEntity(req.user.id, req.params.entityType, req.params.entityId, req.params.variationId)
+        getUserListsForEntity(req.user.username, req.params.entityType, req.params.entityId, req.params.variationId)
             .then((data) => {
                 res.send(data);
             })
@@ -196,9 +197,9 @@ function handleUserListsForEntity(req, res, next) {
  */
 function handleDeleteEntity(req, res, next) {
     if (res.locals.userState.isRegistered) {
-        lists.removeEntityFromList(req.user.id,  req.params.listId, req.params.id, req.params.type,
+        lists.removeEntityFromList(req.user.username,  req.params.listId, req.params.id, req.params.type,
             req.params.variationId)
-            .then((dbResponse) => {
+            .then(() => {
                 res.status(204).send(); // success reply but empty
             })
             .catch(next);
@@ -222,9 +223,9 @@ function handleUpdateText(req, res, next) {
         }
 
         const text = req.body['text'].trim();
-        lists.setEntityText(req.user.id,  req.params.listId, req.params.id, req.params.type,
+        lists.setEntityText(req.user.username,  req.params.listId, req.params.id, req.params.type,
             req.params.variationId, text)
-            .then((dbResponse) => {
+            .then(() => {
                 res.status(204).send(); // success reply but empty
             })
             .catch(next);
@@ -315,7 +316,7 @@ router.post('/create', listValidation, (req, res, next) => {
         };
         res.redirect('/list/create');
     } else {
-        lists.createList(req.user.id, format.getSlug(listName), listName, categoryName)
+        lists.createList(req.user.username, format.getSlug(listName), listName, categoryName)
             .then(() => {
                 res.redirect('/user/' + req.user.username);
             })
@@ -354,7 +355,7 @@ router.post('/edit/:listId', listValidation, (req, res, next) => {
         };
         res.redirect('/list/edit/' + listId);
     } else {
-        lists.updateList(req.user.id, listId, newListId, newListName, newCategoryName)
+        lists.updateList(req.user.username, listId, newListId, newListName, newCategoryName)
             .then(() => {
                 res.redirect('/user/' + req.user.username + '/list/' + format.getSlug(newListName));
             })
@@ -461,7 +462,7 @@ router.post('/update-entity/:listId/:type/:id/:variationId', (req, res, next) =>
  */
 router.post('/delete/:listId', (req, res, next) => {
     if (res.locals.userState.isRegistered) {
-        lists.deleteList(req.user.id, req.params.listId)
+        lists.deleteList(req.user.username, req.params.listId)
             .then(() => {
                 res.status(204).send();
             })
@@ -493,14 +494,14 @@ router.post('/entity-to-list', function (req, res, next) {
 
     if (res.locals.userState.isRegistered) {
         if (add === 'true') { // i hate form data
-            lists.addEntityToList(req.user.id, listId, entityId, type, variationId)
-                .then((dbResponse) => {
+            lists.addEntityToList(req.user.username, listId, entityId, type, variationId)
+                .then(() => {
                     res.status(200).send({success: true});
                 })
                 .catch(next);
         } else {
-            lists.removeEntityFromList(req.user.id, listId, entityId, type, variationId)
-                .then((dbResponse) => {
+            lists.removeEntityFromList(req.user.username, listId, entityId, type, variationId)
+                .then(() => {
                     res.status(200).send({success: true});
                 })
                 .catch(next);
