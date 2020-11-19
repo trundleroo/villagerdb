@@ -6,6 +6,16 @@
       "sellPrice": {
         "currency": "bells",
         "value": 10
+      },
+      "variations": {
+        "natural-wood": "Natural Wood",
+        "dark-wood": "Dark Wood",
+        "pastel": "Pastel",
+        "white": "White",
+        "pop": "Pop",
+        "colorful": "Colorful",
+        "silver": "Silver",
+        "gold": "Gold"
       }
     }
   },

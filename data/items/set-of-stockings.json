@@ -6,6 +6,14 @@
       "sellPrice": {
         "currency": "bells",
         "value": 500
+      },
+      "variations": {
+        "colorful": "Colorful",
+        "cute": "Cute",
+        "cool": "Cool",
+        "chic": "Chic",
+        "elegant": "Elegant",
+        "natural": "Natural"
       }
     }
   },

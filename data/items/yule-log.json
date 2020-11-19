@@ -33,6 +33,13 @@
       "sellPrice": {
         "currency": "bells",
         "value": 300
+      },
+      "variations": {
+        "chocolate": "Chocolate",
+        "chestnut": "Chestnut",
+        "whipped-cream-topping": "Whipped Cream Topping",
+        "strawberry": "Strawberry",
+        "green-tea": "Green Tea"
       }
     }
   }

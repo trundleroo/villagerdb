@@ -6,6 +6,10 @@
       "sellPrice": {
         "currency": "bells",
         "value": 200
+      },
+      "variations": {
+        "fall-harvest": "Fall Harvest",
+        "spring-blooming": "Spring Blooming"
       }
     }
   },
