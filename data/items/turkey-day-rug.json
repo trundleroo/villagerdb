@@ -1,0 +1,13 @@
+{
+  "id": "turkey-day-rug",
+  "name": "Turkey Day Rug",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 500
+      }
+    }
+  },
+  "category": "Flooring"
+}

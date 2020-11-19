@@ -1,0 +1,13 @@
+{
+  "id": "dinosaur-toy",
+  "name": "Dinosaur Toy",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 600
+      }
+    }
+  },
+  "category": "Furniture"
+}

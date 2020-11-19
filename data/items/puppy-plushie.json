@@ -1,0 +1,13 @@
+{
+  "id": "puppy-plushie",
+  "name": "Puppy Plushie",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 600
+      }
+    }
+  },
+  "category": "Furniture"
+}

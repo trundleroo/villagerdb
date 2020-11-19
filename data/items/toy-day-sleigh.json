@@ -1,0 +1,13 @@
+{
+  "id": "toy-day-sleigh",
+  "name": "Toy Day Sleigh",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 20000
+      }
+    }
+  },
+  "category": "Furniture"
+}

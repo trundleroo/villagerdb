@@ -1,0 +1,13 @@
+{
+  "id": "tin-robot",
+  "name": "Tin Robot",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 875
+      }
+    }
+  },
+  "category": "Furniture"
+}

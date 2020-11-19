@@ -1,0 +1,13 @@
+{
+  "id": "turkey-day-garden-stand",
+  "name": "Turkey Day Garden Stand",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 900
+      }
+    }
+  },
+  "category": "Furniture"
+}

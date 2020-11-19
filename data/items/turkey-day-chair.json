@@ -1,0 +1,13 @@
+{
+  "id": "turkey-day-chair",
+  "name": "Turkey Day Chair",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 550
+      }
+    }
+  },
+  "category": "Furniture"
+}

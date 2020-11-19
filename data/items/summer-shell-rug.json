@@ -1,0 +1,13 @@
+{
+  "id": "summer-shell-rug",
+  "name": "Summer-shell Rug",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 7200
+      }
+    }
+  },
+  "category": "Flooring"
+}

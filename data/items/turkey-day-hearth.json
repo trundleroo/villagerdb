@@ -1,0 +1,13 @@
+{
+  "id": "turkey-day-hearth",
+  "name": "Turkey Day Hearth",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3250
+      }
+    }
+  },
+  "category": "Furniture"
+}

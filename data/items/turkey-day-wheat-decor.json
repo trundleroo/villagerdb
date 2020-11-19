@@ -1,0 +1,13 @@
+{
+  "id": "turkey-day-wheat-decor",
+  "name": "Turkey Day Wheat Decor",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      }
+    }
+  },
+  "category": "Furniture"
+}

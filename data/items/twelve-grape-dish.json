@@ -1,0 +1,13 @@
+{
+  "id": "twelve-grape-dish",
+  "name": "Twelve-grape Dish",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      }
+    }
+  },
+  "category": "Furniture"
+}

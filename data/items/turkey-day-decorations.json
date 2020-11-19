@@ -1,0 +1,13 @@
+{
+  "id": "turkey-day-decorations",
+  "name": "Turkey Day Decorations",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 500
+      }
+    }
+  },
+  "category": "Furniture"
+}

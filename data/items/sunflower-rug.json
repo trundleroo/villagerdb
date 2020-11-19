@@ -1,0 +1,13 @@
+{
+  "id": "sunflower-rug",
+  "name": "Sunflower Rug",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 375
+      }
+    }
+  },
+  "category": "Flooring"
+}

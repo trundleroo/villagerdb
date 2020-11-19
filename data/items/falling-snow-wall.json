@@ -1,0 +1,13 @@
+{
+  "id": "falling-snow-wall",
+  "name": "Falling-snow Wall",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2700
+      }
+    }
+  },
+  "category": "Wallpaper"
+}

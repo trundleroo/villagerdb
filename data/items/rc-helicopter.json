@@ -1,0 +1,13 @@
+{
+  "id": "rc-helicopter",
+  "name": "RC Helicopter",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 900
+      }
+    }
+  },
+  "category": "Furniture"
+}

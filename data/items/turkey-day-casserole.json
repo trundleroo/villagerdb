@@ -1,0 +1,13 @@
+{
+  "id": "turkey-day-casserole",
+  "name": "Turkey Day Casserole",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1750
+      }
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "turkey-day-wall",
+  "name": "Turkey Day Wall",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 750
+      }
+    }
+  },
+  "category": "Wallpaper"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "olivier-salad",
+  "name": "Olivier Salad",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 250
+      }
+    }
+  },
+  "category": "Furniture"
+}

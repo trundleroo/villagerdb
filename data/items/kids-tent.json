@@ -1,0 +1,13 @@
+{
+  "id": "kids-tent",
+  "name": "Kids' Tent",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1125
+      }
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "festive-wrapping-paper",
+  "name": "Festive Wrapping Paper",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      }
+    }
+  },
+  "category": "Usables"
+}

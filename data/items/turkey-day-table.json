@@ -1,0 +1,13 @@
+{
+  "id": "turkey-day-table",
+  "name": "Turkey Day Table",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1125
+      }
+    }
+  },
+  "category": "Furniture"
+}
