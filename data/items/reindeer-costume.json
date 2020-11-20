@@ -1,0 +1,13 @@
+{
+  "id": "reindeer-costume",
+  "name": "Reindeer Costume",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 425
+      }
+    }
+  },
+  "category": "Dresses"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "turkey-day-garden-stand",
+  "name": "Turkey Day Garden Stand",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 900
+      },
+      "recipe": {
+        "stone": 8,
+        "clay": 3
+      },
+      "variations": {
+        "fall-harvest": "Fall Harvest",
+        "spring-blooming": "Spring Blooming"
+      }
+    }
+  },
+  "category": "Furniture"
+}

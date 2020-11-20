@@ -1,0 +1,13 @@
+{
+  "id": "toy-day-stockings",
+  "name": "Toy Day Stockings",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 500
+      }
+    }
+  },
+  "category": "Furniture"
+}

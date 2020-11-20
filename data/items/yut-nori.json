@@ -1,0 +1,13 @@
+{
+  "id": "yut-nori",
+  "name": "Yut Nori",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 325
+      }
+    }
+  },
+  "category": "Furniture"
+}

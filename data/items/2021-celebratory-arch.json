@@ -1,0 +1,13 @@
+{
+  "id": "2021-celebratory-arch",
+  "name": "2021 Celebratory Arch",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 505
+      }
+    }
+  },
+  "category": "Furniture"
+}

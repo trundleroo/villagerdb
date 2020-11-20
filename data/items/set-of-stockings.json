@@ -1,0 +1,21 @@
+{
+  "id": "set-of-stockings",
+  "name": "Set Of Stockings",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 500
+      },
+      "variations": {
+        "colorful": "Colorful",
+        "cute": "Cute",
+        "cool": "Cool",
+        "chic": "Chic",
+        "elegant": "Elegant",
+        "natural": "Natural"
+      }
+    }
+  },
+  "category": "Furniture"
+}

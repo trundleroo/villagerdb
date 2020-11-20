@@ -1,0 +1,23 @@
+{
+  "id": "tin-robot",
+  "name": "Tin Robot",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 875
+      },
+      "variations": {
+        "silver": "Silver",
+        "blue": "Blue",
+        "red": "Red",
+        "orange": "Orange",
+        "yellow": "Yellow",
+        "green": "Green",
+        "pink": "Pink",
+        "black": "Black"
+      }
+    }
+  },
+  "category": "Furniture"
+}

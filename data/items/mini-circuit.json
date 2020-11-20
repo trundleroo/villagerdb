@@ -21,6 +21,18 @@
           "value": 1600
         }
       ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 950
+      },
+      "variations": {
+        "red-white": "Red & White",
+        "blue-yellow": "Blue & Yellow",
+        "black-silver": "Black & Silver",
+        "pink-purple": "Pink & Purple"
+      }
     }
   }
 }
