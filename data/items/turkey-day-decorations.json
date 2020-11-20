@@ -7,6 +7,11 @@
         "currency": "bells",
         "value": 500
       },
+      "recipe": {
+        "softwood": 2,
+        "clump-of-weeds": 5,
+        "clay": 2
+      },
       "variations": {
         "fall-harvest": "Fall Harvest",
         "spring-blooming": "Spring Blooming"

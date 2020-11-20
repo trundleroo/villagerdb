@@ -7,6 +7,11 @@
         "currency": "bells",
         "value": 3250
       },
+      "recipe": {
+        "campfire": 1,
+        "stone": 30,
+        "clay": 10
+      },
       "variations": {
         "fall-harvest": "Fall Harvest",
         "spring-blooming": "Spring Blooming"

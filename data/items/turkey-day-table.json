@@ -7,6 +7,10 @@
         "currency": "bells",
         "value": 1125
       },
+      "recipe": {
+        "hardwood": 10,
+        "softwood": 5
+      },
       "variations": {
         "fall-harvest": "Fall Harvest",
         "spring-blooming": "Spring Blooming"

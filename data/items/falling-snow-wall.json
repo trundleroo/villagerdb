@@ -6,6 +6,10 @@
       "sellPrice": {
         "currency": "bells",
         "value": 2700
+      },
+      "recipe": {
+        "snowflake": 3,
+        "stone": 10
       }
     }
   },

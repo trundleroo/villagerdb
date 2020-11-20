@@ -7,6 +7,9 @@
         "currency": "bells",
         "value": 200
       },
+      "recipe": {
+        "clump-of-weeds": 10
+      },
       "variations": {
         "fall-harvest": "Fall Harvest",
         "spring-blooming": "Spring Blooming"

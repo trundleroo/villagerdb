@@ -7,6 +7,10 @@
         "currency": "bells",
         "value": 1750
       },
+      "recipe": {
+        "iron-nugget": 5,
+        "clay": 1
+      },
       "variations": {
         "fall-harvest": "Fall Harvest",
         "spring-blooming": "Spring Blooming"

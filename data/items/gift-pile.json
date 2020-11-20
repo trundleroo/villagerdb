@@ -25,6 +25,11 @@
         "currency": "bells",
         "value": 660
       },
+      "recipe": {
+        "red-wrapping-paper": 3,
+        "wooden-block-toy": 1,
+        "cardboard-box": 1
+      },
       "variations": {
         "red-green": "Red & Green",
         "colorful": "Colorful",

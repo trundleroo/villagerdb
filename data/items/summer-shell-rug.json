@@ -6,6 +6,9 @@
       "sellPrice": {
         "currency": "bells",
         "value": 7200
+      },
+      "recipe": {
+        "summer-shell": 6
       }
     }
   },
