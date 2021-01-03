@@ -1,0 +1,22 @@
+{
+  "id": "turkey-day-chair",
+  "name": "Turkey Day Chair",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 550
+      },
+      "recipe": {
+        "wood": 5,
+        "hardwood": 2,
+        "softwood": 2
+      },
+      "variations": {
+        "fall-harvest": "Fall Harvest",
+        "spring-blooming": "Spring Blooming"
+      }
+    }
+  },
+  "category": "Furniture"
+}

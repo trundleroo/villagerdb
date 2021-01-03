@@ -1,0 +1,20 @@
+{
+  "id": "turkey-day-wheat-decor",
+  "name": "Turkey Day Wheat Decor",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      },
+      "recipe": {
+        "clump-of-weeds": 10
+      },
+      "variations": {
+        "fall-harvest": "Fall Harvest",
+        "spring-blooming": "Spring Blooming"
+      }
+    }
+  },
+  "category": "Furniture"
+}

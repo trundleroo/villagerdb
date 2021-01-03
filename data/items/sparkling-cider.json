@@ -1,13 +1,19 @@
 {
   "id": "sparkling-cider",
   "name": "Sparkling Cider",
-  "category": "Usables",
+  "category": "Tools",
   "games": {
     "nl": {
       "orderable": false,
       "sources": [
         "Countdown (Isabelle)"
       ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 250
+      }
     }
   }
 }

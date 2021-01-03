@@ -1,0 +1,22 @@
+{
+  "id": "turkey-day-decorations",
+  "name": "Turkey Day Decorations",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 500
+      },
+      "recipe": {
+        "softwood": 2,
+        "clump-of-weeds": 5,
+        "clay": 2
+      },
+      "variations": {
+        "fall-harvest": "Fall Harvest",
+        "spring-blooming": "Spring Blooming"
+      }
+    }
+  },
+  "category": "Furniture"
+}

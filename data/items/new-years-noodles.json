@@ -16,6 +16,12 @@
         "Countdown (JP",
         "Isabelle)"
       ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 325
+      }
     }
   }
 }

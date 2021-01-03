@@ -1,0 +1,18 @@
+{
+  "id": "festive-rug",
+  "name": "Festive Rug",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1500
+      },
+      "recipe": {
+        "red-ornament": 5,
+        "blue-ornament": 5,
+        "gold-ornament": 5
+      }
+    }
+  },
+  "category": "Flooring"
+}

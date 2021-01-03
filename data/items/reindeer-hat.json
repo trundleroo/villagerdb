@@ -1,0 +1,13 @@
+{
+  "id": "reindeer-hat",
+  "name": "Reindeer Hat",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 280
+      }
+    }
+  },
+  "category": "Hats"
+}

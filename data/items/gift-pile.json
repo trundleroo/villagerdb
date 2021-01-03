@@ -19,6 +19,26 @@
           "value": 3
         }
       ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 660
+      },
+      "recipe": {
+        "red-wrapping-paper": 3,
+        "wooden-block-toy": 1,
+        "cardboard-box": 1
+      },
+      "variations": {
+        "red-green": "Red & Green",
+        "colorful": "Colorful",
+        "cute": "Cute",
+        "cool": "Cool",
+        "chic": "Chic",
+        "elegant": "Elegant",
+        "natural": "Natural"
+      }
     }
   }
 }

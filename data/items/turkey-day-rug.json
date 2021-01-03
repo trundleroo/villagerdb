@@ -1,0 +1,17 @@
+{
+  "id": "turkey-day-rug",
+  "name": "Turkey Day Rug",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 500
+      },
+      "variations": {
+        "fall-harvest": "Fall Harvest",
+        "spring-blooming": "Spring Blooming"
+      }
+    }
+  },
+  "category": "Flooring"
+}

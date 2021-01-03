@@ -1,0 +1,17 @@
+{
+  "id": "turkey-day-wall",
+  "name": "Turkey Day Wall",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 750
+      },
+      "variations": {
+        "fall-harvest": "Fall Harvest",
+        "spring-blooming": "Spring Blooming"
+      }
+    }
+  },
+  "category": "Wallpaper"
+}

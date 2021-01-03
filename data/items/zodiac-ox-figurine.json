@@ -1,0 +1,13 @@
+{
+  "id": "zodiac-ox-figurine",
+  "name": "Zodiac Ox Figurine",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 400
+      }
+    }
+  },
+  "category": "Furniture"
+}

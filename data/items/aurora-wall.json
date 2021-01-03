@@ -1,0 +1,13 @@
+{
+  "id": "aurora-wall",
+  "name": "Aurora Wall",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1750
+      }
+    }
+  },
+  "category": "Wallpaper"
+}

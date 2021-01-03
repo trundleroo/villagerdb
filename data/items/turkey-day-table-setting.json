@@ -1,0 +1,21 @@
+{
+  "id": "turkey-day-table-setting",
+  "name": "Turkey Day Table Setting",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1000
+      },
+      "recipe": {
+        "clay": 4,
+        "iron-nugget": 2
+      },
+      "variations": {
+        "fall-harvest": "Fall Harvest",
+        "spring-blooming": "Spring Blooming"
+      }
+    }
+  },
+  "category": "Furniture"
+}

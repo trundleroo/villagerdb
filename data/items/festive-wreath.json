@@ -15,6 +15,12 @@
       "sources": [
         "Jingle (Toy Day)"
       ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 375
+      }
     }
   }
 }
