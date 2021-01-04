@@ -72,6 +72,7 @@ function cleanQueries(userQueries) {
 function frontend(req, res, next, pageUrlPrefix, ajaxUrlPrefix, pageTitle, pageDescription, fixedQueries) {
     const pageNumberInt = sanitize.parsePositiveInteger(req.params ? req.params.pageNumber : undefined);
 
+    // Information on every page.
     const data = {};
     data.pageTitle = pageTitle;
     data.pageDescription = pageDescription;
@@ -80,7 +81,12 @@ function frontend(req, res, next, pageUrlPrefix, ajaxUrlPrefix, pageTitle, pageD
     data.ajaxUrlPrefix = ajaxUrlPrefix;
     data.allFilters = JSON.stringify(config.filters);
     data.appliedFilters = JSON.stringify(browser.getAppliedFilters(cleanQueries(req.query), fixedQueries));
-    data.currentPage = sanitize.parsePositiveInteger(req.params ? req.params.pageNumber : undefined);;
+    data.currentPage = sanitize.parsePositiveInteger(req.params ? req.params.pageNumber : undefined);
+
+    // Don't forget to populate the search query, if present.
+    data.searchQuery = sanitize.cleanQuery(req.query.q);
+
+    // Ready to go!
     res.render('browser', data);
 }
 module.exports.frontend = frontend;
